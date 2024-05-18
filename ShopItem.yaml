@@ -1,0 +1,436 @@
+- assetId: "0001"
+  id: shop_jewel_item-0001
+  name: ジュエル80個
+  order: 100
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0001
+- assetId: "0002"
+  id: shop_jewel_item-0002
+  name: ジュエル360個
+  order: 101
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0002
+- assetId: "0003"
+  id: shop_jewel_item-0003
+  name: ジュエル600個
+  order: 102
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0003
+- assetId: "0004"
+  id: shop_jewel_item-0004
+  name: ジュエル1,200個
+  order: 103
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0004
+- assetId: "0005"
+  id: shop_jewel_item-0005
+  name: ジュエル2,500個
+  order: 104
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0005
+- assetId: "0006"
+  id: shop_jewel_item-0006
+  name: ジュエル4,000個
+  order: 105
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0006
+- assetId: "0007"
+  id: shop_jewel_item-0007
+  name: ジュエル8,200個
+  order: 106
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0007
+- assetId: "0008"
+  endTime: "1719539999000"
+  id: shop_jewel_item-0008
+  labelTypes:
+    - ShopItemLabelType_Sale
+  name: 【1回きりお得！】ジュエル12,300個（6/28まで）
+  order: 2
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0008
+  startTime: "1715824800000"
+  unlockConditionSetId: cd-view-shop_jewel_item-0008-0009
+- assetId: "0009"
+  endTime: "1719539999000"
+  id: shop_jewel_item-0009
+  labelTypes:
+    - ShopItemLabelType_Sale
+  name: 【1回きりお得！】ジュエル450個（6/28まで）
+  order: 1
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  shopId: shop_jewel
+  shopProductId: coin_0009
+  startTime: "1715824800000"
+  unlockConditionSetId: cd-view-shop_jewel_item-0008-0009
+- assetId: "0001"
+  id: shop_pack_item-0001
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【24時間限定】入学記念パック
+  order: 200
+  paidOnlyJewelQuantity: 1500
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 20
+      resourceId: item-staminaregen-1
+      resourceType: ResourceType_Item
+    - quantity: 1
+      resourceId: item-gashaticket-10
+      resourceType: ResourceType_Item
+    - quantity: 30000
+      resourceId: item-support_card_enhance_point
+      resourceType: ResourceType_Item
+    - quantity: 1
+      resourceId: normal-002
+      resourceType: ResourceType_MeishiBaseAsset
+  shopId: shop_pack
+  unlockConditionSetId: cd-task_clear-01-001-24-hour
+- assetId: "0002"
+  id: shop_pack_item-0002
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【14日間限定】新人プロデューサー応援パック
+  order: 1200
+  paidOnlyJewelQuantity: 450
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 5
+      resourceId: item-staminaregen-1
+      resourceType: ResourceType_Item
+    - quantity: 1
+      resourceId: s_card-2-0014
+      resourceType: ResourceType_SupportCard
+    - quantity: 30000
+      resourceId: item-money
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-shop_pack_item-0002-tutorial_clear_336h
+- assetId: "0003"
+  id: shop_pack_item-0003
+  name: 毎週支給！初星パック
+  order: 100
+  purchaseLimit: 1
+  resetHour: 5
+  resetTimingType: ResetTimingType_Weekly
+  resetWeekday: Weekday_Monday
+  rewards:
+    - quantity: 1000
+      resourceId: item-support_card_enhance_point
+      resourceType: ResourceType_Item
+    - quantity: 20
+      resourceId: item-limitovermaterial-1
+      resourceType: ResourceType_Item
+    - quantity: 10
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+- assetId: "0004"
+  id: shop_pack_item-0004
+  name: 毎週更新！育成パック
+  order: 1300
+  purchaseLimit: 1
+  resetHour: 5
+  resetTimingType: ResetTimingType_Weekly
+  resetWeekday: Weekday_Monday
+  rewards:
+    - quantity: 5
+      resourceId: item-staminaregen-1
+      resourceType: ResourceType_Item
+    - quantity: 10000
+      resourceId: item-support_card_enhance_point
+      resourceType: ResourceType_Item
+    - quantity: 300
+      resourceId: item-limitovermaterial-1
+      resourceType: ResourceType_Item
+    - quantity: 150
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  totalJewelQuantity: 600
+- assetId: "0005"
+  id: shop_pack_item-0005
+  name: 毎月更新！育成パック
+  order: 1400
+  purchaseLimit: 1
+  resetDay: 1
+  resetHour: 5
+  resetTimingType: ResetTimingType_Monthly
+  rewards:
+    - quantity: 10
+      resourceId: item-staminaregen-1
+      resourceType: ResourceType_Item
+    - quantity: 30000
+      resourceId: item-support_card_enhance_point
+      resourceType: ResourceType_Item
+    - quantity: 500
+      resourceId: item-limitovermaterial-1
+      resourceType: ResourceType_Item
+    - quantity: 300
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-a-1
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-a-2
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-a-3
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-b-1
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-b-2
+      resourceType: ResourceType_Item
+    - quantity: 40
+      resourceId: item-limitovermaterial-2-b-3
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  totalJewelQuantity: 1200
+- assetId: "0006"
+  id: shop_pack_item-0006
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（咲季）
+  order: 300
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_hski-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-1
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-3
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0006-72-hour
+- assetId: "0007"
+  id: shop_pack_item-0007
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（手毬）
+  order: 400
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_ttmr-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-1
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0007-72-hour
+- assetId: "0008"
+  id: shop_pack_item-0008
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（ことね）
+  order: 500
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_fktn-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-3
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0008-72-hour
+- assetId: "0009"
+  id: shop_pack_item-0009
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（麻央）
+  order: 600
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_amao-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-1
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-3
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0009-72-hour
+- assetId: "0010"
+  id: shop_pack_item-0010
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（リーリヤ）
+  order: 700
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_kllj-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-1
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-3
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0010-72-hour
+- assetId: "0011"
+  id: shop_pack_item-0011
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（千奈）
+  order: 800
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_kcna-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-3
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0011-72-hour
+- assetId: "0012"
+  id: shop_pack_item-0012
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（清夏）
+  order: 900
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_ssmk-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-3
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0012-72-hour
+- assetId: "0013"
+  id: shop_pack_item-0013
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（広）
+  order: 1000
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_shro-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-1
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-b-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0013-72-hour
+- assetId: "0014"
+  id: shop_pack_item-0014
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: 【72時間限定】プロデュースアイドルピースパック（莉波）
+  order: 1100
+  paidOnlyJewelQuantity: 2000
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 50
+      resourceId: item-piece-idol_hrnm-3-000
+      resourceType: ResourceType_Item
+    - quantity: 800
+      resourceId: item-limitovermaterial-2
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-3
+      resourceType: ResourceType_Item
+    - quantity: 200
+      resourceId: item-limitovermaterial-2-a-2
+      resourceType: ResourceType_Item
+  shopId: shop_pack
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0014-72-hour
+- assetId: "0001"
+  endTime: "1717358399000"
+  id: shop_pass_item-0001
+  labelTypes:
+    - ShopItemLabelType_Recommend
+  name: プレミアムミッションパス 2024年5月
+  order: 1
+  purchaseLimit: 1
+  resetTimingType: ResetTimingType_Never
+  rewards:
+    - quantity: 1
+      resourceId: mission_pass-001
+      resourceType: ResourceType_MissionPassPremiumPass
+  shopId: shop_pass
+  shopProductId: pass_0002
+  startTime: "1711915200000"
+  unlockConditionSetId: cd-view-shop_pass_item-0001

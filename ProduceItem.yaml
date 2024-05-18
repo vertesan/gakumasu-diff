@@ -1,0 +1,2932 @@
+- assetId: img_general_pitem_0-004
+  descriptions:
+    - text: 8ターン目開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+15</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+15</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-visible-exam_block-000
+  id: pitem_00-0-004-0-000
+  isExamEffect: true
+  libraryHidden: true
+  name: 初星バッチ（赤）
+  order: "19000000040"
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-0-004-0-000-enc01
+  rarity: ProduceItemRarity_N
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-0-004-0-000-enc01
+- assetId: img_general_pitem_1-001
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+6</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+  evaluation: 50
+  id: pitem_00-1-001-0
+  isExamEffect: true
+  name: ばくおんライオン
+  order: "22100000010"
+  originIdolCardId: i_card-hski-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-001-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-001-0-enc01
+- assetId: img_general_pitem_1-001
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+11</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+  evaluation: 80
+  id: pitem_00-1-001-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ばくおんライオン+
+  order: "22100000011"
+  originIdolCardId: i_card-hski-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-001-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-001-1-enc01
+- assetId: img_general_pitem_1-002
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が3以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+4</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 50
+  id: pitem_00-1-002-0
+  isExamEffect: true
+  name: 必携ステンレスボトル
+  order: "22100000020"
+  originIdolCardId: i_card-ttmr-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-002-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-002-0-enc01
+- assetId: img_general_pitem_1-002
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が3以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+6</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 80
+  id: pitem_00-1-002-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 必携ステンレスボトル+
+  order: "22100000021"
+  originIdolCardId: i_card-ttmr-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-002-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-002-1-enc01
+- assetId: img_general_pitem_1-003
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が6以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 50
+  id: pitem_00-1-003-0
+  isExamEffect: true
+  name: ちびども手作りメダル
+  order: "22200000030"
+  originIdolCardId: i_card-fktn-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-003-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-003-0-enc01
+- assetId: img_general_pitem_1-003
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が6以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 80
+  id: pitem_00-1-003-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ちびども手作りメダル+
+  order: "22200000031"
+  originIdolCardId: i_card-fktn-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-1-003-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-1-003-0-enc01
+- assetId: img_general_pitem_1-004
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 50
+  id: pitem_00-1-004-0
+  isExamEffect: true
+  name: 紳士風ハンカチーフ
+  order: "22100000040"
+  originIdolCardId: i_card-amao-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-004-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-004-0-enc01
+- assetId: img_general_pitem_1-004
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 80
+  id: pitem_00-1-004-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 紳士風ハンカチーフ+
+  order: "22100000041"
+  originIdolCardId: i_card-amao-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-004-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-004-1-enc01
+- assetId: img_general_pitem_1-005
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用時体力が50%以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 50
+  id: pitem_00-1-005-0
+  isExamEffect: true
+  name: いつものメイクポーチ
+  order: "22100000050"
+  originIdolCardId: i_card-hrnm-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-005-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-005-0-enc01
+- assetId: img_general_pitem_1-005
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用時体力が50%以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 80
+  id: pitem_00-1-005-1
+  isExamEffect: true
+  isUpgraded: true
+  name: いつものメイクポーチ+
+  order: "22100000051"
+  originIdolCardId: i_card-hrnm-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-005-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-005-1-enc01
+- assetId: img_general_pitem_1-006
+  descriptions:
+    - text: ターン開始時最終ターンの場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>50%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 50
+  id: pitem_00-1-006-0
+  isExamEffect: true
+  name: 超絶あんみんマスク
+  order: "22200000060"
+  originIdolCardId: i_card-shro-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-1-006-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-1-006-0-enc01
+- assetId: img_general_pitem_1-006
+  descriptions:
+    - text: ターン開始時最終ターンの場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>70%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 80
+  id: pitem_00-1-006-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 超絶あんみんマスク+
+  order: "22200000061"
+  originIdolCardId: i_card-shro-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-1-006-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-1-006-1-enc01
+- assetId: img_general_pitem_1-007
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 50
+  id: pitem_00-1-007-0
+  isExamEffect: true
+  name: 緑のお揃いブレス
+  order: "22200000070"
+  originIdolCardId: i_card-kllj-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-007-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-007-0-enc01
+- assetId: img_general_pitem_1-007
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 80
+  id: pitem_00-1-007-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 緑のお揃いブレス+
+  order: "22200000071"
+  originIdolCardId: i_card-kllj-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-007-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-007-1-enc01
+- assetId: img_general_pitem_1-008
+  descriptions:
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 50
+  id: pitem_00-1-008-0
+  isExamEffect: true
+  name: ピンクのお揃いブレス
+  order: "22100000080"
+  originIdolCardId: i_card-ssmk-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-008-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-1-008-0-enc01
+- assetId: img_general_pitem_1-008
+  descriptions:
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 80
+  id: pitem_00-1-008-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ピンクのお揃いブレス+
+  order: "22100000081"
+  originIdolCardId: i_card-ssmk-1-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-1-008-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-1-008-0-enc01
+- assetId: img_general_pitem_1-009
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 50
+  id: pitem_00-1-009-0
+  isExamEffect: true
+  name: 願いを叶えるお守り
+  order: "22200000090"
+  originIdolCardId: i_card-kcna-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-009-0-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-009-0-enc01
+- assetId: img_general_pitem_1-009
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 80
+  id: pitem_00-1-009-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 願いを叶えるお守り+
+  order: "22200000091"
+  originIdolCardId: i_card-kcna-1-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-009-1-enc01
+  rarity: ProduceItemRarity_R
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-1-009-1-enc01
+- assetId: img_general_pitem_2-001
+  descriptions:
+    - text: ボーカルSPレッスン終了時ボーカルが400以上の場合、ランダムなスキルカードを
+      type: ProduceDescriptionType_PlainText
+    - targetId: Label_ProduceCardUpgrade
+      text: 強化
+      type: ProduceDescriptionType_ProduceDescription
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-produce_card_upgrade-000
+  evaluation: 45
+  id: pitem_00-2-001-0
+  name: 美鈴からの贈り物
+  order: "33000000010"
+  originSupportCardId: s_card-2-0001
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceTriggerId: p_trigger-end_lesson-lesson_vocal_sp-vocal-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+- assetId: img_general_pitem_2-002
+  descriptions:
+    - text: 追い込みレッスン終了時ボーカルが400以上の場合、ボーカル上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "26"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-vocal_addition-000
+  evaluation: 45
+  id: pitem_00-2-002-0
+  name: 打倒！墾田永年私財法
+  order: "33000000020"
+  originSupportCardId: s_card-2-0003
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-vocal_addition-0026_0026
+  produceTriggerId: p_trigger-end_lesson-lesson_hard-vocal-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-vocal_addition-0026_0026
+- assetId: img_general_pitem_2-003
+  descriptions:
+    - text: 追い込みレッスン終了時ビジュアルが400以上の場合、ビジュアル上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "26"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-visual_addition-000
+  evaluation: 45
+  id: pitem_00-2-003-0
+  name: 手作りのご褒美
+  order: "33000000030"
+  originSupportCardId: s_card-2-0005
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-visual_addition-0026_0026
+  produceTriggerId: p_trigger-end_lesson-lesson_hard-visual-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-visual_addition-0026_0026
+- assetId: img_general_pitem_2-004
+  descriptions:
+    - text: ダンスSPレッスン終了時、ランダムにPドリンクを2つ獲得
+      type: ProduceDescriptionType_PlainText
+  evaluation: 45
+  id: pitem_00-2-004-0
+  name: ふわふわでもこもこ
+  order: "33000000040"
+  originSupportCardId: s_card-2-0007
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-drink_set-all-random-02_02
+  produceTriggerId: p_trigger-end_lesson-lesson_dance_sp
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-drink_set-all-random-02_02
+- assetId: img_general_pitem_2-005
+  descriptions:
+    - text: 追い込みレッスン終了時ダンスが400以上の場合、ダンス上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "26"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-dance_addition-000
+  evaluation: 45
+  id: pitem_00-2-005-0
+  name: お姉さま大百科
+  order: "33000000050"
+  originSupportCardId: s_card-2-0008
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-dance_addition-0026_0026
+  produceTriggerId: p_trigger-end_lesson-lesson_hard-dance-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-dance_addition-0026_0026
+- assetId: img_general_pitem_2-006
+  descriptions:
+    - text: ダンスレッスン終了時体力が50%以上の場合、ダンス上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "13"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-dance_addition-000
+  evaluation: 45
+  id: pitem_00-2-006-0
+  name: 例のSSDの秘密
+  order: "33000000060"
+  originSupportCardId: s_card-2-0009
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-dance_addition-0013_0013
+  produceTriggerId: p_trigger-end_lesson-lesson_dance-stamina_ratio-0500_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-dance_addition-0013_0013
+- assetId: img_general_pitem_2-007
+  descriptions:
+    - text: ボーカルレッスン終了時体力が50%以上の場合、ボーカル上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "13"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-vocal_addition-000
+  evaluation: 45
+  id: pitem_00-2-007-0
+  name: 一緒にお昼寝ポプリ
+  order: "33000000070"
+  originSupportCardId: s_card-2-0010
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-vocal_addition-0013_0013
+  produceTriggerId: p_trigger-end_lesson-lesson_vocal-stamina_ratio-0500_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-vocal_addition-0013_0013
+- assetId: img_general_pitem_2-008
+  descriptions:
+    - text: ビジュアルレッスン終了時体力が50%以上の場合、ビジュアル上昇+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "13"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-visual_addition-000
+  evaluation: 45
+  id: pitem_00-2-008-0
+  name: 私が見つけた逸材メモ
+  order: "33000000080"
+  originSupportCardId: s_card-2-0011
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-visual_addition-0013_0013
+  produceTriggerId: p_trigger-end_lesson-lesson_visual-stamina_ratio-0500_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-visual_addition-0013_0013
+- assetId: img_general_pitem_2-009
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+9</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+  evaluation: 75
+  id: pitem_00-2-009-0
+  isExamEffect: true
+  name: 咲季の完全食レシピ
+  order: "32100000090"
+  originIdolCardId: i_card-hski-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-009-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-009-0-enc01
+- assetId: img_general_pitem_2-009
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+12</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+  evaluation: 100
+  id: pitem_00-2-009-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 咲季の完全食レシピ+
+  order: "32100000091"
+  originIdolCardId: i_card-hski-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-009-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-009-1-enc01
+- assetId: img_general_pitem_2-010
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が0の場合、体力減少<nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 75
+  id: pitem_00-2-010-0
+  isExamEffect: true
+  name: 私の「初」の楽譜
+  order: "32100000100"
+  originIdolCardId: i_card-ttmr-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-010-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-010-0-enc01
+- assetId: img_general_pitem_2-010
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が0の場合、体力減少<nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+4</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 100
+  id: pitem_00-2-010-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 私の「初」の楽譜+
+  order: "32100000101"
+  originIdolCardId: i_card-ttmr-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-010-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-010-1-enc01
+- assetId: img_general_pitem_2-011
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+4</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 75
+  id: pitem_00-2-011-0
+  isExamEffect: true
+  name: お気にのスニーカー
+  order: "32200000110"
+  originIdolCardId: i_card-fktn-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-011-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-011-0-enc01
+- assetId: img_general_pitem_2-011
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 100
+  id: pitem_00-2-011-1
+  isExamEffect: true
+  isUpgraded: true
+  name: お気にのスニーカー+
+  order: "32200000111"
+  originIdolCardId: i_card-fktn-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-011-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-011-1-enc01
+- assetId: img_general_pitem_2-012
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の効果ターンが増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>3ターン</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_parameter_buff-000
+  evaluation: 75
+  id: pitem_00-2-012-0
+  isExamEffect: true
+  name: Dearリトルプリンス
+  order: "32100000120"
+  originIdolCardId: i_card-amao-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-012-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-012-0-enc01
+- assetId: img_general_pitem_2-012
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の効果ターンが増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>4ターン</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_parameter_buff-000
+  evaluation: 100
+  id: pitem_00-2-012-1
+  isExamEffect: true
+  isUpgraded: true
+  name: Dearリトルプリンス+
+  order: "32100000121"
+  originIdolCardId: i_card-amao-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-012-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-012-1-enc01
+- assetId: img_general_pitem_2-013
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        が5以上の場合、体力回復<nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-stamina_recover_fix-000
+  evaluation: 75
+  id: pitem_00-2-013-0
+  isExamEffect: true
+  name: きみへの差し入れ
+  order: "32100000130"
+  originIdolCardId: i_card-hrnm-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-2-013-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-2-013-0-enc01
+- assetId: img_general_pitem_2-013
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        が5以上の場合、体力回復<nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内4回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-stamina_recover_fix-000
+  evaluation: 100
+  id: pitem_00-2-013-1
+  isExamEffect: true
+  isUpgraded: true
+  name: きみへの差し入れ+
+  order: "32100000131"
+  originIdolCardId: i_card-hrnm-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-04-enchant-pitem_00-2-013-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-04-enchant-pitem_00-2-013-0-enc01
+- assetId: img_general_pitem_2-014
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 75
+  id: pitem_00-2-014-0
+  isExamEffect: true
+  name: だれでもわかる入門書
+  order: "32200000140"
+  originIdolCardId: i_card-shro-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-014-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-014-0-enc01
+- assetId: img_general_pitem_2-014
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+6</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 100
+  id: pitem_00-2-014-1
+  isExamEffect: true
+  isUpgraded: true
+  name: だれでもわかる入門書+
+  order: "32200000141"
+  originIdolCardId: i_card-shro-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-014-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-014-1-enc01
+- assetId: img_general_pitem_2-015
+  descriptions:
+    - text: ターン終了時体力が50%以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 75
+  id: pitem_00-2-015-0
+  isExamEffect: true
+  name: 思い出ロボ
+  order: "32200000150"
+  originIdolCardId: i_card-kllj-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-015-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-015-0-enc01
+- assetId: img_general_pitem_2-015
+  descriptions:
+    - text: ターン終了時体力が50%以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+4</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_review-000
+  evaluation: 100
+  id: pitem_00-2-015-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 思い出ロボ+
+  order: "32200000151"
+  originIdolCardId: i_card-kllj-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-015-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-2-015-1-enc01
+- assetId: img_general_pitem_2-016
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後体力が50%以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 75
+  id: pitem_00-2-016-0
+  isExamEffect: true
+  name: 放課後のらくがき
+  order: "32100000160"
+  originIdolCardId: i_card-ssmk-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-016-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-016-0-enc01
+- assetId: img_general_pitem_2-016
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 100
+  id: pitem_00-2-016-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 放課後のらくがき+
+  order: "32100000161"
+  originIdolCardId: i_card-ssmk-2-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-016-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-016-1-enc01
+- assetId: img_general_pitem_2-017
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>60%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 75
+  id: pitem_00-2-017-0
+  isExamEffect: true
+  name: しょげないハンカチ
+  order: "32200000170"
+  originIdolCardId: i_card-kcna-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-017-0-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-017-0-enc01
+- assetId: img_general_pitem_2-017
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>70%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 100
+  id: pitem_00-2-017-1
+  isExamEffect: true
+  isUpgraded: true
+  name: しょげないハンカチ+
+  order: "32200000171"
+  originIdolCardId: i_card-kcna-2-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-017-1-enc01
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-2-017-1-enc01
+- assetId: img_general_pitem_2-029
+  descriptions:
+    - text: スキルカード強化時ボーカルが400以上の場合、Pポイント+
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "15"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  evaluation: 45
+  id: pitem_00-2-029-0
+  name: 朝一の助け舟
+  order: "33000000290"
+  originSupportCardId: s_card-2-0012
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-produce_point_addition-0015_0015
+  produceTriggerId: p_trigger-upgrade_produce_card-vocal-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-produce_point_addition-0015_0015
+- assetId: img_general_pitem_2-030
+  descriptions:
+    - text: ビジュアルSPレッスン終了時ビジュアルが400以上の場合、ランダムなスキルカードを
+      type: ProduceDescriptionType_PlainText
+    - targetId: Label_ProduceCardUpgrade
+      text: 強化
+      type: ProduceDescriptionType_ProduceDescription
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-produce_card_upgrade-000
+  evaluation: 45
+  id: pitem_00-2-030-0
+  name: 誓いの花びら
+  order: "33000000300"
+  originSupportCardId: s_card-2-0013
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceTriggerId: p_trigger-end_lesson-lesson_visual_sp-visual-0400_0000
+  rarity: ProduceItemRarity_Sr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+- assetId: img_general_pitem_3-001
+  descriptions:
+    - text: レッスン終了時、レッスン報酬のスキルカードの選択肢を追加
+      type: ProduceDescriptionType_PlainText
+  id: pitem_00-3-001-0
+  name: はつぼしブローチ
+  order: "41000000010"
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-lesson_present_produce_card_reward_count_up-0001_0001
+  produceTriggerId: p_trigger-end_lesson_before_present-lesson
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-lesson_present_produce_card_reward_count_up-0001_0001
+- assetId: img_general_pitem_3-002
+  descriptions:
+    - text: SPレッスン終了時、体力消費
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "3"
+      type: ProduceDescriptionType_DiffText
+    - text: |2-
+        スキルカードを選択して
+      type: ProduceDescriptionType_PlainText
+    - targetId: Label_ProduceCardUpgrade
+      text: 強化
+      type: ProduceDescriptionType_ProduceDescription
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-produce_card_upgrade-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  id: pitem_00-3-002-0
+  name: はつぼしブレスレット
+  order: "41000000020"
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-stamina_reduce_fix-0003_0003
+    - p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-select-01_01
+  produceTriggerId: p_trigger-end_lesson-lesson_sp
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-stamina_reduce_fix-0003_0003
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-select-01_01
+- assetId: img_general_pitem_3-009
+  descriptions:
+    - targetId: Convert_StepLessonType_VisualLesson
+      text: 【ビジュアルレッスン・ビジュアルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+      targetId: Label_ExamLessonValueMultiple
+      text: パラメータ上昇量増加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>50%</nobr>（<nobr>1ターン</nobr>）
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  evaluation: 60
+  id: pitem_00-3-009-0
+  isExamEffect: true
+  name: 得体のしれないモノ
+  order: "43000000090"
+  originSupportCardId: s_card-3-0000
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-009-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-009-0-enc01
+- assetId: img_general_pitem_3-011
+  descriptions:
+    - targetId: Convert_StepLessonType_VisualLesson
+      text: 【ビジュアルレッスン・ビジュアルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlockFix
+      targetId: Label_ExamBlockFix
+      text: 固定元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+2</nobr>
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+  evaluation: 60
+  id: pitem_00-3-011-0
+  isExamEffect: true
+  name: 星のリトルプリンス
+  order: "43000000110"
+  originSupportCardId: s_card-3-0007
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-011-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-011-0-enc01
+- assetId: img_general_pitem_3-012
+  descriptions:
+    - targetId: Convert_StepLessonType_DanceLesson
+      text: 【ダンスレッスン・ダンスターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+      targetId: Label_ExamLessonValueMultiple
+      text: パラメータ上昇量増加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>50%</nobr>（<nobr>1ターン</nobr>）
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  evaluation: 60
+  id: pitem_00-3-012-0
+  isExamEffect: true
+  name: 悔しさの象徴
+  order: "43000000120"
+  originSupportCardId: s_card-3-0004
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-012-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-012-0-enc01
+- assetId: img_general_pitem_3-013
+  descriptions:
+    - targetId: Convert_StepLessonType_VocalLesson
+      text: 【ボーカルレッスン・ボーカルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: |-
+        使用時、体力回復<nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-stamina_recover_fix-000
+  evaluation: 60
+  id: pitem_00-3-013-0
+  isExamEffect: true
+  name: 曇りをぬぐったタオル
+  order: "43000000130"
+  originSupportCardId: s_card-3-0012
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-013-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-013-0-enc01
+- assetId: img_general_pitem_3-014
+  descriptions:
+    - targetId: Convert_StepLessonType_VocalLesson
+      text: 【ボーカルレッスン・ボーカルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、スキルカードを引く
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlockFix
+      targetId: Label_ExamBlockFix
+      text: 固定元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+    - effect_group-visible-exam_card_draw-000
+  evaluation: 60
+  id: pitem_00-3-014-0
+  isExamEffect: true
+  name: スカウト遮り帽
+  order: "43000000140"
+  originSupportCardId: s_card-3-0013
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-014-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-014-0-enc01
+- assetId: img_general_pitem_3-015
+  descriptions:
+    - text: お出かけ終了時、体力回復
+      type: ProduceDescriptionType_PlainText
+    - changeColor: true
+      text: "9"
+      type: ProduceDescriptionType_DiffText
+    - type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-stamina_recover_fix-000
+  evaluation: 60
+  id: pitem_00-3-015-0
+  name: 信頼の証
+  order: "43000000150"
+  originSupportCardId: s_card-3-0019
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-produce_effect-p_effect-stamina_recover_fix-0009_0009
+  produceTriggerId: p_trigger-end_step_event_activity
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-produce_effect-p_effect-stamina_recover_fix-0009_0009
+- assetId: img_general_pitem_3-016
+  descriptions:
+    - targetId: Convert_StepLessonType_VisualLesson
+      text: 【ビジュアルレッスン・ビジュアルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: |-
+        使用時、体力回復<nobr>2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-stamina_recover_fix-000
+  evaluation: 60
+  id: pitem_00-3-016-0
+  isExamEffect: true
+  name: 満開ペアヘアピン
+  order: "43000000160"
+  originSupportCardId: s_card-3-0003
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-016-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-016-0-enc01
+- assetId: img_general_pitem_3-017
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1ターン</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_parameter_buff-000
+  evaluation: 100
+  id: pitem_00-3-017-0
+  isExamEffect: true
+  name: 共に戦うタオル
+  order: "42100000170"
+  originIdolCardId: i_card-hski-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-017-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-017-0-enc01
+- assetId: img_general_pitem_3-017
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+    - text: 使用後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1ターン</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_parameter_buff-000
+  evaluation: 140
+  id: pitem_00-3-017-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 共に戦うタオル+
+  order: "42100000171"
+  originIdolCardId: i_card-hski-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-017-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-017-1-enc01
+- assetId: img_general_pitem_3-018
+  descriptions:
+    - text: スキルカード使用時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が5以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 100
+  id: pitem_00-3-018-0
+  isExamEffect: true
+  name: 自分を守るイヤホン
+  order: "42100000180"
+  originIdolCardId: i_card-ttmr-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-018-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-018-0-enc01
+- assetId: img_general_pitem_3-018
+  descriptions:
+    - text: スキルカード使用時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が5以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 140
+  id: pitem_00-3-018-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 自分を守るイヤホン+
+  order: "42100000181"
+  originIdolCardId: i_card-ttmr-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-018-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-018-1-enc01
+- assetId: img_general_pitem_3-019
+  descriptions:
+    - text: スキルカード使用後
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が6以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+3</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_review-000
+  evaluation: 100
+  id: pitem_00-3-019-0
+  isExamEffect: true
+  name: ピッグドリーム貯金箱
+  order: "42200000190"
+  originIdolCardId: i_card-fktn-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-019-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-019-0-enc01
+- assetId: img_general_pitem_3-019
+  descriptions:
+    - text: スキルカード使用後
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が6以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+5</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_review-000
+  evaluation: 140
+  id: pitem_00-3-019-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ピッグドリーム貯金箱+
+  order: "42200000191"
+  originIdolCardId: i_card-fktn-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-019-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-019-1-enc01
+- assetId: img_general_pitem_3-020
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+2</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 100
+  id: pitem_00-3-020-0
+  isExamEffect: true
+  name: 内なる光の耳飾り
+  order: "42100000200"
+  originIdolCardId: i_card-amao-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-020-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-020-0-enc01
+- assetId: img_general_pitem_3-020
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+3</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_block-000
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 140
+  id: pitem_00-3-020-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 内なる光の耳飾り+
+  order: "42100000201"
+  originIdolCardId: i_card-amao-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-020-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-020-1-enc01
+- assetId: img_general_pitem_3-021
+  descriptions:
+    - text: ターン開始時残り2ターン以内の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+  evaluation: 100
+  id: pitem_00-3-021-0
+  isExamEffect: true
+  name: 等身大のレディリップ
+  order: "42100000210"
+  originIdolCardId: i_card-hrnm-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-021-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-021-0-enc01
+- assetId: img_general_pitem_3-021
+  descriptions:
+    - text: ターン開始時残り3ターン以内の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+5</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+  evaluation: 140
+  id: pitem_00-3-021-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 等身大のレディリップ+
+  order: "42100000211"
+  originIdolCardId: i_card-hrnm-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-021-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-021-1-enc01
+- assetId: img_general_pitem_3-022
+  descriptions:
+    - text: ターン開始時残り2ターン以内の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>50%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 100
+  id: pitem_00-3-022-0
+  isExamEffect: true
+  name: みちくさ研究ノート
+  order: "42200000220"
+  originIdolCardId: i_card-shro-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-022-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-022-0-enc01
+- assetId: img_general_pitem_3-022
+  descriptions:
+    - text: ターン開始時残り2ターン以内の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>65%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+      targetId: Label_ExamStaminaReduceFix
+      text: 体力消費
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1</nobr>
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-hidden-stamina_reduce_fix-000
+  evaluation: 140
+  id: pitem_00-3-022-1
+  isExamEffect: true
+  isUpgraded: true
+  name: みちくさ研究ノート+
+  order: "42200000221"
+  originIdolCardId: i_card-shro-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-022-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-3-022-1-enc01
+- assetId: img_general_pitem_3-023
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1.5倍</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>30%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        上昇
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-visible-exam_review-000
+  evaluation: 100
+  id: pitem_00-3-023-0
+  isExamEffect: true
+  name: 夢へのライフログ
+  order: "42200000230"
+  originIdolCardId: i_card-kllj-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-023-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-023-0-enc01
+- assetId: img_general_pitem_3-023
+  descriptions:
+    - text: ターン終了時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamBlock
+      targetId: Label_ExamBlock
+      text: 元気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が7以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>1.5倍</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>100%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        上昇
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-visible-exam_review-000
+  evaluation: 140
+  id: pitem_00-3-023-1
+  isExamEffect: true
+  isUpgraded: true
+  name: 夢へのライフログ+
+  order: "42200000231"
+  originIdolCardId: i_card-kllj-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-023-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-023-1-enc01
+- assetId: img_general_pitem_3-024
+  descriptions:
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 100
+  id: pitem_00-3-024-0
+  isExamEffect: true
+  name: ゲーセンの戦利品
+  order: "42100000240"
+  originIdolCardId: i_card-ssmk-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-024-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-024-0-enc01
+- assetId: img_general_pitem_3-024
+  descriptions:
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+4</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson_buff-000
+  evaluation: 140
+  id: pitem_00-3-024-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ゲーセンの戦利品+
+  order: "42100000241"
+  originIdolCardId: i_card-ssmk-3-000
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-024-1-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-024-1-enc01
+- assetId: img_general_pitem_3-025
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内2回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 100
+  id: pitem_00-3-025-0
+  isExamEffect: true
+  name: ひみつ特訓カーデ
+  order: "42200000250"
+  originIdolCardId: i_card-kcna-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-025-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_00-3-025-0-enc01
+- assetId: img_general_pitem_3-025
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内3回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_card_play_aggressive-000
+  evaluation: 140
+  id: pitem_00-3-025-1
+  isExamEffect: true
+  isUpgraded: true
+  name: ひみつ特訓カーデ+
+  order: "42200000251"
+  originIdolCardId: i_card-kcna-3-000
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-025-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-3-025-0-enc01
+- assetId: img_general_pitem_3-026
+  descriptions:
+    - targetId: Convert_StepLessonType_VisualLesson
+      text: 【ビジュアルレッスン・ビジュアルターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+  evaluation: 60
+  id: pitem_00-3-026-0
+  isExamEffect: true
+  name: 仲直りのきっかけ
+  order: "43000000260"
+  originSupportCardId: s_card-3-0011
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-026-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-026-0-enc01
+- assetId: img_general_pitem_3-027
+  descriptions:
+    - targetId: Convert_StepLessonType_DanceLesson
+      text: 【ダンスレッスン・ダンスターンのみ】
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+1</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+  evaluation: 60
+  id: pitem_00-3-027-0
+  isExamEffect: true
+  name: 夢にあふれた大荷物
+  order: "43000000270"
+  originSupportCardId: s_card-3-0017
+  planType: ProducePlanType_Common
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-027-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-3-027-0-enc01
+- assetId: img_general_pitem_0-005
+  descriptions:
+    - text: ターン開始時、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>3ターン</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+      targetId: Label_ExamLessonValueMultiple
+      text: パラメータ上昇量増加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>50%</nobr>（<nobr>4ターン</nobr>）
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_parameter_buff-000
+  id: pitem_01-0-005-0-000
+  isExamEffect: true
+  libraryHidden: true
+  name: 初星オブジェ（紫）
+  order: "19100000050"
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-005-0-000-enc01
+  rarity: ProduceItemRarity_N
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-005-0-000-enc01
+- assetId: img_general_pitem_3-003
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が5以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+      targetId: Label_ExamLessonBuff_Produce
+      text: 集中
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+2</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_lesson_buff-000
+  id: pitem_01-3-003-0
+  isExamEffect: true
+  name: はつぼし手帳
+  order: "41100000030"
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-3-003-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-3-003-0-enc01
+- assetId: img_general_pitem_3-004
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 状態の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+      targetId: Label_ExamParameterBuff
+      text: 好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>2ターン</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_parameter_buff-000
+  id: pitem_01-3-004-0
+  isExamEffect: true
+  name: はつぼしTシャツ
+  order: "41100000040"
+  planType: ProducePlanType_Plan1
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-3-004-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-3-004-0-enc01
+- assetId: img_general_pitem_0-002
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が増加後
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が10以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+4</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: の<nobr>50%</nobr>分
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamLesson
+      targetId: Label_ExamLesson
+      text: パラメータ
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 上昇
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_lesson-000
+    - effect_group-visible-exam_review-000
+  id: pitem_02-0-002-0-000
+  isExamEffect: true
+  libraryHidden: true
+  name: 初星ライト（オレンジ）
+  order: "19200000020"
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-enchant-pitem_02-0-002-0-000-enc01
+  rarity: ProduceItemRarity_N
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_02-0-002-0-000-enc01
+- assetId: img_general_pitem_3-005
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が3以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamReview
+      targetId: Label_ExamReview_Produce
+      text: 好印象
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_review-000
+  id: pitem_02-3-005-0
+  isExamEffect: true
+  name: はつぼしキーホルダー
+  order: "41200000050"
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-3-005-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-3-005-0-enc01
+- assetId: img_general_pitem_3-006
+  descriptions:
+    - text: ターン開始時
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: が5以上の場合、
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      targetId: Label_ExamPlayableValueAdd_Produce
+      text: スキルカード使用数追加
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: <nobr>+1</nobr>
+      type: ProduceDescriptionType_PlainText
+    - text: |2+
+      type: ProduceDescriptionType_PlainText
+    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      targetId: Label_ExamCardPlayAggressive_Produce
+      text: やる気
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: |-
+        <nobr>+3</nobr>
+        （
+      type: ProduceDescriptionType_PlainText
+    - targetId: Convert_002
+      text: レッスン
+      type: ProduceDescriptionType_ProduceDescriptionName
+    - text: 内1回）
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_playable_value_add-000
+    - effect_group-visible-exam_card_play_aggressive-000
+  id: pitem_02-3-006-0
+  isExamEffect: true
+  name: マスコット（非公認）
+  order: "41200000060"
+  planType: ProducePlanType_Plan2
+  produceItemEffectIds:
+    - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-3-006-0-enc01
+  rarity: ProduceItemRarity_Ssr
+  skills:
+    - produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-3-006-0-enc01

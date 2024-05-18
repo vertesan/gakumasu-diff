@@ -1,0 +1,35 @@
+- dance: 238
+  description: 初めてのコンテスト
+  examBattleFirstRankBonusPermil: 200
+  examSettingId: p_exam_setting-1
+  id: pvp_rate_config-1
+  loseTimelineAssetId: tln_cont_vovi-001_totalresult_lose
+  produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_001
+  pvpRateCommonProduceCardId: pvp_live_battle_1
+  stages:
+    - bgmAssetId: sud_bgm_produce_audition-04
+      examTimelineAssetId: tln_cont_vovi-001_battle
+      planType: ProducePlanType_Common
+      produceItemId: pitem_00-0-004-0-000
+      stageType: PvpRateStageType__1
+      startTimelineAssetId: tln_cont_vovi-001_start
+      turn: 12
+    - bgmAssetId: sud_bgm_produce_audition-04
+      examTimelineAssetId: tln_cont_vovi-001_battle
+      planType: ProducePlanType_Plan1
+      produceItemId: pitem_01-0-005-0-000
+      stageType: PvpRateStageType__2
+      startTimelineAssetId: tln_cont_vovi-001_start
+      turn: 8
+    - bgmAssetId: sud_bgm_produce_audition-04
+      examTimelineAssetId: tln_cont_vovi-001_battle
+      planType: ProducePlanType_Plan2
+      produceItemId: pitem_02-0-002-0-000
+      stageType: PvpRateStageType__3
+      startTimelineAssetId: tln_cont_vovi-001_start
+      turn: 8
+  startTimelineInitialTimePermil: 5033
+  topAssetId: contest-top-vovi
+  visual: 291
+  vocal: 353
+  winTimelineAssetId: tln_cont_vovi-001_totalresult_win

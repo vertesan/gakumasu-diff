@@ -1,0 +1,176 @@
+- cardCategories:
+    - ProduceCardCategory_ActiveSkill
+  cardPositionType: ProduceCardPositionType_DeckAll
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-active_skill-deck_all
+- cardCategories:
+    - ProduceCardCategory_ActiveSkill
+  cardPositionType: ProduceCardPositionType_Deck
+  descriptions:
+    - text: 山札の上から3枚のアクティブスキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-active_skill-first-deck-3
+  limitCount: 3
+  orderType: ProduceCardOrderType_First
+- cardCategories:
+    - ProduceCardCategory_ActiveSkill
+  cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札の
+      type: ProduceDescriptionType_PlainText
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-active_skill-hand
+- cardCategories:
+    - ProduceCardCategory_ActiveSkill
+  cardPositionType: ProduceCardPositionType_Playing
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_ActiveSkill
+      targetId: Label_ActiveSkillCard
+      text: アクティブスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-active_skill-playing
+- cardPositionType: ProduceCardPositionType_DeckAll
+  descriptions:
+    - text: スキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-deck_all
+- cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: starter
+  descriptions:
+    - text: 名前に「基本」を含むスキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-deck_all-starter
+- cardPositionType: ProduceCardPositionType_Deck
+  descriptions:
+    - text: 山札のスキルカード1枚
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-deck-1
+  limitCount: 1
+- cardPositionType: ProduceCardPositionType_Deck
+  descriptions:
+    - text: 山札の先頭のスキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-first-deck-1
+  limitCount: 1
+  orderType: ProduceCardOrderType_First
+- cardPositionType: ProduceCardPositionType_Deck
+  descriptions:
+    - text: 山札の先頭から5枚のスキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-first-deck-5
+  limitCount: 5
+  orderType: ProduceCardOrderType_First
+- cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-hand
+- cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札のスキルカード1枚
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-hand-1
+  limitCount: 1
+- cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札のスキルカード2枚
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-hand-2
+  limitCount: 2
+- cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札のスキルカード3枚
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-hand-3
+  limitCount: 3
+- cardCategories:
+    - ProduceCardCategory_MentalSkill
+  cardPositionType: ProduceCardPositionType_DeckAll
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_MentalSkill
+      targetId: Label_MentalSkillCard
+      text: メンタルスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-mental_skill-deck_all
+- cardCategories:
+    - ProduceCardCategory_MentalSkill
+  cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: 手札の
+      type: ProduceDescriptionType_PlainText
+    - produceCardCategory: ProduceCardCategory_MentalSkill
+      targetId: Label_MentalSkillCard
+      text: メンタルスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-mental_skill-hand
+- cardCategories:
+    - ProduceCardCategory_MentalSkill
+  cardPositionType: ProduceCardPositionType_Playing
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_MentalSkill
+      targetId: Label_MentalSkillCard
+      text: メンタルスキルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-mental_skill-playing
+- cardPositionType: ProduceCardPositionType_Playing
+  descriptions:
+    - text: スキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-playing
+- cardPositionType: ProduceCardPositionType_Playing
+  descriptions:
+    - examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+      targetId: Label_ExamParameterBuffMultiplePerTurn
+      text: 絶好調
+      type: ProduceDescriptionType_ProduceExamEffectType
+    - text: 効果のスキルカード
+      type: ProduceDescriptionType_PlainText
+  effectGroupIds:
+    - effect_group-visible-exam_parameter_buff_multiple_per_turn-000
+  id: p_card_search-playing-effect_group-visible-exam_parameter_buff_multiple_per_turn-000
+- cardPositionType: ProduceCardPositionType_RandomPool
+  descriptions:
+    - text: 強化済みスキルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-random-random_pool-p_random_pool-all-upgrade_1-1
+  limitCount: 1
+  orderType: ProduceCardOrderType_Random
+  produceCardRandomPoolId: p_random_pool-all-upgrade_1
+- cardPositionType: ProduceCardPositionType_RandomPool
+  descriptions:
+    - text: 強化済みスキルカード（SSR）
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-random-random_pool-p_random_pool-ssr-upgrade_1-1
+  limitCount: 1
+  orderType: ProduceCardOrderType_Random
+  produceCardRandomPoolId: p_random_pool-ssr-upgrade_1
+- cardCategories:
+    - ProduceCardCategory_Trouble
+  cardPositionType: ProduceCardPositionType_DeckAll
+  descriptions:
+    - produceCardCategory: ProduceCardCategory_Trouble
+      targetId: Label_TroubleSkillCard
+      text: トラブルカード
+      type: ProduceDescriptionType_ProduceCardCategory
+  id: p_card_search-trouble-deck_all
+- cardCategories:
+    - ProduceCardCategory_Trouble
+  cardPositionType: ProduceCardPositionType_Hand
+  descriptions:
+    - text: トラブルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-trouble-hand
+- cardCategories:
+    - ProduceCardCategory_Trouble
+  cardPositionType: ProduceCardPositionType_Target
+  descriptions:
+    - text: トラブルカード
+      type: ProduceDescriptionType_PlainText
+  id: p_card_search-trouble-target

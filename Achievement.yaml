@@ -1,0 +1,2516 @@
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_amao-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - amao
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのアチーブメントの★を{threshold}個獲得
+  id: achieve-m_fktn-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - fktn
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_hrnm-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - hrnm
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_hski-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - hski
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_kcna-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - kcna
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのアチーブメントの★を{threshold}個獲得
+  id: achieve-m_kllj-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - kllj
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_shro-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - shro
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_ssmk-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - ssmk
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のアチーブメントの★を{threshold}個獲得
+  id: achieve-m_ttmr-001
+  isMasterAchievement: true
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  name: マスターアチーブメント
+  order: 1
+  targetIds1:
+    - ttmr
+- category: AchievementCategory_Other
+  description: プロデュースを始めた証
+  id: achieve-o_001
+  missionType: MissionType_AbsoluteProducerLevel
+  name: 初星学園へようこそ
+  order: 1
+- category: AchievementCategory_Other
+  description: お仕事を合計{threshold}時間
+  id: achieve-o_002
+  missionType: MissionType_IncrementWorkDurationHour
+  name: がんばりや
+  order: 1
+- category: AchievementCategory_Other
+  description: 課題を{threshold}個クリア
+  id: achieve-o_003
+  missionType: MissionType_IncrementMissionClear
+  name: 単位取得
+  order: 2
+  targetIds2:
+    - MainTask
+- category: AchievementCategory_Other
+  description: 課題を{threshold}個クリア
+  id: achieve-o_004
+  missionType: MissionType_IncrementMissionClear
+  name: 成績優秀
+  order: 3
+  targetIds2:
+    - MainTask
+  viewConditionSetId: cd-achive_clear-o_003
+- category: AchievementCategory_Other
+  description: プロデューサーLv{threshold}に到達
+  id: achieve-o_006
+  missionType: MissionType_AbsoluteProducerLevel
+  name: ルーキー卒業
+  order: 4
+- category: AchievementCategory_Other
+  description: プロデューサーLv{threshold}に到達
+  id: achieve-o_007
+  missionType: MissionType_AbsoluteProducerLevel
+  name: 道半ば
+  order: 5
+  viewConditionSetId: cd-achive_clear-o_006
+- category: AchievementCategory_Other
+  description: 活動費で合計{threshold}のマニーを受け取る
+  id: achieve-o_009
+  missionType: MissionType_IncrementReceiveMoney
+  name: 打ち出の小槌
+  order: 6
+- category: AchievementCategory_Other
+  description: 合計ファン数を{threshold}人にする
+  id: achieve-o_010
+  missionType: MissionType_AbsoluteFanCount
+  name: 下積み
+  order: 7
+- category: AchievementCategory_Other
+  description: 合計ファン数を{threshold}人にする
+  id: achieve-o_011
+  missionType: MissionType_AbsoluteFanCount
+  name: 稼ぎ頭
+  order: 8
+  viewConditionSetId: cd-achive_clear-o_010
+- category: AchievementCategory_Other
+  description: 合計ファン数を{threshold}人にする
+  id: achieve-o_012
+  missionType: MissionType_AbsoluteFanCount
+  name: ヒットメーカー
+  order: 9
+  viewConditionSetId: cd-achive_clear-o_011
+- category: AchievementCategory_Other
+  description: フォロワー数{threshold}人以上
+  id: achieve-o_013
+  missionType: MissionType_AbsoluteFollowerCount
+  name: 幅広い人脈
+  order: 10
+- category: AchievementCategory_Other
+  description: コンテストで1位以内に入る
+  id: achieve-o_014
+  missionType: MissionType_AbsolutePvpRateRank
+  name: コンテスト覇者
+  order: 11
+  targetValue: 1
+  viewConditionSetId: cd-achive_clear-o_015
+- category: AchievementCategory_Other
+  description: コンテストで100位以内に入る
+  id: achieve-o_015
+  missionType: MissionType_AbsolutePvpRateRank
+  name: 一流
+  order: 12
+  targetValue: 100
+  viewConditionSetId: cd-pvp_grade_s
+- category: AchievementCategory_Other
+  description: コンテストでグレード1に到達
+  id: achieve-o_016
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 夢への第一歩
+  order: 13
+  targetValue: 1
+- category: AchievementCategory_Other
+  description: コンテストでグレード2に到達
+  id: achieve-o_017
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 青二才の努力
+  order: 14
+  targetValue: 2
+  viewConditionSetId: cd-achive_clear-o_016
+- category: AchievementCategory_Other
+  description: コンテストでグレード3に到達
+  id: achieve-o_018
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 石の上にも三年
+  order: 15
+  targetValue: 3
+  viewConditionSetId: cd-achive_clear-o_017
+- category: AchievementCategory_Other
+  description: コンテストでグレード4に到達
+  id: achieve-o_019
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 四六時中アイドル
+  order: 16
+  targetValue: 4
+  viewConditionSetId: cd-achive_clear-o_018
+- category: AchievementCategory_Other
+  description: コンテストでグレード5に到達
+  id: achieve-o_020
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 五感を駆使して
+  order: 17
+  targetValue: 5
+  viewConditionSetId: cd-achive_clear-o_019
+- category: AchievementCategory_Other
+  description: コンテストでグレード6に到達
+  id: achieve-o_021
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 六芸に通ず
+  order: 18
+  targetValue: 6
+  viewConditionSetId: cd-achive_clear-o_020
+- category: AchievementCategory_Other
+  description: コンテストでグレード7に到達
+  id: achieve-o_022
+  missionType: MissionType_AbsolutePvpRateGrade
+  name: 七海に轟く
+  order: 19
+  targetValue: 7
+  viewConditionSetId: cd-achive_clear-o_021
+- category: AchievementCategory_Other
+  description: コンテストでスコアを{threshold}以上獲得
+  id: achieve-o_023
+  missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
+  name: 期待の新人
+  order: 20
+- category: AchievementCategory_Other
+  description: コンテストでスコアを{threshold}以上獲得
+  id: achieve-o_024
+  missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
+  name: ダークホース
+  order: 21
+  viewConditionSetId: cd-achive_clear-o_023
+- category: AchievementCategory_Other
+  description: コンテストでスコアを{threshold}以上獲得
+  id: achieve-o_025
+  missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
+  name: 本命候補
+  order: 22
+  viewConditionSetId: cd-achive_clear-o_024
+- category: AchievementCategory_Produce
+  description: Pポイントを合計{threshold}獲得
+  id: achieve-p_common-001
+  missionType: MissionType_IncrementProduceTotalProducePoint
+  name: 縁の下の力持ち
+  order: 1
+- category: AchievementCategory_Produce
+  description: アチーブメントを{threshold}個獲得
+  id: achieve-p_common-002
+  missionType: MissionType_IncrementMissionClear
+  name: 思い出いっぱい
+  order: 2
+  targetIds2:
+    - Achievement
+- category: AchievementCategory_Produce
+  description: スキルカードを合計{threshold}獲得
+  id: achieve-p_common-003
+  missionType: MissionType_IncrementProduceGetProduceCardCount
+  name: テクニシャン
+  order: 3
+- category: AchievementCategory_Produce
+  description: Pアイテムを合計{threshold}獲得
+  id: achieve-p_common-004
+  missionType: MissionType_IncrementProduceGetProduceItemCount
+  name: サポート上手
+  order: 4
+- category: AchievementCategory_Produce
+  description: Pドリンクを合計{threshold}獲得
+  id: achieve-p_common-005
+  missionType: MissionType_IncrementProduceGetProduceDrinkCount
+  name: 水分補給！
+  order: 5
+- category: AchievementCategory_Produce
+  description: スキルカードを{threshold}種類獲得
+  id: achieve-p_common-006
+  missionType: MissionType_AbsoluteProducePictureBookProduceCardCount
+  name: 準備万端
+  order: 6
+- category: AchievementCategory_Produce
+  description: Pアイテムを{threshold}種類獲得
+  id: achieve-p_common-007
+  missionType: MissionType_AbsoluteProducePictureBookProduceItemCount
+  name: 創意工夫
+  order: 7
+- category: AchievementCategory_Produce
+  description: Pドリンクを{threshold}種類獲得
+  id: achieve-p_common-008
+  missionType: MissionType_AbsoluteProducePictureBookProduceDrinkCount
+  name: ドリンクマニア
+  order: 8
+- category: AchievementCategory_Produce
+  description: プロデュースでVoレッスンを{threshold}回選択
+  id: achieve-p_common-009
+  missionType: MissionType_IncrementProduceSelectStepCount
+  name: ボーカルマスター
+  order: 9
+  targetIds3:
+    - LessonVocalNormal
+    - LessonVocalSp
+    - LessonVocalHard
+- category: AchievementCategory_Produce
+  description: プロデュースでDaレッスンを{threshold}回選択
+  id: achieve-p_common-010
+  missionType: MissionType_IncrementProduceSelectStepCount
+  name: ダンスマスター
+  order: 10
+  targetIds3:
+    - LessonDanceNormal
+    - LessonDanceSp
+    - LessonDanceHard
+- category: AchievementCategory_Produce
+  description: プロデュースでViレッスンを{threshold}回選択
+  id: achieve-p_common-011
+  missionType: MissionType_IncrementProduceSelectStepCount
+  name: ビジュアルマスター
+  order: 11
+  targetIds3:
+    - LessonVisualNormal
+    - LessonVisualSp
+    - LessonVisualHard
+- category: AchievementCategory_Produce
+  description: プロデュースで活動支給を{threshold}回選択
+  id: achieve-p_common-012
+  missionType: MissionType_IncrementProduceSelectStepCount
+  name: 備えあれば憂いなし
+  order: 12
+  targetIds3:
+    - Present
+- category: AchievementCategory_Produce
+  description: プロデュースで授業/おでかけを{threshold}回選択
+  id: achieve-p_common-013
+  missionType: MissionType_IncrementProduceSelectStepCount
+  name: 学園生活
+  order: 13
+  targetIds3:
+    - EventActivity
+    - EventSchool
+- category: AchievementCategory_Produce
+  description: プロデュースでスキルカードを{threshold}回強化
+  id: achieve-p_common-014
+  missionType: MissionType_IncrementProduceUpgradeProduceCardCount
+  name: 指導上手
+  order: 14
+- category: AchievementCategory_Produce
+  description: 相談室で{threshold}回交換
+  id: achieve-p_common-015
+  missionType: MissionType_IncrementProduceShopBuyCount
+  name: 常連さん
+  order: 15
+- category: AchievementCategory_Produce
+  description: レッスンを{threshold}回クリア
+  id: achieve-p_common-016
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 日々の鍛錬
+  order: 16
+- category: AchievementCategory_Produce
+  description: SPレッスンを{threshold}回クリア
+  id: achieve-p_common-017
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 気合を入れて
+  order: 17
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+- category: AchievementCategory_Produce
+  description: プロデュースで体力を合計{threshold}消費
+  id: achieve-p_common-018
+  missionType: MissionType_IncrementProduceConsumedStamina
+  name: 熱血指導
+  order: 18
+- category: AchievementCategory_Produce
+  description: 最終試験をスコアB以上で{threshold}回合格
+  id: achieve-p_common-019
+  missionType: MissionType_IncrementProduceClearCount
+  name: 中級プロデューサー
+  order: 19
+  targetValue: 6
+- category: AchievementCategory_Produce
+  description: 最終試験をスコアA以上で{threshold}回合格
+  id: achieve-p_common-020
+  missionType: MissionType_IncrementProduceClearCount
+  name: 上級プロデューサー
+  order: 20
+  targetValue: 8
+- category: AchievementCategory_Produce
+  description: 最終試験をスコアA+以上で{threshold}回合格
+  id: achieve-p_common-021
+  missionType: MissionType_IncrementProduceClearCount
+  name: ベテランプロデューサー
+  order: 21
+  targetValue: 9
+- category: AchievementCategory_Produce
+  description: 最終試験をスコアS以上で{threshold}回合格
+  id: achieve-p_common-022
+  missionType: MissionType_IncrementProduceClearCount
+  name: 敏腕プロデューサー
+  order: 22
+  targetValue: 10
+- category: AchievementCategory_Produce
+  description: True Endを{threshold}人達成
+  id: achieve-p_common-024
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: つぼみから花へ
+  order: 24
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Produce
+  description: プロデュースを{threshold}回完了
+  id: achieve-p_common-025
+  missionType: MissionType_IncrementProducePlayCount
+  name: 積み重なる経験
+  order: 25
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央でTrue Endをみる
+  id: achieve-p_idol-amao-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 本当のボク
+  order: 1
+  targetIds2:
+    - amao
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-amao-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: カッコよさだけじゃない
+  order: 2
+  targetIds1:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央でレッスンを{threshold}回クリア
+  id: achieve-p_idol-amao-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 道場仕込みの運動神経
+  order: 3
+  targetIds1:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-amao-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: ハイブリッド
+  order: 4
+  targetIds1:
+    - amao
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-amao-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 本当の魅力
+  order: 5
+  targetIds3:
+    - amao
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-amao-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 見せたい姿
+  order: 6
+  targetIds3:
+    - amao
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-amao-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: ボクらしさ
+  order: 7
+  targetIds3:
+    - amao
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のプロデュースを{threshold}回完了
+  id: achieve-p_idol-amao-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 諦めきれない夢
+  order: 8
+  targetIds3:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央の特訓段階を{threshold}にする
+  id: achieve-p_idol-amao-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 理想と現実
+  order: 9
+  targetIds1:
+    - amao
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-amao-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: まだ見ぬ境地
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のファンを{threshold}人獲得
+  id: achieve-p_idol-amao-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: リトルプリンス
+  order: 11
+  targetIds1:
+    - amao
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-amao-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: キミのおかげです
+  order: 12
+  targetIds1:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央でPドリンクを{threshold}回使用
+  id: achieve-p_idol-amao-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUseProduceDrinkCount
+  name: 爽やかドリンク
+  order: 13
+  targetIds1:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のプロデュースで体力を合計{threshold}消費
+  id: achieve-p_idol-amao-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceConsumedStamina
+  name: 護身術の達人
+  order: 14
+  targetIds1:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 有村 麻央のビジュアルを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-amao-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 可愛さとカッコよさ
+  order: 15
+  targetIds1:
+    - p_cd-vi-1000
+  targetIds2:
+    - amao
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【はじまりはカッコよく】有村 麻央のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-amao-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: らしさ
+  order: 1
+  targetIds3:
+    - i_card-amao-2-000
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【はじまりはカッコよく】有村 麻央の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-amao-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: はじまりはカッコよく
+  order: 2
+  targetIds2:
+    - i_card-amao-2-000
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【はじまりはカッコよく】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-amao-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: キミのおかげで、ボクは――
+  order: 3
+  targetIds3:
+    - i_card-amao-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【Fluorite】有村 麻央のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-amao-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 盛装の華形
+  order: 1
+  targetIds3:
+    - i_card-amao-3-000
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【Fluorite】有村 麻央の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-amao-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: Fluorite
+  order: 2
+  targetIds2:
+    - i_card-amao-3-000
+- category: AchievementCategory_Idol
+  characterId: amao
+  description: 【Fluorite】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-amao-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: めいっぱい輝いてみせますよ！
+  order: 3
+  targetIds3:
+    - i_card-amao-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【カワイイ♡はじめました】藤田 ことねのプロデュースで最終試験に合格
+  id: achieve-p_idol-card-fktn-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: Colorful Cute!
+  order: 1
+  targetIds3:
+    - i_card-fktn-2-000
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【カワイイ♡はじめました】藤田 ことねの特訓段階を{threshold}にする
+  id: achieve-p_idol-card-fktn-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: カワイイ♡はじめました
+  order: 2
+  targetIds2:
+    - i_card-fktn-2-000
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【カワイイ♡はじめました】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-fktn-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: すぐそばで見ていてくださいね！
+  order: 3
+  targetIds3:
+    - i_card-fktn-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【世界一可愛い私】藤田 ことねのプロデュースで最終試験に合格
+  id: achieve-p_idol-card-fktn-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: よそ見はダメ♪
+  order: 1
+  targetIds3:
+    - i_card-fktn-3-000
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【世界一可愛い私】藤田 ことねの特訓段階を{threshold}にする
+  id: achieve-p_idol-card-fktn-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 世界一可愛い私
+  order: 2
+  targetIds2:
+    - i_card-fktn-3-000
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 【世界一可愛い私】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-fktn-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: ぜんぶぜんぶ可愛いんだぞ！
+  order: 3
+  targetIds3:
+    - i_card-fktn-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【『私らしさ』のはじまり】姫崎 莉波のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-hrnm-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 寄り添う気持ち
+  order: 1
+  targetIds3:
+    - i_card-hrnm-2-000
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【『私らしさ』のはじまり】姫崎 莉波の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-hrnm-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 『私らしさ』のはじまり
+  order: 2
+  targetIds2:
+    - i_card-hrnm-2-000
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【『私らしさ』のはじまり】姫崎 莉波のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-hrnm-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 私はきみの、お姉ちゃん
+  order: 3
+  targetIds3:
+    - i_card-hrnm-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【clumsy trick】姫崎 莉波のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-hrnm-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 距離感
+  order: 1
+  targetIds3:
+    - i_card-hrnm-3-000
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【clumsy trick】姫崎 莉波の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-hrnm-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: clumsy trick
+  order: 2
+  targetIds2:
+    - i_card-hrnm-3-000
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 【clumsy trick】姫崎 莉波のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-hrnm-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 私の素直な気持ち
+  order: 3
+  targetIds3:
+    - i_card-hrnm-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【わたしが一番！】花海 咲季のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-hski-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 一番は譲らない
+  order: 1
+  targetIds3:
+    - i_card-hski-2-000
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【わたしが一番！】花海 咲季の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-hski-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: わたしが一番！
+  order: 2
+  targetIds2:
+    - i_card-hski-2-000
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【わたしが一番！】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-hski-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 最後まで付き合いなさいよねっ！
+  order: 3
+  targetIds3:
+    - i_card-hski-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【Fighting My Way】花海 咲季のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-hski-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 絶対に負けない
+  order: 1
+  targetIds3:
+    - i_card-hski-3-000
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【Fighting My Way】花海 咲季の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-hski-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: Fighting My Way
+  order: 2
+  targetIds2:
+    - i_card-hski-3-000
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 【Fighting My Way】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-hski-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 不屈と勝利を歌ってくるわ！
+  order: 3
+  targetIds3:
+    - i_card-hski-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【胸を張って一歩ずつ】倉本 千奈のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-kcna-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: いっしょけんめい
+  order: 1
+  targetIds3:
+    - i_card-kcna-2-000
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【胸を張って一歩ずつ】倉本 千奈の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-kcna-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 胸を張って一歩ずつ
+  order: 2
+  targetIds2:
+    - i_card-kcna-2-000
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【胸を張って一歩ずつ】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-kcna-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 先生と一緒なのですものっ！
+  order: 3
+  targetIds3:
+    - i_card-kcna-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【Wonder Scale】倉本 千奈のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-kcna-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: お嬢様の晴れ舞台
+  order: 1
+  targetIds3:
+    - i_card-kcna-3-000
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【Wonder Scale】倉本 千奈の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-kcna-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: Wonder Scale
+  order: 2
+  targetIds2:
+    - i_card-kcna-3-000
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 【Wonder Scale】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-kcna-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: ひだまりのようなライブを
+  order: 3
+  targetIds3:
+    - i_card-kcna-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【一つ踏み出した先に】葛城 リーリヤのプロデュースで最終試験に合格
+  id: achieve-p_idol-card-kllj-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 純白の妖精
+  order: 1
+  targetIds3:
+    - i_card-kllj-2-000
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【一つ踏み出した先に】葛城 リーリヤの特訓段階を{threshold}にする
+  id: achieve-p_idol-card-kllj-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 一つ踏み出した先に
+  order: 2
+  targetIds2:
+    - i_card-kllj-2-000
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【一つ踏み出した先に】葛城 リーリヤのプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-kllj-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: トップアイドルになります！
+  order: 3
+  targetIds3:
+    - i_card-kllj-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【白線】葛城 リーリヤのプロデュースで最終試験に合格
+  id: achieve-p_idol-card-kllj-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: もう怖くないから
+  order: 1
+  targetIds3:
+    - i_card-kllj-3-000
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【白線】葛城 リーリヤの特訓段階を{threshold}にする
+  id: achieve-p_idol-card-kllj-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 白線
+  order: 2
+  targetIds2:
+    - i_card-kllj-3-000
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 【白線】葛城 リーリヤのプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-kllj-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: この曲みたいに空を飛べるように
+  order: 3
+  targetIds3:
+    - i_card-kllj-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【一番向いてないこと】篠澤 広のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-shro-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 苦しいのが好き
+  order: 1
+  targetIds3:
+    - i_card-shro-2-000
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【一番向いてないこと】篠澤 広の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-shro-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 一番向いてないこと
+  order: 2
+  targetIds2:
+    - i_card-shro-2-000
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【一番向いてないこと】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-shro-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: それなら、ずっと、楽しいね
+  order: 3
+  targetIds3:
+    - i_card-shro-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【光景】篠澤 広のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-shro-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 本気の趣味
+  order: 1
+  targetIds3:
+    - i_card-shro-3-000
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【光景】篠澤 広の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-shro-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 光景
+  order: 2
+  targetIds2:
+    - i_card-shro-3-000
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 【光景】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-shro-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: わたしとみんながわくわくする歌
+  order: 3
+  targetIds3:
+    - i_card-shro-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【夢へのリスタート】紫雲 清夏のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-ssmk-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: 勇気の一歩
+  order: 1
+  targetIds3:
+    - i_card-ssmk-2-000
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【夢へのリスタート】紫雲 清夏の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-ssmk-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 夢へのリスタート
+  order: 2
+  targetIds2:
+    - i_card-ssmk-2-000
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【夢へのリスタート】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-ssmk-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 裏切ったら恨むからね？
+  order: 3
+  targetIds3:
+    - i_card-ssmk-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【Tame-Lie-One-Step】紫雲 清夏のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-ssmk-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: ワンモアステップ
+  order: 1
+  targetIds3:
+    - i_card-ssmk-3-000
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【Tame-Lie-One-Step】紫雲 清夏の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-ssmk-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: Tame-Lie-One-Step
+  order: 2
+  targetIds2:
+    - i_card-ssmk-3-000
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 【Tame-Lie-One-Step】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-ssmk-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: ためらいがあっても、もう一歩
+  order: 3
+  targetIds3:
+    - i_card-ssmk-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【一匹狼】月村 手毬のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-ttmr-002-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: ローン・ウルフ
+  order: 1
+  targetIds3:
+    - i_card-ttmr-2-000
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【一匹狼】月村 手毬の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-ttmr-002-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 一匹狼
+  order: 2
+  targetIds2:
+    - i_card-ttmr-2-000
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【一匹狼】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-ttmr-002-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 一番高いところまで、連れていく
+  order: 3
+  targetIds3:
+    - i_card-ttmr-2-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【Luna say maybe】月村 手毬のプロデュースで最終試験に合格
+  id: achieve-p_idol-card-ttmr-003-1
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  name: それぞれの道
+  order: 1
+  targetIds3:
+    - i_card-ttmr-3-000
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【Luna say maybe】月村 手毬の特訓段階を{threshold}にする
+  id: achieve-p_idol-card-ttmr-003-2
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: Luna say maybe
+  order: 2
+  targetIds2:
+    - i_card-ttmr-3-000
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 【Luna say maybe】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  id: achieve-p_idol-card-ttmr-003-3
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  name: 素直になれない、ひねくれ者の歌
+  order: 3
+  targetIds3:
+    - i_card-ttmr-3-000
+  targetValue: 9
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねでTrue Endをみる
+  id: achieve-p_idol-fktn-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: アイドルになったんだ
+  order: 1
+  targetIds2:
+    - fktn
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-fktn-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: QOL
+  order: 2
+  targetIds1:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねでレッスンを{threshold}回クリア
+  id: achieve-p_idol-fktn-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: イチバンかわいい
+  order: 3
+  targetIds1:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねでSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-fktn-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 世界一かわいい
+  order: 4
+  targetIds1:
+    - fktn
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねで最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-fktn-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 仕事は仕事
+  order: 5
+  targetIds3:
+    - fktn
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねで最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-fktn-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: つまづいてなんていられない
+  order: 6
+  targetIds3:
+    - fktn
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねで最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-fktn-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 成り上がりはここから
+  order: 7
+  targetIds3:
+    - fktn
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのプロデュースを{threshold}回完了
+  id: achieve-p_idol-fktn-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 成り上がれ！
+  order: 8
+  targetIds3:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねの特訓段階を{threshold}にする
+  id: achieve-p_idol-fktn-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 秘めた才能
+  order: 9
+  targetIds1:
+    - fktn
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-fktn-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: もっと褒めてぇ～♡
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのファンを{threshold}人獲得
+  id: achieve-p_idol-fktn-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 初星学園の看板娘
+  order: 11
+  targetIds1:
+    - fktn
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねの親愛度Lvを{threshold}にする
+  id: achieve-p_idol-fktn-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: ぷろでゅ～さぁ～♡
+  order: 12
+  targetIds1:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねでプロデュース評価を合計{threshold}獲得
+  id: achieve-p_idol-fktn-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalScore
+  name: アイドル適正S
+  order: 13
+  targetIds3:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのプロデュースの相談で{threshold}回交換
+  id: achieve-p_idol-fktn-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceShopBuyCount
+  name: やりくり上手
+  order: 14
+  targetIds1:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: fktn
+  description: 藤田 ことねのダンスを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-fktn-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 軽快ステップ
+  order: 15
+  targetIds1:
+    - p_cd-da-1000
+  targetIds2:
+    - fktn
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波でTrue Endをみる
+  id: achieve-p_idol-hrnm-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 本当のきもち
+  order: 1
+  targetIds2:
+    - hrnm
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-hrnm-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: 理想の姉へ
+  order: 2
+  targetIds1:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波でレッスンを{threshold}回クリア
+  id: achieve-p_idol-hrnm-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: ほのかな芽生え
+  order: 3
+  targetIds1:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-hrnm-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: あふれだす想い
+  order: 4
+  targetIds1:
+    - hrnm
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-hrnm-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: あの頃に戻ったみたい
+  order: 5
+  targetIds3:
+    - hrnm
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-hrnm-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: きみの好きな私
+  order: 6
+  targetIds3:
+    - hrnm
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-hrnm-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: お姉さんスイッチ
+  order: 7
+  targetIds3:
+    - hrnm
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のプロデュースを{threshold}回完了
+  id: achieve-p_idol-hrnm-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 今度こそリスタート
+  order: 8
+  targetIds3:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波の特訓段階を{threshold}にする
+  id: achieve-p_idol-hrnm-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: きみの気持ちに応えたい
+  order: 9
+  targetIds1:
+    - hrnm
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-hrnm-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: お姉さんとの約束だよ
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のファンを{threshold}人獲得
+  id: achieve-p_idol-hrnm-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: お姉さんの包容力
+  order: 11
+  targetIds1:
+    - hrnm
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-hrnm-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: 私はきみの……
+  order: 12
+  targetIds1:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波でPドリンクを{threshold}回使用
+  id: achieve-p_idol-hrnm-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUseProduceDrinkCount
+  name: 心に潤いを
+  order: 13
+  targetIds1:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のプロデュースで体力を合計{threshold}消費
+  id: achieve-p_idol-hrnm-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceConsumedStamina
+  name: 真面目にこつこつ
+  order: 14
+  targetIds1:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hrnm
+  description: 姫崎 莉波のビジュアルを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-hrnm-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 優しい笑顔
+  order: 15
+  targetIds1:
+    - p_cd-vi-1000
+  targetIds2:
+    - hrnm
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季でTrue Endをみる
+  id: achieve-p_idol-hski-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 無敵のトップアイドル
+  order: 1
+  targetIds2:
+    - hski
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-hski-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: もう逃げない
+  order: 2
+  targetIds1:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季でレッスンを{threshold}回クリア
+  id: achieve-p_idol-hski-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 入学試験主席の力よ！
+  order: 3
+  targetIds1:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-hski-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 早熟の天才
+  order: 4
+  targetIds1:
+    - hski
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-hski-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 不屈のアイドル
+  order: 5
+  targetIds3:
+    - hski
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-hski-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 最高のお姉ちゃん
+  order: 6
+  targetIds3:
+    - hski
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-hski-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 一世一代の悪あがき
+  order: 7
+  targetIds3:
+    - hski
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のプロデュースを{threshold}回完了
+  id: achieve-p_idol-hski-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 妹への挑戦
+  order: 8
+  targetIds3:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季の特訓段階を{threshold}にする
+  id: achieve-p_idol-hski-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 限界はまだ
+  order: 9
+  targetIds1:
+    - hski
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-hski-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 合格は当たり前
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のファンを{threshold}人獲得
+  id: achieve-p_idol-hski-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 小さなお姉ちゃん
+  order: 11
+  targetIds1:
+    - hski
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-hski-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: 期待してるからっ！
+  order: 12
+  targetIds1:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季でプロデュース評価を合計{threshold}獲得
+  id: achieve-p_idol-hski-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalScore
+  name: トップまで止まらない
+  order: 13
+  targetIds3:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のプロデュースでスキルカードを{threshold}回強化
+  id: achieve-p_idol-hski-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUpgradeProduceCardCount
+  name: 無限の向上心
+  order: 14
+  targetIds1:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: hski
+  description: 花海 咲季のビジュアルを900以上に育成してプロデュースを完了
+  id: achieve-p_idol-hski-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: オールラウンダー
+  order: 15
+  targetIds1:
+    - p_cd-vi-900
+  targetIds2:
+    - hski
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈でTrue Endをみる
+  id: achieve-p_idol-kcna-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: レベル1の駆け出しアイドル
+  order: 1
+  targetIds2:
+    - kcna
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-kcna-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: 練習、練習、また練習
+  order: 2
+  targetIds1:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈でレッスンを{threshold}回クリア
+  id: achieve-p_idol-kcna-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: スタートライン
+  order: 3
+  targetIds1:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-kcna-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 元気一点突破
+  order: 4
+  targetIds1:
+    - kcna
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-kcna-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: ぶっちぎりで最下位ですわ！
+  order: 5
+  targetIds3:
+    - kcna
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-kcna-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: お爺様への反逆
+  order: 6
+  targetIds3:
+    - kcna
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-kcna-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 立派なアイドルに！
+  order: 7
+  targetIds3:
+    - kcna
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のプロデュースを{threshold}回完了
+  id: achieve-p_idol-kcna-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 落ちこぼれからの挑戦
+  order: 8
+  targetIds3:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈の特訓段階を{threshold}にする
+  id: achieve-p_idol-kcna-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 一歩一歩成長中！
+  order: 9
+  targetIds1:
+    - kcna
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-kcna-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 落ちこぼれとは言わせない
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のファンを{threshold}人獲得
+  id: achieve-p_idol-kcna-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 愛されアイドル
+  order: 11
+  targetIds1:
+    - kcna
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-kcna-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: 先生っ！！
+  order: 12
+  targetIds1:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のプロデュースで元気を合計{threshold}獲得
+  id: achieve-p_idol-kcna-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalAdditionExamBlock
+  name: 天真爛漫
+  order: 13
+  targetIds1:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のプロデュースの相談で{threshold}回交換
+  id: achieve-p_idol-kcna-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceShopBuyCount
+  name: 財力
+  order: 14
+  targetIds1:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kcna
+  description: 倉本 千奈のダンスを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-kcna-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: ダメダメだって頑張ってる
+  order: 15
+  targetIds1:
+    - p_cd-da-1000
+  targetIds2:
+    - kcna
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤでTrue Endをみる
+  id: achieve-p_idol-kllj-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 光
+  order: 1
+  targetIds2:
+    - kllj
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-kllj-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: 笑顔の練習
+  order: 2
+  targetIds1:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤでレッスンを{threshold}回クリア
+  id: achieve-p_idol-kllj-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 基本の『き』から
+  order: 3
+  targetIds1:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤでSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-kllj-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: ビシバシやります
+  order: 4
+  targetIds1:
+    - kllj
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤで最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-kllj-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: みんなの前で歌いたい
+  order: 5
+  targetIds3:
+    - kllj
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤで最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-kllj-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: アイドルになります
+  order: 6
+  targetIds3:
+    - kllj
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤで最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-kllj-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 羽ばたいたリーリヤ
+  order: 7
+  targetIds3:
+    - kllj
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのプロデュースを{threshold}回完了
+  id: achieve-p_idol-kllj-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 勇気を出して
+  order: 8
+  targetIds3:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤの特訓段階を{threshold}にする
+  id: achieve-p_idol-kllj-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 歩くような速さだとしても
+  order: 9
+  targetIds1:
+    - kllj
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-kllj-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 走り続けたその先
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのファンを{threshold}人獲得
+  id: achieve-p_idol-kllj-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 真っ直ぐな眼差し
+  order: 11
+  targetIds1:
+    - kllj
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤの親愛度Lvを{threshold}にする
+  id: achieve-p_idol-kllj-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: センパイと一緒なら……
+  order: 12
+  targetIds1:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのプロデュースで元気を合計{threshold}獲得
+  id: achieve-p_idol-kllj-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalAdditionExamBlock
+  name: 大きく声を出して
+  order: 13
+  targetIds1:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのプロデュースでスキルカードを{threshold}回強化
+  id: achieve-p_idol-kllj-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUpgradeProduceCardCount
+  name: 踏み出す勇気
+  order: 14
+  targetIds1:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: kllj
+  description: 葛城 リーリヤのビジュアルを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-kllj-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 楽しませる喜び
+  order: 15
+  targetIds1:
+    - p_cd-vi-1000
+  targetIds2:
+    - kllj
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広でTrue Endをみる
+  id: achieve-p_idol-shro-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: ずっと、楽しいね
+  order: 1
+  targetIds2:
+    - shro
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-shro-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: 課題達成
+  order: 2
+  targetIds1:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広でレッスンを{threshold}回クリア
+  id: achieve-p_idol-shro-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 倒れなかった回数
+  order: 3
+  targetIds1:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-shro-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 辛いほどいい
+  order: 4
+  targetIds1:
+    - shro
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-shro-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 一番向いていない仕事
+  order: 5
+  targetIds3:
+    - shro
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-shro-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 悔しいかもしれない
+  order: 6
+  targetIds3:
+    - shro
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-shro-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 本契約
+  order: 7
+  targetIds3:
+    - shro
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のプロデュースを{threshold}回完了
+  id: achieve-p_idol-shro-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 茨の道
+  order: 8
+  targetIds3:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広の特訓段階を{threshold}にする
+  id: achieve-p_idol-shro-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 次の課題はなに？
+  order: 9
+  targetIds1:
+    - shro
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-shro-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: あたってくだけろ
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のファンを{threshold}人獲得
+  id: achieve-p_idol-shro-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 放っておけない
+  order: 11
+  targetIds1:
+    - shro
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-shro-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: まだ見捨てない？
+  order: 12
+  targetIds1:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広でプロデュース評価を合計{threshold}獲得
+  id: achieve-p_idol-shro-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalScore
+  name: 才能なしでもやれること
+  order: 13
+  targetIds3:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のプロデュースで元気を合計{threshold}獲得
+  id: achieve-p_idol-shro-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceTotalAdditionExamBlock
+  name: 苦難こそ喜び
+  order: 14
+  targetIds1:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: shro
+  description: 篠澤 広のボーカルを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-shro-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: ミステリアスガール
+  order: 15
+  targetIds1:
+    - p_cd-vo-1000
+  targetIds2:
+    - shro
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏でTrue Endをみる
+  id: achieve-p_idol-ssmk-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 踏み出した一歩
+  order: 1
+  targetIds2:
+    - ssmk
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-ssmk-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: まずは遊びから
+  order: 2
+  targetIds1:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏でレッスンを{threshold}回クリア
+  id: achieve-p_idol-ssmk-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: センスは抜群
+  order: 3
+  targetIds1:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-ssmk-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: 前を向いて
+  order: 4
+  targetIds1:
+    - ssmk
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-ssmk-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: そこまで言うならやってあげる！
+  order: 5
+  targetIds3:
+    - ssmk
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-ssmk-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: その嘘が本当になるまで
+  order: 6
+  targetIds3:
+    - ssmk
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-ssmk-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: ケジメとキズナと
+  order: 7
+  targetIds3:
+    - ssmk
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のプロデュースを{threshold}回完了
+  id: achieve-p_idol-ssmk-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 諦められない
+  order: 8
+  targetIds3:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏の特訓段階を{threshold}にする
+  id: achieve-p_idol-ssmk-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: 明けない夜を終わらせて
+  order: 9
+  targetIds1:
+    - ssmk
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-ssmk-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 本気を出せば
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のファンを{threshold}人獲得
+  id: achieve-p_idol-ssmk-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: トモダチ
+  order: 11
+  targetIds1:
+    - ssmk
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-ssmk-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: ありがと、Pっち
+  order: 12
+  targetIds1:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏でPドリンクを{threshold}回使用
+  id: achieve-p_idol-ssmk-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUseProduceDrinkCount
+  name: 流行りはバッチリ
+  order: 13
+  targetIds1:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のプロデュースで体力を合計{threshold}消費
+  id: achieve-p_idol-ssmk-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceConsumedStamina
+  name: 調子いいかも♪
+  order: 14
+  targetIds1:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ssmk
+  description: 紫雲 清夏のダンスを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-ssmk-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 未来へのステップ
+  order: 15
+  targetIds1:
+    - p_cd-da-1000
+  targetIds2:
+    - ssmk
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬でTrue Endをみる
+  id: achieve-p_idol-ttmr-000
+  isTrueEndAchievement: true
+  masterAchievementInitialRank: 3
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  name: 私だけのプロデューサー
+  order: 1
+  targetIds2:
+    - ttmr
+  targetIds3:
+    - TrueEnd
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のプロデュースでスキルカードを{threshold}回使用
+  id: achieve-p_idol-ttmr-001
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  name: 体質改善
+  order: 2
+  targetIds1:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬でレッスンを{threshold}回クリア
+  id: achieve-p_idol-ttmr-002
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: ストイック
+  order: 3
+  targetIds1:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬でSPレッスンを{threshold}回クリア
+  id: achieve-p_idol-ttmr-003
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceLessonClearCount
+  name: ワンマンシンガー
+  order: 4
+  targetIds1:
+    - ttmr
+  targetIds3:
+    - LessonVocalSp
+    - LessonDanceSp
+    - LessonVisualSp
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬で最終試験に合格して評価B以上を{threshold}回獲得
+  id: achieve-p_idol-ttmr-004
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 失望させないで
+  order: 5
+  targetIds3:
+    - ttmr
+  targetValue: 6
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬で最終試験に合格して評価A以上を{threshold}回獲得
+  id: achieve-p_idol-ttmr-005
+  masterAchievementInitialRank: 2
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 2人の秘密
+  order: 6
+  targetIds3:
+    - ttmr
+  targetValue: 8
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬で最終試験に合格して評価S以上を{threshold}回獲得
+  id: achieve-p_idol-ttmr-006
+  masterAchievementInitialRank: 3
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  name: 一番高いところまで
+  order: 7
+  targetIds3:
+    - ttmr
+  targetValue: 10
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のプロデュースを{threshold}回完了
+  id: achieve-p_idol-ttmr-007
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  name: 意地とプライド
+  order: 8
+  targetIds3:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬の特訓段階を{threshold}にする
+  id: achieve-p_idol-ttmr-008
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  name: どこまでも高く
+  order: 9
+  targetIds1:
+    - ttmr
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のプロデュースで最終試験に{threshold}回合格
+  id: achieve-p_idol-ttmr-009
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 当然です
+  order: 10
+  targetIds1:
+    - p_cd-final_audition_clear
+  targetIds2:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のファンを{threshold}人獲得
+  id: achieve-p_idol-ttmr-010
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteFanCount
+  name: 孤高の負けず嫌い
+  order: 11
+  targetIds1:
+    - ttmr
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬の親愛度Lvを{threshold}にする
+  id: achieve-p_idol-ttmr-011
+  masterAchievementInitialRank: 1
+  missionType: MissionType_AbsoluteDearnessLevel
+  name: そんなに私がいいんだ？
+  order: 12
+  targetIds1:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のプロデュースでスキルカードを{threshold}回強化
+  id: achieve-p_idol-ttmr-012
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceUpgradeProduceCardCount
+  name: 全身全霊
+  order: 13
+  targetIds1:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のプロデュースの相談で{threshold}回交換
+  id: achieve-p_idol-ttmr-013
+  masterAchievementInitialRank: 1
+  missionType: MissionType_IncrementProduceShopBuyCount
+  name: 妥協はナシ
+  order: 14
+  targetIds1:
+    - ttmr
+  viewProduceResult: true
+- category: AchievementCategory_Idol
+  characterId: ttmr
+  description: 月村 手毬のボーカルを1000以上に育成してプロデュースを完了
+  id: achieve-p_idol-ttmr-014
+  masterAchievementInitialRank: 1
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  name: 歌姫
+  order: 15
+  targetIds1:
+    - p_cd-vo-1000
+  targetIds2:
+    - ttmr
+  viewProduceResult: true
