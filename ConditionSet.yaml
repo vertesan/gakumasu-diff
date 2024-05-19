@@ -1,3 +1,27 @@
+- afterTime: "0"
+  beforeTime: "0"
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MainTaskCompleted
+  description: ""
+  id: cd_app-review_main-task-clear-01-14
+  max: "0"
+  min: "0"
+  minMaxType: ConditionMinMaxType_Unknown
+  number: 1
+  resourceId1: main_task_group-01-01#14
+  resourceId2: ""
+- afterTime: "0"
+  beforeTime: "0"
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  description: ""
+  id: cd_app-review-mission-clear
+  max: "0"
+  min: "1"
+  minMaxType: ConditionMinMaxType_Unknown
+  number: 1
+  resourceId1: hidden_mission-app-review-main-task-clear
+  resourceId2: ""
 - afterTime: "7226550000000"
   beforeTime: "7226550000000"
   conditionOperatorType: ConditionOperatorType_And
@@ -8049,6 +8073,30 @@
   minMaxType: ConditionMinMaxType_Unknown
   number: 10
   resourceId1: mission-normal-incrementmemorygradecount-s-1
+  resourceId2: ""
+- afterTime: "0"
+  beforeTime: "0"
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  description: ""
+  id: cd-not_app-review_main-task-clear-01-14
+  max: "0"
+  min: "0"
+  minMaxType: ConditionMinMaxType_Unknown
+  number: 1
+  resourceId1: cd_app-review_main-task-clear-01-14
+  resourceId2: ""
+- afterTime: "0"
+  beforeTime: "0"
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  description: ""
+  id: cd-not_app-review-mission-clear
+  max: "0"
+  min: "0"
+  minMaxType: ConditionMinMaxType_Unknown
+  number: 1
+  resourceId1: cd_app-review-mission-clear
   resourceId2: ""
 - afterTime: "0"
   beforeTime: "0"

@@ -1,4 +1,21 @@
 - category: MissionCategory_Normal
+  id: hidden_mission-app-review-main-task-clear
+  isEventMission: false
+  isLessThanTargetValue: false
+  missionDailyReleaseDay: 0
+  missionDailyReleaseGroupId: ""
+  missionGroupId: ""
+  name: 課題14クリアしていない
+  order: 999
+  targetIds1:
+    - cd-not_app-review_main-task-clear-01-14
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  type: MissionType_ConditionClear
+  unlockConditionSetId: ""
+  viewConditionSetId: cd_close
+- category: MissionCategory_Normal
   id: hidden_mission-normal-amao-piece-pack-remind
   isEventMission: false
   isLessThanTargetValue: false
