@@ -1,4 +1,5 @@
 - examProduceDescriptionId: Label_ExamLesson
+  mainBuffMinThresholds: []
   name: パラメータ
   noIcon: true
   noReference: true
@@ -10,32 +11,48 @@
     - 3
     - 5
   name: 好調
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamParameterBuff
   swapName: 好調
   type: ProduceExamEffectType_ExamParameterBuff
 - examProduceDescriptionId: Label_ExamBlock
+  mainBuffMinThresholds: []
   name: 元気
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamBlock
   swapName: 元気
   type: ProduceExamEffectType_ExamBlock
 - examProduceDescriptionId: Label_ExamCardDraw
+  mainBuffMinThresholds: []
   name: スキルカードを引く
+  noIcon: false
   noReference: true
   produceDescriptionId: Label_ExamCardDraw
   swapName: スキルカードを引く
   type: ProduceExamEffectType_ExamCardDraw
 - examProduceDescriptionId: Label_ExamStaminaConsumptionDown
+  mainBuffMinThresholds: []
   name: 消費体力減少
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionDown
   swapName: 消費体力減少
   type: ProduceExamEffectType_ExamStaminaConsumptionDown
 - examProduceDescriptionId: Label_ExamCardCreateId
+  mainBuffMinThresholds: []
   name: 生成
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardCreateId
   swapName: 生成
   type: ProduceExamEffectType_ExamCardCreateId
 - examProduceDescriptionId: Label_ExamStaminaReduceFix
+  mainBuffMinThresholds: []
   name: 体力消費
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaReduceFix
   swapName: 体力消費
   type: ProduceExamEffectType_ExamStaminaReduceFix
@@ -44,51 +61,80 @@
     - 5
     - 10
   name: 集中
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonBuff_Produce
   swapName: 集中
   type: ProduceExamEffectType_ExamLessonBuff
 - examProduceDescriptionId: Label_ExamCardUpgrade
+  mainBuffMinThresholds: []
   name: レッスン中強化
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardUpgrade
   swapName: 試験中強化
   type: ProduceExamEffectType_ExamCardUpgrade
 - examProduceDescriptionId: Label_ExamPlayableValueAdd_Exam
+  mainBuffMinThresholds: []
   name: スキルカード使用数追加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamPlayableValueAdd_Produce
   swapName: スキルカード使用数追加
   type: ProduceExamEffectType_ExamPlayableValueAdd
 - examProduceDescriptionId: Label_ExamLessonBuffMultiple
+  mainBuffMinThresholds: []
   name: 集中効果一時増加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonBuffMultiple
   swapName: 集中効果一時増加
   type: ProduceExamEffectType_ExamLessonBuffMultiple
 - examProduceDescriptionId: Label_ExamCardStaminaConsumptionChange
+  mainBuffMinThresholds: []
   name: 消費体力変化
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardStaminaConsumptionChange
   swapName: 消費体力変化
   type: ProduceExamEffectType_ExamCardStaminaConsumptionChange
 - examProduceDescriptionId: Label_ExamBlockRestriction
+  mainBuffMinThresholds: []
   name: 元気増加無効
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamBlockRestriction
   swapName: 元気増加無効
   type: ProduceExamEffectType_ExamBlockRestriction
 - examProduceDescriptionId: Label_ExamStatusEnchant
+  mainBuffMinThresholds: []
   name: 持続効果
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStatusEnchant
   swapName: 持続効果
   type: ProduceExamEffectType_ExamStatusEnchant
 - examProduceDescriptionId: Label_ExamCardStaminaConsumptionDownSpecify
+  mainBuffMinThresholds: []
   name: 消費体力低下
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardStaminaConsumptionDownSpecify
   swapName: 消費体力低下
   type: ProduceExamEffectType_ExamCardStaminaConsumptionDownSpecify
 - examProduceDescriptionId: Label_ExamLessonFix
+  mainBuffMinThresholds: []
   name: 固定パラメータ
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonFix
   swapName: 固定スコア
   type: ProduceExamEffectType_ExamLessonFix
 - examProduceDescriptionId: Label_ExamCardDuplicate
+  mainBuffMinThresholds: []
   name: 複製
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardDuplicate
   swapName: 複製
   type: ProduceExamEffectType_ExamCardDuplicate
@@ -97,16 +143,24 @@
     - 5
     - 10
   name: 好印象
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamReview_Produce
   swapName: 好印象
   type: ProduceExamEffectType_ExamReview
 - examProduceDescriptionId: Label_ExamCardSearchEffectPlayCountBuff
+  mainBuffMinThresholds: []
   name: スキルカード追加発動
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardSearchEffectPlayCountBuff
   swapName: スキルカード追加発動
   type: ProduceExamEffectType_ExamCardSearchEffectPlayCountBuff
 - examProduceDescriptionId: Label_ExamLessonValueMultiple
+  mainBuffMinThresholds: []
   name: パラメータ上昇量増加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonValueMultiple
   swapName: スコア上昇量増加
   type: ProduceExamEffectType_ExamLessonValueMultiple
@@ -115,21 +169,32 @@
     - 5
     - 10
   name: やる気
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamCardPlayAggressive_Produce
   swapName: やる気
   type: ProduceExamEffectType_ExamCardPlayAggressive
 - examProduceDescriptionId: Label_ExamConcentration
+  mainBuffMinThresholds: []
   name: 強気
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamConcentration
   swapName: 強気
   type: ProduceExamEffectType_ExamConcentration
 - examProduceDescriptionId: Label_ExamPreservation
+  mainBuffMinThresholds: []
   name: 温存
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamPreservation
   swapName: 温存
   type: ProduceExamEffectType_ExamPreservation
 - examProduceDescriptionId: Label_ExamFullPower_Exam
+  mainBuffMinThresholds: []
   name: 全力
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamFullPower_Produce
   swapName: 全力
   type: ProduceExamEffectType_ExamFullPower
@@ -138,157 +203,248 @@
     - 5
     - 10
   name: 全力値
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamFullPowerPoint
   swapName: 全力値
   type: ProduceExamEffectType_ExamFullPowerPoint
 - examProduceDescriptionId: Label_ExamSearchPlayCardStaminaConsumptionChange
+  mainBuffMinThresholds: []
   name: 消費体力変化
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamSearchPlayCardStaminaConsumptionChange
   swapName: 消費体力変化
   type: ProduceExamEffectType_ExamSearchPlayCardStaminaConsumptionChange
 - examProduceDescriptionId: Label_ExamUplifting_Exam
+  mainBuffMinThresholds: []
   name: 高揚
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamUplifting_Produce
   swapName: 高揚
   type: ProduceExamEffectType_ExamUplifting
 - examProduceDescriptionId: Label_ExamExtraTurn
+  mainBuffMinThresholds: []
   name: ターン追加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamExtraTurn
   swapName: ターン追加
   type: ProduceExamEffectType_ExamExtraTurn
 - examProduceDescriptionId: Label_ExamAntiDebuff
+  mainBuffMinThresholds: []
   name: 低下状態無効
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamAntiDebuff
   swapName: 低下状態無効
   type: ProduceExamEffectType_ExamAntiDebuff
 - examProduceDescriptionId: Label_ExamStaminaConsumptionAdd
+  mainBuffMinThresholds: []
   name: 消費体力増加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionAdd
   swapName: 消費体力増加
   type: ProduceExamEffectType_ExamStaminaConsumptionAdd
 - examProduceDescriptionId: Label_ExamBlockAddDown
+  mainBuffMinThresholds: []
   name: 不安
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamBlockAddDown
   swapName: 不安
   type: ProduceExamEffectType_ExamBlockAddDown
 - examProduceDescriptionId: Label_ExamBlockAddDownRestriction
+  mainBuffMinThresholds: []
   name: 不安無効
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamBlockAddDownRestriction
   swapName: 不安無効
   type: ProduceExamEffectType_ExamBlockAddDownRestriction
 - examProduceDescriptionId: Label_ExamStaminaRecoverAdd
+  mainBuffMinThresholds: []
   name: 体力回復効果増加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaRecoverAdd
   swapName: 体力回復効果増加
   type: ProduceExamEffectType_ExamStaminaRecoverAdd
 - examProduceDescriptionId: Label_ExamStaminaReduceChange
+  mainBuffMinThresholds: []
   name: 体力消費軽減
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaReduceChange
   swapName: 体力消費軽減
   type: ProduceExamEffectType_ExamStaminaReduceChange
 - examProduceDescriptionId: Label_ExamPanic
+  mainBuffMinThresholds: []
   name: 気まぐれ
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamPanic
   swapName: 気まぐれ
   type: ProduceExamEffectType_ExamPanic
 - examProduceDescriptionId: Label_ExamLessonChangeSpecifyLessThan
+  mainBuffMinThresholds: []
   name: パラメータ上昇値変更
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonChangeSpecifyLessThan
   swapName: スコア上昇値変更
   type: ProduceExamEffectType_ExamLessonChangeSpecifyLessThan
 - examProduceDescriptionId: Label_ExamHandHold
+  mainBuffMinThresholds: []
   name: 手札持ち越し
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamHandHold
   swapName: 手札持ち越し
   type: ProduceExamEffectType_ExamHandHold
 - examProduceDescriptionId: Label_ExamStaminaConsumptionAddFix
+  mainBuffMinThresholds: []
   name: 消費体力追加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionAddFix
   swapName: 消費体力追加
   type: ProduceExamEffectType_ExamStaminaConsumptionAddFix
 - examProduceDescriptionId: Label_ExamStaminaConsumptionAddDown
+  mainBuffMinThresholds: []
   name: 消費体力増加効果減少
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionAddDown
   swapName: 消費体力増加効果減少
   type: ProduceExamEffectType_ExamStaminaConsumptionAddDown
 - examProduceDescriptionId: Label_ExamStaminaRecoverRestriction
+  mainBuffMinThresholds: []
   name: 体力回復不可
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaRecoverRestriction
   swapName: 体力回復不可
   type: ProduceExamEffectType_ExamStaminaRecoverRestriction
 - examProduceDescriptionId: Label_ExamStaminaConsumptionDownAdd
+  mainBuffMinThresholds: []
   name: 消費体力減少効果増加
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionDownAdd
   swapName: 消費体力減少効果増加
   type: ProduceExamEffectType_ExamStaminaConsumptionDownAdd
 - examProduceDescriptionId: Label_ExamGetCardUpgrade
+  mainBuffMinThresholds: []
   name: 生成強化
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGetCardUpgrade
   swapName: 生成強化
   type: ProduceExamEffectType_ExamGetCardUpgrade
 - examProduceDescriptionId: Label_ExamStaminaConsumptionDownFix
+  mainBuffMinThresholds: []
   name: 消費体力削減
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamStaminaConsumptionDownFix
   swapName: 消費体力削減
   type: ProduceExamEffectType_ExamStaminaConsumptionDownFix
 - examProduceDescriptionId: Label_ExamHandGraveCountCardDraw
+  mainBuffMinThresholds: []
   name: 手札を入れ替える
+  noIcon: false
   noReference: true
   produceDescriptionId: Label_ExamHandGraveCountCardDraw
   swapName: 手札を入れ替える
   type: ProduceExamEffectType_ExamHandGraveCountCardDraw
 - examProduceDescriptionId: Label_ExamEffectTimer
+  mainBuffMinThresholds: []
   name: 発動予約
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamEffectTimer
   swapName: 発動予約
   type: ProduceExamEffectType_ExamEffectTimer
 - examProduceDescriptionId: Label_ExamGimmickLessonDebuff_Exam
+  mainBuffMinThresholds: []
   name: 集中減少
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickLessonDebuff_Produce
   swapName: 集中減少
   type: ProduceExamEffectType_ExamGimmickLessonDebuff
 - examProduceDescriptionId: Label_ExamGimmickParameterDebuff
+  mainBuffMinThresholds: []
   name: 不調
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickParameterDebuff
   swapName: 不調
   type: ProduceExamEffectType_ExamGimmickParameterDebuff
 - examProduceDescriptionId: Label_ExamGimmickSleepy_Exam
+  mainBuffMinThresholds: []
   name: 弱気
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickSleepy_Produce
   swapName: 弱気
   type: ProduceExamEffectType_ExamGimmickSleepy
 - examProduceDescriptionId: Label_ExamGimmickEnthusiastic_Exam
+  mainBuffMinThresholds: []
   name: 熱意
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickEnthusiastic_Produce
   swapName: 熱意
   type: ProduceExamEffectType_ExamGimmickEnthusiastic
 - examProduceDescriptionId: Label_ExamGimmickPlayCardLimit
+  mainBuffMinThresholds: []
   name: 使用不可
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickPlayCardLimit
   swapName: 使用不可
   type: ProduceExamEffectType_ExamGimmickPlayCardLimit
 - examProduceDescriptionId: Label_ExamGimmickSlump
+  mainBuffMinThresholds: []
   name: スランプ
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickSlump
   swapName: スランプ
   type: ProduceExamEffectType_ExamGimmickSlump
 - examProduceDescriptionId: Label_ExamGimmickStartTurnCardDrawDown_Exam
+  mainBuffMinThresholds: []
   name: 手札減少
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamGimmickStartTurnCardDrawDown_Produce
   swapName: 手札減少
   type: ProduceExamEffectType_ExamGimmickStartTurnCardDrawDown
 - examProduceDescriptionId: Label_ExamBlockFix
+  mainBuffMinThresholds: []
   name: 固定元気
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamBlockFix
   swapName: 固定元気
   type: ProduceExamEffectType_ExamBlockFix
 - examProduceDescriptionId: Label_ExamLessonChangeSpecifyMoreThan
+  mainBuffMinThresholds: []
   name: うわの空
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamLessonChangeSpecifyMoreThan
   swapName: うわの空
   type: ProduceExamEffectType_ExamLessonChangeSpecifyMoreThan
 - examProduceDescriptionId: Label_ExamParameterBuffMultiplePerTurn
+  mainBuffMinThresholds: []
   name: 絶好調
+  noIcon: false
+  noReference: false
   produceDescriptionId: Label_ExamParameterBuffMultiplePerTurn
   swapName: 絶好調
   type: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn

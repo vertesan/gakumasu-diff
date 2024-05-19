@@ -1,10 +1,20 @@
 - assetId: img_general_pdrink_1-001
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamLesson
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamLesson
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamLesson
+      targetLevel: 0
       text: パラメータ
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+10</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+10</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_lesson-000
@@ -15,13 +25,24 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_lesson-0010-01
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_1-004
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamBlock
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamBlock
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamBlock
+      targetLevel: 0
       text: 元気
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+7</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+7</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_block-000
@@ -32,11 +53,24 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_block-0007
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_2-001
   descriptions:
-    - text: 手札をすべて入れ替える
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 手札をすべて入れ替える
       type: ProduceDescriptionType_PlainText
-    - text: |2-
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: |2-
         体力回復<nobr>2</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
@@ -53,7 +87,13 @@
   unlockProducerLevel: 8
 - assetId: img_general_pdrink_2-003
   descriptions:
-    - text: 体力回復<nobr>6</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 体力回復<nobr>6</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-stamina_recover_fix-000
@@ -67,13 +107,29 @@
   unlockProducerLevel: 15
 - assetId: img_general_pdrink_2-004
   descriptions:
-    - text: 手札をすべて
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 手札をすべて
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamCardUpgrade
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamCardUpgrade
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamCardUpgrade
+      targetLevel: 0
       text: レッスン中強化
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: |2-
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: |2-
         体力回復<nobr>3</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
@@ -87,13 +143,24 @@
     - p_drink_effect-e_effect-exam_card_upgrade-p_card_search-hand-all-0_0
     - p_drink_effect-e_effect-exam_stamina_recover_fix-0003
   rarity: ProduceDrinkRarity_Sr
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_3-001
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamPlayableValueAdd_Produce
+      targetLevel: 0
       text: スキルカード使用数追加
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+1</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+1</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_playable_value_add-000
@@ -104,14 +171,26 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_playable_value_add-01
   rarity: ProduceDrinkRarity_Ssr
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_3-005
   descriptions:
-    - text: ランダムな強化済みスキルカード（SSR）を、手札に
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: ランダムな強化済みスキルカード（SSR）を、手札に
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamCardCreateId
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamCardCreateId
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamCardCreateId
+      targetLevel: 0
       text: 生成
       type: ProduceDescriptionType_ProduceExamEffectType
+  effectGroupIds: []
   id: pdrink_00-3-005
   name: 初星スペシャル青汁
   order: "300010000005"
@@ -122,11 +201,21 @@
   unlockProducerLevel: 15
 - assetId: img_general_pdrink_1-002
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamParameterBuff
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamParameterBuff
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamParameterBuff
+      targetLevel: 0
       text: 好調
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>3ターン</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>3ターン</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_parameter_buff-000
@@ -137,13 +226,24 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_parameter_buff-03
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_1-003
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamLessonBuff
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamLessonBuff_Produce
+      targetLevel: 0
       text: 集中
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+3</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+3</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_lesson_buff-000
@@ -154,21 +254,48 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_lesson_buff-0003
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_2-005
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamParameterBuffMultiplePerTurn
+      targetLevel: 0
       text: 絶好調
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>1ターン</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>1ターン</nobr>
       type: ProduceDescriptionType_PlainText
-    - text: |2+
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: |2+
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamBlock
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamBlock
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamBlock
+      targetLevel: 0
       text: 元気
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+9</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+9</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_block-000
@@ -184,13 +311,29 @@
   unlockProducerLevel: 21
 - assetId: img_general_pdrink_3-002
   descriptions:
-    - text: 以降、ターン終了時、
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 以降、ターン終了時、
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamLessonBuff
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamLessonBuff
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamLessonBuff_Produce
+      targetLevel: 0
       text: 集中
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+1</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+1</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_status_enchant-000
@@ -205,17 +348,37 @@
   unlockProducerLevel: 27
 - assetId: img_general_pdrink_3-004
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamParameterBuffMultiplePerTurn
+      targetLevel: 0
       text: 絶好調
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>2ターン</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>2ターン</nobr>
       type: ProduceDescriptionType_PlainText
-    - text: |2-
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: |2-
         手札をすべて
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamCardUpgrade
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamCardUpgrade
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamCardUpgrade
+      targetLevel: 0
       text: レッスン中強化
       type: ProduceDescriptionType_ProduceExamEffectType
   effectGroupIds:
@@ -232,11 +395,21 @@
   unlockProducerLevel: 26
 - assetId: img_general_pdrink_1-006
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamReview
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamReview
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamReview_Produce
+      targetLevel: 0
       text: 好印象
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+3</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+3</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_review-000
@@ -247,13 +420,24 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_review-0003
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_1-008
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamCardPlayAggressive_Produce
+      targetLevel: 0
       text: やる気
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+3</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+3</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_card_play_aggressive-000
@@ -264,27 +448,64 @@
   produceDrinkEffectIds:
     - p_drink_effect-e_effect-exam_card_play_aggressive-0003
   rarity: ProduceDrinkRarity_R
+  unlockProducerLevel: 0
 - assetId: img_general_pdrink_2-006
   descriptions:
-    - examEffectType: ProduceExamEffectType_ExamReview
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamReview
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamReview_Produce
+      targetLevel: 0
       text: 好印象
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: の<nobr>100%</nobr>分
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: の<nobr>100%</nobr>分
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamLesson
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamLesson
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamLesson
+      targetLevel: 0
       text: パラメータ
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: 上昇
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 上昇
       type: ProduceDescriptionType_PlainText
-    - text: |2+
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: |2+
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamBlock
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamBlock
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamBlock
+      targetLevel: 0
       text: 元気
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+3</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+3</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_lesson-000
@@ -300,13 +521,29 @@
   unlockProducerLevel: 21
 - assetId: img_general_pdrink_3-006
   descriptions:
-    - text: 以降、ターン終了時、
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 以降、ターン終了時、
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamReview
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamReview
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamReview_Produce
+      targetLevel: 0
       text: 好印象
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+1</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+1</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_status_enchant-000
@@ -321,13 +558,29 @@
   unlockProducerLevel: 27
 - assetId: img_general_pdrink_3-007
   descriptions:
-    - text: 以降、ターン終了時、
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: 以降、ターン終了時、
       type: ProduceDescriptionType_PlainText
-    - examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
       targetId: Label_ExamCardPlayAggressive_Produce
+      targetLevel: 0
       text: やる気
       type: ProduceDescriptionType_ProduceExamEffectType
-    - text: <nobr>+1</nobr>
+    - changeColor: false
+      examEffectType: ProduceExamEffectType_Unknown
+      isOnlyOutGame: false
+      produceCardCategory: ProduceCardCategory_Unknown
+      targetId: ""
+      targetLevel: 0
+      text: <nobr>+1</nobr>
       type: ProduceDescriptionType_PlainText
   effectGroupIds:
     - effect_group-visible-exam_status_enchant-000

@@ -1,51 +1,93 @@
-- description: 1回ガシャ
+- appealText: ""
+  appealType: GashaButtonAppealType_Unknown
+  description: 1回ガシャ
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_button-001-01
+  limitCount: 0
   limitType: GashaLimitType_None
+  maxDrawCount: 0
   name: 1回ガシャ
   order: 2
+  resourceId: ""
   resourceQuantity: 250
   resourceType: ResourceType_JewelTotal
   rewardCount: 1
   type: GashaButtonType_Static
+  unlockConditionSetId: ""
   viewConditionSetId: cd_gasha_not_have_ticket_1
-- appealType: GashaButtonAppealType_DrawableCount
+- appealText: ""
+  appealType: GashaButtonAppealType_DrawableCount
   description: 1日1回ガシャ
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_button-001-01-discount
   limitCount: 1
   limitType: GashaLimitType_Daily
+  maxDrawCount: 0
   name: 1日1回ガシャ
   order: 1
+  resourceId: ""
   resourceQuantity: 60
   resourceType: ResourceType_JewelPaidOnly
   rewardCount: 1
   type: GashaButtonType_Static
+  unlockConditionSetId: ""
+  viewConditionSetId: ""
 - appealText: SR以上1枚確定
   appealType: GashaButtonAppealType_AppealText
   description: 10回ガシャ
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
   fixRewardCount: 1
   id: gasha_button-001-10
+  limitCount: 0
   limitType: GashaLimitType_None
+  maxDrawCount: 0
   name: 10回ガシャ
   order: 3
+  resourceId: ""
   resourceQuantity: 2500
   resourceType: ResourceType_JewelTotal
   rewardCount: 9
   type: GashaButtonType_Static
+  unlockConditionSetId: ""
   viewConditionSetId: cd_gasha_not_have_ticket_10
-- appealType: GashaButtonAppealType_FixSsr
+- appealText: ""
+  appealType: GashaButtonAppealType_FixSsr
   description: 10回ガシャ
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
   fixRewardCount: 1
   id: gasha_button-001-10-ssr
   limitCount: 1
   limitType: GashaLimitType_Total
+  maxDrawCount: 0
   name: 10回ガシャ
   order: 1
+  resourceId: ""
   resourceQuantity: 2500
   resourceType: ResourceType_JewelPaidOnly
   rewardCount: 9
   type: GashaButtonType_Static
-- description: チケットで引く
+  unlockConditionSetId: ""
+  viewConditionSetId: ""
+- appealText: ""
+  appealType: GashaButtonAppealType_Unknown
+  description: チケットで引く
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_button-001-ticket
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 10
   name: チケットで引く
   order: 2
@@ -54,12 +96,18 @@
   resourceType: ResourceType_Item
   rewardCount: 1
   type: GashaButtonType_Dynamic
+  unlockConditionSetId: ""
   viewConditionSetId: cd_gasha_have_ticket_1
 - appealText: SR以上1枚確定
   appealType: GashaButtonAppealType_AppealText
   description: 10回チケットガシャ
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
   fixRewardCount: 1
   id: gasha_button-010-ticket
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 1
   name: 10回チケットガシャ
   order: 3
@@ -68,11 +116,18 @@
   resourceType: ResourceType_Item
   rewardCount: 9
   type: GashaButtonType_Dynamic
+  unlockConditionSetId: ""
   viewConditionSetId: cd_gasha_have_ticket_10
-- appealType: GashaButtonAppealType_FixSsr
+- appealText: ""
+  appealType: GashaButtonAppealType_FixSsr
   description: SSR確定10連
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
   fixRewardCount: 1
   id: gasha_ticket_ssr_10_button-001
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 1
   name: SSR確定チケットで引く
   order: 1
@@ -81,10 +136,18 @@
   resourceType: ResourceType_Item
   rewardCount: 9
   type: GashaButtonType_Dynamic
+  unlockConditionSetId: ""
   viewConditionSetId: cd_gasha_have_ticket-ssr-fix_10
-- appealType: GashaButtonAppealType_FixSsr
+- appealText: ""
+  appealType: GashaButtonAppealType_FixSsr
   description: SSR確定1連
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_ticket_ssr_button
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 1
   name: SSR確定チケットで引く
   order: 1
@@ -93,9 +156,18 @@
   resourceType: ResourceType_Item
   rewardCount: 1
   type: GashaButtonType_Dynamic
-- appealType: GashaButtonAppealType_FixSsr
+  unlockConditionSetId: ""
+  viewConditionSetId: ""
+- appealText: ""
+  appealType: GashaButtonAppealType_FixSsr
   description: SSRアイドル確定1連
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_ticket_ssr_button_idol
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 1
   name: SSR確定チケットで引く
   order: 1
@@ -104,9 +176,18 @@
   resourceType: ResourceType_Item
   rewardCount: 1
   type: GashaButtonType_Dynamic
-- appealType: GashaButtonAppealType_FixSsr
+  unlockConditionSetId: ""
+  viewConditionSetId: ""
+- appealText: ""
+  appealType: GashaButtonAppealType_FixSsr
   description: SSRサポート確定1連
+  discountLimitCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountResourceQuantity: 0
+  fixRewardCount: 0
   id: gasha_ticket_ssr_button_support
+  limitCount: 0
+  limitType: GashaLimitType_Unknown
   maxDrawCount: 1
   name: SSR確定チケットで引く
   order: 1
@@ -115,3 +196,5 @@
   resourceType: ResourceType_Item
   rewardCount: 1
   type: GashaButtonType_Dynamic
+  unlockConditionSetId: ""
+  viewConditionSetId: ""

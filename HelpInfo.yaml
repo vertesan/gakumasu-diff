@@ -31,26 +31,42 @@
     - help-idol
     - help-lesson
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: ScheduleRefresh
-- type: ScheduleStoryPlayer
-- type: ScheduleStepTransition
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: ScheduleStoryPlayer
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: ScheduleStepTransition
 - helpCategoryIds:
     - help-produce
     - help-idol
     - help-lesson
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: RemainActivateEffect
-- type: Exam
-- type: ExamResult
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: Exam
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: ExamResult
 - helpCategoryIds:
     - help-produce
     - help-lesson
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: AuditionBattleResult
 - helpCategoryIds:
     - help-produce
     - help-lesson
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: AuditionBattleStart
 - helpCategoryIds:
     - help-produce
@@ -75,6 +91,7 @@
 - helpCategoryIds:
     - help-memory
   openHelpCategoryId: help-memory
+  openHelpContentId: ""
   type: ProduceMemoryDetail
 - helpCategoryIds:
     - help-produce
@@ -89,6 +106,7 @@
 - helpCategoryIds:
     - help-produce
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: ProduceSelectInfoDetail
 - helpCategoryIds:
     - help-produce
@@ -103,12 +121,17 @@
 - helpCategoryIds:
     - help-home
   openHelpCategoryId: help-home
+  openHelpContentId: ""
   type: HomeTop
 - helpCategoryIds:
     - help-gasha
   openHelpCategoryId: help-gasha
+  openHelpContentId: ""
   type: HomeGashaResult
-- type: HomeGashaAnimation
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: HomeGashaAnimation
 - helpCategoryIds:
     - help-idol
   openHelpCategoryId: help-idol
@@ -203,11 +226,14 @@
 - helpCategoryIds:
     - help-produce
   openHelpCategoryId: help-produce
+  openHelpContentId: ""
   type: ProduceSelectInfo
 - helpCategoryIds:
     - help-produce
     - help-support
     - help-memory
+  openHelpCategoryId: ""
+  openHelpContentId: ""
   type: ProduceDeckTemplateEdit
 - helpCategoryIds:
     - help-memory
@@ -217,6 +243,7 @@
 - helpCategoryIds:
     - help-memory
   openHelpCategoryId: help-memory
+  openHelpContentId: ""
   type: MemoryDetail
 - helpCategoryIds:
     - help-memory
@@ -226,13 +253,17 @@
 - helpCategoryIds:
     - help-shop
   openHelpCategoryId: help-shop
+  openHelpContentId: ""
   type: ShopTop
 - helpCategoryIds:
     - help-shop
   openHelpCategoryId: help-shop
   openHelpContentId: shop-coingasha
   type: CoinGashaTop
-- type: CoinGashaResult
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: CoinGashaResult
 - helpCategoryIds:
     - help-shop
   openHelpCategoryId: help-shop
@@ -286,10 +317,12 @@
 - helpCategoryIds:
     - help-shop
   openHelpCategoryId: help-shop
+  openHelpContentId: ""
   type: ItemExchange
 - helpCategoryIds:
     - help-home
   openHelpCategoryId: help-home
+  openHelpContentId: ""
   type: PresentTop
 - helpCategoryIds:
     - help-menu
@@ -324,6 +357,7 @@
 - helpCategoryIds:
     - help-mission
   openHelpCategoryId: help-mission
+  openHelpContentId: ""
   type: MissionTop
 - helpCategoryIds:
     - help-mission
@@ -363,6 +397,7 @@
 - helpCategoryIds:
     - help-story
   openHelpCategoryId: help-story
+  openHelpContentId: ""
   type: StoryPlayer
 - helpCategoryIds:
     - help-story
@@ -382,10 +417,12 @@
 - helpCategoryIds:
     - help-story
   openHelpCategoryId: help-story
+  openHelpContentId: ""
   type: StoryEventSelect
 - helpCategoryIds:
     - help-story
   openHelpCategoryId: help-story
+  openHelpContentId: ""
   type: StoryEventSection
 - helpCategoryIds:
     - help-story
@@ -405,6 +442,7 @@
 - helpCategoryIds:
     - help-story-event
   openHelpCategoryId: help-story-event
+  openHelpContentId: ""
   type: StoryEventList
 - helpCategoryIds:
     - help-home
@@ -484,22 +522,27 @@
 - helpCategoryIds:
     - help-guild
   openHelpCategoryId: help-guild
+  openHelpContentId: ""
   type: GuildTop
 - helpCategoryIds:
     - help-guild
   openHelpCategoryId: help-guild
+  openHelpContentId: ""
   type: GuildList
 - helpCategoryIds:
     - help-guild
   openHelpCategoryId: help-guild
+  openHelpContentId: ""
   type: GuildMember
 - helpCategoryIds:
     - help-guild
   openHelpCategoryId: help-guild
+  openHelpContentId: ""
   type: GuildDonation
 - helpCategoryIds:
     - help-guild
   openHelpCategoryId: help-guild
+  openHelpContentId: ""
   type: GuildEdit
 - helpCategoryIds:
     - help-guild
@@ -561,9 +604,18 @@
   openHelpCategoryId: help-menu
   openHelpContentId: menu-album-to-live
   type: PhotoAlbumManage
-- type: DailyLoginBonus
-- type: EventSimpleLoginBonus
-- type: EventSpecialLoginBonus
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: DailyLoginBonus
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: EventSimpleLoginBonus
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: EventSpecialLoginBonus
 - helpCategoryIds:
     - help-story-event
   openHelpCategoryId: help-story-event
@@ -579,38 +631,49 @@
   openHelpCategoryId: help-story-event
   openHelpContentId: story-event-event-story
   type: StoryEventMission
-- type: OthersTop
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: OthersTop
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestOpening
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestPreparation
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestMatchResult
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestTotalResult
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestHistoryResult
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestRehearsalResult
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestLogTop
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: ContestLogDetail
 - helpCategoryIds:
     - help-contest
@@ -630,10 +693,12 @@
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: PvpRateTop
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: PvpRateBattleConfirm
 - helpCategoryIds:
     - help-contest
@@ -643,6 +708,7 @@
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: PvpRateReward
 - helpCategoryIds:
     - help-contest
@@ -667,6 +733,7 @@
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: PvpRateMatchHistory
 - helpCategoryIds:
     - help-contest
@@ -676,9 +743,16 @@
 - helpCategoryIds:
     - help-contest
   openHelpCategoryId: help-contest
+  openHelpContentId: ""
   type: PvpRatePrepare
-- type: TutorialIdolSelect
-- type: TutorialIdolSelectDetail
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: TutorialIdolSelect
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: TutorialIdolSelectDetail
 - helpCategoryIds:
     - help-idol
   openHelpCategoryId: help-idol
@@ -709,4 +783,7 @@
   openHelpCategoryId: help-produce
   openHelpContentId: produce-seminar
   type: SeminarTop
-- type: StartupMoviePlay
+- helpCategoryIds: []
+  openHelpCategoryId: ""
+  openHelpContentId: ""
+  type: StartupMoviePlay
