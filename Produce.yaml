@@ -1,36 +1,36 @@
-- actionPointQuantity: 15
-  assetId: produce-1
+- id: produce-001
+  name: レギュラー
   baseStepLevel: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
   examSettingId: p_exam_setting-1
-  gradientColor1: FFD731
-  gradientColor2: FF9538
-  id: produce-001
+  produceSettingId: p_setting-1
   idolCardParameterGrowthLimit: 1000
   maxProduceEventCharacterGrowthNumber: 2
-  name: レギュラー
-  order: 2
+  steps: 13
+  actionPointQuantity: 15
+  assetId: produce-1
+  produceNavigationNormalId: p_navi-produce_group-001-normal
   produceNavigationAuditionId: p_navi-produce_group-001-audition
   produceNavigationLoseId: p_navi-produce_group-001-lose
-  produceNavigationNormalId: p_navi-produce_group-001-normal
-  produceSettingId: p_setting-1
-  steps: 13
-  unlockConditionSetId: ""
-  viewConditionSetId: ""
-- actionPointQuantity: 20
-  assetId: produce-2
+  gradientColor1: FFD731
+  gradientColor2: FF9538
+  order: 2
+- id: produce-002
+  name: プロ
   baseStepLevel: 5
+  viewConditionSetId: cd-pro_produce-view_open
+  unlockConditionSetId: cd-task_clear-01-040
   examSettingId: p_exam_setting-1
-  gradientColor1: 72B8FF
-  gradientColor2: EA74FF
-  id: produce-002
+  produceSettingId: p_setting-2
   idolCardParameterGrowthLimit: 1500
   maxProduceEventCharacterGrowthNumber: 3
-  name: プロ
-  order: 3
+  steps: 16
+  actionPointQuantity: 20
+  assetId: produce-2
+  produceNavigationNormalId: p_navi-produce_group-001-normal
   produceNavigationAuditionId: p_navi-produce_group-001-audition
   produceNavigationLoseId: p_navi-produce_group-001-lose
-  produceNavigationNormalId: p_navi-produce_group-001-normal
-  produceSettingId: p_setting-2
-  steps: 16
-  unlockConditionSetId: cd-task_clear-01-040
-  viewConditionSetId: cd-pro_produce-view_open
+  gradientColor1: 72B8FF
+  gradientColor2: EA74FF
+  order: 3

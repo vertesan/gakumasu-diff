@@ -1,2907 +1,2907 @@
-- additionalRewards: []
+- mainTaskGroupId: main_task_group-01-01
+  number: 1
+  title: 初星課題1
   description: プロデュースに挑戦しよう
   homeDescription: プロデュースに挑戦しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#1
   missionType: MissionType_IncrementProducePlayCount
-  number: 1
-  rewards:
-    - quantity: 650
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 20
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#1"
   threshold: 1
-  title: 初星課題1
-  unlockConditionSetId: ""
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: ""
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 650
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 20
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 2
+  title: 初星課題2
   description: 1章1話をみよう
   homeDescription: 1章1話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#2
   missionType: MissionType_AbsoluteStoryRead
-  number: 2
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 20
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-01
+  - story-main-01-01-01
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#2"
   threshold: 1
-  title: 初星課題2
-  unlockConditionSetId: main_task_group-01-01#2
-  unlockFeatureTutorialType: TutorialType_SupportCardLevelUpdate
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#2"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 20
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_SupportCardLevelUpdate
+- mainTaskGroupId: main_task_group-01-01
+  number: 3
+  title: 初星課題3
   description: サポートカードを強化しよう
   homeDescription: サポートカードを強化しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#3
   missionType: MissionType_IncrementSupportCardLevelUpdateCount
-  number: 3
-  rewards:
-    - quantity: 650
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#3"
   threshold: 1
-  title: 初星課題3
-  unlockConditionSetId: main_task_group-01-01#3
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#3"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 650
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 4
+  title: 初星課題4
   description: 名刺を編集しよう
   homeDescription: 名刺を編集しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#4
   missionType: MissionType_IncrementMeishiUpdateCount
-  number: 4
-  rewards:
-    - quantity: 650
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#4"
   threshold: 1
-  title: 初星課題4
-  unlockConditionSetId: main_task_group-01-01#4
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#4"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 650
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 5
+  title: 初星課題5
   description: 他のプロデューサーをフォローしよう
   homeDescription: 他のプロデューサーをフォローしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#5
   missionType: MissionType_AbsoluteFollowCount
-  number: 5
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#5"
   threshold: 1
-  title: 初星課題5
-  unlockConditionSetId: main_task_group-01-01#5
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#5"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 6
+  title: 初星課題6
   description: 研修を1つクリアしよう
   homeDescription: 研修を1つクリアしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#6
   missionType: MissionType_AbsoluteSeminarExamClear
-  number: 6
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - seminar_gruop-01_01
-    - seminar_gruop-01_02
-    - seminar_gruop-01_03
-    - seminar_gruop-01_04
-    - seminar_gruop-01_05
-    - seminar_gruop-01_06
+  - seminar_gruop-01_01
+  - seminar_gruop-01_02
+  - seminar_gruop-01_03
+  - seminar_gruop-01_04
+  - seminar_gruop-01_05
+  - seminar_gruop-01_06
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#6"
   threshold: 1
-  title: 初星課題6
-  unlockConditionSetId: main_task_group-01-01#6
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#6"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 7
+  title: 初星課題7
   description: 試験研修を1つクリアしよう
   homeDescription: 試験研修を1つクリアしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#7
   missionType: MissionType_AbsoluteSeminarExamClear
-  number: 7
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - seminar_gruop-03_01
-    - seminar_gruop-03_02
-    - seminar_gruop-03_03
-    - seminar_gruop-03_04
+  - seminar_gruop-03_01
+  - seminar_gruop-03_02
+  - seminar_gruop-03_03
+  - seminar_gruop-03_04
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#7"
   threshold: 1
-  title: 初星課題7
-  unlockConditionSetId: main_task_group-01-01#7
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#7"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 8
+  title: 初星課題8
   description: プロデュースに挑戦しよう
   homeDescription: プロデュースに挑戦しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#8
   missionType: MissionType_IncrementProducePlayCount
-  number: 8
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#8"
   threshold: 1
-  title: 初星課題8
-  unlockConditionSetId: main_task_group-01-01#8
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#8"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 9
+  title: 初星課題9
   description: 1章2話をみよう
   homeDescription: 1章2話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#9
   missionType: MissionType_AbsoluteStoryRead
-  number: 9
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-02
+  - story-main-01-01-02
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#9"
   threshold: 1
-  title: 初星課題9
-  unlockConditionSetId: main_task_group-01-01#9
-  unlockFeatureTutorialType: TutorialType_IdolCardLevelLimitRankUpdate
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#9"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_IdolCardLevelLimitRankUpdate
+- mainTaskGroupId: main_task_group-01-01
+  number: 10
+  title: 初星課題10
   description: プロデュースアイドルを特訓しよう
   homeDescription: プロデュースアイドルを特訓しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#10
   missionType: MissionType_IncrementIdolCardLevelLimitRankUpdateCount
-  number: 10
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 40
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#10"
   threshold: 1
-  title: 初星課題10
-  unlockConditionSetId: main_task_group-01-01#10
-  unlockFeatureTutorialType: TutorialType_MoneyReceive
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#10"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 40
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_MoneyReceive
+- mainTaskGroupId: main_task_group-01-01
+  number: 11
+  title: 初星課題11
   description: 活動費を回収しよう
   homeDescription: 活動費を回収しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#11
   missionType: MissionType_IncrementReceiveMoney
-  number: 11
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#11"
   threshold: 1
-  title: 初星課題11
-  unlockConditionSetId: main_task_group-01-01#11
-  unlockFeatureTutorialType: TutorialType_DailyExchange
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#11"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_DailyExchange
+- mainTaskGroupId: main_task_group-01-01
+  number: 12
+  title: 初星課題12
   description: マニー交換所で交換しよう
   homeDescription: マニー交換所で交換しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#12
   missionType: MissionType_IncrementDailyExchangeCount
-  number: 12
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - exchange-money-1
+  - exchange-money-1
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#12"
   threshold: 1
-  title: 初星課題12
-  unlockConditionSetId: main_task_group-01-01#12
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#12"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 13
+  title: 初星課題13
   description: プロデュースに挑戦しよう
   homeDescription: プロデュースに挑戦しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#13
   missionType: MissionType_IncrementProducePlayCount
-  number: 13
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#13"
   threshold: 1
-  title: 初星課題13
-  unlockConditionSetId: main_task_group-01-01#13
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#13"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 14
+  title: 初星課題14
   description: 1章3話をみよう
   homeDescription: 1章3話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#14
   missionType: MissionType_AbsoluteStoryRead
-  number: 14
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-03
+  - story-main-01-01-03
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#14"
   threshold: 1
-  title: 初星課題14
-  unlockConditionSetId: main_task_group-01-01#14
-  unlockFeatureTutorialType: TutorialType_Work
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#14"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Work
+- mainTaskGroupId: main_task_group-01-01
+  number: 15
+  title: 初星課題15
   description: お仕事を開始しよう
   homeDescription: お仕事を開始しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#15
   missionType: MissionType_IncrementWorkCount
-  number: 15
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#15"
   threshold: 1
-  title: 初星課題15
-  unlockConditionSetId: main_task_group-01-01#15
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#15"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 16
+  title: 初星課題16
   description: |-
     プロデュースに挑戦しよう
     【条件】プラン：センスのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦しよう
     【条件】プラン：センスのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#16
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 16
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan1
+  - Plan1
   targetValue: 0
+  missionId: "main_task_group-01-01#16"
   threshold: 1
-  title: 初星課題16
-  unlockConditionSetId: main_task_group-01-01#16
-  unlockFeatureTutorialType: TutorialType_CoinGasha
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#16"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_CoinGasha
+- mainTaskGroupId: main_task_group-01-01
+  number: 17
+  title: 初星課題17
   description: センスガシャを1回引こう
   homeDescription: センスガシャを1回引こう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#17
   missionType: MissionType_IncrementShopCoinGashaDrawCount
-  number: 17
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - coin_gasha-a
+  - coin_gasha-a
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#17"
   threshold: 1
-  title: 初星課題17
-  unlockConditionSetId: main_task_group-01-01#17
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#17"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 18
+  title: 初星課題18
   description: 1章4話をみよう
   homeDescription: 1章4話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#18
   missionType: MissionType_AbsoluteStoryRead
-  number: 18
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-04
+  - story-main-01-01-04
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#18"
   threshold: 1
-  title: 初星課題18
-  unlockConditionSetId: main_task_group-01-01#18
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#18"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 19
+  title: 初星課題19
   description: サポートカード{threshold}枚をLv20にしよう
   homeDescription: サポートカード{threshold}枚をLv20にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#19
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 19
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 20
+  missionId: "main_task_group-01-01#19"
   threshold: 1
-  title: 初星課題19
-  unlockConditionSetId: main_task_group-01-01#19
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards:
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
+  unlockConditionSetId: "main_task_group-01-01#19"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 20
+  title: 初星課題20
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#20
   missionType: MissionType_AbsoluteAchievementCount
-  number: 20
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 100
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#20"
   threshold: 15
-  title: 初星課題20
-  unlockConditionSetId: main_task_group-01-01#20
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#20"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100
+  additionalRewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 500
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 21
+  title: 初星課題21
   description: |-
     プロデュースに挑戦しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦しよう
     【条件】プラン：ロジックのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#21
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 21
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan2
+  - Plan2
   targetValue: 0
+  missionId: "main_task_group-01-01#21"
   threshold: 1
-  title: 初星課題21
-  unlockConditionSetId: main_task_group-01-01#21
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#21"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 22
+  title: 初星課題22
   description: ロジックガシャを1回引こう
   homeDescription: ロジックガシャを1回引こう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#22
   missionType: MissionType_IncrementShopCoinGashaDrawCount
-  number: 22
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - coin_gasha-b
+  - coin_gasha-b
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#22"
   threshold: 1
-  title: 初星課題22
-  unlockConditionSetId: main_task_group-01-01#22
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#22"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 23
+  title: 初星課題23
   description: 1章5話をみよう
   homeDescription: 1章5話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#23
   missionType: MissionType_AbsoluteStoryRead
-  number: 23
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-05
+  - story-main-01-01-05
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#23"
   threshold: 1
-  title: 初星課題23
-  unlockConditionSetId: main_task_group-01-01#23
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#23"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 24
+  title: 初星課題24
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#24
   missionType: MissionType_AbsoluteProducerLevel
-  number: 24
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#24"
   threshold: 8
-  title: 初星課題24
-  unlockConditionSetId: main_task_group-01-01#24
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#24"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 25
+  title: 初星課題25
   description: 異なるアイドル{threshold}人のプロデュースを完了しよう
   homeDescription: 異なるアイドル{threshold}人のプロデュースを完了しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#25
   missionType: MissionType_AbsoluteProducePlayCharacterCount
-  number: 25
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#25"
   threshold: 3
-  title: 初星課題25
-  unlockConditionSetId: main_task_group-01-01#25
-  unlockFeatureTutorialType: TutorialType_PvpRate
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#25"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_PvpRate
+- mainTaskGroupId: main_task_group-01-01
+  number: 26
+  title: 初星課題26
   description: コンテストで編成しよう
   homeDescription: コンテストで編成しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#26
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 26
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#26"
   threshold: 1
-  title: 初星課題26
-  unlockConditionSetId: main_task_group-01-01#26
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#26"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 27
+  title: 初星課題27
   description: いずれかのアイドルの親愛度Lvを{threshold}にしよう
   homeDescription: いずれかのアイドルの親愛度Lvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#27
   missionType: MissionType_AbsoluteDearnessLevel
-  number: 27
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#27"
   threshold: 5
-  title: 初星課題27
-  unlockConditionSetId: main_task_group-01-01#27
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#27"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 28
+  title: 初星課題28
   description: 1章6話をみよう
   homeDescription: 1章6話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#28
   missionType: MissionType_AbsoluteStoryRead
-  number: 28
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-06
+  - story-main-01-01-06
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#28"
   threshold: 1
-  title: 初星課題28
-  unlockConditionSetId: main_task_group-01-01#28
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#28"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 29
+  title: 初星課題29
   description: サポートカード{threshold}枚をLv20にしよう
   homeDescription: サポートカード{threshold}枚をLv20にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#29
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 29
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 20
+  missionId: "main_task_group-01-01#29"
   threshold: 2
-  title: 初星課題29
-  unlockConditionSetId: main_task_group-01-01#29
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#29"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 30
+  title: 初星課題30
   description: プロデュースに挑戦して評価C+以上を獲得しよう
   homeDescription: プロデュースに挑戦して評価C+以上を獲得しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#30
   missionType: MissionType_IncrementProducePlayCount
-  number: 30
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 5
+  missionId: "main_task_group-01-01#30"
   threshold: 1
-  title: 初星課題30
-  unlockConditionSetId: main_task_group-01-01#30
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#30"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 31
+  title: 初星課題31
   description: 1章7話をみよう
   homeDescription: 1章7話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#31
   missionType: MissionType_AbsoluteStoryRead
-  number: 31
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-07
+  - story-main-01-01-07
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#31"
   threshold: 1
-  title: 初星課題31
-  unlockConditionSetId: main_task_group-01-01#31
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#31"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 32
+  title: 初星課題32
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#32
   missionType: MissionType_AbsoluteProducerLevel
-  number: 32
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#32"
   threshold: 10
-  title: 初星課題32
-  unlockConditionSetId: main_task_group-01-01#32
-  unlockFeatureTutorialType: TutorialType_Guild
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#32"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Guild
+- mainTaskGroupId: main_task_group-01-01
+  number: 33
+  title: 初星課題33
   description: 研修の【応用１】プラン：センスをクリアしよう
   homeDescription: 研修の【応用１】プラン：センスをクリアしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#33
   missionType: MissionType_AbsoluteSeminarExamClear
-  number: 33
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - seminar_gruop-02_01
+  - seminar_gruop-02_01
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#33"
   threshold: 1
-  title: 初星課題33
-  unlockConditionSetId: main_task_group-01-01#33
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#33"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 34
+  title: 初星課題34
   description: |-
     プロデュースに挑戦して評価C+以上を獲得しよう
     【条件】プラン：センスのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦して評価C+以上を獲得しよう
     【条件】プラン：センスのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#34
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 34
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan1
+  - Plan1
   targetValue: 5
+  missionId: "main_task_group-01-01#34"
   threshold: 1
-  title: 初星課題34
-  unlockConditionSetId: main_task_group-01-01#34
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#34"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 35
+  title: 初星課題35
   description: 1章8話をみよう
   homeDescription: 1章8話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#35
   missionType: MissionType_AbsoluteStoryRead
-  number: 35
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-08
+  - story-main-01-01-08
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#35"
   threshold: 1
-  title: 初星課題35
-  unlockConditionSetId: main_task_group-01-01#35
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#35"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 36
+  title: 初星課題36
   description: 研修の【応用２】プラン：ロジックをクリアしよう
   homeDescription: 研修の【応用２】プラン：ロジックをクリアしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#36
   missionType: MissionType_AbsoluteSeminarExamClear
-  number: 36
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - seminar_gruop-02_02
+  - seminar_gruop-02_02
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#36"
   threshold: 1
-  title: 初星課題36
-  unlockConditionSetId: main_task_group-01-01#36
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#36"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 37
+  title: 初星課題37
   description: |-
     プロデュースに挑戦して評価C+以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦して評価C+以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#37
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 37
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan2
+  - Plan2
   targetValue: 5
+  missionId: "main_task_group-01-01#37"
   threshold: 1
-  title: 初星課題37
-  unlockConditionSetId: main_task_group-01-01#37
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#37"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 38
+  title: 初星課題38
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#38
   missionType: MissionType_AbsoluteAchievementCount
-  number: 38
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#38"
   threshold: 30
-  title: 初星課題38
-  unlockConditionSetId: main_task_group-01-01#38
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#38"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 39
+  title: 初星課題39
   description: 1章9話をみよう
   homeDescription: 1章9話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#39
   missionType: MissionType_AbsoluteStoryRead
-  number: 39
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-09
+  - story-main-01-01-09
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#39"
   threshold: 1
-  title: 初星課題39
-  unlockConditionSetId: main_task_group-01-01#39
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards:
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
+  unlockConditionSetId: "main_task_group-01-01#39"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 40
+  title: 初星課題40
   description: プロデュースアイドル{threshold}人の特訓段階を2にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を2にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#40
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 40
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 150
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 2
+  missionId: "main_task_group-01-01#40"
   threshold: 1
-  title: 初星課題40
-  unlockConditionSetId: main_task_group-01-01#40
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#40"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 150
+  additionalRewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 500
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 41
+  title: 初星課題41
   description: プロデュースで難易度プロに挑戦しよう
   homeDescription: プロデュースで難易度プロに挑戦しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#41
   missionType: MissionType_IncrementProducePlayCount
-  number: 41
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2:
-    - produce-002
+  - produce-002
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#41"
   threshold: 1
-  title: 初星課題41
-  unlockConditionSetId: main_task_group-01-01#41
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#41"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 42
+  title: 初星課題42
   description: サポートカード{threshold}枚をLv20にしよう
   homeDescription: サポートカード{threshold}枚をLv20にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#42
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 42
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 20
+  missionId: "main_task_group-01-01#42"
   threshold: 3
-  title: 初星課題42
-  unlockConditionSetId: main_task_group-01-01#42
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#42"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 43
+  title: 初星課題43
   description: 1章10話をみよう
   homeDescription: 1章10話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#43
   missionType: MissionType_AbsoluteStoryRead
-  number: 43
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-10
+  - story-main-01-01-10
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#43"
   threshold: 1
-  title: 初星課題43
-  unlockConditionSetId: main_task_group-01-01#43
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#43"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 44
+  title: 初星課題44
   description: いずれかのアイドルの親愛度Lvを{threshold}にしよう
   homeDescription: いずれかのアイドルの親愛度Lvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#44
   missionType: MissionType_AbsoluteDearnessLevel
-  number: 44
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#44"
   threshold: 7
-  title: 初星課題44
-  unlockConditionSetId: main_task_group-01-01#44
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#44"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 45
+  title: 初星課題45
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#45
   missionType: MissionType_AbsoluteProducerLevel
-  number: 45
-  rewards:
-    - quantity: 1000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#45"
   threshold: 13
-  title: 初星課題45
-  unlockConditionSetId: main_task_group-01-01#45
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#45"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 1000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 46
+  title: 初星課題46
   description: プロデュースでいずれかのパラメータを600以上に育成しよう
   homeDescription: プロデュースでいずれかのパラメータを600以上に育成しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#46
   missionType: MissionType_ProduceConditionClear
-  number: 46
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - p_cd-any_vodavi-600
+  - p_cd-any_vodavi-600
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#46"
   threshold: 1
-  title: 初星課題46
-  unlockConditionSetId: main_task_group-01-01#46
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#46"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 47
+  title: 初星課題47
   description: 1章11話をみよう
   homeDescription: 1章11話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#47
   missionType: MissionType_AbsoluteStoryRead
-  number: 47
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-11
+  - story-main-01-01-11
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#47"
   threshold: 1
-  title: 初星課題47
-  unlockConditionSetId: main_task_group-01-01#47
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#47"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 48
+  title: 初星課題48
   description: コンテストのユニット総合力を{threshold}以上にしよう
   homeDescription: コンテストのユニット総合力を{threshold}以上にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#48
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 48
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#48"
   threshold: 25000
-  title: 初星課題48
-  unlockConditionSetId: main_task_group-01-01#48
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
-  description: |-
-    プロデュースに挑戦して評価B以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  homeDescription: |-
-    プロデュースに挑戦して評価B以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#49
-  missionType: MissionType_IncrementProducePlanPlayCount
+  unlockConditionSetId: "main_task_group-01-01#48"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
   number: 49
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 200
-      resourceId: ""
-      resourceType: ResourceType_UserExp
+  title: 初星課題49
+  description: |-
+    プロデュースに挑戦して評価B以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  homeDescription: |-
+    プロデュースに挑戦して評価B以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  missionType: MissionType_IncrementProducePlanPlayCount
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan1
+  - Plan1
   targetValue: 6
+  missionId: "main_task_group-01-01#49"
   threshold: 1
-  title: 初星課題49
-  unlockConditionSetId: main_task_group-01-01#49
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#49"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 200
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 50
+  title: 初星課題50
   description: |-
     プロデュースに挑戦して評価B以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦して評価B以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#50
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 50
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan2
+  - Plan2
   targetValue: 6
+  missionId: "main_task_group-01-01#50"
   threshold: 1
-  title: 初星課題50
-  unlockConditionSetId: main_task_group-01-01#50
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#50"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 51
+  title: 初星課題51
   description: 1章12話をみよう
   homeDescription: 1章12話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#51
   missionType: MissionType_AbsoluteStoryRead
-  number: 51
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-12
+  - story-main-01-01-12
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#51"
   threshold: 1
-  title: 初星課題51
-  unlockConditionSetId: main_task_group-01-01#51
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#51"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 52
+  title: 初星課題52
   description: サポートカードのLvを{threshold}にしよう
   homeDescription: サポートカードのLvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#52
   missionType: MissionType_AbsoluteSupportCardLevel
-  number: 52
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#52"
   threshold: 30
-  title: 初星課題52
-  unlockConditionSetId: main_task_group-01-01#52
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#52"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 53
+  title: 初星課題53
   description: 最終試験で1位になろう
   homeDescription: 最終試験で1位になろう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#53
   missionType: MissionType_ProduceConditionClear
-  number: 53
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - p_cd_final_1st
+  - p_cd_final_1st
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#53"
   threshold: 1
-  title: 初星課題53
-  unlockConditionSetId: main_task_group-01-01#53
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#53"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 54
+  title: 初星課題54
   description: 1章13話をみよう
   homeDescription: 1章13話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#54
   missionType: MissionType_AbsoluteStoryRead
-  number: 54
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-13
+  - story-main-01-01-13
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#54"
   threshold: 1
-  title: 初星課題54
-  unlockConditionSetId: main_task_group-01-01#54
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#54"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 55
+  title: 初星課題55
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#55
   missionType: MissionType_AbsoluteProducerLevel
-  number: 55
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#55"
   threshold: 15
-  title: 初星課題55
-  unlockConditionSetId: main_task_group-01-01#55
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#55"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 56
+  title: 初星課題56
   description: プロデュースアイドル{threshold}人の特訓段階を3にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を3にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#56
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 56
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 3
+  missionId: "main_task_group-01-01#56"
   threshold: 1
-  title: 初星課題56
-  unlockConditionSetId: main_task_group-01-01#56
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#56"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 57
+  title: 初星課題57
   description: プロデュースでいずれかのパラメータを800以上に育成しよう
   homeDescription: プロデュースでいずれかのパラメータを800以上に育成しよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#57
   missionType: MissionType_ProduceConditionClear
-  number: 57
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - p_cd-any_vodavi-800
+  - p_cd-any_vodavi-800
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#57"
   threshold: 1
-  title: 初星課題57
-  unlockConditionSetId: main_task_group-01-01#57
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#57"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 58
+  title: 初星課題58
   description: 1章14話をみよう
   homeDescription: 1章14話をみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#58
   missionType: MissionType_AbsoluteStoryRead
-  number: 58
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 250
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - story-main-01-01-14
+  - story-main-01-01-14
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#58"
   threshold: 1
-  title: 初星課題58
-  unlockConditionSetId: main_task_group-01-01#58
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#58"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 250
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 59
+  title: 初星課題59
   description: いずれかのアイドルの親愛度Lvを{threshold}にしよう
   homeDescription: いずれかのアイドルの親愛度Lvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#59
   missionType: MissionType_AbsoluteDearnessLevel
-  number: 59
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-01-01#59"
   threshold: 9
-  title: 初星課題59
-  unlockConditionSetId: main_task_group-01-01#59
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards:
-    - quantity: 1
-      resourceId: item-gashaticket-ssr-fix_1
-      resourceType: ResourceType_Item
+  unlockConditionSetId: "main_task_group-01-01#59"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-01-01
+  number: 60
+  title: 初星課題60
   description: TrueEndをみよう
   homeDescription: TrueEndをみよう
-  mainTaskGroupId: main_task_group-01-01
-  missionId: main_task_group-01-01#60
   missionType: MissionType_AbsoluteProduceCharacterEnding
-  number: 60
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - TrueEnd
+  - TrueEnd
   targetValue: 0
+  missionId: "main_task_group-01-01#60"
   threshold: 1
-  title: 初星課題60
-  unlockConditionSetId: main_task_group-01-01#60
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-01-01#60"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-ssr-fix_1
+    quantity: 1
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 1
+  title: P課題1
   description: コンテストのユニット総合力を{threshold}以上にしよう
   homeDescription: コンテストのユニット総合力を{threshold}以上にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#1
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 1
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#1"
   threshold: 28000
-  title: P課題1
-  unlockConditionSetId: main_task_group-02-01#1
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#1"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 2
+  title: P課題2
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#2
   missionType: MissionType_AbsoluteAchievementCount
-  number: 2
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#2"
   threshold: 60
-  title: P課題2
-  unlockConditionSetId: main_task_group-02-01#2
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#2"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 3
+  title: P課題3
   description: プロデュースでいずれかのパラメータを1000以上に育成しよう
   homeDescription: プロデュースでいずれかのパラメータを1000以上に育成しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#3
   missionType: MissionType_ProduceConditionClear
-  number: 3
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1:
-    - p_cd-any_vodavi-1000
+  - p_cd-any_vodavi-1000
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#3"
   threshold: 1
-  title: P課題3
-  unlockConditionSetId: main_task_group-02-01#3
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#3"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 4
+  title: P課題4
   description: コンテストでスコアを{threshold}以上獲得しよう
   homeDescription: コンテストでスコアを{threshold}以上獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#4
   missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
-  number: 4
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#4"
   threshold: 6000
-  title: P課題4
-  unlockConditionSetId: main_task_group-02-01#4
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#4"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 5
+  title: P課題5
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#5
   missionType: MissionType_AbsoluteProducerLevel
-  number: 5
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#5"
   threshold: 20
-  title: P課題5
-  unlockConditionSetId: main_task_group-02-01#5
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#5"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 6
+  title: P課題6
   description: プロデュースアイドル{threshold}人の特訓段階を3にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を3にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#6
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 6
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 3
+  missionId: "main_task_group-02-01#6"
   threshold: 2
-  title: P課題6
-  unlockConditionSetId: main_task_group-02-01#6
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#6"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 7
+  title: P課題7
   description: SPレッスンを{threshold}回クリアしよう
   homeDescription: SPレッスンを{threshold}回クリアしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#7
   missionType: MissionType_IncrementProduceLessonClearCount
-  number: 7
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - LessonVocalSp
-    - LessonDanceSp
-    - LessonVisualSp
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
   targetValue: 0
+  missionId: "main_task_group-02-01#7"
   threshold: 10
-  title: P課題7
-  unlockConditionSetId: main_task_group-02-01#7
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#7"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 8
+  title: P課題8
   description: サポートカード{threshold}枚をLv30にしよう
   homeDescription: サポートカード{threshold}枚をLv30にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#8
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 8
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 30
+  missionId: "main_task_group-02-01#8"
   threshold: 3
-  title: P課題8
-  unlockConditionSetId: main_task_group-02-01#8
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#8"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 9
+  title: P課題9
   description: スキルカードを{threshold}種類獲得しよう
   homeDescription: スキルカードを{threshold}種類獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#9
   missionType: MissionType_AbsoluteProducePictureBookProduceCardCount
-  number: 9
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#9"
   threshold: 100
-  title: P課題9
-  unlockConditionSetId: main_task_group-02-01#9
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#9"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 10
+  title: P課題10
   description: プロデュースに挑戦して評価B+以上を獲得しよう
   homeDescription: プロデュースに挑戦して評価B+以上を獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#10
   missionType: MissionType_IncrementProducePlayCount
-  number: 10
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 7
+  missionId: "main_task_group-02-01#10"
   threshold: 1
-  title: P課題10
-  unlockConditionSetId: main_task_group-02-01#10
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#10"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 11
+  title: P課題11
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#11
   missionType: MissionType_AbsoluteAchievementCount
-  number: 11
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#11"
   threshold: 80
-  title: P課題11
-  unlockConditionSetId: main_task_group-02-01#11
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#11"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 12
+  title: P課題12
   description: お仕事を合計{threshold}時間しよう
   homeDescription: お仕事を合計{threshold}時間しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#12
   missionType: MissionType_IncrementWorkDurationHour
-  number: 12
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#12"
   threshold: 20
-  title: P課題12
-  unlockConditionSetId: main_task_group-02-01#12
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
-  description: |-
-    プロデュースに挑戦して評価B+以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  homeDescription: |-
-    プロデュースに挑戦して評価B+以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#13
-  missionType: MissionType_IncrementProducePlanPlayCount
+  unlockConditionSetId: "main_task_group-02-01#12"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
   number: 13
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
+  title: P課題13
+  description: |-
+    プロデュースに挑戦して評価B+以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  homeDescription: |-
+    プロデュースに挑戦して評価B+以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  missionType: MissionType_IncrementProducePlanPlayCount
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan1
+  - Plan1
   targetValue: 7
+  missionId: "main_task_group-02-01#13"
   threshold: 1
-  title: P課題13
-  unlockConditionSetId: main_task_group-02-01#13
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#13"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 14
+  title: P課題14
   description: |-
     プロデュースに挑戦して評価B+以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦して評価B+以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#14
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 14
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan2
+  - Plan2
   targetValue: 7
+  missionId: "main_task_group-02-01#14"
   threshold: 1
-  title: P課題14
-  unlockConditionSetId: main_task_group-02-01#14
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#14"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 15
+  title: P課題15
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#15
   missionType: MissionType_AbsoluteProducerLevel
-  number: 15
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#15"
   threshold: 23
-  title: P課題15
-  unlockConditionSetId: main_task_group-02-01#15
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#15"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 16
+  title: P課題16
   description: プロデュースアイドル{threshold}人の特訓段階を3にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を3にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#16
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 16
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 3
+  missionId: "main_task_group-02-01#16"
   threshold: 3
-  title: P課題16
-  unlockConditionSetId: main_task_group-02-01#16
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#16"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 17
+  title: P課題17
   description: True Endを{threshold}人みよう
   homeDescription: True Endを{threshold}人みよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#17
   missionType: MissionType_AbsoluteProduceCharacterEnding
-  number: 17
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - TrueEnd
+  - TrueEnd
   targetValue: 0
+  missionId: "main_task_group-02-01#17"
   threshold: 2
-  title: P課題17
-  unlockConditionSetId: main_task_group-02-01#17
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#17"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 18
+  title: P課題18
   description: サポートカードのLvを{threshold}にしよう
   homeDescription: サポートカードのLvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#18
   missionType: MissionType_AbsoluteSupportCardLevel
-  number: 18
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#18"
   threshold: 40
-  title: P課題18
-  unlockConditionSetId: main_task_group-02-01#18
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#18"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 19
+  title: P課題19
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#19
   missionType: MissionType_AbsoluteAchievementCount
-  number: 19
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 350
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#19"
   threshold: 100
-  title: P課題19
-  unlockConditionSetId: main_task_group-02-01#19
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#19"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 350
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 20
+  title: P課題20
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#20
   missionType: MissionType_AbsoluteProducerLevel
-  number: 20
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#20"
   threshold: 25
-  title: P課題20
-  unlockConditionSetId: main_task_group-02-01#20
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#20"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 21
+  title: P課題21
   description: コンテストでスコアを{threshold}以上獲得しよう
   homeDescription: コンテストでスコアを{threshold}以上獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#21
   missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
-  number: 21
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#21"
   threshold: 8000
-  title: P課題21
-  unlockConditionSetId: main_task_group-02-01#21
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#21"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 22
+  title: P課題22
   description: コンテストのユニット総合力を{threshold}以上にしよう
   homeDescription: コンテストのユニット総合力を{threshold}以上にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#22
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 22
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#22"
   threshold: 30000
-  title: P課題22
-  unlockConditionSetId: main_task_group-02-01#22
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#22"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 23
+  title: P課題23
   description: スキルカードを{threshold}種類獲得しよう
   homeDescription: スキルカードを{threshold}種類獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#23
   missionType: MissionType_AbsoluteProducePictureBookProduceCardCount
-  number: 23
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#23"
   threshold: 120
-  title: P課題23
-  unlockConditionSetId: main_task_group-02-01#23
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#23"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 24
+  title: P課題24
   description: サポートカード{threshold}枚をLv30にしよう
   homeDescription: サポートカード{threshold}枚をLv30にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#24
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 24
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 30
+  missionId: "main_task_group-02-01#24"
   threshold: 4
-  title: P課題24
-  unlockConditionSetId: main_task_group-02-01#24
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#24"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 25
+  title: P課題25
   description: プロデュースアイドル{threshold}人の特訓段階を4にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を4にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#25
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 25
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 4
+  missionId: "main_task_group-02-01#25"
   threshold: 1
-  title: P課題25
-  unlockConditionSetId: main_task_group-02-01#25
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#25"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 26
+  title: P課題26
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#26
   missionType: MissionType_AbsoluteAchievementCount
-  number: 26
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#26"
   threshold: 120
-  title: P課題26
-  unlockConditionSetId: main_task_group-02-01#26
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#26"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 27
+  title: P課題27
   description: コンテストで{threshold}回勝利しよう
   homeDescription: コンテストで{threshold}回勝利しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#27
   missionType: MissionType_IncrementPvpRateWinCount
-  number: 27
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#27"
   threshold: 5
-  title: P課題27
-  unlockConditionSetId: main_task_group-02-01#27
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#27"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 28
+  title: P課題28
   description: True Endを{threshold}人みよう
   homeDescription: True Endを{threshold}人みよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#28
   missionType: MissionType_AbsoluteProduceCharacterEnding
-  number: 28
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - TrueEnd
+  - TrueEnd
   targetValue: 0
+  missionId: "main_task_group-02-01#28"
   threshold: 3
-  title: P課題28
-  unlockConditionSetId: main_task_group-02-01#28
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#28"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 29
+  title: P課題29
   description: サポートカード{threshold}枚をLv30にしよう
   homeDescription: サポートカード{threshold}枚をLv30にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#29
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 29
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 30
+  missionId: "main_task_group-02-01#29"
   threshold: 5
-  title: P課題29
-  unlockConditionSetId: main_task_group-02-01#29
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#29"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 30
+  title: P課題30
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：花海 咲季
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：花海 咲季
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#30
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 30
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - hski
+  - hski
   targetValue: 0
+  missionId: "main_task_group-02-01#30"
   threshold: 1
-  title: P課題30
-  unlockConditionSetId: main_task_group-02-01#30
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#30"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 31
+  title: P課題31
   description: コンテストでスコアを{threshold}以上獲得しよう
   homeDescription: コンテストでスコアを{threshold}以上獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#31
   missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
-  number: 31
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#31"
   threshold: 10000
-  title: P課題31
-  unlockConditionSetId: main_task_group-02-01#31
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#31"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 32
+  title: P課題32
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：月村 手毬
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：月村 手毬
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#32
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 32
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - ttmr
+  - ttmr
   targetValue: 0
+  missionId: "main_task_group-02-01#32"
   threshold: 1
-  title: P課題32
-  unlockConditionSetId: main_task_group-02-01#32
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#32"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 33
+  title: P課題33
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#33
   missionType: MissionType_AbsoluteAchievementCount
-  number: 33
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#33"
   threshold: 130
-  title: P課題33
-  unlockConditionSetId: main_task_group-02-01#33
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#33"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 34
+  title: P課題34
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：藤田 ことね
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：藤田 ことね
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#34
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 34
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - fktn
+  - fktn
   targetValue: 0
+  missionId: "main_task_group-02-01#34"
   threshold: 1
-  title: P課題34
-  unlockConditionSetId: main_task_group-02-01#34
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#34"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 35
+  title: P課題35
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#35
   missionType: MissionType_AbsoluteProducerLevel
-  number: 35
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#35"
   threshold: 27
-  title: P課題35
-  unlockConditionSetId: main_task_group-02-01#35
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#35"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 36
+  title: P課題36
   description: Pドリンクを{threshold}種類獲得しよう
   homeDescription: Pドリンクを{threshold}種類獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#36
   missionType: MissionType_AbsoluteProducePictureBookProduceDrinkCount
-  number: 36
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#36"
   threshold: 15
-  title: P課題36
-  unlockConditionSetId: main_task_group-02-01#36
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#36"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 37
+  title: P課題37
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：有村 麻央
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：有村 麻央
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#37
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 37
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - amao
+  - amao
   targetValue: 0
+  missionId: "main_task_group-02-01#37"
   threshold: 1
-  title: P課題37
-  unlockConditionSetId: main_task_group-02-01#37
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#37"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 38
+  title: P課題38
   description: コンテストのユニット総合力を{threshold}以上にしよう
   homeDescription: コンテストのユニット総合力を{threshold}以上にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#38
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 38
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#38"
   threshold: 32000
-  title: P課題38
-  unlockConditionSetId: main_task_group-02-01#38
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#38"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 39
+  title: P課題39
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：姫崎 莉波
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：姫崎 莉波
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#39
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 39
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - hrnm
+  - hrnm
   targetValue: 0
+  missionId: "main_task_group-02-01#39"
   threshold: 1
-  title: P課題39
-  unlockConditionSetId: main_task_group-02-01#39
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#39"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 40
+  title: P課題40
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#40
   missionType: MissionType_AbsoluteAchievementCount
-  number: 40
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#40"
   threshold: 140
-  title: P課題40
-  unlockConditionSetId: main_task_group-02-01#40
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#40"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 41
+  title: P課題41
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：葛城 リーリヤ
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：葛城 リーリヤ
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#41
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 41
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - kllj
+  - kllj
   targetValue: 0
+  missionId: "main_task_group-02-01#41"
   threshold: 1
-  title: P課題41
-  unlockConditionSetId: main_task_group-02-01#41
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#41"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 42
+  title: P課題42
   description: コンテストで{threshold}回勝利しよう
   homeDescription: コンテストで{threshold}回勝利しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#42
   missionType: MissionType_IncrementPvpRateWinCount
-  number: 42
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#42"
   threshold: 5
-  title: P課題42
-  unlockConditionSetId: main_task_group-02-01#42
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#42"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 43
+  title: P課題43
   description: プロデュースアイドル{threshold}人の特訓段階を4にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を4にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#43
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 43
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 4
+  missionId: "main_task_group-02-01#43"
   threshold: 2
-  title: P課題43
-  unlockConditionSetId: main_task_group-02-01#43
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#43"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 44
+  title: P課題44
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：紫雲 清夏
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：紫雲 清夏
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#44
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 44
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - ssmk
+  - ssmk
   targetValue: 0
+  missionId: "main_task_group-02-01#44"
   threshold: 1
-  title: P課題44
-  unlockConditionSetId: main_task_group-02-01#44
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#44"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 45
+  title: P課題45
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#45
   missionType: MissionType_AbsoluteAchievementCount
-  number: 45
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#45"
   threshold: 150
-  title: P課題45
-  unlockConditionSetId: main_task_group-02-01#45
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#45"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 46
+  title: P課題46
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：篠澤 広
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：篠澤 広
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#46
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 46
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - shro
+  - shro
   targetValue: 0
+  missionId: "main_task_group-02-01#46"
   threshold: 1
-  title: P課題46
-  unlockConditionSetId: main_task_group-02-01#46
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#46"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 47
+  title: P課題47
   description: サポートカード{threshold}枚をLv40にしよう
   homeDescription: サポートカード{threshold}枚をLv40にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#47
   missionType: MissionType_AbsoluteSupportCardLevelCount
-  number: 47
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 40
+  missionId: "main_task_group-02-01#47"
   threshold: 2
-  title: P課題47
-  unlockConditionSetId: main_task_group-02-01#47
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#47"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 48
+  title: P課題48
   description: |-
     プロデュースで最終試験に合格しよう
     【条件】：倉本 千奈
   homeDescription: |-
     プロデュースで最終試験に合格しよう
     【条件】：倉本 千奈
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#48
   missionType: MissionType_IncrementProduceCharacterClearCount
-  number: 48
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - kcna
+  - kcna
   targetValue: 0
+  missionId: "main_task_group-02-01#48"
   threshold: 1
-  title: P課題48
-  unlockConditionSetId: main_task_group-02-01#48
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#48"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 49
+  title: P課題49
   description: コンテストでスコアを{threshold}以上獲得しよう
   homeDescription: コンテストでスコアを{threshold}以上獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#49
   missionType: MissionType_AbsolutePvpRateExamBattleMaxScore
-  number: 49
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#49"
   threshold: 12000
-  title: P課題49
-  unlockConditionSetId: main_task_group-02-01#49
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#49"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 50
+  title: P課題50
   description: スキルカードを{threshold}種類獲得しよう
   homeDescription: スキルカードを{threshold}種類獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#50
   missionType: MissionType_AbsoluteProducePictureBookProduceCardCount
-  number: 50
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#50"
   threshold: 150
-  title: P課題50
-  unlockConditionSetId: main_task_group-02-01#50
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#50"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 51
+  title: P課題51
   description: プロデュースに挑戦して評価A以上を獲得しよう
   homeDescription: プロデュースに挑戦して評価A以上を獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#51
   missionType: MissionType_IncrementProducePlayCount
-  number: 51
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 8
+  missionId: "main_task_group-02-01#51"
   threshold: 1
-  title: P課題51
-  unlockConditionSetId: main_task_group-02-01#51
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#51"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 52
+  title: P課題52
   description: お仕事を合計{threshold}時間しよう
   homeDescription: お仕事を合計{threshold}時間しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#52
   missionType: MissionType_IncrementWorkDurationHour
-  number: 52
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#52"
   threshold: 20
-  title: P課題52
-  unlockConditionSetId: main_task_group-02-01#52
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#52"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 53
+  title: P課題53
   description: プロデュースアイドル{threshold}人の特訓段階を4にしよう
   homeDescription: プロデュースアイドル{threshold}人の特訓段階を4にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#53
   missionType: MissionType_AbsoluteIdolCardLevelLimitRankCount
-  number: 53
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 4
+  missionId: "main_task_group-02-01#53"
   threshold: 3
-  title: P課題53
-  unlockConditionSetId: main_task_group-02-01#53
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
-  description: |-
-    プロデュースに挑戦して評価A以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  homeDescription: |-
-    プロデュースに挑戦して評価A以上を獲得しよう
-    【条件】プラン：センスのプロデュースアイドル
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#54
-  missionType: MissionType_IncrementProducePlanPlayCount
+  unlockConditionSetId: "main_task_group-02-01#53"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
   number: 54
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
+  title: P課題54
+  description: |-
+    プロデュースに挑戦して評価A以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  homeDescription: |-
+    プロデュースに挑戦して評価A以上を獲得しよう
+    【条件】プラン：センスのプロデュースアイドル
+  missionType: MissionType_IncrementProducePlanPlayCount
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan1
+  - Plan1
   targetValue: 8
+  missionId: "main_task_group-02-01#54"
   threshold: 1
-  title: P課題54
-  unlockConditionSetId: main_task_group-02-01#54
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#54"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 55
+  title: P課題55
   description: |-
     プロデュースに挑戦して評価A以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
     プロデュースに挑戦して評価A以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#55
   missionType: MissionType_IncrementProducePlanPlayCount
-  number: 55
-  rewards:
-    - quantity: 50
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3:
-    - Plan2
+  - Plan2
   targetValue: 8
+  missionId: "main_task_group-02-01#55"
   threshold: 1
-  title: P課題55
-  unlockConditionSetId: main_task_group-02-01#55
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#55"
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 50
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 56
+  title: P課題56
   description: コンテストのユニット総合力を{threshold}以上にしよう
   homeDescription: コンテストのユニット総合力を{threshold}以上にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#56
   missionType: MissionType_AbsolutePvpRateUnitOverallPower
-  number: 56
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#56"
   threshold: 34000
-  title: P課題56
-  unlockConditionSetId: main_task_group-02-01#56
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#56"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 57
+  title: P課題57
   description: コンテストで{threshold}回勝利しよう
   homeDescription: コンテストで{threshold}回勝利しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#57
   missionType: MissionType_IncrementPvpRateWinCount
-  number: 57
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#57"
   threshold: 5
-  title: P課題57
-  unlockConditionSetId: main_task_group-02-01#57
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#57"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 58
+  title: P課題58
   description: アチーブメントを{threshold}個獲得しよう
   homeDescription: アチーブメントを{threshold}個獲得しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#58
   missionType: MissionType_AbsoluteAchievementCount
-  number: 58
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#58"
   threshold: 160
-  title: P課題58
-  unlockConditionSetId: main_task_group-02-01#58
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards: []
+  unlockConditionSetId: "main_task_group-02-01#58"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 59
+  title: P課題59
   description: プロデューサーLv{threshold}に到達しよう
   homeDescription: プロデューサーLv{threshold}に到達しよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#59
   missionType: MissionType_AbsoluteProducerLevel
-  number: 59
-  rewards:
-    - quantity: 2000
-      resourceId: item-support_card_enhance_point
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#59"
   threshold: 30
-  title: P課題59
-  unlockConditionSetId: main_task_group-02-01#59
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
-- additionalRewards:
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_JewelTotal
+  unlockConditionSetId: "main_task_group-02-01#59"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 2000
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards: []
+  unlockFeatureTutorialType: TutorialType_Unknown
+- mainTaskGroupId: main_task_group-02-01
+  number: 60
+  title: P課題60
   description: いずれかのアイドルの親愛度Lvを{threshold}にしよう
   homeDescription: いずれかのアイドルの親愛度Lvを{threshold}にしよう
-  mainTaskGroupId: main_task_group-02-01
-  missionId: main_task_group-02-01#60
   missionType: MissionType_AbsoluteDearnessLevel
-  number: 60
-  rewards:
-    - quantity: 100
-      resourceId: item-limitovermaterial-1
-      resourceType: ResourceType_Item
-    - quantity: 500
-      resourceId: ""
-      resourceType: ResourceType_UserExp
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  missionId: "main_task_group-02-01#60"
   threshold: 10
-  title: P課題60
-  unlockConditionSetId: main_task_group-02-01#60
-  unlockFeatureTutorialType: TutorialType_Unknown
   viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-02-01#60"
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 100
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 500
+  additionalRewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 500
+  unlockFeatureTutorialType: TutorialType_Unknown

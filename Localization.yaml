@@ -1,52 +1,42 @@
-- description: True Endボーナスは現在の状況が反映されます
-  id: card.idol_card.preview.attention
-- description: プロデューサーLvの上昇に必要な経験値
-  id: common.user_exp.description
-- description: FAQページを開きますか？\n※Webブラウザが立ち上がります
-  id: faq_confirm_sheet.description
-- description: 交換Pt、交換内容はガシャごとに異なります。獲得済みの\nPアイドルは「プロデュースアイドルのピース」に変換されます。
-  id: home.gasha.point_detail_overlay.description
-- description: 獲得済みのPアイドルは「プロデュースアイドルのピース」に変換されます。
-  id: home.gasha.result.duplicate_info
-- description: |-
+- id: card.idol_card.preview.attention
+  description: True Endボーナスは現在の状況が反映されます
+- id: common.user_exp.description
+  description: プロデューサーLvの上昇に必要な経験値
+- id: faq_confirm_sheet.description
+  description: "FAQページを開きますか？\\n※Webブラウザが立ち上がります"
+- id: home.gasha.point_detail_overlay.description
+  description: "交換Pt、交換内容はガシャごとに異なります。獲得済みの\\nPアイドルは「プロデュースアイドルのピース」に変換されます。"
+- id: home.gasha.result.duplicate_info
+  description: 獲得済みのPアイドルは「プロデュースアイドルのピース」に変換されます。
+- id: invite.progress.friend_empty
+  description: |-
     招待したプロデューサーが
     PLv5に到達すると表示されます
-  id: invite.progress.friend_empty
-- description: PLv5達成
-  id: invite.progress.invited_friend.label
-- description: |-
-    初星学園への入学者募集中！
-    コードを入力してジュエルをもらおう！
-    学園アイドルマスターを始めるなら今がチャンス！
-    ▼招待コード
-    {0}
-  
-    https://app.adjust.com/1b1lvieu
-  
-    ※チュートリアルクリアで入力可能
-    #学園アイドルマスター #学マス
-  id: invite.publication.share.text
-- description: 楽曲配信情報サイトに移動しますか？\n※Webブラウザが立ち上がります
-  id: music.external_url_sheet.description
-- description: ※一括ダウンロードを行うことで、プレイ中の通信量を\n　削減できます\n※Wi-Fi環境でのダウンロードを推奨します
-  id: octo_file_download_confirm_sheet.alert.all
-- description: 獲得可能なスキルカードの候補を再抽選しますか？\n<color=#u:Negative>※プロデュース中の再抽選可能回数には制限があります</color>\n<color=#u:Negative>※レアリティも再抽選になります</color>
-  id: produce.confirm_reroll_sheet.description
-- description: メモリーが所持上限に達しているためプロデュースを開始することができません
-  id: produce.memory_limit.warning
-- description: '{0}枚削除し、新しいフォトを保存しました'
-  id: produce.result.photo.delete_save.toast
-- description: まだ交換可能です。\n相談を終了しますか？
-  id: produce.shop.end_warning.description
-- description: 効果
-  id: produce.support_event_effect
-- description: 最高評価
-  id: profile.activity.evaluate
-- description: プロデュースアイドルは自動で受け取られます
-  id: tutorial.idol_receive.attention_3
-- description: プロデュースアイドルのピースは自動で受け取られます
-  id: tutorial.idol_receive.attention_4
-- description: 「{0}」を\n「{1}」に変換して獲得しました。
-  id: tutorial.idol_receive.description_4
-- description: 公式X（旧Twitter）のページを開きますか？\n※Webブラウザが立ち上がります
-  id: twitter_confirm_sheet.description
+- id: invite.progress.invited_friend.label
+  description: PLv5達成
+- id: invite.publication.share.text
+  description: "初星学園への入学者募集中！\nコードを入力してジュエルをもらおう！\n学園アイドルマスターを始めるなら今がチャンス！\n▼招待コード\n{0}\n\nhttps://app.adjust.com/1b1lvieu\n\n※チュートリアルクリアで入力可能\n#学園アイドルマスター #学マス"
+- id: music.external_url_sheet.description
+  description: "楽曲配信情報サイトに移動しますか？\\n※Webブラウザが立ち上がります"
+- id: octo_file_download_confirm_sheet.alert.all
+  description: "※一括ダウンロードを行うことで、プレイ中の通信量を\\n\u3000削減できます\\n※Wi-Fi環境でのダウンロードを推奨します"
+- id: produce.confirm_reroll_sheet.description
+  description: "獲得可能なスキルカードの候補を再抽選しますか？\\n<color=#u:Negative>※プロデュース中の再抽選可能回数には制限があります</color>\\n<color=#u:Negative>※レアリティも再抽選になります</color>"
+- id: produce.memory_limit.warning
+  description: メモリーが所持上限に達しているためプロデュースを開始することができません
+- id: produce.result.photo.delete_save.toast
+  description: "{0}枚削除し、新しいフォトを保存しました"
+- id: produce.shop.end_warning.description
+  description: "まだ交換可能です。\\n相談を終了しますか？"
+- id: produce.support_event_effect
+  description: 効果
+- id: profile.activity.evaluate
+  description: 最高評価
+- id: tutorial.idol_receive.attention_3
+  description: プロデュースアイドルは自動で受け取られます
+- id: tutorial.idol_receive.attention_4
+  description: プロデュースアイドルのピースは自動で受け取られます
+- id: tutorial.idol_receive.description_4
+  description: "「{0}」を\\n「{1}」に変換して獲得しました。"
+- id: twitter_confirm_sheet.description
+  description: "公式X（旧Twitter）のページを開きますか？\\n※Webブラウザが立ち上がります"

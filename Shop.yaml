@@ -1,33 +1,33 @@
-- endTime: "0"
-  id: shop_jewel
-  name: ジュエル
-  order: 1
-  resetDay: 0
-  resetHour: 0
-  resetMinute: 0
-  resetTimingType: ResetTimingType_Never
-  resetWeekday: Weekday_Unknown
-  startTime: "0"
+- id: shop_jewel
   type: ShopType_Jewel
-- endTime: "0"
-  id: shop_pack
-  name: パック
-  order: 3
-  resetDay: 0
+  name: ジュエル
+  resetTimingType: ResetTimingType_Never
   resetHour: 0
   resetMinute: 0
-  resetTimingType: ResetTimingType_Never
   resetWeekday: Weekday_Unknown
+  resetDay: 0
   startTime: "0"
+  endTime: "0"
+  order: 1
+- id: shop_pack
   type: ShopType_Pack
-- endTime: "0"
-  id: shop_pass
-  name: パス
-  order: 2
-  resetDay: 0
+  name: パック
+  resetTimingType: ResetTimingType_Never
   resetHour: 0
   resetMinute: 0
-  resetTimingType: ResetTimingType_Never
   resetWeekday: Weekday_Unknown
+  resetDay: 0
   startTime: "0"
+  endTime: "0"
+  order: 3
+- id: shop_pass
   type: ShopType_Pass
+  name: パス
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  startTime: "0"
+  endTime: "0"
+  order: 2

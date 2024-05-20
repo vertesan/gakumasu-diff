@@ -1,15 +1,15 @@
-- assetId: produce-group-1
+- id: produce_group-001
+  name: 定期公演『初』
+  type: ProduceType_FirstStar
+  produceIds:
+  - produce-001
+  - produce-002
+  assetId: produce-group-1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  failedProduceMemoryAssetId: img_general_memory_all-produce-failure-001
   description: |-
     定期公演『初』──それは、初星学園アイドル科の
     成績上位者のみ立つことができるステージ
     自分を磨き、今、彼女たちは輝きはじめる──
-  failedProduceMemoryAssetId: img_general_memory_all-produce-failure-001
-  id: produce_group-001
-  name: 定期公演『初』
   order: 1
-  produceIds:
-    - produce-001
-    - produce-002
-  type: ProduceType_FirstStar
-  unlockConditionSetId: ""
-  viewConditionSetId: ""

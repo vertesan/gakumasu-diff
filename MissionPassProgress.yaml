@@ -1,169 +1,169 @@
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 4000
-    resourceId: item-money
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 30000
-    resourceId: item-money
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
+- missionPassId: mission_pass-001
   threshold: 50
-- feature: false
-  missionPassId: mission_pass-001
   normalReward:
-    quantity: 5000
-    resourceId: item-support_card_enhance_point
     resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 4000
   premiumReward:
-    quantity: 10000
-    resourceId: item-support_card_enhance_point
     resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 30000
+  feature: false
   repeat: false
   repeatPoint: 0
+- missionPassId: mission_pass-001
   threshold: 100
-- feature: true
-  missionPassId: mission_pass-001
   normalReward:
-    quantity: 300
-    resourceId: item-limitovermaterial-1
     resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 1
-    resourceId: costume_head_hski-hair-0001
-    resourceType: ResourceType_CostumeHead
-  repeat: false
-  repeatPoint: 0
-  threshold: 150
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 5000
-    resourceId: item-money
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 1000
-    resourceId: item-limitovermaterial-1
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
-  threshold: 200
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 100
-    resourceId: item-limitovermaterial-2
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 500
-    resourceId: item-limitovermaterial-2
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
-  threshold: 300
-- feature: true
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 300
-    resourceId: item-limitovermaterial-1
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 1
-    resourceId: costume_head_ttmr-hair-0001
-    resourceType: ResourceType_CostumeHead
-  repeat: false
-  repeatPoint: 0
-  threshold: 400
-- feature: true
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 5000
     resourceId: item-support_card_enhance_point
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 1000
-    resourceId: ""
-    resourceType: ResourceType_JewelTotal
-  repeat: false
-  repeatPoint: 0
-  threshold: 500
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 6000
-    resourceId: item-money
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 40000
-    resourceId: item-money
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
-  threshold: 600
-- feature: true
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 300
-    resourceId: item-limitovermaterial-1
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 1
-    resourceId: costume_head_fktn-hair-0001
-    resourceType: ResourceType_CostumeHead
-  repeat: false
-  repeatPoint: 0
-  threshold: 700
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
     quantity: 5000
-    resourceId: item-support_card_enhance_point
-    resourceType: ResourceType_Item
   premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
     quantity: 10000
-    resourceId: item-support_card_enhance_point
-    resourceType: ResourceType_Item
+  feature: false
   repeat: false
   repeatPoint: 0
-  threshold: 800
-- feature: false
-  missionPassId: mission_pass-001
+- missionPassId: mission_pass-001
+  threshold: 150
   normalReward:
-    quantity: 300
+    resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-1
-    resourceType: ResourceType_Item
+    quantity: 300
   premiumReward:
-    quantity: 5
-    resourceId: item-produce_continue-1
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
-  threshold: 900
-- feature: true
-  missionPassId: mission_pass-001
-  normalReward:
-    quantity: 100
-    resourceId: item-limitovermaterial-2
-    resourceType: ResourceType_Item
-  premiumReward:
-    quantity: 10
-    resourceId: item-gashaticket-1
-    resourceType: ResourceType_Item
-  repeat: false
-  repeatPoint: 0
-  threshold: 1000
-- feature: false
-  missionPassId: mission_pass-001
-  normalReward:
+    resourceType: ResourceType_CostumeHead
+    resourceId: costume_head_hski-hair-0001
     quantity: 1
-    resourceId: item-staminaregen-1
+  feature: true
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 200
+  normalReward:
     resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 5000
   premiumReward:
-    quantity: 0
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 1000
+  feature: false
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 300
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 100
+  premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 500
+  feature: false
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 400
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 300
+  premiumReward:
+    resourceType: ResourceType_CostumeHead
+    resourceId: costume_head_ttmr-hair-0001
+    quantity: 1
+  feature: true
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 500
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 5000
+  premiumReward:
+    resourceType: ResourceType_JewelTotal
     resourceId: ""
+    quantity: 1000
+  feature: true
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 600
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 6000
+  premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 40000
+  feature: false
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 700
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 300
+  premiumReward:
+    resourceType: ResourceType_CostumeHead
+    resourceId: costume_head_fktn-hair-0001
+    quantity: 1
+  feature: true
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 800
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 5000
+  premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 10000
+  feature: false
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 900
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 300
+  premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-produce_continue-1
+    quantity: 5
+  feature: false
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 1000
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 100
+  premiumReward:
+    resourceType: ResourceType_Item
+    resourceId: item-gashaticket-1
+    quantity: 10
+  feature: true
+  repeat: false
+  repeatPoint: 0
+- missionPassId: mission_pass-001
+  threshold: 1100
+  normalReward:
+    resourceType: ResourceType_Item
+    resourceId: item-staminaregen-1
+    quantity: 1
+  premiumReward:
     resourceType: ResourceType_Unknown
+    resourceId: ""
+    quantity: 0
+  feature: false
   repeat: true
   repeatPoint: 100
-  threshold: 1100

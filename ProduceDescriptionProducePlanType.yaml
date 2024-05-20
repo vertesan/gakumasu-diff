@@ -1,12 +1,12 @@
-- name: 共通
-  planDetailProduceDescriptionId: Label_ProducePlanType0
+- type: ProducePlanType_Common
+  name: 共通
   produceDescriptionId: Label_ProducePlanType0
-  type: ProducePlanType_Common
-- name: 【センス専用】
-  planDetailProduceDescriptionId: Label_ProducePlanType1
+  planDetailProduceDescriptionId: Label_ProducePlanType0
+- type: ProducePlanType_Plan1
+  name: 【センス専用】
   produceDescriptionId: Label_ProduceSkillPlanType1
-  type: ProducePlanType_Plan1
-- name: 【ロジック専用】
-  planDetailProduceDescriptionId: Label_ProducePlanType2
+  planDetailProduceDescriptionId: Label_ProducePlanType1
+- type: ProducePlanType_Plan2
+  name: 【ロジック専用】
   produceDescriptionId: Label_ProduceSkillPlanType2
-  type: ProducePlanType_Plan2
+  planDetailProduceDescriptionId: Label_ProducePlanType2

@@ -1,38 +1,38 @@
-- dance: 238
+- id: pvp_rate_config-1
   description: 初めてのコンテスト
-  examBattleFirstRankBonusPermil: 200
+  vocal: 353
+  dance: 238
+  visual: 291
   examSettingId: p_exam_setting-1
-  id: pvp_rate_config-1
-  loseTimelineAssetId: tln_cont_vovi-001_totalresult_lose
   produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_001
+  examBattleFirstRankBonusPermil: 200
   pvpRateCommonProduceCardId: pvp_live_battle_1
-  stages:
-    - bgmAssetId: sud_bgm_produce_audition-04
-      examTimelineAssetId: tln_cont_vovi-001_battle
-      planType: ProducePlanType_Common
-      produceExamGimmickEffectGroupId: ""
-      produceItemId: pitem_00-0-004-0-000
-      stageType: PvpRateStageType__1
-      startTimelineAssetId: tln_cont_vovi-001_start
-      turn: 12
-    - bgmAssetId: sud_bgm_produce_audition-04
-      examTimelineAssetId: tln_cont_vovi-001_battle
-      planType: ProducePlanType_Plan1
-      produceExamGimmickEffectGroupId: ""
-      produceItemId: pitem_01-0-005-0-000
-      stageType: PvpRateStageType__2
-      startTimelineAssetId: tln_cont_vovi-001_start
-      turn: 8
-    - bgmAssetId: sud_bgm_produce_audition-04
-      examTimelineAssetId: tln_cont_vovi-001_battle
-      planType: ProducePlanType_Plan2
-      produceExamGimmickEffectGroupId: ""
-      produceItemId: pitem_02-0-002-0-000
-      stageType: PvpRateStageType__3
-      startTimelineAssetId: tln_cont_vovi-001_start
-      turn: 8
+  winTimelineAssetId: tln_cont_vovi-001_totalresult_win
+  loseTimelineAssetId: tln_cont_vovi-001_totalresult_lose
   startTimelineInitialTimePermil: 5033
   topAssetId: contest-top-vovi
-  visual: 291
-  vocal: 353
-  winTimelineAssetId: tln_cont_vovi-001_totalresult_win
+  stages:
+  - stageType: PvpRateStageType__1
+    planType: ProducePlanType_Common
+    turn: 12
+    produceItemId: pitem_00-0-004-0-000
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
+  - stageType: PvpRateStageType__2
+    planType: ProducePlanType_Plan1
+    turn: 8
+    produceItemId: pitem_01-0-005-0-000
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
+  - stageType: PvpRateStageType__3
+    planType: ProducePlanType_Plan2
+    turn: 8
+    produceItemId: pitem_02-0-002-0-000
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
