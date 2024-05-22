@@ -1,3 +1,57 @@
+- id: achieve-i_card-ttmr-3-001-01
+  category: AchievementCategory_Idol
+  name: 絡まる想い
+  description: 【アイヴイ】月村 手毬のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-001
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-ttmr-3-001-02
+  category: AchievementCategory_Idol
+  name: アイヴイ
+  description: 【アイヴイ】月村 手毬の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-001
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-ttmr-3-001-03
+  category: AchievementCategory_Idol
+  name: カッコいいアイドル
+  description: 【アイヴイ】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-001
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: false
+  order: 3
 - id: achieve-m_amao-001
   category: AchievementCategory_Idol
   name: マスターアチーブメント

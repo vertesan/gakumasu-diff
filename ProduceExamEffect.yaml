@@ -3302,6 +3302,40 @@
   chainProduceExamEffectId: e_effect-exam_card_draw-0001
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
+- id: e_effect-exam_effect_timer-0002-01-e_effect-exam_card_upgrade-p_card_search-hand-all-0_0
+  effectType: ProduceExamEffectType_ExamEffectTimer
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2ターン</nobr>後、手札をすべて
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: レッスン中強化
+    targetId: Label_ExamCardUpgrade
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardUpgrade
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  effectValue1: 2
+  effectValue2: 0
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: e_effect-exam_card_upgrade-p_card_search-hand-all-0_0
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
 - id: e_effect-exam_effect_timer-0002-01-e_effect-exam_lesson_depend_block-1000-01
   effectType: ProduceExamEffectType_ExamEffectTimer
   descriptions:

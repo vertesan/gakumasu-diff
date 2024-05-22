@@ -367,6 +367,22 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_card_play-review_up-10
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_ReviewUp
+  fieldStatusValues:
+  - 10
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_card_play-review_up-3
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlay
@@ -861,6 +877,22 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_end_turn-review_up-10
+  phaseTypes:
+  - ProduceExamPhaseType_ExamEndTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_ReviewUp
+  fieldStatusValues:
+  - 10
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_end_turn-review_up-20
   phaseTypes:
   - ProduceExamPhaseType_ExamEndTurn
@@ -1061,6 +1093,21 @@
   - ProduceExamFieldStatusType_StaminaUpMultiple
   fieldStatusValues:
   - 60
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_play_count_interval-2
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayCountInterval
+  phaseValues:
+  - 2
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
   fieldStatusProduceCardSearchIds: []
   produceCardSearchId: ""
   upperSearchCount: 0

@@ -16585,6 +16585,30 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_Activity
+- id: event-detail-p_story-i_card-ttmr-3-001-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-ttmr-3-001-01
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-ttmr-3-001-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-ttmr-3-001-02
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-ttmr-3-001-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-ttmr-3-001-03
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
 - id: event-detail-s_card-1-0000-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-s_card-1-0000-01
@@ -17935,6 +17959,56 @@
     isOnlyOutGame: false
     changeColor: true
   eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-2-0015-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-2-0015-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_card-p_card-02-sup-2_086-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-2-0015
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCard
+    text: なに聴いてるの？
+    targetId: p_card-02-sup-2_086
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-2-0015-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-2-0015-02
+  produceEffectIds:
+  - p_effect-vocal_addition-0015_0015
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-2-0015
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ボーカル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "15"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
 - id: event-detail-s_card-3-0000-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-s_card-3-0000-01
@@ -17992,6 +18066,81 @@
   - p_effect-produce_card_change-0001_0001-p_rd-produce-random-all-p_card_search-deck_all-starter-random-01_01
   produceStepEventSuggestionIds: []
   supportCardId: s_card-3-0000
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ランダムな名前に「基本」を含むスキルカードを異なるスキルカードに
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: チェンジ
+    targetId: Label_ProduceCardChange
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0001-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0001-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_00-3-010-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0001
+  descriptions:
+  - type: ProduceDescriptionType_ProduceItem
+    text: 天川ラーメン巡り
+    targetId: pitem_00-3-010-0
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0001-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0001-02
+  produceEffectIds:
+  - p_effect-vocal_addition-0020_0020
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0001
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ボーカル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "20"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0001-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0001-03
+  produceEffectIds:
+  - p_effect-produce_card_change-0001_0001-p_rd-produce-random-all-p_card_search-deck_all-starter-random-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0001
   descriptions:
   - type: ProduceDescriptionType_PlainText
     text: ランダムな名前に「基本」を含むスキルカードを異なるスキルカードに
@@ -19151,6 +19300,81 @@
     isOnlyOutGame: false
     changeColor: false
   eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0018-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0018-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_card-p_card-00-sup-3_037-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0018
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCard
+    text: 薄れゆく壁
+    targetId: p_card-00-sup-3_037
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0018-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0018-02
+  produceEffectIds:
+  - p_effect-visual_addition-0020_0020
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0018
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ビジュアル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "20"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0018-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0018-03
+  produceEffectIds:
+  - p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0018
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ランダムなスキルカードを
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 強化
+    targetId: Label_ProduceCardUpgrade
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
 - id: event-detail-s_card-3-0019-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-s_card-3-0019-01
@@ -19501,6 +19725,138 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-amao-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_amao_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-amao-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-amao-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-amao-exam_review_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
 - id: event-detail-school-001-fktn-001
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-event-001_fktn_school_001
@@ -19773,6 +20129,138 @@
   - p_s_e_s-event-detail-school-001-fktn-025-01
   - p_s_e_s-event-detail-school-001-fktn-025-02
   - p_s_e_s-event-detail-school-001-fktn-025-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-fktn-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_fktn_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-fktn-exam_review_03-022-03
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
@@ -20051,6 +20539,138 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hrnm-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hrnm_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-hrnm-exam_review_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
 - id: event-detail-school-001-hski-001
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-event-001_hski_school_001
@@ -20323,6 +20943,138 @@
   - p_s_e_s-event-detail-school-001-hski-025-01
   - p_s_e_s-event-detail-school-001-hski-025-02
   - p_s_e_s-event-detail-school-001-hski-025-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-hski-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_hski_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-hski-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-hski-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-hski-exam_review_03-022-03
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
@@ -20601,6 +21353,138 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kcna-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kcna_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-kcna-exam_review_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
 - id: event-detail-school-001-kllj-001
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-event-001_kllj_school_001
@@ -20873,6 +21757,138 @@
   - p_s_e_s-event-detail-school-001-kllj-025-01
   - p_s_e_s-event-detail-school-001-kllj-025-02
   - p_s_e_s-event-detail-school-001-kllj-025-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-kllj-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_kllj_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-kllj-exam_review_03-022-03
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
@@ -21151,6 +22167,138 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-shro-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_shro_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-shro-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-shro-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-shro-exam_review_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
 - id: event-detail-school-001-ssmk-001
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-event-001_ssmk_school_001
@@ -21426,6 +22574,138 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ssmk-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ssmk_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-ssmk-exam_review_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
 - id: event-detail-school-001-ttmr-001
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-event-001_ttmr_school_001
@@ -21698,6 +22978,138 @@
   - p_s_e_s-event-detail-school-001-ttmr-025-01
   - p_s_e_s-event-detail-school-001-ttmr-025-02
   - p_s_e_s-event-detail-school-001-ttmr-025-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_card_play_aggressive_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_01-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_01-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_card_play_aggressive_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_02-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_02-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_card_play_aggressive_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_03-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_03-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_card_play_aggressive_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_lesson_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_lesson_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_lesson_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_lesson_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_parameter_buff_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_01-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_01-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_parameter_buff_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_02-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_02-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_parameter_buff_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_03-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_03-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_parameter_buff_03-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_review_01-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_01-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_01-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_01-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_review_02-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_02-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_02-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_02-022-03
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_School
+- id: event-detail-school-001-ttmr-exam_review_03-022
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-event-001_ttmr_school_011
+  produceEffectIds: []
+  produceStepEventSuggestionIds:
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_03-022-01
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_03-022-02
+  - p_s_e_s-event-detail-school-001-ttmr-exam_review_03-022-03
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_School
