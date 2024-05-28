@@ -646,6 +646,18 @@
   beforeTime: "1716343200000"
   afterTime: "1716926399000"
   description: ""
+- id: cd_login_bonus_wednesday-0529-100dl
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716926400000"
+  afterTime: "1717531199000"
+  description: ""
 - id: cd_money_exchange_plv_1_4
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -8410,6 +8422,78 @@
   beforeTime: "0"
   afterTime: "0"
   description: 初星課題55達成で開放
+- id: cd-purchase_shop_pack_childsmock-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-childsmock-01
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_pack_childsmock-01-02-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_pack_childsmock-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_pack_childsmock-01-02-03
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_pack_childsmock-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_pack_childsmock-01-02-03
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_pack_childsmock-03
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_pack_childsmock-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-childsmock-02
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_pack_childsmock-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-childsmock-03
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase_shop_pack_item-0006
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -9514,6 +9598,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-shop_pack_childsmock-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716948000000"
+  afterTime: "1719536399000"
+  description: ""
+- id: cd-shop_pack_childsmock-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716948000000"
+  afterTime: "1719536399000"
+  description: ""
+- id: cd-shop_pack_childsmock-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716948000000"
+  afterTime: "1719536399000"
+  description: ""
 - id: cd-shop_pack_item-0002-tutorial_clear_336h
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -9525,6 +9645,18 @@
   max: "336"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-shop_pack_item-100dl
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716948000000"
+  afterTime: "1719536399000"
   description: ""
 - id: cd-story_read_event-001-001
   number: 1
@@ -10953,6 +11085,30 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-shop_pack_item-childsmock-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase_shop_pack_childsmock-01-02-03
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-shop_pack_item-childsmock-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1716948000000"
+  afterTime: "1719536399000"
   description: ""
 - id: cd-view-shop_jewel_item-0008-0009
   number: 1
