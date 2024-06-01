@@ -60,13 +60,13 @@
   order: 8
 - characterId: amao
   assetId: sud_vo_system_amao_home_cmmn-09
-  title: ホーム（親愛度Lv1〜3）
+  title: ホーム（親愛度Lv1〜3）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-amao-01
   order: 19
 - characterId: amao
   assetId: sud_vo_system_amao_home_cmmn-10
-  title: ホーム（親愛度Lv1〜3）
+  title: ホーム（親愛度Lv1〜3）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-amao-01
   order: 20
@@ -239,6 +239,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: amao
+  assetId: sud_vo_system_amao_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: amao
+  assetId: sud_vo_system_amao_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: amao
+  assetId: sud_vo_system_amao_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: amao
   assetId: sud_vo_system_amao_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -272,31 +290,31 @@
   assetId: sud_vo_system_amao_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-amao-005
+  conditionSetId: cd-release-ending-normal-a-voice-amao
   order: 40
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-amao-005
+  conditionSetId: cd-release-ending-normal-a-voice-amao
   order: 41
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-amao-005
+  conditionSetId: cd-release-ending-normal-a-voice-amao
   order: 42
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-amao-c
+  conditionSetId: cd-release-ending-normal-c-voice-amao
   order: 43
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-amao-c
+  conditionSetId: cd-release-ending-normal-c-voice-amao
   order: 44
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-01
@@ -510,7 +528,7 @@
   order: 20
 - characterId: fktn
   assetId: sud_vo_system_fktn_home_cmmn-11
-  title: ホーム（親愛度Lv3〜4）②
+  title: ホーム（親愛度Lv3〜4）
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-fktn-03
   order: 21
@@ -534,13 +552,13 @@
   order: 24
 - characterId: fktn
   assetId: sud_vo_system_fktn_home_cmmn-15
-  title: ホーム（親愛度Lv9〜）
+  title: ホーム（親愛度Lv9〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-fktn-09
   order: 25
 - characterId: fktn
   assetId: sud_vo_system_fktn_home_cmmn-16
-  title: ホーム（親愛度Lv9〜）
+  title: ホーム（親愛度Lv9〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-fktn-09
   order: 26
@@ -677,6 +695,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: fktn
+  assetId: sud_vo_system_fktn_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: fktn
+  assetId: sud_vo_system_fktn_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: fktn
+  assetId: sud_vo_system_fktn_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: fktn
   assetId: sud_vo_system_fktn_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -710,31 +746,31 @@
   assetId: sud_vo_system_fktn_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-005
+  conditionSetId: cd-release-ending-normal-a-voice-fktn
   order: 40
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-005
+  conditionSetId: cd-release-ending-normal-a-voice-fktn
   order: 41
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-005
+  conditionSetId: cd-release-ending-normal-a-voice-fktn
   order: 42
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-fktn-c
+  conditionSetId: cd-release-ending-normal-c-voice-fktn
   order: 43
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-fktn-c
+  conditionSetId: cd-release-ending-normal-c-voice-fktn
   order: 44
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-01
@@ -1121,6 +1157,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: hrnm
+  assetId: sud_vo_system_hrnm_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: hrnm
   assetId: sud_vo_system_hrnm_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -1154,31 +1208,31 @@
   assetId: sud_vo_system_hrnm_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-005
+  conditionSetId: cd-release-ending-normal-a-voice-hrnm
   order: 40
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-005
+  conditionSetId: cd-release-ending-normal-a-voice-hrnm
   order: 41
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-005
+  conditionSetId: cd-release-ending-normal-a-voice-hrnm
   order: 42
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-hrnm-c
+  conditionSetId: cd-release-ending-normal-c-voice-hrnm
   order: 43
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-hrnm-c
+  conditionSetId: cd-release-ending-normal-c-voice-hrnm
   order: 44
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-01
@@ -1422,13 +1476,13 @@
   order: 25
 - characterId: hski
   assetId: sud_vo_system_hski_home_cmmn-16
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-hski-10
   order: 26
 - characterId: hski
   assetId: sud_vo_system_hski_home_cmmn-17
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-hski-10
   order: 27
@@ -1559,6 +1613,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: hski
+  assetId: sud_vo_system_hski_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: hski
+  assetId: sud_vo_system_hski_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: hski
+  assetId: sud_vo_system_hski_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: hski
   assetId: sud_vo_system_hski_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -1592,31 +1664,31 @@
   assetId: sud_vo_system_hski_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hski-005
+  conditionSetId: cd-release-ending-normal-a-voice-hski
   order: 40
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hski-005
+  conditionSetId: cd-release-ending-normal-a-voice-hski
   order: 41
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-hski-005
+  conditionSetId: cd-release-ending-normal-a-voice-hski
   order: 42
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-hski-c
+  conditionSetId: cd-release-ending-normal-c-voice-hski
   order: 43
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-hski-c
+  conditionSetId: cd-release-ending-normal-c-voice-hski
   order: 44
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-01
@@ -1762,6 +1834,426 @@
   type: VoicePlayScreenType_Other
   conditionSetId: ""
   order: 8
+- characterId: hume
+  assetId: sud_vo_system_hume_cmmn_clothe-01
+  title: 着替え
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 6
+- characterId: hume
+  assetId: sud_vo_system_hume_home_birthday-01
+  title: ホーム（2024誕生日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0401
+  order: 48
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-01
+  title: ホーム①
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 1
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-02
+  title: ホーム②
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 2
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-03
+  title: ホーム③
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 3
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-04
+  title: ホーム④
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 4
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-05
+  title: ホーム⑤
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 5
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-06
+  title: ホーム⑥
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 6
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-07
+  title: ホーム⑦
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 7
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-08
+  title: ホーム⑧
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 8
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-09
+  title: ホーム（親愛度Lv1〜3）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-01
+  order: 19
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-12
+  title: ホーム（親愛度Lv4〜7）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-04
+  order: 22
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-14
+  title: ホーム（親愛度Lv6〜7）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-06
+  order: 24
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-15
+  title: ホーム（親愛度Lv8〜）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-08
+  order: 25
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-16
+  title: ホーム（親愛度Lv10〜）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-10
+  order: 26
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-17
+  title: ホーム（親愛度Lv10〜）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd-dearness_level-hume-10
+  order: 27
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-18
+  title: ホーム⑨
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 9
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-19
+  title: ホーム⑩
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 10
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-20
+  title: ホーム⑪
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 11
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-21
+  title: ホーム⑫
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 12
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-22
+  title: ホーム⑬
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 13
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-23
+  title: ホーム⑭
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 14
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-24
+  title: ホーム⑮
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 15
+- characterId: hume
+  assetId: sud_vo_system_hume_home_cmmn-25
+  title: ホーム⑯
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 16
+- characterId: hume
+  assetId: sud_vo_system_hume_home_touch-01
+  title: ホーム⑰
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 17
+- characterId: hume
+  assetId: sud_vo_system_hume_home_touch-02
+  title: ホーム⑱
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 18
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-01
+  title: ホーム（朝）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 28
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-02
+  title: ホーム（朝）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 29
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-03
+  title: ホーム（昼）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 30
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-04
+  title: ホーム（昼）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 31
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-05
+  title: ホーム（夕方）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 32
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-06
+  title: ホーム（夕方）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 33
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-07
+  title: ホーム（夜）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 34
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-08
+  title: ホーム（夜）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: ""
+  order: 35
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: hume
+  assetId: sud_vo_system_hume_idol_potential-01
+  title: 才能開花①
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 4
+- characterId: hume
+  assetId: sud_vo_system_hume_idol_potential-02
+  title: 才能開花②
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 5
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-01
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
+  order: 45
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-02
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
+  order: 46
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-03
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
+  order: 47
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-04
+  title: プロデュース結果（A End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-release-ending-normal-a-voice-hume
+  order: 40
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-05
+  title: プロデュース結果（A End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-release-ending-normal-a-voice-hume
+  order: 41
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-06
+  title: プロデュース結果（A End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-release-ending-normal-a-voice-hume
+  order: 42
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-07
+  title: プロデュース結果（B〜C End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-release-ending-normal-c-voice-hume
+  order: 43
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-08
+  title: プロデュース結果（B〜C End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-release-ending-normal-c-voice-hume
+  order: 44
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-01
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 1
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-02
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 2
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-03
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 3
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-04
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 4
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-05
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 5
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-06
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 6
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-07
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 14
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-08
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 15
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-09
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 16
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-10
+  title: 中庭①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 17
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-11
+  title: 中庭②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 18
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-12
+  title: 中庭③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 19
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-13
+  title: アイドル科教室①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 9
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-14
+  title: アイドル科教室②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 10
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-15
+  title: アイドル科教室③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 11
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-16
+  title: 活動拠点⑦
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 7
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-17
+  title: 活動拠点⑧
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 8
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-18
+  title: アイドル科教室④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 12
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-19
+  title: アイドル科教室⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: ""
+  order: 13
+- characterId: hume
+  assetId: sud_vo_system_hume_work_result-01
+  title: お仕事成功
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 9
+- characterId: hume
+  assetId: sud_vo_system_hume_work_result-02
+  title: お仕事大成功
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 10
+- characterId: hume
+  assetId: sud_vo_system_hume_work_start-01
+  title: お仕事開始①
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 7
+- characterId: hume
+  assetId: sud_vo_system_hume_work_start-02
+  title: お仕事開始②
+  type: VoicePlayScreenType_Other
+  conditionSetId: ""
+  order: 8
 - characterId: kcna
   assetId: sud_vo_system_kcna_cmmn_clothe-01
   title: 着替え
@@ -1830,13 +2322,13 @@
   order: 19
 - characterId: kcna
   assetId: sud_vo_system_kcna_home_cmmn-10
-  title: ホーム（親愛度Lv4〜5）
+  title: ホーム（親愛度Lv4〜5）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kcna-04
   order: 20
 - characterId: kcna
   assetId: sud_vo_system_kcna_home_cmmn-11
-  title: ホーム（親愛度Lv4〜5）
+  title: ホーム（親愛度Lv4〜5）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kcna-04
   order: 21
@@ -1866,13 +2358,13 @@
   order: 25
 - characterId: kcna
   assetId: sud_vo_system_kcna_home_cmmn-16
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kcna-10
   order: 26
 - characterId: kcna
   assetId: sud_vo_system_kcna_home_cmmn-17
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kcna-10
   order: 27
@@ -2003,6 +2495,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: kcna
+  assetId: sud_vo_system_kcna_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: kcna
+  assetId: sud_vo_system_kcna_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: kcna
+  assetId: sud_vo_system_kcna_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: kcna
   assetId: sud_vo_system_kcna_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -2036,31 +2546,31 @@
   assetId: sud_vo_system_kcna_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-005
+  conditionSetId: cd-release-ending-normal-a-voice-kcna
   order: 40
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-005
+  conditionSetId: cd-release-ending-normal-a-voice-kcna
   order: 41
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-005
+  conditionSetId: cd-release-ending-normal-a-voice-kcna
   order: 42
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-kcna-c
+  conditionSetId: cd-release-ending-normal-c-voice-kcna
   order: 43
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-kcna-c
+  conditionSetId: cd-release-ending-normal-c-voice-kcna
   order: 44
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-01
@@ -2274,7 +2784,7 @@
   order: 20
 - characterId: kllj
   assetId: sud_vo_system_kllj_home_cmmn-11
-  title: ホーム（親愛度Lv3〜4）②
+  title: ホーム（親愛度Lv3〜4）
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kllj-03
   order: 21
@@ -2292,7 +2802,7 @@
   order: 23
 - characterId: kllj
   assetId: sud_vo_system_kllj_home_cmmn-14
-  title: ホーム（親愛度Lv6〜7）②
+  title: ホーム（親愛度Lv6〜7）
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-kllj-06
   order: 24
@@ -2441,6 +2951,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: kllj
+  assetId: sud_vo_system_kllj_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: kllj
+  assetId: sud_vo_system_kllj_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: kllj
+  assetId: sud_vo_system_kllj_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: kllj
   assetId: sud_vo_system_kllj_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -2474,31 +3002,31 @@
   assetId: sud_vo_system_kllj_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-005
+  conditionSetId: cd-release-ending-normal-a-voice-kllj
   order: 40
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-005
+  conditionSetId: cd-release-ending-normal-a-voice-kllj
   order: 41
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-005
+  conditionSetId: cd-release-ending-normal-a-voice-kllj
   order: 42
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-kllj-c
+  conditionSetId: cd-release-ending-normal-c-voice-kllj
   order: 43
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-kllj-c
+  conditionSetId: cd-release-ending-normal-c-voice-kllj
   order: 44
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-01
@@ -2712,7 +3240,7 @@
   order: 20
 - characterId: shro
   assetId: sud_vo_system_shro_home_cmmn-11
-  title: ホーム（親愛度Lv3〜4）②
+  title: ホーム（親愛度Lv3〜4）
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-shro-03
   order: 21
@@ -2724,13 +3252,13 @@
   order: 22
 - characterId: shro
   assetId: sud_vo_system_shro_home_cmmn-13
-  title: ホーム（親愛度Lv6〜8）②
+  title: ホーム（親愛度Lv6〜8）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-shro-06
   order: 23
 - characterId: shro
   assetId: sud_vo_system_shro_home_cmmn-14
-  title: ホーム（親愛度Lv6〜8）
+  title: ホーム（親愛度Lv6〜8）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-shro-06
   order: 24
@@ -2742,13 +3270,13 @@
   order: 25
 - characterId: shro
   assetId: sud_vo_system_shro_home_cmmn-16
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-shro-10
   order: 26
 - characterId: shro
   assetId: sud_vo_system_shro_home_cmmn-17
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-shro-10
   order: 27
@@ -2879,6 +3407,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: shro
+  assetId: sud_vo_system_shro_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: shro
+  assetId: sud_vo_system_shro_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: shro
+  assetId: sud_vo_system_shro_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: shro
   assetId: sud_vo_system_shro_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -2912,31 +3458,31 @@
   assetId: sud_vo_system_shro_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-shro-005
+  conditionSetId: cd-release-ending-normal-a-voice-shro
   order: 40
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-shro-005
+  conditionSetId: cd-release-ending-normal-a-voice-shro
   order: 41
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-shro-005
+  conditionSetId: cd-release-ending-normal-a-voice-shro
   order: 42
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-shro-c
+  conditionSetId: cd-release-ending-normal-c-voice-shro
   order: 43
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-shro-c
+  conditionSetId: cd-release-ending-normal-c-voice-shro
   order: 44
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-01
@@ -3144,7 +3690,7 @@
   order: 19
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_cmmn-10
-  title: ホーム（親愛度Lv3〜4）①
+  title: ホーム（親愛度Lv3〜4）
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ssmk-03
   order: 20
@@ -3162,25 +3708,25 @@
   order: 22
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_cmmn-13
-  title: ホーム（親愛度Lv7〜8）
+  title: ホーム（親愛度Lv7〜8）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ssmk-07
   order: 23
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_cmmn-14
-  title: ホーム（親愛度Lv7〜8）
+  title: ホーム（親愛度Lv7〜8）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ssmk-07
   order: 24
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_cmmn-15
-  title: ホーム（親愛度Lv8〜）
+  title: ホーム（親愛度Lv8〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ssmk-08
   order: 25
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_cmmn-16
-  title: ホーム（親愛度Lv8〜）
+  title: ホーム（親愛度Lv8〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ssmk-08
   order: 26
@@ -3317,6 +3863,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: ssmk
+  assetId: sud_vo_system_ssmk_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: ssmk
   assetId: sud_vo_system_ssmk_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -3350,31 +3914,31 @@
   assetId: sud_vo_system_ssmk_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-005
+  conditionSetId: cd-release-ending-normal-a-voice-ssmk
   order: 40
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-005
+  conditionSetId: cd-release-ending-normal-a-voice-ssmk
   order: 41
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-005
+  conditionSetId: cd-release-ending-normal-a-voice-ssmk
   order: 42
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-ssmk-c
+  conditionSetId: cd-release-ending-normal-c-voice-ssmk
   order: 43
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-ssmk-c
+  conditionSetId: cd-release-ending-normal-c-voice-ssmk
   order: 44
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-01
@@ -3612,19 +4176,19 @@
   order: 24
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_home_cmmn-15
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）①
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ttmr-10
   order: 25
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_home_cmmn-16
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）②
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ttmr-10
   order: 26
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_home_cmmn-17
-  title: ホーム（親愛度Lv10〜）
+  title: ホーム（親愛度Lv10〜）③
   type: VoicePlayScreenType_Home
   conditionSetId: cd-dearness_level-ttmr-10
   order: 27
@@ -3755,6 +4319,24 @@
   conditionSetId: cd_time_24_0301
   order: 38
 - characterId: ttmr
+  assetId: sud_vo_system_ttmr_home_transition-17
+  title: ホーム（夏）①
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 39
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_home_transition-18
+  title: ホーム（夏）②
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 40
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_home_transition-19
+  title: ホーム（夏）③
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_0601
+  order: 41
+- characterId: ttmr
   assetId: sud_vo_system_ttmr_idol_potential-01
   title: 才能開花①
   type: VoicePlayScreenType_Other
@@ -3788,31 +4370,31 @@
   assetId: sud_vo_system_ttmr_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-005
+  conditionSetId: cd-release-ending-normal-a-voice-ttmr
   order: 40
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-005
+  conditionSetId: cd-release-ending-normal-a-voice-ttmr
   order: 41
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-005
+  conditionSetId: cd-release-ending-normal-a-voice-ttmr
   order: 42
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-ttmr-c
+  conditionSetId: cd-release-ending-normal-c-voice-ttmr
   order: 43
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
-  conditionSetId: cd-mission_clear-mission-normal-produce-clear-ttmr-c
+  conditionSetId: cd-release-ending-normal-c-voice-ttmr
   order: 44
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-01

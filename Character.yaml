@@ -466,6 +466,7 @@
   - s_card-3-0004
   - s_card-3-0012
   - s_card-3-0018
+  - s_card-3-0023
   viewConditionSetId: ""
   normalCostumeHeadId: costume_head_hski-schl-0000
   trainingCostumeHeadId: costume_head_hski-schl-0000
@@ -558,12 +559,31 @@
   firstName: 佑芽
   alphabetLastName: HANAMI
   alphabetFirstName: UME
-  isPlayable: false
-  personalityType: CharacterPersonalityType_Unknown
-  characterTrueEndBonusId: ""
-  achievementIds: []
-  masterAchievementId: ""
-  idolCardIds: []
+  isPlayable: true
+  personalityType: CharacterPersonalityType_B
+  characterTrueEndBonusId: character_true_end_bonus-hume
+  achievementIds:
+  - achieve-m_hume-001
+  - achieve-p_idol-hume-000
+  - achieve-p_idol-hume-001
+  - achieve-p_idol-hume-002
+  - achieve-p_idol-hume-003
+  - achieve-p_idol-hume-004
+  - achieve-p_idol-hume-005
+  - achieve-p_idol-hume-006
+  - achieve-p_idol-hume-007
+  - achieve-p_idol-hume-008
+  - achieve-p_idol-hume-009
+  - achieve-p_idol-hume-010
+  - achieve-p_idol-hume-011
+  - achieve-p_idol-hume-012
+  - achieve-p_idol-hume-013
+  - achieve-p_idol-hume-014
+  masterAchievementId: achieve-m_hume-001
+  idolCardIds:
+  - i_card-hume-1-000
+  - i_card-hume-2-000
+  - i_card-hume-3-000
   supportCardIds:
   - s_card-1-0004
   - s_card-1-0008
@@ -572,6 +592,7 @@
   - s_card-2-0000
   - s_card-2-0008
   - s_card-2-0009
+  - s_card-2-0019
   - s_card-3-0001
   - s_card-3-0003
   - s_card-3-0004
@@ -580,21 +601,85 @@
   - s_card-3-0011
   - s_card-3-0012
   - s_card-3-0015
+  - s_card-3-0023
   viewConditionSetId: ""
-  normalCostumeHeadId: ""
-  trainingCostumeHeadId: ""
-  liveCostumeHeadId: ""
-  normalCostumeId: ""
-  trainingCostumeId: ""
-  liveCostumeId: ""
-  eventCharacterProduceStoryIds: []
-  eventCharacterGrowthProduceStoryIds: []
-  eventActivityProduceStoryIds: []
-  eventSchoolProduceStoryIds: []
+  normalCostumeHeadId: costume_head_hume-schl-0000
+  trainingCostumeHeadId: costume_head_hume-schl-0000
+  liveCostumeHeadId: costume_head_hume-cstm-0000
+  normalCostumeId: hume-schl-0000
+  trainingCostumeId: hume-trng-0000
+  liveCostumeId: hume-cstm-0000
+  eventCharacterProduceStoryIds:
+  - p_story-001-hume-opening-true-01
+  - p_story-001-hume-opening-true-02
+  - p_story-001-hume-opening-normal-04
+  - p_story-001-hume-opening-normal-05
+  - p_story-001-hume-opening-normal-01
+  - p_story-001-hume-opening-normal-02
+  - p_story-001-hume-opening-normal-03
+  - p_story-001-hume-after-step-1-normal-01
+  - p_story-001-hume-after-step-1-normal-02
+  - p_story-001-hume-after-step-1-normal-03
+  - p_story-001-hume-before-audition-mid-normal-01
+  - p_story-001-hume-after-audition-mid-normal-01
+  - p_story-001-hume-after-audition-mid-normal-02
+  - p_story-001-hume-after-audition-mid-normal-03
+  - p_story-001-hume-after-audition-mid-normal-04
+  - p_story-001-hume-after-step-2-normal-01
+  - p_story-001-hume-after-step-2-normal-02
+  - p_story-001-hume-after-step-2-normal-03
+  - p_story-001-hume-before-audition-final-normal-01
+  - p_story-001-hume-after-audition-final-normal-01
+  - p_story-001-hume-after-audition-final-normal-02
+  - p_story-001-hume-after-audition-final-normal-03
+  - p_story-001-hume-after-audition-final-normal-04
+  - p_story-001-hume-after-audition-mid-failure-01
+  - p_story-001-hume-after-audition-final-failure-01
+  - p_story-001-hume-ending-true-01
+  - p_story-001-hume-ending-normal-01
+  - p_story-001-hume-ending-normal-02
+  - p_story-001-hume-ending-normal-03
+  - p_story-001-hume-ending-normal-04
+  - p_story-001-hume-ending-normal-05
+  eventCharacterGrowthProduceStoryIds:
+  - p_story-001-hume-fb-01
+  - p_story-001-hume-fb-02
+  - p_story-001-hume-fb-03
+  eventActivityProduceStoryIds:
+  - p_story-event-001_hume_activity_001
+  - p_story-event-001_hume_activity_002
+  - p_story-event-001_hume_activity_003
+  - p_story-event-001_hume_activity_004
+  - p_story-event-001_hume_activity_005
+  - p_story-event-001_hume_activity_006
+  - p_story-event-001_hume_activity_007
+  - p_story-event-001_hume_activity_008
+  - p_story-event-001_hume_activity_009
+  - p_story-event-001_hume_activity_010
+  - p_story-event-001_hume_activity_011
+  - p_story-event-001_hume_activity_012
+  - p_story-event-001_hume_activity_013
+  - p_story-event-001_hume_activity_014
+  - p_story-event-001_hume_activity_015
+  - p_story-event-001_hume_activity_016
+  - p_story-event-001_hume_activity_017-01
+  - p_story-event-001_hume_activity_018-01
+  - p_story-event-001_hume_activity_019
+  - p_story-event-001_hume_activity_020
+  eventSchoolProduceStoryIds:
+  - p_story-event-001_hume_school_001
+  - p_story-event-001_hume_school_002
+  - p_story-event-001_hume_school_003
+  - p_story-event-001_hume_school_004
+  - p_story-event-001_hume_school_009
+  - p_story-event-001_hume_school_011
+  - p_story-event-001_hume_school_010
+  - p_story-event-001_hume_school_005
+  - p_story-event-001_hume_school_008
   otherStoryIds: []
-  potentialRank1VoiceAssetId: ""
-  potentialRank3VoiceAssetId: ""
-  potentialRank4VoiceAssetId: ""
+  potentialRank1VoiceAssetId: sud_vo_system_hume_idol_potential-01
+  potentialRank3VoiceAssetId: sud_vo_system_hume_idol_potential-01
+  potentialRank4VoiceAssetId: sud_vo_system_hume_idol_potential-02
   standingListPositionX: 0
   standingListPositionY: 0
   rosterDetailPositionX: 0
@@ -603,7 +688,7 @@
   storyPositionY: 0
   produceHighScorePositionX: 0
   produceHighScorePositionY: 0
-  order: 110
+  order: 95
 - id: jkno
   lastName: 十王
   firstName: 邦夫
@@ -723,6 +808,7 @@
   - s_card-2-0004
   - s_card-2-0007
   - s_card-2-0008
+  - s_card-2-0019
   - s_card-3-0001
   - s_card-3-0003
   - s_card-3-0006
@@ -1351,7 +1437,8 @@
   - p_story-event-001_ttmr_school_005
   - p_story-event-001_ttmr_school_007
   - p_story-event-001_ttmr_school_009
-  otherStoryIds: []
+  otherStoryIds:
+  - story-2024_bd-01_ttmr-01
   potentialRank1VoiceAssetId: sud_vo_system_ttmr_idol_potential-01
   potentialRank3VoiceAssetId: sud_vo_system_ttmr_idol_potential-01
   potentialRank4VoiceAssetId: sud_vo_system_ttmr_idol_potential-02

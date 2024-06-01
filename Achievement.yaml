@@ -1,3 +1,111 @@
+- id: achieve-i_card-hume-2-000-01
+  category: AchievementCategory_Idol
+  name: 打倒お姉ちゃん
+  description: 【アイドル、はじめっ！】花海 佑芽のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-2-000
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hume-2-000-02
+  category: AchievementCategory_Idol
+  name: アイドル、はじめっ！
+  description: 【アイドル、はじめっ！】花海 佑芽の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-2-000
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hume-2-000-03
+  category: AchievementCategory_Idol
+  name: 常勝不敗のトップアイドル
+  description: 【アイドル、はじめっ！】花海 佑芽のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-2-000
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-hume-3-000-01
+  category: AchievementCategory_Idol
+  name: おっきなおにぎり
+  description: 【The Rolling Riceball】花海 佑芽のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-000
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hume-3-000-02
+  category: AchievementCategory_Idol
+  name: The Rolling Riceball
+  description: 【The Rolling Riceball】花海 佑芽の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-000
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hume-3-000-03
+  category: AchievementCategory_Idol
+  name: 全校生徒への挑戦状
+  description: 【The Rolling Riceball】花海 佑芽のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-000
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-ttmr-3-001-01
   category: AchievementCategory_Idol
   name: 絡まる想い
@@ -122,6 +230,24 @@
   isTrueEndAchievement: false
   isMasterAchievement: true
   characterId: hski
+  viewProduceResult: false
+  order: 1
+- id: achieve-m_hume-001
+  category: AchievementCategory_Idol
+  name: マスターアチーブメント
+  description: 花海 佑芽のアチーブメントの★を{threshold}個獲得
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: true
+  characterId: hume
   viewProduceResult: false
   order: 1
 - id: achieve-m_kcna-001
@@ -3107,6 +3233,281 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
+  order: 15
+- id: achieve-p_idol-hume-000
+  category: AchievementCategory_Idol
+  name: 人生最高のファインプレー
+  description: 花海 佑芽でTrue Endをみる
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hume
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-p_idol-hume-001
+  category: AchievementCategory_Idol
+  name: 姉への挑戦
+  description: 花海 佑芽のプロデュースでスキルカードを{threshold}回使用
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 2
+- id: achieve-p_idol-hume-002
+  category: AchievementCategory_Idol
+  name: 地道なトレーニング
+  description: 花海 佑芽でレッスンを{threshold}回クリア
+  missionType: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 3
+- id: achieve-p_idol-hume-003
+  category: AchievementCategory_Idol
+  name: 無限の体力
+  description: 花海 佑芽でSPレッスンを{threshold}回クリア
+  missionType: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 4
+- id: achieve-p_idol-hume-004
+  category: AchievementCategory_Idol
+  name: 気持ちだけは負けません
+  description: 花海 佑芽で最終試験に合格して評価B以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 5
+- id: achieve-p_idol-hume-005
+  category: AchievementCategory_Idol
+  name: 次こそ絶対！
+  description: 花海 佑芽で最終試験に合格して評価A以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 8
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 2
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 6
+- id: achieve-p_idol-hume-006
+  category: AchievementCategory_Idol
+  name: 今日より強いあたし
+  description: 花海 佑芽で最終試験に合格して評価S以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 10
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 7
+- id: achieve-p_idol-hume-007
+  category: AchievementCategory_Idol
+  name: 考える前に動け
+  description: 花海 佑芽のプロデュースを{threshold}回完了
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 8
+- id: achieve-p_idol-hume-008
+  category: AchievementCategory_Idol
+  name: 加速度的成長
+  description: 花海 佑芽の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 9
+- id: achieve-p_idol-hume-009
+  category: AchievementCategory_Idol
+  name: 輝く原石
+  description: 花海 佑芽のプロデュースで最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 10
+- id: achieve-p_idol-hume-010
+  category: AchievementCategory_Idol
+  name: 王道アイドル
+  description: 花海 佑芽のファンを{threshold}人獲得
+  missionType: MissionType_AbsoluteFanCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 11
+- id: achieve-p_idol-hume-011
+  category: AchievementCategory_Idol
+  name: プロデューサーさんっ！
+  description: 花海 佑芽の親愛度Lvを{threshold}にする
+  missionType: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 12
+- id: achieve-p_idol-hume-012
+  category: AchievementCategory_Idol
+  name: たくさんほしいです！
+  description: 花海 佑芽でPドリンクを{threshold}回使用
+  missionType: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 13
+- id: achieve-p_idol-hume-013
+  category: AchievementCategory_Idol
+  name: 溢れ出る元気
+  description: 花海 佑芽のプロデュースで元気を合計{threshold}獲得
+  missionType: MissionType_IncrementProduceTotalAdditionExamBlock
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-hume-014
+  category: AchievementCategory_Idol
+  name: 着実な進歩
+  description: 花海 佑芽のダンスを1000以上に育成してプロデュースを完了
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - hume
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
   order: 15
 - id: achieve-p_idol-kcna-000
   category: AchievementCategory_Idol

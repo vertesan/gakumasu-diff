@@ -1,3 +1,35 @@
+- id: e_trigger-exam_card_play_after-card_play_aggressive_up-3-p_card_search-playing-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlayAfter
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardPlayAggressiveUp
+  fieldStatusValues:
+  - 3
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-playing
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_card_play_after-card_play_aggressive_up-5-p_card_search-mental_skill-playing-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlayAfter
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardPlayAggressiveUp
+  fieldStatusValues:
+  - 5
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-mental_skill-playing
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_card_play_after-p_card_search-active_skill-playing-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlayAfter
@@ -1115,6 +1147,21 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_play_count_interval-3
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayCountInterval
+  phaseValues:
+  - 3
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_play_count_interval-5
   phaseTypes:
   - ProduceExamPhaseType_ExamPlayCountInterval
@@ -1245,6 +1292,22 @@
   - ProduceExamFieldStatusType_BlockUp
   fieldStatusValues:
   - 7
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_start_turn-card_play_aggressive_up-20
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardPlayAggressiveUp
+  fieldStatusValues:
+  - 20
   fieldStatusProduceCardSearchIds: []
   produceCardSearchId: ""
   upperSearchCount: 0
@@ -1533,6 +1596,54 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_start_turn-remaining_turn-4
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_RemainingTurn
+  fieldStatusValues:
+  - 4
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_start_turn-remaining_turn-5
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_RemainingTurn
+  fieldStatusValues:
+  - 5
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_start_turn-remaining_turn-6
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_RemainingTurn
+  fieldStatusValues:
+  - 6
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_start_turn-review_up-3
   phaseTypes:
   - ProduceExamPhaseType_ExamStartTurn
@@ -1660,6 +1771,21 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_status_change-exam_block
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStatusChange
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes:
+  - ProduceExamEffectType_ExamBlock
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_status_change-exam_card_play_aggressive
   phaseTypes:
   - ProduceExamPhaseType_ExamStatusChange
@@ -1689,6 +1815,21 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes:
   - ProduceExamEffectType_ExamLessonBuff
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_status_change-exam_lesson_depend_block
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStatusChange
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes:
+  - ProduceExamEffectType_ExamLessonDependBlock
   lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_status_change-exam_parameter_buff
   phaseTypes:

@@ -189,6 +189,62 @@
   startTime: "1715824800000"
   endTime: "1719539999000"
   order: 1
+- id: shop_jewel_item-0010
+  shopId: shop_jewel
+  name: 【1回きりお得！】ジュエル6,000個（6/28まで）
+  labelTypes:
+  - ShopItemLabelType_Sale
+  isBig: false
+  isAppeal: false
+  assetId: "0010"
+  shopProductId: coin_0010
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards: []
+  unlockConditionSetId: cd-view-shop_jewel_item-0010
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1717207200000"
+  endTime: "1719536399000"
+  order: 2
+- id: shop_pack_hume-0001
+  shopId: shop_pack
+  name: 【72時間限定】プロデュースアイドルピースパック（佑芽）
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  isBig: false
+  isAppeal: false
+  assetId: "0018"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 2000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-piece-idol_hume-3-000
+    quantity: 50
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 800
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-1
+    quantity: 200
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-2
+    quantity: 200
+  unlockConditionSetId: cd-mission_clear-view-shop_pack_hume-0001-72-hour
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "0"
+  endTime: "0"
+  order: 300
 - id: shop_pack_item-0001
   shopId: shop_pack
   name: 【24時間限定】入学記念パック
@@ -676,7 +732,7 @@
   order: 1100
 - id: shop_pack_item-100dl
   shopId: shop_pack
-  name: 【100万DL記念】育成パック
+  name: 【100万DL記念】育成パック（6/28まで）
   labelTypes: []
   isBig: false
   isAppeal: false
@@ -709,7 +765,7 @@
   order: 240
 - id: shop_pack_item-childsmock-01
   shopId: shop_pack
-  name: 【100万DL記念】チャイルドスモックパックA
+  name: 【100万DL記念】チャイルドスモックパックA（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
   isBig: false
@@ -740,7 +796,7 @@
   order: 250
 - id: shop_pack_item-childsmock-02
   shopId: shop_pack
-  name: 【100万DL記念】チャイルドスモックパックB
+  name: 【100万DL記念】チャイルドスモックパックB（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
   isBig: false
@@ -771,7 +827,7 @@
   order: 251
 - id: shop_pack_item-childsmock-03
   shopId: shop_pack
-  name: 【100万DL記念】チャイルドスモックパックC
+  name: 【100万DL記念】チャイルドスモックパックC（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
   isBig: false
@@ -824,4 +880,29 @@
   purchaseLimit: 1
   startTime: "1711915200000"
   endTime: "1717358399000"
-  order: 1
+  order: 100000
+- id: shop_pass_item-0002
+  shopId: shop_pass
+  name: プレミアムミッションパス 2024年6月
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  isBig: false
+  isAppeal: false
+  assetId: "0002"
+  shopProductId: pass_0001
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_MissionPassPremiumPass
+    resourceId: mission_pass-2024-06
+    quantity: 1
+  unlockConditionSetId: cd_time_24_0603_0701
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1717358400000"
+  endTime: "1719777599000"
+  order: 100000

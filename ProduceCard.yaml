@@ -12506,6 +12506,578 @@
   viewStartTime: "0"
   isLimited: false
   order: "49000010000048"
+- id: p_card-00-sup-3_088
+  upgradeCount: 0
+  name: みずたまりスキップ
+  assetId: img_general_skillcard_sup-3_088
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Common
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 1
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0003
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_playable_value_add-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      1
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: Label_ExamPlayableValueAdd_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+1</nobr>
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 32
+  originIdolCardId: ""
+  originSupportCardId: s_card-3-0023
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  - effect_group-visible-exam_playable_value_add-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "49000010030088"
+- id: p_card-00-sup-3_088
+  upgradeCount: 1
+  name: みずたまりスキップ+
+  assetId: img_general_skillcard_sup-3_088
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Common
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 1
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0008
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_playable_value_add-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      1
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +8
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: Label_ExamPlayableValueAdd_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+1</nobr>
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 42
+  originIdolCardId: ""
+  originSupportCardId: s_card-3-0023
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  - effect_group-visible-exam_playable_value_add-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "49000010030088"
+- id: p_card-00-sup-3_088
+  upgradeCount: 2
+  name: みずたまりスキップ++
+  assetId: img_general_skillcard_sup-3_088
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Common
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 1
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0010
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_playable_value_add-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      1
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +10
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: Label_ExamPlayableValueAdd_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+1</nobr>
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: ""
+  originSupportCardId: s_card-3-0023
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  - effect_group-visible-exam_playable_value_add-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "49000010030088"
+- id: p_card-00-sup-3_088
+  upgradeCount: 3
+  name: みずたまりスキップ+++
+  assetId: img_general_skillcard_sup-3_088
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Common
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 1
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0012
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_playable_value_add-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      1
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +12
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: Label_ExamPlayableValueAdd_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+1</nobr>
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: ""
+  originSupportCardId: s_card-3-0023
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  - effect_group-visible-exam_playable_value_add-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "49000010030088"
 - id: p_card-01-act-0_005
   upgradeCount: 0
   name: 挑戦
@@ -37810,6 +38382,598 @@
   viewStartTime: "0"
   isLimited: false
   order: "42010300000036"
+- id: p_card-01-sup-2_087
+  upgradeCount: 0
+  name: キメ顔で自撮り
+  assetId: img_general_skillcard_sup-2_087
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan1
+  category: ProduceCardCategory_MentalSkill
+  stamina: 4
+  forceStamina: 0
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_parameter_buff-03
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_buff-0002
+    hideIcon: false
+  - produceExamTriggerId: e_trigger-exam_card_play-stamina_up_multiple-500
+    produceExamEffectId: e_effect-exam_effect_timer-0001-01-e_effect-exam_card_draw-0001
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+  
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      体力が50%以上の場合、次のターン、スキルカードを引く
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 32
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0019
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_effect_timer-000
+  - effect_group-visible-exam_card_draw-000
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "39010010030087"
+- id: p_card-01-sup-2_087
+  upgradeCount: 1
+  name: キメ顔で自撮り+
+  assetId: img_general_skillcard_sup-2_087
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan1
+  category: ProduceCardCategory_MentalSkill
+  stamina: 4
+  forceStamina: 0
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_parameter_buff-04
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_buff-0003
+    hideIcon: false
+  - produceExamTriggerId: e_trigger-exam_card_play-stamina_up_multiple-500
+    produceExamEffectId: e_effect-exam_effect_timer-0001-01-e_effect-exam_card_draw-0001
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+  
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+3</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      体力が50%以上の場合、次のターン、スキルカードを引く
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 42
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0019
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_effect_timer-000
+  - effect_group-visible-exam_card_draw-000
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "39010010030087"
+- id: p_card-01-sup-2_087
+  upgradeCount: 2
+  name: キメ顔で自撮り++
+  assetId: img_general_skillcard_sup-2_087
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan1
+  category: ProduceCardCategory_MentalSkill
+  stamina: 3
+  forceStamina: 0
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_parameter_buff-04
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_buff-0003
+    hideIcon: false
+  - produceExamTriggerId: e_trigger-exam_card_play-stamina_up_multiple-500
+    produceExamEffectId: e_effect-exam_effect_timer-0001-01-e_effect-exam_card_draw-0001
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+  
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+3</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      体力が50%以上の場合、次のターン、スキルカードを引く
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0019
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_effect_timer-000
+  - effect_group-visible-exam_card_draw-000
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "39010010030087"
+- id: p_card-01-sup-2_087
+  upgradeCount: 3
+  name: キメ顔で自撮り+++
+  assetId: img_general_skillcard_sup-2_087
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan1
+  category: ProduceCardCategory_MentalSkill
+  stamina: 2
+  forceStamina: 0
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_parameter_buff-04
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_buff-0003
+    hideIcon: false
+  - produceExamTriggerId: e_trigger-exam_card_play-stamina_up_multiple-500
+    produceExamEffectId: e_effect-exam_effect_timer-0001-01-e_effect-exam_card_draw-0001
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+  
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+3</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      体力が50%以上の場合、次のターン、スキルカードを引く
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0019
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_effect_timer-000
+  - effect_group-visible-exam_card_draw-000
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "39010010030087"
 - id: p_card-01-sup-3_047
   upgradeCount: 0
   name: 喧嘩するほど仲がいい
@@ -48470,6 +49634,622 @@
   viewStartTime: "0"
   isLimited: false
   order: "28020010000018"
+- id: p_card-02-ido-1_053
+  upgradeCount: 0
+  name: 未完の大器
+  assetId: img_general_skillcard_ido-1_053
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_R
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0002-0003
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+3</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 1
+  originIdolCardId: i_card-hume-1-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "28020010030053"
+- id: p_card-02-ido-1_053
+  upgradeCount: 1
+  name: 未完の大器+
+  assetId: img_general_skillcard_ido-1_053
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_R
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0004-0004
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+4</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+4</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 5
+  originIdolCardId: i_card-hume-1-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "28020010030053"
+- id: p_card-02-ido-1_053
+  upgradeCount: 2
+  name: 未完の大器++
+  assetId: img_general_skillcard_ido-1_053
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_R
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0004-0005
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+4</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+5</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-1-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "28020010030053"
+- id: p_card-02-ido-1_053
+  upgradeCount: 3
+  name: 未完の大器+++
+  assetId: img_general_skillcard_ido-1_053
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_R
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0004-0006
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+4</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+6</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-1-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "28020010030053"
 - id: p_card-02-ido-2_018
   upgradeCount: 0
   name: Colorful Cute!
@@ -50562,6 +52342,642 @@
   viewStartTime: "0"
   isLimited: false
   order: "38020010000024"
+- id: p_card-02-ido-2_083
+  upgradeCount: 0
+  name: 打倒お姉ちゃん
+  assetId: img_general_skillcard_ido-2_083
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_ActiveSkill
+  stamina: 0
+  forceStamina: 4
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0003
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_depend_block-1000-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      4
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>100%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 1
+  originIdolCardId: i_card-hume-2-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "38020010030083"
+- id: p_card-02-ido-2_083
+  upgradeCount: 1
+  name: 打倒お姉ちゃん+
+  assetId: img_general_skillcard_ido-2_083
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_ActiveSkill
+  stamina: 0
+  forceStamina: 4
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0003
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_depend_block-1400-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      4
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>140%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 5
+  originIdolCardId: i_card-hume-2-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "38020010030083"
+- id: p_card-02-ido-2_083
+  upgradeCount: 2
+  name: 打倒お姉ちゃん++
+  assetId: img_general_skillcard_ido-2_083
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_ActiveSkill
+  stamina: 0
+  forceStamina: 4
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0003
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_depend_block-1600-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      4
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>160%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-2-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "38020010030083"
+- id: p_card-02-ido-2_083
+  upgradeCount: 3
+  name: 打倒お姉ちゃん+++
+  assetId: img_general_skillcard_ido-2_083
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Sr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_ActiveSkill
+  stamina: 0
+  forceStamina: 4
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block-0004
+    hideIcon: false
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_lesson_depend_block-1800-01
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      4
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +4
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>180%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-2-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "38020010030083"
 - id: p_card-02-ido-3_015
   upgradeCount: 0
   name: よそ見はダメ♪
@@ -53378,6 +55794,622 @@
   viewStartTime: "1716343200000"
   isLimited: false
   order: "48020010020022"
+- id: p_card-02-ido-3_067
+  upgradeCount: 0
+  name: おっきなおにぎり
+  assetId: img_general_skillcard_ido-3_067
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0002-0005
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+5</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 1
+  originIdolCardId: i_card-hume-3-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "48020010030067"
+- id: p_card-02-ido-3_067
+  upgradeCount: 1
+  name: おっきなおにぎり+
+  assetId: img_general_skillcard_ido-3_067
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0002-0008
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: false
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+8</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 5
+  originIdolCardId: i_card-hume-3-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "48020010030067"
+- id: p_card-02-ido-3_067
+  upgradeCount: 2
+  name: おっきなおにぎり++
+  assetId: img_general_skillcard_ido-3_067
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0002-0009
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+9</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-3-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "48020010030067"
+- id: p_card-02-ido-3_067
+  upgradeCount: 3
+  name: おっきなおにぎり+++
+  assetId: img_general_skillcard_ido-3_067
+  isCharacterAsset: false
+  rarity: ProduceCardRarity_Ssr
+  planType: ProducePlanType_Plan2
+  category: ProduceCardCategory_MentalSkill
+  stamina: 0
+  forceStamina: 3
+  costType: ExamCostType_Unknown
+  costValue: 0
+  playProduceExamTriggerId: ""
+  playEffects:
+  - produceExamTriggerId: ""
+    produceExamEffectId: e_effect-exam_block_per_use_card_count-0002-0010
+    hideIcon: false
+  playMovePositionType: ProduceCardMovePositionType_Lost
+  moveEffectTriggerType: ProduceCardMoveEffectTriggerType_Unknown
+  moveProduceExamEffectIds: []
+  isEndTurnLost: false
+  isInitial: false
+  isRestrict: false
+  produceCardStatusEnchantId: ""
+  searchTag: ""
+  libraryHidden: true
+  noDeckDuplication: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      3
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に使用したスキルカード1枚ごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      増加量<nobr>+10</nobr>）
+      <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: レッスン中1回
+    targetId: Label_ProduceCardIsPlayMovePositionTypeLost
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: " </nobr>"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 重複不可
+    targetId: Label_NoDeckDuplication
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: </nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: true
+    changeColor: false
+  unlockProducerLevel: 0
+  rentalUnlockProducerLevel: 0
+  evaluation: 0
+  originIdolCardId: i_card-hume-3-000
+  originSupportCardId: ""
+  isInitialDeckProduceCard: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "48020010030067"
 - id: p_card-02-men-0_011
   upgradeCount: 0
   name: 目線の基本
