@@ -1,3 +1,57 @@
+- id: achieve-i_card-fktn-3-001-01
+  category: AchievementCategory_Idol
+  name: アドレナリン全開
+  description: 【Yellow Big Bang！】藤田 ことねのプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-001
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-fktn-3-001-02
+  category: AchievementCategory_Idol
+  name: Yellow Big Bang！
+  description: 【Yellow Big Bang！】藤田 ことねの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-001
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-fktn-3-001-03
+  category: AchievementCategory_Idol
+  name: ちょー元気！
+  description: 【Yellow Big Bang！】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-001
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-hume-2-000-01
   category: AchievementCategory_Idol
   name: 打倒お姉ちゃん
@@ -3269,7 +3323,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 2
 - id: achieve-p_idol-hume-002
   category: AchievementCategory_Idol
@@ -3287,7 +3341,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 3
 - id: achieve-p_idol-hume-003
   category: AchievementCategory_Idol
@@ -3308,7 +3362,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 4
 - id: achieve-p_idol-hume-004
   category: AchievementCategory_Idol
@@ -3326,7 +3380,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 5
 - id: achieve-p_idol-hume-005
   category: AchievementCategory_Idol
@@ -3344,7 +3398,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 6
 - id: achieve-p_idol-hume-006
   category: AchievementCategory_Idol
@@ -3362,7 +3416,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 7
 - id: achieve-p_idol-hume-007
   category: AchievementCategory_Idol
@@ -3380,7 +3434,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 8
 - id: achieve-p_idol-hume-008
   category: AchievementCategory_Idol
@@ -3416,7 +3470,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 10
 - id: achieve-p_idol-hume-010
   category: AchievementCategory_Idol
@@ -3452,7 +3506,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 12
 - id: achieve-p_idol-hume-012
   category: AchievementCategory_Idol
@@ -3470,7 +3524,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 13
 - id: achieve-p_idol-hume-013
   category: AchievementCategory_Idol
@@ -3488,7 +3542,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 14
 - id: achieve-p_idol-hume-014
   category: AchievementCategory_Idol
@@ -3507,7 +3561,7 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
-  viewProduceResult: false
+  viewProduceResult: true
   order: 15
 - id: achieve-p_idol-kcna-000
   category: AchievementCategory_Idol

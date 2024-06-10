@@ -368,6 +368,20 @@
   cardMovePositionType: ProduceCardMovePositionType_Unknown
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_card_play-p_card_search-playing-p_card-01-ido-3_066-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-playing-p_card-01-ido-3_066
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
 - id: e_trigger-exam_card_play-parameter_buff
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlay
@@ -886,6 +900,22 @@
   fieldStatusTypes:
   - ProduceExamFieldStatusType_ParameterBuff
   fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+- id: e_trigger-exam_end_turn-remaining_turn-3
+  phaseTypes:
+  - ProduceExamPhaseType_ExamEndTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_RemainingTurn
+  fieldStatusValues:
+  - 3
   fieldStatusProduceCardSearchIds: []
   produceCardSearchId: ""
   upperSearchCount: 0
