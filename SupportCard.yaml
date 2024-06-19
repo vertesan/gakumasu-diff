@@ -1054,6 +1054,42 @@
     changeColor: false
   viewStartTime: "0"
   order: "2999600016"
+- id: s_card-2-0018
+  characterIds:
+  - hski
+  - ttmr
+  name: かちこちストレッチ
+  type: SupportCardType_Visual
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Sr
+  assetId: csprt-2-0018
+  supportCardLevelId: support_card_level-2-001
+  supportCardLevelLimitId: support_card_level_limit-2-001
+  produceStoryIds:
+  - p_story-s_card-2-0018-01
+  - p_story-s_card-2-0018-02
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 0
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 5
+  isLimited: false
+  produceCardUpgradePermil: 28
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Visual
+  upgradeProduceCardDescriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: / 確率中
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "2999400018"
 - id: s_card-2-0019
   characterIds:
   - kcna
@@ -1885,3 +1921,43 @@
     changeColor: false
   viewStartTime: "0"
   order: "1999700023"
+- id: s_card-3-0024
+  characterIds:
+  - hski
+  - ttmr
+  - fktn
+  - jsna
+  - hrnm
+  name: 「ア」じゃなくて「エ」！
+  type: SupportCardType_Visual
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Ssr
+  assetId: csprt-3-0024
+  supportCardLevelId: support_card_level-3-001
+  supportCardLevelLimitId: support_card_level_limit-3-001
+  produceStoryIds:
+  - p_story-s_card-3-0024-01
+  - p_story-s_card-3-0024-02
+  - p_story-s_card-3-0024-03
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 0
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 50
+  isLimited: false
+  produceCardUpgradePermil: 37
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Visual
+  upgradeProduceCardDescriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: / 確率大
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "1999400024"

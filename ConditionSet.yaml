@@ -705,7 +705,19 @@
   max: "0"
   beforeTime: "1718762400000"
   afterTime: "0"
-  description: 初星コミュイベントで解放
+  description: 直前のコミュをみることで解放
+- id: cd_main-story-event-001_story-release-list
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1719799200000"
+  afterTime: "0"
+  description: ""
 - id: cd_main-story-event-001-exchange_item-Idolcardpiece-exchange-1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10805,6 +10817,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_IdolCard
   resourceId1: i_card-hski-3-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-char-hski-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-hski-3-001
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"

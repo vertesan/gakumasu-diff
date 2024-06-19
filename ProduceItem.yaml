@@ -7535,6 +7535,63 @@
   viewStartTime: "0"
   isLimited: false
   order: "32200300181"
+- id: pitem_02-2-023-0
+  assetId: img_general_pitem_2-023
+  rarity: ProduceItemRarity_Sr
+  name: 咲季オススメマット
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_review-000
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-produce_effect-p_effect-visual_addition-0006_0006
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-produce_effect-p_effect-visual_addition-0006_0006
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード獲得時、ビジュアル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "6"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  - type: ProduceDescriptionType_PlainText
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 45
+  isExamEffect: false
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0018
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-visual_addition-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "33200600230"
 - id: pitem_02-3-005-0
   assetId: img_general_pitem_3-005
   rarity: ProduceItemRarity_Ssr
@@ -8237,3 +8294,135 @@
   viewStartTime: "0"
   isLimited: false
   order: "42200300311"
+- id: pitem_02-3-032-0
+  assetId: img_general_pitem_3-032
+  rarity: ProduceItemRarity_Ssr
+  name: 勝ちへのこだわり
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-04-enchant-pitem_02-3-032-0-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-04-enchant-pitem_02-3-032-0-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に体力が減少した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+2</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内4回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 100
+  isExamEffect: true
+  originIdolCardId: i_card-hski-3-001
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_review-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "42200600320"
+- id: pitem_02-3-032-1
+  assetId: img_general_pitem_3-032
+  rarity: ProduceItemRarity_Ssr
+  name: 勝ちへのこだわり+
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_02-3-032-1-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_02-3-032-1-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に体力が減少した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 140
+  isExamEffect: true
+  originIdolCardId: i_card-hski-3-001
+  originSupportCardId: ""
+  isUpgraded: true
+  effectGroupIds:
+  - effect_group-visible-exam_review-000
+  viewStartTime: "0"
+  isLimited: false
+  order: "42200600321"
