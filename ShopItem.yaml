@@ -2,13 +2,12 @@
   shopId: shop_jewel
   name: ジュエル80個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0001"
   shopProductId: coin_0001
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -23,13 +22,12 @@
   shopId: shop_jewel
   name: ジュエル360個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0002"
   shopProductId: coin_0002
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -44,13 +42,12 @@
   shopId: shop_jewel
   name: ジュエル600個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0003"
   shopProductId: coin_0003
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -65,13 +62,12 @@
   shopId: shop_jewel
   name: ジュエル1,200個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0004"
   shopProductId: coin_0004
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -86,13 +82,12 @@
   shopId: shop_jewel
   name: ジュエル2,500個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0005"
   shopProductId: coin_0005
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -107,13 +102,12 @@
   shopId: shop_jewel
   name: ジュエル4,000個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0006"
   shopProductId: coin_0006
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -128,13 +122,12 @@
   shopId: shop_jewel
   name: ジュエル8,200個
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0007"
   shopProductId: coin_0007
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -150,13 +143,12 @@
   name: 【1回きりお得！】ジュエル12,300個（6/28まで）
   labelTypes:
   - ShopItemLabelType_Sale
-  isBig: false
-  isAppeal: false
   assetId: "0008"
   shopProductId: coin_0008
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: cd-shop_jewel_item-0008_notpurchased_purchasable
   unlockConditionSetId: cd-view-shop_jewel_item-0008-0009
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -172,13 +164,12 @@
   name: 【1回きりお得！】ジュエル450個（6/28まで）
   labelTypes:
   - ShopItemLabelType_Sale
-  isBig: false
-  isAppeal: false
   assetId: "0009"
   shopProductId: coin_0009
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: cd-shop_jewel_item-0009_notpurchased_purchasable
   unlockConditionSetId: cd-view-shop_jewel_item-0008-0009
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -194,13 +185,12 @@
   name: 【1回きりお得！】ジュエル6,000個（6/28まで）
   labelTypes:
   - ShopItemLabelType_Sale
-  isBig: false
-  isAppeal: false
   assetId: "0010"
   shopProductId: coin_0010
   totalJewelQuantity: 0
   paidOnlyJewelQuantity: 0
   rewards: []
+  viewConditionSetId: cd-view-shop_jewel_item-0010
   unlockConditionSetId: cd-view-shop_jewel_item-0010
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -216,8 +206,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（佑芽）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0018"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -235,6 +223,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_hume-0001-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_hume-0001-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -250,8 +239,6 @@
   name: 【24時間限定】入学記念パック
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0001"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -269,6 +256,7 @@
   - resourceType: ResourceType_MeishiBaseAsset
     resourceId: normal-002
     quantity: 1
+  viewConditionSetId: cd-task_clear-01-001-24-hour
   unlockConditionSetId: cd-task_clear-01-001-24-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -284,8 +272,6 @@
   name: 【14日間限定】新人プロデューサー応援パック
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0002"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -300,6 +286,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-money
     quantity: 30000
+  viewConditionSetId: cd-shop_pack_item-0002-tutorial_clear_336h
   unlockConditionSetId: cd-shop_pack_item-0002-tutorial_clear_336h
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -314,8 +301,6 @@
   shopId: shop_pack
   name: 毎週支給！初星パック
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0003"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -330,6 +315,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2
     quantity: 10
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Weekly
   resetHour: 5
@@ -344,8 +330,6 @@
   shopId: shop_pack
   name: 毎週更新！育成パック
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0004"
   shopProductId: ""
   totalJewelQuantity: 600
@@ -363,6 +347,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2
     quantity: 150
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Weekly
   resetHour: 5
@@ -377,8 +362,6 @@
   shopId: shop_pack
   name: 毎月更新！育成パック
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0005"
   shopProductId: ""
   totalJewelQuantity: 1200
@@ -414,6 +397,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-3
     quantity: 40
+  viewConditionSetId: ""
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Monthly
   resetHour: 5
@@ -429,8 +413,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（咲季）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0006"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -448,6 +430,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-a-3
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0006-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0006-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -463,8 +446,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（手毬）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0007"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -482,6 +463,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-a-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0007-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0007-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -497,8 +479,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（ことね）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0008"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -516,6 +496,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0008-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0008-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -531,8 +512,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（麻央）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0009"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -550,6 +529,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-a-3
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0009-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0009-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -565,8 +545,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（リーリヤ）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0010"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -584,6 +562,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-3
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0010-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0010-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -599,8 +578,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（千奈）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0011"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -618,6 +595,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0011-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0011-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -633,8 +611,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（清夏）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0012"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -652,6 +628,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-a-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0012-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0012-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -667,8 +644,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（広）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0013"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -686,6 +661,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0013-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0013-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -701,8 +677,6 @@
   name: 【72時間限定】プロデュースアイドルピースパック（莉波）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0014"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -720,6 +694,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-a-2
     quantity: 200
+  viewConditionSetId: cd-mission_clear-view-shop_pack_item-0014-72-hour
   unlockConditionSetId: cd-mission_clear-view-shop_pack_item-0014-72-hour
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -734,8 +709,6 @@
   shopId: shop_pack
   name: 【100万DL記念】育成パック（6/28まで）
   labelTypes: []
-  isBig: false
-  isAppeal: false
   assetId: "0019"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -753,6 +726,7 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2
     quantity: 100
+  viewConditionSetId: cd-shop_pack_item-100dl
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -768,8 +742,6 @@
   name: 【100万DL記念】チャイルドスモックパックA（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0015"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -784,6 +756,7 @@
   - resourceType: ResourceType_Costume
     resourceId: hrnm-cstm-0069
     quantity: 1
+  viewConditionSetId: cd-shop_pack_childsmock-01
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -799,8 +772,6 @@
   name: 【100万DL記念】チャイルドスモックパックB（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0016"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -815,6 +786,7 @@
   - resourceType: ResourceType_Costume
     resourceId: shro-cstm-0069
     quantity: 1
+  viewConditionSetId: cd-shop_pack_childsmock-02
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -830,8 +802,6 @@
   name: 【100万DL記念】チャイルドスモックパックC（6/28まで）
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0017"
   shopProductId: ""
   totalJewelQuantity: 0
@@ -846,6 +816,7 @@
   - resourceType: ResourceType_Costume
     resourceId: ssmk-cstm-0069
     quantity: 1
+  viewConditionSetId: cd-shop_pack_childsmock-03
   unlockConditionSetId: ""
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -861,8 +832,6 @@
   name: プレミアムミッションパス 2024年5月
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0001"
   shopProductId: pass_0002
   totalJewelQuantity: 0
@@ -871,6 +840,7 @@
   - resourceType: ResourceType_MissionPassPremiumPass
     resourceId: mission_pass-001
     quantity: 1
+  viewConditionSetId: cd-view-shop_pass_item-0001
   unlockConditionSetId: cd-view-shop_pass_item-0001
   resetTimingType: ResetTimingType_Never
   resetHour: 0
@@ -886,8 +856,6 @@
   name: プレミアムミッションパス 2024年6月
   labelTypes:
   - ShopItemLabelType_Recommend
-  isBig: false
-  isAppeal: false
   assetId: "0002"
   shopProductId: pass_0001
   totalJewelQuantity: 0
@@ -896,6 +864,7 @@
   - resourceType: ResourceType_MissionPassPremiumPass
     resourceId: mission_pass-2024-06
     quantity: 1
+  viewConditionSetId: cd_time_24_0603_0701
   unlockConditionSetId: cd_time_24_0603_0701
   resetTimingType: ResetTimingType_Never
   resetHour: 0

@@ -6,6 +6,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 48900
@@ -17,6 +18,7 @@
   description: 有村 麻央の親愛度Lvを10にする
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: cd-dearness_level-amao-10
   viewStartTime: "0"
   order: 48901
@@ -28,6 +30,7 @@
   description: 【Fluorite】有村 麻央を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-amao-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 48800
@@ -39,6 +42,7 @@
   description: 【Fluorite】有村 麻央の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-amao-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 48801
@@ -50,6 +54,7 @@
   description: 有村 麻央の親愛度Lvを10にする
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: cd-dearness_level-amao-10
   viewStartTime: "0"
   order: 48902
@@ -61,6 +66,7 @@
   description: プレミアムミッションパス 2024年6月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717358400000"
   order: 49900
@@ -72,6 +78,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38900
@@ -83,6 +90,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38800
@@ -94,6 +102,7 @@
   description: 【世界一可愛い私】藤田 ことねを入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-fktn-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38700
@@ -105,6 +114,7 @@
   description: 【世界一可愛い私】藤田 ことねの才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-fktn-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38701
@@ -116,6 +126,7 @@
   description: 【Yellow Big Bang！】藤田 ことねを入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-fktn-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38690
@@ -127,9 +138,34 @@
   description: 【Yellow Big Bang！】藤田 ことねの才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-fktn-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 38691
+- id: costume_head_fktn-cstm-0072
+  characterId: fktn
+  name: ゴールドの輝き
+  hairAssetId: mdl_chr_fktn-cstm-0072_hair
+  faceAssetId: mdl_chr_fktn-base-0000_face
+  description: 月村手毬のアイドルへの道 ステージ10をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 38810
+- id: costume_head_fktn-cstm-0073
+  characterId: fktn
+  name: プラチナの輝き
+  hairAssetId: mdl_chr_fktn-cstm-0073_hair
+  faceAssetId: mdl_chr_fktn-base-0000_face
+  description: 藤田ことねのアイドルへの道 ステージ15をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 38820
 - id: costume_head_fktn-hair-0001
   characterId: fktn
   name: 紫陽花の髪飾り
@@ -138,9 +174,22 @@
   description: プレミアムミッションパス 2024年5月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39900
+- id: costume_head_fktn-hair-0002
+  characterId: fktn
+  name: お姫様ティアラ
+  hairAssetId: mdl_chr_fktn-hair-0002_hair
+  faceAssetId: mdl_chr_fktn-base-0000_face
+  description: 藤田ことねのアイドルへの道 ステージ20をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 38890
 - id: costume_head_hrnm-cstm-0000
   characterId: hrnm
   name: 初（はじめ）
@@ -149,6 +198,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 98800
@@ -160,6 +210,7 @@
   description: 【clumsy trick】姫崎 莉波を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hrnm-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 98700
@@ -171,6 +222,7 @@
   description: 【clumsy trick】姫崎 莉波の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hrnm-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 98701
@@ -182,6 +234,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 98900
@@ -193,6 +246,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18800
@@ -204,6 +258,7 @@
   description: 【Fighting My Way】花海 咲季を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hski-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18700
@@ -215,6 +270,7 @@
   description: 【Fighting My Way】花海 咲季の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hski-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18701
@@ -226,6 +282,7 @@
   description: 【Boom Boom Pow】花海 咲季を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hski-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18690
@@ -237,9 +294,34 @@
   description: 【Boom Boom Pow】花海 咲季の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hski-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18691
+- id: costume_head_hski-cstm-0072
+  characterId: hski
+  name: ゴールドの輝き
+  hairAssetId: mdl_chr_hski-cstm-0072_hair
+  faceAssetId: mdl_chr_hski-base-0000_face
+  description: 花海咲季のアイドルへの道 ステージ10をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 18810
+- id: costume_head_hski-cstm-0073
+  characterId: hski
+  name: プラチナの輝き
+  hairAssetId: mdl_chr_hski-cstm-0073_hair
+  faceAssetId: mdl_chr_hski-base-0000_face
+  description: 花海咲季のアイドルへの道 ステージ15をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 18820
 - id: costume_head_hski-hair-0001
   characterId: hski
   name: 紫陽花の髪飾り
@@ -248,9 +330,22 @@
   description: プレミアムミッションパス 2024年5月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19900
+- id: costume_head_hski-hair-0002
+  characterId: hski
+  name: お姫様ティアラ
+  hairAssetId: mdl_chr_hski-hair-0002_hair
+  faceAssetId: mdl_chr_hski-base-0000_face
+  description: 花海咲季のアイドルへの道 ステージ20をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 18890
 - id: costume_head_hski-schl-0000
   characterId: hski
   name: いつもの髪型
@@ -259,6 +354,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 18900
@@ -270,6 +366,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 108800
@@ -281,6 +378,7 @@
   description: 【The Rolling Riceball】花海 佑芽を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hume-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 108700
@@ -292,6 +390,7 @@
   description: 【The Rolling Riceball】花海 佑芽の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hume-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 108701
@@ -303,6 +402,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 108900
@@ -314,6 +414,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 68900
@@ -325,6 +426,7 @@
   description: 【Wonder Scale】倉本 千奈を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-kcna-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 68700
@@ -336,6 +438,7 @@
   description: 【Wonder Scale】倉本 千奈の才能開花4段階目で入手
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-kcna-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 68701
@@ -347,6 +450,7 @@
   description: 【白線】葛城 リーリヤを入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-kllj-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 58700
@@ -358,6 +462,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 58900
@@ -369,6 +474,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 88900
@@ -380,6 +486,7 @@
   description: 【光景】篠澤 広を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-shro-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 88700
@@ -391,6 +498,7 @@
   description: プレミアムミッションパス 2024年6月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717358400000"
   order: 89900
@@ -402,6 +510,7 @@
   description: 【Tame-Lie-One-Step】紫雲 清夏を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ssmk-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 78700
@@ -413,6 +522,7 @@
   description: プレミアムミッションパス 2024年6月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717358400000"
   order: 79900
@@ -424,6 +534,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 78900
@@ -435,6 +546,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 28900
@@ -446,6 +558,7 @@
   description: 最初から所持
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 28800
@@ -457,6 +570,7 @@
   description: 【Luna say maybe】月村 手毬を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ttmr-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 28700
@@ -468,9 +582,34 @@
   description: 【アイヴイ】月村 手毬を入手
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ttmr-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716343200000"
   order: 28690
+- id: costume_head_ttmr-cstm-0072
+  characterId: ttmr
+  name: ゴールドの輝き
+  hairAssetId: mdl_chr_ttmr-cstm-0072_hair
+  faceAssetId: mdl_chr_ttmr-base-0000_face
+  description: 藤田ことねのアイドルへの道 ステージ10をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 28810
+- id: costume_head_ttmr-cstm-0073
+  characterId: ttmr
+  name: プラチナの輝き
+  hairAssetId: mdl_chr_ttmr-cstm-0073_hair
+  faceAssetId: mdl_chr_ttmr-base-0000_face
+  description: 月村手毬のアイドルへの道 ステージ15をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 28820
 - id: costume_head_ttmr-hair-0001
   characterId: ttmr
   name: 紫陽花の髪飾り
@@ -479,6 +618,19 @@
   description: プレミアムミッションパス 2024年5月で獲得
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29900
+- id: costume_head_ttmr-hair-0002
+  characterId: ttmr
+  name: お姫様ティアラ
+  hairAssetId: mdl_chr_ttmr-hair-0002_hair
+  faceAssetId: mdl_chr_ttmr-base-0000_face
+  description: 月村手毬のアイドルへの道 ステージ20をクリア
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 28890

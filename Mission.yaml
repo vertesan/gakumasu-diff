@@ -389,6 +389,57 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-tower_fktn-clear_star_40
+  missionGroupId: ""
+  name: 「アイドルへの道」で星を獲得
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-tower_hski-clear_star_40
+  missionGroupId: ""
+  name: 「アイドルへの道」で星を獲得
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-tower_ttmr-clear_star_40
+  missionGroupId: ""
+  name: 「アイドルへの道」で星を獲得
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-normal-a-amao
   missionGroupId: ""
   name: 麻央でA Endを見る
@@ -6064,6 +6115,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-amao-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-card-amao-002-1
   missionGroupId: ""
   name: 【はじまりはカッコよく】有村 麻央のプロデュースで最終試験に合格
@@ -7243,6 +7311,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-fktn-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hrnm-000
   missionGroupId: ""
   name: 姫崎 莉波でTrue Endをみる
@@ -7495,6 +7580,23 @@
   - p_cd-vi-1000
   targetIds2:
   - hrnm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - hrnm
+  targetIds2: []
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -7765,6 +7867,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-hski-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hume-000
   missionGroupId: ""
   name: 花海 佑芽でTrue Endをみる
@@ -8016,6 +8135,23 @@
   - p_cd-da-1000
   targetIds2:
   - hume
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - hume
+  targetIds2: []
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -8286,6 +8422,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-kcna-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kllj-000
   missionGroupId: ""
   name: 葛城 リーリヤでTrue Endをみる
@@ -8538,6 +8691,23 @@
   - p_cd-vi-1000
   targetIds2:
   - kllj
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - kllj
+  targetIds2: []
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -8808,6 +8978,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-shro-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ssmk-000
   missionGroupId: ""
   name: 紫雲 清夏でTrue Endをみる
@@ -9069,6 +9256,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-ssmk-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ttmr-000
   missionGroupId: ""
   name: 月村 手毬でTrue Endをみる
@@ -9321,6 +9525,23 @@
   - p_cd-vo-1000
   targetIds2:
   - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - ttmr
+  targetIds2: []
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false

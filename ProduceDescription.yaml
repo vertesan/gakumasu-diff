@@ -4,7 +4,7 @@
   descriptions: []
 - id: Convert_002
   name: レッスン
-  swapName: 試験
+  swapName: 試験・ステージ
   descriptions: []
 - id: Convert_ConditionThreshold
   name: レッスンCLEARの
@@ -107,7 +107,7 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: "の増加値が33%減少 "
+    text: の増加量が33%減少
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -416,7 +416,7 @@
     changeColor: false
 - id: Label_ExamCardUpgrade
   name: レッスン中強化
-  swapName: 試験中強化
+  swapName: 試験・ステージ中強化
   descriptions:
   - type: ProduceDescriptionType_ProduceDescriptionName
     text: レッスン
@@ -954,7 +954,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
-  - type: ProduceDescriptionType_ExamCount
+  - type: ProduceDescriptionType_ExamTurn
     text: ""
     targetId: ""
     targetLevel: 0
@@ -983,7 +983,7 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: "つ減少 "
+    text: "枚減少 "
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -1003,7 +1003,7 @@
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: 準備不足が1増加するごとに、ターン開始時に引くスキルカードが1つ減少
+    text: 手札減少が1増加するごとに、ターン開始時に引くスキルカードが1枚減少
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -2172,7 +2172,7 @@
     changeColor: false
 - id: Label_ProduceCardIsPlayMovePositionTypeLost
   name: レッスン中1回
-  swapName: 試験中1回
+  swapName: 試験・ステージ中1回
   descriptions:
   - type: ProduceDescriptionType_ProduceDescriptionName
     text: レッスン

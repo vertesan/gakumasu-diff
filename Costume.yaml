@@ -8,6 +8,7 @@
   voiceGroupId: voice_group-amao-casl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49800
@@ -21,6 +22,7 @@
   voiceGroupId: voice_group-amao-casl-0001-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: cd-dearness_level-amao-10
   viewStartTime: "0"
   order: 49801
@@ -34,6 +36,7 @@
   voiceGroupId: voice_group-amao-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49700
@@ -47,6 +50,7 @@
   voiceGroupId: voice_group-amao-cstm-0004-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-amao-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49600
@@ -60,6 +64,7 @@
   voiceGroupId: voice_group-amao-cstm-0004-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-amao-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49601
@@ -73,6 +78,7 @@
   voiceGroupId: voice_group-amao-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 49910
@@ -86,6 +92,7 @@
   voiceGroupId: voice_group-amao-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49900
@@ -99,6 +106,7 @@
   voiceGroupId: voice_group-amao-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 49901
@@ -112,6 +120,7 @@
   voiceGroupId: voice_group-fktn-casl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39800
@@ -125,6 +134,7 @@
   voiceGroupId: voice_group-fktn-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39700
@@ -138,6 +148,7 @@
   voiceGroupId: voice_group-fktn-cstm-0001-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-fktn-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39600
@@ -151,6 +162,7 @@
   voiceGroupId: voice_group-fktn-cstm-0001-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-fktn-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39601
@@ -164,6 +176,7 @@
   voiceGroupId: voice_group-fktn-cstm-0027-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-fktn-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39590
@@ -177,6 +190,7 @@
   voiceGroupId: voice_group-fktn-cstm-0027-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-fktn-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39591
@@ -190,9 +204,38 @@
   voiceGroupId: voice_group-fktn-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 39910
+- id: fktn-cstm-0072
+  characterId: fktn
+  name: ゴールドの輝き
+  motifId: cstm-0072
+  description: 藤田ことねのアイドルへの道 ステージ10をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-fktn-cstm-0072-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 39710
+- id: fktn-cstm-0073
+  characterId: fktn
+  name: プラチナの輝き
+  motifId: cstm-0073
+  description: 藤田ことねのアイドルへの道 ステージ15をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-fktn-cstm-0073-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 39720
 - id: fktn-trng-0000
   characterId: fktn
   name: レッスンウェア
@@ -203,6 +246,7 @@
   voiceGroupId: voice_group-fktn-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39900
@@ -216,6 +260,7 @@
   voiceGroupId: voice_group-fktn-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 39901
@@ -229,6 +274,7 @@
   voiceGroupId: voice_group-hrnm-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99700
@@ -242,6 +288,7 @@
   voiceGroupId: voice_group-hrnm-cstm-0005-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hrnm-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99600
@@ -255,6 +302,7 @@
   voiceGroupId: voice_group-hrnm-cstm-0005-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hrnm-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99601
@@ -268,6 +316,7 @@
   voiceGroupId: voice_group-hrnm-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 99910
@@ -281,6 +330,7 @@
   voiceGroupId: voice_group-hrnm-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99800
@@ -294,6 +344,7 @@
   voiceGroupId: voice_group-hrnm-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99900
@@ -307,6 +358,7 @@
   voiceGroupId: voice_group-hrnm-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 99901
@@ -320,6 +372,7 @@
   voiceGroupId: voice_group-hski-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19700
@@ -333,6 +386,7 @@
   voiceGroupId: voice_group-hski-cstm-0002-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hski-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19600
@@ -346,6 +400,7 @@
   voiceGroupId: voice_group-hski-cstm-0002-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hski-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19601
@@ -359,6 +414,7 @@
   voiceGroupId: voice_group-hski-cstm-0029-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hski-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19590
@@ -372,6 +428,7 @@
   voiceGroupId: voice_group-hski-cstm-0029-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hski-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19591
@@ -385,9 +442,38 @@
   voiceGroupId: voice_group-hski-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 19910
+- id: hski-cstm-0072
+  characterId: hski
+  name: ゴールドの輝き
+  motifId: cstm-0072
+  description: 花海咲季のアイドルへの道 ステージ10をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-hski-cstm-0072-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 19710
+- id: hski-cstm-0073
+  characterId: hski
+  name: プラチナの輝き
+  motifId: cstm-0073
+  description: 花海咲季のアイドルへの道 ステージ15をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-hski-cstm-0073-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 19720
 - id: hski-schl-0000
   characterId: hski
   name: 初星学園制服
@@ -398,6 +484,7 @@
   voiceGroupId: voice_group-hski-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19800
@@ -411,6 +498,7 @@
   voiceGroupId: voice_group-hski-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19900
@@ -424,6 +512,7 @@
   voiceGroupId: voice_group-hski-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 19901
@@ -437,6 +526,7 @@
   voiceGroupId: voice_group-hume-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109700
@@ -450,6 +540,7 @@
   voiceGroupId: voice_group-hume-cstm-0010-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-hume-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109600
@@ -463,6 +554,7 @@
   voiceGroupId: voice_group-hume-cstm-0010-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-hume-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109601
@@ -476,6 +568,7 @@
   voiceGroupId: voice_group-hume-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109800
@@ -489,6 +582,7 @@
   voiceGroupId: voice_group-hume-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109900
@@ -502,6 +596,7 @@
   voiceGroupId: voice_group-hume-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "1717207200000"
   order: 109901
@@ -515,6 +610,7 @@
   voiceGroupId: voice_group-kcna-casl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69800
@@ -528,6 +624,7 @@
   voiceGroupId: voice_group-kcna-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69700
@@ -541,6 +638,7 @@
   voiceGroupId: voice_group-kcna-cstm-0008-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-kcna-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69600
@@ -554,6 +652,7 @@
   voiceGroupId: voice_group-kcna-cstm-0008-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-kcna-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69601
@@ -567,6 +666,7 @@
   voiceGroupId: voice_group-kcna-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 69910
@@ -580,6 +680,7 @@
   voiceGroupId: voice_group-kcna-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69900
@@ -593,6 +694,7 @@
   voiceGroupId: voice_group-kcna-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 69901
@@ -606,6 +708,7 @@
   voiceGroupId: voice_group-kllj-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59700
@@ -619,6 +722,7 @@
   voiceGroupId: voice_group-kllj-cstm-0007-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-kllj-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59600
@@ -632,6 +736,7 @@
   voiceGroupId: voice_group-kllj-cstm-0007-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-kllj-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59601
@@ -645,6 +750,7 @@
   voiceGroupId: voice_group-kllj-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 59910
@@ -658,6 +764,7 @@
   voiceGroupId: voice_group-kllj-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59800
@@ -671,6 +778,7 @@
   voiceGroupId: voice_group-kllj-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59900
@@ -684,6 +792,7 @@
   voiceGroupId: voice_group-kllj-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 59901
@@ -697,6 +806,7 @@
   voiceGroupId: voice_group-shro-casl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89800
@@ -710,6 +820,7 @@
   voiceGroupId: voice_group-shro-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89700
@@ -723,6 +834,7 @@
   voiceGroupId: voice_group-shro-cstm-0006-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-shro-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89600
@@ -736,6 +848,7 @@
   voiceGroupId: voice_group-shro-cstm-0006-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-shro-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89601
@@ -749,6 +862,7 @@
   voiceGroupId: voice_group-shro-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 89910
@@ -762,6 +876,7 @@
   voiceGroupId: voice_group-shro-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89900
@@ -775,6 +890,7 @@
   voiceGroupId: voice_group-shro-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 89901
@@ -788,6 +904,7 @@
   voiceGroupId: voice_group-ssmk-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79700
@@ -801,6 +918,7 @@
   voiceGroupId: voice_group-ssmk-cstm-0009-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ssmk-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79600
@@ -814,6 +932,7 @@
   voiceGroupId: voice_group-ssmk-cstm-0009-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-ssmk-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79601
@@ -827,6 +946,7 @@
   voiceGroupId: voice_group-ssmk-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 79910
@@ -840,6 +960,7 @@
   voiceGroupId: voice_group-ssmk-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79800
@@ -853,6 +974,7 @@
   voiceGroupId: voice_group-ssmk-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79900
@@ -866,6 +988,7 @@
   voiceGroupId: voice_group-ssmk-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 79901
@@ -879,6 +1002,7 @@
   voiceGroupId: voice_group-ttmr-casl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29800
@@ -892,6 +1016,7 @@
   voiceGroupId: voice_group-ttmr-cstm-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29700
@@ -905,6 +1030,7 @@
   voiceGroupId: voice_group-ttmr-cstm-0003-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ttmr-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29600
@@ -918,6 +1044,7 @@
   voiceGroupId: voice_group-ttmr-cstm-0003-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-ttmr-3-000
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29601
@@ -931,6 +1058,7 @@
   voiceGroupId: voice_group-ttmr-cstm-0025-cmmn
   resourceOriginType: ResourceOriginType_IdolCardSkin
   targetId: i_card-skin-ttmr-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716343200000"
   order: 29590
@@ -944,6 +1072,7 @@
   voiceGroupId: voice_group-ttmr-cstm-0025-cmmn
   resourceOriginType: ResourceOriginType_IdolCard
   targetId: i_card-ttmr-3-001
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716343200000"
   order: 29591
@@ -957,9 +1086,38 @@
   voiceGroupId: voice_group-ttmr-cstm-0069-cmmn
   resourceOriginType: ResourceOriginType_Shop
   targetId: shop_pack
+  isTraining: false
   viewConditionSetId: ""
   viewStartTime: "1716948000000"
   order: 29910
+- id: ttmr-cstm-0072
+  characterId: ttmr
+  name: ゴールドの輝き
+  motifId: cstm-0072
+  description: 月村手毬のアイドルへの道 ステージ10をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-ttmr-cstm-0072-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 29710
+- id: ttmr-cstm-0073
+  characterId: ttmr
+  name: プラチナの輝き
+  motifId: cstm-0073
+  description: 月村手毬のアイドルへの道 ステージ15をクリア
+  costumeGroupId: ""
+  costumeHeadId: ""
+  voiceGroupId: voice_group-ttmr-cstm-0073-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  viewConditionSetId: ""
+  viewStartTime: "0"
+  order: 29720
 - id: ttmr-trng-0000
   characterId: ttmr
   name: レッスンウェア
@@ -970,6 +1128,7 @@
   voiceGroupId: voice_group-ttmr-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29900
@@ -983,6 +1142,7 @@
   voiceGroupId: voice_group-ttmr-trng-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
+  isTraining: true
   viewConditionSetId: ""
   viewStartTime: "0"
   order: 29901

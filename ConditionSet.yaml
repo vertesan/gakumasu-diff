@@ -694,6 +694,18 @@
   beforeTime: "1718740800000"
   afterTime: "1719345599000"
   description: ""
+- id: cd_login_bonus_wednesday-0626
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1719345600000"
+  afterTime: "1719950399000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2710,6 +2722,18 @@
   beforeTime: "1717358400000"
   afterTime: "1719777599000"
   description: ""
+- id: cd_time_24_0624
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1719194400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_24_0901
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2794,6 +2818,182 @@
   beforeTime: "1743433200000"
   afterTime: "0"
   description: ""
+- id: cd_tower_open_amao
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-amao-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-fktn-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_fktn_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_fktn-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 藤田ことねのクリア条件の★を40個獲得
+- id: cd_tower_open_hrnm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-hrnm-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-hski-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_hski_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_hski-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海咲季のクリア条件の★を40個獲得
+- id: cd_tower_open_hume
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-hume-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_kcna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-kcna-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-kllj-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_shro
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-shro-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-ssmk-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_ttmr
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-ttmr-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_ttmr_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_ttmr-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 月村手毬のクリア条件の★を40個獲得
 - id: cd_tutorial_gs
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -12407,7 +12607,7 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
-  description: 初星課題60達成で解放
+  description: 初星学園課題60達成で解放
 - id: cd-task_clear-02-01-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
