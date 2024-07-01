@@ -4,18 +4,30 @@
   description: 3つのTrue End条件アチーブメントを獲得しプロデュース：定期公演『初』の最終試験で1位になる
 - id: card.idol_card.preview.attention
   description: True Endボーナスは現在の状況が反映されます
+- id: card.idol_card.release.confirm.sheet.message
+  description: "素材を消費してアイドルを解放しますか？\\n\u3000\\nアナザーver.を獲得している場合、\\nオリジナルver.のプロデュースアイドルの\\nピースも獲得できます"
+- id: card.idol_card.skin_change_sheet.title
+  description: プロデュースアイドル変更
+- id: card.idol_card.skin_new_confirm_warning
+  description: "※ライブ楽曲が変更になります\\n※アナザーver.のプロデュースアイドルをプロデュースする場合、プロデュースアイドルコミュは発生しません"
 - id: common.user_exp.description
   description: プロデューサーLvの上昇に必要な経験値
 - id: exchange.confirm.consumption_shortage
   description: 所持している「{0}」が不足しています
 - id: faq_confirm_sheet.description
   description: "FAQページを開きますか？\\n※Webブラウザが立ち上がります"
+- id: home.gasha.detail.idol.extra_text.all
+  description: 楽曲・衣装付き！
 - id: home.gasha.draw_jewel_confirm_sheet.description.multiple_button
   description: "{0}を<color=#u:Negative>{1:N0}</color>個消費して\\n{2}を引きますか？"
+- id: home.gasha.draw_jewel_confirm_sheet.select_pickup.description
+  description: 以下がピックアップに選択されています
 - id: home.gasha.point_detail_overlay.description
   description: "交換Pt、交換内容はガシャごとに異なります。獲得済みの\\nPアイドルは「プロデュースアイドルのピース」に変換されます。"
 - id: home.gasha.result.duplicate_info
   description: 獲得済みのPアイドルは「プロデュースアイドルのピース」に変換されます。
+- id: home.gasha.select_pickup_sheet.precaution
+  description: "※ピックアップする対象はいつでも変更可能です。変更する場合、\\nもう一度同じ対象を選択して解除してから選択してください"
 - id: invite.progress.friend_empty
   description: |-
     招待したプロデューサーが
@@ -58,20 +70,56 @@
   description: 定期公演『初』
 - id: pvp.rate.reward.rate.description
   description: レートPtを一定数ためるごとに報酬を獲得できます
+- id: story_event.bonus.description.idol
+  description: "対象のプロデュースアイドルをプロデュースするとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。\\nまた才能開花段階が上がるほどボーナス値が大きくなります。"
 - id: story_event.bonus.description.support
-  description: 対象のサポートカードを所持しているとイベントボーナスがつき、イベント交換所用アイテムの獲得数が増えます。また解放段階が上がるほどボーナスの値が大きくなります。
+  description: 対象のサポートカードを所持しているとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。また解放段階が上がるほどボーナスの値が大きくなります。
+- id: story_event.box_gasha.draw.sheet.description
+  description: "{0}を消費して\\nイベントガシャを引きますか？"
+- id: story_event.box_gasha.draw.sheet.title
+  description: イベントガシャ確認
+- id: story_event.box_gasha.item_name
+  description: イベント用アイテム
+- id: story_event.box_gasha.reset_description.EmptyAll
+  description: |-
+    報酬をすべて獲得すると自動でイベントガシャのラインナップが
+    更新されます。
+- id: story_event.box_gasha.reset_description.EmptyFeature
+  description: |-
+    ピックアップ報酬をすべて獲得すると自動でイベントガシャの
+    ラインナップが更新されます。
+- id: story_event.box_gasha.reset_description.Optional
+  description: |-
+    報酬リセットを実行することでいつでもイベントガシャのラインナッ
+    プの更新が可能です。※実行すると即時更新されます
+- id: story_event.box_gasha.reset_result.sheet.description
+  description: "{0}箱目の報酬をすべて獲得しました\\nイベントガシャを更新します"
+- id: story_event.box_gasha.reset_result.sheet.title
+  description: イベントガシャ確認
+- id: story_event.box_gasha.reset.sheet.title
+  description: イベントガシャ確認
+- id: story_event.box_gasha.story_reward_gasha_count_sheet.condition
+  description: イベントガシャを{0}回引くと解放
 - id: story_event.event_coin_bonus
   description: 交換用アイテムボーナス
 - id: story_event.exchange
   description: イベント交換所
+- id: story_event.period.end
+  description: 受取期間
 - id: story.lock.unread_previous.description
   description: 直前のコミュをみることで解放
 - id: story.story_event.main_story.move_to_story_list
   description: |-
     コミュを
     みよう
+- id: story.story_event.section.box_gasha_condition_lock_text
+  description: 特定の回数イベントガシャを引き、直前のコミュをみることで解放
 - id: story.story_event.section.normal_condition_lock_text
   description: イベントPt獲得し、前のコミュを読むことで解放
+- id: story.story_event.section.unlockable_condition_lock_text
+  description: 記録の鍵で解放
+- id: tutorial.idol_receive.attention_1
+  description: "初期状態のプロデュースアイドルを獲得します\\n1度獲得すると後から変更できません\\nアナザーver.を獲得している場合、オリジナルver.のプロデュースアイドルのピースも獲得できます"
 - id: tutorial.idol_receive.attention_3
   description: プロデュースアイドルは自動で受け取られます
 - id: tutorial.idol_receive.attention_4

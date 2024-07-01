@@ -1,3 +1,57 @@
+- id: achieve-i_card-amao-3-001-01
+  category: AchievementCategory_Idol
+  name: ひんやり一休み
+  description: 【キミとセミブルー】有村 麻央のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-001
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-amao-3-001-02
+  category: AchievementCategory_Idol
+  name: キミとセミブルー
+  description: 【キミとセミブルー】有村 麻央の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-001
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-amao-3-001-03
+  category: AchievementCategory_Idol
+  name: 最後の夏だから――
+  description: 【キミとセミブルー】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-001
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-fktn-3-001-01
   category: AchievementCategory_Idol
   name: アドレナリン全開
@@ -212,6 +266,60 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-ssmk-3-001-01
+  category: AchievementCategory_Idol
+  name: 昼下がりのそよ風
+  description: 【キミとセミブルー】紫雲 清夏のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-001
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-ssmk-3-001-02
+  category: AchievementCategory_Idol
+  name: キミとセミブルー
+  description: 【キミとセミブルー】紫雲 清夏の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-001
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-ssmk-3-001-03
+  category: AchievementCategory_Idol
+  name: 来年の夏も、一緒に
+  description: 【キミとセミブルー】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-001
+  targetValue: 9
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
   viewProduceResult: false
   order: 3
 - id: achieve-i_card-ttmr-3-001-01

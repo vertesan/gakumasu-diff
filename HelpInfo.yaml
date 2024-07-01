@@ -441,9 +441,9 @@
   openHelpContentId: story-story-support-card
 - type: StoryEventList
   helpCategoryIds:
-  - help-story-event
-  openHelpCategoryId: help-story-event
-  openHelpContentId: ""
+  - help-story
+  openHelpCategoryId: help-story
+  openHelpContentId: story-story-event-story
 - type: MainTaskTop
   helpCategoryIds:
   - help-home
@@ -793,7 +793,8 @@
   openHelpCategoryId: help-main-story-event
   openHelpContentId: help-main-story-event-story
 - type: StoryEventTopBoxGasha
-  helpCategoryIds: []
+  helpCategoryIds:
+  - help-box-gasha-event
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: StoryEventMissionMainStory
@@ -802,11 +803,13 @@
   openHelpCategoryId: help-main-story-event
   openHelpContentId: help-main-story-event-mission
 - type: StoryEventBoxGashaDetail
-  helpCategoryIds: []
+  helpCategoryIds:
+  - help-box-gasha-event
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: StoryEventBoxGashaResult
-  helpCategoryIds: []
+  helpCategoryIds:
+  - help-box-gasha-event
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: TowerTop
