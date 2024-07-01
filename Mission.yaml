@@ -1164,8 +1164,9 @@
   missionGroupId: mission-group-box-gasha-event-001
   name: "{threshold}日ログインしよう"
   category: MissionCategory_Special
-  type: MissionType_IncrementLoginCount
-  targetIds1: []
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-box-gasha-event-001-mission_1
   targetIds2: []
   targetIds3: []
   targetValue: 0
