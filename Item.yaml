@@ -23,7 +23,7 @@
   order: 40
 - id: item-commu-key-001
   name: 記録の鍵
-  description: コミュを解放できるアイテム
+  description: イベントコミュを解放できるアイテム
   acquisitionRouteDescription: マニー交換所など
   assetId: item_commu-key-01
   type: ItemType_StoryUnlockKey
@@ -458,6 +458,29 @@
   startTime: "1717984800000"
   endTime: "1718931599000"
   order: 40
+- id: item-medal-main-story-event-002
+  name: 初星の栞
+  description: イベント交換所で様々な報酬と交換できるアイテム
+  acquisitionRouteDescription: プロデュースなど
+  assetId: item_main-story-event-001-exchange
+  type: ItemType_Medal
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1721782799000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Event
+  exchangeId: exchange-main-story-event-002
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: main-story-event-002
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1720749600000"
+  endTime: "1721782799000"
+  order: 40
 - id: item-medal-story-event-001
   name: なかよしポッパー
   description: イベント交換所で様々な報酬と交換できる
@@ -803,6 +826,29 @@
   startTime: "0"
   endTime: "0"
   order: 1090990
+- id: item-piece-idol_hrnm-3-001
+  name: "[キミとセミブルー]姫崎莉波のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 1090910
 - id: item-piece-idol_hski-1-000
   name: "[学園生活]花海咲季のピース"
   description: プロデュースアイドルの才能開花や解放に使用するアイテム
@@ -1496,7 +1542,7 @@
 - id: item-support_card-exchange-1
   name: サポートの証
   description: 交換所で使用するアイテム
-  acquisitionRouteDescription: サポート変換
+  acquisitionRouteDescription: サポート変換など
   assetId: item_exchange-b
   type: ItemType_ExchangeMaterial
   rarity: ItemRarity_Sr

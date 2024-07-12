@@ -146,6 +146,87 @@
   - effect_group-visible-exam_card_upgrade-000
   - effect_group-visible-stamina_recover_fix-000
   order: "200010000004"
+- id: pdrink_00-2-008
+  assetId: img_general_pdrink_2-008
+  name: ブーストエキス
+  planType: ProducePlanType_Common
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_lesson_value_multiple-0300-03
+  - p_drink_effect-e_effect-exam_stamina_consumption_down-03
+  - p_drink_effect-e_effect-exam_stamina_reduce_fix-0002
+  rarity: ProduceDrinkRarity_Sr
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>30%</nobr>（<nobr>3ターン</nobr>）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力減少
+    targetId: Label_ExamStaminaConsumptionDown
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 55
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_down-000
+  - effect_group-hidden-stamina_reduce_fix-000
+  order: "200010090008"
 - id: pdrink_00-3-001
   assetId: img_general_pdrink_3-001
   name: 初星ホエイプロテイン
@@ -598,3 +679,93 @@
   - effect_group-visible-exam_status_enchant-000
   - effect_group-visible-exam_card_play_aggressive-000
   order: "320010000007"
+- id: pdrink_02-3-010
+  assetId: img_general_pdrink_3-010
+  name: 特製ハツボシエキス
+  planType: ProducePlanType_Plan2
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_card_search_effect_play_count_buff-0001-01-01-p_card_search-active_skill-deck_all-all-0_0
+  - p_drink_effect-e_effect-exam_stamina_reduce_fix-0002
+  - p_drink_effect-e_effect-exam_stamina_consumption_add-01
+  rarity: ProduceDrinkRarity_Ssr
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 次に使用する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: アクティブスキルカード
+    targetId: Label_ActiveSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_ActiveSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の効果をもう<nobr>1回</nobr>発動（<nobr>1回</nobr>・<nobr>1ターン</nobr>）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力増加
+    targetId: Label_ExamStaminaConsumptionAdd
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 55
+  effectGroupIds:
+  - effect_group-visible-exam_card_search_effect_play_count_buff-000
+  - effect_group-visible-exam_stamina_consumption_add-000
+  - effect_group-hidden-stamina_reduce_fix-000
+  order: "320010090010"
