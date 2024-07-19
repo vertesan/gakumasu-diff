@@ -13868,6 +13868,30 @@
   beforeTime: "1718589600000"
   afterTime: "1719190799000"
   description: ""
+- id: pannel-mission-event-003_time
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1721527200000"
+  afterTime: "1725134399000"
+  description: ""
+- id: pannel-mission-event-003-clear
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-home-boards-summervacation-00
   number: 1
   conditionOperatorType: ConditionOperatorType_And
