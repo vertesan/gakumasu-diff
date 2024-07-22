@@ -1392,6 +1392,127 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 4
+- id: mission-highscore-event-001-mission_11
+  missionGroupId: mission-group-highscore-event-001
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-highscore-event-001-mission_12
+  missionGroupId: mission-group-highscore-event-001
+  name: 月村 手毬のボーカルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1000
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-highscore-event-001-mission_13
+  missionGroupId: mission-group-highscore-event-001
+  name: 葛城 リーリヤのビジュアルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - kllj
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-highscore-event-001-mission_14
+  missionGroupId: mission-group-highscore-event-001
+  name: 篠澤 広のボーカルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1000
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-highscore-event-001-mission_15
+  missionGroupId: mission-group-highscore-event-001
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: mission-highscore-event-001-mission_16
+  missionGroupId: mission-group-highscore-event-001
+  name: 葛城 リーリヤでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-highscore-event-001-mission_17
+  missionGroupId: mission-group-highscore-event-001
+  name: 篠澤 広でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 17
 - id: mission-main-story-event-001-mission_11
   missionGroupId: mission-group-main-story-event-001_1
   name: APを{threshold}消費しよう
@@ -5738,6 +5859,57 @@
   targetIds2: []
   targetIds3:
   - i_card-hume-3-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-001-01
+  missionGroupId: ""
+  name: 【コントラスト】篠澤 広のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-001
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-001-02
+  missionGroupId: ""
+  name: 【コントラスト】篠澤 広の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-001
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-001-03
+  missionGroupId: ""
+  name: 【コントラスト】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-001
   targetValue: 9
   isLessThanTargetValue: false
   isEventMission: false

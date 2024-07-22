@@ -169,6 +169,40 @@
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds:
   - effect_group-visible-exam_card_play_aggressive-000
+- id: p_card_search-deck_all-effect_group-visible-exam_lesson_buff-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_buff-000
 - id: p_card_search-deck_all-effect_group-visible-exam_parameter_buff-000
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
