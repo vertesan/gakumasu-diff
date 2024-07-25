@@ -1402,11 +1402,27 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 11
+- id: mission-highscore-event-001-mission_11_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: APを{threshold}消費しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 11
 - id: mission-highscore-event-001-mission_12
   missionGroupId: mission-group-highscore-event-001
@@ -1420,11 +1436,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 12
+- id: mission-highscore-event-001-mission_12_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 月村 手毬のボーカルを1000以上に育成してプロデュースを完了しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1000
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 12
 - id: mission-highscore-event-001-mission_13
   missionGroupId: mission-group-highscore-event-001
@@ -1438,11 +1472,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 13
+- id: mission-highscore-event-001-mission_13_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 葛城 リーリヤのビジュアルを1000以上に育成してプロデュースを完了しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - kllj
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 13
 - id: mission-highscore-event-001-mission_14
   missionGroupId: mission-group-highscore-event-001
@@ -1456,11 +1508,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 14
+- id: mission-highscore-event-001-mission_14_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 篠澤 広のボーカルを1000以上に育成してプロデュースを完了しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1000
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 14
 - id: mission-highscore-event-001-mission_15
   missionGroupId: mission-group-highscore-event-001
@@ -1473,11 +1543,28 @@
   - ttmr
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 15
+- id: mission-highscore-event-001-mission_15_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 15
 - id: mission-highscore-event-001-mission_16
   missionGroupId: mission-group-highscore-event-001
@@ -1490,11 +1577,28 @@
   - kllj
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 16
+- id: mission-highscore-event-001-mission_16_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 葛城 リーリヤでプロデュース評価を合計{threshold}獲得しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 16
 - id: mission-highscore-event-001-mission_17
   missionGroupId: mission-group-highscore-event-001
@@ -1507,11 +1611,28 @@
   - shro
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 17
+- id: mission-highscore-event-001-mission_17_1
+  missionGroupId: mission-group-highscore-event-001_1
+  name: 篠澤 広でプロデュース評価を合計{threshold}獲得しよう（8/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0725_0801
   order: 17
 - id: mission-main-story-event-001-mission_11
   missionGroupId: mission-group-main-story-event-001_1
