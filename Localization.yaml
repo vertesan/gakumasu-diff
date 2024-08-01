@@ -60,6 +60,14 @@
   description: "楽曲配信情報サイトに移動しますか？\\n※Webブラウザが立ち上がります"
 - id: octo_file_download_confirm_sheet.alert.all
   description: "※一括ダウンロードを行うことで、プレイ中の通信量を\\n\u3000削減できます\\n※Wi-Fi環境でのダウンロードを推奨します"
+- id: photography.save.album.over_limit_confirm.description
+  description: "<color=#u:Negative>保存可能枚数が上限に達しています</color>\\n選択したフォトをすべて保存するには\\n{0}枚のフォトを削除する必要があります"
+- id: picturebook.live.costume.select.description
+  description: 髪型と衣装を選択してください。
+- id: picturebook.live.costume.select.disabled
+  description: 髪型が固定されている衣装を選択中です
+- id: picturebook.live.costume.select.subtitle.head
+  description: 髪型
 - id: produce.confirm_reroll_sheet.description
   description: "獲得可能なスキルカードの候補を再抽選しますか？\\n<color=#u:Negative>※プロデュース中の再抽選可能回数には制限があります</color>\\n<color=#u:Negative>※レアリティも再抽選になります</color>"
 - id: produce.memory_limit.warning
@@ -75,7 +83,7 @@
 - id: produce.result.photo.re_create.confirm.button
   description: 再生成する
 - id: produce.result.photo.re_create.confirm.description
-  description: "メモリー再生成チケットを消費し、メモリーを再生成しますか？\\n※現在のメモリーと再生成後のメモリーのどちらを獲得するか選ぶことができます\\n※プロデュース中にメモリーの再生成を実行できる回数には制限があります"
+  description: "再生成アイテムを消費し、メモリーを再生成しますか？\\n※現在のメモリーと再生成後のメモリーのどちらを獲得\\nするか選ぶことができます\\n※1回のプロデュースで再生成を実行できる回数\\nには制限があります"
 - id: produce.result.photo.re_create.confirm.remain_count
   description: 残り再生成回数
 - id: produce.result.photo.re_create.confirm.title
@@ -99,15 +107,15 @@
 - id: pvp.rate.reward.rate.description
   description: レートPtを一定数ためるごとに報酬を獲得できます
 - id: story_event.bonus.description.idol
-  description: "対象のプロデュースアイドルをプロデュースするとイベントボーナスがつき、イベントPtの獲得数が増えます。\\nまた才能開花段階が上がるほどボーナス値が大きくなります。"
+  description: "対象のプロデュースアイドルをプロデュースするとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。\\nまた才能開花段階が上がるほどボーナス値が大きくなります。"
 - id: story_event.bonus.description.support
-  description: 対象のサポートカードを所持しているとイベントボーナスがつき、イベント交換所用アイテムの獲得数が増えます。また解放段階が上がるほどボーナスの値が大きくなります。
+  description: 対象のサポートカードを所持しているとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。また解放段階が上がるほどボーナスの値が大きくなります。
 - id: story_event.box_gasha.draw.sheet.description
   description: "{0}を消費して\\nイベントガシャを引きますか？"
 - id: story_event.box_gasha.draw.sheet.title
   description: イベントガシャ確認
 - id: story_event.box_gasha.item_name
-  description: イベント交換所用アイテム
+  description: イベント用アイテム
 - id: story_event.box_gasha.reset_description.EmptyAll
   description: |-
     報酬をすべて獲得すると自動でイベントガシャのラインナップが
@@ -129,7 +137,7 @@
 - id: story_event.box_gasha.story_reward_gasha_count_sheet.condition
   description: イベントガシャを{0}回引くと解放
 - id: story_event.event_coin_bonus
-  description: イベント交換所用アイテムボーナス
+  description: イベント用アイテムボーナス
 - id: story_event.exchange
   description: イベント交換所
 - id: story_event.period.end
@@ -138,6 +146,8 @@
   description: おでかけ
 - id: story.lock.unread_previous.description
   description: 直前のコミュをみることで解放
+- id: story.play_confirm_sheet.unread_previous_chapter.description
+  description: "未読のコミュがあります\\nコミュをすべて読み終えると初星学園コミュ最新話が読めるようになります"
 - id: story.story_event.main_story.move_to_story_list
   description: |-
     コミュを

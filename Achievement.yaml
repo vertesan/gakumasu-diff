@@ -214,6 +214,60 @@
   characterId: hski
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-hski-3-002-01
+  category: AchievementCategory_Idol
+  name: 金魚すくいで勝負
+  description: 【冠菊】花海 咲季のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-002
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hski-3-002-02
+  category: AchievementCategory_Idol
+  name: 冠菊
+  description: 【冠菊】花海 咲季の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-002
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hski-3-002-03
+  category: AchievementCategory_Idol
+  name: 叶えてあげるわ
+  description: 【冠菊】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-002
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-hume-2-000-01
   category: AchievementCategory_Idol
   name: 打倒お姉ちゃん
@@ -320,6 +374,60 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-kllj-3-001-01
+  category: AchievementCategory_Idol
+  name: はじめてのラムネ
+  description: 【冠菊】葛城 リーリヤのプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-001
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-001
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-kllj-3-001-02
+  category: AchievementCategory_Idol
+  name: 冠菊
+  description: 【冠菊】葛城 リーリヤの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-001
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-001
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-kllj-3-001-03
+  category: AchievementCategory_Idol
+  name: もう少しだけ、このままで
+  description: 【冠菊】葛城 リーリヤのプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-001
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-001
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
   viewProduceResult: false
   order: 3
 - id: achieve-i_card-shro-3-001-01
