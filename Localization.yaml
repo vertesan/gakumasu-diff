@@ -72,6 +72,8 @@
   description: "獲得可能なスキルカードの候補を再抽選しますか？\\n<color=#u:Negative>※プロデュース中の再抽選可能回数には制限があります</color>\\n<color=#u:Negative>※レアリティも再抽選になります</color>"
 - id: produce.memory_limit.warning
   description: メモリーが所持上限に達しているためプロデュースを開始することができません
+- id: produce.multi_device.confirm.description
+  description: "プロデュース中に異なる端末でログインされる場合や、端末のキャッシュクリアを行った場合、\\nプレイ中のプロデュースデータは破棄されます。\\nこのままログインしてよろしいですか。"
 - id: produce.result.photo.delete_save.toast
   description: "{0}枚削除し、新しいフォトを保存しました"
 - id: produce.result.photo.re_create.button
@@ -106,10 +108,6 @@
   description: 定期公演『初』
 - id: pvp.rate.reward.rate.description
   description: レートPtを一定数ためるごとに報酬を獲得できます
-- id: story_event.bonus.description.idol
-  description: "対象のプロデュースアイドルをプロデュースするとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。\\nまた才能開花段階が上がるほどボーナス値が大きくなります。"
-- id: story_event.bonus.description.support
-  description: 対象のサポートカードを所持しているとイベントボーナスがつき、イベント用アイテムの獲得数が増えます。また解放段階が上がるほどボーナスの値が大きくなります。
 - id: story_event.box_gasha.draw.sheet.description
   description: "{0}を消費して\\nイベントガシャを引きますか？"
 - id: story_event.box_gasha.draw.sheet.title
@@ -137,9 +135,11 @@
 - id: story_event.box_gasha.story_reward_gasha_count_sheet.condition
   description: イベントガシャを{0}回引くと解放
 - id: story_event.event_coin_bonus
-  description: イベント用アイテムボーナス
+  description: イベント交換所用アイテムボーナス
 - id: story_event.exchange
   description: イベント交換所
+- id: story_event.exchange_item
+  description: イベント交換所用アイテム
 - id: story_event.period.end
   description: 受取期間
 - id: story.idol.produce.activity

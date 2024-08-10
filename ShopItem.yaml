@@ -201,6 +201,27 @@
   startTime: "1717207200000"
   endTime: "1719536399000"
   order: 2
+- id: shop_jewel_item-0011
+  shopId: shop_jewel
+  name: 【ツアー記念1回きりお得！】ジュエル6,000個
+  labelTypes:
+  - ShopItemLabelType_Sale
+  assetId: "0011"
+  shopProductId: coin_0010
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards: []
+  viewConditionSetId: cd-view-shop_jewel_item-0011
+  unlockConditionSetId: cd-view-shop_jewel_item-0011
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1723284000000"
+  endTime: "1725152399000"
+  order: 2
 - id: shop_pack_hume-0001
   shopId: shop_pack
   name: 【72時間限定】プロデュースアイドルピースパック（佑芽）
@@ -827,6 +848,42 @@
   startTime: "1716948000000"
   endTime: "1719536399000"
   order: 252
+- id: shop_pack_item-first-live_001
+  shopId: shop_pack
+  name: 初声公演記念パック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0020"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 2500
+  rewards:
+  - resourceType: ResourceType_IdolCardSkin
+    resourceId: i_card-skin-hski-1-001
+    quantity: 1
+  - resourceType: ResourceType_IdolCardSkin
+    resourceId: i_card-skin-ttmr-1-001
+    quantity: 1
+  - resourceType: ResourceType_IdolCardSkin
+    resourceId: i_card-skin-fktn-1-001
+    quantity: 1
+  - resourceType: ResourceType_MeishiBaseAsset
+    resourceId: first-live-01
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-ssr-fix_1
+    quantity: 1
+  viewConditionSetId: cd-shop_pack_item-item-first-live_001
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1723284000000"
+  endTime: "1725152399000"
+  order: 2
 - id: shop_pass_item-0001
   shopId: shop_pass
   name: プレミアムミッションパス 2024年5月

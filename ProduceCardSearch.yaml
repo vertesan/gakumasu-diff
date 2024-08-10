@@ -710,6 +710,40 @@
   staminaMax: 0
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds: []
+- id: p_card_search-playing-effect_group-visible-exam_block-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
 - id: p_card_search-playing-effect_group-visible-exam_parameter_buff_multiple_per_turn-000
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
@@ -778,6 +812,32 @@
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds:
   - effect_group-visible-exam_stamina_consumption_down-000
+- id: p_card_search-playing-p_card-01-ido-1_058
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCard
+    text: 初めてのご褒美
+    targetId: p_card-01-ido-1_058
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds:
+  - p_card-01-ido-1_058
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
 - id: p_card_search-playing-p_card-01-ido-3_066
   descriptions:
   - type: ProduceDescriptionType_ProduceCard

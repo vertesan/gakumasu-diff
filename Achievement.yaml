@@ -106,6 +106,60 @@
   characterId: fktn
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-fktn-3-002-01
+  category: AchievementCategory_Idol
+  name: 夏の宵の線香花火
+  description: 【冠菊】藤田 ことねのプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-002
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-fktn-3-002-02
+  category: AchievementCategory_Idol
+  name: 冠菊
+  description: 【冠菊】藤田 ことねの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-002
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-fktn-3-002-03
+  category: AchievementCategory_Idol
+  name: 離れたくないんです
+  description: 【冠菊】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-002
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-hrnm-3-001-01
   category: AchievementCategory_Idol
   name: 入道雲と、きみ
