@@ -658,6 +658,50 @@
   produceExamBattleNpcGroupId: p_npc_group-hume-produce-002-2-03
   produceExamBattleConfigId: p_exam_battle_config-davo-03-produce-002-2-2
   produceExamGimmickEffectGroupId: p_exam_gimmick-produce-002-exam_card_play_aggressive_03-audition-after_mid
+- id: p_step_audition_difficulty-i_card-kcna-3-001
+  produceId: produce-001
+  stepType: ProduceStepType_AuditionMid1
+  number: 1
+  rankThreshold: 3
+  parameterBaseLine: 100
+  baseScore: 600
+  forceEndScore: 900
+  produceExamBattleNpcGroupId: p_npc_group-kcna-produce-001-1-01
+  produceExamBattleConfigId: p_exam_battle_config-davi-01-produce-001-1-1
+  produceExamGimmickEffectGroupId: ""
+- id: p_step_audition_difficulty-i_card-kcna-3-001
+  produceId: produce-001
+  stepType: ProduceStepType_AuditionFinal
+  number: 1
+  rankThreshold: 3
+  parameterBaseLine: 250
+  baseScore: 2550
+  forceEndScore: 0
+  produceExamBattleNpcGroupId: p_npc_group-kcna-produce-001-2-01
+  produceExamBattleConfigId: p_exam_battle_config-davi-01-produce-001-2-1
+  produceExamGimmickEffectGroupId: p_exam_gimmick-produce-001-exam_parameter_buff_01-audition-after_mid
+- id: p_step_audition_difficulty-i_card-kcna-3-001
+  produceId: produce-002
+  stepType: ProduceStepType_AuditionMid1
+  number: 1
+  rankThreshold: 3
+  parameterBaseLine: 150
+  baseScore: 1200
+  forceEndScore: 1800
+  produceExamBattleNpcGroupId: p_npc_group-kcna-produce-002-1-01
+  produceExamBattleConfigId: p_exam_battle_config-davi-01-produce-002-1-1
+  produceExamGimmickEffectGroupId: ""
+- id: p_step_audition_difficulty-i_card-kcna-3-001
+  produceId: produce-002
+  stepType: ProduceStepType_AuditionFinal
+  number: 1
+  rankThreshold: 3
+  parameterBaseLine: 500
+  baseScore: 7300
+  forceEndScore: 0
+  produceExamBattleNpcGroupId: p_npc_group-kcna-produce-002-2-01
+  produceExamBattleConfigId: p_exam_battle_config-davi-01-produce-002-2-1
+  produceExamGimmickEffectGroupId: p_exam_gimmick-produce-002-exam_parameter_buff_01-audition-after_mid
 - id: p_step_audition_difficulty-i_card-kllj-3-001
   produceId: produce-001
   stepType: ProduceStepType_AuditionMid1

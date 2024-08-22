@@ -3546,6 +3546,48 @@
   chainProduceExamEffectId: e_effect-exam_lesson-0065-01
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
+- id: e_effect-exam_effect_timer-0001-01-e_effect-exam_parameter_buff_multiple_per_turn-03
+  effectType: ProduceExamEffectType_ExamEffectTimer
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 次のターン、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 絶好調
+    targetId: Label_ExamParameterBuffMultiplePerTurn
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  effectValue1: 1
+  effectValue2: 0
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: e_effect-exam_parameter_buff_multiple_per_turn-03
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
 - id: e_effect-exam_effect_timer-0001-01-e_effect-exam_parameter_buff-01
   effectType: ProduceExamEffectType_ExamEffectTimer
   descriptions:
@@ -8564,6 +8606,60 @@
   chainProduceExamEffectId: ""
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
+- id: e_effect-exam_lesson_depend_play_card_count_sum-0002-01
+  effectType: ProduceExamEffectType_ExamLessonDependPlayCardCountSum
+  descriptions: []
+  effectValue1: 0
+  effectValue2: 2
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+- id: e_effect-exam_lesson_depend_play_card_count_sum-0003-0003-01
+  effectType: ProduceExamEffectType_ExamLessonDependPlayCardCountSum
+  descriptions: []
+  effectValue1: 3
+  effectValue2: 3
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+- id: e_effect-exam_lesson_depend_play_card_count_sum-0005-0003-01
+  effectType: ProduceExamEffectType_ExamLessonDependPlayCardCountSum
+  descriptions: []
+  effectValue1: 5
+  effectValue2: 3
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
 - id: e_effect-exam_lesson_fix-0001-01
   effectType: ProduceExamEffectType_ExamLessonFix
   descriptions: []
@@ -12876,7 +12972,23 @@
   produceCardStatusEnchantId: ""
 - id: e_effect-exam_parameter_buff_multiple_per_turn-03
   effectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
-  descriptions: []
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 絶好調
+    targetId: Label_ExamParameterBuffMultiplePerTurn
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   effectValue1: 0
   effectValue2: 0
   effectCount: 0

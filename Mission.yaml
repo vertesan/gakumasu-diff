@@ -1753,6 +1753,127 @@
   viewConditionSetId: ""
   unlockConditionSetId: cd_time_24_0725_0801
   order: 17
+- id: mission-highscore-event-002-mission_11
+  missionGroupId: mission-group-highscore-event-002
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-highscore-event-002-mission_12
+  missionGroupId: mission-group-highscore-event-002
+  name: 倉本 千奈のダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-highscore-event-002-mission_13
+  missionGroupId: mission-group-highscore-event-002
+  name: 花海 咲季のビジュアルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-highscore-event-002-mission_14
+  missionGroupId: mission-group-highscore-event-002
+  name: 花海 佑芽のダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Daily
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - hume
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-highscore-event-002-mission_15
+  missionGroupId: mission-group-highscore-event-002
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: mission-highscore-event-002-mission_16
+  missionGroupId: mission-group-highscore-event-002
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-highscore-event-002-mission_17
+  missionGroupId: mission-group-highscore-event-002
+  name: 花海 佑芽でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Daily
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 17
 - id: mission-main-story-event-001-mission_11
   missionGroupId: mission-group-main-story-event-001_1
   name: APを{threshold}消費しよう
@@ -6716,6 +6837,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-001-01
+  missionGroupId: ""
+  name: 【日々、発見的ステップ！】倉本 千奈のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-001
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-001
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-001-02
+  missionGroupId: ""
+  name: 【日々、発見的ステップ！】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-001
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-001
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-001-03
+  missionGroupId: ""
+  name: 【日々、発見的ステップ！】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-001
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-001
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-kllj-3-001-01
