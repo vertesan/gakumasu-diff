@@ -1763,11 +1763,27 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 11
+- id: mission-highscore-event-002-mission_11_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: APを{threshold}消費しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 11
 - id: mission-highscore-event-002-mission_12
   missionGroupId: mission-group-highscore-event-002
@@ -1781,11 +1797,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 12
+- id: mission-highscore-event-002-mission_12_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 倉本 千奈のダンスを1000以上に育成してプロデュースを完了しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 12
 - id: mission-highscore-event-002-mission_13
   missionGroupId: mission-group-highscore-event-002
@@ -1799,11 +1833,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 13
+- id: mission-highscore-event-002-mission_13_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 花海 咲季のビジュアルを1000以上に育成してプロデュースを完了しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 13
 - id: mission-highscore-event-002-mission_14
   missionGroupId: mission-group-highscore-event-002
@@ -1817,11 +1869,29 @@
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 14
+- id: mission-highscore-event-002-mission_14_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 花海 佑芽のダンスを1000以上に育成してプロデュースを完了しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - hume
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 14
 - id: mission-highscore-event-002-mission_15
   missionGroupId: mission-group-highscore-event-002
@@ -1834,11 +1904,28 @@
   - kcna
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 15
+- id: mission-highscore-event-002-mission_15_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 15
 - id: mission-highscore-event-002-mission_16
   missionGroupId: mission-group-highscore-event-002
@@ -1851,11 +1938,28 @@
   - hski
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 16
+- id: mission-highscore-event-002-mission_16_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 16
 - id: mission-highscore-event-002-mission_17
   missionGroupId: mission-group-highscore-event-002
@@ -1868,11 +1972,28 @@
   - hume
   targetValue: 0
   isLessThanTargetValue: false
-  isEventMission: true
+  isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
+  order: 17
+- id: mission-highscore-event-002-mission_17_1
+  missionGroupId: mission-group-highscore-event-002_1
+  name: 花海 佑芽でプロデュース評価を合計{threshold}獲得しよう（9/1 4:59:59まで）
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: cd_time_24_0824_0901
   order: 17
 - id: mission-main-story-event-001-mission_11
   missionGroupId: mission-group-main-story-event-001_1
