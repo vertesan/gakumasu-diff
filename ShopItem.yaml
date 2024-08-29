@@ -368,8 +368,8 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2
     quantity: 150
-  viewConditionSetId: ""
-  unlockConditionSetId: ""
+  viewConditionSetId: cd_time_24_0902_0459
+  unlockConditionSetId: cd_time_24_0902_0459
   resetTimingType: ResetTimingType_Weekly
   resetHour: 5
   resetMinute: 0
@@ -377,7 +377,7 @@
   resetDay: 0
   purchaseLimit: 1
   startTime: "0"
-  endTime: "0"
+  endTime: "1725220799000"
   order: 1300
 - id: shop_pack_item-0005
   shopId: shop_pack
@@ -418,8 +418,8 @@
   - resourceType: ResourceType_Item
     resourceId: item-limitovermaterial-2-b-3
     quantity: 40
-  viewConditionSetId: ""
-  unlockConditionSetId: ""
+  viewConditionSetId: cd_time_24_0901_0459
+  unlockConditionSetId: cd_time_24_0901_0459
   resetTimingType: ResetTimingType_Monthly
   resetHour: 5
   resetMinute: 0
@@ -427,7 +427,7 @@
   resetDay: 1
   purchaseLimit: 1
   startTime: "0"
-  endTime: "0"
+  endTime: "1725134399000"
   order: 1400
 - id: shop_pack_item-0006
   shopId: shop_pack
@@ -884,6 +884,97 @@
   startTime: "1723284000000"
   endTime: "1725152399000"
   order: 2
+- id: shop_pack_item-monthly-0002
+  shopId: shop_pack
+  name: 毎月更新！育成パック
+  labelTypes: []
+  assetId: "0031"
+  shopProductId: ""
+  totalJewelQuantity: 1200
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-staminaregen-1
+    quantity: 10
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 30000
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 1000
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 500
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-1
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-2
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-3
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-1
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-2
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-3
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-produce-reroll-memory-001
+    quantity: 10
+  viewConditionSetId: cd_time_24_0901_0500
+  unlockConditionSetId: cd_time_24_0901_0500
+  resetTimingType: ResetTimingType_Monthly
+  resetHour: 5
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 1
+  purchaseLimit: 1
+  startTime: "1725134400000"
+  endTime: "0"
+  order: 1400
+- id: shop_pack_item-weekly-0002
+  shopId: shop_pack
+  name: 毎週更新！育成パック
+  labelTypes: []
+  assetId: "0030"
+  shopProductId: ""
+  totalJewelQuantity: 600
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-staminaregen-1
+    quantity: 5
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 15000
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 300
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 150
+  - resourceType: ResourceType_Item
+    resourceId: item-produce-reroll-memory-001
+    quantity: 3
+  viewConditionSetId: cd_time_24_0902_0500
+  unlockConditionSetId: cd_time_24_0902_0500
+  resetTimingType: ResetTimingType_Weekly
+  resetHour: 5
+  resetMinute: 0
+  resetWeekday: Weekday_Monday
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1725220800000"
+  endTime: "0"
+  order: 1300
 - id: shop_pass_item-0001
   shopId: shop_pass
   name: プレミアムミッションパス 2024年5月
@@ -979,4 +1070,28 @@
   purchaseLimit: 1
   startTime: "1722456000000"
   endTime: "1725134399000"
+  order: 100000
+- id: shop_pass_item-0005
+  shopId: shop_pass
+  name: プレミアムミッションパス 2024年9月
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0005"
+  shopProductId: pass_0001
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_MissionPassPremiumPass
+    resourceId: mission_pass-2024-09
+    quantity: 1
+  viewConditionSetId: cd_time_24_0901_1001
+  unlockConditionSetId: cd_time_24_0901_1001
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1725134400000"
+  endTime: "1727726399000"
   order: 100000
