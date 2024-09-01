@@ -1343,6 +1343,43 @@
   gashaSupportAnimationNumber: 0
   viewStartTime: "0"
   order: "2998700025"
+- id: s_card-2-0028
+  characterIds:
+  - fktn
+  - hume
+  name: りっぱなすすき！
+  type: SupportCardType_Visual
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Sr
+  assetId: csprt-2-0028
+  supportCardLevelId: support_card_level-2-001
+  supportCardLevelLimitId: support_card_level_limit-2-001
+  produceStoryIds:
+  - p_story-s_card-2-0028-01
+  - p_story-s_card-2-0028-02
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 0
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 5
+  isLimited: false
+  produceCardUpgradePermil: 28
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Visual
+  upgradeProduceCardDescriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: / 確率中
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  gashaSupportAnimationNumber: 0
+  viewStartTime: "0"
+  order: "2998400028"
 - id: s_card-3-0000
   characterIds:
   - hski
@@ -2431,3 +2468,41 @@
   gashaSupportAnimationNumber: 0
   viewStartTime: "0"
   order: "1998800031"
+- id: s_card-3-0035
+  characterIds:
+  - hski
+  - hume
+  name: ゆっくりと過ごしましょう
+  type: SupportCardType_Visual
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Ssr
+  assetId: csprt-3-0035
+  supportCardLevelId: support_card_level-3-001
+  supportCardLevelLimitId: support_card_level_limit-3-001
+  produceStoryIds:
+  - p_story-s_card-3-0035-01
+  - p_story-s_card-3-0035-02
+  - p_story-s_card-3-0035-03
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 0
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 50
+  isLimited: false
+  produceCardUpgradePermil: 37
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Visual
+  upgradeProduceCardDescriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: / 確率大
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  gashaSupportAnimationNumber: 0
+  viewStartTime: "0"
+  order: "1998400035"

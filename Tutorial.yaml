@@ -323,7 +323,7 @@
   title: ""
   texts:
   - |-
-    ライブ中は最大２０回撮影ができます
+    ライブ中は最大５０回撮影ができます
     アイドルの姿を記録にのこしましょう！
   assetIds: []
   advAssetId: ""
@@ -2087,6 +2087,92 @@
   - img_tutorial_tutorialreceiveidolcard_002
   advAssetId: ""
   tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_PhotoTop
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts: []
+  assetIds:
+  - img_tutorial_photo_top-001_01
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_PhotoPrepare
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts: []
+  assetIds:
+  - img_tutorial_photo_prepare-001_01
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_Photo
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts: []
+  assetIds:
+  - img_tutorial_photo_photo-001_01
+  - img_tutorial_photo_photo-001_02
+  - img_tutorial_photo_photo-001_03
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_MeishiEditCustom
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts:
+  - カスタム名刺は【名刺 > 新規作成 > カスタム名刺】より作成できます
+  - テンプレート名刺では背景のみに指定可能でしたが、カスタム名刺では複数指定可能です
+  - |-
+    動く名刺はPライブを動画で撮影し、撮影した動画の指定部分を名刺として設定できます
+    動画は指定の秒数内で切り取りして設定することができます
+  - |-
+    カスタム名刺ではさまざまな編集ができます
+    自分だけの名刺を作りましょう！
+    操作方法はカスタム名刺左上のアイコンから確認できます
+  - |-
+    カスタム名刺では現在使用している内容をレイヤーウィンドウで確認できます
+    レイヤーは最大で100個まで使用することができます
+  - |-
+    SNSでシェアすると、他のプロデューサーがSNSから
+    学園アイドルマスター内のあなたのプロフィールに直接移動することができます
+  assetIds:
+  - img_tutorial_meishi_custom-01
+  - img_tutorial_meishi_custom-02
+  - img_tutorial_meishi_custom-03
+  - img_tutorial_meishi_custom-04
+  - img_tutorial_meishi_custom-05
+  - img_tutorial_meishi_custom-06
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_MeishiEditCustomManual
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts: []
+  assetIds:
+  - img_tips_meishi_custom-01
+  - img_tips_meishi_custom-02
+  - img_tips_meishi_custom-03
+  - img_tips_meishi_custom-04
+  - img_tips_meishi_custom-05
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
 - tutorialType: TutorialType_ProduceIdolCardSelect
   idolCardId: ""
   step: 1
@@ -2381,10 +2467,11 @@
   title: ""
   texts: []
   assetIds:
-  - img_tutorial_event_story_event-story-001-01
-  - img_tutorial_event_story_event-story-001-02
-  - img_tutorial_event_story_event-story-001-03
-  - img_tutorial_event_story_event-story-001-04
+  - img_tutorial_event_story_event-story-006-05
+  - img_tutorial_event_story_event-story-006-01
+  - img_tutorial_event_story_event-story-006-02
+  - img_tutorial_event_story_event-story-006-03
+  - img_tutorial_event_story_event-story-006-04
   advAssetId: ""
   tutorialProduceCommandType: TutorialProduceCommandType_Unknown
 - tutorialType: TutorialType_StoryEventMainStroy
@@ -2415,5 +2502,18 @@
   - img_tutorial_event_box-gasha-event-002_001
   - img_tutorial_event_box-gasha-event-002_002
   - img_tutorial_event_box-gasha-event-002_003
+  advAssetId: ""
+  tutorialProduceCommandType: TutorialProduceCommandType_Unknown
+- tutorialType: TutorialType_StoryEventGuildMission
+  idolCardId: ""
+  step: 1
+  subStep: 1
+  navigationType: TutorialNavigationType_Tips
+  navigationPositionType: TutorialNavigationPositionType_Unknown
+  title: ""
+  texts: []
+  assetIds:
+  - img_tutorial_event_circle-mission_circle-mission-001
+  - img_tutorial_event_circle-mission_circle-mission-002
   advAssetId: ""
   tutorialProduceCommandType: TutorialProduceCommandType_Unknown

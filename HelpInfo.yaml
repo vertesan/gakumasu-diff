@@ -910,9 +910,10 @@
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: StoryEventGuildMissionTop
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-story-event-guild-mission
+  openHelpCategoryId: help-story-event-guild-mission
+  openHelpContentId: guild-mission
 - type: MeishiQRCode
   helpCategoryIds:
   - help-menu
@@ -924,9 +925,10 @@
   openHelpCategoryId: help-menu
   openHelpContentId: menu-meishi
 - type: PhotographyPrepareTop
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-menu
+  openHelpCategoryId: help-menu
+  openHelpContentId: menu-live-shooting
 - type: PhotographyPrepareStageSelect
   helpCategoryIds: []
   openHelpCategoryId: ""
