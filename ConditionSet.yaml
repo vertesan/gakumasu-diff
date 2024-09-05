@@ -6536,6 +6536,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: プロデュースを開始する
+- id: cd-close-view-homebanner
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-task_clear-01-060
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-daily_release_memorial_mission-not_all_clear
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15427,6 +15439,18 @@
   max: "0"
   beforeTime: "1747321200000"
   afterTime: "0"
+  description: ""
+- id: cd-view-first-live-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1725696000000"
+  afterTime: "1727747999000"
   description: ""
 - id: cd-view-home-banner-shop_jewel_item-0008
   number: 1
