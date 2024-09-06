@@ -11948,6 +11948,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-shop_pack_item-0021
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-first-live_002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_pack_item-0023
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13793,7 +13805,7 @@
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
-  beforeTime: "1725156000000"
+  beforeTime: "1725696000000"
   afterTime: "1727747999000"
   description: ""
 - id: cd-story_read_event-001-001
@@ -15553,6 +15565,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase-shop_jewel_item-0011
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-shop_pack_item-0021
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1725696000000"
+  afterTime: "1727747999000"
+  description: ""
+- id: cd-view-shop_pack_item-0021
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_item-0021
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
