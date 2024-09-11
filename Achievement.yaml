@@ -538,6 +538,60 @@
   characterId: kcna
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-kcna-3-005-01
+  category: AchievementCategory_Idol
+  name: こくりとひとくち
+  description: 【ようこそ初星温泉】倉本 千奈のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-005
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-kcna-3-005-02
+  category: AchievementCategory_Idol
+  name: ようこそ初星温泉
+  description: 【ようこそ初星温泉】倉本 千奈の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-kcna-3-005-03
+  category: AchievementCategory_Idol
+  name: お休みを取る番ですわ
+  description: 【ようこそ初星温泉】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-005
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-kllj-3-001-01
   category: AchievementCategory_Idol
   name: はじめてのラムネ

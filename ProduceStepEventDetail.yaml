@@ -18870,6 +18870,30 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-kcna-3-005-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-kcna-3-005-01
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-kcna-3-005-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-kcna-3-005-02
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-kcna-3-005-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-kcna-3-005-03
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
 - id: event-detail-p_story-i_card-kllj-3-001-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-i_card-kllj-3-001-01
@@ -22032,6 +22056,81 @@
     isOnlyOutGame: false
     changeColor: false
   eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0016-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0016-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_00-3-028-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0016
+  descriptions:
+  - type: ProduceDescriptionType_ProduceItem
+    text: みんなの教科書
+    targetId: pitem_00-3-028-0
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0016-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0016-02
+  produceEffectIds:
+  - p_effect-vocal_addition-0020_0020
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0016
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ボーカル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "20"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0016-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0016-03
+  produceEffectIds:
+  - p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0016
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ランダムなスキルカードを
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 強化
+    targetId: Label_ProduceCardUpgrade
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
 - id: event-detail-s_card-3-0017-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-s_card-3-0017-01
@@ -22464,6 +22563,81 @@
   - p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
   produceStepEventSuggestionIds: []
   supportCardId: s_card-3-0024
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ランダムなスキルカードを
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 強化
+    targetId: Label_ProduceCardUpgrade
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0025-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0025-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_00-3-054-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0025
+  descriptions:
+  - type: ProduceDescriptionType_ProduceItem
+    text: とうちょーのきろく
+    targetId: pitem_00-3-054-0
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0025-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0025-02
+  produceEffectIds:
+  - p_effect-visual_addition-0020_0020
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0025
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ビジュアル上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "20"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0025-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0025-03
+  produceEffectIds:
+  - p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0025
   descriptions:
   - type: ProduceDescriptionType_PlainText
     text: ランダムなスキルカードを

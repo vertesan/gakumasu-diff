@@ -1114,6 +1114,18 @@
   beforeTime: "1725998400000"
   afterTime: "1726603199000"
   description: ""
+- id: cd_login_bonus_wednesday-0918
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1726603200000"
+  afterTime: "1727207999000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -3250,6 +3262,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_photo-pose-hotsping-costume-non
+  number: 11
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Costume
+  resourceId1: kcna-othr-0002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ロケーションで撮影できる衣装を所持していません
+- id: cd_photo-pose-hotsping-costume-non
+  number: 12
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Costume
+  resourceId1: kcna-othr-0003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ロケーションで撮影できる衣装を所持していません
 - id: cd_plv_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -3658,6 +3694,174 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-500
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-a-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-600
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-a-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-700
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-a-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-800
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-b-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-900
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-b-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-1000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-2-b-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-1100
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-limitovermaterial-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-200
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "3"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-memory_exchange-class1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-1200
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-memory_exchange-class2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-1300
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-money
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-300
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-produce_continue-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-1400
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_item-support_card_enhance_point
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-400
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_story-event-003-exchange_s_card-3-0016
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-story-event-003-100
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_time_24_0301
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4030,6 +4234,30 @@
   beforeTime: "1725220800000"
   afterTime: "0"
   description: ""
+- id: cd_time_24_0911_1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1726020000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_24_0911-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1726020000000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_24_1031
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4208,6 +4436,18 @@
   min: "0"
   max: "0"
   beforeTime: "1724292000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-kcna-3-005
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1726020000000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-kllj-1-001
@@ -4440,6 +4680,18 @@
   description: |-
     True End
     達成で解放
+- id: cd_tower_open_kllj_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_kllj-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城リーリヤのクリア条件の★を40個獲得
 - id: cd_tower_open_shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4454,6 +4706,18 @@
   description: |-
     True End
     達成で解放
+- id: cd_tower_open_shro_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_shro-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 篠澤広のクリア条件の★を40個獲得
 - id: cd_tower_open_ssmk
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4468,6 +4732,18 @@
   description: |-
     True End
     達成で解放
+- id: cd_tower_open_ssmk_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_ssmk-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 紫雲清夏のクリア条件の★を40個獲得
 - id: cd_tower_open_ttmr
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13868,6 +14144,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-story_unlock_story_event_group-02-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryUnlockKeyUse
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-story_unlock_story_event_group-06-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13914,6 +14202,18 @@
   min: "0"
   max: "0"
   beforeTime: "1719799200000"
+  afterTime: "0"
+  description: ""
+- id: cd-story_view_story_event_group-02-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1727143200000"
   afterTime: "0"
   description: ""
 - id: cd-story_view_story_event_group-06-01

@@ -1203,6 +1203,37 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_card_play-p_card_search-playing-effect_group-visible-exam_review-000-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-playing-effect_group-visible-exam_review-000
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_card_play-p_card_search-playing-effect_group-visible-exam_stamina_consumption_down-000-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlay
@@ -3343,6 +3374,47 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_end_turn-review_up-8
+  phaseTypes:
+  - ProduceExamPhaseType_ExamEndTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_ReviewUp
+  fieldStatusValues:
+  - 8
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン終了時
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が8以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_end_turn-stamina_consumption_down
   phaseTypes:
   - ProduceExamPhaseType_ExamEndTurn
@@ -3684,6 +3756,30 @@
   descriptions:
   - type: ProduceDescriptionType_PlainText
     text: スキルカードを3回使用するごとに体力が50%以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_play_count_interval-4
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayCountInterval
+  phaseValues:
+  - 4
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: スキルカードを4回使用するごとに、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -5652,6 +5748,39 @@
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
   descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時体力が50%以下の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_start_turn-stamina_less_multiple-500-lesson_vocal
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_StaminaLessMultiple
+  fieldStatusValues:
+  - 500
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_LessonVocal
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: 【ボーカルレッスン・ボーカルターンのみ】
+    targetId: Convert_StepLessonType_VocalLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: ターン開始時体力が50%以下の場合、
     targetId: ""
