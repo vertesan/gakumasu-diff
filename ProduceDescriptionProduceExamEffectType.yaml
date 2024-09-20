@@ -321,8 +321,8 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamStaminaRecoverRestriction
-  name: 体力回復不可
-  swapName: 体力回復不可
+  name: 体力回復無効
+  swapName: 体力回復無効
   produceDescriptionId: Label_ExamStaminaRecoverRestriction
   examProduceDescriptionId: Label_ExamStaminaRecoverRestriction
   mainBuffMinThresholds: []
@@ -445,6 +445,46 @@
   swapName: 絶好調
   produceDescriptionId: Label_ExamParameterBuffMultiplePerTurn
   examProduceDescriptionId: Label_ExamParameterBuffMultiplePerTurn
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamReviewReduce
+  name: 好印象減少
+  swapName: 好印象減少
+  produceDescriptionId: Label_ExamReviewReduce
+  examProduceDescriptionId: Label_ExamReviewReduce
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamAggressiveReduce
+  name: やる気減少
+  swapName: やる気減少
+  produceDescriptionId: Label_ExamAggressiveReduce
+  examProduceDescriptionId: Label_ExamAggressiveReduce
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamLessonBuffReduce
+  name: 集中減少
+  swapName: 集中減少
+  produceDescriptionId: Label_ExamLessonBuffReduce
+  examProduceDescriptionId: Label_ExamLessonBuffReduce
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamParameterBuffReduce
+  name: 好調減少
+  swapName: 好調減少
+  produceDescriptionId: Label_ExamParameterBuffReduce
+  examProduceDescriptionId: Label_ExamParameterBuffReduce
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamLessonValueMultipleDown
+  name: パラメータ上昇量減少
+  swapName: スコア上昇量減少
+  produceDescriptionId: Label_ExamLessonValueMultipleDown
+  examProduceDescriptionId: Label_ExamLessonValueMultipleDown
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false

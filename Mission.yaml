@@ -6803,6 +6803,312 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 9
+- id: panel_mission-event-004-mission_1
+  missionGroupId: panel_mission-event-004-group_1
+  name: プロデュースの相談で{threshold}回交換しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceShopBuyCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: panel_mission-event-004-mission_11
+  missionGroupId: panel_mission-event-004-group_2
+  name: プラン：センスのプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProducePlanPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Plan1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: panel_mission-event-004-mission_12
+  missionGroupId: panel_mission-event-004-group_2
+  name: プラン：ロジックのプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProducePlanPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Plan2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: panel_mission-event-004-mission_13
+  missionGroupId: panel_mission-event-004-group_2
+  name: 最終試験で1位を5回取ろう
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_final_1st
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: panel_mission-event-004-mission_14
+  missionGroupId: panel_mission-event-004-group_2
+  name: プロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: panel_mission-event-004-mission_15
+  missionGroupId: panel_mission-event-004-group_2
+  name: プロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProducePlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: panel_mission-event-004-mission_16
+  missionGroupId: panel_mission-event-004-group_2
+  name: Pドリンクを合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceGetProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: panel_mission-event-004-mission_17
+  missionGroupId: panel_mission-event-004-group_2
+  name: プロデュースで体力を合計{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceConsumedStamina
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 17
+- id: panel_mission-event-004-mission_18
+  missionGroupId: panel_mission-event-004-group_2
+  name: スキルカードを合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceGetProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 18
+- id: panel_mission-event-004-mission_19
+  missionGroupId: panel_mission-event-004-group_2
+  name: Pポイントを合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalProducePoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 19
+- id: panel_mission-event-004-mission_2
+  missionGroupId: panel_mission-event-004-group_1
+  name: ボーカルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalNormal
+  - LessonVocalSp
+  - LessonVocalHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: panel_mission-event-004-mission_3
+  missionGroupId: panel_mission-event-004-group_1
+  name: ダンスレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonDanceNormal
+  - LessonDanceSp
+  - LessonDanceHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: panel_mission-event-004-mission_4
+  missionGroupId: panel_mission-event-004-group_1
+  name: ビジュアルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVisualNormal
+  - LessonVisualSp
+  - LessonVisualHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: panel_mission-event-004-mission_5
+  missionGroupId: panel_mission-event-004-group_1
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: panel_mission-event-004-mission_6
+  missionGroupId: panel_mission-event-004-group_1
+  name: プロデュースで相談を{threshold}回選択しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Shop
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: panel_mission-event-004-mission_7
+  missionGroupId: panel_mission-event-004-group_1
+  name: プロデュースでお出かけを{threshold}回選択しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - EventActivity
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
+- id: panel_mission-event-004-mission_8
+  missionGroupId: panel_mission-event-004-group_1
+  name: プロデュースで活動支給を{threshold}回選択しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Present
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
+- id: panel_mission-event-004-mission_9
+  missionGroupId: panel_mission-event-004-group_1
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 9
 - id: achieve-i_card-amao-3-001-01
   missionGroupId: ""
   name: 【キミとセミブルー】有村 麻央のプロデュースで最終試験に合格
@@ -6852,6 +7158,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-002-01
+  missionGroupId: ""
+  name: 【Feel Jewel Dream】有村 麻央のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-002
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-002-02
+  missionGroupId: ""
+  name: 【Feel Jewel Dream】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-002
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-002-03
+  missionGroupId: ""
+  name: 【Feel Jewel Dream】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-002
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-fktn-3-001-01
@@ -7918,7 +8275,7 @@
   order: 0
 - id: achieve-o_014
   missionGroupId: ""
-  name: コンテストで1位以内に入る
+  name: コンテストで1位になる
   category: MissionCategory_Achievement
   type: MissionType_AbsolutePvpRateRank
   targetIds1: []
@@ -7929,8 +8286,8 @@
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
-  viewConditionSetId: cd_close
-  unlockConditionSetId: cd_close
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
   order: 0
 - id: achieve-o_015
   missionGroupId: ""
@@ -7945,8 +8302,8 @@
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
-  viewConditionSetId: cd_close
-  unlockConditionSetId: cd_close
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
   order: 0
 - id: achieve-o_016
   missionGroupId: ""
@@ -8107,6 +8464,40 @@
   missionDailyReleaseDay: 0
   viewConditionSetId: cd-achive_clear-o_024
   unlockConditionSetId: ""
+  order: 0
+- id: achieve-o_026
+  missionGroupId: ""
+  name: コンテストのグレード7で1位になる
+  category: MissionCategory_Achievement
+  type: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-contest-grade_7-upper
+  unlockConditionSetId: cd-contest-grade_7-upper
+  order: 0
+- id: achieve-o_027
+  missionGroupId: ""
+  name: コンテストのグレード7で100位以内に入る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-contest-grade_7-upper
+  unlockConditionSetId: cd-contest-grade_7-upper
   order: 0
 - id: achieve-p_common-001
   missionGroupId: ""
@@ -8476,6 +8867,22 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_common-023
+  missionGroupId: ""
+  name: 最終試験をスコアS+以上で{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_common-024
   missionGroupId: ""
   name: True Endを{threshold}人達成
@@ -8502,6 +8909,22 @@
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_common-026
+  missionGroupId: ""
+  name: 最終試験をスコアSS以上で{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 12
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -8778,6 +9201,41 @@
   targetIds1:
   - amao
   targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-016
+  missionGroupId: ""
+  name: 有村 麻央で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-017
+  missionGroupId: ""
+  name: 有村 麻央の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - amao
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -9983,6 +10441,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-fktn-016
+  missionGroupId: ""
+  name: 藤田 ことねで最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-017
+  missionGroupId: ""
+  name: 藤田 ことねの難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - fktn
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hrnm-000
   missionGroupId: ""
   name: 姫崎 莉波でTrue Endをみる
@@ -10252,6 +10745,41 @@
   targetIds1:
   - hrnm
   targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-016
+  missionGroupId: ""
+  name: 姫崎 莉波で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-017
+  missionGroupId: ""
+  name: 姫崎 莉波の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hrnm
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -10539,6 +11067,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-hski-016
+  missionGroupId: ""
+  name: 花海 咲季で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-017
+  missionGroupId: ""
+  name: 花海 咲季の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hume-000
   missionGroupId: ""
   name: 花海 佑芽でTrue Endをみる
@@ -10807,6 +11370,41 @@
   targetIds1:
   - hume
   targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-016
+  missionGroupId: ""
+  name: 花海 佑芽で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-017
+  missionGroupId: ""
+  name: 花海 佑芽の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hume
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -11094,6 +11692,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-kcna-016
+  missionGroupId: ""
+  name: 倉本 千奈で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-017
+  missionGroupId: ""
+  name: 倉本 千奈の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kllj-000
   missionGroupId: ""
   name: 葛城 リーリヤでTrue Endをみる
@@ -11363,6 +11996,41 @@
   targetIds1:
   - kllj
   targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-016
+  missionGroupId: ""
+  name: 葛城 リーリヤで最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-017
+  missionGroupId: ""
+  name: 葛城 リーリヤの難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - kllj
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false
@@ -11650,6 +12318,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-shro-016
+  missionGroupId: ""
+  name: 篠澤 広で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-017
+  missionGroupId: ""
+  name: 篠澤 広の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ssmk-000
   missionGroupId: ""
   name: 紫雲 清夏でTrue Endをみる
@@ -11928,6 +12631,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-ssmk-016
+  missionGroupId: ""
+  name: 紫雲 清夏で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-017
+  missionGroupId: ""
+  name: 紫雲 清夏の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ttmr-000
   missionGroupId: ""
   name: 月村 手毬でTrue Endをみる
@@ -12197,6 +12935,41 @@
   targetIds1:
   - ttmr
   targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-016
+  missionGroupId: ""
+  name: 月村 手毬で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-017
+  missionGroupId: ""
+  name: 月村 手毬の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - ttmr
   targetIds3: []
   targetValue: 0
   isLessThanTargetValue: false

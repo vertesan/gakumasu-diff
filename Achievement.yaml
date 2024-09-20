@@ -52,6 +52,60 @@
   characterId: amao
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-amao-3-002-01
+  category: AchievementCategory_Idol
+  name: 月夜のランウェイ
+  description: 【Feel Jewel Dream】有村 麻央のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-002
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-amao-3-002-02
+  category: AchievementCategory_Idol
+  name: Feel Jewel Dream
+  description: 【Feel Jewel Dream】有村 麻央の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-002
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-amao-3-002-03
+  category: AchievementCategory_Idol
+  name: そんなに期待されちゃったら
+  description: 【Feel Jewel Dream】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-002
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-fktn-3-001-01
   category: AchievementCategory_Idol
   name: アドレナリン全開
@@ -1179,15 +1233,15 @@
   order: 10
 - id: achieve-o_014
   category: AchievementCategory_Other
-  name: コンテスト覇者
-  description: コンテストで1位以内に入る
+  name: チャンピオン
+  description: コンテストで1位になる
   missionType: MissionType_AbsolutePvpRateRank
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 1
-  viewConditionSetId: cd_close
-  unlockConditionSetId: cd_close
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
   masterAchievementInitialRank: 0
   isTrueEndAchievement: false
   isMasterAchievement: false
@@ -1196,15 +1250,15 @@
   order: 11
 - id: achieve-o_015
   category: AchievementCategory_Other
-  name: 一流
+  name: ベスト100
   description: コンテストで100位以内に入る
   missionType: MissionType_AbsolutePvpRateRank
   targetIds1: []
   targetIds2: []
   targetIds3: []
   targetValue: 100
-  viewConditionSetId: cd_close
-  unlockConditionSetId: cd_close
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
   masterAchievementInitialRank: 0
   isTrueEndAchievement: false
   isMasterAchievement: false
@@ -1227,7 +1281,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 13
+  order: 15
 - id: achieve-o_017
   category: AchievementCategory_Other
   name: 青二才の努力
@@ -1244,7 +1298,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 14
+  order: 16
 - id: achieve-o_018
   category: AchievementCategory_Other
   name: 石の上にも三年
@@ -1261,7 +1315,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 15
+  order: 17
 - id: achieve-o_019
   category: AchievementCategory_Other
   name: 四六時中アイドル
@@ -1278,7 +1332,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 16
+  order: 18
 - id: achieve-o_020
   category: AchievementCategory_Other
   name: 五感を駆使して
@@ -1295,7 +1349,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 17
+  order: 19
 - id: achieve-o_021
   category: AchievementCategory_Other
   name: 六芸に通ず
@@ -1312,7 +1366,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 18
+  order: 20
 - id: achieve-o_022
   category: AchievementCategory_Other
   name: 七海に轟く
@@ -1329,7 +1383,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 19
+  order: 21
 - id: achieve-o_023
   category: AchievementCategory_Other
   name: 期待の新人
@@ -1346,7 +1400,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 20
+  order: 22
 - id: achieve-o_024
   category: AchievementCategory_Other
   name: ダークホース
@@ -1363,7 +1417,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 21
+  order: 23
 - id: achieve-o_025
   category: AchievementCategory_Other
   name: 本命候補
@@ -1380,7 +1434,43 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 22
+  order: 24
+- id: achieve-o_026
+  category: AchievementCategory_Other
+  name: コンテスト覇者
+  description: コンテストのグレード7で1位になる
+  missionType: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  viewConditionSetId: cd-contest-grade_7-upper
+  unlockConditionSetId: cd-contest-grade_7-upper
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ""
+  viewProduceResult: false
+  order: 13
+- id: achieve-o_027
+  category: AchievementCategory_Other
+  name: 一流
+  description: コンテストのグレード7で100位以内に入る
+  missionType: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  viewConditionSetId: cd-contest-grade_7-upper
+  unlockConditionSetId: cd-contest-grade_7-upper
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ""
+  viewProduceResult: false
+  order: 14
 - id: achieve-p_common-001
   category: AchievementCategory_Produce
   name: 縁の下の力持ち
@@ -1771,6 +1861,23 @@
   characterId: ""
   viewProduceResult: false
   order: 22
+- id: achieve-p_common-023
+  category: AchievementCategory_Produce
+  name: エリートプロデューサー
+  description: 最終試験をスコアS+以上で{threshold}回合格
+  missionType: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ""
+  viewProduceResult: false
+  order: 23
 - id: achieve-p_common-024
   category: AchievementCategory_Produce
   name: つぼみから花へ
@@ -1788,7 +1895,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 24
+  order: 25
 - id: achieve-p_common-025
   category: AchievementCategory_Produce
   name: 積み重なる経験
@@ -1805,7 +1912,24 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 25
+  order: 26
+- id: achieve-p_common-026
+  category: AchievementCategory_Produce
+  name: マスタープロデューサー
+  description: 最終試験をスコアSS以上で{threshold}回合格
+  missionType: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 12
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ""
+  viewProduceResult: false
+  order: 24
 - id: achieve-p_idol-amao-000
   category: AchievementCategory_Idol
   name: 本当のボク
@@ -1953,7 +2077,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-amao-008
   category: AchievementCategory_Idol
   name: 理想と現実
@@ -1971,7 +2095,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-amao-009
   category: AchievementCategory_Idol
   name: まだ見ぬ境地
@@ -1990,7 +2114,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-amao-010
   category: AchievementCategory_Idol
   name: リトルプリンス
@@ -2008,7 +2132,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-amao-011
   category: AchievementCategory_Idol
   name: キミのおかげです
@@ -2026,7 +2150,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-amao-012
   category: AchievementCategory_Idol
   name: 爽やかドリンク
@@ -2044,7 +2168,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-amao-013
   category: AchievementCategory_Idol
   name: 護身術の達人
@@ -2062,7 +2186,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-amao-014
   category: AchievementCategory_Idol
   name: 可愛さとカッコよさ
@@ -2081,7 +2205,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-amao-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」有村麻央
@@ -2099,7 +2223,44 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-amao-016
+  category: AchievementCategory_Idol
+  name: なってみせますよ！
+  description: 有村 麻央で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-amao-017
+  category: AchievementCategory_Idol
+  name: 有村麻央マスター
+  description: 有村 麻央の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - amao
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-card-amao-002-1
   category: AchievementCategory_Idol
   name: らしさ
@@ -3219,7 +3380,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-fktn-008
   category: AchievementCategory_Idol
   name: 秘めた才能
@@ -3237,7 +3398,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-fktn-009
   category: AchievementCategory_Idol
   name: もっと褒めてぇ～♡
@@ -3256,7 +3417,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-fktn-010
   category: AchievementCategory_Idol
   name: 初星学園の看板娘
@@ -3274,7 +3435,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-fktn-011
   category: AchievementCategory_Idol
   name: ぷろでゅ～さぁ～♡
@@ -3292,7 +3453,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-fktn-012
   category: AchievementCategory_Idol
   name: アイドル適正S
@@ -3310,7 +3471,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-fktn-013
   category: AchievementCategory_Idol
   name: やりくり上手
@@ -3328,7 +3489,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-fktn-014
   category: AchievementCategory_Idol
   name: 軽快ステップ
@@ -3347,7 +3508,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-fktn-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」藤田ことね
@@ -3365,7 +3526,44 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-fktn-016
+  category: AchievementCategory_Idol
+  name: 一緒に大儲けしましょ～ね♡
+  description: 藤田 ことねで最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-fktn-017
+  category: AchievementCategory_Idol
+  name: 藤田ことねマスター
+  description: 藤田 ことねの難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - fktn
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-hrnm-000
   category: AchievementCategory_Idol
   name: 本当のきもち
@@ -3513,7 +3711,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-hrnm-008
   category: AchievementCategory_Idol
   name: きみの気持ちに応えたい
@@ -3531,7 +3729,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-hrnm-009
   category: AchievementCategory_Idol
   name: お姉さんとの約束だよ
@@ -3550,7 +3748,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-hrnm-010
   category: AchievementCategory_Idol
   name: お姉さんの包容力
@@ -3568,7 +3766,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-hrnm-011
   category: AchievementCategory_Idol
   name: 私はきみの……
@@ -3586,7 +3784,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-hrnm-012
   category: AchievementCategory_Idol
   name: 心に潤いを
@@ -3604,7 +3802,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-hrnm-013
   category: AchievementCategory_Idol
   name: 真面目にこつこつ
@@ -3622,7 +3820,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-hrnm-014
   category: AchievementCategory_Idol
   name: 優しい笑顔
@@ -3641,7 +3839,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-hrnm-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」姫崎莉波
@@ -3659,7 +3857,44 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-hrnm-016
+  category: AchievementCategory_Idol
+  name: 大事な、言えない、願いごと
+  description: 姫崎 莉波で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-hrnm-017
+  category: AchievementCategory_Idol
+  name: 姫崎莉波マスター
+  description: 姫崎 莉波の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hrnm
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-hski-000
   category: AchievementCategory_Idol
   name: 無敵のトップアイドル
@@ -3807,7 +4042,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-hski-008
   category: AchievementCategory_Idol
   name: 限界はまだ
@@ -3825,7 +4060,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-hski-009
   category: AchievementCategory_Idol
   name: 合格は当たり前
@@ -3844,7 +4079,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-hski-010
   category: AchievementCategory_Idol
   name: 小さなお姉ちゃん
@@ -3862,7 +4097,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-hski-011
   category: AchievementCategory_Idol
   name: 期待してるからっ！
@@ -3880,7 +4115,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-hski-012
   category: AchievementCategory_Idol
   name: トップまで止まらない
@@ -3898,7 +4133,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-hski-013
   category: AchievementCategory_Idol
   name: 無限の向上心
@@ -3916,7 +4151,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-hski-014
   category: AchievementCategory_Idol
   name: オールラウンダー
@@ -3935,7 +4170,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-hski-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」花海咲季
@@ -3953,7 +4188,44 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-hski-016
+  category: AchievementCategory_Idol
+  name: 一度だって負けてあげない
+  description: 花海 咲季で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-hski-017
+  category: AchievementCategory_Idol
+  name: 花海咲季マスター
+  description: 花海 咲季の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-hume-000
   category: AchievementCategory_Idol
   name: 人生最高のファインプレー
@@ -4101,7 +4373,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-hume-008
   category: AchievementCategory_Idol
   name: 加速度的成長
@@ -4119,7 +4391,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-hume-009
   category: AchievementCategory_Idol
   name: 輝く原石
@@ -4137,7 +4409,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-hume-010
   category: AchievementCategory_Idol
   name: 王道アイドル
@@ -4155,7 +4427,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-hume-011
   category: AchievementCategory_Idol
   name: プロデューサーさんっ！
@@ -4173,7 +4445,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-hume-012
   category: AchievementCategory_Idol
   name: たくさんほしいです！
@@ -4191,7 +4463,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-hume-013
   category: AchievementCategory_Idol
   name: 溢れ出る元気
@@ -4209,7 +4481,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-hume-014
   category: AchievementCategory_Idol
   name: 着実な進歩
@@ -4228,7 +4500,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-hume-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」花海佑芽
@@ -4246,7 +4518,44 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-hume-016
+  category: AchievementCategory_Idol
+  name: 目指すは常勝不敗！
+  description: 花海 佑芽で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-hume-017
+  category: AchievementCategory_Idol
+  name: 花海佑芽マスター
+  description: 花海 佑芽の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hume
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-kcna-000
   category: AchievementCategory_Idol
   name: レベル1の駆け出しアイドル
@@ -4394,7 +4703,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-kcna-008
   category: AchievementCategory_Idol
   name: 一歩一歩成長中！
@@ -4412,7 +4721,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-kcna-009
   category: AchievementCategory_Idol
   name: 落ちこぼれとは言わせない
@@ -4431,7 +4740,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-kcna-010
   category: AchievementCategory_Idol
   name: 愛されアイドル
@@ -4449,7 +4758,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-kcna-011
   category: AchievementCategory_Idol
   name: 先生っ！！
@@ -4467,7 +4776,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-kcna-012
   category: AchievementCategory_Idol
   name: 天真爛漫
@@ -4485,7 +4794,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-kcna-013
   category: AchievementCategory_Idol
   name: 財力
@@ -4503,7 +4812,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-kcna-014
   category: AchievementCategory_Idol
   name: ダメダメだって頑張ってる
@@ -4522,7 +4831,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-kcna-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」倉本千奈
@@ -4540,7 +4849,44 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-kcna-016
+  category: AchievementCategory_Idol
+  name: 夢の舞台へ邁進ですわ
+  description: 倉本 千奈で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-kcna-017
+  category: AchievementCategory_Idol
+  name: 倉本千奈マスター
+  description: 倉本 千奈の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-kllj-000
   category: AchievementCategory_Idol
   name: 光
@@ -4688,7 +5034,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-kllj-008
   category: AchievementCategory_Idol
   name: 歩くような速さだとしても
@@ -4706,7 +5052,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-kllj-009
   category: AchievementCategory_Idol
   name: 走り続けたその先
@@ -4725,7 +5071,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-kllj-010
   category: AchievementCategory_Idol
   name: 真っ直ぐな眼差し
@@ -4743,7 +5089,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-kllj-011
   category: AchievementCategory_Idol
   name: センパイと一緒なら……
@@ -4761,7 +5107,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-kllj-012
   category: AchievementCategory_Idol
   name: 大きく声を出して
@@ -4779,7 +5125,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-kllj-013
   category: AchievementCategory_Idol
   name: 踏み出す勇気
@@ -4797,7 +5143,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-kllj-014
   category: AchievementCategory_Idol
   name: 楽しませる喜び
@@ -4816,7 +5162,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-kllj-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」葛城リーリヤ
@@ -4834,7 +5180,44 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-kllj-016
+  category: AchievementCategory_Idol
+  name: もっと高く！
+  description: 葛城 リーリヤで最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-kllj-017
+  category: AchievementCategory_Idol
+  name: 葛城リーリヤマスター
+  description: 葛城 リーリヤの難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - kllj
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-shro-000
   category: AchievementCategory_Idol
   name: ずっと、楽しいね
@@ -4982,7 +5365,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-shro-008
   category: AchievementCategory_Idol
   name: 次の課題はなに？
@@ -5000,7 +5383,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-shro-009
   category: AchievementCategory_Idol
   name: あたってくだけろ
@@ -5019,7 +5402,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-shro-010
   category: AchievementCategory_Idol
   name: 放っておけない
@@ -5037,7 +5420,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-shro-011
   category: AchievementCategory_Idol
   name: まだ見捨てない？
@@ -5055,7 +5438,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-shro-012
   category: AchievementCategory_Idol
   name: 才能なしでもやれること
@@ -5073,7 +5456,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-shro-013
   category: AchievementCategory_Idol
   name: 苦難こそ喜び
@@ -5091,7 +5474,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-shro-014
   category: AchievementCategory_Idol
   name: ミステリアスガール
@@ -5110,7 +5493,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-shro-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」篠澤広
@@ -5128,7 +5511,44 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-shro-016
+  category: AchievementCategory_Idol
+  name: ままならない日々は、終わらない
+  description: 篠澤 広で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-shro-017
+  category: AchievementCategory_Idol
+  name: 篠澤広マスター
+  description: 篠澤 広の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-ssmk-000
   category: AchievementCategory_Idol
   name: 踏み出した一歩
@@ -5276,7 +5696,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-ssmk-008
   category: AchievementCategory_Idol
   name: 明けない夜を終わらせて
@@ -5294,7 +5714,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-ssmk-009
   category: AchievementCategory_Idol
   name: 本気を出せば
@@ -5313,7 +5733,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-ssmk-010
   category: AchievementCategory_Idol
   name: トモダチ
@@ -5331,7 +5751,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-ssmk-011
   category: AchievementCategory_Idol
   name: ありがと、Pっち
@@ -5349,7 +5769,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-ssmk-012
   category: AchievementCategory_Idol
   name: 流行りはバッチリ
@@ -5367,7 +5787,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-ssmk-013
   category: AchievementCategory_Idol
   name: 調子いいかも♪
@@ -5385,7 +5805,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-ssmk-014
   category: AchievementCategory_Idol
   name: 未来へのステップ
@@ -5404,7 +5824,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-ssmk-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」紫雲清夏
@@ -5422,7 +5842,44 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-ssmk-016
+  category: AchievementCategory_Idol
+  name: ふたりで強くなろーね！
+  description: 紫雲 清夏で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-ssmk-017
+  category: AchievementCategory_Idol
+  name: 紫雲清夏マスター
+  description: 紫雲 清夏の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: true
+  order: 18
 - id: achieve-p_idol-ttmr-000
   category: AchievementCategory_Idol
   name: 私だけのプロデューサー
@@ -5570,7 +6027,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 8
+  order: 9
 - id: achieve-p_idol-ttmr-008
   category: AchievementCategory_Idol
   name: どこまでも高く
@@ -5588,7 +6045,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: false
-  order: 9
+  order: 10
 - id: achieve-p_idol-ttmr-009
   category: AchievementCategory_Idol
   name: 当然です
@@ -5607,7 +6064,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 10
+  order: 11
 - id: achieve-p_idol-ttmr-010
   category: AchievementCategory_Idol
   name: 孤高の負けず嫌い
@@ -5625,7 +6082,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: false
-  order: 11
+  order: 12
 - id: achieve-p_idol-ttmr-011
   category: AchievementCategory_Idol
   name: そんなに私がいいんだ？
@@ -5643,7 +6100,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 12
+  order: 13
 - id: achieve-p_idol-ttmr-012
   category: AchievementCategory_Idol
   name: 全身全霊
@@ -5661,7 +6118,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 13
+  order: 14
 - id: achieve-p_idol-ttmr-013
   category: AchievementCategory_Idol
   name: 妥協はナシ
@@ -5679,7 +6136,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-ttmr-014
   category: AchievementCategory_Idol
   name: 歌姫
@@ -5698,7 +6155,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: true
-  order: 15
+  order: 16
 - id: achieve-p_idol-ttmr-015
   category: AchievementCategory_Idol
   name: 「アイドルへの道」月村手毬
@@ -5716,4 +6173,41 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: false
-  order: 15
+  order: 17
+- id: achieve-p_idol-ttmr-016
+  category: AchievementCategory_Idol
+  name: どんな天才よりも
+  description: 月村 手毬で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-ttmr-017
+  category: AchievementCategory_Idol
+  name: 月村手毬マスター
+  description: 月村 手毬の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: true
+  order: 18

@@ -34,6 +34,10 @@
   name: 【ダンスレッスン・ダンスターンのみ】
   swapName: ダンスターンなら、
   descriptions: []
+- id: Convert_StepLessonType_SpLesson
+  name: 【SPレッスンのみ】
+  swapName: 【SPレッスンのみ】
+  descriptions: []
 - id: Convert_StepLessonType_VisualLesson
   name: 【ビジュアルレッスン・ビジュアルターンのみ】
   swapName: ビジュアルターンなら、
@@ -56,6 +60,38 @@
     changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: 上昇効果を主とするスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_AuditionNpcEnhance
+  name: ライバルのスコア増加
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 以降の試験でライバルのスコアが増加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ExamAggressiveReduce
+  name: やる気減少
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を減少させる
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -1158,6 +1194,26 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamLessonBuffReduce
+  name: 集中減少
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を減少させる
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamLessonBuff_Exam
   name: 集中
   swapName: ""
@@ -1438,6 +1494,58 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamLessonValueMultipleDown
+  name: パラメータ上昇量減少
+  swapName: スコア上昇量減少
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 上昇量を
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamValue
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 減少（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: による上昇も含む）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamPanic
   name: 気まぐれ
   swapName: ""
@@ -1546,6 +1654,26 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamParameterBuffReduce
+  name: 好調減少
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を減少させる
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamPlayableValueAdd_Exam
   name: スキルカード使用数追加
   swapName: ""
@@ -1644,6 +1772,26 @@
     changeColor: false
   - type: ProduceDescriptionType_ExamTurn
     text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ExamReviewReduce
+  name: 好印象減少
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を減少させる
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -1927,7 +2075,7 @@
     isOnlyOutGame: false
     changeColor: false
 - id: Label_ExamStaminaRecoverRestriction
-  name: 体力回復不可
+  name: 体力回復無効
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_PlainText

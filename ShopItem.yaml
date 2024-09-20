@@ -848,6 +848,35 @@
   startTime: "1716948000000"
   endTime: "1719536399000"
   order: 252
+- id: shop_pack_item-daily-AP-0001
+  shopId: shop_pack
+  name: 毎日更新！APパック
+  labelTypes: []
+  assetId: "0032"
+  shopProductId: ""
+  totalJewelQuantity: 200
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-staminaregen-1
+    quantity: 3
+  - resourceType: ResourceType_Item
+    resourceId: item-produce-reroll-memory-001
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 10000
+  viewConditionSetId: cd_time_24_0920-1100
+  unlockConditionSetId: cd_time_24_0920-1100
+  resetTimingType: ResetTimingType_Daily
+  resetHour: 5
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  startTime: "1726797600000"
+  endTime: "0"
+  order: 1300
 - id: shop_pack_item-first-live_001
   shopId: shop_pack
   name: 初声公演記念パック

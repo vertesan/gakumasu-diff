@@ -118,6 +118,26 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+- id: gasha_button-free-10-01
+  name: 10回ガシャ
+  description: 10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Unknown
+  resourceId: ""
+  limitType: GashaLimitType_Daily
+  limitCount: 1
+  resourceQuantity: 0
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_DrawableCount
+  appealText: ""
 - id: gasha_button-pickup-001-01
   name: 1回ガシャ
   description: 1回ガシャ
