@@ -1,10 +1,25 @@
+- id: photo_background-danceroom-01
+  name: ダンスレッスン室
+  bgmAssetId: ""
+  category: PhotoBackgroundCategory_Gakuen
+  maxCharacterCount: 3
+  enableLookTargetPositionNumbers: []
+  backgroundAssetId: adv_danceroom-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  - PhotoBackgroundTimeType_Night
+  photoBackgroundPrefab: mdl_env_grp_photo_danceroom-00-00
+  sceneLayoutId: scl_photo_danceroom-00-00
+  costumePhotoGroup: ""
+  viewConditionSetId: cd_time_24_1004_1000
+  unlockConditionSetId: ""
+  order: 1400
 - id: photo_background-hotspring-01
   name: 初星温泉
   bgmAssetId: sud_se_general_photo_background_hotspring-01
   category: PhotoBackgroundCategory_Around
   maxCharacterCount: 1
-  enableLookTargetPositionNumbers:
-  - 1
+  enableLookTargetPositionNumbers: []
   backgroundAssetId: photo_hotspring-00-00
   timeTypes:
   - PhotoBackgroundTimeType_Night
@@ -13,4 +28,49 @@
   costumePhotoGroup: costume_photo_group-hotspring-01
   viewConditionSetId: ""
   unlockConditionSetId: ""
-  order: 10
+  order: 10000
+- id: photo_background-rooftop-01
+  name: 本校舎屋上
+  bgmAssetId: ""
+  category: PhotoBackgroundCategory_Gakuen
+  maxCharacterCount: 1
+  enableLookTargetPositionNumbers: []
+  backgroundAssetId: adv_rooftop-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  photoBackgroundPrefab: mdl_env_grp_photo_rooftop-00-00
+  sceneLayoutId: scl_photo_rooftop-00-00
+  costumePhotoGroup: ""
+  viewConditionSetId: cd_time_24_1004_1000
+  unlockConditionSetId: ""
+  order: 1200
+- id: photo_background-visualroom-01
+  name: ビジュアルレッスン室
+  bgmAssetId: ""
+  category: PhotoBackgroundCategory_Gakuen
+  maxCharacterCount: 2
+  enableLookTargetPositionNumbers: []
+  backgroundAssetId: adv_visualroom-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  photoBackgroundPrefab: mdl_env_grp_photo_visualroom-00-00
+  sceneLayoutId: scl_photo_visualroom-00-00
+  costumePhotoGroup: ""
+  viewConditionSetId: cd_time_24_1004_1000
+  unlockConditionSetId: ""
+  order: 1300
+- id: photo_background-vocalroom-01
+  name: ボイスレッスン室
+  bgmAssetId: ""
+  category: PhotoBackgroundCategory_Gakuen
+  maxCharacterCount: 2
+  enableLookTargetPositionNumbers: []
+  backgroundAssetId: adv_vocalroom-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  photoBackgroundPrefab: mdl_env_grp_photo_vocalroom-00-00
+  sceneLayoutId: scl_photo_vocalroom-00-00
+  costumePhotoGroup: ""
+  viewConditionSetId: cd_time_24_1004_1000
+  unlockConditionSetId: ""
+  order: 1500
