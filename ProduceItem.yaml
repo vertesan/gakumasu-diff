@@ -490,6 +490,74 @@
   viewStartTime: "0"
   isLimited: false
   order: "1"
+- id: pitem_00-0-004-0-006
+  assetId: img_general_pitem_0-004
+  rarity: ProduceItemRarity_N
+  name: 初星バッチ（赤）
+  planType: ProducePlanType_Common
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-0-004-0-006-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_00-0-004-0-006-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 3ターンごとに体力が50%以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>70%</nobr>（<nobr>4ターン</nobr>）
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内3回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_value_multiple-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_00-1-001-0
   assetId: img_general_pitem_1-001
   rarity: ProduceItemRarity_R
@@ -2056,7 +2124,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28000050250"
 - id: pitem_00-1-026-challenge
   assetId: img_general_pitem_1-026
   rarity: ProduceItemRarity_R
@@ -2173,7 +2241,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28000100260"
 - id: pitem_00-1-027-challenge
   assetId: img_general_pitem_1-027
   rarity: ProduceItemRarity_R
@@ -2292,7 +2360,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28000100270"
 - id: pitem_00-1-028-challenge
   assetId: img_general_pitem_1-028
   rarity: ProduceItemRarity_R
@@ -2411,7 +2479,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28000100280"
 - id: pitem_00-2-001-0
   assetId: img_general_pitem_2-001
   rarity: ProduceItemRarity_Sr
@@ -2995,7 +3063,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: が0の場合、体力減少<nobr>1</nobr>
+    text: が0の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力減少
+    targetId: Label_ExamStaminaDamage
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaDamage
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -3090,7 +3174,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: が0の場合、体力減少<nobr>1</nobr>
+    text: が0の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力減少
+    targetId: Label_ExamStaminaDamage
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaDamage
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -3505,8 +3605,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      が5以上の場合、体力回復<nobr>2</nobr>
+      <nobr>2</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -3573,8 +3689,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      が5以上の場合、体力回復<nobr>2</nobr>
+      <nobr>2</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -4573,7 +4705,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38000150390"
 - id: pitem_00-2-040-challenge
   assetId: img_general_pitem_2-040
   rarity: ProduceItemRarity_Sr
@@ -4690,7 +4822,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38000150400"
 - id: pitem_00-2-041-challenge
   assetId: img_general_pitem_2-041
   rarity: ProduceItemRarity_Sr
@@ -4807,7 +4939,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38000150410"
 - id: pitem_00-2-042-challenge
   assetId: img_general_pitem_2-042
   rarity: ProduceItemRarity_Sr
@@ -4926,7 +5058,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38000200420"
 - id: pitem_00-2-043-challenge
   assetId: img_general_pitem_2-043
   rarity: ProduceItemRarity_Sr
@@ -5043,7 +5175,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38000200430"
 - id: pitem_00-3-001-0
   assetId: img_general_pitem_3-001
   rarity: ProduceItemRarity_Ssr
@@ -5468,8 +5600,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: 使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      使用時、体力回復<nobr>2</nobr>
+      <nobr>2</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -5672,8 +5820,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: 使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      使用時、体力回復<nobr>2</nobr>
+      <nobr>2</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -7652,8 +7816,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: ターン開始時体力が50%以下の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      ターン開始時体力が50%以下の場合、体力回復<nobr>4</nobr>
+      <nobr>4</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -7720,8 +7900,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: 使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      使用時、体力回復<nobr>2</nobr>
+      <nobr>2</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -8635,6 +8831,116 @@
   viewStartTime: "0"
   isLimited: false
   order: "1"
+- id: pitem_01-0-005-0-006
+  assetId: img_general_pitem_0-005
+  rarity: ProduceItemRarity_N
+  name: 初星オブジェ（紫）
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_01-0-005-0-006-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_01-0-005-0-006-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 絶好調
+    targetId: Label_ExamParameterBuffMultiplePerTurn
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力増加
+    targetId: Label_ExamStaminaConsumptionAdd
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_add-000
+  - effect_group-visible-exam_parameter_buff_multiple_per_turn-000
+  - effect_group-visible-stamina_recover_fix-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_01-1-015-0
   assetId: img_general_pitem_1-015
   rarity: ProduceItemRarity_R
@@ -9419,7 +9725,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28100100290"
 - id: pitem_01-1-030-challenge
   assetId: img_general_pitem_1-030
   rarity: ProduceItemRarity_R
@@ -9577,7 +9883,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28100100300"
 - id: pitem_01-2-021-0
   assetId: img_general_pitem_2-021
   rarity: ProduceItemRarity_Sr
@@ -9910,7 +10216,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150440"
 - id: pitem_01-2-045-challenge
   assetId: img_general_pitem_2-045
   rarity: ProduceItemRarity_Sr
@@ -10038,7 +10344,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150450"
 - id: pitem_01-2-046-challenge
   assetId: img_general_pitem_2-046
   rarity: ProduceItemRarity_Sr
@@ -10175,7 +10481,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150460"
 - id: pitem_01-2-047-challenge
   assetId: img_general_pitem_2-047
   rarity: ProduceItemRarity_Sr
@@ -10317,7 +10623,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200470"
 - id: pitem_01-2-048-challenge
   assetId: img_general_pitem_2-048
   rarity: ProduceItemRarity_Sr
@@ -10471,7 +10777,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200480"
 - id: pitem_01-2-049-challenge
   assetId: img_general_pitem_2-049
   rarity: ProduceItemRarity_Sr
@@ -10617,7 +10923,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200490"
 - id: pitem_01-2-050-challenge
   assetId: img_general_pitem_2-050
   rarity: ProduceItemRarity_Sr
@@ -10753,7 +11059,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150500"
 - id: pitem_01-2-051-challenge
   assetId: img_general_pitem_2-051
   rarity: ProduceItemRarity_Sr
@@ -10881,7 +11187,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150510"
 - id: pitem_01-2-052-challenge
   assetId: img_general_pitem_2-052
   rarity: ProduceItemRarity_Sr
@@ -11017,7 +11323,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100150520"
 - id: pitem_01-2-053-challenge
   assetId: img_general_pitem_2-053
   rarity: ProduceItemRarity_Sr
@@ -11159,7 +11465,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200530"
 - id: pitem_01-2-054-challenge
   assetId: img_general_pitem_2-054
   rarity: ProduceItemRarity_Sr
@@ -11313,7 +11619,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200540"
 - id: pitem_01-2-055-challenge
   assetId: img_general_pitem_2-055
   rarity: ProduceItemRarity_Sr
@@ -11459,7 +11765,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38100200550"
 - id: pitem_01-3-003-0
   assetId: img_general_pitem_3-003
   rarity: ProduceItemRarity_Ssr
@@ -13491,7 +13797,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48100250800"
 - id: pitem_01-3-081-challenge
   assetId: img_general_pitem_3-081
   rarity: ProduceItemRarity_Ssr
@@ -13630,7 +13936,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48100250810"
 - id: pitem_01-3-082-challenge
   assetId: img_general_pitem_3-082
   rarity: ProduceItemRarity_Ssr
@@ -13759,7 +14065,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48100250820"
 - id: pitem_01-3-083-challenge
   assetId: img_general_pitem_3-083
   rarity: ProduceItemRarity_Ssr
@@ -13898,7 +14204,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48100250830"
 - id: pitem_02-0-002-0-000
   assetId: img_general_pitem_0-002
   rarity: ProduceItemRarity_N
@@ -14871,6 +15177,90 @@
   viewStartTime: "0"
   isLimited: false
   order: "1"
+- id: pitem_02-0-006-0-007
+  assetId: img_general_pitem_0-006
+  rarity: ProduceItemRarity_N
+  name: 初星ライト（紫）
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-03-enchant-pitem_02-0-006-0-007-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-03-enchant-pitem_02-0-006-0-007-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン終了時
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が8以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+5</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内3回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_card_play_aggressive-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_02-1-010-0
   assetId: img_general_pitem_1-010
   rarity: ProduceItemRarity_R
@@ -15684,7 +16074,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28200100310"
 - id: pitem_02-1-032-challenge
   assetId: img_general_pitem_1-032
   rarity: ProduceItemRarity_R
@@ -15842,7 +16232,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "28200100320"
 - id: pitem_02-2-018-0
   assetId: img_general_pitem_2-018
   rarity: ProduceItemRarity_Sr
@@ -16500,7 +16890,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150560"
 - id: pitem_02-2-057-challenge
   assetId: img_general_pitem_2-057
   rarity: ProduceItemRarity_Sr
@@ -16628,7 +17018,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150570"
 - id: pitem_02-2-058-challenge
   assetId: img_general_pitem_2-058
   rarity: ProduceItemRarity_Sr
@@ -16764,7 +17154,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150580"
 - id: pitem_02-2-059-challenge
   assetId: img_general_pitem_2-059
   rarity: ProduceItemRarity_Sr
@@ -16906,7 +17296,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200590"
 - id: pitem_02-2-060-challenge
   assetId: img_general_pitem_2-060
   rarity: ProduceItemRarity_Sr
@@ -17060,7 +17450,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200600"
 - id: pitem_02-2-061-challenge
   assetId: img_general_pitem_2-061
   rarity: ProduceItemRarity_Sr
@@ -17206,7 +17596,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200610"
 - id: pitem_02-2-062-challenge
   assetId: img_general_pitem_2-062
   rarity: ProduceItemRarity_Sr
@@ -17341,7 +17731,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150620"
 - id: pitem_02-2-063-challenge
   assetId: img_general_pitem_2-063
   rarity: ProduceItemRarity_Sr
@@ -17469,7 +17859,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150630"
 - id: pitem_02-2-064-challenge
   assetId: img_general_pitem_2-064
   rarity: ProduceItemRarity_Sr
@@ -17605,7 +17995,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200150640"
 - id: pitem_02-2-065-challenge
   assetId: img_general_pitem_2-065
   rarity: ProduceItemRarity_Sr
@@ -17747,7 +18137,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200650"
 - id: pitem_02-2-066-challenge
   assetId: img_general_pitem_2-066
   rarity: ProduceItemRarity_Sr
@@ -17901,7 +18291,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200660"
 - id: pitem_02-2-067-challenge
   assetId: img_general_pitem_2-067
   rarity: ProduceItemRarity_Sr
@@ -18021,7 +18411,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "38200200670"
 - id: pitem_02-3-005-0
   assetId: img_general_pitem_3-005
   rarity: ProduceItemRarity_Ssr
@@ -19454,8 +19844,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: が6以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      が6以上の場合、体力回復<nobr>4</nobr>
+      <nobr>4</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -19522,8 +19928,24 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: が6以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      が6以上の場合、体力回復<nobr>5</nobr>
+      <nobr>5</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -20234,9 +20656,25 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
     text: |-
-      
-      体力回復<nobr>1</nobr>
+      <nobr>1</nobr>
       （
     targetId: ""
     targetLevel: 0
@@ -20680,7 +21118,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48200250840"
 - id: pitem_02-3-085-challenge
   assetId: img_general_pitem_3-085
   rarity: ProduceItemRarity_Ssr
@@ -20819,7 +21257,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48200250850"
 - id: pitem_02-3-086-challenge
   assetId: img_general_pitem_3-086
   rarity: ProduceItemRarity_Ssr
@@ -20948,7 +21386,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48200250860"
 - id: pitem_02-3-087-challenge
   assetId: img_general_pitem_3-087
   rarity: ProduceItemRarity_Ssr
@@ -21087,7 +21525,7 @@
   isChallenge: true
   viewStartTime: "0"
   isLimited: false
-  order: "1"
+  order: "48200250870"
 - id: pitem_tower_001-exam_card_play_aggressive-1-stage_005
   assetId: img_general_pitem_0-006
   rarity: ProduceItemRarity_N
@@ -21619,7 +22057,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: を使用していた場合、体力回復<nobr>6</nobr>
+    text: を使用していた場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -21719,7 +22173,23 @@
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: スキルカードが除外に移動した時、体力回復<nobr>4</nobr>
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -22699,7 +23169,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: を使用していた場合、体力回復<nobr>6</nobr>
+    text: を使用していた場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -22799,7 +23285,23 @@
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: スキルカードが除外に移動した時、体力回復<nobr>4</nobr>
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -23805,7 +24307,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: を使用していた場合、体力回復<nobr>6</nobr>
+    text: を使用していた場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -23907,7 +24425,23 @@
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: スキルカードが除外に移動した時、体力回復<nobr>5</nobr>
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>5</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -24877,7 +25411,23 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: を使用していた場合、体力回復<nobr>6</nobr>
+    text: を使用していた場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -24995,7 +25545,23 @@
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: スキルカードが除外に移動した時、体力回復<nobr>5</nobr>
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>5</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown

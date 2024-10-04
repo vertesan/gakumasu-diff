@@ -4960,7 +4960,23 @@
   effectType: ProduceExamEffectType_ExamEffectTimer
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: <nobr>2ターン</nobr>後、体力回復<nobr>4</nobr>
+    text: <nobr>2ターン</nobr>後、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -4987,7 +5003,23 @@
   effectType: ProduceExamEffectType_ExamEffectTimer
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: <nobr>2ターン</nobr>後、体力回復<nobr>6</nobr>
+    text: <nobr>2ターン</nobr>後、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -5014,7 +5046,23 @@
   effectType: ProduceExamEffectType_ExamEffectTimer
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: <nobr>2ターン</nobr>後、体力回復<nobr>8</nobr>
+    text: <nobr>2ターン</nobr>後、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>8</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -9910,6 +9958,44 @@
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
   produceCardGrowEffectId: ""
+- id: e_effect-exam_lesson_value_multiple-0600-03
+  effectType: ProduceExamEffectType_ExamLessonValueMultiple
+  descriptions: []
+  effectValue1: 600
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: 3
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectId: ""
+- id: e_effect-exam_lesson_value_multiple-0700-04
+  effectType: ProduceExamEffectType_ExamLessonValueMultiple
+  descriptions: []
+  effectValue1: 700
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: 4
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectId: ""
 - id: e_effect-exam_lesson_value_multiple-1000-01
   effectType: ProduceExamEffectType_ExamLessonValueMultiple
   descriptions: []
@@ -14514,6 +14600,25 @@
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
   produceCardGrowEffectId: ""
+- id: e_effect-exam_parameter_buff-20
+  effectType: ProduceExamEffectType_ExamParameterBuff
+  descriptions: []
+  effectValue1: 0
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: 20
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectId: ""
 - id: e_effect-exam_playable_value_add-01
   effectType: ProduceExamEffectType_ExamPlayableValueAdd
   descriptions:
@@ -15635,8 +15740,16 @@
 - id: e_effect-exam_stamina_recover_fix-0004
   effectType: ProduceExamEffectType_ExamStaminaRecoverFix
   descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: 体力回復<nobr>4</nobr>
+    text: <nobr>4</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -15681,8 +15794,16 @@
 - id: e_effect-exam_stamina_recover_fix-0006
   effectType: ProduceExamEffectType_ExamStaminaRecoverFix
   descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: 体力回復<nobr>6</nobr>
+    text: <nobr>6</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -15727,8 +15848,16 @@
 - id: e_effect-exam_stamina_recover_fix-0008
   effectType: ProduceExamEffectType_ExamStaminaRecoverFix
   descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: 体力回復<nobr>8</nobr>
+    text: <nobr>8</nobr>
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
