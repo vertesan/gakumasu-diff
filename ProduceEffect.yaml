@@ -3922,6 +3922,18 @@
   pickRangeType: ProducePickRangeType_Random
   pickCountMin: 2
   pickCountMax: 2
+- id: p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-select-00_02
+  produceEffectType: ProduceEffectType_ProduceCardUpgrade
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards: []
+  produceCardSearchId: p_card_search-deck_all
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Select
+  pickCountMin: 0
+  pickCountMax: 2
 - id: p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-select-01_01
   produceEffectType: ProduceEffectType_ProduceCardUpgrade
   effectValueMin: 1
@@ -5062,6 +5074,21 @@
   pickRangeType: ProducePickRangeType_Unknown
   pickCountMin: 0
   pickCountMax: 0
+- id: p_effect-produce_reward-0001_0001-produce_card-p_card-01-sup-2_090-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceCard
+    resourceId: p_card-01-sup-2_090
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
 - id: p_effect-produce_reward-0001_0001-produce_card-p_card-01-sup-3_047-0
   produceEffectType: ProduceEffectType_ProduceReward
   effectValueMin: 1
@@ -5625,6 +5652,21 @@
   produceRewards:
   - resourceType: ProduceResourceType_ProduceItem
     resourceId: pitem_01-3-058-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_01-3-061-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_01-3-061-0
     resourceLevel: 0
   produceCardSearchId: ""
   produceExamStatusEnchantId: ""
