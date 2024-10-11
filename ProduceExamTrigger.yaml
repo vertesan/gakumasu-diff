@@ -160,6 +160,47 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_card_play_after-card_play_aggressive_up-8-p_card_search-playing-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlayAfter
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardPlayAggressiveUp
+  fieldStatusValues:
+  - 8
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-playing
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: スキルカード使用後
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が8以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_card_play_after-p_card_search-active_skill-playing-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlayAfter

@@ -1162,6 +1162,18 @@
   beforeTime: "1728417600000"
   afterTime: "1729022399000"
   description: ""
+- id: cd_login_bonus_wednesday-1016
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1729022400000"
+  afterTime: "1729627199000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -1822,6 +1834,222 @@
   beforeTime: "1723514400000"
   afterTime: "1724464799000"
   description: 直前のコミュをみることで解放
+- id: cd_main-story-event-004_story-release-archive
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1729648800000"
+  afterTime: "0"
+  description: 初星コミュイベントで解放
+- id: cd_main-story-event-004_story-release-list
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1729648800000"
+  afterTime: "0"
+  description: 初星コミュイベントで解放
+- id: cd_main-story-event-004-exchange_item-Idolcardpiece-exchange-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-200
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-600
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-a-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-700
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-a-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-800
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-a-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-900
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-b-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-b-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1100
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-2-b-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1200
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-limitovermaterial-3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-300
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-memory_exchange-class1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1300
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-memory_exchange-class2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1400
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-money
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-400
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-produce_continue-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-1500
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-support_card_enhance_point
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-500
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-exchange_item-support_card-exchange-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange-main-story-event-004-100
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "4"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_main-story-event-004-release
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728612000000"
+  afterTime: "1729652399000"
+  description: ""
 - id: cd_money_exchange_plv_1_4
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4438,6 +4666,18 @@
   beforeTime: "1725152400000"
   afterTime: "1727830799000"
   description: ""
+- id: cd_time-view_open-i_card-amao-1-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728871200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time-view_open-i_card-amao-3-002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4594,6 +4834,18 @@
   beforeTime: "1722477600000"
   afterTime: "0"
   description: ""
+- id: cd_time-view_open-i_card-shro-1-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728871200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time-view_open-i_card-shro-3-002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4604,6 +4856,18 @@
   min: "0"
   max: "0"
   beforeTime: "1728352800000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-ssmk-1-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728871200000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-ttmr-1-001
@@ -12404,6 +12668,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-shop_pack_item-0022
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-first-live_003
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_pack_item-0023
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14252,6 +14528,18 @@
   beforeTime: "1725696000000"
   afterTime: "1727747999000"
   description: ""
+- id: cd-shop_pack_item-item-first-live_003
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728892800000"
+  afterTime: "1730426399000"
+  description: ""
 - id: cd-story_read_event-001-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16093,6 +16381,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase-shop_pack_item-0021
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-shop_pack_item-0022
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1728892800000"
+  afterTime: "1730426399000"
+  description: ""
+- id: cd-view-shop_pack_item-0022
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_item-0022
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
