@@ -2131,6 +2131,518 @@
   viewConditionSetId: ""
   unlockConditionSetId: cd_time_24_0824_0901
   order: 17
+- id: mission-highscore-event-003-mission_11
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-highscore-event-003-mission_12
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 姫崎 莉波のビジュアルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - hrnm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-highscore-event-003-mission_13
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 姫崎 莉波でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-highscore-event-003-mission_14
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-highscore-event-003-mission_15
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: mission-highscore-event-003-mission_16
+  missionGroupId: mission-group-highscore-event-003_1
+  name: 1日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscore-event-003_1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-highscore-event-003-mission_21
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 21
+- id: mission-highscore-event-003-mission_22
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 藤田 ことねのダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - fktn
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 22
+- id: mission-highscore-event-003-mission_23
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 姫崎 莉波でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 23
+- id: mission-highscore-event-003-mission_24
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 24
+- id: mission-highscore-event-003-mission_25
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 25
+- id: mission-highscore-event-003-mission_26
+  missionGroupId: mission-group-highscore-event-003_2
+  name: 2日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscore-event-003_2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 26
+- id: mission-highscore-event-003-mission_31
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 31
+- id: mission-highscore-event-003-mission_32
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 紫雲 清夏のダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
+- id: mission-highscore-event-003-mission_33
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 姫崎 莉波でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 33
+- id: mission-highscore-event-003-mission_34
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 34
+- id: mission-highscore-event-003-mission_35
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 35
+- id: mission-highscore-event-003-mission_36
+  missionGroupId: mission-group-highscore-event-003_3
+  name: 3日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscore-event-003_3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 36
+- id: mission-highscore-event-003-mission_41
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 41
+- id: mission-highscore-event-003-mission_42
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 姫崎 莉波または藤田 ことねまたは紫雲 清夏のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  - fktn
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 42
+- id: mission-highscore-event-003-mission_43
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 姫崎 莉波でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 43
+- id: mission-highscore-event-003-mission_44
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 44
+- id: mission-highscore-event-003-mission_45
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 45
+- id: mission-highscore-event-003-mission_46
+  missionGroupId: mission-group-highscore-event-003_4
+  name: 4日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscore-event-003_4
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 46
+- id: mission-highscore-event-003-mission_51
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 51
+- id: mission-highscore-event-003-mission_52
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 姫崎 莉波または藤田 ことねまたは紫雲 清夏のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  - fktn
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 52
+- id: mission-highscore-event-003-mission_53
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 姫崎 莉波でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 53
+- id: mission-highscore-event-003-mission_54
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 54
+- id: mission-highscore-event-003-mission_55
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 55
+- id: mission-highscore-event-003-mission_56
+  missionGroupId: mission-group-highscore-event-003_5
+  name: 5日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscore-event-003_5
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscore-event-003_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 56
 - id: mission-main-story-event-001-mission_11
   missionGroupId: mission-group-main-story-event-001_1
   name: APを{threshold}消費しよう
@@ -7956,6 +8468,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hrnm-3-002-01
+  missionGroupId: ""
+  name: 【L.U.V】姫崎 莉波のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-002
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hrnm-3-002-02
+  missionGroupId: ""
+  name: 【L.U.V】姫崎 莉波の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hrnm-3-002
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hrnm-3-002-03
+  missionGroupId: ""
+  name: 【L.U.V】姫崎 莉波のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-002
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-002
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-hrnm-3-004-01
