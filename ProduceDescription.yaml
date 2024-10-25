@@ -66,12 +66,96 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_AggressiveAdd
+  name: やる気増加値+
+  swapName: やる気増加値+
+  descriptions: []
+- id: Label_AggressiveReduce
+  name: やる気増加値-
+  swapName: やる気増加値-
+  descriptions: []
 - id: Label_AuditionNpcEnhance
   name: ライバルのスコア増加
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_PlainText
     text: 以降の試験でライバルのスコアが増加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_BlockAdd
+  name: 元気増加値+
+  swapName: 元気増加値+
+  descriptions: []
+- id: Label_BlockReduce
+  name: 元気増加値-
+  swapName: 元気増加値-
+  descriptions: []
+- id: Label_CardDrawAdd
+  name: ドロー枚数+
+  swapName: ドロー枚数+
+  descriptions: []
+- id: Label_CardDrawReduce
+  name: ドロー枚数-
+  swapName: ドロー枚数-
+  descriptions: []
+- id: Label_CardStatusEnchantChange
+  name: 成長効果置換
+  swapName: 成長効果置換
+  descriptions: []
+- id: Label_CostAdd
+  name: コスト増加
+  swapName: コスト増加
+  descriptions: []
+- id: Label_CostBuffAdd
+  name: 強化状態コスト増加
+  swapName: 強化状態コスト増加
+  descriptions: []
+- id: Label_CostBuffReduce
+  name: 強化状態コスト減少
+  swapName: 強化状態コスト減少
+  descriptions: []
+- id: Label_CostPenetrateAdd
+  name: 体力消費コスト増加
+  swapName: 体力消費コスト増加
+  descriptions: []
+- id: Label_CostPenetrateReduce
+  name: 体力消費コスト減少
+  swapName: 体力消費コスト減少
+  descriptions: []
+- id: Label_CostReduce
+  name: コスト減少
+  swapName: コスト減少
+  descriptions: []
+- id: Label_EffectAdd
+  name: 効果追加
+  swapName: 効果追加
+  descriptions: []
+- id: Label_EffectChange
+  name: 効果置換
+  swapName: 効果置換
+  descriptions: []
+- id: Label_EffectDelete
+  name: 効果削除
+  swapName: 効果削除
+  descriptions: []
+- id: Label_ExamAddGrowEffect
+  name: 成長効果
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、スキルカードの性能が変化する（対象の効果を持たないスキルカードには影響しない）
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -510,6 +594,174 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamConcentration_Exam
+  name: 強気
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      ▼1段階目
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      上昇量と消費体力を100%増加
+      ▼2段階目
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇量を150%増加・消費体力が100%増加
+      スキルカードを使うごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      1
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: とは重複しない
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ExamConcentration_Produce
+  name: 強気
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      上昇量と消費体力が増加する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: がすでに
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      の場合、最大2段階まで増加する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: とは重複しない
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamEffectTimer
   name: 発動予約
   swapName: ""
@@ -563,7 +815,39 @@
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: 全力値が10以上の時、全力値を10消費して指針を
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が10以上なら、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を10消費して
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -591,35 +875,64 @@
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
-    text: パラメータ
+    text: 全力
     targetId: ""
     targetLevel: 0
-    examEffectType: ProduceExamEffectType_ExamLesson
+    examEffectType: ProduceExamEffectType_ExamFullPower
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: "上昇量を200%増加 "
+    text: に変更時、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
-  - type: ProduceDescriptionType_ExamTurn
-    text: ""
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: +1・
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
-- id: Label_ExamFullPower_Produce
-  name: 全力
-  swapName: ""
-  descriptions:
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 保留
+    targetId: Label_ProduceCardPositionType_Hold
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: 指針を全力に変更時、さらにスキルカードを2枚使用できる。指針が全力の間、
+    text: |
+      にあるスキルカードを手札に移動
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 状態の時、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -635,7 +948,162 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: 上昇量を200%増加。ターン終了時に指針を解除
+    text: |-
+      上昇量を200%増加
+      ターン終了に
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      を解除
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      は変更できない
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: とは重複しない
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ExamFullPower_Produce
+  name: 全力
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 上昇量と
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が増加する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      ターン終了時に
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      を解除
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: とは重複しない
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -739,15 +1207,25 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: "増加 "
+    text: |-
+      増加 
+      ターン終了時、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
-  - type: ProduceDescriptionType_ExamTurn
-    text: ""
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 熱意
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamGimmickEnthusiastic
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を0にする
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -775,15 +1253,25 @@
     isOnlyOutGame: false
     changeColor: false
   - type: ProduceDescriptionType_PlainText
-    text: "上昇量を1増加 "
+    text: |-
+      上昇量を1増加 
+      ターン終了時、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
-  - type: ProduceDescriptionType_ExamTurn
-    text: ""
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 熱意
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamGimmickEnthusiastic
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を0にする
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -791,7 +1279,7 @@
     isOnlyOutGame: false
     changeColor: false
 - id: Label_ExamGimmickLessonDebuff_Exam
-  name: 集中減少
+  name: 緊張
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
@@ -835,11 +1323,11 @@
     isOnlyOutGame: false
     changeColor: false
 - id: Label_ExamGimmickLessonDebuff_Produce
-  name: 集中減少
+  name: 緊張
   swapName: ""
   descriptions:
   - type: ProduceDescriptionType_PlainText
-    text: 集中減少が1増加するごとに、
+    text: 緊張が1増加するごとに、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -1778,6 +2266,265 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamPreservation_Exam
+  name: 温存
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      ▼1段階目
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇量と消費体力を50%減少
+      解除されたとき、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 熱意
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamGimmickEnthusiastic
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: +5・
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      +1
+      ▼2段階目
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇量と消費体力を75%減少
+      解除されたとき、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 熱意
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamGimmickEnthusiastic
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: +8・
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: +5・
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "+1"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ExamPreservation_Produce
+  name: 温存
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      上昇量と消費体力が減少する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: がすでに
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      の場合、最大2段階まで増加する
+      解除時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 熱意
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamGimmickEnthusiastic
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: ・
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: ・
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: スキルカード使用数追加
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      が増加する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: とは重複しない
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamReviewReduce
   name: 好印象減少
   swapName: ""
@@ -2162,6 +2909,50 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamStanceReset
+  name: 指針解除
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」と「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」を解除する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamStatusEnchant
   name: 持続効果
   swapName: ""
@@ -2246,6 +3037,42 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_FullPowerPointAdd
+  name: 全力値増加値+
+  swapName: 全力値増加値+
+  descriptions: []
+- id: Label_FullPowerPointReduce
+  name: 全力値増加値-
+  swapName: 全力値増加値-
+  descriptions: []
+- id: Label_InitialAdd
+  name: 開始時手札効果付与
+  swapName: 開始時手札効果付与
+  descriptions: []
+- id: Label_LessonAdd
+  name: パラメータ上昇値+
+  swapName: スコア上昇値+
+  descriptions: []
+- id: Label_LessonBuffAdd
+  name: 集中増加値+
+  swapName: 集中増加値+
+  descriptions: []
+- id: Label_LessonBuffReduce
+  name: 集中増加値-
+  swapName: 集中増加値-
+  descriptions: []
+- id: Label_LessonCountAdd
+  name: パラメータ上昇回数+
+  swapName: スコア上昇回数+
+  descriptions: []
+- id: Label_LessonCountReduce
+  name: パラメータ上昇回数-
+  swapName: スコア上昇回数-
+  descriptions: []
+- id: Label_LessonReduce
+  name: パラメータ上昇値-
+  swapName: スコア上昇値-
+  descriptions: []
 - id: Label_LessonSupport
   name: 一時強化
   swapName: ""
@@ -2302,6 +3129,34 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: true
     changeColor: false
+- id: Label_ParameterBuffMultiplePerTurnAdd
+  name: 絶好調増加値+
+  swapName: 絶好調増加値+
+  descriptions: []
+- id: Label_ParameterBuffMultiplePerTurnReduce
+  name: 絶好調増加値-
+  swapName: 絶好調増加値-
+  descriptions: []
+- id: Label_ParameterBuffTurnAdd
+  name: 好調増加値+
+  swapName: 好調増加値+
+  descriptions: []
+- id: Label_ParameterBuffTurnReduce
+  name: 好調増加値-
+  swapName: 好調増加値-
+  descriptions: []
+- id: Label_PlayEffectTriggerChange
+  name: 効果発動条件を置換
+  swapName: 効果発動条件を置換
+  descriptions: []
+- id: Label_PlayMovePositionTypeChange
+  name: 使用後移動先変更
+  swapName: 使用後移動先変更
+  descriptions: []
+- id: Label_PlayTriggerChange
+  name: 使用可能条件を置換
+  swapName: 使用可能条件を置換
+  descriptions: []
 - id: Label_ProduceCardChange
   name: チェンジ
   swapName: ""
@@ -2338,6 +3193,26 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ProduceCardGrowEffect
+  name: "[成長補助]"
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、スキルカードの性能を変化させる（対象の効果を持たないスキルカードには影響しない）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ProduceCardIsPlayMovePositionTypeLost
   name: レッスン中1回
   swapName: 試験・ステージ中1回
@@ -2368,6 +3243,63 @@
     changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: が終了するまで、除外に移動する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ProduceCardPositionType_Hold
+  name: 保留
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: |
+      スキルカードを2枚まで保存でき、2枚を超えると、古い順に捨札に送る
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: に変更時、手札に移動する
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ProduceCardStatusEnchant
+  name: "[成長]"
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 条件を満たすごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、このスキルカード自身の性能が変化する
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -2486,6 +3418,74 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ProducePlanType3
+  name: アノマリー
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」を活用して育成するプラン
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ProduceSkillPlanType1
   name: 【センス専用】
   swapName: ""
@@ -2542,6 +3542,42 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ProduceSkillPlanType3
+  name: 【アノマリー専用】
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: プランが
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: アノマリー
+    targetId: Label_ProducePlanType3
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: のアイドルをプロデュースしている場合のみ発動
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ReviewAdd
+  name: 好印象増加値+
+  swapName: 好印象増加値+
+  descriptions: []
+- id: Label_ReviewReduce
+  name: 好印象増加値-
+  swapName: 好印象増加値-
+  descriptions: []
 - id: Label_ShopProduceCardPriceDiscountMultiple
   name: 相談のスキルカードを割引
   swapName: ""
@@ -2564,6 +3600,126 @@
     changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: を割引
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_StaminaConsumptionAddTurnAdd
+  name: 消費体力+増加値-
+  swapName: 消費体力+増加値-
+  descriptions: []
+- id: Label_StaminaConsumptionAddTurnReduce
+  name: 消費体力+増加値+
+  swapName: 消費体力+増加値+
+  descriptions: []
+- id: Label_StaminaConsumptionDownTurnAdd
+  name: 消費体力-増加値+
+  swapName: 消費体力-増加値+
+  descriptions: []
+- id: Label_StaminaConsumptionDownTurnReduce
+  name: 消費体力-増加値-
+  swapName: 消費体力-増加値-
+  descriptions: []
+- id: Label_Stance
+  name: 指針
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」「
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 」があり、それぞれが異なる効果を持つ
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_StanceLock
+  name: 指針固定
+  swapName: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を変更できない（
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: はターン終了時に解除される）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown

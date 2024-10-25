@@ -193,16 +193,16 @@
 - type: ProduceExamEffectType_ExamConcentration
   name: 強気
   swapName: 強気
-  produceDescriptionId: Label_ExamConcentration
-  examProduceDescriptionId: Label_ExamConcentration
+  produceDescriptionId: Label_ExamConcentration_Produce
+  examProduceDescriptionId: Label_ExamConcentration_Exam
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamPreservation
   name: 温存
   swapName: 温存
-  produceDescriptionId: Label_ExamPreservation
-  examProduceDescriptionId: Label_ExamPreservation
+  produceDescriptionId: Label_ExamPreservation_Produce
+  examProduceDescriptionId: Label_ExamPreservation_Exam
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
@@ -211,6 +211,14 @@
   swapName: 全力
   produceDescriptionId: Label_ExamFullPower_Produce
   examProduceDescriptionId: Label_ExamFullPower_Exam
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamStanceReset
+  name: 指針解除
+  swapName: 指針解除
+  produceDescriptionId: Label_ExamStanceReset
+  examProduceDescriptionId: Label_ExamStanceReset
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
@@ -385,8 +393,8 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamGimmickLessonDebuff
-  name: 集中減少
-  swapName: 集中減少
+  name: 緊張
+  swapName: 緊張
   produceDescriptionId: Label_ExamGimmickLessonDebuff_Produce
   examProduceDescriptionId: Label_ExamGimmickLessonDebuff_Exam
   mainBuffMinThresholds: []
@@ -464,6 +472,14 @@
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
+- type: ProduceExamEffectType_StanceLock
+  name: 指針固定
+  swapName: 指針固定
+  produceDescriptionId: Label_StanceLock
+  examProduceDescriptionId: Label_StanceLock
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
 - type: ProduceExamEffectType_ExamReviewReduce
   name: 好印象減少
   swapName: 好印象減少
@@ -501,6 +517,14 @@
   swapName: スコア上昇量減少
   produceDescriptionId: Label_ExamLessonValueMultipleDown
   examProduceDescriptionId: Label_ExamLessonValueMultipleDown
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamAddGrowEffect
+  name: 成長効果
+  swapName: 成長効果
+  produceDescriptionId: Label_ExamAddGrowEffect
+  examProduceDescriptionId: Label_ExamAddGrowEffect
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
