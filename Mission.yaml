@@ -1534,6 +1534,787 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 5
+- id: mission-circle-battle-event-001-mission_1
+  missionGroupId: mission-group-circle-battle-event-001
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-circle-battle-event-001-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-circle-battle-event-001-mission_2
+  missionGroupId: mission-group-circle-battle-event-001
+  name: いずれかのステージに{threshold}回挑戦しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementGvgRaidChallengeCount
+  targetIds1:
+  - circle-battle-event-001
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-circle-battle-event-001-mission_3
+  missionGroupId: mission-group-circle-battle-event-001
+  name: 花海 咲季のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-circle-battle-event-001-mission_4
+  missionGroupId: mission-group-circle-battle-event-001
+  name: 月村 手毬のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-circle-battle-event-001-mission_5
+  missionGroupId: mission-group-circle-battle-event-001
+  name: 藤田 ことねのプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-comeback_daily_release_mission_001-mission_11
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-comeback_daily_release_mission_001-mission_12
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-comeback_daily_release_mission_001-mission_13
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-comeback_daily_release_mission_001-mission_14
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-comeback_daily_release_mission_001-mission_15
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: コインガシャを{threshold}回引こう
+  category: MissionCategory_Special
+  type: MissionType_IncrementShopCoinGashaDrawCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: mission-comeback_daily_release_mission_001-mission_16
+  missionGroupId: mission-group-comeback_daily_release_mission_001_1
+  name: 1日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-comeback_daily_release_mission_001-mission_21
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 21
+- id: mission-comeback_daily_release_mission_001-mission_22
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: プロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 22
+- id: mission-comeback_daily_release_mission_001-mission_23
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 23
+- id: mission-comeback_daily_release_mission_001-mission_24
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 24
+- id: mission-comeback_daily_release_mission_001-mission_25
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: コインガシャを{threshold}回引こう
+  category: MissionCategory_Special
+  type: MissionType_IncrementShopCoinGashaDrawCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 25
+- id: mission-comeback_daily_release_mission_001-mission_26
+  missionGroupId: mission-group-comeback_daily_release_mission_001_2
+  name: 2日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 26
+- id: mission-comeback_daily_release_mission_001-mission_31
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 31
+- id: mission-comeback_daily_release_mission_001-mission_32
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
+- id: mission-comeback_daily_release_mission_001-mission_33
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 33
+- id: mission-comeback_daily_release_mission_001-mission_34
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 34
+- id: mission-comeback_daily_release_mission_001-mission_35
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 35
+- id: mission-comeback_daily_release_mission_001-mission_36
+  missionGroupId: mission-group-comeback_daily_release_mission_001_3
+  name: 3日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 36
+- id: mission-comeback_daily_release_mission_001-mission_41
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 41
+- id: mission-comeback_daily_release_mission_001-mission_42
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 42
+- id: mission-comeback_daily_release_mission_001-mission_43
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: プロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 43
+- id: mission-comeback_daily_release_mission_001-mission_44
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 44
+- id: mission-comeback_daily_release_mission_001-mission_45
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 45
+- id: mission-comeback_daily_release_mission_001-mission_46
+  missionGroupId: mission-group-comeback_daily_release_mission_001_4
+  name: 4日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_4
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 46
+- id: mission-comeback_daily_release_mission_001-mission_51
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 51
+- id: mission-comeback_daily_release_mission_001-mission_52
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 52
+- id: mission-comeback_daily_release_mission_001-mission_53
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 53
+- id: mission-comeback_daily_release_mission_001-mission_54
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 54
+- id: mission-comeback_daily_release_mission_001-mission_55
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 55
+- id: mission-comeback_daily_release_mission_001-mission_56
+  missionGroupId: mission-group-comeback_daily_release_mission_001_5
+  name: 5日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_5
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 56
+- id: mission-comeback_daily_release_mission_001-mission_61
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 61
+- id: mission-comeback_daily_release_mission_001-mission_62
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 62
+- id: mission-comeback_daily_release_mission_001-mission_63
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: プロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 63
+- id: mission-comeback_daily_release_mission_001-mission_64
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 64
+- id: mission-comeback_daily_release_mission_001-mission_65
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 65
+- id: mission-comeback_daily_release_mission_001-mission_66
+  missionGroupId: mission-group-comeback_daily_release_mission_001_6
+  name: 6日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_6
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 5
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 66
+- id: mission-comeback_daily_release_mission_001-mission_71
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 71
+- id: mission-comeback_daily_release_mission_001-mission_72
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 72
+- id: mission-comeback_daily_release_mission_001-mission_73
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 73
+- id: mission-comeback_daily_release_mission_001-mission_74
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 74
+- id: mission-comeback_daily_release_mission_001-mission_75
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 75
+- id: mission-comeback_daily_release_mission_001-mission_76
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: マスター最終試験を1回クリア
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_produce-003_clear
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 76
+- id: mission-comeback_daily_release_mission_001-mission_77
+  missionGroupId: mission-group-comeback_daily_release_mission_001_7
+  name: 7日目のミッションをすべてクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-comeback_daily_release_mission_001_7
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-comeback_daily_release_mission_001_daily
+  missionDailyReleaseDay: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 77
 - id: mission-daily-incrementgashadrawcount-1
   missionGroupId: mission_group-daily-001
   name: コインガシャを{threshold}回引こう
@@ -1585,9 +2366,9 @@
   order: 40
 - id: mission-daily-incrementpvpratewincount-1
   missionGroupId: mission_group-daily-001
-  name: コンテストで{threshold}回勝利しよう
+  name: コンテストに{threshold}回挑戦しよう
   category: MissionCategory_Daily
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementPvpRatePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -7412,9 +8193,9 @@
   order: 6
 - id: mission-weekly-incrementpvpratewincount-1
   missionGroupId: mission_group-weekly-001
-  name: コンテストで{threshold}回勝利しよう
+  name: コンテストに{threshold}回挑戦しよう
   category: MissionCategory_Weekly
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementPvpRatePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -8215,6 +8996,151 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 9
+- id: panel_mission-event-niv-mission_1
+  missionGroupId: panel_mission-event-niv-group_1
+  name: 最終試験をスコアB+以上で{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 7
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: panel_mission-event-niv-mission_2
+  missionGroupId: panel_mission-event-niv-group_1
+  name: 最終試験をスコアA以上で{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 8
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: panel_mission-event-niv-mission_3
+  missionGroupId: panel_mission-event-niv-group_1
+  name: 最終試験をスコアA+以上で{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: panel_mission-event-niv-mission_4
+  missionGroupId: panel_mission-event-niv-group_1
+  name: コンテストのユニット総合力を{threshold}以上にしよう
+  category: MissionCategory_Special
+  type: MissionType_AbsolutePvpRateUnitOverallPower
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: panel_mission-event-niv-mission_5
+  missionGroupId: panel_mission-event-niv-group_1
+  name: いずれかのアイドルの親愛度Lvを{threshold}にしよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: panel_mission-event-niv-mission_6
+  missionGroupId: panel_mission-event-niv-group_1
+  name: True Endを{threshold}人みよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: panel_mission-event-niv-mission_7
+  missionGroupId: panel_mission-event-niv-group_1
+  name: プロデューサーLv{threshold}に到達しよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteProducerLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
+- id: panel_mission-event-niv-mission_8
+  missionGroupId: panel_mission-event-niv-group_1
+  name: プロデューサーLv{threshold}に到達しよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteProducerLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
+- id: panel_mission-event-niv-mission_9
+  missionGroupId: panel_mission-event-niv-group_1
+  name: プロデューサーLv{threshold}に到達しよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteProducerLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 9
 - id: achieve-i_card-amao-3-001-01
   missionGroupId: ""
   name: 【キミとセミブルー】有村 麻央のプロデュースで最終試験に合格
@@ -8672,6 +9598,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-hski-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-006-01
+  missionGroupId: ""
+  name: 【古今東西ちょちょいのちょい】花海 咲季のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-006
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-006
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-006-02
+  missionGroupId: ""
+  name: 【古今東西ちょちょいのちょい】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-006
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-006
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-006-03
+  missionGroupId: ""
+  name: 【古今東西ちょちょいのちょい】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-006
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-006
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-hume-2-000-01
@@ -15730,9 +16707,9 @@
   order: 0
 - id: "main_task_group-02-01#27"
   missionGroupId: ""
-  name: コンテストで{threshold}回勝利しよう
+  name: コンテストに挑戦しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementPvpRatePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15989,9 +16966,9 @@
   order: 0
 - id: "main_task_group-02-01#42"
   missionGroupId: ""
-  name: コンテストで{threshold}回勝利しよう
+  name: コンテストに挑戦しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementPvpRatePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -16244,9 +17221,9 @@
   order: 0
 - id: "main_task_group-02-01#57"
   missionGroupId: ""
-  name: コンテストで{threshold}回勝利しよう
+  name: コンテストに挑戦しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementPvpRatePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -16324,13 +17301,13 @@
   order: 0
 - id: "main_task_group-02-01#62"
   missionGroupId: ""
-  name: プロデュースに挑戦して評価A+以上を獲得しよう
+  name: プロデュースに挑戦して評価A以上を獲得しよう
   category: MissionCategory_MainTask
   type: MissionType_IncrementProducePlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
-  targetValue: 9
+  targetValue: 8
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -16389,7 +17366,7 @@
 - id: "main_task_group-02-01#66"
   missionGroupId: ""
   name: |-
-    プロデュースに挑戦して評価A+以上を獲得しよう
+    プロデュースに挑戦して評価A以上を獲得しよう
     【条件】プラン：センスのプロデュースアイドル
   category: MissionCategory_MainTask
   type: MissionType_IncrementProducePlanPlayCount
@@ -16397,7 +17374,7 @@
   targetIds2: []
   targetIds3:
   - Plan1
-  targetValue: 9
+  targetValue: 8
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -16408,7 +17385,7 @@
 - id: "main_task_group-02-01#67"
   missionGroupId: ""
   name: |-
-    プロデュースに挑戦して評価A+以上を獲得しよう
+    プロデュースに挑戦して評価A以上を獲得しよう
     【条件】プラン：ロジックのプロデュースアイドル
   category: MissionCategory_MainTask
   type: MissionType_IncrementProducePlanPlayCount
@@ -16416,7 +17393,7 @@
   targetIds2: []
   targetIds3:
   - Plan2
-  targetValue: 9
+  targetValue: 8
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""

@@ -18870,6 +18870,30 @@
   supportCardId: ""
   descriptions: []
   eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-hski-3-006-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-hski-3-006-01
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-hski-3-006-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-hski-3-006-02
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
+- id: event-detail-p_story-i_card-hski-3-006-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-hski-3-006-03
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  descriptions: []
+  eventType: ProduceEventType_IdolCard
 - id: event-detail-p_story-i_card-hume-3-000-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-i_card-hume-3-000-01
@@ -21160,6 +21184,56 @@
     isOnlyOutGame: false
     changeColor: true
   eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-2-0034-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-2-0034-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_01-2-035-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-2-0034
+  descriptions:
+  - type: ProduceDescriptionType_ProduceItem
+    text: 小さい秋見つけた
+    targetId: pitem_01-2-035-0
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-2-0034-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-2-0034-02
+  produceEffectIds:
+  - p_effect-dance_addition-0015_0015
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-2-0034
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ダンス上昇+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "15"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
 - id: event-detail-s_card-3-0000-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-s_card-3-0000-01
@@ -22670,6 +22744,81 @@
   - type: ProduceDescriptionType_ProduceDescription
     text: 強化
     targetId: Label_ProduceCardUpgrade
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0020-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0020-01
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_00-3-063-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0020
+  descriptions:
+  - type: ProduceDescriptionType_ProduceItem
+    text: ごちそうさまでした
+    targetId: pitem_00-3-063-0
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0020-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0020-02
+  produceEffectIds:
+  - p_effect-stamina_recover_fix-0007_0007
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0020
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 体力回復
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_DiffText
+    text: "7"
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: true
+  eventType: ProduceEventType_SupportCard
+- id: event-detail-s_card-3-0020-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0020-03
+  produceEffectIds:
+  - p_effect-produce_card_delete-p_card_search-deck_all-select-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0020
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: スキルカードを選択して
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 削除
+    targetId: Label_ProduceCardDelete
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown

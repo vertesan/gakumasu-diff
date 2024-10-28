@@ -80,3 +80,21 @@
   viewConditionSetId: cd_time_24_1004_1000
   unlockConditionSetId: ""
   order: 1500
+- id: photo_photobooth-01
+  name: アニメイト
+  bgmAssetId: sud_bgm_adv_inst-all-008
+  category: PhotoBackgroundCategory_Other
+  maxCharacterCount: 2
+  enableLookTargetPositionNumbers:
+  - 1
+  - 2
+  backgroundAssetId: photo_photobooth-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  photoBackgroundPrefab: mdl_env_grp_photo_photobooth-00-00
+  sceneLayoutId: scl_photo_photobooth-00-00
+  costumePhotoGroup: ""
+  ngCostumePhotoGroupId: costume_photo_group-hotspring-01
+  viewConditionSetId: cd-photo_photobooth-01
+  unlockConditionSetId: ""
+  order: 1100
