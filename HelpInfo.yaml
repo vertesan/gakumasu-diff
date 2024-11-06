@@ -53,8 +53,11 @@
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: ExamResult
-  helpCategoryIds: []
-  openHelpCategoryId: ""
+  helpCategoryIds:
+  - help-produce
+  - help-idol
+  - help-lesson
+  openHelpCategoryId: help-produce
   openHelpContentId: ""
 - type: AuditionBattleResult
   helpCategoryIds:
@@ -963,9 +966,10 @@
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: ShopCostume
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-shop
+  openHelpCategoryId: help-shop
+  openHelpContentId: shop-costume
 - type: AngyaResult
   helpCategoryIds:
   - help-circle-battle-event

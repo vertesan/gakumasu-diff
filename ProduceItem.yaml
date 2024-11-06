@@ -651,6 +651,124 @@
   viewStartTime: "0"
   isLimited: false
   order: "1"
+- id: pitem_00-0-004-0-008
+  assetId: img_general_pitem_0-004
+  rarity: ProduceItemRarity_N
+  name: 初星バッチ（赤）
+  planType: ProducePlanType_Common
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_00-0-004-0-008-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_00-0-004-0-008-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン内にスキルカードを2回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>（<nobr>2回</nobr>）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_00-0-008-0-000
+  assetId: img_general_pitem_0-008
+  rarity: ProduceItemRarity_N
+  name: 初星バッチ（紫）
+  planType: ProducePlanType_Common
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-0-008-0-000-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_00-0-008-0-000-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>80%</nobr>（<nobr>3ターン</nobr>）
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_value_multiple-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_00-1-001-0
   assetId: img_general_pitem_1-001
   rarity: ProduceItemRarity_R
@@ -9097,6 +9215,74 @@
   skills:
   - produceTriggerId: ""
     produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-005-0-007-enc02
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>9ターン</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_parameter_buff-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_01-0-005-0-008
+  assetId: img_general_pitem_0-005
+  rarity: ProduceItemRarity_N
+  name: 初星オブジェ（紫）
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-005-0-008-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-005-0-008-enc01
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_PlainText

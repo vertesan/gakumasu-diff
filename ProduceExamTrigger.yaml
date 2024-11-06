@@ -1,3 +1,26 @@
+- id: e_trigger-exam_card_move_lost-p_card_search-target
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardMoveLost
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-target
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_card_move_lost-p_card_search-target-_
   phaseTypes:
   - ProduceExamPhaseType_ExamCardMoveLost
@@ -3848,6 +3871,38 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_play_count_interval-3-p_card_search-mental_skill-target
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayCountInterval
+  phaseValues:
+  - 3
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-mental_skill-target
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を3回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_play_count_interval-3-p_card_search-mental_skill-target-_
   phaseTypes:
   - ProduceExamPhaseType_ExamPlayCountInterval
@@ -3930,6 +3985,38 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_play_count_interval-4-p_card_search-mental_skill-target
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayCountInterval
+  phaseValues:
+  - 4
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-mental_skill-target
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を4回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_play_count_interval-4-p_card_search-mental_skill-target-_
   phaseTypes:
   - ProduceExamPhaseType_ExamPlayCountInterval
@@ -3986,6 +4073,46 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_play_turn_count_interval-2-p_card_search-mental_skill-target
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayTurnCountInterval
+  phaseValues:
+  - 2
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-mental_skill-target
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン内に
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を2回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_play_turn_count_interval-2-p_card_search-mental_skill-target-_
   phaseTypes:
   - ProduceExamPhaseType_ExamPlayTurnCountInterval
@@ -4020,6 +4147,30 @@
     changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: を2回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_play_turn_count_interval-2-p_card_search-target
+  phaseTypes:
+  - ProduceExamPhaseType_ExamPlayTurnCountInterval
+  phaseValues:
+  - 2
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-target
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン内にスキルカードを2回使用するごとに、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown
@@ -7512,6 +7663,39 @@
     changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: が10ターン以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-none-block_up-30
+  phaseTypes:
+  - ProduceExamPhaseType_None
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_BlockUp
+  fieldStatusValues:
+  - 30
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が30以上の場合、
     targetId: ""
     targetLevel: 0
     examEffectType: ProduceExamEffectType_Unknown

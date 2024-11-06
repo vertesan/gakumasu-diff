@@ -1378,6 +1378,18 @@
   beforeTime: "1730836800000"
   afterTime: "1731441599000"
   description: ""
+- id: cd_login_bonus_wednesday-1113-halfaniv
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1731441600000"
+  afterTime: "1732046399000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4882,6 +4894,30 @@
   beforeTime: "1730404800000"
   afterTime: "1746064799000"
   description: ""
+- id: cd_time_24_1106-1100_1201-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
+  afterTime: "1733018399000"
+  description: ""
+- id: cd_time_24_1107-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730944800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_24_1108-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4892,6 +4928,18 @@
   min: "0"
   max: "0"
   beforeTime: "1731031200000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_24_11106-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
   afterTime: "0"
   description: ""
 - id: cd_time_24_1116-1000
@@ -5526,6 +5574,54 @@
   beforeTime: "0"
   afterTime: "0"
   description: チュートリアルクリア
+- id: cd_view_shop_costume_hski-trng-0002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_costume-0001-0010
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_costume_hski-trng-0002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
+  afterTime: "1733018399000"
+  description: ""
+- id: cd_view_shop_half-aniversary-pack-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_half-aniversary-pack-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_half-aniversary-pack-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
+  afterTime: "1733018399000"
+  description: ""
 - id: cd-100-days-anniversary
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7292,6 +7388,18 @@
   beforeTime: "2015247600000"
   afterTime: "2015333999000"
   description: ""
+- id: cd-birthday-ssmk-2024
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1731250800000"
+  afterTime: "0"
+  description: ""
 - id: cd-birthday-ttmr
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -8863,6 +8971,18 @@
   max: "48"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-half-anniversary-pre-2024
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
+  afterTime: "1731718799000"
   description: ""
 - id: cd-have_i_card-amao-3-000
   number: 1
@@ -12770,6 +12890,138 @@
   conditionType: ConditionType_ShopItemPurchase
   resourceId1: ""
   resourceId2: shop_pack_item-0014
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_hski-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_ttmr-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_fktn-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_amao-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 5
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_kllj-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 6
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_kcna-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 7
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_ssmk-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 8
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_shro-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 9
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_hume-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_costume-0001-0010
+  number: 10
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_hrnm-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_half-aniversary-pack-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-half-aniversary-selection-ticket
   minMaxType: ConditionMinMaxType_Min
   min: "1"
   max: "0"
@@ -17035,6 +17287,18 @@
   max: "0"
   beforeTime: "1726797600000"
   afterTime: "1727661599000"
+  description: ""
+- id: pannel-mission-event-006_time
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1730858400000"
+  afterTime: "1731718799000"
   description: ""
 - id: pannel-mission-event-halfaniv_time
   number: 1
