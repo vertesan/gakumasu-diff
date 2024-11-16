@@ -219,6 +219,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: cd-have_i_card-hume-3-000
   order: 999
+- id: hidden_mission-normal-produce-clear-i_card-jsna-3-000-b
+  missionGroupId: ""
+  name: SSR星南でB評価
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-000
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: cd-have_i_card-jsna-3-000
+  order: 999
 - id: hidden_mission-normal-produce-clear-i_card-kcna-3-000-b
   missionGroupId: ""
   name: SSR千奈でB評価
@@ -649,6 +666,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-normal-a-jsna
+  missionGroupId: ""
+  name: 星南でA Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-normal-a-kcna
   missionGroupId: ""
   name: 千奈でA Endを見る
@@ -819,6 +854,24 @@
   targetIds1: []
   targetIds2:
   - hume
+  targetIds3:
+  - B
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-normal-b-jsna
+  missionGroupId: ""
+  name: 星南でB Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
   targetIds3:
   - B
   targetValue: 0
@@ -1009,6 +1062,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-normal-c-jsna
+  missionGroupId: ""
+  name: 星南でC Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
+  targetIds3:
+  - C
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-normal-c-kcna
   missionGroupId: ""
   name: 千奈でC Endを見る
@@ -1179,6 +1250,24 @@
   targetIds1: []
   targetIds2:
   - hume
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-true-jsna
+  missionGroupId: ""
+  name: 星南でTrueEndを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
   targetIds3:
   - TrueEnd
   targetValue: 0
@@ -6480,6 +6569,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: mission-normal-produce-clear-jsna-c
+  missionGroupId: ""
+  name: 星南でC評価を達成
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 4
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: mission-normal-produce-clear-kcna-c
   missionGroupId: ""
   name: 千奈でC評価を達成
@@ -6741,6 +6847,23 @@
   type: MissionType_ConditionClear
   targetIds1:
   - cd-mission_clear-view-shop_pack_item-0014-72-hour
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: mission-normal-view-shop_pack_jsna-0001
+  missionGroupId: ""
+  name: 星南ピースパック発火条件
+  category: MissionCategory_Normal
+  type: MissionType_ConditionClear
+  targetIds1:
+  - cd-mission_clear-view-shop_pack_jsna-0001-72-hour
   targetIds2: []
   targetIds3: []
   targetValue: 0
@@ -8109,6 +8232,106 @@
   order: 5
 - id: mission-story-event-003-mission_6
   missionGroupId: mission-group-story-event-003
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: mission-story-event-004-mission_1
+  missionGroupId: mission-group-story-event-004
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-story-event-004-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-story-event-004-mission_2
+  missionGroupId: mission-group-story-event-004
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-story-event-004-mission_3
+  missionGroupId: mission-group-story-event-004
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-story-event-004-mission_4
+  missionGroupId: mission-group-story-event-004
+  name: プロデュースの相談で{threshold}回交換しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceShopBuyCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-story-event-004-mission_5
+  missionGroupId: mission-group-story-event-004
+  name: Pドリンクを{threshold}回使おう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-story-event-004-mission_6
+  missionGroupId: mission-group-story-event-004
   name: SPレッスンを{threshold}回クリアしよう
   category: MissionCategory_Special
   type: MissionType_IncrementProduceLessonClearCount
@@ -10059,6 +10282,108 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-jsna-2-000-01
+  missionGroupId: ""
+  name: 【一番星】十王 星南のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-2-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-2-000-02
+  missionGroupId: ""
+  name: 【一番星】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-2-000-03
+  missionGroupId: ""
+  name: 【一番星】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-2-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-000-01
+  missionGroupId: ""
+  name: 【小さな野望】十王 星南のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-000-02
+  missionGroupId: ""
+  name: 【小さな野望】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-000-03
+  missionGroupId: ""
+  name: 【小さな野望】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-kcna-3-001-01
   missionGroupId: ""
   name: 【日々、発見的ステップ！】倉本 千奈のプロデュースで最終試験に合格
@@ -10593,6 +10918,23 @@
   type: MissionType_AbsoluteCharacterIdolAchievementCount
   targetIds1:
   - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-m_jsna-001
+  missionGroupId: ""
+  name: 十王 星南のアチーブメントの★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterIdolAchievementCount
+  targetIds1:
+  - jsna
   targetIds2: []
   targetIds3: []
   targetValue: 0
@@ -14007,6 +14349,319 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-jsna-000
+  missionGroupId: ""
+  name: 十王 星南でTrue Endをみる
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-001
+  missionGroupId: ""
+  name: 十王 星南のプロデュースでスキルカードを{threshold}回使用
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-002
+  missionGroupId: ""
+  name: 十王 星南でレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-003
+  missionGroupId: ""
+  name: 十王 星南でSPレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-004
+  missionGroupId: ""
+  name: 十王 星南で最終試験に合格して評価B以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-005
+  missionGroupId: ""
+  name: 十王 星南で最終試験に合格して評価A以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 8
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-006
+  missionGroupId: ""
+  name: 十王 星南で最終試験に合格して評価S以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 10
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-007
+  missionGroupId: ""
+  name: 十王 星南のプロデュースを{threshold}回完了
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-008
+  missionGroupId: ""
+  name: 十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-009
+  missionGroupId: ""
+  name: 十王 星南のプロデュースで最終試験に{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-final_audition_clear
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-010
+  missionGroupId: ""
+  name: 十王 星南のファンを{threshold}人獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteFanCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-011
+  missionGroupId: ""
+  name: 十王 星南の親愛度Lvを{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-012
+  missionGroupId: ""
+  name: 十王 星南のプロデュースの相談で{threshold}回交換
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceShopBuyCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-013
+  missionGroupId: ""
+  name: 十王 星南のプロデュースで体力を合計{threshold}消費
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceConsumedStamina
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-014
+  missionGroupId: ""
+  name: 十王 星南のビジュアルを900以上に育成してプロデュースを完了
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-900
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-016
+  missionGroupId: ""
+  name: 十王 星南で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-017
+  missionGroupId: ""
+  name: 十王 星南の難易度「マスター」で最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kcna-000
   missionGroupId: ""
   name: 倉本 千奈でTrue Endをみる
@@ -15665,6 +16320,9 @@
   - seminar_gruop-01_04
   - seminar_gruop-01_05
   - seminar_gruop-01_06
+  - seminar_gruop-01_07
+  - seminar_gruop-01_08
+  - seminar_gruop-01_09
   targetIds2: []
   targetIds3: []
   targetValue: 0
@@ -15685,6 +16343,8 @@
   - seminar_gruop-03_02
   - seminar_gruop-03_03
   - seminar_gruop-03_04
+  - seminar_gruop-03_05
+  - seminar_gruop-03_06
   targetIds2: []
   targetIds3: []
   targetValue: 0
@@ -18248,4 +18908,835 @@
   missionDailyReleaseDay: 0
   viewConditionSetId: ""
   unlockConditionSetId: "main_task_group-02-01#100"
+  order: 0
+- id: "main_task_group-03-01#1"
+  missionGroupId: ""
+  name: 研修の【基礎７】全力をクリアしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteSeminarExamClear
+  targetIds1:
+  - seminar_gruop-01_08
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#1"
+  order: 0
+- id: "main_task_group-03-01#2"
+  missionGroupId: ""
+  name: 研修の【基礎８】強気をクリアしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteSeminarExamClear
+  targetIds1:
+  - seminar_gruop-01_07
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#2"
+  order: 0
+- id: "main_task_group-03-01#3"
+  missionGroupId: ""
+  name: プラン：アノマリーのプロデュースアイドルで最終試験に{threshold}回合格しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlanClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Plan3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#3"
+  order: 0
+- id: "main_task_group-03-01#4"
+  missionGroupId: ""
+  name: アノマリーガシャを{threshold}回引こう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementShopCoinGashaDrawCount
+  targetIds1:
+  - coin_gasha-c
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#4"
+  order: 0
+- id: "main_task_group-03-01#5"
+  missionGroupId: ""
+  name: 研修の【応用５】プラン：アノマリーをクリアしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteSeminarExamClear
+  targetIds1:
+  - seminar_gruop-02_05
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#5"
+  order: 0
+- id: "main_task_group-03-01#6"
+  missionGroupId: ""
+  name: プロデュースアイドル{threshold}人の特訓段階を4にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteIdolCardLevelLimitRankCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 4
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#6"
+  order: 0
+- id: "main_task_group-03-01#7"
+  missionGroupId: ""
+  name: 十王 星南の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#7"
+  order: 0
+- id: "main_task_group-03-01#8"
+  missionGroupId: ""
+  name: アイドルへの道で★を合計{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteTowerTotalClearRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#8"
+  order: 0
+- id: "main_task_group-03-01#9"
+  missionGroupId: ""
+  name: スキルカードを{threshold}種類獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteProducePictureBookProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#9"
+  order: 0
+- id: "main_task_group-03-01#10"
+  missionGroupId: ""
+  name: 十王 星南の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#10"
+  order: 0
+- id: "main_task_group-03-01#11"
+  missionGroupId: ""
+  name: アチーブメントを{threshold}個獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteAchievementCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#11"
+  order: 0
+- id: "main_task_group-03-01#12"
+  missionGroupId: ""
+  name: 十王 星南の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#12"
+  order: 0
+- id: "main_task_group-03-01#13"
+  missionGroupId: ""
+  name: 敏腕P研修のいずれかをクリアしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteSeminarExamClear
+  targetIds1:
+  - seminar_gruop-04_01
+  - seminar_gruop-04_02
+  - seminar_gruop-04_03
+  - seminar_gruop-04_04
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#13"
+  order: 0
+- id: "main_task_group-03-01#14"
+  missionGroupId: ""
+  name: プロデュースで難易度マスターに挑戦しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlayCount
+  targetIds1: []
+  targetIds2:
+  - produce-003
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#14"
+  order: 0
+- id: "main_task_group-03-01#15"
+  missionGroupId: ""
+  name: コンテストでスコアを{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#15"
+  order: 0
+- id: "main_task_group-03-01#16"
+  missionGroupId: ""
+  name: アイドルへの道で★を合計{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteTowerTotalClearRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#16"
+  order: 0
+- id: "main_task_group-03-01#17"
+  missionGroupId: ""
+  name: サポートカード{threshold}枚をLv40にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteSupportCardLevelCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 40
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#17"
+  order: 0
+- id: "main_task_group-03-01#18"
+  missionGroupId: ""
+  name: プラン：アノマリーのプロデュースアイドルで最終試験に合格して評価A以上を{threshold}回獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlanClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Plan3
+  targetValue: 8
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#18"
+  order: 0
+- id: "main_task_group-03-01#19"
+  missionGroupId: ""
+  name: プロデュースアイドル{threshold}人の特訓段階を6にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteIdolCardLevelLimitRankCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#19"
+  order: 0
+- id: "main_task_group-03-01#20"
+  missionGroupId: ""
+  name: コンテストのユニット総合力を{threshold}以上にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsolutePvpRateUnitOverallPower
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#20"
+  order: 0
+- id: "main_task_group-03-01#21"
+  missionGroupId: ""
+  name: APを{threshold}消費しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#21"
+  order: 0
+- id: "main_task_group-03-01#22"
+  missionGroupId: ""
+  name: アイドルへの道で★を合計{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteTowerTotalClearRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#22"
+  order: 0
+- id: "main_task_group-03-01#23"
+  missionGroupId: ""
+  name: アチーブメントを{threshold}個獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteAchievementCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#23"
+  order: 0
+- id: "main_task_group-03-01#24"
+  missionGroupId: ""
+  name: プロデュースでいずれかのパラメータを1500以上に育成しよう
+  category: MissionCategory_MainTask
+  type: MissionType_ProduceConditionClear
+  targetIds1:
+  - p_cd-any_vodavi-1500
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#24"
+  order: 0
+- id: "main_task_group-03-01#25"
+  missionGroupId: ""
+  name: コンテストでスコアを{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#25"
+  order: 0
+- id: "main_task_group-03-01#26"
+  missionGroupId: ""
+  name: プロデューサーLv{threshold}に到達しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteProducerLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#26"
+  order: 0
+- id: "main_task_group-03-01#27"
+  missionGroupId: ""
+  name: スキルカードを{threshold}種類獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteProducePictureBookProduceCardCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#27"
+  order: 0
+- id: "main_task_group-03-01#28"
+  missionGroupId: ""
+  name: 合計ファン数を{threshold}人にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteFanCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#28"
+  order: 0
+- id: "main_task_group-03-01#29"
+  missionGroupId: ""
+  name: |-
+    難易度マスターで最終試験に{threshold}回合格しよう
+    【条件】プラン：アノマリーのプロデュースアイドル
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlanClearCount
+  targetIds1: []
+  targetIds2:
+  - produce-003
+  targetIds3:
+  - Plan3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#29"
+  order: 0
+- id: "main_task_group-03-01#30"
+  missionGroupId: ""
+  name: アイドルへの道で★を合計{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteTowerTotalClearRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#30"
+  order: 0
+- id: "main_task_group-03-01#31"
+  missionGroupId: ""
+  name: コンテストのユニット総合力を{threshold}以上にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsolutePvpRateUnitOverallPower
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#31"
+  order: 0
+- id: "main_task_group-03-01#32"
+  missionGroupId: ""
+  name: お仕事を合計{threshold}時間しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#32"
+  order: 0
+- id: "main_task_group-03-01#33"
+  missionGroupId: ""
+  name: プロデュースアイドル{threshold}人の特訓段階を6にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteIdolCardLevelLimitRankCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#33"
+  order: 0
+- id: "main_task_group-03-01#34"
+  missionGroupId: ""
+  name: プロデュースに挑戦して評価A+以上を獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#34"
+  order: 0
+- id: "main_task_group-03-01#35"
+  missionGroupId: ""
+  name: 十王 星南のファンを{threshold}人獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteFanCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#35"
+  order: 0
+- id: "main_task_group-03-01#36"
+  missionGroupId: ""
+  name: コンテストでスコアを{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#36"
+  order: 0
+- id: "main_task_group-03-01#37"
+  missionGroupId: ""
+  name: アイドルへの道で★を合計{threshold}以上獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteTowerTotalClearRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#37"
+  order: 0
+- id: "main_task_group-03-01#38"
+  missionGroupId: ""
+  name: プロデューサーLv{threshold}に到達しよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteProducerLevel
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#38"
+  order: 0
+- id: "main_task_group-03-01#39"
+  missionGroupId: ""
+  name: 花海 咲季の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#39"
+  order: 0
+- id: "main_task_group-03-01#40"
+  missionGroupId: ""
+  name: 月村 手毬の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#40"
+  order: 0
+- id: "main_task_group-03-01#41"
+  missionGroupId: ""
+  name: 藤田 ことねの親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#41"
+  order: 0
+- id: "main_task_group-03-01#42"
+  missionGroupId: ""
+  name: 有村 麻央の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#42"
+  order: 0
+- id: "main_task_group-03-01#43"
+  missionGroupId: ""
+  name: 葛城 リーリヤの親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#43"
+  order: 0
+- id: "main_task_group-03-01#44"
+  missionGroupId: ""
+  name: 倉本 千奈の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#44"
+  order: 0
+- id: "main_task_group-03-01#45"
+  missionGroupId: ""
+  name: 紫雲 清夏の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#45"
+  order: 0
+- id: "main_task_group-03-01#46"
+  missionGroupId: ""
+  name: 篠澤 広の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#46"
+  order: 0
+- id: "main_task_group-03-01#47"
+  missionGroupId: ""
+  name: 花海 佑芽の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#47"
+  order: 0
+- id: "main_task_group-03-01#48"
+  missionGroupId: ""
+  name: 姫崎 莉波の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#48"
+  order: 0
+- id: "main_task_group-03-01#49"
+  missionGroupId: ""
+  name: 十王 星南の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_MainTask
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#49"
+  order: 0
+- id: "main_task_group-03-01#50"
+  missionGroupId: ""
+  name: プロデュースに挑戦して評価S以上を獲得しよう
+  category: MissionCategory_MainTask
+  type: MissionType_IncrementProducePlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 10
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: "main_task_group-03-01#50"
   order: 0

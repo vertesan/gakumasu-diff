@@ -87,6 +87,41 @@
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds: []
   isSelf: false
+- id: p_card_search-active_skill-lost
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 除外にある
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: アクティブスキルカード
+    targetId: Label_ActiveSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_ActiveSkill
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories:
+  - ProduceCardCategory_ActiveSkill
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Lost
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
 - id: p_card_search-active_skill-playing
   descriptions:
   - type: ProduceDescriptionType_ProduceCardCategory
@@ -105,6 +140,32 @@
   cardStatusType: ProduceCardSearchStatusType_Unknown
   orderType: ProduceCardOrderType_Unknown
   cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
+- id: p_card_search-deck
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 山札にあるスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Deck
   cardSearchTag: ""
   produceCardRandomPoolId: ""
   limitCount: 0
@@ -210,6 +271,76 @@
   effectGroupIds:
   - effect_group-visible-exam_card_play_aggressive-000
   isSelf: false
+- id: p_card_search-deck_all-effect_group-visible-exam_concentration-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_concentration-000
+  isSelf: false
+- id: p_card_search-deck_all-effect_group-visible-exam_full_power-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_full_power-000
+  isSelf: false
 - id: p_card_search-deck_all-effect_group-visible-exam_lesson_buff-000
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
@@ -280,6 +411,41 @@
   effectGroupIds:
   - effect_group-visible-exam_parameter_buff-000
   isSelf: false
+- id: p_card_search-deck_all-effect_group-visible-exam_preservation-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_preservation-000
+  isSelf: false
 - id: p_card_search-deck_all-effect_group-visible-exam_review-000
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
@@ -335,6 +501,58 @@
   cardSearchTag: starter
   produceCardRandomPoolId: ""
   limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
+- id: p_card_search-deck_grave
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 山札か捨札にあるスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckGrave
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
+- id: p_card_search-deck_grave-idol-unique-1
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 山札か捨札にあるアイドル固有スキルカード1枚
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckGrave
+  cardSearchTag: idol-unique
+  produceCardRandomPoolId: ""
+  limitCount: 1
   staminaMinMaxType: ConditionMinMaxType_Unknown
   staminaMin: 0
   staminaMax: 0
@@ -517,6 +735,40 @@
   cardSearchTag: ""
   produceCardRandomPoolId: ""
   limitCount: 3
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
+- id: p_card_search-hold
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 保留
+    targetId: Label_ProduceCardPositionType_Hold
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: にあるスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Hold
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
   staminaMinMaxType: ConditionMinMaxType_Unknown
   staminaMin: 0
   staminaMax: 0
@@ -806,6 +1058,76 @@
   effectGroupIds:
   - effect_group-visible-exam_block-000
   isSelf: false
+- id: p_card_search-playing-effect_group-visible-exam_card_play_aggressive-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_card_play_aggressive-000
+  isSelf: false
+- id: p_card_search-playing-effect_group-visible-exam_concentration-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_concentration-000
+  isSelf: false
 - id: p_card_search-playing-effect_group-visible-exam_parameter_buff_multiple_per_turn-000
   descriptions:
   - type: ProduceDescriptionType_ProduceExamEffectType
@@ -946,6 +1268,32 @@
   effectGroupIds:
   - effect_group-visible-stamina_recover_fix-000
   isSelf: false
+- id: p_card_search-playing-is_self
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 自身
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
 - id: p_card_search-playing-p_card-01-ido-1_058
   descriptions:
   - type: ProduceDescriptionType_ProduceCard
@@ -1078,6 +1426,32 @@
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds: []
   isSelf: false
+- id: p_card_search-target_is_self
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 自身
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Target
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: true
 - id: p_card_search-trouble-deck_all
   descriptions:
   - type: ProduceDescriptionType_ProduceCardCategory

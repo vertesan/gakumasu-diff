@@ -646,6 +646,114 @@
   characterId: hume
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-jsna-2-000-01
+  category: AchievementCategory_Idol
+  name: 王者の御出まし
+  description: 【一番星】十王 星南のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-2-000
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-jsna-2-000-02
+  category: AchievementCategory_Idol
+  name: 一番星
+  description: 【一番星】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-2-000
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-jsna-2-000-03
+  category: AchievementCategory_Idol
+  name: 皆を導く星
+  description: 【一番星】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-2-000
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-jsna-2-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-jsna-3-000-01
+  category: AchievementCategory_Idol
+  name: 一番高い星
+  description: 【小さな野望】十王 星南のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-000
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-jsna-3-000-02
+  category: AchievementCategory_Idol
+  name: 小さな野望
+  description: 【小さな野望】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-000
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-jsna-3-000-03
+  category: AchievementCategory_Idol
+  name: 歌いたくて仕方がないわ
+  description: 【小さな野望】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-000
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-000
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-kcna-3-001-01
   category: AchievementCategory_Idol
   name: お茶会へようこそ♪
@@ -1220,6 +1328,24 @@
   isTrueEndAchievement: false
   isMasterAchievement: true
   characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-m_jsna-001
+  category: AchievementCategory_Idol
+  name: マスターアチーブメント
+  description: 十王 星南のアチーブメントの★を{threshold}個獲得
+  missionType: MissionType_AbsoluteCharacterIdolAchievementCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: true
+  characterId: jsna
   viewProduceResult: false
   order: 1
 - id: achieve-m_kcna-001
@@ -4824,6 +4950,337 @@
   isTrueEndAchievement: false
   isMasterAchievement: false
   characterId: hume
+  viewProduceResult: true
+  order: 18
+- id: achieve-p_idol-jsna-000
+  category: AchievementCategory_Idol
+  name: 真のトップアイドル
+  description: 十王 星南でTrue Endをみる
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - jsna
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
+- id: achieve-p_idol-jsna-001
+  category: AchievementCategory_Idol
+  name: 新しい一面
+  description: 十王 星南のプロデュースでスキルカードを{threshold}回使用
+  missionType: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 2
+- id: achieve-p_idol-jsna-002
+  category: AchievementCategory_Idol
+  name: 積み上げてきたもの
+  description: 十王 星南でレッスンを{threshold}回クリア
+  missionType: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 3
+- id: achieve-p_idol-jsna-003
+  category: AchievementCategory_Idol
+  name: 強く輝く星
+  description: 十王 星南でSPレッスンを{threshold}回クリア
+  missionType: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 4
+- id: achieve-p_idol-jsna-004
+  category: AchievementCategory_Idol
+  name: 希望があるなら
+  description: 十王 星南で最終試験に合格して評価B以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 6
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 5
+- id: achieve-p_idol-jsna-005
+  category: AchievementCategory_Idol
+  name: 弱点を武器に
+  description: 十王 星南で最終試験に合格して評価A以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 8
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 2
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 6
+- id: achieve-p_idol-jsna-006
+  category: AchievementCategory_Idol
+  name: 夢はここにある
+  description: 十王 星南で最終試験に合格して評価S以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 10
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 7
+- id: achieve-p_idol-jsna-007
+  category: AchievementCategory_Idol
+  name: 可能性を求めて
+  description: 十王 星南のプロデュースを{threshold}回完了
+  missionType: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 9
+- id: achieve-p_idol-jsna-008
+  category: AchievementCategory_Idol
+  name: 一番星の風格
+  description: 十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 10
+- id: achieve-p_idol-jsna-009
+  category: AchievementCategory_Idol
+  name: 限界のその先へ
+  description: 十王 星南のプロデュースで最終試験に{threshold}回合格
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-final_audition_clear
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-jsna-010
+  category: AchievementCategory_Idol
+  name: 幼い頃のように
+  description: 十王 星南のファンを{threshold}人獲得
+  missionType: MissionType_AbsoluteFanCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 12
+- id: achieve-p_idol-jsna-011
+  category: AchievementCategory_Idol
+  name: 見ていて、先輩
+  description: 十王 星南の親愛度Lvを{threshold}にする
+  missionType: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 13
+- id: achieve-p_idol-jsna-012
+  category: AchievementCategory_Idol
+  name: 全部頂戴
+  description: 十王 星南のプロデュースの相談で{threshold}回交換
+  missionType: MissionType_IncrementProduceShopBuyCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 14
+- id: achieve-p_idol-jsna-013
+  category: AchievementCategory_Idol
+  name: すべてを糧にして
+  description: 十王 星南のプロデュースで体力を合計{threshold}消費
+  missionType: MissionType_IncrementProduceConsumedStamina
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 15
+- id: achieve-p_idol-jsna-014
+  category: AchievementCategory_Idol
+  name: 完全無欠
+  description: 十王 星南のビジュアルを900以上に育成してプロデュースを完了
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-900
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 16
+- id: achieve-p_idol-jsna-015
+  category: AchievementCategory_Idol
+  name: 「アイドルへの道」十王星南
+  description: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  missionType: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 17
+- id: achieve-p_idol-jsna-016
+  category: AchievementCategory_Idol
+  name: 共に頂点へ
+  description: 十王 星南で最終試験に合格して評価S+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 11
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 4
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 8
+- id: achieve-p_idol-jsna-017
+  category: AchievementCategory_Idol
+  name: 十王星南マスター
+  description: 十王 星南の難易度「マスター」で最終試験1位を獲得
+  missionType: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
   viewProduceResult: true
   order: 18
 - id: achieve-p_idol-kcna-000

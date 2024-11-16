@@ -22,6 +22,30 @@
 - type: ExamPlayType_AutoPlay
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-review_up-3
   coefficientPermil: 800
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_stance_change_count_interval-1
+  coefficientPermil: 850
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_start_turn-not-no_stance
+  coefficientPermil: 900
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_status_change-exam_full_power_point
+  coefficientPermil: 850
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-concentration_up
+  coefficientPermil: 0
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_point_up-1
+  coefficientPermil: 900
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_up
+  coefficientPermil: 1000
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-not-no_stance
+  coefficientPermil: 1000
+- type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-preservation_up
+  coefficientPermil: 0
 - type: ExamPlayType_ManualPlayLesson
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_play_after-p_card_search-playing-effect_group-visible-exam_block-000-0_1
   coefficientPermil: 900
@@ -46,6 +70,30 @@
 - type: ExamPlayType_ManualPlayLesson
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-review_up-3
   coefficientPermil: 800
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_stance_change_count_interval-1
+  coefficientPermil: 850
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_start_turn-not-no_stance
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_status_change-exam_full_power_point
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-concentration_up
+  coefficientPermil: 0
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_point_up-1
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_up
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-not-no_stance
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-preservation_up
+  coefficientPermil: 0
 - type: ExamPlayType_ManualPlayLessonHard
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_play_after-p_card_search-playing-effect_group-visible-exam_block-000-0_1
   coefficientPermil: 900
@@ -70,6 +118,30 @@
 - type: ExamPlayType_ManualPlayLessonHard
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-review_up-3
   coefficientPermil: 800
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_stance_change_count_interval-1
+  coefficientPermil: 850
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_start_turn-not-no_stance
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_status_change-exam_full_power_point
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-concentration_up
+  coefficientPermil: 0
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_point_up-1
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_up
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-not-no_stance
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-preservation_up
+  coefficientPermil: 0
 - type: ExamPlayType_ManualPlayAudition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_play_after-p_card_search-playing-effect_group-visible-exam_block-000-0_1
   coefficientPermil: 900
@@ -94,3 +166,27 @@
 - type: ExamPlayType_ManualPlayAudition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-review_up-3
   coefficientPermil: 800
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_stance_change_count_interval-1
+  coefficientPermil: 850
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_start_turn-not-no_stance
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_status_change-exam_full_power_point
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-concentration_up
+  coefficientPermil: 0
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_point_up-1
+  coefficientPermil: 900
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-full_power_up
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-not-no_stance
+  coefficientPermil: 1000
+- type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-none-preservation_up
+  coefficientPermil: 0

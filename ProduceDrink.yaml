@@ -264,9 +264,55 @@
   effectGroupIds:
   - effect_group-visible-exam_stamina_consumption_down-000
   - effect_group-visible-exam_lesson_value_multiple-000
-  - effect_group-visible-stamina_reduce_fix-000
   - effect_group-hidden-stamina_reduce_fix-000
+  - effect_group-visible-stamina_reduce_fix-000
   order: "200010090008"
+- id: pdrink_00-2-009
+  assetId: img_general_pdrink_2-009
+  name: パワフル漢方ドリンク
+  planType: ProducePlanType_Common
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_card_move-p_card_search-deck_grave-idol-unique-1-hand-all-0_0
+  - p_drink_effect-e_effect-exam_stamina_consumption_down-03
+  rarity: ProduceDrinkRarity_Sr
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 山札か捨札にあるアイドル固有スキルカード1枚を手札に移動
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力減少
+    targetId: Label_ExamStaminaConsumptionDown
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 60
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_down-000
+  order: "200600240009"
 - id: pdrink_00-3-001
   assetId: img_general_pdrink_3-001
   name: 初星ホエイプロテイン
@@ -807,6 +853,353 @@
   effectGroupIds:
   - effect_group-visible-exam_card_search_effect_play_count_buff-000
   - effect_group-visible-exam_stamina_consumption_add-000
-  - effect_group-visible-stamina_reduce_fix-000
   - effect_group-hidden-stamina_reduce_fix-000
+  - effect_group-visible-stamina_reduce_fix-000
   order: "320010090010"
+- id: pdrink_03-1-009
+  assetId: img_general_pdrink_1-009
+  name: ジンジャーエール
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_concentration-0001
+  - p_drink_effect-e_effect-exam_full_power_point-0001
+  rarity: ProduceDrinkRarity_R
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: に変更
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+1</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 0
+  effectGroupIds:
+  - effect_group-visible-exam_concentration-000
+  - effect_group-visible-exam_full_power-000
+  order: "130010240009"
+- id: pdrink_03-1-010
+  assetId: img_general_pdrink_1-010
+  name: ほうじ茶
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_preservation-0001
+  - p_drink_effect-e_effect-exam_full_power_point-0002
+  rarity: ProduceDrinkRarity_R
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: に変更
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 0
+  effectGroupIds:
+  - effect_group-visible-exam_preservation-000
+  - effect_group-visible-exam_full_power-000
+  order: "130010240010"
+- id: pdrink_03-2-007
+  assetId: img_general_pdrink_2-007
+  name: ほっと緑茶
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_card_move-p_card_search-deck_grave-hold-select-1_1
+  - p_drink_effect-e_effect-exam_preservation-0002
+  rarity: ProduceDrinkRarity_Sr
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 山札か捨札にあるスキルカードを選択し、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 保留
+    targetId: Label_ProduceCardPositionType_Hold
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: に移動
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 2段階目に変更
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 21
+  effectGroupIds:
+  - effect_group-visible-exam_preservation-000
+  order: "230210240007"
+- id: pdrink_03-3-008
+  assetId: img_general_pdrink_3-008
+  name: 厳選初星チャイ
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_status_enchant-inf-enchant-pdrink_03-3-008-enc01
+  rarity: ProduceDrinkRarity_Ssr
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: 以降、ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+1</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 27
+  effectGroupIds:
+  - effect_group-visible-exam_status_enchant-000
+  - effect_group-visible-exam_full_power-000
+  order: "330270240008"
+- id: pdrink_03-3-009
+  assetId: img_general_pdrink_3-009
+  name: 初星スーパーソーダ
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_concentration-0002
+  - p_drink_effect-e_effect-exam_stamina_consumption_down-01
+  rarity: ProduceDrinkRarity_Ssr
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 2段階目に変更
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力減少
+    targetId: Label_ExamStaminaConsumptionDown
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 26
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_down-000
+  - effect_group-visible-exam_concentration-000
+  order: "330260240009"
+- id: pdrink_03-3-011
+  assetId: img_general_pdrink_3-011
+  name: 初星湯
+  planType: ProducePlanType_Plan3
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_extra_turn
+  - p_drink_effect-e_effect-exam_stamina_reduce_fix-0002
+  - p_drink_effect-e_effect-exam_stamina_consumption_add-01
+  rarity: ProduceDrinkRarity_Ssr
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: ターン追加
+    targetId: Label_ExamExtraTurn
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamExtraTurn
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+1</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力増加
+    targetId: Label_ExamStaminaConsumptionAdd
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAdd
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>1ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 60
+  effectGroupIds:
+  - effect_group-visible-exam_extra_turn-000
+  - effect_group-visible-exam_stamina_consumption_add-000
+  - effect_group-hidden-stamina_reduce_fix-000
+  - effect_group-visible-stamina_reduce_fix-000
+  order: "330600240011"

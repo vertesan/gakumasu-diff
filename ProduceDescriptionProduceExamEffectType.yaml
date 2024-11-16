@@ -209,8 +209,8 @@
 - type: ProduceExamEffectType_ExamFullPower
   name: 全力
   swapName: 全力
-  produceDescriptionId: Label_ExamFullPower_Produce
-  examProduceDescriptionId: Label_ExamFullPower_Exam
+  produceDescriptionId: Label_ExamFullPower
+  examProduceDescriptionId: Label_ExamFullPower
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
@@ -230,6 +230,14 @@
   mainBuffMinThresholds:
   - 5
   - 10
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamFullPowerPointReduce
+  name: 全力値減少
+  swapName: 全力値減少
+  produceDescriptionId: Label_ExamFullPowerPointReduce
+  examProduceDescriptionId: Label_ExamFullPowerPointReduce
+  mainBuffMinThresholds: []
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamSearchPlayCardStaminaConsumptionChange

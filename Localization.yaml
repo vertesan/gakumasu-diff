@@ -78,6 +78,8 @@
   description: 髪型
 - id: produce.card.move_position.deck
   description: 山札
+- id: produce.card.move_position.hold.description
+  description: "全力に変更した時、手札へ移動するスキルカード\\n2枚まで保存でき、2枚を超えると捨札に送る"
 - id: produce.change_upgrade.message.result
   description: " {0}を{1}にチェンジして強化しました"
 - id: produce.change.message.result
@@ -92,6 +94,10 @@
   description: 元気増加無効状態のため効果が発動しません。
 - id: produce.lesson.no_effect.stamina_recover_restriction
   description: 体力回復無効状態のため効果が発動しません。
+- id: produce.lesson.no_effect.stance_same
+  description: すでに変更先の指針であるため、指針への効果が発動しません。
+- id: produce.lesson.no_effect.stance_step_max
+  description: すでに指針の段階が上限であるため、指針への効果が発動しません。
 - id: produce.log.detail.title.audition_npc_enhance
   description: ライバルのスコア増加
 - id: produce.memory_limit.warning
@@ -126,6 +132,8 @@
   description: "まだ交換可能です。\\n相談を終了しますか？"
 - id: produce.support_event_effect
   description: 効果
+- id: producer.level.additional_reward
+  description: "新たに追加されたPLvアップ報酬のうち\\nすでに達成済みのものをまとめて獲得しました。"
 - id: profile.activity.evaluate
   description: 最高評価
 - id: profile.activity.produce

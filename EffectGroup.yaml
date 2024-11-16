@@ -56,13 +56,19 @@
   name: やる気減少
   examEffectType: ProduceExamEffectType_ExamAggressiveReduce
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 121002
+- id: effect_group-visible-exam_anti_debuff-000
+  name: 低下状態無効
+  examEffectType: ProduceExamEffectType_ExamAntiDebuff
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 100014
 - id: effect_group-visible-exam_block_restriction-000
   name: 元気増加無効
   examEffectType: ProduceExamEffectType_ExamBlockRestriction
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 101015
 - id: effect_group-visible-exam_block-000
   name: 元気
@@ -94,6 +100,12 @@
   produceEffectType: ProduceEffectType_Unknown
   hiddenFilter: false
   order: 100007
+- id: effect_group-visible-exam_concentration-000
+  name: 強気
+  examEffectType: ProduceExamEffectType_ExamConcentration
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 130002
 - id: effect_group-visible-exam_effect_timer-000
   name: 発動予約
   examEffectType: ProduceExamEffectType_ExamEffectTimer
@@ -106,11 +118,23 @@
   produceEffectType: ProduceEffectType_Unknown
   hiddenFilter: false
   order: 100012
+- id: effect_group-visible-exam_full_power_point_reduce-000
+  name: 全力値減少
+  examEffectType: ProduceExamEffectType_ExamFullPowerPointReduce
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 131001
+- id: effect_group-visible-exam_full_power-000
+  name: 全力
+  examEffectType: ProduceExamEffectType_ExamFullPower
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 130003
 - id: effect_group-visible-exam_gimmick_slump-000
   name: スランプ
   examEffectType: ProduceExamEffectType_ExamGimmickSlump
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 101014
 - id: effect_group-visible-exam_hand_grave_count_card_draw-000
   name: 手札を入れ替える
@@ -122,7 +146,7 @@
   name: 集中減少
   examEffectType: ProduceExamEffectType_ExamLessonBuffReduce
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 111003
 - id: effect_group-visible-exam_lesson_buff-000
   name: 集中
@@ -158,7 +182,7 @@
   name: 好調減少
   examEffectType: ProduceExamEffectType_ExamParameterBuffReduce
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 111001
 - id: effect_group-visible-exam_parameter_buff-000
   name: 好調
@@ -172,11 +196,17 @@
   produceEffectType: ProduceEffectType_Unknown
   hiddenFilter: false
   order: 100010
+- id: effect_group-visible-exam_preservation-000
+  name: 温存
+  examEffectType: ProduceExamEffectType_ExamPreservation
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 130001
 - id: effect_group-visible-exam_review_reduce-000
   name: 好印象減少
   examEffectType: ProduceExamEffectType_ExamReviewReduce
   produceEffectType: ProduceEffectType_Unknown
-  hiddenFilter: true
+  hiddenFilter: false
   order: 121001
 - id: effect_group-visible-exam_review-000
   name: 好印象
@@ -208,6 +238,12 @@
   produceEffectType: ProduceEffectType_Unknown
   hiddenFilter: false
   order: 100005
+- id: effect_group-visible-exam_stance_reset-000
+  name: 指針解除
+  examEffectType: ProduceExamEffectType_ExamStanceReset
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 131002
 - id: effect_group-visible-exam_status_enchant-000
   name: 持続効果
   examEffectType: ProduceExamEffectType_ExamStatusEnchant
@@ -316,6 +352,12 @@
   produceEffectType: ProduceEffectType_StaminaReduceFix
   hiddenFilter: false
   order: 210008
+- id: effect_group-visible-stance_lock-000
+  name: 指針固定
+  examEffectType: ProduceExamEffectType_StanceLock
+  produceEffectType: ProduceEffectType_Unknown
+  hiddenFilter: false
+  order: 131003
 - id: effect_group-visible-visual_addition-000
   name: ビジュアル上昇
   examEffectType: ProduceExamEffectType_Unknown
