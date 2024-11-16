@@ -910,6 +910,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_draw_gasha-000240-ssr-idol-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-000240-ssr-idol-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_draw_gasha-000240-ssr-support-card-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-000240-ssr-support-card-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_event_release_mission
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -5970,6 +5994,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: チュートリアルクリア
+- id: cd_view_home-banner-gasha-000240-ssr-idol-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-000240-ssr-idol-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_home-banner-gasha-000240-ssr-idol-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-000240-ssr-support-card-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_view_shop_costume_hski-trng-0002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
