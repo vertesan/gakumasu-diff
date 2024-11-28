@@ -10957,6 +10957,124 @@
   viewStartTime: "0"
   isLimited: false
   order: "33102200350"
+- id: pitem_01-2-036-0
+  assetId: img_general_pitem_2-036
+  rarity: ProduceItemRarity_Sr
+  name: イケてるセーター
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-2-036-0-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-2-036-0-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: 【ダンスレッスン・ダンスターンのみ】
+    targetId: Convert_StepLessonType_DanceLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が1以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中減少
+    targetId: Label_ExamLessonBuffReduce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuffReduce
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>1</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 45
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: s_card-2-0035
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff_reduce-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "33102500360"
 - id: pitem_01-2-044-challenge
   assetId: img_general_pitem_2-044
   rarity: ProduceItemRarity_Sr
@@ -14498,6 +14616,201 @@
   viewStartTime: "1727661600000"
   isLimited: false
   order: "42101900461"
+- id: pitem_01-3-049-0
+  assetId: img_general_pitem_3-049
+  rarity: ProduceItemRarity_Ssr
+  name: めりくりライオン
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_01-3-049-0-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_01-3-049-0-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、残り2ターン以内の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>70%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 上昇
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>1</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内2回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 100
+  isExamEffect: true
+  originIdolCardId: i_card-hume-3-005
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-hidden-stamina_reduce_fix-000
+  - effect_group-visible-stamina_reduce_fix-000
+  isChallenge: false
+  viewStartTime: "1732759200000"
+  isLimited: false
+  order: "42102500490"
+- id: pitem_01-3-049-1
+  assetId: img_general_pitem_3-049
+  rarity: ProduceItemRarity_Ssr
+  name: めりくりライオン+
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_01-3-049-1-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_01-3-049-1-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、残り2ターン以内の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>70%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      上昇
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内2回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 140
+  isExamEffect: true
+  originIdolCardId: i_card-hume-3-005
+  originSupportCardId: ""
+  isUpgraded: true
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  isChallenge: false
+  viewStartTime: "1732759200000"
+  isLimited: false
+  order: "42102500491"
 - id: pitem_01-3-051-0
   assetId: img_general_pitem_3-051
   rarity: ProduceItemRarity_Ssr
@@ -24166,6 +24479,174 @@
   viewStartTime: "0"
   isLimited: false
   order: "48200250870"
+- id: pitem_02-3-094-0
+  assetId: img_general_pitem_3-094
+  rarity: ProduceItemRarity_Ssr
+  name: 費用0円愛情MAX
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_02-3-094-0-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_02-3-094-0-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+4</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内2回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 100
+  isExamEffect: true
+  originIdolCardId: i_card-fktn-3-006
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  isChallenge: false
+  viewStartTime: "1732759200000"
+  isLimited: false
+  order: "42202500940"
+- id: pitem_02-3-094-1
+  assetId: img_general_pitem_3-094
+  rarity: ProduceItemRarity_Ssr
+  name: 費用0円愛情MAX+
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-02-enchant-pitem_02-3-094-1-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-02-enchant-pitem_02-3-094-1-enc01
+  libraryHidden: false
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+6</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内2回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 140
+  isExamEffect: true
+  originIdolCardId: i_card-fktn-3-006
+  originSupportCardId: ""
+  isUpgraded: true
+  effectGroupIds:
+  - effect_group-visible-exam_block-000
+  isChallenge: false
+  viewStartTime: "1732759200000"
+  isLimited: false
+  order: "42202500941"
 - id: pitem_03-1-012-0
   assetId: img_general_pitem_1-012
   rarity: ProduceItemRarity_R

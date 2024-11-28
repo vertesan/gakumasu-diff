@@ -1652,8 +1652,8 @@
   - resourceType: ResourceType_Item
     resourceId: item-produce-reroll-memory-001
     quantity: 10
-  viewConditionSetId: cd_time_24_0901_0500
-  unlockConditionSetId: cd_time_24_0901_0500
+  viewConditionSetId: cd_time_24_0516_1201
+  unlockConditionSetId: cd_time_24_0516_1201
   resetTimingType: ResetTimingType_Monthly
   resetHour: 5
   resetMinute: 0
@@ -1663,7 +1663,75 @@
   consumptionResourceType: ResourceType_Unknown
   consumptionResourceId: ""
   consumptionResourceQuantity: 0
-  startTime: "1725134400000"
+  startTime: "1715803200000"
+  endTime: "1732996799000"
+  order: 1400
+- id: shop_pack_item-monthly-0002_re01
+  shopId: shop_pack
+  name: 毎月更新！育成パック
+  labelTypes: []
+  assetId: "0042"
+  shopProductId: ""
+  totalJewelQuantity: 1200
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-staminaregen-1
+    quantity: 10
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 30000
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-1
+    quantity: 1000
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2
+    quantity: 500
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-1
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-2
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-a-3
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-1
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-2
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-b-3
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-c-1
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-c-2
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-2-c-3
+    quantity: 40
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-produce-reroll-memory-001
+    quantity: 10
+  viewConditionSetId: cd_time_24_1201_0000
+  unlockConditionSetId: cd_time_24_1201_0000
+  resetTimingType: ResetTimingType_Monthly
+  resetHour: 5
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 1
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1732996800000"
   endTime: "0"
   order: 1400
 - id: shop_pack_item-onsen-costume-amao
@@ -2117,4 +2185,31 @@
   consumptionResourceQuantity: 0
   startTime: "1730404800000"
   endTime: "1732996799000"
+  order: 100000
+- id: shop_pass_item-0008
+  shopId: shop_pass
+  name: プレミアムミッションパス 2024年12月
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0008"
+  shopProductId: pass_0001
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_MissionPassPremiumPass
+    resourceId: mission_pass-2024-12
+    quantity: 1
+  viewConditionSetId: cd_time_24_1201_0101
+  unlockConditionSetId: cd_time_24_1201_0101
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1732996800000"
+  endTime: "1735675199000"
   order: 100000

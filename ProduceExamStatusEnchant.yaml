@@ -168,6 +168,52 @@
   produceExamTriggerId: e_trigger-exam_card_play-p_card_search-active_skill-playing-0_1
   produceExamEffectIds:
   - e_effect-exam_lesson-0005-01
+- id: enchant-p_card-01-ido-3_085-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>2ターン</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn
+  produceExamEffectIds:
+  - e_effect-exam_parameter_buff-02
 - id: enchant-p_card-01-ido-3_087-enc01
   assetId: ""
   descriptions:
@@ -8624,6 +8670,102 @@
   produceExamTriggerId: e_trigger-exam_start_turn-lesson_buff_up-5-lesson_dance
   produceExamEffectIds:
   - e_effect-exam_lesson-0010-01
+- id: enchant-pitem_01-2-036-0-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: 【ダンスレッスン・ダンスターンのみ】
+    targetId: Convert_StepLessonType_DanceLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が1以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>3ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中減少
+    targetId: Label_ExamLessonBuffReduce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuffReduce
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>1</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn-lesson_buff_up-1-lesson_dance
+  produceExamEffectIds:
+  - e_effect-exam_parameter_buff-03
+  - e_effect-exam_lesson_buff_reduce-0001
 - id: enchant-pitem_01-2-045-challenge-enc01
   assetId: ""
   descriptions:
@@ -10970,6 +11112,156 @@
   produceExamTriggerId: e_trigger-exam_card_play-p_card_search-active_skill-playing-0_1
   produceExamEffectIds:
   - e_effect-exam_block_fix-0007
+- id: enchant-pitem_01-3-049-0-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、残り2ターン以内の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>70%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 上昇
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力消費
+    targetId: Label_ExamStaminaReduceFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaReduceFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>1</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn-remaining_turn-2
+  produceExamEffectIds:
+  - e_effect-exam_lesson_depend_parameter_buff-0700-01
+  - e_effect-exam_stamina_reduce_fix-0001
+- id: enchant-pitem_01-3-049-1-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、残り2ターン以内の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の<nobr>70%</nobr>分
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "上昇 "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn-remaining_turn-2
+  produceExamEffectIds:
+  - e_effect-exam_lesson_depend_parameter_buff-0700-01
 - id: enchant-pitem_01-3-051-0-enc01
   assetId: ""
   descriptions:
@@ -17372,6 +17664,130 @@
   - e_effect-exam_block-0002
   - e_effect-exam_card_play_aggressive-0002
   - e_effect-exam_lesson_value_multiple_down-0200-inf
+- id: enchant-pitem_02-3-094-0-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>+4</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn-card_play_aggressive_up-5
+  produceExamEffectIds:
+  - e_effect-exam_block-0004
+- id: enchant-pitem_02-3-094-1-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: やる気
+    targetId: Label_ExamCardPlayAggressive_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 元気
+    targetId: Label_ExamBlock
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamBlock
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>+6</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_start_turn-card_play_aggressive_up-5
+  produceExamEffectIds:
+  - e_effect-exam_block-0006
 - id: enchant-pitem_03-1-012-0-enc01
   assetId: ""
   descriptions:
@@ -24905,6 +25321,98 @@
   produceExamTriggerId: e_trigger-exam_end_turn-block_up-230
   produceExamEffectIds:
   - e_effect-exam_block_depend_exam_review-1000-01
+- id: enchant-tower_001-exam_full_power-hume-stage_003-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン終了時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>+1</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_end_turn
+  produceExamEffectIds:
+  - e_effect-exam_full_power_point-0001
+- id: enchant-tower_001-exam_full_power-hume-stage_010-enc01
+  assetId: ""
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン終了時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: "<nobr>+8</nobr> "
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamTurn
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ExamCount
+    text: ""
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceExamTriggerId: e_trigger-exam_end_turn
+  produceExamEffectIds:
+  - e_effect-exam_lesson-0008-01
 - id: enchant-tower_001-exam_lesson_buff-0001-stage_001-enc01
   assetId: ""
   descriptions:

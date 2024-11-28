@@ -214,6 +214,60 @@
   characterId: fktn
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-fktn-3-006-01
+  category: AchievementCategory_Idol
+  name: メリクリで～す♪
+  description: 【White Night! White Wish!】藤田 ことねのプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-006
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-fktn-3-006-02
+  category: AchievementCategory_Idol
+  name: White Night! White Wish!
+  description: 【White Night! White Wish!】藤田 ことねの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-006
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-fktn-3-006-03
+  category: AchievementCategory_Idol
+  name: たったいまからクリスマス
+  description: 【White Night! White Wish!】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-006
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-hrnm-3-001-01
   category: AchievementCategory_Idol
   name: 入道雲と、きみ
@@ -639,6 +693,60 @@
   - i_card-hume-3-000
   targetValue: 9
   viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-hume-3-005-01
+  category: AchievementCategory_Idol
+  name: おすそわけですっ！
+  description: 【White Night! White Wish!】花海 佑芽のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-005
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hume-3-005-02
+  category: AchievementCategory_Idol
+  name: White Night! White Wish!
+  description: 【White Night! White Wish!】花海 佑芽の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hume-3-005-03
+  category: AchievementCategory_Idol
+  name: クリスマスのサプライズ
+  description: 【White Night! White Wish!】花海 佑芽のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-005
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-005
   unlockConditionSetId: ""
   masterAchievementInitialRank: 0
   isTrueEndAchievement: false

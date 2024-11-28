@@ -11577,6 +11577,25 @@
   produceExamStatusEnchantId: ""
   produceCardStatusEnchantId: ""
   produceCardGrowEffectIds: []
+- id: e_effect-exam_lesson_depend_parameter_buff-0700-01
+  effectType: ProduceExamEffectType_ExamLessonDependParameterBuff
+  descriptions: []
+  effectValue1: 700
+  effectValue2: 0
+  effectCount: 1
+  effectTurn: 0
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: ""
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectIds: []
 - id: e_effect-exam_lesson_depend_parameter_buff-1000-0500-01
   effectType: ProduceExamEffectType_ExamLessonDependParameterBuff
   descriptions: []
@@ -19933,6 +19952,57 @@
   produceExamStatusEnchantId: enchant-p_card-01-act-3_049-enc02
   produceCardStatusEnchantId: ""
   produceCardGrowEffectIds: []
+- id: e_effect-exam_status_enchant-inf-enchant-p_card-01-ido-3_085-enc01
+  effectType: ProduceExamEffectType_ExamStatusEnchant
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  effectValue1: 0
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: -1
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: enchant-p_card-01-ido-3_085-enc01
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectIds: []
 - id: e_effect-exam_status_enchant-inf-enchant-p_card-01-ido-3_087-enc02
   effectType: ProduceExamEffectType_ExamStatusEnchant
   descriptions:
@@ -22763,6 +22833,108 @@
   pickCountMax: 0
   chainProduceExamEffectId: ""
   produceExamStatusEnchantId: enchant-tower_001-exam_card_play_aggressive-0002-stage_019-enc02
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectIds: []
+- id: e_effect-exam_status_enchant-inf-enchant-tower_001-exam_full_power-hume-stage_003-enc01
+  effectType: ProduceExamEffectType_ExamStatusEnchant
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、ターン終了時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+1</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  effectValue1: 0
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: -1
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: enchant-tower_001-exam_full_power-hume-stage_003-enc01
+  produceCardStatusEnchantId: ""
+  produceCardGrowEffectIds: []
+- id: e_effect-exam_status_enchant-inf-enchant-tower_001-exam_full_power-hume-stage_010-enc01
+  effectType: ProduceExamEffectType_ExamStatusEnchant
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 終了まで、ターン終了時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ
+    targetId: Label_ExamLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+8</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  effectValue1: 0
+  effectValue2: 0
+  effectCount: 0
+  effectTurn: -1
+  targetProduceCardId: ""
+  targetUpgradeCount: 0
+  targetExamEffectType: ProduceExamEffectType_Unknown
+  produceCardSearchId: ""
+  movePositionType: ProduceCardMovePositionType_Unknown
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  chainProduceExamEffectId: ""
+  produceExamStatusEnchantId: enchant-tower_001-exam_full_power-hume-stage_010-enc01
   produceCardStatusEnchantId: ""
   produceCardGrowEffectIds: []
 - id: e_effect-exam_status_enchant-inf-enchant-tower_001-exam_lesson_buff-0001-stage_001-enc01
