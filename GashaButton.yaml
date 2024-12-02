@@ -98,6 +98,26 @@
   order: 2
   appealType: GashaButtonAppealType_Unknown
   appealText: ""
+- id: gasha_button-010-item_01
+  name: 10回アイテムガシャ
+  description: 10回アイテムガシャ
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gashaitem-10_01
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
 - id: gasha_button-010-ticket
   name: 10回チケットガシャ
   description: 10回チケットガシャ

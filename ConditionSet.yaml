@@ -1078,6 +1078,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_gashaitem_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaitem-10_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -1557,6 +1569,18 @@
   max: "0"
   beforeTime: "1732651200000"
   afterTime: "1733255999000"
+  description: ""
+- id: cd_login_bonus_wednesday-1204
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1733256000000"
+  afterTime: "1733860799000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -5482,6 +5506,18 @@
   beforeTime: "1732996800000"
   afterTime: "1735675199000"
   description: ""
+- id: cd_time_24_1202_25_0201
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1733104800000"
+  afterTime: "1738353599000"
+  description: ""
 - id: cd_time_24_1224
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7555,6 +7591,18 @@
   max: "0"
   beforeTime: "2017494000000"
   afterTime: "2017580399000"
+  description: ""
+- id: cd-birthday-jsna-2024
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1733497200000"
+  afterTime: "0"
   description: ""
 - id: cd-birthday-kcna
   number: 1
