@@ -18730,19 +18730,7 @@
   description: ""
 - id: cd-view-gasha-00255-free-10-003
   number: 1
-  conditionOperatorType: ConditionOperatorType_Or
-  conditionType: ConditionType_TimeTerm
-  resourceId1: ""
-  resourceId2: ""
-  minMaxType: ConditionMinMaxType_Unknown
-  min: "0"
-  max: "0"
-  beforeTime: "1733104800000"
-  afterTime: "1733709599000"
-  description: ""
-- id: cd-view-gasha-00255-free-10-003
-  number: 2
-  conditionOperatorType: ConditionOperatorType_Or
+  conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Set
   resourceId1: cd_gasha_have_gashaitem_01-1211-1100
   resourceId2: ""
