@@ -481,6 +481,33 @@
   effectGroupIds:
   - effect_group-visible-exam_review-000
   isSelf: false
+- id: p_card_search-deck_all-p_card-03-ido-3_084
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCard
+    text: 踏切の先に
+    targetId: p_card-03-ido-3_084
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds:
+  - p_card-03-ido-3_084
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckAll
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
 - id: p_card_search-deck_all-starter
   descriptions:
   - type: ProduceDescriptionType_PlainText
@@ -1162,6 +1189,41 @@
   examEffectType: ProduceExamEffectType_Unknown
   effectGroupIds:
   - effect_group-visible-exam_parameter_buff_multiple_per_turn-000
+  isSelf: false
+- id: p_card_search-playing-effect_group-visible-exam_preservation-000
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_Playing
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_preservation-000
   isSelf: false
 - id: p_card_search-playing-effect_group-visible-exam_review-000
   descriptions:

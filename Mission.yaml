@@ -11488,6 +11488,57 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-ssmk-3-002-01
+  missionGroupId: ""
+  name: 【カクシタワタシ】紫雲 清夏のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-002
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-002-02
+  missionGroupId: ""
+  name: 【カクシタワタシ】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-002
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-002-03
+  missionGroupId: ""
+  name: 【カクシタワタシ】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-002
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-ttmr-3-001-01
   missionGroupId: ""
   name: 【アイヴイ】月村 手毬のプロデュースで最終試験に合格

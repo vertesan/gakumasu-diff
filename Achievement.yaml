@@ -1294,6 +1294,60 @@
   characterId: ssmk
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-ssmk-3-002-01
+  category: AchievementCategory_Idol
+  name: 踏切の先に
+  description: 【カクシタワタシ】紫雲 清夏のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-002
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-ssmk-3-002-02
+  category: AchievementCategory_Idol
+  name: カクシタワタシ
+  description: 【カクシタワタシ】紫雲 清夏の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-002
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-ssmk-3-002-03
+  category: AchievementCategory_Idol
+  name: 精一杯の強がり
+  description: 【カクシタワタシ】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-002
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-002
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-ttmr-3-001-01
   category: AchievementCategory_Idol
   name: 絡まる想い

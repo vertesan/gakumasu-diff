@@ -1789,6 +1789,37 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_card_play-p_card_search-playing-effect_group-visible-exam_preservation-000-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-playing-effect_group-visible-exam_preservation-000
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_card_play-p_card_search-playing-effect_group-visible-exam_review-000-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlay
@@ -6075,6 +6106,120 @@
     produceCardCategory: ProduceCardCategory_Unknown
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_start_turn-full_power_point_get_sum_up-15
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerPointGetSumUp
+  fieldStatusValues:
+  - 15
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、この
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中の累計
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が15以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_start_turn-full_power_point_get_sum_up-5
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerPointGetSumUp
+  fieldStatusValues:
+  - 5
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、この
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中の累計
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_start_turn-full_power_point_up-3
   phaseTypes:
   - ProduceExamPhaseType_ExamStartTurn
@@ -6173,6 +6318,54 @@
   effectTypes: []
   lessonType: ProduceStepLessonType_Unknown
   descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_start_turn-full_power_up-lesson_dance
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerUp
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_LessonDance
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: 【ダンスレッスン・ダンスターンのみ】
+    targetId: Convert_StepLessonType_DanceLesson
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
   - type: ProduceDescriptionType_PlainText
     text: ターン開始時、
     targetId: ""
