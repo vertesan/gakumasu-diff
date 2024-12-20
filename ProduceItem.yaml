@@ -819,6 +819,64 @@
   viewStartTime: "0"
   isLimited: false
   order: "1"
+- id: pitem_00-0-004-0-011
+  assetId: img_general_pitem_0-004
+  rarity: ProduceItemRarity_N
+  name: 初星バッチ（赤）
+  planType: ProducePlanType_Common
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-inf-enchant-pitem_00-0-004-0-011-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-inf-enchant-pitem_00-0-004-0-011-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: アクティブスキルカード
+    targetId: Label_ActiveSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_ActiveSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>10%</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_value_multiple-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_00-0-008-0-000
   assetId: img_general_pitem_0-008
   rarity: ProduceItemRarity_N
@@ -8676,6 +8734,126 @@
   viewStartTime: "0"
   isLimited: false
   order: "19100700011"
+- id: pitem_01-0-001-0-002
+  assetId: img_general_pitem_0-001
+  rarity: ProduceItemRarity_N
+  name: 初星オブジェ（銀）
+  planType: ProducePlanType_Plan1
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-001-0-002-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_01-0-001-0-002-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 集中
+    targetId: Label_ExamLessonBuff_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>+5</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好調
+    targetId: Label_ExamParameterBuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamParameterBuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>4ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力削減
+    targetId: Label_ExamStaminaConsumptionDownFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDownFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>1</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_down_fix-000
+  - effect_group-visible-exam_parameter_buff-000
+  - effect_group-visible-exam_lesson_buff-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
 - id: pitem_01-0-005-0-000
   assetId: img_general_pitem_0-005
   rarity: ProduceItemRarity_N
@@ -16562,6 +16740,74 @@
   isUpgraded: false
   effectGroupIds:
   - effect_group-visible-exam_block-000
+  - effect_group-visible-exam_review-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_02-0-002-0-004
+  assetId: img_general_pitem_0-002
+  rarity: ProduceItemRarity_N
+  name: 初星ライト（オレンジ）
+  planType: ProducePlanType_Plan2
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-0-002-0-004-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_02-0-002-0-004-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 好印象
+    targetId: Label_ExamReview_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamReview
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+10</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
   - effect_group-visible-exam_review-000
   isChallenge: false
   viewStartTime: "0"
@@ -30378,6 +30624,562 @@
   skills:
   - produceTriggerId: ""
     produceItemEffectId: p_item_effect-exam_status_enchant-inf-09-enchant-pitem_tower_001-exam_card_play_aggressive-2-stage_020-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: アクティブスキルカード
+    targetId: Label_ActiveSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_ActiveSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 使用時、直前に
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を使用していた場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: ターン追加
+    targetId: Label_ExamExtraTurn
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamExtraTurn
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>+1</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内9回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_extra_turn-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_005
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-01-enchant-pitem_tower_001-exam_concentration-1-stage_005-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_tower_001-exam_concentration-1-stage_005-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン開始時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 温存
+    targetId: Label_ExamPreservation_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamPreservation
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: になった回数が4以上の場合、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>100%</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内1回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_value_multiple-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_010
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_010-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_010-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: スキルカードが除外に移動した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 体力回復
+    targetId: Label_ExamStaminaRecoverFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaRecoverFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>5</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-stamina_recover_fix-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_015
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-05-enchant-pitem_tower_001-exam_concentration-1-stage_015-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_tower_001-exam_concentration-1-stage_015-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 効果のスキルカード使用時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: パラメータ上昇量増加
+    targetId: Label_ExamLessonValueMultiple
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>20%</nobr>（<nobr>20ターン</nobr>）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |
+
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力追加
+    targetId: Label_ExamStaminaConsumptionAddFix
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAddFix
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      <nobr>2</nobr>
+      （
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 内5回）
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_value_multiple-000
+  - effect_group-visible-exam_stamina_consumption_add_fix-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_016
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_016-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_016-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescriptionName
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 中に体力が減少した時、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 消費体力減少
+    targetId: Label_ExamStaminaConsumptionDown
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2ターン</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_stamina_consumption_down-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_017
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_017-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_017-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: アクティブスキルカード
+    targetId: Label_ActiveSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_ActiveSkill
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 使用時、山札の
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceCardCategory
+    text: トラブルカード
+    targetId: Label_TroubleSkillCard
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Trouble
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: 2枚を除外に移動
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds: []
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_018
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_018-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_018-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_PlainText
+    text: ターン内にスキルカードを2回使用するごとに、
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_ProduceExamEffectType
+    text: 低下状態無効
+    targetId: Label_ExamAntiDebuff
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_ExamAntiDebuff
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: <nobr>2回</nobr>
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_anti_debuff-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_019
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_019-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-enchant-pitem_tower_001-exam_concentration-1-stage_019-enc01
+  libraryHidden: true
+  descriptions:
+  - type: ProduceDescriptionType_ProduceDescription
+    text: 指針
+    targetId: Label_Stance
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: を変更するたび、次のターン、スキルカードを引く
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      <nobr>2ターン</nobr>後、スキルカードを引く
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  - type: ProduceDescriptionType_PlainText
+    text: |-
+      
+      <nobr>3ターン</nobr>後、スキルカードを引く
+    targetId: ""
+    targetLevel: 0
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    isOnlyOutGame: false
+    changeColor: false
+  evaluation: 0
+  isExamEffect: true
+  originIdolCardId: ""
+  originSupportCardId: ""
+  isUpgraded: false
+  effectGroupIds:
+  - effect_group-visible-exam_effect_timer-000
+  - effect_group-visible-exam_card_draw-000
+  isChallenge: false
+  viewStartTime: "0"
+  isLimited: false
+  order: "1"
+- id: pitem_tower_001-exam_concentration-1-stage_020
+  assetId: img_general_pitem_0-003
+  rarity: ProduceItemRarity_N
+  name: 初星フラッグ（青）
+  planType: ProducePlanType_Plan3
+  fireLimit: 0
+  produceTriggerId: ""
+  produceTriggerIds: []
+  produceItemEffectIds:
+  - p_item_effect-exam_status_enchant-inf-09-enchant-pitem_tower_001-exam_concentration-1-stage_020-enc01
+  skills:
+  - produceTriggerId: ""
+    produceItemEffectId: p_item_effect-exam_status_enchant-inf-09-enchant-pitem_tower_001-exam_concentration-1-stage_020-enc01
   libraryHidden: true
   descriptions:
   - type: ProduceDescriptionType_ProduceCardCategory
