@@ -16,3 +16,19 @@
   isForceLiveCommon: false
   disableForceLiveCommonEndingLiveType: ProduceLiveType_Unknown
   order: 1
+- id: produce_group-002
+  name: NEXT IDOL AUDITION
+  type: ProduceType_NextIdolAudition
+  produceIds:
+  - produce-004
+  assetId: produce-group-2
+  viewConditionSetId: ""
+  unlockConditionSetId: cd-nia_produce-unlock_open
+  failedProduceMemoryAssetId: img_general_memory_all-produce-failure-002
+  description: |-
+    『NEXT IDOL AUDITION』──通称『N.I.A』
+    次代を担うアイドルの頂点を決める戦いが開幕！
+    ファンを集めて、今、栄光のステージへ──
+  isForceLiveCommon: true
+  disableForceLiveCommonEndingLiveType: ProduceLiveType_TrueEnd
+  order: 2

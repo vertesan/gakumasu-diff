@@ -258,6 +258,13 @@
   produceGroupId: ""
   order: 35
 - characterId: amao
+  assetId: sud_vo_system_amao_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: amao
   assetId: sud_vo_system_amao_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -271,6 +278,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: amao
+  assetId: sud_vo_system_amao_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: amao
   assetId: sud_vo_system_amao_home_transition-14
   title: ホーム（春）①
@@ -374,190 +388,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-amao-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-amao-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-amao-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-amao
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-amao
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-amao
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-amao
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: amao
   assetId: sud_vo_system_amao_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-amao
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-amao
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-amao
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-amao
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-amao
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-amao
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-amao
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: amao
   assetId: sud_vo_system_amao_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: amao
+  assetId: sud_vo_system_amao_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-amao
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: amao
   assetId: sud_vo_system_amao_work_result-01
   title: お仕事成功
@@ -846,6 +972,13 @@
   produceGroupId: ""
   order: 35
 - characterId: fktn
+  assetId: sud_vo_system_fktn_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: fktn
   assetId: sud_vo_system_fktn_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -859,6 +992,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: fktn
+  assetId: sud_vo_system_fktn_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: fktn
   assetId: sud_vo_system_fktn_home_transition-14
   title: ホーム（春）①
@@ -962,190 +1102,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-fktn-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-fktn
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-fktn
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-fktn
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-fktn
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-fktn
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-fktn
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-fktn
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-fktn
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-fktn
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-fktn
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-fktn
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: fktn
   assetId: sud_vo_system_fktn_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: fktn
+  assetId: sud_vo_system_fktn_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-fktn
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: fktn
   assetId: sud_vo_system_fktn_tutorial_idol-select-01
   title: チュートリアル
@@ -1441,6 +1693,13 @@
   produceGroupId: ""
   order: 35
 - characterId: hrnm
+  assetId: sud_vo_system_hrnm_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: hrnm
   assetId: sud_vo_system_hrnm_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -1454,6 +1713,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_home_transition-14
   title: ホーム（春）①
@@ -1557,190 +1823,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hrnm-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hrnm
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hrnm
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hrnm
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hrnm
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hrnm
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hrnm
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hrnm
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hrnm
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hrnm
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hrnm
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hrnm
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: hrnm
+  assetId: sud_vo_system_hrnm_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hrnm
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: hrnm
   assetId: sud_vo_system_hrnm_work_result-01
   title: お仕事成功
@@ -2029,6 +2407,13 @@
   produceGroupId: ""
   order: 35
 - characterId: hski
+  assetId: sud_vo_system_hski_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: hski
   assetId: sud_vo_system_hski_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -2042,6 +2427,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: hski
+  assetId: sud_vo_system_hski_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: hski
   assetId: sud_vo_system_hski_home_transition-14
   title: ホーム（春）①
@@ -2145,190 +2537,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hski-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hski-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hski-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hski
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hski
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hski
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hski
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: hski
   assetId: sud_vo_system_hski_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hski
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hski
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hski
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hski
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hski
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hski
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hski
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: hski
   assetId: sud_vo_system_hski_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: hski
+  assetId: sud_vo_system_hski_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hski
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: hski
   assetId: sud_vo_system_hski_tutorial_idol-select-01
   title: チュートリアル
@@ -2603,6 +3107,13 @@
   produceGroupId: ""
   order: 35
 - characterId: hume
+  assetId: sud_vo_system_hume_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: hume
   assetId: sud_vo_system_hume_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -2616,6 +3127,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: hume
+  assetId: sud_vo_system_hume_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: hume
   assetId: sud_vo_system_hume_home_transition-17
   title: ホーム（夏）①
@@ -2698,190 +3216,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-hume-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hume
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hume
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-hume
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hume
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: hume
   assetId: sud_vo_system_hume_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-hume
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hume
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hume
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-hume
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hume
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hume
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-hume
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: hume
   assetId: sud_vo_system_hume_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: hume
+  assetId: sud_vo_system_hume_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-hume
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: hume
   assetId: sud_vo_system_hume_work_result-01
   title: お仕事成功
@@ -3170,6 +3800,13 @@
   produceGroupId: ""
   order: 35
 - characterId: jsna
+  assetId: sud_vo_system_jsna_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: jsna
   assetId: sud_vo_system_jsna_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -3183,6 +3820,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: jsna
+  assetId: sud_vo_system_jsna_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: jsna
   assetId: sud_vo_system_jsna_home_transition-14
   title: ホーム（春）①
@@ -3286,190 +3930,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-jsna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-jsna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-jsna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-jsna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-jsna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-jsna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-jsna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-jsna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-jsna
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-jsna
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-jsna
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-jsna
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-jsna
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-jsna
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: jsna
   assetId: sud_vo_system_jsna_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: jsna
+  assetId: sud_vo_system_jsna_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-jsna
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: jsna
   assetId: sud_vo_system_jsna_work_result-01
   title: お仕事成功
@@ -3758,6 +4514,13 @@
   produceGroupId: ""
   order: 35
 - characterId: kcna
+  assetId: sud_vo_system_kcna_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: kcna
   assetId: sud_vo_system_kcna_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -3771,6 +4534,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: kcna
+  assetId: sud_vo_system_kcna_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: kcna
   assetId: sud_vo_system_kcna_home_transition-14
   title: ホーム（春）①
@@ -3874,190 +4644,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kcna-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kcna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kcna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kcna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-kcna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-kcna
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kcna
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kcna
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kcna
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kcna
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kcna
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kcna
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: kcna
   assetId: sud_vo_system_kcna_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: kcna
+  assetId: sud_vo_system_kcna_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kcna
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: kcna
   assetId: sud_vo_system_kcna_work_result-01
   title: お仕事成功
@@ -4346,6 +5228,13 @@
   produceGroupId: ""
   order: 35
 - characterId: kllj
+  assetId: sud_vo_system_kllj_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: kllj
   assetId: sud_vo_system_kllj_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -4359,6 +5248,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: kllj
+  assetId: sud_vo_system_kllj_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: kllj
   assetId: sud_vo_system_kllj_home_transition-14
   title: ホーム（春）①
@@ -4462,190 +5358,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-kllj-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kllj
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kllj
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-kllj
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-kllj
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-kllj
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kllj
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kllj
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-kllj
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kllj
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kllj
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-kllj
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: kllj
   assetId: sud_vo_system_kllj_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: kllj
+  assetId: sud_vo_system_kllj_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-kllj
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: kllj
   assetId: sud_vo_system_kllj_work_result-01
   title: お仕事成功
@@ -4934,6 +5942,13 @@
   produceGroupId: ""
   order: 35
 - characterId: shro
+  assetId: sud_vo_system_shro_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: shro
   assetId: sud_vo_system_shro_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -4947,6 +5962,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: shro
+  assetId: sud_vo_system_shro_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: shro
   assetId: sud_vo_system_shro_home_transition-14
   title: ホーム（春）①
@@ -5050,190 +6072,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-shro-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-shro-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-shro-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-shro
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-shro
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-shro
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-shro
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: shro
   assetId: sud_vo_system_shro_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-shro
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-shro
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-shro
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-shro
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-shro
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-shro
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-shro
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: shro
   assetId: sud_vo_system_shro_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: shro
+  assetId: sud_vo_system_shro_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-shro
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: shro
   assetId: sud_vo_system_shro_work_result-01
   title: お仕事成功
@@ -5522,6 +6656,13 @@
   produceGroupId: ""
   order: 35
 - characterId: ssmk
+  assetId: sud_vo_system_ssmk_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: ssmk
   assetId: sud_vo_system_ssmk_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -5535,6 +6676,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_home_transition-14
   title: ホーム（春）①
@@ -5638,190 +6786,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ssmk-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ssmk
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ssmk
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ssmk
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-ssmk
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-ssmk
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ssmk
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ssmk
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ssmk
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ssmk
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ssmk
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ssmk
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: ssmk
+  assetId: sud_vo_system_ssmk_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ssmk
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: ssmk
   assetId: sud_vo_system_ssmk_work_result-01
   title: お仕事成功
@@ -6110,6 +7370,13 @@
   produceGroupId: ""
   order: 35
 - characterId: ttmr
+  assetId: sud_vo_system_ttmr_home_transition-09
+  title: ホーム（2025お正月）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_25_0101_0000
+  produceGroupId: ""
+  order: 54
+- characterId: ttmr
   assetId: sud_vo_system_ttmr_home_transition-11
   title: ホーム（2024ハロウィン）
   type: VoicePlayScreenType_Home
@@ -6123,6 +7390,13 @@
   conditionSetId: cd_time_24_1224_0000
   produceGroupId: ""
   order: 52
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_home_transition-13
+  title: ホーム（2024大晦日）
+  type: VoicePlayScreenType_Home
+  conditionSetId: cd_time_24_1231_0000
+  produceGroupId: ""
+  order: 53
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_home_transition-14
   title: ホーム（春）①
@@ -6226,190 +7500,302 @@
   title: プロデュース結果（True End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 45
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-02
   title: プロデュース結果（True End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 46
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-03
   title: プロデュース結果（True End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-achievement_clear-achieve-p_idol-ttmr-000
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 47
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-04
   title: プロデュース結果（A End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ttmr
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 40
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-05
   title: プロデュース結果（A End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ttmr
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 41
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-06
   title: プロデュース結果（A End）③
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-a-voice-ttmr
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 42
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-07
   title: プロデュース結果（B〜C End）①
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-ttmr
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 43
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_result-08
   title: プロデュース結果（B〜C End）②
   type: VoicePlayScreenType_Produce
   conditionSetId: cd-release-ending-normal-c-voice-ttmr
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 44
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-10
+  title: プロデュース結果（True End）①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ttmr
+  produceGroupId: produce_group-002
+  order: 49
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-11
+  title: プロデュース結果（True End）②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ttmr
+  produceGroupId: produce_group-002
+  order: 50
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-12
+  title: プロデュース結果（True End）③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-trueend-ttmr
+  produceGroupId: produce_group-002
+  order: 51
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-13
+  title: プロデュース結果①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ttmr
+  produceGroupId: produce_group-002
+  order: 52
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-14
+  title: プロデュース結果②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ttmr
+  produceGroupId: produce_group-002
+  order: 53
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-15
+  title: プロデュース結果③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-a-ttmr
+  produceGroupId: produce_group-002
+  order: 54
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_result-16
+  title: プロデュース結果（不合格）
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 55
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-01
   title: 活動拠点①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 1
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-02
   title: 活動拠点②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 2
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-03
   title: 活動拠点③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 3
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-04
   title: 活動拠点④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 4
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-05
   title: 活動拠点⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 5
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-06
   title: 活動拠点⑥
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 6
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-07
   title: 屋上①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 14
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-08
   title: 屋上②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 15
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-09
   title: 屋上③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 16
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-10
   title: 中庭①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 17
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-11
   title: 中庭②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 18
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-12
   title: 中庭③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 19
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-13
   title: アイドル科教室①
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 9
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-14
   title: アイドル科教室②
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 10
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-15
   title: アイドル科教室③
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 11
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-16
   title: 活動拠点⑦
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 7
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-17
   title: 活動拠点⑧
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 8
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-18
   title: アイドル科教室④
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 12
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_produce_schedule-19
   title: アイドル科教室⑤
   type: VoicePlayScreenType_Produce
   conditionSetId: ""
-  produceGroupId: ""
+  produceGroupId: produce_group-001
   order: 13
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-20
+  title: 活動拠点①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 40
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-21
+  title: 活動拠点②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 41
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-22
+  title: 活動拠点③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 42
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-23
+  title: 活動拠点④
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 43
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-24
+  title: 活動拠点⑤
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 44
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-25
+  title: 活動拠点⑥
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 45
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-26
+  title: 屋上①
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 46
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-27
+  title: 屋上②
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 47
+- characterId: ttmr
+  assetId: sud_vo_system_ttmr_produce_schedule-28
+  title: 屋上③
+  type: VoicePlayScreenType_Produce
+  conditionSetId: cd-produce_group-002-first-ttmr
+  produceGroupId: produce_group-002
+  order: 48
 - characterId: ttmr
   assetId: sud_vo_system_ttmr_tutorial_idol-select-01
   title: チュートリアル

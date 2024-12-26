@@ -1,7 +1,15 @@
+- id: achievement.cell.true_end.nia_condition
+  description: " 最終オーディション\\n「FINALE」1位"
+- id: achievement.cell.true_end.nia_toast_produce_condition
+  description: "P課題35を達成し\\n親愛度Lv10でプロデュース「N.I.A」解放"
 - id: achievement.true_end_condition.description
   description: "以下のアチーブメントを獲得し、\\nプロデュース：定期公演『初』の最終試験で１位になる"
 - id: achievement.true_end.condition
   description: 3つのTrue End条件アチーブメントを獲得しプロデュース：定期公演『初』の最終試験で1位になる
+- id: achievement.true_end.lesson_bonus
+  description: パラメータボーナス
+- id: achievement.true_end.nia_condition
+  description: 最終オーディションで「FINALE」オーディションを選択し1位を獲得する
 - id: angya.top.user_status.exchange
   description: 交換所
 - id: card.idol_card.high_score
@@ -14,8 +22,16 @@
   description: プロデュースアイドル変更
 - id: card.idol_card.skin_new_confirm_warning
   description: "※ライブ楽曲が変更になります\\n※アナザーver.のプロデュースアイドルをプロデュースする場合、プロデュースアイドルコミュは発生しません"
+- id: card.sort.produce_dance_growth_rate_permil
+  description: "パラメータボーナス\\nダンス"
+- id: card.sort.produce_visual_growth_rate_permil
+  description: "パラメータボーナス\\nビジュアル"
+- id: card.sort.produce_vocal_growth_rate_permil
+  description: "パラメータボーナス\\nボーカル"
 - id: card.sort.story_event_point_bonus
   description: イベントボーナス
+- id: card.upgrade_status_list.parameter
+  description: パラメータ・パラメータボーナスアップ
 - id: card.upgrade_status_list.produce_card
   description: 固有スキルカード強化
 - id: common.live_battle_stage.mid.name
@@ -26,6 +42,16 @@
   description: 所持している「{0}」が不足しています
 - id: faq_confirm_sheet.description
   description: "FAQページを開きますか？\\n※Webブラウザが立ち上がります"
+- id: home.gasha.detail.idol.extra_text.costume_body
+  description: 衣装・
+- id: home.gasha.detail.idol.extra_text.costume_head
+  description: 髪型・
+- id: home.gasha.detail.idol.extra_text.music
+  description: ""
+- id: home.gasha.detail.idol.extra_text.separator
+  description: ""
+- id: home.gasha.detail.idol.extra_text.suffix
+  description: 楽曲付き!
 - id: home.gasha.draw_jewel_confirm_sheet.description.multiple_button
   description: "{0}を<color=#u:Negative>{1:N0}</color>個消費して\\n{2}を引きますか？"
 - id: home.gasha.draw_jewel_confirm_sheet.select_pickup.description
@@ -51,7 +77,7 @@
 - id: meishi.edit_custom.sub_menu.character.sd
   description: ミニアイドル
 - id: memory.detail.produce.card.phase.audition_mid
-  description: 中間試験後に獲得
+  description: 中間試験/1次オーディション後に獲得
 - id: memory.detail.tab.contest
   description: ステージ
 - id: memory.detail.tab.exam_battle
@@ -86,8 +112,12 @@
   description: " {0}を{1}にチェンジして強化しました"
 - id: produce.change.message.result
   description: " {0}を{1}にチェンジしました"
+- id: produce.common.lesson_bonus
+  description: パラメータボーナス
 - id: produce.confirm_reroll_sheet.description
   description: "獲得可能なスキルカードの候補を再抽選しますか？\\n<color=#u:Negative>※プロデュース中の再抽選可能回数には制限があります</color>\\n<color=#u:Negative>※レアリティも再抽選になります</color>"
+- id: produce.drink.cannot_use.noneproduceeffect
+  description: レッスン・試験・オーディション以外では使用できません
 - id: produce.item.card.empty
   description: スキルカードが選択されていません
 - id: produce.item.item.empty
@@ -106,6 +136,10 @@
   description: メモリーが所持上限に達しているためプロデュースを開始することができません
 - id: produce.multi_device.confirm.description
   description: "プロデュース中に異なる端末でログインされる場合や、端末のキャッシュクリアを行った場合、\\nプレイ中のプロデュースデータは破棄されます。\\nこのままログインしてよろしいですか。"
+- id: produce.nia.audition_name.finalhard
+  description: QUARTET
+- id: produce.nia.audition.finale_condition
+  description: 「FINALE」オーディション解放条件
 - id: produce.result.photo.delete_save.toast
   description: "{0}枚削除し、新しいフォトを保存しました"
 - id: produce.result.photo.re_create.button
@@ -130,6 +164,24 @@
   description: 再生成前
 - id: produce.result.photo.re_create.select_status_reroll
   description: 再生成{0}回目
+- id: produce.schedule.step_business_description
+  description: "ファン投票数を獲得します。\\n営業先により様々な効果が発生します。"
+- id: produce.schedule.step_customize_description
+  description: "Pポイントを消費し、強化済みの\\nスキルカードをカスタマイズできます。"
+- id: produce.schedule.step_fan_present_description
+  description: "Pポイントやアイテムを獲得できます。ファン\\n投票数ボーナスが発生することがあります。"
+- id: produce.schedule.step_self_dance_description
+  description: "体力を消費して\\nダンスが上昇します。"
+- id: produce.schedule.step_self_dance_sp_description
+  description: "ダンスが上昇します。\\n体力消費量も多いですが報酬も豪華です。"
+- id: produce.schedule.step_self_visual_description
+  description: "体力を消費して\\nビジュアルが上昇します。"
+- id: produce.schedule.step_self_visual_sp_description
+  description: "ビジュアルが上昇します。\\n体力消費量も多いですが報酬も豪華です。"
+- id: produce.schedule.step_self_vocal_description
+  description: "体力を消費して\\nボーカルが上昇します。"
+- id: produce.schedule.step_self_vocal_sp_description
+  description: "ボーカルが上昇します。\\n体力消費量も多いですが報酬も豪華です。"
 - id: produce.shop.end_warning.description
   description: "まだ交換可能です。\\n相談を終了しますか？"
 - id: produce.support_event_effect
@@ -148,6 +200,10 @@
   description: 他のユニット枠に編成中のアイドルのメモリーを選択しています。このまま編成すると以下のステージに設定されている選択中のメモリーがユニットから外れますがよろしいですか？
 - id: setting.live_quality_sheet.description
   description: 品質を選択してください
+- id: setting.produce.exam_effect_warning
+  description: スキルカード/Pドリンク使用確認
+- id: setting.produce.exam_effect_warning.description
+  description: "スキルカード/Pドリンクの効果が発動しないときに\\n確認メッセージを表示します。"
 - id: shop.label.term_suffix
   description: 期間
 - id: story_event.box_gasha.draw.sheet.description

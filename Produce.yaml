@@ -44,7 +44,7 @@
   maxRefreshCount: 0
   challengeViewConditionSetId: cd-master_produce-view_open
   viewConditionSetId: cd-master_produce-view_open
-  unlockConditionSetId: cd-master_produce-view_open
+  unlockConditionSetId: cd-master_produce-unlock_open
   examSettingId: p_exam_setting-1
   produceSettingId: p_setting-3
   idolCardParameterGrowthLimit: 1800
@@ -58,3 +58,23 @@
   gradientColor1: FF1C7E
   gradientColor2: FFC436
   order: 4
+- id: produce-004
+  name: N.I.A
+  baseStepLevel: 1
+  maxRefreshCount: 4
+  challengeViewConditionSetId: ""
+  viewConditionSetId: ""
+  unlockConditionSetId: cd-nia_produce-unlock_open
+  examSettingId: p_exam_setting-1
+  produceSettingId: p_setting-4
+  idolCardParameterGrowthLimit: 2000
+  maxProduceEventCharacterGrowthNumber: 0
+  steps: 27
+  actionPointQuantity: 20
+  assetId: produce-nia
+  produceNavigationNormalId: p_navi-produce_group-002-normal
+  produceNavigationAuditionId: p_navi-produce_group-002-audition
+  produceNavigationLoseId: p_navi-produce_group-002-lose
+  gradientColor1: 3814C7
+  gradientColor2: C9ACFF
+  order: 1

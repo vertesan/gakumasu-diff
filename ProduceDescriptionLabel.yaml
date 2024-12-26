@@ -9032,7 +9032,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: レッスン・自主レッスン・NIAオーディションによるパラメータ上昇を増加させる
+    text: レッスン・自主レッスン・オーディションによるパラメータ上昇を増加させる
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -9832,6 +9832,32 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     text: スキルカードをコピーし、プロデュース終了までデッキに追加
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ProduceCardExclude
+  name: スキルカード除去
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 除去したスキルカードは、プロデュース終了まで登場しない
     targetId: ""
     targetLevel: 0
     effectValue1: 0

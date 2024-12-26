@@ -1734,6 +1734,72 @@
   startTime: "1732996800000"
   endTime: "0"
   order: 1400
+- id: shop_pack_item-newyear_2500_01
+  shopId: shop_pack
+  name: 福袋パック2025銀
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0044"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 2500
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-ssr-fix_1
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 500000
+  viewConditionSetId: cd_time_25_010100_020111
+  unlockConditionSetId: cd_time_25_010100_020111
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1735657200000"
+  endTime: "1738375199000"
+  order: 2
+- id: shop_pack_item-newyear_5000_01
+  shopId: shop_pack
+  name: 福袋パック2025金
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0043"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 5000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-common-support_card-limit-ssr
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-memory-inherit
+    quantity: 2
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 100000
+  viewConditionSetId: cd_time_25_010100_020111
+  unlockConditionSetId: cd_time_25_010100_020111
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1735657200000"
+  endTime: "1738375199000"
+  order: 1
 - id: shop_pack_item-onsen-costume-amao
   shopId: shop_pack
   name: 温泉用水着（有村麻央）
@@ -2212,4 +2278,31 @@
   consumptionResourceQuantity: 0
   startTime: "1732996800000"
   endTime: "1735675199000"
+  order: 100000
+- id: shop_pass_item-0009
+  shopId: shop_pass
+  name: プレミアムミッションパス 2025年1月
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: 0009
+  shopProductId: pass_0001
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards:
+  - resourceType: ResourceType_MissionPassPremiumPass
+    resourceId: mission_pass-2025-01
+    quantity: 1
+  viewConditionSetId: cd_time_25_0101_0201
+  unlockConditionSetId: cd_time_25_0101_0201
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1735675200000"
+  endTime: "1738353599000"
   order: 100000
