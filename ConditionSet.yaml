@@ -6466,6 +6466,30 @@
   beforeTime: "1735675200000"
   afterTime: "1751335199000"
   description: ""
+- id: cd_time_25_0101-0000_0122-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1735657200000"
+  afterTime: "1737511199000"
+  description: ""
+- id: cd_time_25_0101-0000_0201-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1735657200000"
+  afterTime: "1738375199000"
+  description: ""
 - id: cd_time_25_010100_020111
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15746,6 +15770,54 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase_shop_jewel_item-0016-1st
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0016
+  minMaxType: ConditionMinMaxType_Max
+  min: "0"
+  max: "1"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_jewel_item-0017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0017
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_jewel_item-0017-1st
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0017
+  minMaxType: ConditionMinMaxType_Max
+  min: "0"
+  max: "1"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_jewel_item-0017-all
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0017
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase_shop_pack_childsmock-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19994,6 +20066,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-view_home-banner-shop_jewel_item-0016
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1735657200000"
+  afterTime: "1738375199000"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0016
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_jewel_item-0016-1st
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0016
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_jewel_item-0017-all
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view_p_birthday-2024
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -20179,6 +20287,30 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase_shop_jewel_item-0014
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_shop_jewel_item-0017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_jewel_item-0017-1st
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_shop_jewel_item-0017
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase_shop_jewel_item-0017
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
