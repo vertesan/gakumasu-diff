@@ -6826,6 +6826,18 @@
   beforeTime: "1736992800000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0116-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1736992800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_0301
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7234,6 +7246,18 @@
   beforeTime: "1733709600000"
   afterTime: "0"
   description: ""
+- id: cd_time-view_open-i_card-kllj-3-006
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1736992800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time-view_open-i_card-shro-1-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7292,6 +7316,18 @@
   min: "0"
   max: "0"
   beforeTime: "1734487200000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-ssmk-3-007
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1736992800000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-ttmr-1-001
@@ -8289,6 +8325,18 @@
   max: "0"
   beforeTime: "1989586800000"
   afterTime: "1989673199000"
+  description: ""
+- id: cd-birthday-amao-2025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1737126000000"
+  afterTime: "0"
   description: ""
 - id: cd-birthday-fktn
   number: 1
@@ -21148,7 +21196,7 @@
   description: ""
 - id: view-commu-list-dearness-story-amao-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-amao-10-1
   resourceId2: ""
@@ -21158,9 +21206,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-amao-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-fktn-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-fktn-10-1
   resourceId2: ""
@@ -21170,9 +21230,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-fktn-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-hrnm-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-hrnm-10-1
   resourceId2: ""
@@ -21182,9 +21254,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-hrnm-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-hski-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-hski-10-1
   resourceId2: ""
@@ -21194,9 +21278,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-hski-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-hume-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-hume-10-1
   resourceId2: ""
@@ -21206,9 +21302,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-hume-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-kcna-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-kcna-10-1
   resourceId2: ""
@@ -21218,9 +21326,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-kcna-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-kllj-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-kllj-10-1
   resourceId2: ""
@@ -21230,9 +21350,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-kllj-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-shro-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-shro-10-1
   resourceId2: ""
@@ -21242,9 +21374,21 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-shro-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-ssmk-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-ssmk-10-1
   resourceId2: ""
@@ -21254,14 +21398,38 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-ssmk-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-ttmr-10-1
   number: 1
-  conditionOperatorType: ConditionOperatorType_And
+  conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: dearness-story-ttmr-10-1
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-ttmr-10-1
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "11"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
