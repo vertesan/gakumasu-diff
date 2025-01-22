@@ -15,7 +15,7 @@
   initialUserMeishiBaseAssetID: normal-001
   rosterIgnoreReportDearnessLevels:
   - 10
-  memoryLimitCount: 500
+  memoryLimitCount: 1000
   photoLimitCount: 100
   actionPointRecoveryMinutes: 15
   actionPointMaxValue: 100
@@ -104,6 +104,8 @@
   memoryReshootingValidateIdolCardTrueEndConditionSetID: cd_time_24_1226-1000
   gashaAnimationLogicSwitchConditionSetID: cd_time_24_1226-1000
   meishiEditCustomUpdateUnlockConditionSetID: cd_time_24_1226-1000
+  dmmGamesFaqURL: https://gakuen.idolmaster-official.jp/
+  dmmGamesInquiryURL: https://gakuen.idolmaster-official.jp/
   produceDailyMemoryRentalLimit: 3
   produceDailyFreeContinueCount: 1
   produceContinueItemID: item-produce_continue-1
@@ -133,6 +135,7 @@
   produceMemoryRerollCount: 1
   produceDeckNameLengthLimit: 14
   produceDescriptionProduceStepCategoryEnable: false
+  produceCardEffectCancelEnable: true
   gashaPickupStoryCampaignCharacterDearnessLevel: 3
   gashaAnimationReversalSsrPermil: 100
   gashaAnimationReversalPickUpProduceIdolSsrPermil: 50
@@ -173,3 +176,6 @@
   pushDailyMissionNotifyMinutes: 0
   pushDailyMissionDoNotNotifyNoLoginDay: 3
   pushNoLoginNotifyLatestIntervalHour: 48
+  pushPvpRateRemainingPlayCountNotifyHour: 19
+  pushPvpRateRemainingPlayCountNotifyMinutes: 30
+  pushPvpRateRemainingPlayCountDoNotNotifyNoLoginDay: 3
