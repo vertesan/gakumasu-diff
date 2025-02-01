@@ -2161,6 +2161,91 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 5
+- id: mission-box-gasha-event-005-mission_1
+  missionGroupId: mission-group-box-gasha-event-005
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-box-gasha-event-005-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-box-gasha-event-005-mission_2
+  missionGroupId: mission-group-box-gasha-event-005
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-box-gasha-event-005-mission_3
+  missionGroupId: mission-group-box-gasha-event-005
+  name: イベントボックスガシャを{threshold}回引こう
+  category: MissionCategory_Special
+  type: MissionType_IncrementEventCoinGashaDrawCount
+  targetIds1:
+  - box-gasha-event-005_box_01
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-box-gasha-event-005-mission_4
+  missionGroupId: mission-group-box-gasha-event-005
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-box-gasha-event-005-mission_5
+  missionGroupId: mission-group-box-gasha-event-005
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
 - id: mission-circle-battle-event-001-mission_1
   missionGroupId: mission-group-circle-battle-event-001
   name: "{threshold}日ログインしよう"
@@ -12290,6 +12375,57 @@
   viewConditionSetId: cd_time-view_open-i_card-hrnm-3-007
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-hrnm-3-008-01
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】姫崎 莉波のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-008
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hrnm-3-008-02
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】姫崎 莉波の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hrnm-3-008
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hrnm-3-008-03
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】姫崎 莉波のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-008
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-hski-3-001-01
   missionGroupId: ""
   name: 【Boom Boom Pow】花海 咲季のプロデュースで最終試験に合格
@@ -13359,6 +13495,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-shro-3-007
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-008-01
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】篠澤 広のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-008
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-008-02
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】篠澤 広の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-008
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-shro-3-008-03
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-008
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-ssmk-3-001-01

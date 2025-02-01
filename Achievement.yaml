@@ -592,6 +592,60 @@
   characterId: hrnm
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-hrnm-3-008-01
+  category: AchievementCategory_Idol
+  name: 受け取ってくれる？
+  description: 【ハッピーミルフィーユ】姫崎 莉波のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-008
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hrnm-3-008-02
+  category: AchievementCategory_Idol
+  name: ハッピーミルフィーユ
+  description: 【ハッピーミルフィーユ】姫崎 莉波の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hrnm-3-008
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hrnm-3-008-03
+  category: AchievementCategory_Idol
+  name: きみにあげますっ！
+  description: 【ハッピーミルフィーユ】姫崎 莉波のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hrnm-3-008
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-hrnm-3-008
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-hski-3-001-01
   category: AchievementCategory_Idol
   name: POW！
@@ -1719,6 +1773,60 @@
   - i_card-shro-3-007
   targetValue: 9
   viewConditionSetId: cd_time-view_open-i_card-shro-3-007
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-shro-3-008-01
+  category: AchievementCategory_Idol
+  name: がんばった、よ
+  description: 【ハッピーミルフィーユ】篠澤 広のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-008
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-shro-3-008-02
+  category: AchievementCategory_Idol
+  name: ハッピーミルフィーユ
+  description: 【ハッピーミルフィーユ】篠澤 広の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-008
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-shro-3-008-03
+  category: AchievementCategory_Idol
+  name: 本当に作りたいもの
+  description: 【ハッピーミルフィーユ】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-008
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-008
   unlockConditionSetId: ""
   masterAchievementInitialRank: 0
   isTrueEndAchievement: false
