@@ -290,6 +290,11 @@
   - story-main-01-04-03
   - story-main-01-04-04
   - story-main-01-04-05
+  - story-main-01-04-06
+  - story-main-01-04-07
+  - story-main-01-04-08
+  - story-main-01-04-09
+  - story-main-01-04-10
   storyEventId: ""
   order: 1
 - id: main_story_group-01-04_1
@@ -310,6 +315,25 @@
   - story-main-01-04-04
   - story-main-01-04-05
   storyEventId: main-story-event-006
+  order: 2
+- id: main_story_group-01-04_2
+  storyType: StoryType_Main
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  title: ""
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: cd_main-story-event-007_story-release-list
+  characterId: ""
+  dearnessLevelMin: 0
+  dearnessLevelMax: 0
+  storyIds:
+  - story-main-01-04-06
+  - story-main-01-04-07
+  - story-main-01-04-08
+  - story-main-01-04-09
+  - story-main-01-04-10
+  storyEventId: main-story-event-007
   order: 2
 - id: story_dearness_amao_step-01
   storyType: StoryType_DearnessStory
@@ -706,13 +730,13 @@
   storyEventId: story-event-002
   order: 4
 - id: story_gvg_group-01-01
-  storyType: StoryType_StoryEvent
+  storyType: StoryType_GvgRaid
   storyEventType: StoryEventType_Unknown
   isCampaign: false
-  title: ""
+  title: "#アニメイトを盛り上げ隊"
   headerAssetId: img_general_event_circle-battle-event_circle-battle-event-001-header
   storyThumbnailAssetId: img_general_event_circle-battle-event_circle-battle-event-001-story-banner
-  viewConditionSetId: cd-story_view_story_event_group-08-01
+  viewConditionSetId: cd-story_view_story_event_group-2025-0205-1100
   characterId: ""
   dearnessLevelMin: 0
   dearnessLevelMax: 0
