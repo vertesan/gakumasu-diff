@@ -1270,18 +1270,6 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
-- id: cd_gasha_have_ticket_ssr-fix_2
-  number: 1
-  conditionOperatorType: ConditionOperatorType_And
-  conditionType: ConditionType_ItemCount
-  resourceId1: item-gashaticket-ssr-fix_2
-  resourceId2: ""
-  minMaxType: ConditionMinMaxType_Min
-  min: "1"
-  max: "0"
-  beforeTime: "0"
-  afterTime: "0"
-  description: ""
 - id: cd_gasha_have_ticket_ssr-idol-fix_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -17402,18 +17390,6 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
-- id: cd-purchase-shop_pack_item-0045
-  number: 1
-  conditionOperatorType: ConditionOperatorType_And
-  conditionType: ConditionType_ShopItemPurchase
-  resourceId1: ""
-  resourceId2: shop_pack_item-first-live_004
-  minMaxType: ConditionMinMaxType_Min
-  min: "1"
-  max: "0"
-  beforeTime: "0"
-  afterTime: "0"
-  description: ""
 - id: cd-purchase-shop_pack_jsna-0001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19309,18 +19285,6 @@
   max: "0"
   beforeTime: "1728892800000"
   afterTime: "1730426399000"
-  description: ""
-- id: cd-shop_pack_item-item-first-live_004
-  number: 1
-  conditionOperatorType: ConditionOperatorType_And
-  conditionType: ConditionType_TimeTerm
-  resourceId1: ""
-  resourceId2: ""
-  minMaxType: ConditionMinMaxType_Unknown
-  min: "0"
-  max: "0"
-  beforeTime: "1739001600000"
-  afterTime: "1740794399000"
   description: ""
 - id: cd-story_read_event-001-001
   number: 1
@@ -21535,30 +21499,6 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase-shop_pack_item-0023
-  resourceId2: ""
-  minMaxType: ConditionMinMaxType_Unknown
-  min: "0"
-  max: "0"
-  beforeTime: "0"
-  afterTime: "0"
-  description: ""
-- id: cd-view-shop_pack_item-0045
-  number: 1
-  conditionOperatorType: ConditionOperatorType_And
-  conditionType: ConditionType_TimeTerm
-  resourceId1: ""
-  resourceId2: ""
-  minMaxType: ConditionMinMaxType_Unknown
-  min: "0"
-  max: "0"
-  beforeTime: "1739001600000"
-  afterTime: "1740794399000"
-  description: ""
-- id: cd-view-shop_pack_item-0045
-  number: 2
-  conditionOperatorType: ConditionOperatorType_And
-  conditionType: ConditionType_NegativeSet
-  resourceId1: cd-purchase-shop_pack_item-0045
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
