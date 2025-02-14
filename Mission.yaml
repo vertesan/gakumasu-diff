@@ -12260,7 +12260,7 @@
   order: 5
 - id: panel_mission-event-niv-mission_6
   missionGroupId: panel_mission-event-niv-group_1
-  name: True Endを{threshold}人みよう
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_Special
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
@@ -13494,6 +13494,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-jsna-3-002
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-003-01
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】十王 星南のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-003
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-003
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-003-02
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-003
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-003
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-003-03
+  missionGroupId: ""
+  name: 【ハッピーミルフィーユ】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-003
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-003
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-kcna-3-001-01
@@ -15340,7 +15391,7 @@
   order: 0
 - id: achieve-p_common-024
   missionGroupId: ""
-  name: True Endを{threshold}人達成
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_Achievement
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
@@ -21628,7 +21679,7 @@
   order: 0
 - id: "main_task_group-02-01#17"
   missionGroupId: ""
-  name: True Endを{threshold}人みよう
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_MainTask
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
@@ -21805,7 +21856,7 @@
   order: 0
 - id: "main_task_group-02-01#28"
   missionGroupId: ""
-  name: True Endを{threshold}人みよう
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_MainTask
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
@@ -22565,7 +22616,7 @@
   order: 0
 - id: "main_task_group-02-01#73"
   missionGroupId: ""
-  name: True Endを{threshold}人みよう
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_MainTask
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
@@ -22992,7 +23043,7 @@
   order: 0
 - id: "main_task_group-02-01#99"
   missionGroupId: ""
-  name: True Endを{threshold}人みよう
+  name: TrueEndアチーブメントを{threshold}個達成
   category: MissionCategory_MainTask
   type: MissionType_AbsoluteProduceCharacterEnding
   targetIds1: []
