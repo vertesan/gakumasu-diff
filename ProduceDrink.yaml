@@ -1396,6 +1396,39 @@
   unlockProducerLevel: 15
   effectGroupIds: []
   order: "300010000005"
+- id: pdrink_00-3-013
+  assetId: img_general_pdrink_3-013
+  name: 初星スペシャル青汁X
+  planType: ProducePlanType_Common
+  produceDrinkEffectIds:
+  - p_drink_effect-e_effect-exam_force_play_card_search-p_card_search-random-random_pool-p_random_pool-rush-ssr-upgrade_0-1-hand-random-1_1
+  rarity: ProduceDrinkRarity_Ssr
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: ランダムな強化済み固有スキルカード（SSR）を、コストを消費せず使用
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: e_effect-exam_force_play_card_search-p_card_search-random-random_pool-p_random_pool-rush-ssr-upgrade_1-1-hand-random-1_1
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  unlockProducerLevel: 0
+  effectGroupIds: []
+  order: "300010340013"
 - id: pdrink_01-1-002
   assetId: img_general_pdrink_1-002
   name: ビタミンドリンク
