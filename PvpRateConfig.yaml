@@ -526,6 +526,50 @@
     bgmAssetId: sud_bgm_produce_audition-04
     startTimelineAssetId: tln_cont_voda-001_start
     examTimelineAssetId: tln_cont_voda-001_battle
+- id: pvp_rate_config-20
+  description: S20
+  vocal: 401
+  dance: 178
+  visual: 312
+  examSettingId: p_exam_setting-1
+  produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_020
+  examBattleFirstRankBonusPermil: 200
+  pvpRateCommonProduceCardId: pvp_live_battle_1
+  winTimelineAssetId: tln_cont_vovi-001_totalresult_win
+  loseTimelineAssetId: tln_cont_vovi-001_totalresult_lose
+  startTimelineInitialTimePermil: 5033
+  topAssetId: contest-top-vovi
+  stages:
+  - stageType: PvpRateStageType__1
+    planType: ProducePlanType_Plan1
+    turn: 12
+    produceItemId: pitem_03-0-003-0-000
+    produceItemIds:
+    - pitem_03-0-003-0-000
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
+  - stageType: PvpRateStageType__2
+    planType: ProducePlanType_Plan3
+    turn: 10
+    produceItemId: pitem_01-0-001-0-005
+    produceItemIds:
+    - pitem_01-0-001-0-005
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
+  - stageType: PvpRateStageType__3
+    planType: ProducePlanType_Common
+    turn: 8
+    produceItemId: pitem_00-0-004-0-016
+    produceItemIds:
+    - pitem_00-0-004-0-016
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vovi-001_start
+    examTimelineAssetId: tln_cont_vovi-001_battle
 - id: pvp_rate_config-3
   description: S3
   vocal: 238
