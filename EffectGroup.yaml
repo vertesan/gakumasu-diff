@@ -2,371 +2,653 @@
   name: 体力減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_StaminaReduceFix
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaDamage
+  - ProduceExamEffectType_ExamStaminaReduce
+  - ProduceExamEffectType_ExamStaminaReduceFix
+  produceEffectTypes:
+  - ProduceEffectType_StaminaReduceFix
+  - ProduceEffectType_StaminaReduceMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210008
 - id: effect_group-visible-audition_npc_enhance-000
   name: ライバルのスコア増加
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_AuditionNpcEnhance
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_AuditionNpcEnhance
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210009
 - id: effect_group-visible-before_audition_refresh_stamina_down-000
   name: 試験前体力回復量減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_BeforeAuditionRefreshStaminaDown
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_BeforeAuditionRefreshStaminaDown
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200020
 - id: effect_group-visible-before_audition_refresh_stamina_up-000
   name: 試験前体力回復量増加
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_BeforeAuditionRefreshStaminaUp
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_BeforeAuditionRefreshStaminaUp
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210020
 - id: effect_group-visible-dance_addition-000
   name: ダンス上昇
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_DanceAddition
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_DanceAddition
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200002
 - id: effect_group-visible-event_activity_produce_point_down-000
   name: お出かけの消費Pポイント減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_EventActivityProducePointDown
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_EventActivityProducePointDown
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200019
 - id: effect_group-visible-event_activity_produce_point_up-000
   name: お出かけの消費Pポイント増加
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_EventActivityProducePointUp
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_EventActivityProducePointUp
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210019
 - id: effect_group-visible-event_school_stamina_down-000
   name: 授業の消費体力減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_EventSchoolStaminaDown
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_EventSchoolStaminaDown
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200018
 - id: effect_group-visible-event_school_stamina_up-000
   name: 授業の消費体力増加
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_EventSchoolStaminaUp
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_EventSchoolStaminaUp
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210018
 - id: effect_group-visible-exam_aggressive_reduce-000
   name: やる気減少
   examEffectType: ProduceExamEffectType_ExamAggressiveReduce
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamAggressiveReduce
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 121002
 - id: effect_group-visible-exam_anti_debuff-000
   name: 低下状態無効
   examEffectType: ProduceExamEffectType_ExamAntiDebuff
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamAntiDebuff
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100014
 - id: effect_group-visible-exam_block_restriction-000
   name: 元気増加無効
   examEffectType: ProduceExamEffectType_ExamBlockRestriction
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamBlockRestriction
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101015
 - id: effect_group-visible-exam_block-000
   name: 元気
   examEffectType: ProduceExamEffectType_ExamBlock
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamBlock
+  - ProduceExamEffectType_ExamBlockValueMultiple
+  - ProduceExamEffectType_ExamBlockFix
+  - ProduceExamEffectType_ExamBlockDependExamReview
+  - ProduceExamEffectType_ExamBlockPerUseCardCount
+  - ProduceExamEffectType_ExamBlockAddMultipleAggressive
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100002
 - id: effect_group-visible-exam_card_draw-000
   name: スキルカードを引く
   examEffectType: ProduceExamEffectType_ExamCardDraw
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamCardDraw
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100008
 - id: effect_group-visible-exam_card_play_aggressive-000
   name: やる気
   examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamCardPlayAggressive
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 120002
 - id: effect_group-visible-exam_card_search_effect_play_count_buff-000
   name: スキルカード追加発動
   examEffectType: ProduceExamEffectType_ExamCardSearchEffectPlayCountBuff
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamCardSearchEffectPlayCountBuff
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100011
 - id: effect_group-visible-exam_card_upgrade-000
   name: レッスン中強化
   examEffectType: ProduceExamEffectType_ExamCardUpgrade
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamCardUpgrade
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100007
 - id: effect_group-visible-exam_concentration-000
   name: 強気
   examEffectType: ProduceExamEffectType_ExamConcentration
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamConcentration
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 130002
 - id: effect_group-visible-exam_effect_timer-000
   name: 発動予約
   examEffectType: ProduceExamEffectType_ExamEffectTimer
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamEffectTimer
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100004
 - id: effect_group-visible-exam_extra_turn-000
   name: ターン追加
   examEffectType: ProduceExamEffectType_ExamExtraTurn
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamExtraTurn
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100012
 - id: effect_group-visible-exam_full_power_point_reduce-000
   name: 全力値減少
   examEffectType: ProduceExamEffectType_ExamFullPowerPointReduce
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamFullPowerPointReduce
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 131001
 - id: effect_group-visible-exam_full_power-000
   name: 全力
   examEffectType: ProduceExamEffectType_ExamFullPower
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamFullPower
+  - ProduceExamEffectType_ExamFullPowerPoint
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 130003
 - id: effect_group-visible-exam_gimmick_slump-000
   name: スランプ
   examEffectType: ProduceExamEffectType_ExamGimmickSlump
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamGimmickSlump
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101014
 - id: effect_group-visible-exam_hand_grave_count_card_draw-000
   name: 手札を入れ替える
   examEffectType: ProduceExamEffectType_ExamHandGraveCountCardDraw
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamHandGraveCountCardDraw
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100009
 - id: effect_group-visible-exam_lesson_buff_reduce-000
   name: 集中減少
   examEffectType: ProduceExamEffectType_ExamLessonBuffReduce
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonBuffReduce
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 111003
 - id: effect_group-visible-exam_lesson_buff-000
   name: 集中
   examEffectType: ProduceExamEffectType_ExamLessonBuff
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonBuff
+  - ProduceExamEffectType_ExamLessonAddMultipleLessonBuff
+  - ProduceExamEffectType_ExamLessonBuffDependParameterBuff
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 110003
 - id: effect_group-visible-exam_lesson_value_multiple_down-000
   name: パラメータ上昇量減少
   examEffectType: ProduceExamEffectType_ExamLessonValueMultipleDown
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonValueMultipleDown
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101013
 - id: effect_group-visible-exam_lesson_value_multiple-000
   name: パラメータ上昇量増加
   examEffectType: ProduceExamEffectType_ExamLessonValueMultiple
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonValueMultiple
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100013
 - id: effect_group-visible-exam_lesson-000
   name: パラメータ
   examEffectType: ProduceExamEffectType_ExamLesson
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLesson
+  - ProduceExamEffectType_ExamLessonFix
+  - ProduceExamEffectType_ExamLessonDependBlock
+  - ProduceExamEffectType_ExamMultipleLessonBuffLesson
+  - ProduceExamEffectType_ExamLessonPerSearchCount
+  - ProduceExamEffectType_ExamLessonDependExamReview
+  - ProduceExamEffectType_ExamLessonDependExamCardPlayAggressive
+  - ProduceExamEffectType_ExamLessonDependParameterBuff
+  - ProduceExamEffectType_ExamLessonAddMultipleParameterBuff
+  - ProduceExamEffectType_ExamLessonDependStamina
+  - ProduceExamEffectType_ExamLessonDependStaminaConsumptionSum
+  - ProduceExamEffectType_ExamLessonDependPlayCardCountSum
+  - ProduceExamEffectType_ExamLessonFullPowerPoint
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100001
 - id: effect_group-visible-exam_parameter_buff_multiple_per_turn-000
   name: 絶好調
   examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 110002
 - id: effect_group-visible-exam_parameter_buff_reduce-000
   name: 好調減少
   examEffectType: ProduceExamEffectType_ExamParameterBuffReduce
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamParameterBuffReduce
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 111001
 - id: effect_group-visible-exam_parameter_buff-000
   name: 好調
   examEffectType: ProduceExamEffectType_ExamParameterBuff
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamParameterBuff
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 110001
 - id: effect_group-visible-exam_playable_value_add-000
   name: スキルカード使用数追加
   examEffectType: ProduceExamEffectType_ExamPlayableValueAdd
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamPlayableValueAdd
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100010
 - id: effect_group-visible-exam_preservation-000
   name: 温存
   examEffectType: ProduceExamEffectType_ExamPreservation
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamPreservation
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 130001
 - id: effect_group-visible-exam_review_reduce-000
   name: 好印象減少
   examEffectType: ProduceExamEffectType_ExamReviewReduce
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamReviewReduce
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 121001
 - id: effect_group-visible-exam_review-000
   name: 好印象
   examEffectType: ProduceExamEffectType_ExamReview
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamReview
+  - ProduceExamEffectType_ExamReviewValueMultiple
+  - ProduceExamEffectType_ExamReviewDependExamBlock
+  - ProduceExamEffectType_ExamReviewDependExamCardPlayAggressive
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 120001
 - id: effect_group-visible-exam_stamina_consumption_add_fix-000
   name: 消費体力追加
   examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAddFix
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaConsumptionAddFix
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101006
 - id: effect_group-visible-exam_stamina_consumption_add-000
   name: 消費体力増加
   examEffectType: ProduceExamEffectType_ExamStaminaConsumptionAdd
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaConsumptionAdd
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101005
 - id: effect_group-visible-exam_stamina_consumption_down_fix-000
   name: 消費体力削減
   examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDownFix
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaConsumptionDownFix
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100006
 - id: effect_group-visible-exam_stamina_consumption_down-000
   name: 消費体力減少
   examEffectType: ProduceExamEffectType_ExamStaminaConsumptionDown
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaConsumptionDown
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100005
 - id: effect_group-visible-exam_stance_reset-000
   name: 指針解除
   examEffectType: ProduceExamEffectType_ExamStanceReset
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStanceReset
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 131002
 - id: effect_group-visible-exam_status_enchant-000
   name: 持続効果
   examEffectType: ProduceExamEffectType_ExamStatusEnchant
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStatusEnchant
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 100003
 - id: effect_group-visible-exam_turn_down-000
   name: ターン数減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ExamTurnDown
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ExamTurnDown
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 101012
 - id: effect_group-visible-produce_card_delete-000
   name: 削除
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ProduceCardDelete
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ProduceCardDelete
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200007
 - id: effect_group-visible-produce_card_upgrade-000
   name: 強化
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ProduceCardUpgrade
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ProduceCardUpgrade
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200004
 - id: effect_group-visible-produce_point_addition-000
   name: Pポイント獲得
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ProducePointAddition
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ProducePointAddition
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200021
 - id: effect_group-visible-produce_point_reduce_fix-000
   name: Pポイント減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ProducePointReduceFix
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ProducePointReduceFix
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 210021
 - id: effect_group-visible-shop_price_discount_multiple-000
   name: 相談の全項目を割引
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopPriceDiscountMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopPriceDiscountMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200013
 - id: effect_group-visible-shop_price_up_multiple-000
   name: 相談の全項目を割増
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopPriceUpMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopPriceUpMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210013
 - id: effect_group-visible-shop_produce_card_delete_price_discount_multiple-000
   name: 相談のスキルカード削除を割引
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardDeletePriceDiscountMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardDeletePriceDiscountMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200017
 - id: effect_group-visible-shop_produce_card_delete_price_up_multiple-000
   name: 相談のスキルカード削除を割増
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardDeletePriceUpMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardDeletePriceUpMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210017
 - id: effect_group-visible-shop_produce_card_price_discount_multiple-000
   name: 相談のスキルカードを割引
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardPriceDiscountMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardPriceDiscountMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200014
 - id: effect_group-visible-shop_produce_card_price_up_multiple-000
   name: 相談のスキルカードを割増
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardPriceUpMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardPriceUpMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210014
 - id: effect_group-visible-shop_produce_card_upgrade_price_discount_multiple-000
   name: 相談のスキルカード強化を割引
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardUpgradePriceDiscountMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardUpgradePriceDiscountMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200016
 - id: effect_group-visible-shop_produce_card_upgrade_price_up_multiple-000
   name: 相談のスキルカード強化を割増
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceCardUpgradePriceUpMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceCardUpgradePriceUpMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210016
 - id: effect_group-visible-shop_produce_drink_price_discount_multiple-000
   name: 相談のPドリンクを割引
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceDrinkPriceDiscountMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceDrinkPriceDiscountMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 200015
 - id: effect_group-visible-shop_produce_drink_price_up_multiple-000
   name: 相談のPドリンクを割増
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_ShopProduceDrinkPriceUpMultiple
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_ShopProduceDrinkPriceUpMultiple
   hiddenFilter: true
+  produceCardGrowEffectTypes: []
   order: 210015
 - id: effect_group-visible-stamina_recover_fix-000
   name: 体力回復
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_StaminaRecoverFix
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaRecoverFix
+  - ProduceExamEffectType_ExamStaminaRecoverMultiple
+  produceEffectTypes:
+  - ProduceEffectType_StaminaRecoverFix
+  - ProduceEffectType_StaminaRecoverMultiple
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200008
 - id: effect_group-visible-stamina_reduce_fix-000
   name: 体力減少
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_StaminaReduceFix
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStaminaDamage
+  - ProduceExamEffectType_ExamStaminaReduce
+  - ProduceExamEffectType_ExamStaminaReduceFix
+  produceEffectTypes:
+  - ProduceEffectType_StaminaReduceFix
+  - ProduceEffectType_StaminaReduceMultiple
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 210008
 - id: effect_group-visible-stance_lock-000
   name: 指針固定
   examEffectType: ProduceExamEffectType_StanceLock
   produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_StanceLock
+  produceEffectTypes: []
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 131003
 - id: effect_group-visible-visual_addition-000
   name: ビジュアル上昇
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_VisualAddition
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_VisualAddition
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200003
 - id: effect_group-visible-vocal_addition-000
   name: ボーカル上昇
   examEffectType: ProduceExamEffectType_Unknown
   produceEffectType: ProduceEffectType_VocalAddition
+  examEffectTypes: []
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
   hiddenFilter: false
+  produceCardGrowEffectTypes: []
   order: 200001
