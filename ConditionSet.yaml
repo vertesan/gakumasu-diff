@@ -7942,6 +7942,18 @@
   beforeTime: "1743433200000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0401_0501
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743451200000"
+  afterTime: "1746043200000"
+  description: ""
 - id: cd_time_25_0401_25_1001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7953,6 +7965,18 @@
   max: "0"
   beforeTime: "1743451200000"
   afterTime: "1759284000000"
+  description: ""
+- id: cd_time_25_0401-0402
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
+  afterTime: "1743519600000"
   description: ""
 - id: cd_time_25_0501-1100
   number: 1
@@ -8995,6 +9019,54 @@
   max: "0"
   beforeTime: "1730858400000"
   afterTime: "1733018399000"
+  description: ""
+- id: cd_view_story-aprilfool-2025-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743519600000"
+  afterTime: "1743606000000"
+  description: ""
+- id: cd_view_story-aprilfool-2025-002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view-aprilfool-shop-item-2025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd_time_25_0401-0402
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view-aprilfool-shop-item-2025
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-storyread-story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
   description: ""
 - id: cd-100-days-anniversary
   number: 1
@@ -10197,6 +10269,18 @@
   max: "0"
   beforeTime: "1995894000000"
   afterTime: "1995980399000"
+  description: ""
+- id: cd-birthday-hume-2025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
+  afterTime: "0"
   description: ""
 - id: cd-birthday-jsna
   number: 1
@@ -12855,6 +12939,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_SupportCard
   resourceId1: s_card-2-0014
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have-nasr-cstm-0081
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: nasr-cstm-0081
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -17666,6 +17762,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-nasr-costume-costume-head
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_nasr-cstm-0069
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-nasr-costume-costume-head
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_nasr-cstm-0135
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-nasr-costume-costume-head
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_nasr-hair-0005
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_costume-0001-0010
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -20426,6 +20558,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-storyread-story-aprilfool-2025-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-task_clear-01-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22070,6 +22214,30 @@
   beforeTime: "1741878000000"
   afterTime: "1742569200000"
   description: ""
+- id: cd-view-costume-nasr
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-have-nasr-cstm-0081
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-costume-nasr
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-storyread-story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view-first-live-002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22093,6 +22261,66 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-aprilfool-2025-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-aprilfool-2025-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
+  afterTime: "1743519600000"
+  description: ""
+- id: cd-view-home-banner-aprilfool-2025-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-nasr-costume-costume-head
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-aprilfool-2025-002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-home-banner-aprilfool-2025-002
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
+  afterTime: "1743519600000"
   description: ""
 - id: cd-view-home-banner-shop_jewel_item-0008
   number: 1
@@ -22141,6 +22369,30 @@
   max: "0"
   beforeTime: "1716948000000"
   afterTime: "1719536399000"
+  description: ""
+- id: cd-view-music-all-nasr-010
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Music
+  resourceId1: music-all-nasr-010
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-music-all-nasr-010
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
   description: ""
 - id: cd-view-nia_produce
   number: 1
@@ -22310,6 +22562,150 @@
   beforeTime: "1711915200000"
   afterTime: "1717358399000"
   description: ""
+- id: cd-view-startup_notification_dmm-release-20250318
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-startup_notification_dmm-release-20250318-20250401
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_dmm-release-20250318
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-startup_notification_dmm-release-20250318-20250402
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_dmm-release-20250318-20250401
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-storyread-story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_dmm-release-20250318-20250401
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1743519600000"
+  description: ""
+- id: cd-view-startup_notification_dmm-release-20250318-20250402
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743519600000"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-startup_notification_gasha-00370-pickup-001-20250331
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-startup_notification_gasha-00370-pickup-001-20250401
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001-20250331
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1743433200000"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001-20250331
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001-20250401
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001-20250401
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-startup_notification_gasha-00370-pickup-001-20250401
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
+  afterTime: "0"
+  description: ""
 - id: cd-view-startup_notification_shop_jewel_item-0008
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22476,6 +22872,54 @@
   min: "0"
   max: "0"
   beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-story-aprilfool-2025-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-story-aprilfool-2025-002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743519600000"
+  afterTime: "0"
+  description: ""
+- id: cd-view-story-aprilfool-group-2025-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-story-aprilfool-group-2025-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1743433200000"
   afterTime: "0"
   description: ""
 - id: cd-view-youtube-hatsumi-kyoushitsu-02
