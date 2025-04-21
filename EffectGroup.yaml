@@ -270,6 +270,30 @@
   hiddenFilter: false
   produceCardGrowEffectTypes: []
   order: 110003
+- id: effect_group-visible-exam_lesson_depend_block-000
+  name: ""
+  examEffectType: ProduceExamEffectType_ExamLessonDependBlock
+  produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonDependBlock
+  - ProduceExamEffectType_ExamLessonDependExamCardPlayAggressive
+  - ProduceExamEffectType_ExamLessonDependAggressiveAndSearchCount
+  - ProduceExamEffectType_ExamLessonDependBlockAndSearchCount
+  produceEffectTypes: []
+  hiddenFilter: true
+  produceCardGrowEffectTypes: []
+  order: 100001
+- id: effect_group-visible-exam_lesson_depend_exam_review-000
+  name: ""
+  examEffectType: ProduceExamEffectType_ExamLessonDependExamReview
+  produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamLessonDependExamReview
+  - ProduceExamEffectType_ExamLessonDependReviewAndSearchCount
+  produceEffectTypes: []
+  hiddenFilter: true
+  produceCardGrowEffectTypes: []
+  order: 100001
 - id: effect_group-visible-exam_lesson_value_multiple_down-000
   name: パラメータ上昇量減少
   examEffectType: ProduceExamEffectType_ExamLessonValueMultipleDown
