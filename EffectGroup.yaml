@@ -92,6 +92,17 @@
   hiddenFilter: true
   produceCardGrowEffectTypes: []
   order: 210018
+- id: effect_group-visible-exam_add_grow_effect-000
+  name: 成長
+  examEffectType: ProduceExamEffectType_ExamAddGrowEffect
+  produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamAddGrowEffect
+  - ProduceExamEffectType_ExamGrowEffectLessonAddAdditive
+  produceEffectTypes: []
+  hiddenFilter: false
+  produceCardGrowEffectTypes: []
+  order: 130004
 - id: effect_group-visible-exam_aggressive_reduce-000
   name: やる気減少
   examEffectType: ProduceExamEffectType_ExamAggressiveReduce
@@ -133,6 +144,7 @@
   - ProduceExamEffectType_ExamBlockDependExamReview
   - ProduceExamEffectType_ExamBlockPerUseCardCount
   - ProduceExamEffectType_ExamBlockAddMultipleAggressive
+  - ProduceExamEffectType_ExamBlockPerSearchCount
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -153,6 +165,10 @@
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamCardPlayAggressive
+  - ProduceExamEffectType_ExamAggressiveValueMultiple
+  - ProduceExamEffectType_ExamAggressivePerSearchCount
+  - ProduceExamEffectType_ExamAggressiveDependReview
+  - ProduceExamEffectType_ExamAggressiveAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -183,6 +199,7 @@
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamConcentration
+  - ProduceExamEffectType_ExamConcentrationLessonMultipleAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -224,6 +241,9 @@
   examEffectTypes:
   - ProduceExamEffectType_ExamFullPower
   - ProduceExamEffectType_ExamFullPowerPoint
+  - ProduceExamEffectType_ExamFullPowerPointPerSearchCount
+  - ProduceExamEffectType_ExamFullPowerLessonMultipleAdditive
+  - ProduceExamEffectType_ExamFullPowerPointAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -266,6 +286,8 @@
   - ProduceExamEffectType_ExamLessonBuff
   - ProduceExamEffectType_ExamLessonAddMultipleLessonBuff
   - ProduceExamEffectType_ExamLessonBuffDependParameterBuff
+  - ProduceExamEffectType_ExamLessonBuffPerSearchCount
+  - ProduceExamEffectType_ExamLessonBuffAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -332,10 +354,26 @@
   - ProduceExamEffectType_ExamLessonDependStaminaConsumptionSum
   - ProduceExamEffectType_ExamLessonDependPlayCardCountSum
   - ProduceExamEffectType_ExamLessonFullPowerPoint
+  - ProduceExamEffectType_ExamLessonDependBlockAndSearchCount
+  - ProduceExamEffectType_ExamLessonDependAggressiveAndSearchCount
+  - ProduceExamEffectType_ExamLessonDependReviewAndSearchCount
+  - ProduceExamEffectType_ExamMultipleEnthusiasticLesson
+  - ProduceExamEffectType_ExamMultipleConcentrationLesson
+  - ProduceExamEffectType_ExamMultipleFullPowerLesson
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
   order: 100001
+- id: effect_group-visible-exam_parameter_buff_multiple_per_turn_reduce-000
+  name: 好調減少
+  examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurnReduce
+  produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamParameterBuffMultiplePerTurnReduce
+  produceEffectTypes: []
+  hiddenFilter: false
+  produceCardGrowEffectTypes: []
+  order: 111002
 - id: effect_group-visible-exam_parameter_buff_multiple_per_turn-000
   name: 絶好調
   examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurn
@@ -362,6 +400,9 @@
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamParameterBuff
+  - ProduceExamEffectType_ExamParameterBuffPerSearchCount
+  - ProduceExamEffectType_ExamParameterBuffDependLessonBuff
+  - ProduceExamEffectType_ExamParameterBuffAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -382,6 +423,9 @@
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamPreservation
+  - ProduceExamEffectType_ExamOverPreservation
+  - ProduceExamEffectType_ExamEnthusiasticAdditive
+  - ProduceExamEffectType_ExamEnthusiasticMultiple
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -405,6 +449,9 @@
   - ProduceExamEffectType_ExamReviewValueMultiple
   - ProduceExamEffectType_ExamReviewDependExamBlock
   - ProduceExamEffectType_ExamReviewDependExamCardPlayAggressive
+  - ProduceExamEffectType_ExamReviewPerSearchCount
+  - ProduceExamEffectType_ExamReviewMultiple
+  - ProduceExamEffectType_ExamReviewAdditive
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []

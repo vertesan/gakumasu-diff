@@ -1402,6 +1402,60 @@
   characterId: jsna
   viewProduceResult: false
   order: 3
+- id: achieve-i_card-jsna-3-006-01
+  category: AchievementCategory_Idol
+  name: 湧き上がる気持ち
+  description: 【Our Chant】十王 星南のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-006
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-jsna-3-006-02
+  category: AchievementCategory_Idol
+  name: Our Chant
+  description: 【Our Chant】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-006
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-jsna-3-006-03
+  category: AchievementCategory_Idol
+  name: 歌に込めるメッセージ
+  description: 【Our Chant】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-006
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 3
 - id: achieve-i_card-kcna-3-001-01
   category: AchievementCategory_Idol
   name: お茶会へようこそ♪

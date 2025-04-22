@@ -14990,6 +14990,57 @@
   viewConditionSetId: cd_time-view_open-i_card-jsna-3-003
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-jsna-3-006-01
+  missionGroupId: ""
+  name: 【Our Chant】十王 星南のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-006
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-006-02
+  missionGroupId: ""
+  name: 【Our Chant】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-006
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-006-03
+  missionGroupId: ""
+  name: 【Our Chant】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-006
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-006
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-kcna-3-001-01
   missionGroupId: ""
   name: 【日々、発見的ステップ！】倉本 千奈のプロデュースで最終試験に合格
@@ -26071,7 +26122,7 @@
   order: 0
 - id: "main_task_group-03-01#67"
   missionGroupId: ""
-  name: プロデュースでいずれかのパラメータを1,700以上に育成しよう
+  name: 最終試験で1位になろう
   category: MissionCategory_MainTask
   type: MissionType_ProduceConditionClear
   targetIds1:

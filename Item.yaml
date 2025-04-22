@@ -430,6 +430,33 @@
   startTime: "1677596400000"
   endTime: "0"
   order: 50
+- id: item-gacha-coin-anniversary-001
+  name: はつみちゃんコイン
+  description: 1st アニバーサリーコインガシャで使用するコイン
+  acquisitionRouteDescription: プロデュースなど
+  assetId: item_gacha-coin-1st-aniv-001
+  type: ItemType_Coin
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1748743199000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: coin_gasha-anniversary-001
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1745287200000"
+  endTime: "1748743199000"
+  order: 60
 - id: item-gacha-coin-newyear-001
   name: 初星ふくびき券 2025
   description: 謹賀新年！ふくびきガシャで使用するアイテム
@@ -606,7 +633,41 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 40
+  order: 31
+- id: item-gashaticket-ssr-fix_1_1st-anniversary-001
+  name: 1st アニバーサリー記念SSR確定チケット
+  description: 1st アニバーサリー記念SSR確定チケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-ssr-3
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-ticket-ssr-idol-support-3
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  gashas:
+  - id: gasha-ticket-ssr-idol-support-3
+    bannerAssetId: img_gasha_banner_gasha-ticket-ssr-idol-support-3-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_ticket_ssr-3
+    unlockConditionSetId: ""
+    startTime: "1745287200000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_ticket_ssr-3
+  unlockConditionSetId: ""
+  startTime: "1745287200000"
+  endTime: "0"
+  order: 34
 - id: item-gashaticket-ssr-fix_10-hoten
   name: SSR10連ガシャチケット
   description: 入学記念48時間限定SSR確定10連ガシャで使用するチケット
@@ -674,7 +735,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 40
+  order: 32
 - id: item-gashaticket-ssr-support-fix_1
   name: SSR Sカード確定ガシャチケット
   description: SSR Sカード確定チケットガシャで使用するチケット
@@ -708,7 +769,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 40
+  order: 33
 - id: item-Idolcardpiece-exchange-1
   name: フラワー
   description: 交換所で使用するアイテム
@@ -2788,6 +2849,33 @@
   startTime: "0"
   endTime: "0"
   order: 1060670
+- id: item-piece-idol_jsna-3-006
+  name: "[Our Chant]十王星南のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 1060600
 - id: item-piece-idol_kcna-1-000
   name: "[学園生活]倉本千奈のピース"
   description: プロデュースアイドルの才能開花や解放に使用するアイテム
