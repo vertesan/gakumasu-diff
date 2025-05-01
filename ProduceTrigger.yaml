@@ -1,5 +1,7 @@
 - id: p_trigger-buy_shop_item_produce_drink
   phaseType: ProducePhaseType_BuyShopItemProduceDrink
+- id: p_trigger-change_produce_card
+  phaseType: ProducePhaseType_ChangeProduceCard
 - id: p_trigger-delete_produce_card-0000_0000-p_card_search-active_skill-deck_all
   phaseType: ProducePhaseType_DeleteProduceCard
 - id: p_trigger-delete_produce_card-0000_0000-p_card_search-deck_all
@@ -98,9 +100,13 @@
   phaseType: ProducePhaseType_EndStepEventActivity
 - id: p_trigger-end_step_event_school
   phaseType: ProducePhaseType_EndStepEventSchool
+- id: p_trigger-end_step_event_school-dance-0400_0000
+  phaseType: ProducePhaseType_EndStepEventSchool
 - id: p_trigger-get_produce_card-0000_0000-p_card_search-active_skill-deck_all
   phaseType: ProducePhaseType_GetProduceCard
 - id: p_trigger-get_produce_card-0000_0000-p_card_search-deck_all
+  phaseType: ProducePhaseType_GetProduceCard
+- id: p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_block-000
   phaseType: ProducePhaseType_GetProduceCard
 - id: p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_block-000-visual-0200_0000
   phaseType: ProducePhaseType_GetProduceCard

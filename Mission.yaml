@@ -9393,6 +9393,515 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 56
+- id: mission-main-story-event-009-mission_11
+  missionGroupId: mission-group-main-story-event-009_1
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-main-story-event-009-mission_12
+  missionGroupId: mission-group-main-story-event-009_1
+  name: 花海 咲季のファンを{threshold}人獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementFanCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-main-story-event-009-mission_13
+  missionGroupId: mission-group-main-story-event-009_1
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-main-story-event-009-mission_14
+  missionGroupId: mission-group-main-story-event-009_1
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-main-story-event-009-mission_15
+  missionGroupId: mission-group-main-story-event-009_1
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: mission-main-story-event-009-mission_16
+  missionGroupId: mission-group-main-story-event-009_1
+  name: 1日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-main-story-event-009_1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-main-story-event-009-mission_21
+  missionGroupId: mission-group-main-story-event-009_2
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 21
+- id: mission-main-story-event-009-mission_22
+  missionGroupId: mission-group-main-story-event-009_2
+  name: 月村 手毬のファンを{threshold}人獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementFanCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 22
+- id: mission-main-story-event-009-mission_23
+  missionGroupId: mission-group-main-story-event-009_2
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 23
+- id: mission-main-story-event-009-mission_24
+  missionGroupId: mission-group-main-story-event-009_2
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 24
+- id: mission-main-story-event-009-mission_25
+  missionGroupId: mission-group-main-story-event-009_2
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 25
+- id: mission-main-story-event-009-mission_26
+  missionGroupId: mission-group-main-story-event-009_2
+  name: 2日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-main-story-event-009_2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 26
+- id: mission-main-story-event-009-mission_31
+  missionGroupId: mission-group-main-story-event-009_3
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 31
+- id: mission-main-story-event-009-mission_32
+  missionGroupId: mission-group-main-story-event-009_3
+  name: 藤田 ことねのファンを{threshold}人獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementFanCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
+- id: mission-main-story-event-009-mission_33
+  missionGroupId: mission-group-main-story-event-009_3
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 33
+- id: mission-main-story-event-009-mission_34
+  missionGroupId: mission-group-main-story-event-009_3
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 34
+- id: mission-main-story-event-009-mission_35
+  missionGroupId: mission-group-main-story-event-009_3
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 35
+- id: mission-main-story-event-009-mission_36
+  missionGroupId: mission-group-main-story-event-009_3
+  name: 3日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-main-story-event-009_3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 36
+- id: mission-main-story-event-009-mission_41
+  missionGroupId: mission-group-main-story-event-009_4
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 41
+- id: mission-main-story-event-009-mission_42
+  missionGroupId: mission-group-main-story-event-009_4
+  name: 花海 咲季または月村 手毬または藤田 ことねのファンを{threshold}人獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementFanCount
+  targetIds1:
+  - hski
+  - ttmr
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 42
+- id: mission-main-story-event-009-mission_43
+  missionGroupId: mission-group-main-story-event-009_4
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 43
+- id: mission-main-story-event-009-mission_44
+  missionGroupId: mission-group-main-story-event-009_4
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 44
+- id: mission-main-story-event-009-mission_45
+  missionGroupId: mission-group-main-story-event-009_4
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 45
+- id: mission-main-story-event-009-mission_46
+  missionGroupId: mission-group-main-story-event-009_4
+  name: 4日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-main-story-event-009_4
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 46
+- id: mission-main-story-event-009-mission_51
+  missionGroupId: mission-group-main-story-event-009_5
+  name: APを{threshold}消費しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementConsumeActionPoint
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 51
+- id: mission-main-story-event-009-mission_52
+  missionGroupId: mission-group-main-story-event-009_5
+  name: 花海 咲季または月村 手毬または藤田 ことねのファンを{threshold}人獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementFanCount
+  targetIds1:
+  - hski
+  - ttmr
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 52
+- id: mission-main-story-event-009-mission_53
+  missionGroupId: mission-group-main-story-event-009_5
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 53
+- id: mission-main-story-event-009-mission_54
+  missionGroupId: mission-group-main-story-event-009_5
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 54
+- id: mission-main-story-event-009-mission_55
+  missionGroupId: mission-group-main-story-event-009_5
+  name: 藤田 ことねでプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 55
+- id: mission-main-story-event-009-mission_56
+  missionGroupId: mission-group-main-story-event-009_5
+  name: 5日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-main-story-event-009_5
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-main-story-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 56
 - id: mission-normal-absolutedearnesslevel-1
   missionGroupId: ""
   name: いずれかのアイドルの親愛度Lvを{threshold}にしよう
@@ -14072,6 +14581,57 @@
   viewConditionSetId: cd_time-view_open-i_card-fktn-3-007
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-fktn-3-011-01
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】藤田 ことねのプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-011
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-011
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-011-02
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】藤田 ことねの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-011
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-011
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-011-03
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-011
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-011
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-hrnm-3-001-01
   missionGroupId: ""
   name: 【キミとセミブルー】姫崎 莉波のプロデュースで最終試験に合格
@@ -14580,6 +15140,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-hski-3-011
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-012-01
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】花海 咲季のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-012
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-012-02
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-012
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-012-03
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-012
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-012
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-hume-2-000-01
@@ -16161,6 +16772,57 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-ttmr-3-009
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-011-01
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】月村 手毬のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-011
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-011
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-011-02
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-011
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-011
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-011-03
+  missionGroupId: ""
+  name: 【雨上がりのアイリス】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-011
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-011
   unlockConditionSetId: ""
   order: 0
 - id: achieve-m_amao-001
