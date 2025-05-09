@@ -897,7 +897,7 @@
   consumptionResourceQuantity: 0
   startTime: "1746064800000"
   endTime: "1747357200000"
-  order: 1
+  order: 2
 - id: shop_jewel_item-0021
   shopId: shop_jewel
   name: 【1回きりお得！】ジュエル6,000個
@@ -921,7 +921,7 @@
   consumptionResourceQuantity: 0
   startTime: "1746064800000"
   endTime: "1747357200000"
-  order: 2
+  order: 3
 - id: shop_pack_hume-0001
   shopId: shop_pack
   name: 【72時間限定】プロデュースアイドルピースパック（佑芽）
@@ -1506,6 +1506,36 @@
   startTime: "1716948000000"
   endTime: "1719536399000"
   order: 240
+- id: shop_pack_item-aniversary-selection-ticket
+  shopId: shop_pack
+  name: 1st アニバーサリー前夜祭パック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0052"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 3000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-selection-ticket-002
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-10
+    quantity: 1
+  viewConditionSetId: cd_time_25_0509-1100_0601-1059
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1746756000000"
+  endTime: "1748743199000"
+  order: 1
 - id: shop_pack_item-childsmock-01
   shopId: shop_pack
   name: 【100万DL記念】チャイルドスモックパックA（6/28まで）
