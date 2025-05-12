@@ -3813,6 +3813,28 @@
   effectGroupIds: []
   isSelf: false
   produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamCardCreateId
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 生成
+    targetId: Label_ExamCardCreateId
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
   - produceDescriptionType: ProduceDescriptionType_PlainText
     examDescriptionType: ExamDescriptionType_Unknown
     examEffectType: ProduceExamEffectType_Unknown
@@ -3820,7 +3842,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: 強化済み固有スキルカード（SSR）
+    text: した強化済み固有スキルカード（SSR）
     targetId: ""
     targetLevel: 0
     effectValue1: 0
