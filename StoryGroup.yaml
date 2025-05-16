@@ -528,6 +528,21 @@
   storyIds: []
   storyEventId: ""
   order: 2
+- id: story_dearness_hmsz_step-01
+  storyType: StoryType_DearnessStory
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: STEP1
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: ""
+  characterId: hmsz
+  dearnessLevelMin: 1
+  dearnessLevelMax: 10
+  storyIds: []
+  storyEventId: ""
+  order: 1
 - id: story_dearness_hrnm_step-01
   storyType: StoryType_DearnessStory
   storyEventType: StoryEventType_Unknown
@@ -906,6 +921,26 @@
   - story-event-01-13-05
   storyEventId: story-event-013
   order: 14
+- id: story_event_group-14-01
+  storyType: StoryType_StoryEvent
+  storyEventType: StoryEventType_GuildMission
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_StoryEvent
+  title: クラス対抗初星大運動会
+  headerAssetId: img_general_event_story_event-story-014-header
+  storyThumbnailAssetId: img_general_event_story_event-story-014-story-banner
+  viewConditionSetId: cd-story_view_story_event_group-14-01
+  characterId: ""
+  dearnessLevelMin: 0
+  dearnessLevelMax: 0
+  storyIds:
+  - story-event-01-14-01
+  - story-event-01-14-02
+  - story-event-01-14-03
+  - story-event-01-14-04
+  - story-event-01-14-05
+  storyEventId: story-event-006
+  order: 16
 - id: story_gvg_group-01-01
   storyType: StoryType_GvgRaid
   storyEventType: StoryEventType_Unknown
@@ -926,6 +961,22 @@
   - story-circle-battle-event-001-05
   storyEventId: ""
   order: 7
+- id: story-1st-anniversary-20250516
+  storyType: StoryType_AprilFool
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: 出会ってから、これまで
+  headerAssetId: img_general_event_anniv-01_anniv-01-story-header
+  storyThumbnailAssetId: img_general_event_anniv-01_anniv-01-story-banner
+  viewConditionSetId: cd-view_story-1st-anniversary-20250516
+  characterId: ""
+  dearnessLevelMin: 0
+  dearnessLevelMax: 0
+  storyIds:
+  - story-1st-anniversary-20250516
+  storyEventId: ""
+  order: 15
 - id: story-aprilfool-group-2025-01
   storyType: StoryType_AprilFool
   storyEventType: StoryEventType_Unknown

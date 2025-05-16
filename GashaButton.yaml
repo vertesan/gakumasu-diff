@@ -18,6 +18,8 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-001-01
   name: 1回ガシャ
   description: 1回ガシャ
@@ -38,6 +40,8 @@
   order: 2
   appealType: GashaButtonAppealType_Unknown
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-001-01-discount
   name: 1日1回ガシャ
   description: 1日1回ガシャ
@@ -58,6 +62,8 @@
   order: 1
   appealType: GashaButtonAppealType_DrawableCount
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-001-10
   name: 10回ガシャ
   description: 10回ガシャ
@@ -78,6 +84,8 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-001-10-ssr
   name: 10回ガシャ
   description: 10回ガシャ
@@ -98,6 +106,30 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+- id: gasha_button-001-10-ssr-anniversary
+  name: SSR確定10連ガシャ 2回きり
+  description: SSR確定10連ガシャ 2回きり
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 2
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-001-ticket
   name: チケットで引く
   description: チケットで引く
@@ -118,6 +150,8 @@
   order: 2
   appealType: GashaButtonAppealType_Unknown
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-010-item_01
   name: 10回アイテムガシャ
   description: 10回アイテムガシャ
@@ -138,6 +172,8 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-010-ticket
   name: 10回チケットガシャ
   description: 10回チケットガシャ
@@ -158,6 +194,8 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-free-10-01
   name: 10回ガシャ
   description: 10回ガシャ
@@ -178,6 +216,30 @@
   order: 1
   appealType: GashaButtonAppealType_DrawableCount
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+- id: gasha_button-free-10-04
+  name: 10連無料、最大100連無料ガシャ
+  description: 10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Unknown
+  resourceId: ""
+  limitType: GashaLimitType_DailyLoginAccumulation
+  limitCount: 10
+  resourceQuantity: 0
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+  appealType: GashaButtonAppealType_DrawableCount
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-pickup-001-01
   name: 1回ガシャ
   description: 1回ガシャ
@@ -198,6 +260,8 @@
   order: 2
   appealType: GashaButtonAppealType_Unknown
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-pickup-001-01-discount
   name: 1日1回ガシャ
   description: 1日1回ガシャ
@@ -218,6 +282,8 @@
   order: 1
   appealType: GashaButtonAppealType_DrawableCount
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-pickup-001-10
   name: 10回ガシャ
   description: 10回ガシャ
@@ -238,6 +304,8 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-pickup-001-10-animate
   name: 10回ガシャ
   description: 10回ガシャ
@@ -258,6 +326,8 @@
   order: 1
   appealType: GashaButtonAppealType_AppealText
   appealText: アニメイトSSR確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-select-pickup-01
   name: 10回ガシャ
   description: 10回ガシャ
@@ -278,6 +348,8 @@
   order: 1
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_button-select-pickup-01-discount
   name: 10回ガシャ
   description: 10回ガシャ
@@ -298,6 +370,8 @@
   order: 3
   appealType: GashaButtonAppealType_AppealText
   appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_ticket_ssr_10_button-001
   name: SSR確定チケットで引く
   description: SSR確定10連
@@ -318,6 +392,8 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_ticket_ssr_button
   name: SSR確定チケットで引く
   description: SSR確定1連
@@ -338,6 +414,8 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_ticket_ssr_button_1st-anniv
   name: 1st アニバーサリー記念 SSR確定チケットで引く
   description: SSR確定1連
@@ -358,6 +436,8 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_ticket_ssr_button_idol
   name: SSR確定チケットで引く
   description: SSRアイドル確定1連
@@ -378,6 +458,8 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
 - id: gasha_ticket_ssr_button_support
   name: SSR確定チケットで引く
   description: SSRサポート確定1連
@@ -398,3 +480,5 @@
   order: 1
   appealType: GashaButtonAppealType_FixSsr
   appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""

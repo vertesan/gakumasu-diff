@@ -20,6 +20,16 @@
   type: AssetDownloadType_Second
 - id: adv_dear_ttmr_001.txt
   type: AssetDownloadType_Second
+- id: adv_event_014_main-01.txt
+  type: AssetDownloadType_Second
+- id: adv_event_014_main-02.txt
+  type: AssetDownloadType_Second
+- id: adv_event_014_main-03.txt
+  type: AssetDownloadType_Second
+- id: adv_event_014_main-04.txt
+  type: AssetDownloadType_Second
+- id: adv_event_014_main-05.txt
+  type: AssetDownloadType_Second
 - id: adv_presult_001_final-failure.txt
   type: AssetDownloadType_Second
 - id: adv_presult_001_final-normal-01.txt
@@ -214,16 +224,6 @@
   type: AssetDownloadType_First
 - id: adv_tutorial_first_fktn-02.txt
   type: AssetDownloadType_First
-- id: adv_unit_01-04_21.txt
-  type: AssetDownloadType_Second
-- id: adv_unit_01-04_22.txt
-  type: AssetDownloadType_Second
-- id: adv_unit_01-04_23.txt
-  type: AssetDownloadType_Second
-- id: adv_unit_01-04_24.txt
-  type: AssetDownloadType_Second
-- id: adv_unit_01-04_25.txt
-  type: AssetDownloadType_Second
 - id: crw_layout_env_3d_live_all001-00-noon
   type: AssetDownloadType_First
 - id: crw_layout_env_3d_live_courtyard-00-00-noon
@@ -614,6 +614,12 @@
   type: AssetDownloadType_First
 - id: img_chr_fktn_00-thumb-circle
   type: AssetDownloadType_First
+- id: img_chr_hmsz_00-audition
+  type: AssetDownloadType_Second
+- id: img_chr_hmsz_00-full
+  type: AssetDownloadType_Second
+- id: img_chr_hmsz_00-thumb-circle
+  type: AssetDownloadType_Second
 - id: img_chr_hski_00-audition
   type: AssetDownloadType_First
 - id: img_chr_hski_00-full
@@ -634,17 +640,11 @@
   type: AssetDownloadType_Second
 - id: img_cos_amao-cstm-0036_body
   type: AssetDownloadType_Second
-- id: img_cos_amao-cstm-0119_body
-  type: AssetDownloadType_Second
-- id: img_cos_costume_head_amao-casl-0000_head
-  type: AssetDownloadType_Second
 - id: img_cos_costume_head_amao-cstm-0004_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_amao-cstm-0016_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_amao-cstm-0035_head
-  type: AssetDownloadType_Second
-- id: img_cos_costume_head_fktn-casl-0000_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_fktn-cstm-0001_head
   type: AssetDownloadType_Second
@@ -654,9 +654,13 @@
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_fktn-cstm-0028_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_fktn-cstm-0112_head
+- id: img_cos_costume_head_fktn-cstm-0045_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_fktn-cstm-0113_head
+- id: img_cos_costume_head_fktn-cstm-0046_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_hmsz-cstm-0011_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_hmsz-cstm-0023_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_hrnm-cstm-0000_head
   type: AssetDownloadType_Second
@@ -668,7 +672,9 @@
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_hrnm-cstm-0038_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_hrnm-schl-0000_head
+- id: img_cos_costume_head_hrnm-cstm-0043_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_hrnm-cstm-0044_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_hski-cstm-0002_head
   type: AssetDownloadType_Second
@@ -680,21 +686,17 @@
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_hski-cstm-0070_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_hski-cstm-0112_head
-  type: AssetDownloadType_Second
-- id: img_cos_costume_head_hski-cstm-0113_head
-  type: AssetDownloadType_Second
 - id: img_cos_costume_head_hume-cstm-0010_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_hume-cstm-0022_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_hume-schl-0000_head
+- id: img_cos_costume_head_hume-cstm-0049_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_hume-cstm-0050_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_jsna-cstm-0012_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_jsna-cstm-0024_head
-  type: AssetDownloadType_Second
-- id: img_cos_costume_head_jsna-schl-0000_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_kcna-casl-0000_head
   type: AssetDownloadType_Second
@@ -708,29 +710,37 @@
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_kllj-cstm-0007_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_kllj-schl-0000_head
+- id: img_cos_costume_head_kllj-cstm-0045_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_shro-casl-0000_head
+- id: img_cos_costume_head_kllj-cstm-0046_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_kllj-cstm-0049_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_kllj-cstm-0050_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_shro-cstm-0006_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_shro-cstm-0031_head
   type: AssetDownloadType_Second
+- id: img_cos_costume_head_shro-cstm-0047_head
+  type: AssetDownloadType_Second
+- id: img_cos_costume_head_shro-cstm-0048_head
+  type: AssetDownloadType_Second
 - id: img_cos_costume_head_ssmk-cstm-0009_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_ssmk-cstm-0039_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_ssmk-schl-0000_head
+- id: img_cos_costume_head_ssmk-cstm-0043_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_ttmr-casl-0000_head
+- id: img_cos_costume_head_ssmk-cstm-0044_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_ttmr-cstm-0003_head
   type: AssetDownloadType_Second
 - id: img_cos_costume_head_ttmr-cstm-0025_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_ttmr-cstm-0112_head
+- id: img_cos_costume_head_ttmr-cstm-0047_head
   type: AssetDownloadType_Second
-- id: img_cos_costume_head_ttmr-cstm-0113_head
+- id: img_cos_costume_head_ttmr-cstm-0048_head
   type: AssetDownloadType_Second
 - id: img_cos_fktn-cstm-0001_body
   type: AssetDownloadType_Second
@@ -740,11 +750,13 @@
   type: AssetDownloadType_Second
 - id: img_cos_fktn-cstm-0028_body
   type: AssetDownloadType_Second
-- id: img_cos_fktn-cstm-0112_body
+- id: img_cos_fktn-cstm-0045_body
   type: AssetDownloadType_Second
-- id: img_cos_fktn-cstm-0113_body
+- id: img_cos_fktn-cstm-0046_body
   type: AssetDownloadType_Second
-- id: img_cos_fktn-cstm-0119_body
+- id: img_cos_hmsz-cstm-0011_body
+  type: AssetDownloadType_Second
+- id: img_cos_hmsz-cstm-0023_body
   type: AssetDownloadType_Second
 - id: img_cos_hrnm-cstm-0005_body
   type: AssetDownloadType_Second
@@ -754,7 +766,9 @@
   type: AssetDownloadType_Second
 - id: img_cos_hrnm-cstm-0038_body
   type: AssetDownloadType_Second
-- id: img_cos_hrnm-cstm-0119_body
+- id: img_cos_hrnm-cstm-0043_body
+  type: AssetDownloadType_Second
+- id: img_cos_hrnm-cstm-0044_body
   type: AssetDownloadType_Second
 - id: img_cos_hrnm-othr-0002_body
   type: AssetDownloadType_Second
@@ -772,21 +786,17 @@
   type: AssetDownloadType_Second
 - id: img_cos_hski-cstm-0074_body
   type: AssetDownloadType_Second
-- id: img_cos_hski-cstm-0112_body
-  type: AssetDownloadType_Second
-- id: img_cos_hski-cstm-0113_body
-  type: AssetDownloadType_Second
 - id: img_cos_hume-cstm-0010_body
   type: AssetDownloadType_Second
 - id: img_cos_hume-cstm-0022_body
   type: AssetDownloadType_Second
-- id: img_cos_hume-cstm-0119_body
+- id: img_cos_hume-cstm-0049_body
+  type: AssetDownloadType_Second
+- id: img_cos_hume-cstm-0050_body
   type: AssetDownloadType_Second
 - id: img_cos_jsna-cstm-0012_body
   type: AssetDownloadType_Second
 - id: img_cos_jsna-cstm-0024_body
-  type: AssetDownloadType_Second
-- id: img_cos_jsna-cstm-0119_body
   type: AssetDownloadType_Second
 - id: img_cos_kcna-cstm-0008_body
   type: AssetDownloadType_Second
@@ -796,8 +806,6 @@
   type: AssetDownloadType_Second
 - id: img_cos_kcna-cstm-0034_body
   type: AssetDownloadType_Second
-- id: img_cos_kcna-cstm-0119_body
-  type: AssetDownloadType_Second
 - id: img_cos_kcna-othr-0002_body
   type: AssetDownloadType_Second
 - id: img_cos_kcna-othr-0003_body
@@ -806,7 +814,13 @@
   type: AssetDownloadType_Second
 - id: img_cos_kllj-cstm-0019_body
   type: AssetDownloadType_Second
-- id: img_cos_kllj-cstm-0119_body
+- id: img_cos_kllj-cstm-0045_body
+  type: AssetDownloadType_Second
+- id: img_cos_kllj-cstm-0046_body
+  type: AssetDownloadType_Second
+- id: img_cos_kllj-cstm-0049_body
+  type: AssetDownloadType_Second
+- id: img_cos_kllj-cstm-0050_body
   type: AssetDownloadType_Second
 - id: img_cos_shro-cstm-0006_body
   type: AssetDownloadType_Second
@@ -816,7 +830,9 @@
   type: AssetDownloadType_Second
 - id: img_cos_shro-cstm-0032_body
   type: AssetDownloadType_Second
-- id: img_cos_shro-cstm-0119_body
+- id: img_cos_shro-cstm-0047_body
+  type: AssetDownloadType_Second
+- id: img_cos_shro-cstm-0048_body
   type: AssetDownloadType_Second
 - id: img_cos_ssmk-cstm-0009_body
   type: AssetDownloadType_Second
@@ -826,7 +842,9 @@
   type: AssetDownloadType_Second
 - id: img_cos_ssmk-cstm-0040_body
   type: AssetDownloadType_Second
-- id: img_cos_ssmk-cstm-0119_body
+- id: img_cos_ssmk-cstm-0043_body
+  type: AssetDownloadType_Second
+- id: img_cos_ssmk-cstm-0044_body
   type: AssetDownloadType_Second
 - id: img_cos_ttmr-cstm-0003_body
   type: AssetDownloadType_Second
@@ -836,11 +854,9 @@
   type: AssetDownloadType_Second
 - id: img_cos_ttmr-cstm-0026_body
   type: AssetDownloadType_Second
-- id: img_cos_ttmr-cstm-0112_body
+- id: img_cos_ttmr-cstm-0047_body
   type: AssetDownloadType_Second
-- id: img_cos_ttmr-cstm-0113_body
-  type: AssetDownloadType_Second
-- id: img_cos_ttmr-cstm-0119_body
+- id: img_cos_ttmr-cstm-0048_body
   type: AssetDownloadType_Second
 - id: img_gasha_banner_gasha_ssr_10-logo
   type: AssetDownloadType_First
@@ -874,35 +890,33 @@
   type: AssetDownloadType_First
 - id: img_gasha_banner_gasha-00000-standard-002-logo
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00220-pickup-001-select-m
+- id: img_gasha_banner_gasha-00420-free-10-004-logo
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00220-pickup-001-select-s
+- id: img_gasha_banner_gasha-00420-free-10-004-select-m
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00410-pickup-001-logo
+- id: img_gasha_banner_gasha-00420-free-10-004-select-s
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00410-pickup-001-select-m
+- id: img_gasha_banner_gasha-00420-pickup-001-logo
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00410-pickup-001-select-s
+- id: img_gasha_banner_gasha-00420-pickup-001-select-m
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-pickup-001-logo
+- id: img_gasha_banner_gasha-00420-pickup-001-select-s
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-001-logo
+- id: img_gasha_banner_gasha-00420-ssr-idol-support-1-logo
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-001-select-m
+- id: img_gasha_banner_gasha-00420-ssr-idol-support-1-select-m
   type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-001-select-s
-  type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-002-logo
-  type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-002-select-m
-  type: AssetDownloadType_Second
-- id: img_gasha_banner_gasha-00413-select-pickup-002-select-s
+- id: img_gasha_banner_gasha-00420-ssr-idol-support-1-select-s
   type: AssetDownloadType_Second
 - id: img_gasha_banner_gasha-ticket-ssr-idol-support-3-logo
   type: AssetDownloadType_Second
 - id: img_gasha_banner_gasha-ticket-ssr-idol-support-3-select-m
   type: AssetDownloadType_Second
 - id: img_gasha_banner_gasha-ticket-ssr-idol-support-3-select-s
+  type: AssetDownloadType_Second
+- id: img_gasha_text_00420-ssr-idol-support-1
+  type: AssetDownloadType_Second
+- id: img_gasha_text_free-10-004
   type: AssetDownloadType_Second
 - id: img_gasha_text_srfix
   type: AssetDownloadType_Second
@@ -952,28 +966,6 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-amao-3-002_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-amao-3-011_1-thumb-square
-  type: AssetDownloadType_Second
 - id: img_general_cidol-fktn-1-000_0-thumb-square
   type: AssetDownloadType_First
 - id: img_general_cidol-fktn-3-000_0-full
@@ -1020,49 +1012,73 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-fktn-3-001_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-full
+- id: img_general_cidol-fktn-3-002_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-thumb-gasha
+- id: img_general_cidol-fktn-3-002_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-thumb-landscape
+- id: img_general_cidol-fktn-3-002_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-thumb-landscape-large
+- id: img_general_cidol-fktn-3-002_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-thumb-portrait
+- id: img_general_cidol-fktn-3-002_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_0-thumb-square
+- id: img_general_cidol-fktn-3-002_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_1-full
+- id: img_general_cidol-fktn-3-002_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_1-thumb-landscape
+- id: img_general_cidol-fktn-3-002_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_1-thumb-landscape-large
+- id: img_general_cidol-fktn-3-002_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_1-thumb-portrait
+- id: img_general_cidol-fktn-3-002_1-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-011_1-thumb-square
+- id: img_general_cidol-fktn-3-002_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-full
+- id: img_general_cidol-hmsz-1-000_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-thumb-gasha
+- id: img_general_cidol-hmsz-2-000_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-thumb-landscape
+- id: img_general_cidol-hmsz-2-000_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-thumb-landscape-large
+- id: img_general_cidol-hmsz-2-000_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-thumb-portrait
+- id: img_general_cidol-hmsz-2-000_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_0-thumb-square
+- id: img_general_cidol-hmsz-2-000_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_1-full
+- id: img_general_cidol-hmsz-2-000_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_1-thumb-landscape
+- id: img_general_cidol-hmsz-2-000_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_1-thumb-landscape-large
+- id: img_general_cidol-hmsz-2-000_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_1-thumb-portrait
+- id: img_general_cidol-hmsz-2-000_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-fktn-3-012_1-thumb-square
+- id: img_general_cidol-hmsz-2-000_1-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-2-000_1-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-thumb-gasha
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_0-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_1-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_1-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_1-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_1-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hmsz-3-000_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-hrnm-3-000_0-full
   type: AssetDownloadType_Second
@@ -1085,6 +1101,28 @@
 - id: img_general_cidol-hrnm-3-000_1-thumb-portrait
   type: AssetDownloadType_Second
 - id: img_general_cidol-hrnm-3-000_1-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-thumb-gasha
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_0-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_1-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_1-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_1-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_1-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-hrnm-3-001_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-hrnm-3-002_0-full
   type: AssetDownloadType_Second
@@ -1129,28 +1167,6 @@
 - id: img_general_cidol-hrnm-3-004_1-thumb-portrait
   type: AssetDownloadType_Second
 - id: img_general_cidol-hrnm-3-004_1-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hrnm-3-011_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-hski-1-000_0-thumb-square
   type: AssetDownloadType_First
@@ -1220,28 +1236,6 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-hski-3-006_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-hski-3-012_1-thumb-square
-  type: AssetDownloadType_Second
 - id: img_general_cidol-hume-3-000_0-full
   type: AssetDownloadType_Second
 - id: img_general_cidol-hume-3-000_0-thumb-gasha
@@ -1264,27 +1258,27 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-hume-3-000_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-full
+- id: img_general_cidol-hume-3-005_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-thumb-gasha
+- id: img_general_cidol-hume-3-005_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-thumb-landscape
+- id: img_general_cidol-hume-3-005_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-thumb-landscape-large
+- id: img_general_cidol-hume-3-005_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-thumb-portrait
+- id: img_general_cidol-hume-3-005_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_0-thumb-square
+- id: img_general_cidol-hume-3-005_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_1-full
+- id: img_general_cidol-hume-3-005_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_1-thumb-landscape
+- id: img_general_cidol-hume-3-005_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_1-thumb-landscape-large
+- id: img_general_cidol-hume-3-005_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_1-thumb-portrait
+- id: img_general_cidol-hume-3-005_1-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-hume-3-011_1-thumb-square
+- id: img_general_cidol-hume-3-005_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-jsna-3-000_0-full
   type: AssetDownloadType_Second
@@ -1307,28 +1301,6 @@
 - id: img_general_cidol-jsna-3-000_1-thumb-portrait
   type: AssetDownloadType_Second
 - id: img_general_cidol-jsna-3-000_1-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-jsna-3-010_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-kcna-3-000_0-full
   type: AssetDownloadType_Second
@@ -1396,28 +1368,6 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-kcna-3-005_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-kcna-3-011_1-thumb-square
-  type: AssetDownloadType_Second
 - id: img_general_cidol-kllj-3-000_0-full
   type: AssetDownloadType_Second
 - id: img_general_cidol-kllj-3-000_0-thumb-gasha
@@ -1440,27 +1390,49 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-kllj-3-000_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-full
+- id: img_general_cidol-kllj-3-001_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-thumb-gasha
+- id: img_general_cidol-kllj-3-001_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-thumb-landscape
+- id: img_general_cidol-kllj-3-001_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-thumb-landscape-large
+- id: img_general_cidol-kllj-3-001_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-thumb-portrait
+- id: img_general_cidol-kllj-3-001_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_0-thumb-square
+- id: img_general_cidol-kllj-3-001_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_1-full
+- id: img_general_cidol-kllj-3-001_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_1-thumb-landscape
+- id: img_general_cidol-kllj-3-001_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_1-thumb-landscape-large
+- id: img_general_cidol-kllj-3-001_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_1-thumb-portrait
+- id: img_general_cidol-kllj-3-001_1-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-kllj-3-011_1-thumb-square
+- id: img_general_cidol-kllj-3-001_1-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-thumb-gasha
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_0-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_1-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_1-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_1-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_1-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-kllj-3-005_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-shro-3-000_0-full
   type: AssetDownloadType_Second
@@ -1506,27 +1478,27 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-shro-3-001_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-full
+- id: img_general_cidol-shro-3-002_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-thumb-gasha
+- id: img_general_cidol-shro-3-002_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-thumb-landscape
+- id: img_general_cidol-shro-3-002_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-thumb-landscape-large
+- id: img_general_cidol-shro-3-002_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-thumb-portrait
+- id: img_general_cidol-shro-3-002_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_0-thumb-square
+- id: img_general_cidol-shro-3-002_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_1-full
+- id: img_general_cidol-shro-3-002_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_1-thumb-landscape
+- id: img_general_cidol-shro-3-002_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_1-thumb-landscape-large
+- id: img_general_cidol-shro-3-002_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_1-thumb-portrait
+- id: img_general_cidol-shro-3-002_1-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-shro-3-011_1-thumb-square
+- id: img_general_cidol-shro-3-002_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-ssmk-3-000_0-full
   type: AssetDownloadType_Second
@@ -1550,6 +1522,28 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-ssmk-3-000_1-thumb-square
   type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-thumb-gasha
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_0-thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_1-full
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_1-thumb-landscape
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_1-thumb-landscape-large
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_1-thumb-portrait
+  type: AssetDownloadType_Second
+- id: img_general_cidol-ssmk-3-001_1-thumb-square
+  type: AssetDownloadType_Second
 - id: img_general_cidol-ssmk-3-002_0-full
   type: AssetDownloadType_Second
 - id: img_general_cidol-ssmk-3-002_0-thumb-gasha
@@ -1571,28 +1565,6 @@
 - id: img_general_cidol-ssmk-3-002_1-thumb-portrait
   type: AssetDownloadType_Second
 - id: img_general_cidol-ssmk-3-002_1-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ssmk-3-011_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_cidol-ttmr-1-000_0-thumb-square
   type: AssetDownloadType_First
@@ -1640,49 +1612,27 @@
   type: AssetDownloadType_Second
 - id: img_general_cidol-ttmr-3-001_1-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-full
+- id: img_general_cidol-ttmr-3-002_0-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-thumb-gasha
+- id: img_general_cidol-ttmr-3-002_0-thumb-gasha
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-thumb-landscape
+- id: img_general_cidol-ttmr-3-002_0-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-thumb-landscape-large
+- id: img_general_cidol-ttmr-3-002_0-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-thumb-portrait
+- id: img_general_cidol-ttmr-3-002_0-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_0-thumb-square
+- id: img_general_cidol-ttmr-3-002_0-thumb-square
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_1-full
+- id: img_general_cidol-ttmr-3-002_1-full
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_1-thumb-landscape
+- id: img_general_cidol-ttmr-3-002_1-thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_1-thumb-landscape-large
+- id: img_general_cidol-ttmr-3-002_1-thumb-landscape-large
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_1-thumb-portrait
+- id: img_general_cidol-ttmr-3-002_1-thumb-portrait
   type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-011_1-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-thumb-gasha
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_0-thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_1-full
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_1-thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_1-thumb-landscape-large
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_1-thumb-portrait
-  type: AssetDownloadType_Second
-- id: img_general_cidol-ttmr-3-012_1-thumb-square
+- id: img_general_cidol-ttmr-3-002_1-thumb-square
   type: AssetDownloadType_Second
 - id: img_general_csprt-3-0000_full
   type: AssetDownloadType_Second
@@ -1707,12 +1657,6 @@
 - id: img_general_csprt-3-0014_thumb-landscape
   type: AssetDownloadType_Second
 - id: img_general_csprt-3-0014_thumb-square
-  type: AssetDownloadType_Second
-- id: img_general_csprt-3-0020_full
-  type: AssetDownloadType_Second
-- id: img_general_csprt-3-0020_thumb-landscape
-  type: AssetDownloadType_Second
-- id: img_general_csprt-3-0020_thumb-square
   type: AssetDownloadType_Second
 - id: img_general_csprt-3-0025_full
   type: AssetDownloadType_Second
@@ -1744,17 +1688,23 @@
   type: AssetDownloadType_Second
 - id: img_general_csprt-3-0043_thumb-square
   type: AssetDownloadType_Second
-- id: img_general_csprt-3-0057_full
+- id: img_general_csprt-3-0058_full
   type: AssetDownloadType_Second
-- id: img_general_csprt-3-0057_thumb-landscape
+- id: img_general_csprt-3-0058_thumb-landscape
   type: AssetDownloadType_Second
-- id: img_general_csprt-3-0057_thumb-square
+- id: img_general_csprt-3-0058_thumb-square
+  type: AssetDownloadType_Second
+- id: img_general_gasha_bg_gasha_00420-ssr-idol-support-1
+  type: AssetDownloadType_Second
+- id: img_general_gasha_bg_gasha_gasha-free-10-004
   type: AssetDownloadType_Second
 - id: img_general_gasha_bg_gasha_ticket_ssr_idol_support_1
   type: AssetDownloadType_Second
 - id: img_general_gasha_fullname_amao
   type: AssetDownloadType_Second
 - id: img_general_gasha_fullname_fktn
+  type: AssetDownloadType_Second
+- id: img_general_gasha_fullname_hmsz
   type: AssetDownloadType_Second
 - id: img_general_gasha_fullname_hrnm
   type: AssetDownloadType_Second
@@ -1778,9 +1728,9 @@
   type: AssetDownloadType_Second
 - id: img_general_home_campaign_produce-week-006-02
   type: AssetDownloadType_Second
-- id: img_general_home_event_main-story-001
+- id: img_general_home_event_event-story-014
   type: AssetDownloadType_Second
-- id: img_general_home_event_main-story-010
+- id: img_general_home_event_main-story-001
   type: AssetDownloadType_Second
 - id: img_general_home_event_mission-comeback-daily-release
   type: AssetDownloadType_Second
@@ -1788,13 +1738,11 @@
   type: AssetDownloadType_Second
 - id: img_general_home_friend_invitation-banner-01
   type: AssetDownloadType_First
-- id: img_general_home_gasha_gasha-00220-pickup-001
+- id: img_general_home_gasha_gasha-00420-pickup-001
   type: AssetDownloadType_Second
-- id: img_general_home_gasha_gasha-00410-pickup-001
+- id: img_general_home_gasha_gasha-00420-ssr-idol-support-1
   type: AssetDownloadType_Second
-- id: img_general_home_gasha_gasha-00413-select-pickup-001
-  type: AssetDownloadType_Second
-- id: img_general_home_gasha_gasha-00413-select-pickup-002
+- id: img_general_home_gasha_gasha-free-10-004
   type: AssetDownloadType_Second
 - id: img_general_home_gasha_ssr_10-banner-01
   type: AssetDownloadType_First
@@ -1804,13 +1752,19 @@
   type: AssetDownloadType_Second
 - id: img_general_home_pr_youtube-hatsumi-kyoushitsu-02
   type: AssetDownloadType_Second
+- id: img_general_home_shop_costume-child-smock-resale-001
+  type: AssetDownloadType_Second
 - id: img_general_home_shop_jewel_item-0008-banner-01
   type: AssetDownloadType_Second
-- id: img_general_home_shop_jewel_item-0021-banner-01
+- id: img_general_home_shop_jewel_item-0008-banner-02
+  type: AssetDownloadType_Second
+- id: img_general_home_shop_jewel_item-0015-banner-01
   type: AssetDownloadType_Second
 - id: img_general_home_shop_pack_costume-0001
   type: AssetDownloadType_Second
 - id: img_general_home_shop_pack_item-0015
+  type: AssetDownloadType_Second
+- id: img_general_home_shop_pack_item-0018-0020
   type: AssetDownloadType_Second
 - id: img_general_home_shop_pack_item-0051
   type: AssetDownloadType_Second
@@ -2008,6 +1962,8 @@
   type: AssetDownloadType_Second
 - id: img_general_pitem_2-030
   type: AssetDownloadType_Second
+- id: img_general_pitem_2-090
+  type: AssetDownloadType_Second
 - id: img_general_pitem_3-001
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-002
@@ -2066,17 +2022,33 @@
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-032
   type: AssetDownloadType_Second
+- id: img_general_pitem_3-033
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-034
+  type: AssetDownloadType_Second
 - id: img_general_pitem_3-035
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-037
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-038
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-039
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-042
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-043
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-044
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-045
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-047
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-048
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-049
+  type: AssetDownloadType_Second
+- id: img_general_pitem_3-050
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-051
   type: AssetDownloadType_Second
@@ -2088,21 +2060,15 @@
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-059
   type: AssetDownloadType_Second
-- id: img_general_pitem_3-063
-  type: AssetDownloadType_Second
 - id: img_general_pitem_3-065
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-066
   type: AssetDownloadType_Second
 - id: img_general_pitem_3-067
   type: AssetDownloadType_Second
-- id: img_general_pitem_3-125
+- id: img_general_pitem_3-126
   type: AssetDownloadType_Second
-- id: img_general_pitem_3-130
-  type: AssetDownloadType_Second
-- id: img_general_pitem_3-131
-  type: AssetDownloadType_Second
-- id: img_general_pitem_3-132
+- id: img_general_pitem_3-133
   type: AssetDownloadType_Second
 - id: img_general_report_akapen_shro-001
   type: AssetDownloadType_First
@@ -2148,6 +2114,12 @@
   type: AssetDownloadType_Second
 - id: img_general_shop_costume_0017-small
   type: AssetDownloadType_Second
+- id: img_general_shop_costume_0018-small
+  type: AssetDownloadType_Second
+- id: img_general_shop_costume_0019-small
+  type: AssetDownloadType_Second
+- id: img_general_shop_costume_0020-small
+  type: AssetDownloadType_Second
 - id: img_general_shop_jewel_0001-small
   type: AssetDownloadType_Second
 - id: img_general_shop_jewel_0002-small
@@ -2174,13 +2146,13 @@
   type: AssetDownloadType_Second
 - id: img_general_shop_jewel_0010-small
   type: AssetDownloadType_Second
-- id: img_general_shop_jewel_0020-large
+- id: img_general_shop_jewel_0018-large
   type: AssetDownloadType_Second
-- id: img_general_shop_jewel_0020-small
+- id: img_general_shop_jewel_0018-small
   type: AssetDownloadType_Second
-- id: img_general_shop_jewel_0021-large
+- id: img_general_shop_jewel_0019-large
   type: AssetDownloadType_Second
-- id: img_general_shop_jewel_0021-small
+- id: img_general_shop_jewel_0019-small
   type: AssetDownloadType_Second
 - id: img_general_shop_pack_0001-large
   type: AssetDownloadType_Second
@@ -2242,6 +2214,10 @@
   type: AssetDownloadType_Second
 - id: img_general_shop_pack_0042-small
   type: AssetDownloadType_Second
+- id: img_general_shop_pack_0046-large
+  type: AssetDownloadType_Second
+- id: img_general_shop_pack_0046-small
+  type: AssetDownloadType_Second
 - id: img_general_shop_pack_0052-large
   type: AssetDownloadType_Second
 - id: img_general_shop_pack_0052-small
@@ -2255,6 +2231,10 @@
 - id: img_general_sign_fktn_00
   type: AssetDownloadType_Second
 - id: img_general_sign_fktn_01
+  type: AssetDownloadType_Second
+- id: img_general_sign_hmsz_00
+  type: AssetDownloadType_Second
+- id: img_general_sign_hmsz_01
   type: AssetDownloadType_Second
 - id: img_general_sign_hrnm_00
   type: AssetDownloadType_Second
@@ -2326,6 +2306,8 @@
   type: AssetDownloadType_First
 - id: img_general_skillcard_ido-1_012
   type: AssetDownloadType_First
+- id: img_general_skillcard_ido-2_084
+  type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_013
   type: AssetDownloadType_First
 - id: img_general_skillcard_ido-3_014
@@ -2352,11 +2334,25 @@
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_068
   type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_069
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_070
+  type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_071
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_073
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_074
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_075
   type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_077
+  type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_078
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_079
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_080
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_081
   type: AssetDownloadType_Second
@@ -2364,17 +2360,15 @@
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_084
   type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_085
+  type: AssetDownloadType_Second
+- id: img_general_skillcard_ido-3_086
+  type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_087
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_096
   type: AssetDownloadType_Second
 - id: img_general_skillcard_ido-3_097
-  type: AssetDownloadType_Second
-- id: img_general_skillcard_ido-3_127
-  type: AssetDownloadType_Second
-- id: img_general_skillcard_ido-3_128
-  type: AssetDownloadType_Second
-- id: img_general_skillcard_ido-3_129
   type: AssetDownloadType_Second
 - id: img_general_skillcard_men-0_003
   type: AssetDownloadType_First
@@ -2396,6 +2390,8 @@
   type: AssetDownloadType_Second
 - id: img_general_ui_fullname_fktn
   type: AssetDownloadType_First
+- id: img_general_ui_fullname_hmsz
+  type: AssetDownloadType_Second
 - id: img_general_ui_fullname_hski
   type: AssetDownloadType_First
 - id: img_general_ui_fullname_ttmr
@@ -2412,15 +2408,17 @@
   type: AssetDownloadType_First
 - id: img_general_ui_p-pocket-book_fktn
   type: AssetDownloadType_First
+- id: img_general_ui_p-pocket-book_hmsz
+  type: AssetDownloadType_Second
 - id: img_general_ui_p-pocket-book_hski
   type: AssetDownloadType_First
 - id: img_general_ui_p-pocket-book_ttmr
   type: AssetDownloadType_First
 - id: img_general_ui_produce-group-1_bg
   type: AssetDownloadType_Second
-- id: img_login_bg_event2d-002
+- id: img_login_bg_event2d-011
   type: AssetDownloadType_Second
-- id: img_login_title_event2d-012
+- id: img_login_title_event2d-011
   type: AssetDownloadType_Second
 - id: img_login_title_event3d-000
   type: AssetDownloadType_Second
@@ -2428,19 +2426,13 @@
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-amao-3-000
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-amao-3-011
-  type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-fktn-3-000
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-fktn-3-001
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-fktn-3-011
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-fktn-3-012
+- id: img_mov_general_gasha_bg_idol_cidol-hmsz-3-000
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-hrnm-3-000
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-hrnm-3-011
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-hski-3-000
   type: AssetDownloadType_First
@@ -2448,39 +2440,21 @@
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-hski-3-006
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-hski-3-012
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-hume-3-011
-  type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-jsna-3-000
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-jsna-3-010
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-kcna-3-000
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-kcna-3-011
-  type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-kllj-3-000
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-kllj-3-011
-  type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-shro-3-000
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-shro-3-011
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-ssmk-3-000
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-ssmk-3-002
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-ssmk-3-011
-  type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-ttmr-3-000
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_idol_cidol-ttmr-3-001
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-ttmr-3-011
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_idol_cidol-ttmr-3-012
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_support_csprt-3-0000
   type: AssetDownloadType_Second
@@ -2489,8 +2463,6 @@
 - id: img_mov_general_gasha_bg_support_csprt-3-0008
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_support_csprt-3-0014
-  type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_support_csprt-3-0020
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_support_csprt-3-0025
   type: AssetDownloadType_Second
@@ -2502,7 +2474,7 @@
   type: AssetDownloadType_Second
 - id: img_mov_general_gasha_bg_support_csprt-3-0043
   type: AssetDownloadType_Second
-- id: img_mov_general_gasha_bg_support_csprt-3-0057
+- id: img_mov_general_gasha_bg_support_csprt-3-0058
   type: AssetDownloadType_Second
 - id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-amao-3-000
   type: AssetDownloadType_Second
@@ -2511,6 +2483,10 @@
 - id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-hrnm-3-000
   type: AssetDownloadType_Second
 - id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-hski-3-000
+  type: AssetDownloadType_Second
+- id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-hume-3-000
+  type: AssetDownloadType_Second
+- id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-jsna-3-000
   type: AssetDownloadType_Second
 - id: img_mov_tutorial_tutorial-receive-idolcard_bg_cidol-kcna-3-000
   type: AssetDownloadType_Second
@@ -2538,9 +2514,9 @@
   type: AssetDownloadType_Second
 - id: img_notice_event_contest-01_banner-01-small
   type: AssetDownloadType_Second
-- id: img_notice_event_event-main-story-010
-  type: AssetDownloadType_Second
 - id: img_notice_event_event-panel-mission-001_banner-01-small
+  type: AssetDownloadType_Second
+- id: img_notice_event_event-story-014
   type: AssetDownloadType_Second
 - id: img_notice_event_highscore-event-002-large
   type: AssetDownloadType_Second
@@ -2614,19 +2590,29 @@
   type: AssetDownloadType_Second
 - id: img_notice_gasha_gasha-00400-pickup-001-banner-01-large
   type: AssetDownloadType_Second
-- id: img_notice_gasha_gasha-00410-pickup-001
-  type: AssetDownloadType_Second
 - id: img_notice_gasha_gasha-00410-pickup-001-banner-01-large
-  type: AssetDownloadType_Second
-- id: img_notice_gasha_gasha-00413-select-pickup-001
   type: AssetDownloadType_Second
 - id: img_notice_gasha_gasha-00413-select-pickup-001-banner-01-large
   type: AssetDownloadType_Second
 - id: img_notice_gasha_gasha-00413-select-pickup-002-banner-01-large
   type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-00420-pickup-001
+  type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-00420-pickup-001-banner-01-large
+  type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-00420-ssr-idol-support-1
+  type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-00420-ssr-idol-support-1-banner-01-large
+  type: AssetDownloadType_Second
 - id: img_notice_gasha_gasha-free-10-003-banner
   type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-free-10-004
+  type: AssetDownloadType_Second
+- id: img_notice_gasha_gasha-free-10-004-banner
+  type: AssetDownloadType_Second
 - id: img_notice_gasha_ssr_10
+  type: AssetDownloadType_Second
+- id: img_notice_idol_join-hmsz-01
   type: AssetDownloadType_Second
 - id: img_notice_information_birthday-amao-2025-large
   type: AssetDownloadType_Second
@@ -2645,6 +2631,8 @@
 - id: img_notice_information_birthday-shro-2024-large
   type: AssetDownloadType_Second
 - id: img_notice_information_birthday-ssmk-2024-large
+  type: AssetDownloadType_Second
+- id: img_notice_information_join-hmsz-notice-large
   type: AssetDownloadType_Second
 - id: img_notice_information_join-hume-notice-small
   type: AssetDownloadType_Second
@@ -2693,6 +2681,10 @@
 - id: img_notice_notice-list_event_story_event-story-005-banner
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_event_story_event-story-013-banner
+  type: AssetDownloadType_Second
+- id: img_notice_notice-list_event_story_event-story-014-banner
+  type: AssetDownloadType_Second
+- id: img_notice_notice-list_information_produce-005-add-banner-01-large-pre
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_information_realese-001-large
   type: AssetDownloadType_Second
@@ -2756,13 +2748,23 @@
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_pr_starlit-season-banner-04
   type: AssetDownloadType_Second
+- id: img_notice_notice-list_shop_coin-gasha-update
+  type: AssetDownloadType_Second
 - id: img_notice_notice-list_shop_costume_0001
+  type: AssetDownloadType_Second
+- id: img_notice_notice-list_shop_costume_child-smock-resale-001
+  type: AssetDownloadType_Second
+- id: img_notice_notice-list_shop_costume_costume-head-add-001
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_shop_jewel_0014-1-large
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_shop_jewel_0017-large
   type: AssetDownloadType_Second
+- id: img_notice_notice-list_shop_jewel_0018-large
+  type: AssetDownloadType_Second
 - id: img_notice_notice-list_shop_jewel_0020-large
+  type: AssetDownloadType_Second
+- id: img_notice_notice-list_shop_pack_0018-0020
   type: AssetDownloadType_Second
 - id: img_notice_notice-list_shop_pack_0023
   type: AssetDownloadType_Second
@@ -2790,7 +2792,7 @@
   type: AssetDownloadType_Second
 - id: img_notice_shop_jewel_item-0010
   type: AssetDownloadType_Second
-- id: img_notice_shop_jewel_item-0020
+- id: img_notice_shop_jewel_item-0018
   type: AssetDownloadType_Second
 - id: img_notice_shop_pack_item-0001
   type: AssetDownloadType_Second
@@ -2816,7 +2818,11 @@
   type: AssetDownloadType_Second
 - id: img_notice_shop_pack_item-0018
   type: AssetDownloadType_Second
+- id: img_notice_shop_pack_item-0018-0020
+  type: AssetDownloadType_Second
 - id: img_notice_shop_pack_item-0033
+  type: AssetDownloadType_Second
+- id: img_notice_shop_pack_item-0046
   type: AssetDownloadType_Second
 - id: img_notice_shop_pack_item-0052
   type: AssetDownloadType_Second
@@ -2828,6 +2834,8 @@
   type: AssetDownloadType_Second
 - id: img_produce_refresh_fktn
   type: AssetDownloadType_First
+- id: img_produce_refresh_hmsz
+  type: AssetDownloadType_Second
 - id: img_produce_refresh_hski
   type: AssetDownloadType_First
 - id: img_produce_refresh_ttmr
@@ -2842,6 +2850,12 @@
   type: AssetDownloadType_First
 - id: img_sd_fktn_face-00
   type: AssetDownloadType_First
+- id: img_sd_hmsz_cmmn-00
+  type: AssetDownloadType_Second
+- id: img_sd_hmsz_cmmn-01
+  type: AssetDownloadType_Second
+- id: img_sd_hmsz_face-00
+  type: AssetDownloadType_Second
 - id: img_sd_hrnm_cmmn-00
   type: AssetDownloadType_First
 - id: img_sd_hrnm_cmmn-01
@@ -2950,13 +2964,15 @@
   type: AssetDownloadType_Second
 - id: img_tutorial_event_panel_event-panel-mission-001-02
   type: AssetDownloadType_Second
-- id: img_tutorial_event_story_event-story-013-01
+- id: img_tutorial_event_story_event-story-014-01
   type: AssetDownloadType_Second
-- id: img_tutorial_event_story_event-story-013-02
+- id: img_tutorial_event_story_event-story-014-02
   type: AssetDownloadType_Second
-- id: img_tutorial_event_story_event-story-013-03
+- id: img_tutorial_event_story_event-story-014-03
   type: AssetDownloadType_Second
-- id: img_tutorial_event_story_event-story-013-04
+- id: img_tutorial_event_story_event-story-014-04
+  type: AssetDownloadType_Second
+- id: img_tutorial_event_story_event-story-014-05
   type: AssetDownloadType_Second
 - id: img_tutorial_first-idolselect_001-fktn
   type: AssetDownloadType_First
@@ -3172,8 +3188,6 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_amao-cstm-0035_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_amao-cstm-0119_body
-  type: AssetDownloadType_Second
 - id: mdl_chr_fktn-base-0000_face
   type: AssetDownloadType_First
 - id: mdl_chr_fktn-base-0000_hair
@@ -3192,14 +3206,20 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_fktn-cstm-0027_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_fktn-cstm-0112_body
+- id: mdl_chr_fktn-cstm-0045_body
   type: AssetDownloadType_Second
-- id: mdl_chr_fktn-cstm-0112_hair
+- id: mdl_chr_fktn-cstm-0045_face
   type: AssetDownloadType_Second
-- id: mdl_chr_fktn-cstm-0119_body
+- id: mdl_chr_fktn-cstm-0045_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_fktn-trng-0000_body
   type: AssetDownloadType_First
+- id: mdl_chr_hmsz-cstm-0011_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_hmsz-cstm-0011_face
+  type: AssetDownloadType_Second
+- id: mdl_chr_hmsz-cstm-0011_hair
+  type: AssetDownloadType_Second
 - id: mdl_chr_hrnm-base-0000_face
   type: AssetDownloadType_Second
 - id: mdl_chr_hrnm-base-0000_hair
@@ -3216,7 +3236,11 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_hrnm-cstm-0037_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_hrnm-cstm-0119_body
+- id: mdl_chr_hrnm-cstm-0043_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_hrnm-cstm-0043_face
+  type: AssetDownloadType_Second
+- id: mdl_chr_hrnm-cstm-0043_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_hrnm-othr-0002_body
   type: AssetDownloadType_Second
@@ -3242,10 +3266,6 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_hski-cstm-0070_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_hski-cstm-0112_body
-  type: AssetDownloadType_Second
-- id: mdl_chr_hski-cstm-0112_hair
-  type: AssetDownloadType_Second
 - id: mdl_chr_hski-schl-0000_body
   type: AssetDownloadType_First
 - id: mdl_chr_hski-trng-0000_body
@@ -3260,7 +3280,9 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_hume-cstm-0010_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_hume-cstm-0119_body
+- id: mdl_chr_hume-cstm-0049_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_hume-cstm-0049_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_hume-schl-0000_body
   type: AssetDownloadType_First
@@ -3271,8 +3293,6 @@
 - id: mdl_chr_jsna-cstm-0012_body
   type: AssetDownloadType_Second
 - id: mdl_chr_jsna-cstm-0012_hair
-  type: AssetDownloadType_Second
-- id: mdl_chr_jsna-cstm-0119_body
   type: AssetDownloadType_Second
 - id: mdl_chr_jsna-schl-0000_body
   type: AssetDownloadType_Second
@@ -3292,8 +3312,6 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_kcna-cstm-0033_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_kcna-cstm-0119_body
-  type: AssetDownloadType_Second
 - id: mdl_chr_kcna-othr-0002_body
   type: AssetDownloadType_Second
 - id: mdl_chr_kllj-base-0000_face
@@ -3306,7 +3324,15 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_kllj-cstm-0007_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_kllj-cstm-0119_body
+- id: mdl_chr_kllj-cstm-0045_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_kllj-cstm-0045_face
+  type: AssetDownloadType_Second
+- id: mdl_chr_kllj-cstm-0045_hair
+  type: AssetDownloadType_Second
+- id: mdl_chr_kllj-cstm-0049_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_kllj-cstm-0049_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_kllj-schl-0000_body
   type: AssetDownloadType_Second
@@ -3332,7 +3358,11 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_shro-cstm-0031_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_shro-cstm-0119_body
+- id: mdl_chr_shro-cstm-0047_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_shro-cstm-0047_face
+  type: AssetDownloadType_Second
+- id: mdl_chr_shro-cstm-0047_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_ssmk-base-0000_face
   type: AssetDownloadType_Second
@@ -3350,7 +3380,11 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_ssmk-cstm-0039_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_ssmk-cstm-0119_body
+- id: mdl_chr_ssmk-cstm-0043_body
+  type: AssetDownloadType_Second
+- id: mdl_chr_ssmk-cstm-0043_face
+  type: AssetDownloadType_Second
+- id: mdl_chr_ssmk-cstm-0043_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_ssmk-schl-0000_body
   type: AssetDownloadType_Second
@@ -3378,11 +3412,11 @@
   type: AssetDownloadType_Second
 - id: mdl_chr_ttmr-cstm-0025_hair
   type: AssetDownloadType_Second
-- id: mdl_chr_ttmr-cstm-0112_body
+- id: mdl_chr_ttmr-cstm-0047_body
   type: AssetDownloadType_Second
-- id: mdl_chr_ttmr-cstm-0112_hair
+- id: mdl_chr_ttmr-cstm-0047_face
   type: AssetDownloadType_Second
-- id: mdl_chr_ttmr-cstm-0119_body
+- id: mdl_chr_ttmr-cstm-0047_hair
   type: AssetDownloadType_Second
 - id: mdl_chr_ttmr-trng-0000_body
   type: AssetDownloadType_First
@@ -3394,7 +3428,7 @@
   type: AssetDownloadType_First
 - id: mdl_env_grp_cache_produce-00
   type: AssetDownloadType_First
-- id: mdl_env_grp_home_boards_anniversary2025-00
+- id: mdl_env_grp_home_boards_anniversary2025-01
   type: AssetDownloadType_Second
 - id: mdl_env_grp_home_boards_birthdayamao-00
   type: AssetDownloadType_Second
@@ -4178,14 +4212,6 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-amao-3-002_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-amao-3-011_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-amao-3-011_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-amao-3-011_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-amao-3-011_1.usm
-  type: AssetDownloadType_Second
 - id: mov_general_cidol-fktn-3-000_1-gasha.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-fktn-3-000_1-loop-gasha.usm
@@ -4202,21 +4228,21 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-fktn-3-001_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-011_1-gasha.usm
+- id: mov_general_cidol-fktn-3-002_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-011_1-loop-gasha.usm
+- id: mov_general_cidol-fktn-3-002_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-011_1-loop.usm
+- id: mov_general_cidol-fktn-3-002_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-011_1.usm
+- id: mov_general_cidol-fktn-3-002_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-012_1-gasha.usm
+- id: mov_general_cidol-hmsz-3-000_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-012_1-loop-gasha.usm
+- id: mov_general_cidol-hmsz-3-000_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-012_1-loop.usm
+- id: mov_general_cidol-hmsz-3-000_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-fktn-3-012_1.usm
+- id: mov_general_cidol-hmsz-3-000_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hrnm-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4225,6 +4251,14 @@
 - id: mov_general_cidol-hrnm-3-000_1-loop.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hrnm-3-000_1.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-hrnm-3-001_1-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-hrnm-3-001_1-loop-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-hrnm-3-001_1-loop.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-hrnm-3-001_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hrnm-3-002_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4241,14 +4275,6 @@
 - id: mov_general_cidol-hrnm-3-004_1-loop.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hrnm-3-004_1.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hrnm-3-011_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hrnm-3-011_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hrnm-3-011_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hrnm-3-011_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hski-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4274,14 +4300,6 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hski-3-006_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-hski-3-012_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hski-3-012_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hski-3-012_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-hski-3-012_1.usm
-  type: AssetDownloadType_Second
 - id: mov_general_cidol-hume-3-000_1-gasha.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hume-3-000_1-loop-gasha.usm
@@ -4290,13 +4308,13 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-hume-3-000_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-hume-3-011_1-gasha.usm
+- id: mov_general_cidol-hume-3-005_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-hume-3-011_1-loop-gasha.usm
+- id: mov_general_cidol-hume-3-005_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-hume-3-011_1-loop.usm
+- id: mov_general_cidol-hume-3-005_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-hume-3-011_1.usm
+- id: mov_general_cidol-hume-3-005_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-jsna-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4305,14 +4323,6 @@
 - id: mov_general_cidol-jsna-3-000_1-loop.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-jsna-3-000_1.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-jsna-3-010_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-jsna-3-010_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-jsna-3-010_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-jsna-3-010_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-kcna-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4338,14 +4348,6 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-kcna-3-005_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-kcna-3-011_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-kcna-3-011_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-kcna-3-011_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-kcna-3-011_1.usm
-  type: AssetDownloadType_Second
 - id: mov_general_cidol-kllj-3-000_1-gasha.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-kllj-3-000_1-loop-gasha.usm
@@ -4354,13 +4356,21 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-kllj-3-000_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-kllj-3-011_1-gasha.usm
+- id: mov_general_cidol-kllj-3-001_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-kllj-3-011_1-loop-gasha.usm
+- id: mov_general_cidol-kllj-3-001_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-kllj-3-011_1-loop.usm
+- id: mov_general_cidol-kllj-3-001_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-kllj-3-011_1.usm
+- id: mov_general_cidol-kllj-3-001_1.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-kllj-3-005_1-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-kllj-3-005_1-loop-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-kllj-3-005_1-loop.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-kllj-3-005_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-shro-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4378,13 +4388,13 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-shro-3-001_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-shro-3-011_1-gasha.usm
+- id: mov_general_cidol-shro-3-002_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-shro-3-011_1-loop-gasha.usm
+- id: mov_general_cidol-shro-3-002_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-shro-3-011_1-loop.usm
+- id: mov_general_cidol-shro-3-002_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-shro-3-011_1.usm
+- id: mov_general_cidol-shro-3-002_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ssmk-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4394,6 +4404,14 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ssmk-3-000_1.usm
   type: AssetDownloadType_Second
+- id: mov_general_cidol-ssmk-3-001_1-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-ssmk-3-001_1-loop-gasha.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-ssmk-3-001_1-loop.usm
+  type: AssetDownloadType_Second
+- id: mov_general_cidol-ssmk-3-001_1.usm
+  type: AssetDownloadType_Second
 - id: mov_general_cidol-ssmk-3-002_1-gasha.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ssmk-3-002_1-loop-gasha.usm
@@ -4401,14 +4419,6 @@
 - id: mov_general_cidol-ssmk-3-002_1-loop.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ssmk-3-002_1.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ssmk-3-011_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ssmk-3-011_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ssmk-3-011_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ssmk-3-011_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ttmr-3-000_1-gasha.usm
   type: AssetDownloadType_Second
@@ -4426,33 +4436,19 @@
   type: AssetDownloadType_Second
 - id: mov_general_cidol-ttmr-3-001_1.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-011_1-gasha.usm
+- id: mov_general_cidol-ttmr-3-002_1-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-011_1-loop-gasha.usm
+- id: mov_general_cidol-ttmr-3-002_1-loop-gasha.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-011_1-loop.usm
+- id: mov_general_cidol-ttmr-3-002_1-loop.usm
   type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-011_1.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-012_1-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-012_1-loop-gasha.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-012_1-loop.usm
-  type: AssetDownloadType_Second
-- id: mov_general_cidol-ttmr-3-012_1.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-amao-3-011.usm
+- id: mov_general_cidol-ttmr-3-002_1.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-fktn-3-000.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-fktn-3-001.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-fktn-3-011.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-fktn-3-012.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-hrnm-3-011.usm
+- id: mov_general_gasha_bg_idol_cidol-hmsz-3-000.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-hski-3-000.usm
   type: AssetDownloadType_Second
@@ -4460,31 +4456,13 @@
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-hski-3-006.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-hski-3-012.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-hume-3-011.usm
-  type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-jsna-3-000.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-jsna-3-010.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-kcna-3-011.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-kllj-3-011.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-shro-3-011.usm
-  type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-ssmk-3-002.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-ssmk-3-011.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-ttmr-3-000.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_idol_cidol-ttmr-3-001.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-ttmr-3-011.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_idol_cidol-ttmr-3-012.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_support_csprt-3-0000.usm
   type: AssetDownloadType_Second
@@ -4493,8 +4471,6 @@
 - id: mov_general_gasha_bg_support_csprt-3-0008.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_support_csprt-3-0014.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_support_csprt-3-0020.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_support_csprt-3-0025.usm
   type: AssetDownloadType_Second
@@ -4506,29 +4482,27 @@
   type: AssetDownloadType_Second
 - id: mov_general_gasha_bg_support_csprt-3-0043.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_bg_support_csprt-3-0057.usm
+- id: mov_general_gasha_bg_support_csprt-3-0058.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-amao-3-000-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-amao-3-002-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-amao-3-011-result.usm
-  type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-fktn-3-000-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-fktn-3-001-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-fktn-3-011-result.usm
+- id: mov_general_gasha_live_i_card-skin-fktn-3-002-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-fktn-3-012-result.usm
+- id: mov_general_gasha_live_i_card-skin-hmsz-3-000-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hrnm-3-000-result.usm
+  type: AssetDownloadType_Second
+- id: mov_general_gasha_live_i_card-skin-hrnm-3-001-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hrnm-3-002-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hrnm-3-004-result.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-hrnm-3-011-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hski-3-000-result.usm
   type: AssetDownloadType_Second
@@ -4536,15 +4510,11 @@
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hski-3-006-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-hski-3-012-result.usm
-  type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-hume-3-000-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-hume-3-011-result.usm
+- id: mov_general_gasha_live_i_card-skin-hume-3-005-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-jsna-3-000-result.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-jsna-3-010-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-kcna-3-000-result.usm
   type: AssetDownloadType_Second
@@ -4552,31 +4522,29 @@
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-kcna-3-005-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-kcna-3-011-result.usm
-  type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-kllj-3-000-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-kllj-3-011-result.usm
+- id: mov_general_gasha_live_i_card-skin-kllj-3-001-result.usm
+  type: AssetDownloadType_Second
+- id: mov_general_gasha_live_i_card-skin-kllj-3-005-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-shro-3-000-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-shro-3-001-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-shro-3-011-result.usm
+- id: mov_general_gasha_live_i_card-skin-shro-3-002-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-ssmk-3-000-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-ssmk-3-002-result.usm
+- id: mov_general_gasha_live_i_card-skin-ssmk-3-001-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-ssmk-3-011-result.usm
+- id: mov_general_gasha_live_i_card-skin-ssmk-3-002-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-ttmr-3-000-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_gasha_live_i_card-skin-ttmr-3-001-result.usm
   type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-ttmr-3-011-result.usm
-  type: AssetDownloadType_Second
-- id: mov_general_gasha_live_i_card-skin-ttmr-3-012-result.usm
+- id: mov_general_gasha_live_i_card-skin-ttmr-3-002-result.usm
   type: AssetDownloadType_Second
 - id: mov_general_media_opening_001.usm
   type: AssetDownloadType_First
@@ -4587,6 +4555,10 @@
 - id: mov_tutorial_tutorial-receive-idolcard_bg_cidol-hrnm-3-000.usm
   type: AssetDownloadType_Second
 - id: mov_tutorial_tutorial-receive-idolcard_bg_cidol-hski-3-000.usm
+  type: AssetDownloadType_Second
+- id: mov_tutorial_tutorial-receive-idolcard_bg_cidol-hume-3-000.usm
+  type: AssetDownloadType_Second
+- id: mov_tutorial_tutorial-receive-idolcard_bg_cidol-jsna-3-000.usm
   type: AssetDownloadType_Second
 - id: mov_tutorial_tutorial-receive-idolcard_bg_cidol-kcna-3-000.usm
   type: AssetDownloadType_Second
@@ -4770,6 +4742,8 @@
   type: AssetDownloadType_Second
 - id: sud_music_general_all-001-fktn_game.awb
   type: AssetDownloadType_Second
+- id: sud_music_general_all-001-hmsz_game.mp3
+  type: AssetDownloadType_Second
 - id: sud_music_general_all-001-hrnm_game.acb
   type: AssetDownloadType_Second
 - id: sud_music_general_all-001-hrnm_game.awb
@@ -4806,27 +4780,23 @@
   type: AssetDownloadType_Second
 - id: sud_music_general_all-001-ttmr_game.awb
   type: AssetDownloadType_Second
-- id: sud_music_general_all-008-amao_game.mp3
+- id: sud_music_general_all-003-hrnm_game.mp3
   type: AssetDownloadType_Second
-- id: sud_music_general_all-008-fktn_game.mp3
+- id: sud_music_general_all-003-ssmk_game.mp3
   type: AssetDownloadType_Second
-- id: sud_music_general_all-008-hrnm_game.mp3
+- id: sud_music_general_all-004-fktn_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_all-004-kllj_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_all-005-shro_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_all-005-ttmr_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_all-006-hume_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_all-006-kllj_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_general_all-008-hski_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-hume_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-jsna_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-kcna_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-kllj_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-shro_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-ssmk_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_all-008-ttmr_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_general_amao-001-amao_game.acb
   type: AssetDownloadType_Second
@@ -4843,6 +4813,8 @@
 - id: sud_music_general_fktn-001-fktn_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_general_fktn-002-fktn_game.mp3
+  type: AssetDownloadType_Second
+- id: sud_music_general_hmsz-001-hmsz_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_general_hrnm-001-hrnm_game.acb
   type: AssetDownloadType_Second
@@ -4905,8 +4877,6 @@
 - id: sud_music_general_ttmr-001-ttmr_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_general_ttmr-002-ttmr_game.mp3
-  type: AssetDownloadType_Second
-- id: sud_music_general_unit-001-reiris_game.mp3
   type: AssetDownloadType_Second
 - id: sud_music_live_all-001-fktn_normal-003
   type: AssetDownloadType_First
@@ -5022,9 +4992,13 @@
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-fktn-3-001_idol_details-02.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_cidol-fktn-3-011_idol_details-02.acb
+- id: sud_vo_system_cidol-fktn-3-002_idol_details-02.acb
+  type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-hmsz-3-000_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-hrnm-3-000_idol_details-02.acb
+  type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-hrnm-3-001_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-hrnm-3-002_idol_details-02.acb
   type: AssetDownloadType_Second
@@ -5036,9 +5010,9 @@
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-hski-3-006_idol_details-02.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_cidol-hski-3-012_idol_details-02.acb
-  type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-hume-3-000_idol_details-02.acb
+  type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-hume-3-005_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-jsna-3-000_idol_details-02.acb
   type: AssetDownloadType_Second
@@ -5050,11 +5024,19 @@
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-kllj-3-000_idol_details-02.acb
   type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-kllj-3-001_idol_details-02.acb
+  type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-kllj-3-005_idol_details-02.acb
+  type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-shro-3-000_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-shro-3-001_idol_details-02.acb
   type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-shro-3-002_idol_details-02.acb
+  type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-ssmk-3-000_idol_details-02.acb
+  type: AssetDownloadType_Second
+- id: sud_vo_system_cidol-ssmk-3-001_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-ssmk-3-002_idol_details-02.acb
   type: AssetDownloadType_Second
@@ -5062,7 +5044,7 @@
   type: AssetDownloadType_Second
 - id: sud_vo_system_cidol-ttmr-3-001_idol_details-02.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_cidol-ttmr-3-011_idol_details-02.acb
+- id: sud_vo_system_cidol-ttmr-3-002_idol_details-02.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_csprt-3-0000_01-hski.acb
   type: AssetDownloadType_Second
@@ -5087,12 +5069,6 @@
 - id: sud_vo_system_csprt-3-0014_02-jsna.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_csprt-3-0014_03-fktn.acb
-  type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0020_01-nasr.acb
-  type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0020_02-nasr.acb
-  type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0020_03-nasr.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_csprt-3-0025_01-kcna.acb
   type: AssetDownloadType_Second
@@ -5124,11 +5100,11 @@
   type: AssetDownloadType_Second
 - id: sud_vo_system_csprt-3-0043_03-ssmk.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0057_01-hski.acb
+- id: sud_vo_system_csprt-3-0058_01-ttmr.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0057_02-fktn.acb
+- id: sud_vo_system_csprt-3-0058_02-hmsz.acb
   type: AssetDownloadType_Second
-- id: sud_vo_system_csprt-3-0057_03-ttmr.acb
+- id: sud_vo_system_csprt-3-0058_03-hmsz.acb
   type: AssetDownloadType_Second
 - id: sud_vo_system_fktn_cmmn_screen-01.acb
   type: AssetDownloadType_First

@@ -272,7 +272,7 @@
   characterId: amao
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -724,7 +724,7 @@
   characterId: fktn
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -974,6 +974,98 @@
   viewConditionSetId: ""
   viewStartTime: "1730858400000"
   order: 39903
+- id: hmsz-cstm-0000
+  characterId: hmsz
+  name: 初（はじめ）
+  motifId: cstm-0000
+  description: 最初から所持
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-cstm-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129700
+- id: hmsz-cstm-0011
+  characterId: hmsz
+  name: ツキノカメ
+  motifId: cstm-0011
+  description: 【ツキノカメ】秦谷 美鈴を入手
+  costumeColorGroupId: cstm-color-group-hmsz-cstm-0011
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-cstm-0011-cmmn
+  resourceOriginType: ResourceOriginType_IdolCardSkin
+  targetId: i_card-skin-hmsz-3-000
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129600
+- id: hmsz-cstm-0023
+  characterId: hmsz
+  name: ツキノカメ
+  motifId: cstm-0023
+  description: 【ツキノカメ】秦谷 美鈴の才能開花4段階目で入手
+  costumeColorGroupId: cstm-color-group-hmsz-cstm-0011
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-cstm-0011-cmmn
+  resourceOriginType: ResourceOriginType_IdolCard
+  targetId: i_card-hmsz-3-000
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129601
+- id: hmsz-cstm-0069
+  characterId: hmsz
+  name: チャイルドスモック
+  motifId: cstm-0069
+  description: チャイルドスモック（秦谷美鈴）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-cstm-0069-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129910
+- id: hmsz-othr-0002
+  characterId: hmsz
+  name: 温泉用水着
+  motifId: othr-0002
+  description: 温泉用水着（秦谷美鈴）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-othr-0002-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: false
+  isBarefoot: true
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes:
+  - CostumeFeatureType_Live
+  - CostumeFeatureType_Produce
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129905
 - id: hmsz-schl-0000
   characterId: hmsz
   name: 初星学園制服
@@ -982,7 +1074,7 @@
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
-  voiceGroupId: ""
+  voiceGroupId: voice_group-hmsz-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
   isTraining: false
@@ -990,8 +1082,62 @@
   isCommonThumbnail: false
   invalidCostumeFeatureTypes: []
   viewConditionSetId: ""
-  viewStartTime: "4133901600000"
-  order: 99800
+  viewStartTime: "1747360800000"
+  order: 129800
+- id: hmsz-trng-0000
+  characterId: hmsz
+  name: レッスンウェア
+  motifId: trng-0000
+  description: 最初から所持
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-trng-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129900
+- id: hmsz-trng-0001
+  characterId: hmsz
+  name: レッスンウェア
+  motifId: trng-0001
+  description: 秦谷美鈴のマスターアチーブメントをRank3にする
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-trng-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129901
+- id: hmsz-trng-0002
+  characterId: hmsz
+  name: 初星学園体操服
+  motifId: trng-0002
+  description: 初星学園体操服（秦谷美鈴）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-hmsz-trng-0002-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  viewConditionSetId: ""
+  viewStartTime: "1747360800000"
+  order: 129903
 - id: hrnm-cstm-0000
   characterId: hrnm
   name: 初（はじめ）
@@ -1248,7 +1394,7 @@
   characterId: hrnm
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -1706,7 +1852,7 @@
   characterId: hski
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -3030,7 +3176,7 @@
   characterId: kcna
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -3484,7 +3630,7 @@
   characterId: kllj
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -4026,7 +4172,7 @@
   characterId: shro
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -4460,7 +4606,7 @@
   characterId: ssmk
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
@@ -4948,7 +5094,7 @@
   characterId: ttmr
   name: チャイルドスモック
   motifId: cstm-0069
-  description: チャイルドスモック衣装パックを購入
+  description: チャイルドスモック衣装パックを購入など
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
