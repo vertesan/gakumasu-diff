@@ -978,8 +978,8 @@
 - mainTaskGroupId: main_task_group-01-01
   number: 41
   title: 初星課題41
-  description: プロデュースで難易度プロに挑戦しよう
-  homeDescription: プロデュースで難易度プロに挑戦しよう
+  description: プロデュースで定期公演『初』：プロに{threshold}回挑戦しよう
+  homeDescription: プロデュースで定期公演『初』：プロに{threshold}回挑戦しよう
   missionType: MissionType_IncrementProducePlayCount
   targetIds1: []
   targetIds2:
@@ -4171,8 +4171,8 @@
 - mainTaskGroupId: main_task_group-03-01
   number: 14
   title: P課題2-14
-  description: プロデュースで難易度マスターに挑戦しよう
-  homeDescription: プロデュースで難易度マスターに挑戦しよう
+  description: プロデュースで定期公演『初』：マスターに{threshold}回挑戦しよう
+  homeDescription: プロデュースで定期公演『初』：マスターに{threshold}回挑戦しよう
   missionType: MissionType_IncrementProducePlayCount
   targetIds1: []
   targetIds2:
@@ -4520,10 +4520,10 @@
   number: 29
   title: P課題2-29
   description: |-
-    難易度マスターで最終試験に{threshold}回合格しよう
+    定期公演『初』：マスターで最終試験に{threshold}回合格しよう
     【条件】プラン：アノマリーのプロデュースアイドル
   homeDescription: |-
-    難易度マスターで最終試験に{threshold}回合格しよう
+    定期公演『初』：マスターで最終試験に{threshold}回合格しよう
     【条件】プラン：アノマリーのプロデュースアイドル
   missionType: MissionType_IncrementProducePlanClearCount
   targetIds1: []
@@ -5046,9 +5046,9 @@
   description: プロデュースでN.I.Aに挑戦しよう
   homeDescription: プロデュースでN.I.Aに挑戦しよう
   missionType: MissionType_IncrementProducePlayCount
-  targetIds1: []
-  targetIds2:
-  - produce-004
+  targetIds1:
+  - produce_group-002
+  targetIds2: []
   targetIds3: []
   targetValue: 0
   missionId: "main_task_group-03-01#51"
@@ -5392,15 +5392,15 @@
   number: 66
   title: P課題66
   description: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：センスのプロデュースアイドル
   homeDescription: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：センスのプロデュースアイドル
   missionType: MissionType_IncrementProducePlanClearCount
-  targetIds1: []
-  targetIds2:
-  - produce-004
+  targetIds1:
+  - produce_group-002
+  targetIds2: []
   targetIds3:
   - Plan1
   targetValue: 10
@@ -5676,15 +5676,15 @@
   number: 78
   title: P課題78
   description: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：ロジックのプロデュースアイドル
   homeDescription: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：ロジックのプロデュースアイドル
   missionType: MissionType_IncrementProducePlanClearCount
-  targetIds1: []
-  targetIds2:
-  - produce-004
+  targetIds1:
+  - produce_group-002
+  targetIds2: []
   targetIds3:
   - Plan2
   targetValue: 10
@@ -5751,15 +5751,15 @@
   number: 81
   title: P課題81
   description: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：アノマリーのプロデュースアイドル
   homeDescription: |-
-    N.I.Aのプロデュースで最終オーディションに合格して評価S以上を獲得しよう
+    N.I.Aで最終オーディションに合格して評価S以上達成しよう
     【条件】プラン：アノマリーのプロデュースアイドル
   missionType: MissionType_IncrementProducePlanClearCount
-  targetIds1: []
-  targetIds2:
-  - produce-004
+  targetIds1:
+  - produce_group-002
+  targetIds2: []
   targetIds3:
   - Plan3
   targetValue: 10

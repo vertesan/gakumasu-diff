@@ -778,6 +778,18 @@
   effectCount: 1
   produceEffectId: ""
   produceExamStatusEnchantId: enchant-pitem_03-3-114-1-enc01
+- id: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_03-3-180-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 1
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_03-3-180-0-enc01
+- id: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_03-3-181-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 1
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_03-3-181-0-enc01
 - id: p_item_effect-exam_status_enchant-inf-01-enchant-pitem_tower_001-exam_card_play_aggressive-1-stage_021-2-enc01
   effectType: ProduceItemEffectType_ExamStatusEnchant
   effectTurn: -1
@@ -1774,6 +1786,18 @@
   effectCount: 5
   produceEffectId: ""
   produceExamStatusEnchantId: enchant-pitem_01-3-131-1-enc01
+- id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_01-3-176-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 5
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_01-3-176-0-enc01
+- id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_01-3-177-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 5
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_01-3-177-0-enc01
 - id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_02-0-006-0-012-enc01
   effectType: ProduceItemEffectType_ExamStatusEnchant
   effectTurn: -1
@@ -1792,6 +1816,18 @@
   effectCount: 5
   produceEffectId: ""
   produceExamStatusEnchantId: enchant-pitem_02-3-076-1-enc01
+- id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_02-3-178-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 5
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_02-3-178-0-enc01
+- id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_02-3-179-0-enc01
+  effectType: ProduceItemEffectType_ExamStatusEnchant
+  effectTurn: -1
+  effectCount: 5
+  produceEffectId: ""
+  produceExamStatusEnchantId: enchant-pitem_02-3-179-0-enc01
 - id: p_item_effect-exam_status_enchant-inf-05-enchant-pitem_tower_001-exam_card_play_aggressive-2-stage_015-enc01
   effectType: ProduceItemEffectType_ExamStatusEnchant
   effectTurn: -1
@@ -2656,6 +2692,12 @@
   effectCount: -1
   produceEffectId: ""
   produceExamStatusEnchantId: enchant-pitem_00-0-004-0-011-enc01
+- id: p_item_effect-produce_effect-p_effect-audition_npc_enhance-0020_0020
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-audition_npc_enhance-0020_0020
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-audition_npc_enhance-0030_0030
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -2758,11 +2800,59 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-for_challenge_common_next_lesson_start_blockup-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_card_play_aggressive-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_card_play_aggressive-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_concentration-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_concentration-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_full_power-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_full_power-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_lesson_buff-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_lesson_buff-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_parameter_buff-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_parameter_buff-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_review-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_00-2-100-challenge-exam_review-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-1-029-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-1-029-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-1-044-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-1-044-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-1-045-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-1-045-challenge-enc01
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-2-045-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
@@ -2800,6 +2890,18 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-2-053-challenge-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-2-105-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-2-105-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-2-106-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-2-106-challenge-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-3-080-challenge-enc02
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -2824,11 +2926,35 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-3-083-challenge-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-3-150-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-3-150-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_01-3-151-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_01-3-151-challenge-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-1-031-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-1-031-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-1-042-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-1-042-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-1-043-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-1-043-challenge-enc01
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-2-057-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
@@ -2866,6 +2992,18 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-2-065-challenge-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-2-103-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-2-103-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-2-104-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-2-104-challenge-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-3-084-challenge-enc02
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -2890,6 +3028,18 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-3-087-challenge-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-3-148-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-3-148-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_02-3-149-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_02-3-149-challenge-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-1-033-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -2901,6 +3051,18 @@
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-1-034-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-1-046-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-1-046-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-1-047-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-1-047-challenge-enc01
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-2-069-challenge-enc01
   effectType: ProduceItemEffectType_ProduceEffect
@@ -2938,6 +3100,18 @@
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-2-077-challenge-enc01
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-2-107-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-2-107-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-2-108-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-2-108-challenge-enc01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-3-088-challenge-enc02
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -2961,6 +3135,18 @@
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-3-091-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-3-152-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-3-152-challenge-enc01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-exam_status_enchant-enchant-pitem_03-3-153-challenge-enc01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-exam_status_enchant-enchant-pitem_03-3-153-challenge-enc01
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-exam_turn_down-0001_0001
   effectType: ProduceItemEffectType_ProduceEffect
@@ -3046,6 +3232,12 @@
   effectCount: 0
   produceEffectId: p_effect-produce_point_addition-0020_0020
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_point_addition-0025_0025
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_point_addition-0025_0025
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-produce_point_addition-0040_0040
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
@@ -3094,11 +3286,125 @@
   effectCount: 0
   produceEffectId: p_effect-produce_reward_set-p_rd-drink_set-all-random-02_02
   produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_card_play_aggressive-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_card_play_aggressive-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_concentration-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_concentration-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_full_power-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_full_power-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_lesson_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_lesson_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_parameter_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_parameter_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_review-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_1st-exam_review-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_card_play_aggressive-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_card_play_aggressive-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_concentration-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_concentration-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_full_power-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_full_power-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_lesson_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_lesson_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_parameter_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_parameter_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_review-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_2nd-exam_review-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_card_play_aggressive-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_card_play_aggressive-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_concentration-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_concentration-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_full_power-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_full_power-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_lesson_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_lesson_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_parameter_buff-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_parameter_buff-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_review-for_nia_master-select-01_01
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-005-before_3rd-exam_review-for_nia_master-select-01_01
+  produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-event_activity-drink-random-01_01
   effectType: ProduceItemEffectType_ProduceEffect
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-produce_reward_set-p_rd-produce-event_activity-drink-random-01_01
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-produce_reward_set-p_rd-produce-event_activity-drink-random-02_02
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-produce_reward_set-p_rd-produce-event_activity-drink-random-02_02
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-produce_reward-0001_0001-produce_card-p_card-03-men-1_039-0
   effectType: ProduceItemEffectType_ProduceEffect
@@ -3129,6 +3435,18 @@
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-stamina_recover_fix-0002_0002
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-stamina_recover_fix-0004_0004
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-stamina_recover_fix-0004_0004
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-stamina_recover_fix-0005_0005
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-stamina_recover_fix-0005_0005
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-stamina_recover_fix-0006_0006
   effectType: ProduceItemEffectType_ProduceEffect
@@ -3219,6 +3537,12 @@
   effectTurn: 0
   effectCount: 0
   produceEffectId: p_effect-vote_count_addition-2000_2000
+  produceExamStatusEnchantId: ""
+- id: p_item_effect-produce_effect-p_effect-vote_count_addition-3000_3000
+  effectType: ProduceItemEffectType_ProduceEffect
+  effectTurn: 0
+  effectCount: 0
+  produceEffectId: p_effect-vote_count_addition-3000_3000
   produceExamStatusEnchantId: ""
 - id: p_item_effect-produce_effect-p_effect-vote_count_addition-3500_3500
   effectType: ProduceItemEffectType_ProduceEffect

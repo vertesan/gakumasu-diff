@@ -2386,6 +2386,178 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamCardPlayAfter
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerUp
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-target_is_self
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 自身使用後、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_card_play_after-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_card_play_after-p_card_search-active_skill-playing-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamCardPlayAfter
@@ -25008,6 +25180,178 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+  phaseTypes:
+  - ProduceExamPhaseType_ExamSearchCardPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerUp
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: p_card_search-target_is_self
+  upperSearchCount: 0
+  lowerSearchCount: 1
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: "未定義のパターン(Type: ExamSearchCardPlay, PhaseValue: 0, ProduceCardSearchID: p_card_search-target_is_self, UpperCount: 0, LowerCount: 1)"
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_search_card_play-full_power_up-p_card_search-target_is_self-0_1
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_search_card_play-p_card_search-target_is_self-0_1
   phaseTypes:
   - ProduceExamPhaseType_ExamSearchCardPlay
@@ -26565,7 +26909,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: 開始時
+    text: 開始時、
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -35790,6 +36134,223 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_start_turn-not-full_power_up
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes:
+  - ProduceExamTriggerCheckType_Not
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerUp
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: ターン開始時、非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_start_turn-not-no_stance
   phaseTypes:
   - ProduceExamPhaseType_ExamStartTurn
@@ -44945,6 +45506,90 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-exam_turn_timer-1-for_nia_master
+  phaseTypes:
+  - ProduceExamPhaseType_ExamTurnTimer
+  phaseValues:
+  - 1
+  fieldStatusCheckTypes: []
+  fieldStatusTypes: []
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 次のオーディション開始時、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_turn_timer-1-for_nia_master
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_turn_timer-1-for_nia_master
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_turn_timer-1-for_nia_master
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-exam_turn_timer-10
   phaseTypes:
   - ProduceExamPhaseType_ExamTurnTimer
@@ -47654,6 +48299,157 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: e_trigger-none-full_power_point_up-5
+  phaseTypes:
+  - ProduceExamPhaseType_None
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerPointUp
+  fieldStatusValues:
+  - 5
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: が5以上の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPowerPoint
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力値
+    targetId: Label_ExamFullPowerPoint
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: が5以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-full_power_point_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: e_trigger-none-full_power_up
   phaseTypes:
   - ProduceExamPhaseType_None
@@ -47950,6 +48746,223 @@
     costValue: 0
     produceDescriptionSwapId: ""
     originProduceExamTriggerId: e_trigger-none-lesson_buff_up-6
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-none-not-full_power_up
+  phaseTypes:
+  - ProduceExamPhaseType_None
+  phaseValues: []
+  fieldStatusCheckTypes:
+  - ProduceExamTriggerCheckType_Not
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_FullPowerUp
+  fieldStatusValues: []
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 非
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamFullPower
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 全力
+    targetId: Label_ExamFullPower
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 状態の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-none-not-full_power_up
     originProduceExamEffectId: ""
     originProduceCardStatusEnchantId: ""
     isCost: false
@@ -49885,6 +50898,178 @@
     costValue: 0
     produceDescriptionSwapId: ""
     originProduceExamTriggerId: e_trigger-start_play-card_play_aggressive_up-5
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-start_play-card_search_count_up-12-p_card_search-deck_grave
+  phaseTypes:
+  - ProduceExamPhaseType_StartPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardSearchCountUp
+  fieldStatusValues:
+  - 12
+  fieldStatusProduceCardSearchIds:
+  - p_card_search-deck_grave
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: ターン開始時、山札か捨札にあるスキルカードが12枚以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-12-p_card_search-deck_grave
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 山札か捨札にあるスキルカードが12枚以上の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-12-p_card_search-deck_grave
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 山札か捨札にあるスキルカードが12枚以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-12-p_card_search-deck_grave
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-start_play-card_search_count_up-18-p_card_search-deck_grave
+  phaseTypes:
+  - ProduceExamPhaseType_StartPlay
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_CardSearchCountUp
+  fieldStatusValues:
+  - 18
+  fieldStatusProduceCardSearchIds:
+  - p_card_search-deck_grave
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: ターン開始時、山札か捨札にあるスキルカードが18枚以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-18-p_card_search-deck_grave
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 山札か捨札にあるスキルカードが18枚以上の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-18-p_card_search-deck_grave
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 山札か捨札にあるスキルカードが18枚以上の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-start_play-card_search_count_up-18-p_card_search-deck_grave
     originProduceExamEffectId: ""
     originProduceCardStatusEnchantId: ""
     isCost: false

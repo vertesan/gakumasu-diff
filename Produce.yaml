@@ -59,7 +59,7 @@
   gradientColor2: FFC436
   order: 4
 - id: produce-004
-  name: N.I.A
+  name: プロ
   baseStepLevel: 1
   maxRefreshCount: 4
   challengeViewConditionSetId: ""
@@ -75,6 +75,26 @@
   produceNavigationNormalId: p_navi-produce_group-002-normal
   produceNavigationAuditionId: p_navi-produce_group-002-audition
   produceNavigationLoseId: p_navi-produce_group-002-lose
-  gradientColor1: 3814C7
-  gradientColor2: C9ACFF
+  gradientColor1: 72B8FF
+  gradientColor2: EA74FF
   order: 1
+- id: produce-005
+  name: マスター
+  baseStepLevel: 1
+  maxRefreshCount: 4
+  challengeViewConditionSetId: cd-nia_produce-unlock_open
+  viewConditionSetId: ""
+  unlockConditionSetId: cd-nia_master_produce-unlock_open
+  examSettingId: p_exam_setting-1
+  produceSettingId: p_setting-5
+  idolCardParameterGrowthLimit: 2300
+  maxProduceEventCharacterGrowthNumber: 0
+  steps: 26
+  actionPointQuantity: 20
+  assetId: produce-nia-2
+  produceNavigationNormalId: p_navi-produce_group-002-normal
+  produceNavigationAuditionId: p_navi-produce_group-002-audition
+  produceNavigationLoseId: p_navi-produce_group-002-lose
+  gradientColor1: FF1C7E
+  gradientColor2: FFC436
+  order: 2

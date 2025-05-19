@@ -12,6 +12,10 @@
   phaseType: ProducePhaseType_EndAudition
 - id: p_trigger-end_before_audition_refresh-dance-0400_0000
   phaseType: ProducePhaseType_EndBeforeAuditionRefresh
+- id: p_trigger-end_before_audition_refresh-for_nia_master
+  phaseType: ProducePhaseType_EndBeforeAuditionRefresh
+- id: p_trigger-end_before_audition_refresh-produce_card_count-0022_0000-for_nia_master
+  phaseType: ProducePhaseType_EndBeforeAuditionRefresh
 - id: p_trigger-end_before_audition_refresh-visual-0400_0000
   phaseType: ProducePhaseType_EndBeforeAuditionRefresh
 - id: p_trigger-end_before_audition_refresh-vocal-0400_0000
@@ -94,10 +98,24 @@
   phaseType: ProducePhaseType_EndLesson
 - id: p_trigger-end_lesson-lesson-stamina_ratio-0000_0999
   phaseType: ProducePhaseType_EndLesson
+- id: p_trigger-end_present-for_nia_master
+  phaseType: ProducePhaseType_EndPresent
+- id: p_trigger-end_shop-for_nia_master
+  phaseType: ProducePhaseType_EndShop
 - id: p_trigger-end_step_event_activity
+  phaseType: ProducePhaseType_EndStepEventActivity
+- id: p_trigger-end_step_event_activity-for_nia_master
   phaseType: ProducePhaseType_EndStepEventActivity
 - id: p_trigger-end_step_event_activity-visual-0400_0000
   phaseType: ProducePhaseType_EndStepEventActivity
+- id: p_trigger-end_step_event_business-produce_card
+  phaseType: ProducePhaseType_EndStepEventBusiness
+- id: p_trigger-end_step_event_business-produce_drink
+  phaseType: ProducePhaseType_EndStepEventBusiness
+- id: p_trigger-end_step_event_business-produce_point
+  phaseType: ProducePhaseType_EndStepEventBusiness
+- id: p_trigger-end_step_event_business-stamina
+  phaseType: ProducePhaseType_EndStepEventBusiness
 - id: p_trigger-end_step_event_school
   phaseType: ProducePhaseType_EndStepEventSchool
 - id: p_trigger-end_step_event_school-dance-0400_0000
@@ -173,6 +191,8 @@
 - id: p_trigger-start_audition_mid2
   phaseType: ProducePhaseType_StartAuditionMid2
 - id: p_trigger-start_customize
+  phaseType: ProducePhaseType_StartCustomize
+- id: p_trigger-start_customize-for_nia_master
   phaseType: ProducePhaseType_StartCustomize
 - id: p_trigger-start_customize-vocal-0200_0000
   phaseType: ProducePhaseType_StartCustomize

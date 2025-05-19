@@ -264,6 +264,10 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: Label_Audition
+  name: 試験・オーディション
+  produceDescriptionSwapId: Swap_Label_Audition
+  produceDescriptions: []
 - id: Label_AuditionNpcEnhance
   name: ライバルのスコア増加
   produceDescriptionSwapId: ""
@@ -275,7 +279,51 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: 以降の試験でライバルのスコアが増加
+    text: 以降の
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceDescriptionName
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 試験・オーディション
+    targetId: Label_Audition
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: でライバルのスコアが増加
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -641,6 +689,110 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     text: には影響しない
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_BusinessProduceCard
+  name: 商業施設
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 強化済みのスキルカードを獲得できる営業
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_BusinessProduceDrink
+  name: 企業イベント会場
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: Pドリンクを獲得できる営業
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_BusinessProducePoint
+  name: 自治体イベント会場
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: Pポイントを獲得できる営業
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_BusinessStamina
+  name: リゾート施設
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 体力を回復する営業
     targetId: ""
     targetLevel: 0
     effectValue1: 0

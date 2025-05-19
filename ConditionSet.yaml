@@ -1486,6 +1486,18 @@
   beforeTime: "1733709600000"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_item-gashaticket-ssr-idol-fix_2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-idol-fix_2
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2625,6 +2637,30 @@
   max: "0"
   beforeTime: "1745956800000"
   afterTime: "1746561600000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-0521
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1747771200000"
+  afterTime: "1748376000000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-0528
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1748376000000"
+  afterTime: "1748980800000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -9622,6 +9658,18 @@
   beforeTime: "1747360800000"
   afterTime: "1748743199000"
   description: ""
+- id: cd_time_25_0519-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1747616400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_0601
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10903,6 +10951,30 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd_view-home-boards-1stperiod-00
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1747753200000"
+  afterTime: "1748185199000"
+  description: ""
+- id: cd_view-home-boards-1stperiod-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1748185200000"
+  afterTime: "1748789999000"
   description: ""
 - id: cd-100-days-anniversary
   number: 1
@@ -13498,6 +13570,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 有村 麻央の親愛度Lvを10にする
+- id: cd-dearness_level-amao-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 有村 麻央の親愛度Lvを20にする
 - id: cd-dearness_level-fktn-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13618,6 +13702,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを10にする
+- id: cd-dearness_level-fktn-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 藤田 ことねの親愛度Lvを20にする
 - id: cd-dearness_level-hmsz-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13978,6 +14074,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎 莉波の親愛度Lvを10にする
+- id: cd-dearness_level-hrnm-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 姫崎 莉波の親愛度Lvを20にする
 - id: cd-dearness_level-hski-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14098,6 +14206,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを10にする
+- id: cd-dearness_level-hski-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを20にする
 - id: cd-dearness_level-hume-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14218,6 +14338,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 佑芽の親愛度Lvを10にする
+- id: cd-dearness_level-hume-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 佑芽の親愛度Lvを20にする
 - id: cd-dearness_level-jsna-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14338,6 +14470,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを10にする
+- id: cd-dearness_level-jsna-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 十王 星南の親愛度Lvを20にする
 - id: cd-dearness_level-kcna-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14458,6 +14602,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本 千奈の親愛度Lvを10にする
+- id: cd-dearness_level-kcna-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 倉本 千奈の親愛度Lvを20にする
 - id: cd-dearness_level-kllj-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14578,6 +14734,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを10にする
+- id: cd-dearness_level-kllj-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを20にする
 - id: cd-dearness_level-shro-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14698,6 +14866,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを10にする
+- id: cd-dearness_level-shro-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 篠澤 広の親愛度Lvを20にする
 - id: cd-dearness_level-ssmk-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14818,6 +14998,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを10にする
+- id: cd-dearness_level-ssmk-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 紫雲 清夏の親愛度Lvを20にする
 - id: cd-dearness_level-ttmr-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14938,6 +15130,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを10にする
+- id: cd-dearness_level-ttmr-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 月村 手毬の親愛度Lvを20にする
 - id: cd-draw-gasha_ssr_10
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -18586,6 +18790,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-nia_master_produce-unlock_open
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: いずれかのアイドルの親愛度20達成で解放
 - id: cd-nia_produce-unlock_open
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22016,6 +22232,18 @@
   conditionType: ConditionType_ShopItemPurchase
   resourceId1: ""
   resourceId2: shop_pack_item-onsen-costume-shro
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_pack_item-1stPeriodSpotlightStar-selection-ticket
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-1stPeriodSpotlightStar-selection-ticket
   minMaxType: ConditionMinMaxType_Min
   min: "1"
   max: "0"
@@ -25946,6 +26174,18 @@
   beforeTime: "1716948000000"
   afterTime: "1719536399000"
   description: ""
+- id: cd-shop_pack_item-1stPeriodSpotlightStar-selection-ticket
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1748088000000"
+  afterTime: "1751335199000"
+  description: ""
 - id: cd-shop_pack_item-item-first-live_001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -26040,6 +26280,18 @@
   min: "0"
   max: "0"
   beforeTime: "4082580000000"
+  afterTime: "0"
+  description: プロデュース「N.I.A」追加準備中
+- id: cd-story_unlock_hmsz_produce_group-005
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "4082839200000"
   afterTime: "0"
   description: プロデュース「N.I.A」追加準備中
 - id: cd-story_unlock_story_event_group-01-01
@@ -28843,6 +29095,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase-shop_pack_item-0023
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-shop_pack_item-1stPeriodSpotlightStar-selection-ticket
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1748088000000"
+  afterTime: "1751335199000"
+  description: ""
+- id: cd-view-shop_pack_item-1stPeriodSpotlightStar-selection-ticket
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_item-1stPeriodSpotlightStar-selection-ticket
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
