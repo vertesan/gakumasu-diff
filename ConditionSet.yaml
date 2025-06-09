@@ -1510,6 +1510,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_daily_mission_NIA_clear-release
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1749693600000"
+  afterTime: "1750881600000"
+  description: ""
 - id: cd_draw_gasha-000240-ssr-idol-1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -1695,6 +1707,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ItemCount
   resourceId1: item-gashaticket-ssr-fix_10-hoten
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket-ssr-support-fix-nia-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-support-fix-nia-1
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "1"
@@ -2793,6 +2817,18 @@
   max: "0"
   beforeTime: "1748980800000"
   afterTime: "1749585600000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-0611
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1749585600000"
+  afterTime: "1750190400000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -9874,6 +9910,18 @@
   beforeTime: "1748876400000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0609-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1749434400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_0630-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10544,6 +10592,18 @@
   min: "0"
   max: "0"
   beforeTime: "1743472800000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-kllj-3-012
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1749434400000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-shro-1-001
@@ -18154,6 +18214,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-mission_clear-mission-group-daily_mission_NIA_clear_daily
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionDailyReleaseNotComplete
+  resourceId1: mission-group-daily_mission_NIA_clear_daily
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-mission_clear-mission-normal-pcondtionclear-p-cd-amao-1st
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25387,6 +25459,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_Music
   resourceId1: music-all-ttmr-011
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-011
+  number: 11
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-kllj-011
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
