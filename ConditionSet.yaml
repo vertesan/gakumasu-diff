@@ -2830,6 +2830,18 @@
   beforeTime: "1749585600000"
   afterTime: "1750190400000"
   description: ""
+- id: cd_login_bonus_wednesday-25-0618
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1750190400000"
+  afterTime: "1750795200000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -9922,6 +9934,30 @@
   beforeTime: "1749434400000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0616-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1750039200000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_25_0616-1200
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1750042800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_0630-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10814,6 +10850,32 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田ことねのクリア条件の★を40個獲得
+- id: cd_tower_open_hmsz
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-hmsz-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: |-
+    True End
+    達成で解放
+- id: cd_tower_open_hmsz_stage16
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-tower_hmsz-clear_star_40
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 秦谷美鈴のクリア条件の★を40個獲得
 - id: cd_tower_open_hrnm
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13786,6 +13848,150 @@
   beforeTime: "0"
   afterTime: "0"
   description: 解放されていません
+- id: cd-dearness_level-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 5
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 6
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hmsz
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 7
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 8
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 9
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 10
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 11
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 12
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-3
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13810,6 +14016,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 有村 麻央の親愛度Lvを1にする
+- id: cd-dearness_level-amao-01-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "2"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-amao-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-amao-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13846,6 +14076,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 有村 麻央の親愛度Lvを4にする
+- id: cd-dearness_level-amao-04-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-amao-05
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13870,6 +14112,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 有村 麻央の親愛度Lvを6にする
+- id: cd-dearness_level-amao-06-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-amao-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13942,6 +14196,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを1にする
+- id: cd-dearness_level-fktn-01-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "2"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-fktn-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-fktn-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13966,6 +14244,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを3にする
+- id: cd-dearness_level-fktn-03-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-fktn-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13978,6 +14268,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを4にする
+- id: cd-dearness_level-fktn-04-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-fktn-05
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13990,6 +14292,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを5にする
+- id: cd-dearness_level-fktn-05-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-fktn-05-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-fktn-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14074,6 +14400,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 秦谷 美鈴の親愛度Lvを1にする
+- id: cd-dearness_level-hmsz-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hmsz
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hmsz-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14314,6 +14652,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎 莉波の親愛度Lvを1にする
+- id: cd-dearness_level-hrnm-01-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hrnm-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14326,6 +14676,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎 莉波の親愛度Lvを2にする
+- id: cd-dearness_level-hrnm-02-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hrnm-03
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14362,6 +14724,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎 莉波の親愛度Lvを5にする
+- id: cd-dearness_level-hrnm-05-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hrnm-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14374,6 +14748,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎 莉波の親愛度Lvを6にする
+- id: cd-dearness_level-hrnm-06-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hrnm-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14446,6 +14832,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを1にする
+- id: cd-dearness_level-hski-01-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hski-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14458,6 +14856,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを2にする
+- id: cd-dearness_level-hski-02-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hski-03
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14506,6 +14916,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを6にする
+- id: cd-dearness_level-hski-06-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hski-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14518,6 +14940,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを7にする
+- id: cd-dearness_level-hski-07-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "7"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hski-08
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14578,6 +15012,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 佑芽の親愛度Lvを1にする
+- id: cd-dearness_level-hume-01-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hume-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14590,6 +15036,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 佑芽の親愛度Lvを2にする
+- id: cd-dearness_level-hume-02-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hume-03
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14626,6 +15084,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 佑芽の親愛度Lvを5にする
+- id: cd-dearness_level-hume-05-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hume-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14638,6 +15108,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 佑芽の親愛度Lvを6にする
+- id: cd-dearness_level-hume-06-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-hume-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14710,6 +15192,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを1にする
+- id: cd-dearness_level-jsna-01-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "2"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-jsna-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-jsna-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14734,6 +15240,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを3にする
+- id: cd-dearness_level-jsna-03-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-jsna-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14746,6 +15264,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを4にする
+- id: cd-dearness_level-jsna-04-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-jsna-05
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14770,6 +15300,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを6にする
+- id: cd-dearness_level-jsna-06-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-jsna-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14842,6 +15384,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本 千奈の親愛度Lvを1にする
+- id: cd-dearness_level-kcna-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kcna-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14878,6 +15432,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本 千奈の親愛度Lvを4にする
+- id: cd-dearness_level-kcna-04-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kcna-05
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14890,6 +15456,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本 千奈の親愛度Lvを5にする
+- id: cd-dearness_level-kcna-05-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kcna-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14902,6 +15480,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本 千奈の親愛度Lvを6にする
+- id: cd-dearness_level-kcna-06-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-kcna-06-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kcna-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14974,6 +15576,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを1にする
+- id: cd-dearness_level-kllj-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kllj-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14986,6 +15600,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを2にする
+- id: cd-dearness_level-kllj-02-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kllj-03
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14998,6 +15624,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを3にする
+- id: cd-dearness_level-kllj-03-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kllj-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15022,6 +15660,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを5にする
+- id: cd-dearness_level-kllj-05-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kllj-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15034,6 +15684,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを6にする
+- id: cd-dearness_level-kllj-06-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-kllj-06-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-kllj-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15106,6 +15780,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを1にする
+- id: cd-dearness_level-shro-01-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "2"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-shro-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15118,6 +15804,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを2にする
+- id: cd-dearness_level-shro-02-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-shro-03
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15130,6 +15828,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを3にする
+- id: cd-dearness_level-shro-03-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-shro-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15154,6 +15864,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを5にする
+- id: cd-dearness_level-shro-05-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-shro-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15166,6 +15888,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 篠澤 広の親愛度Lvを6にする
+- id: cd-dearness_level-shro-06-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-shro-07
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15238,6 +15972,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを1にする
+- id: cd-dearness_level-ssmk-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ssmk-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15262,6 +16008,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを3にする
+- id: cd-dearness_level-ssmk-03-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-ssmk-03-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ssmk-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15286,6 +16056,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを5にする
+- id: cd-dearness_level-ssmk-05-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ssmk-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15310,6 +16092,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを7にする
+- id: cd-dearness_level-ssmk-07-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "7"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ssmk-08
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15370,6 +16164,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを1にする
+- id: cd-dearness_level-ttmr-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ttmr-02
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15394,6 +16200,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを3にする
+- id: cd-dearness_level-ttmr-03-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ttmr-04
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15406,6 +16224,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを4にする
+- id: cd-dearness_level-ttmr-04-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ttmr-05
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15418,6 +16248,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを5にする
+- id: cd-dearness_level-ttmr-05-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-ttmr-05-09
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "9"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-ttmr-06
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15490,6 +16344,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 月村 手毬の親愛度Lvを20にする
+- id: cd-dearnessTop_unlock
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dearness_level-20
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: いずれかのアイドルの親愛度20達成で解放
 - id: cd-draw-gasha_ssr_10
   number: 1
   conditionOperatorType: ConditionOperatorType_And
