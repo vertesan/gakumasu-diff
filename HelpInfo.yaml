@@ -1100,29 +1100,35 @@
   openHelpCategoryId: ""
   openHelpContentId: ""
 - type: IdolDearnessTop
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-dearness-top
+  openHelpCategoryId: help-dearness-top
+  openHelpContentId: help-dearness-top-info
 - type: IdolDearnessLevelList
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-dearness-map
+  openHelpCategoryId: help-dearness-map
+  openHelpContentId: help-dearness-map-info
 - type: IdolDearnessPanelMission
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-dearness-top
+  openHelpCategoryId: help-dearness-top
+  openHelpContentId: help-dearness-top-info
 - type: HighScoreRushEventRanking
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-highscorerush
+  openHelpCategoryId: help-highscorerush
+  openHelpContentId: highscorerush-ranking
 - type: HighScoreRushEventReward
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-highscorerush
+  openHelpCategoryId: help-highscorerush
+  openHelpContentId: highscorerush-score-reward
 - type: HighScoreRushEventGashaDetail
-  helpCategoryIds: []
-  openHelpCategoryId: ""
-  openHelpContentId: ""
+  helpCategoryIds:
+  - help-highscorerush
+  openHelpCategoryId: help-highscorerush
+  openHelpContentId: highscorerush-event-gasha
 - type: TourResult
   helpCategoryIds:
   - help-box-gasha-event

@@ -7558,7 +7558,7 @@
     isOnlyOutGame: false
     changeColor: false
 - id: Label_ExamLessonValueMultipleDependReviewOrAggressive
-  name: プライド(仮)
+  name: プライド
   produceDescriptionSwapId: ""
   produceDescriptions:
   - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
@@ -7678,7 +7678,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: の最小値に応じて、1につき10%（仮）増加
+    text: の最小値に応じて、1につき10%増加
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -12458,7 +12458,7 @@
     produceCardCategory: ProduceCardCategory_Unknown
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
-    text: 「十王邦夫のアイドル強化月間・改」で獲得できるアイテム。イベントガシャで使用できます。
+    text: 「十王邦夫のアイドル強化月間〜星々のきらめき〜」で獲得できるアイテム。イベントガシャで使用できます。
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -13510,6 +13510,76 @@
     originProduceCardStatusEnchantId: ""
     isCost: false
     isOnlyOutGame: true
+    changeColor: false
+- id: Label_OnHitEffect
+  name: 直接効果
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: スキルカードとPドリンクの使用時に発動する効果（
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamStatusEnchant
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: 持続効果
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    text: を除く）
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
     changeColor: false
 - id: Label_ParameterBuffMultiplePerTurnAdd
   name: 絶好調値増加
