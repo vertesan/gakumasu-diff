@@ -1402,6 +1402,114 @@
   characterId: hmsz
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-hmsz-3-005-01
+  category: AchievementCategory_Idol
+  name: 憧れのアイドル
+  description: 【Campus mode!!】秦谷 美鈴のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-005
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hmsz-3-005-02
+  category: AchievementCategory_Idol
+  name: Campus mode!!
+  description: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hmsz-3-005-03
+  category: AchievementCategory_Idol
+  name: 一緒に飛んでいきましょう
+  description: 【Campus mode!!】秦谷 美鈴のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-005
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-hmsz-3-005-04
+  category: AchievementCategory_Idol
+  name: Campus mode!! +
+  description: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-hmsz-3-005-05
+  category: AchievementCategory_Idol
+  name: Campus mode!! ++
+  description: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-hmsz-3-005-06
+  category: AchievementCategory_Idol
+  name: Campus mode!! +++
+  description: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-hrnm-2-000-04
   category: AchievementCategory_Idol
   name: 『私らしさ』のはじまり +
@@ -10561,6 +10669,43 @@
   characterId: hmsz
   viewProduceResult: true
   order: 22
+- id: achieve-p_idol-hmsz-018
+  category: AchievementCategory_Idol
+  name: 快適な道案内
+  description: プロデュースで特別指導を{threshold}回選択
+  missionType: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3:
+  - Customize
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: true
+  order: 23
+- id: achieve-p_idol-hmsz-019
+  category: AchievementCategory_Idol
+  name: わたしだけのファン
+  description: プロデュースでファン投票数を{threshold}獲得
+  missionType: MissionType_IncrementProduceVoteCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: true
+  order: 24
 - id: achieve-p_idol-hmsz-020
   category: AchievementCategory_Idol
   name: 夢の場所まで、もう少し
@@ -10571,6 +10716,24 @@
   targetIds3:
   - hmsz
   targetValue: 12
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 5
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: true
+  order: 9
+- id: achieve-p_idol-hmsz-021
+  category: AchievementCategory_Idol
+  name: あなたにきっと、捧げてみせます
+  description: 秦谷 美鈴で最終試験に合格して評価SS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 13
   viewConditionSetId: ""
   unlockConditionSetId: ""
   masterAchievementInitialRank: 5

@@ -917,6 +917,25 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-a-produce_group-002-hmsz
+  missionGroupId: ""
+  name: 美鈴でA-End達成
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - hmsz
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-a-produce_group-002-hrnm
   missionGroupId: ""
   name: 莉波でA-End達成
@@ -1926,6 +1945,25 @@
   - produce_group-002
   targetIds2:
   - fktn
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-true-produce_group-002-hmsz
+  missionGroupId: ""
+  name: 美鈴でTrueEnd達成
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - hmsz
   targetIds3:
   - TrueEnd
   targetValue: 0
@@ -17722,6 +17760,108 @@
   viewConditionSetId: cd_time-view_open-i_card-hmsz-3-000
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-hmsz-3-005-01
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-005
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-005-02
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-005-03
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-005
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-005-04
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-005-05
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-005-06
+  missionGroupId: ""
+  name: 【Campus mode!!】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-005
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-005
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-hrnm-2-000-04
   missionGroupId: ""
   name: 【『私らしさ』のはじまり】姫崎 莉波の特訓段階を{threshold}にする
@@ -26372,6 +26512,41 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-hmsz-018
+  missionGroupId: ""
+  name: プロデュースで特別指導を{threshold}回選択
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3:
+  - Customize
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-019
+  missionGroupId: ""
+  name: プロデュースでファン投票数を{threshold}獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceVoteCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hmsz-020
   missionGroupId: ""
   name: 秦谷 美鈴で最終試験に合格して評価SS以上を{threshold}回獲得
@@ -26382,6 +26557,23 @@
   targetIds3:
   - hmsz
   targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-021
+  missionGroupId: ""
+  name: 秦谷 美鈴で最終試験に合格して評価SS+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 13
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
