@@ -1541,6 +1541,19 @@
   effectGroupIds:
   - effect_group-visible-exam_effect_timer-000
   - effect_group-visible-exam_preservation-000
+- id: g_effect-effect_add-e_effect-exam_extra_turn
+  effectType: ProduceCardGrowEffectType_EffectAdd
+  costType: ExamCostType_Unknown
+  value: 0
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: e_effect-exam_extra_turn
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_extra_turn-000
 - id: g_effect-effect_add-e_effect-exam_full_power_point-0002
   effectType: ProduceCardGrowEffectType_EffectAdd
   costType: ExamCostType_Unknown
@@ -1687,6 +1700,19 @@
   playMovePositionType: ProduceCardMovePositionType_Unknown
   effectGroupIds:
   - effect_group-visible-exam_preservation-000
+- id: g_effect-effect_add-e_effect-exam_review_multiple-0500-05
+  effectType: ProduceCardGrowEffectType_EffectAdd
+  costType: ExamCostType_Unknown
+  value: 0
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: e_effect-exam_review_multiple-0500-05
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_review-000
 - id: g_effect-effect_add-e_effect-exam_review-0002
   effectType: ProduceCardGrowEffectType_EffectAdd
   costType: ExamCostType_Unknown
@@ -1713,6 +1739,22 @@
   playMovePositionType: ProduceCardMovePositionType_Unknown
   effectGroupIds:
   - effect_group-visible-exam_stamina_consumption_down-000
+- id: g_effect-effect_add-e_effect-exam_status_enchant-03-enchant-p_card-01-ido-3_014-enc01
+  effectType: ProduceCardGrowEffectType_EffectAdd
+  costType: ExamCostType_Unknown
+  value: 0
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: e_effect-exam_status_enchant-03-enchant-p_card-01-ido-3_014-enc01
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_status_enchant-000
+  - effect_group-visible-stamina_reduce_fix-000
+  - effect_group-hidden-stamina_reduce_fix-000
 - id: g_effect-effect_add-e_trigger-exam_turn_timer-1-e_effect-exam_concentration-0001
   effectType: ProduceCardGrowEffectType_EffectAdd
   costType: ExamCostType_Unknown

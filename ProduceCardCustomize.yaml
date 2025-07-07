@@ -1097,6 +1097,34 @@
   produceCardGrowEffectIds:
   - g_effect-p_card-02-act-3_050-enc_1
   producePoint: 100
+- id: p_card_custom-p_card-01-ido-3_013-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_EffectAdd
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_extra_turn
+  producePoint: 120
+- id: p_card_custom-p_card-01-ido-3_013-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
+- id: p_card_custom-p_card-01-ido-3_014-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_EffectAdd
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_status_enchant-03-enchant-p_card-01-ido-3_014-enc01
+  producePoint: 100
+- id: p_card_custom-p_card-01-ido-3_014-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
 - id: p_card_custom-p_card-01-ido-3_016-1-1
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
@@ -1136,6 +1164,20 @@
   - g_effect-effect_change-e_effect-exam_lesson_buff-0005-e_effect-exam_status_enchant-inf-enchant-p_card-01-ido-3_017-enc01
   producePoint: 100
 - id: p_card_custom-p_card-01-ido-3_017-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
+- id: p_card_custom-p_card-02-ido-3_015-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_EffectAdd
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_review_multiple-0500-05
+  producePoint: 100
+- id: p_card_custom-p_card-02-ido-3_015-2
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
   description: スキルカード使用数+
