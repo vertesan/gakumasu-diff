@@ -2890,6 +2890,18 @@
   beforeTime: "1752004800000"
   afterTime: "1752609600000"
   description: ""
+- id: cd_login_bonus_wednesday-25-0716
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1752609600000"
+  afterTime: "1753214400000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11686,6 +11698,30 @@
   beforeTime: "1730858400000"
   afterTime: "1733018399000"
   description: ""
+- id: cd_view_shop_costume_item-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_hrnm-cstm-0051-ssmk-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_costume_item-0051
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1752458400000"
+  afterTime: "1754013599000"
+  description: ""
 - id: cd_view_shop_half-aniversary-pack-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -17772,6 +17808,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_costume_hrnm-cstm-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: hrnm-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_hrnm-cstm-0051-ssmk-cstm-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: hrnm-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_hrnm-cstm-0051-ssmk-cstm-0051
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: ssmk-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_costume_hrnm-cstm-0069
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -17849,6 +17921,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Costume
   resourceId1: shro-cstm-0069
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_ssmk-cstm-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: ssmk-cstm-0051
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -28684,6 +28768,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-shop_costume_hrnm-cstm-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_hrnm-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-shop_costume_hrnm-cstm-0051
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1752458400000"
+  afterTime: "1754013599000"
+  description: ""
 - id: cd-shop_costume_hrnm-cstm-0069_revival-1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -28851,6 +28959,30 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-shop_costume_ssmk-cstm-0051
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_ssmk-cstm-0051
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-shop_costume_ssmk-cstm-0051
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1752458400000"
+  afterTime: "1754013599000"
   description: ""
 - id: cd-shop_costume_ssmk-cstm-0069_revival-1
   number: 1
@@ -31851,6 +31983,18 @@
   max: "0"
   beforeTime: "1716948000000"
   afterTime: "1719536399000"
+  description: ""
+- id: cd-view-live_light_anchor_enable-25-0717
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1752717600000"
+  afterTime: "0"
   description: ""
 - id: cd-view-music-all-nasr-010
   number: 1
