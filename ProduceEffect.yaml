@@ -6154,6 +6154,18 @@
   pickRangeType: ProducePickRangeType_Select
   pickCountMin: 1
   pickCountMax: 1
+- id: p_effect-produce_reward_set-p_rd-event-rush_item-exam_parameter_buff-exam_concentration-select-01_01
+  produceEffectType: ProduceEffectType_ProduceRewardSet
+  effectValueMin: 0
+  effectValueMax: 0
+  produceResourceType: ProduceResourceType_ProduceItem
+  produceRewards: []
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Select
+  pickCountMin: 1
+  pickCountMax: 1
 - id: p_effect-produce_reward_set-p_rd-item_set-end_mid_audition-select-01_01
   produceEffectType: ProduceEffectType_ProduceRewardSet
   effectValueMin: 0
@@ -9085,6 +9097,21 @@
   pickRangeType: ProducePickRangeType_Unknown
   pickCountMin: 0
   pickCountMax: 0
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-2-094-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_03-2-094-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
 - id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-3-065-0-0
   produceEffectType: ProduceEffectType_ProduceReward
   effectValueMin: 1
@@ -9183,6 +9210,21 @@
   produceRewards:
   - resourceType: ProduceResourceType_ProduceItem
     resourceId: pitem_03-3-134-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-3-138-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_03-3-138-0
     resourceLevel: 0
   produceCardSearchId: ""
   produceExamStatusEnchantId: ""
