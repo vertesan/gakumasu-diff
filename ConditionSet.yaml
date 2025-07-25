@@ -10390,6 +10390,18 @@
   beforeTime: "1753282800000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0725-1100_0901-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1753408800000"
+  afterTime: "1756691999000"
+  description: ""
 - id: cd_time_25_0901-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11721,6 +11733,30 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd_view_shop_300dl-selection-ticket-pack
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_300dl-selection-ticket-pack
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_300dl-selection-ticket-pack
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1753408800000"
+  afterTime: "1756691999000"
   description: ""
 - id: cd_view_shop_aniversary-pack-001
   number: 1
@@ -25090,6 +25126,18 @@
   conditionType: ConditionType_ShopItemPurchase
   resourceId1: ""
   resourceId2: shop_costume_nasr-hair-0005
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_300dl-selection-ticket-pack
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-300dl-selection-ticket-pack
   minMaxType: ConditionMinMaxType_Min
   min: "1"
   max: "0"
