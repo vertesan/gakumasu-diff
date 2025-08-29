@@ -23,6 +23,31 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_button_merge-ssr-00530
+  name: 有償10回ガシャ
+  description: 有償10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_FixSsr
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_DrawableCount
+  bottomAppealText: あと{0}回
+  isOverride: true
 - id: gasha_button-001-01
   name: 1回ガシャ
   description: 1回ガシャ

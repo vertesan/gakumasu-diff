@@ -16632,6 +16632,126 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 6
+- id: mission-tour-event-001-mission_1
+  missionGroupId: mission-group-tour-event-001
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-tour-event-001-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-tour-event-001-mission_2
+  missionGroupId: mission-group-tour-event-001
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-tour-event-001-mission_3
+  missionGroupId: mission-group-tour-event-001
+  name: ライブツアーイベントで{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-001
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-tour-event-001-mission_4
+  missionGroupId: mission-group-tour-event-001
+  name: ライブツアーイベントでハコユレLv1以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-001
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-tour-event-001-mission_5
+  missionGroupId: mission-group-tour-event-001
+  name: ライブツアーイベントでハコユレLv2以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-001
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-tour-event-001-mission_6
+  missionGroupId: mission-group-tour-event-001
+  name: ライブツアーイベントでハコユレLv3以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-001
+  targetIds2: []
+  targetIds3: []
+  targetValue: 3
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: mission-tour-event-001-mission_7
+  missionGroupId: mission-group-tour-event-001
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
 - id: mission-weekly-incrementgashadrawcount-1
   missionGroupId: mission_group-weekly-001
   name: コインガシャを{threshold}回引こう
@@ -18461,6 +18581,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-amao-3-009
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-01
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-013
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-02
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-013
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-03
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-013
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-04
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-013
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-05
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-013
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-013-06
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-013
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-013
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-fktn-2-000-04
@@ -24785,6 +25007,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-ssmk-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-01
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-014
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-02
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-03
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-014
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-04
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-05
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-014-06
+  missionGroupId: ""
+  name: 【ミラクルナナウ(ﾟ∀ﾟ)！】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-014
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-ttmr-2-000-04
