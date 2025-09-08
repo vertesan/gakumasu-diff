@@ -3058,6 +3058,30 @@
   beforeTime: "1756843200000"
   afterTime: "1757448000000"
   description: ""
+- id: cd_login_bonus_wednesday-25-0910
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1757448000000"
+  afterTime: "1758052800000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-0917
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1758052800000"
+  afterTime: "1758657600000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10858,6 +10882,18 @@
   beforeTime: "1756692000000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_0908-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1757296800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_1001_26_0401
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11696,6 +11732,18 @@
   min: "0"
   max: "0"
   beforeTime: "1752717600000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-shro-3-014
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1757296800000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-ssmk-1-001
@@ -15125,6 +15173,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionCompleted
   resourceId1: hidden_mission-view-gasha-00420-ssr-idol-support-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-clear-hidden_mission-view-gasha-00540-free-10-005
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-gasha-00540-free-10-005
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -30028,6 +30088,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-inst-all-012
+  number: 12
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-shro-012
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-inst-amao-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -34647,6 +34719,30 @@
   max: "0"
   beforeTime: "1747360800000"
   afterTime: "1750294800000"
+  description: ""
+- id: cd-view-gasha-00540-free-10-005
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-clear-hidden_mission-view-gasha-00540-free-10-005
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-gasha-00540-free-10-005
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1757296800000"
+  afterTime: "1764601199000"
   description: ""
 - id: cd-view-home-banner-aprilfool-2025-001
   number: 1

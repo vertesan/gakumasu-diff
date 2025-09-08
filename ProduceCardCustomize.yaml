@@ -1177,6 +1177,21 @@
   produceCardGrowEffectIds:
   - g_effect-effect_add-e_effect-exam_playable_value_add-01
   producePoint: 100
+- id: p_card_custom-p_card-01-ido-3_020-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_LessonAdd
+  description: パラメータ追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_effect_timer-0001-01-e_effect-exam_lesson-0005-01
+  - g_effect-effect_add-e_effect-exam_effect_timer-0002-01-e_effect-exam_lesson-0005-01
+  producePoint: 100
+- id: p_card_custom-p_card-01-ido-3_020-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
 - id: p_card_custom-p_card-02-ido-3_015-1
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_EffectAdd
@@ -1205,6 +1220,34 @@
   produceCardGrowEffectIds:
   - g_effect-play_move_position_type_change-grave
   producePoint: 40
+- id: p_card_custom-p_card-02-ido-3_019-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-initial_add
+  producePoint: 70
+- id: p_card_custom-p_card-02-ido-3_019-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
+- id: p_card_custom-p_card-02-ido-3_021-1
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-lesson_depend_block_add-600
+  producePoint: 100
+- id: p_card_custom-p_card-02-ido-3_021-2
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: スキルカード使用数+
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_playable_value_add-01
+  producePoint: 100
 - id: p_card_custom-wrapper-p_card-01-act-1_074-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
