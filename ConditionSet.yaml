@@ -24184,6 +24184,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-open-producer_ranking
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MainTaskCompleted
+  resourceId1: "main_task_group-01-01#60"
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 初星学園課題60達成で解放
+- id: cd-open-producer_ranking
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1759716000000"
+  afterTime: "0"
+  description: ""
 - id: cd-p_birthday-2024-amao
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -34348,6 +34372,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: P課題04-25達成で解放
+- id: cd-time-view_open-producer_ranking-1006_1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1759716000000"
+  afterTime: "0"
+  description: 2025/010/06 11:00:00に解放
 - id: cd-tips-produce-first-audition-failure_kcna_initial-card
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36784,6 +36820,18 @@
   beforeTime: "1721228400000"
   afterTime: "1725116399000"
   description: ""
+- id: view-homecaharacterrandom-time
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Max
+  min: "0"
+  max: "0"
+  beforeTime: "1759111200000"
+  afterTime: "0"
+  description: 準備中です
 - id: view-startup_notification_shop_pack_item-0002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
