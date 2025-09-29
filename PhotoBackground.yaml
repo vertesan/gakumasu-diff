@@ -31,6 +31,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 10000
+- id: photo_background-riverbed
+  name: 河川敷
+  bgmAssetId: sud_se_general_photo_background_riverbed-01
+  category: PhotoBackgroundCategory_Around
+  maxCharacterCount: 1
+  enableLookTargetPositionNumbers: []
+  backgroundAssetId: adv_riverbed-00-00
+  timeTypes:
+  - PhotoBackgroundTimeType_Noon
+  - PhotoBackgroundTimeType_Evening
+  photoBackgroundPrefab: mdl_env_grp_photo_riverbed-00-00
+  sceneLayoutId: scl_photo_riverbed-00-00
+  costumePhotoGroup: ""
+  ngCostumePhotoGroupId: costume_photo_group-hotspring-01
+  viewConditionSetId: cd_time_25_0929_1000
+  unlockConditionSetId: ""
+  order: 1000
 - id: photo_background-rooftop-01
   name: 本校舎屋上
   bgmAssetId: sud_se_general_photo_background_rooftop-01

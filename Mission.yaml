@@ -3632,6 +3632,91 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 5
+- id: mission-box-gasha-event-019-mission_1
+  missionGroupId: mission-group-box-gasha-event-019
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-box-gasha-event-019-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-box-gasha-event-019-mission_2
+  missionGroupId: mission-group-box-gasha-event-019
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-box-gasha-event-019-mission_3
+  missionGroupId: mission-group-box-gasha-event-019
+  name: イベントボックスガシャを{threshold}回引こう
+  category: MissionCategory_Special
+  type: MissionType_IncrementEventCoinGashaDrawCount
+  targetIds1:
+  - box-gasha-event-019_box_01
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-box-gasha-event-019-mission_4
+  missionGroupId: mission-group-box-gasha-event-019
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-box-gasha-event-019-mission_5
+  missionGroupId: mission-group-box-gasha-event-019
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
 - id: mission-circle-battle-event-001-mission_1
   missionGroupId: mission-group-circle-battle-event-001
   name: "{threshold}日ログインしよう"
@@ -20212,6 +20297,108 @@
   viewConditionSetId: cd_time-view_open-i_card-fktn-3-013
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-fktn-3-016-01
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねのプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-016
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-016-02
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-016-03
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねのプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-fktn-3-016
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-016-04
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-016-05
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-fktn-3-016-06
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】藤田 ことねの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-fktn-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-fktn-3-016
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-hmsz-2-000-01
   missionGroupId: ""
   name: 【ゆっくり、一歩ずつ】秦谷 美鈴のプロデュースで最終試験に合格
@@ -22148,6 +22335,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-hski-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-01
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-015
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-02
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-03
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-015
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-04
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-05
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hski-3-015-06
+  missionGroupId: ""
+  name: 【がむしゃらに行こう！】花海 咲季の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-015
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-hume-2-000-01
