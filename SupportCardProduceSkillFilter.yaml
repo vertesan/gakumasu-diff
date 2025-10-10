@@ -86,6 +86,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-change_produce_card
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-customize_produce_card
+  title: スキルカードカスタマイズ時パラメータ上昇
+  order: 32
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-customize_produce_card
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-delete_produce_card-0000_0000-p_card_search-active_skill-deck_all
   title: アクティブスキルカード削除時パラメータ上昇
   order: 12
@@ -122,6 +131,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-end_audition
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-end_lesson-lesson_sp-produce_card_count-0020_0000
+  title: SPレッスン終了時所持スキルカードが20枚以上の場合パラメータ上昇
+  order: 36
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-end_lesson-lesson_sp-produce_card_count-0020_0000
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-end_lesson-lesson_vocal
   title: レッスン終了時パラメータ上昇
   order: 4
@@ -191,6 +209,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-get_produce_card-0000_0000-p_card_search-deck_all
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_block-000
+  title: 元気効果のスキルカード獲得時パラメータ上昇
+  order: 33
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_block-000
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-0000_0000-p_card_search-deck_all-effect_group-visible-exam_card_play_aggressive-000
   title: やる気効果のスキルカード獲得時パラメータ上昇
   order: 19
@@ -263,6 +290,33 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-get_produce_card-0000_0000-p_card_search-mental_skill-deck_all
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-p_card_search-ssr-deck_all-1
+  title: スキルカード（SSR）獲得時パラメータ上昇
+  order: 34
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_card-p_card_search-ssr-deck_all-1
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_drink
+  title: Pドリンク獲得時パラメータ上昇
+  order: 31
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_drink
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_item
+  title: Pアイテム獲得時パラメータ上昇
+  order: 35
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_item
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-produce_start-initial
   title: 初期パラメータ上昇
   order: 1
@@ -272,6 +326,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-produce_start-initial
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-start_customize
+  title: 特別指導開始時パラメータ上昇
+  order: 37
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-start_customize
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-start_present
   title: 活動支給・差し入れ選択時パラメータ上昇
   order: 26
