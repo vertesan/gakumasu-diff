@@ -20371,7 +20371,7 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: スキルカード使用時、5ターン目以降の場合、
+    text: スキルカード使用時、6ターン目以降の場合、
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -20395,7 +20395,7 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: 5ターン目以降の場合、使用可
+    text: 6ターン目以降の場合、使用可
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -20419,7 +20419,7 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: 5ターン目以降の場合、
+    text: 6ターン目以降の場合、
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -52276,7 +52276,7 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
-- id: e_trigger-exam_start_turn-turn_progress_up-3
+- id: e_trigger-exam_start_turn-turn_progress_up-2
   phaseTypes:
   - ProduceExamPhaseType_ExamStartTurn
   phaseValues: []
@@ -52284,7 +52284,7 @@
   fieldStatusTypes:
   - ProduceExamFieldStatusType_TurnProgressUp
   fieldStatusValues:
-  - 3
+  - 2
   fieldStatusProduceCardSearchIds: []
   produceCardSearchId: ""
   upperSearchCount: 0
@@ -52310,7 +52310,7 @@
     turn: 0
     costValue: 0
     produceDescriptionSwapId: ""
-    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-3
+    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-2
     originProduceExamEffectId: ""
     originProduceCardStatusEnchantId: ""
     isCost: false
@@ -52334,7 +52334,7 @@
     turn: 0
     costValue: 0
     produceDescriptionSwapId: ""
-    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-3
+    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-2
     originProduceExamEffectId: ""
     originProduceCardStatusEnchantId: ""
     isCost: false
@@ -52350,6 +52350,94 @@
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
     text: 3ターン目以降の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-2
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: e_trigger-exam_start_turn-turn_progress_up-3
+  phaseTypes:
+  - ProduceExamPhaseType_ExamStartTurn
+  phaseValues: []
+  fieldStatusCheckTypes: []
+  fieldStatusTypes:
+  - ProduceExamFieldStatusType_TurnProgressUp
+  fieldStatusValues:
+  - 3
+  fieldStatusProduceCardSearchIds: []
+  produceCardSearchId: ""
+  upperSearchCount: 0
+  lowerSearchCount: 0
+  cardMovePositionType: ProduceCardMovePositionType_Unknown
+  effectTypes: []
+  lessonType: ProduceStepLessonType_Unknown
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: ターン開始時、4ターン目以降の場合、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-3
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 4ターン目以降の場合、使用可
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: e_trigger-exam_start_turn-turn_progress_up-3
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  playEffectProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 4ターン目以降の場合、
     targetId: ""
     targetLevel: 0
     effectValue1: 0
