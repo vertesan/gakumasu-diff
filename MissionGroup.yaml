@@ -30,6 +30,22 @@
   rewardAssetId: ""
   conditionSetId: cd-dearness_normal-mission_hrnm-0001
   order: 1
+- id: dearness_normal-mission_kcna_01
+  name: アイドルミッション千奈
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_normal-mission_kcna-001
+  - dearness_normal-mission_kcna-002
+  - dearness_normal-mission_kcna-003
+  - dearness_normal-mission_kcna-004
+  - dearness_normal-mission_kcna-005
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_normal-mission_kcna-0001
+  order: 1
 - id: dearness_normal-mission_shro_01
   name: アイドルミッション広
   assetId: ""
@@ -111,6 +127,31 @@
   rewardName: ""
   rewardAssetId: ""
   conditionSetId: cd-dearness_hrnm-20
+  order: 1
+- id: dearness_panel-mission_kcna_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_kcna-001
+  - dearness_event_kcna-002
+  - dearness_event_kcna-003
+  - dearness_event_kcna-004
+  - dearness_event_kcna-005
+  - dearness_event_kcna-006
+  - dearness_event_kcna-007
+  - dearness_event_kcna-008
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_kcna-20
   order: 1
 - id: dearness_panel-mission_shro_01
   name: 親愛度ブーストキャンペーン
@@ -1358,6 +1399,86 @@
   - mission-highscorerush-event-005-mission_53
   - mission-highscorerush-event-005-mission_54
   - mission-highscorerush-event-005-mission_56
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 5
+- id: mission-group-highscorerush-event-006_1
+  name: ハイスコアラッシュイベントミッション
+  assetId: ""
+  missionPointId: highscorerush-event-006_point
+  missionIds:
+  - mission-highscorerush-event-006-mission_11
+  - mission-highscorerush-event-006-mission_12
+  - mission-highscorerush-event-006-mission_13
+  - mission-highscorerush-event-006-mission_14
+  - mission-highscorerush-event-006-mission_16
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
+- id: mission-group-highscorerush-event-006_2
+  name: ハイスコアラッシュイベントミッション
+  assetId: ""
+  missionPointId: highscorerush-event-006_point
+  missionIds:
+  - mission-highscorerush-event-006-mission_21
+  - mission-highscorerush-event-006-mission_22
+  - mission-highscorerush-event-006-mission_23
+  - mission-highscorerush-event-006-mission_24
+  - mission-highscorerush-event-006-mission_26
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 2
+- id: mission-group-highscorerush-event-006_3
+  name: ハイスコアラッシュイベントミッション
+  assetId: ""
+  missionPointId: highscorerush-event-006_point
+  missionIds:
+  - mission-highscorerush-event-006-mission_31
+  - mission-highscorerush-event-006-mission_32
+  - mission-highscorerush-event-006-mission_33
+  - mission-highscorerush-event-006-mission_34
+  - mission-highscorerush-event-006-mission_36
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 3
+- id: mission-group-highscorerush-event-006_4
+  name: ハイスコアラッシュイベントミッション
+  assetId: ""
+  missionPointId: highscorerush-event-006_point
+  missionIds:
+  - mission-highscorerush-event-006-mission_41
+  - mission-highscorerush-event-006-mission_42
+  - mission-highscorerush-event-006-mission_43
+  - mission-highscorerush-event-006-mission_44
+  - mission-highscorerush-event-006-mission_46
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 4
+- id: mission-group-highscorerush-event-006_5
+  name: ハイスコアラッシュイベントミッション
+  assetId: ""
+  missionPointId: highscorerush-event-006_point
+  missionIds:
+  - mission-highscorerush-event-006-mission_51
+  - mission-highscorerush-event-006-mission_52
+  - mission-highscorerush-event-006-mission_53
+  - mission-highscorerush-event-006-mission_54
+  - mission-highscorerush-event-006-mission_56
   rewards: []
   showHomeLimitedMission: false
   rewardName: ""

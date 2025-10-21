@@ -294,6 +294,154 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 8
+- id: dearness_event_kcna-001
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のダンスを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1800-afp
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_kcna-002
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のプロデュースでおでかけを{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3:
+  - EventActivity
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_kcna-003
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のプロデュースで相談を{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3:
+  - Shop
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_kcna-004
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のプロデュースで営業を{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceGroupSelectStepCount
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - kcna
+  targetIds3:
+  - EventSchool
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_kcna-005
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のプロデュースで差し入れを{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceGroupSelectStepCount
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - kcna
+  targetIds3:
+  - Present
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: dearness_event_kcna-006
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈でダンスレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3:
+  - LessonDanceNormal
+  - LessonDanceSp
+  - LessonDanceHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: dearness_event_kcna-007
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈のプロデュースで特別指導を{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceGroupSelectStepCount
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - kcna
+  targetIds3:
+  - Customize
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
+- id: dearness_event_kcna-008
+  missionGroupId: dearness_panel-mission_kcna_01
+  name: 倉本 千奈で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
 - id: dearness_event_shro-001
   missionGroupId: dearness_panel-mission_shro_01
   name: 篠澤 広のボーカルを1800以上に育成してプロデュースをクリア
@@ -760,6 +908,92 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd-dearness_normal-mission_hrnm-0001
+  unlockConditionSetId: ""
+  order: 5
+- id: dearness_normal-mission_kcna-001
+  missionGroupId: dearness_normal-mission_kcna_01
+  name: 倉本 千奈のダンスを2000以上に育成してプロデュースをクリア
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-2000-afp
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_kcna-0001
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_normal-mission_kcna-002
+  missionGroupId: dearness_normal-mission_kcna_01
+  name: 倉本 千奈のプロデュースでスキルカードを合計{threshold}回使用しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_kcna-0001
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_normal-mission_kcna-003
+  missionGroupId: dearness_normal-mission_kcna_01
+  name: 倉本 千奈のプロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_kcna-0001
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_normal-mission_kcna-004
+  missionGroupId: dearness_normal-mission_kcna_01
+  name: 倉本 千奈で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_kcna-0001
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_normal-mission_kcna-005
+  missionGroupId: dearness_normal-mission_kcna_01
+  name: 倉本 千奈のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_kcna-0001
   unlockConditionSetId: ""
   order: 5
 - id: dearness_normal-mission_shro-001
@@ -9015,6 +9249,431 @@
   isLessThanTargetValue: false
   isEventMission: true
   missionDailyReleaseGroupId: mission-group-highscorerush-event-005_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 56
+- id: mission-highscorerush-event-006-mission_11
+  missionGroupId: mission-group-highscorerush-event-006_1
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-highscorerush-event-006-mission_12
+  missionGroupId: mission-group-highscorerush-event-006_1
+  name: 倉本 千奈のダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-highscorerush-event-006-mission_13
+  missionGroupId: mission-group-highscorerush-event-006_1
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-highscorerush-event-006-mission_14
+  missionGroupId: mission-group-highscorerush-event-006_1
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-highscorerush-event-006-mission_16
+  missionGroupId: mission-group-highscorerush-event-006_1
+  name: 1日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-006_1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-highscorerush-event-006-mission_21
+  missionGroupId: mission-group-highscorerush-event-006_2
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 21
+- id: mission-highscorerush-event-006-mission_22
+  missionGroupId: mission-group-highscorerush-event-006_2
+  name: 紫雲 清夏のダンスを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 22
+- id: mission-highscorerush-event-006-mission_23
+  missionGroupId: mission-group-highscorerush-event-006_2
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 23
+- id: mission-highscorerush-event-006-mission_24
+  missionGroupId: mission-group-highscorerush-event-006_2
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 24
+- id: mission-highscorerush-event-006-mission_26
+  missionGroupId: mission-group-highscorerush-event-006_2
+  name: 2日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-006_2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 26
+- id: mission-highscorerush-event-006-mission_31
+  missionGroupId: mission-group-highscorerush-event-006_3
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 31
+- id: mission-highscorerush-event-006-mission_32
+  missionGroupId: mission-group-highscorerush-event-006_3
+  name: 倉本 千奈または紫雲 清夏のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
+- id: mission-highscorerush-event-006-mission_33
+  missionGroupId: mission-group-highscorerush-event-006_3
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 33
+- id: mission-highscorerush-event-006-mission_34
+  missionGroupId: mission-group-highscorerush-event-006_3
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 34
+- id: mission-highscorerush-event-006-mission_36
+  missionGroupId: mission-group-highscorerush-event-006_3
+  name: 3日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-006_3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 36
+- id: mission-highscorerush-event-006-mission_41
+  missionGroupId: mission-group-highscorerush-event-006_4
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 41
+- id: mission-highscorerush-event-006-mission_42
+  missionGroupId: mission-group-highscorerush-event-006_4
+  name: 倉本 千奈または紫雲 清夏のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 42
+- id: mission-highscorerush-event-006-mission_43
+  missionGroupId: mission-group-highscorerush-event-006_4
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 43
+- id: mission-highscorerush-event-006-mission_44
+  missionGroupId: mission-group-highscorerush-event-006_4
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 44
+- id: mission-highscorerush-event-006-mission_46
+  missionGroupId: mission-group-highscorerush-event-006_4
+  name: 4日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-006_4
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 46
+- id: mission-highscorerush-event-006-mission_51
+  missionGroupId: mission-group-highscorerush-event-006_5
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 51
+- id: mission-highscorerush-event-006-mission_52
+  missionGroupId: mission-group-highscorerush-event-006_5
+  name: 倉本 千奈または紫雲 清夏のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 52
+- id: mission-highscorerush-event-006-mission_53
+  missionGroupId: mission-group-highscorerush-event-006_5
+  name: 倉本 千奈でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 53
+- id: mission-highscorerush-event-006-mission_54
+  missionGroupId: mission-group-highscorerush-event-006_5
+  name: 紫雲 清夏でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 54
+- id: mission-highscorerush-event-006-mission_56
+  missionGroupId: mission-group-highscorerush-event-006_5
+  name: 5日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-006_5
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-006_daily
   missionDailyReleaseDay: 4
   viewConditionSetId: ""
   unlockConditionSetId: ""
@@ -24410,6 +25069,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-kcna-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-01
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-014
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-02
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-03
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-014
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-04
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-05
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-014-06
+  missionGroupId: ""
+  name: 【空と約束】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-014
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-014
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-kllj-2-000-04
