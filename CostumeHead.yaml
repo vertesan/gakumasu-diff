@@ -141,6 +141,32 @@
   viewConditionSetId: ""
   viewStartTime: "1728352800000"
   order: 48770
+- id: costume_head_amao-cstm-0092
+  characterId: amao
+  name: 見て
+  hairAssetId: mdl_chr_amao-cstm-0092_hair
+  faceAssetId: mdl_chr_amao-cstm-0092_face
+  description: 【見て】有村 麻央を入手
+  resourceOriginType: ResourceOriginType_IdolCardSkin
+  targetId: i_card-skin-amao-3-015
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761876000000"
+  order: 48730
+- id: costume_head_amao-cstm-0093
+  characterId: amao
+  name: 見て
+  hairAssetId: mdl_chr_amao-cstm-0093_hair
+  faceAssetId: mdl_chr_amao-cstm-0092_face
+  description: 【見て】有村 麻央の才能開花4段階目で入手
+  resourceOriginType: ResourceOriginType_IdolCard
+  targetId: i_card-amao-3-015
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761876000000"
+  order: 48732
 - id: costume_head_amao-cstm-0120
   characterId: amao
   name: ミラクルナナウ(ﾟ∀ﾟ)！
@@ -271,6 +297,19 @@
   viewConditionSetId: ""
   viewStartTime: "1759262400000"
   order: 49850
+- id: costume_head_amao-hair-0014
+  characterId: amao
+  name: 見て（シンプルアレンジ）
+  hairAssetId: mdl_chr_amao-hair-0014_hair
+  faceAssetId: mdl_chr_amao-cstm-0092_face
+  description: 【見て】有村 麻央を入手
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761876000000"
+  order: 48731
 - id: costume_head_atbm-schl-0000
   characterId: atbm
   name: いつもの髪型
@@ -601,9 +640,9 @@
   name: ネコミミ
   hairAssetId: mdl_chr_fktn-hair-0004_hair
   faceAssetId: mdl_chr_fktn-base-0000_face
-  description: プレミアムミッションパス 2024年11月で獲得
-  resourceOriginType: ResourceOriginType_Unknown
-  targetId: ""
+  description: プレミアムミッションパス 2024年11月で獲得など
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
   isTraining: false
   noGashaAppeal: false
   viewConditionSetId: ""
@@ -648,6 +687,19 @@
   viewConditionSetId: ""
   viewStartTime: "1753992000000"
   order: 39850
+- id: costume_head_fktn-hair-0009
+  characterId: fktn
+  name: 大きめリボン
+  hairAssetId: mdl_chr_fktn-hair-0009_hair
+  faceAssetId: mdl_chr_fktn-base-0000_face
+  description: プレミアムミッションパス 2025年11月で獲得
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761940800000"
+  order: 39840
 - id: costume_head_fktn-hair-0012
   characterId: fktn
   name: 自己肯定感爆上げ↑↑しゅきしゅきソング（シンプルアレンジ）
@@ -1433,9 +1485,9 @@
   name: ネコミミ
   hairAssetId: mdl_chr_hski-hair-0004_hair
   faceAssetId: mdl_chr_hski-base-0000_face
-  description: プレミアムミッションパス 2024年11月で獲得
-  resourceOriginType: ResourceOriginType_Unknown
-  targetId: ""
+  description: プレミアムミッションパス 2024年11月で獲得など
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
   isTraining: false
   noGashaAppeal: false
   viewConditionSetId: ""
@@ -1480,6 +1532,19 @@
   viewConditionSetId: ""
   viewStartTime: "1753992000000"
   order: 19850
+- id: costume_head_hski-hair-0009
+  characterId: hski
+  name: 大きめリボン
+  hairAssetId: mdl_chr_hski-hair-0009_hair
+  faceAssetId: mdl_chr_hski-base-0000_face
+  description: プレミアムミッションパス 2025年11月で獲得
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761940800000"
+  order: 19840
 - id: costume_head_hski-schl-0000
   characterId: hski
   name: いつもの髪型
@@ -3357,9 +3422,9 @@
   name: ネコミミ
   hairAssetId: mdl_chr_ttmr-hair-0004_hair
   faceAssetId: mdl_chr_ttmr-base-0000_face
-  description: プレミアムミッションパス 2024年11月で獲得
-  resourceOriginType: ResourceOriginType_Unknown
-  targetId: ""
+  description: プレミアムミッションパス 2024年11月で獲得など
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
   isTraining: false
   noGashaAppeal: false
   viewConditionSetId: ""
@@ -3404,3 +3469,16 @@
   viewConditionSetId: ""
   viewStartTime: "1753992000000"
   order: 29850
+- id: costume_head_ttmr-hair-0009
+  characterId: ttmr
+  name: 大きめリボン
+  hairAssetId: mdl_chr_ttmr-hair-0009_hair
+  faceAssetId: mdl_chr_ttmr-base-0000_face
+  description: プレミアムミッションパス 2025年11月で獲得
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  noGashaAppeal: false
+  viewConditionSetId: ""
+  viewStartTime: "1761940800000"
+  order: 29840
