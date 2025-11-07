@@ -688,6 +688,36 @@
   startTime: "0"
   endTime: "0"
   order: 40
+- id: item-dearness-unlock-amao
+  name: 麻央との記録の鍵
+  description: 有村麻央のSTEP3の親愛度コミュを解放するアイテム
+  acquisitionRouteDescription: 交換所など
+  assetId: item_commu-dearness-key-amao
+  type: ItemType_DearnessStoryUnlock
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: true
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: amao
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 10600
 - id: item-dearness-unlock-fktn
   name: ことねとの記録の鍵
   description: 藤田ことねのSTEP3の親愛度コミュを解放するアイテム
@@ -2315,6 +2345,36 @@
   unlockConditionSetId: ""
   startTime: "1753927200000"
   endTime: "1755136799000"
+  order: 40
+- id: item-medal-story-event-009
+  name: ピクニックの思い出
+  description: イベント交換所で様々な報酬と交換できるアイテム
+  acquisitionRouteDescription: プロデュースなど
+  assetId: item_event-everyday-003-exchange
+  type: ItemType_Medal
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1763863199000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Event
+  exchangeId: exchange-story-event-009
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: story-event-009
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1762740000000"
+  endTime: "1763863199000"
   order: 40
 - id: item-medal-story-event-013
   name: 修学旅行のお土産
@@ -6281,6 +6341,36 @@
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
   acquisitionRouteDescription: ショップなど
   assetId: item_selection-ticket-001
+  type: ItemType_ExchangeTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 10
+- id: item-selection-ticket-004
+  name: 1.5th アニバーサリーセレクションチケット
+  description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
+  acquisitionRouteDescription: ショップなど
+  assetId: item_selection-ticket-003
   type: ItemType_ExchangeTicket
   rarity: ItemRarity_Ssr
   commonLimitTime: "0"

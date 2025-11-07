@@ -1276,6 +1276,20 @@
   produceCardGrowEffectIds:
   - g_effect-effect_add-e_effect-exam_card_upgrade-p_card_search-hand-all-0_0
   producePoint: 70
+- id: p_card_custom-wrapper-p_card-00-sup-3_161-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-cost_penetrate_reduce-1
+  producePoint: 20
+- id: p_card_custom-wrapper-p_card-00-sup-3_161-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd
+  description: 消費体力減少追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_stamina_consumption_down-02
+  producePoint: 70
 - id: p_card_custom-wrapper-p_card-01-act-1_074-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
