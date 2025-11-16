@@ -627,6 +627,122 @@
   viewConditionSetId: ""
   viewStartTime: "1730858400000"
   order: 49988
+- id: atbm-cstm-0000
+  characterId: atbm
+  name: 初（はじめ）
+  motifId: cstm-0000
+  description: 最初から所持
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-cstm-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139700
+- id: atbm-cstm-0069
+  characterId: atbm
+  name: チャイルドスモック
+  motifId: cstm-0069
+  description: チャイルドスモック（雨夜燕）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-cstm-0069-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: true
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139990
+- id: atbm-cstm-0106
+  characterId: atbm
+  name: 理論武装して
+  motifId: cstm-0106
+  description: 【理論武装して】雨夜 燕を入手
+  costumeColorGroupId: cstm-color-group-atbm-cstm-0106
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-cstm-0106-cmmn
+  resourceOriginType: ResourceOriginType_IdolCardSkin
+  targetId: i_card-skin-atbm-3-000
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139600
+- id: atbm-cstm-0107
+  characterId: atbm
+  name: 理論武装して
+  motifId: cstm-0107
+  description: 【理論武装して】雨夜 燕の才能開花4段階目で入手
+  costumeColorGroupId: cstm-color-group-atbm-cstm-0106
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-cstm-0106-cmmn
+  resourceOriginType: ResourceOriginType_IdolCard
+  targetId: i_card-atbm-3-000
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139601
+- id: atbm-cstm-0111
+  characterId: atbm
+  name: セーラーミズギ
+  motifId: cstm-0111
+  description: セーラーミズギ（雨夜燕）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-cstm-0111-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: false
+  isBarefoot: false
+  isCommonThumbnail: true
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139987
+- id: atbm-othr-0002
+  characterId: atbm
+  name: 温泉用水着
+  motifId: othr-0002
+  description: 温泉用水着（雨夜燕）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-othr-0002-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: false
+  isBarefoot: true
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes:
+  - CostumeFeatureType_Live
+  - CostumeFeatureType_Produce
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139989
 - id: atbm-schl-0000
   characterId: atbm
   name: 初星学園制服
@@ -635,7 +751,7 @@
   costumeColorGroupId: ""
   costumeHeadId: ""
   defaultCostumeHeadId: ""
-  voiceGroupId: ""
+  voiceGroupId: voice_group-atbm-schl-0000-cmmn
   resourceOriginType: ResourceOriginType_Unknown
   targetId: ""
   isTraining: false
@@ -645,7 +761,64 @@
   costumeWaitMotionNumber: 0
   viewConditionSetId: ""
   viewStartTime: "1731722400000"
-  order: 119901
+  order: 139800
+- id: atbm-trng-0000
+  characterId: atbm
+  name: レッスンウェア
+  motifId: trng-0000
+  description: 最初から所持
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-trng-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139900
+- id: atbm-trng-0001
+  characterId: atbm
+  name: レッスンウェア
+  motifId: trng-0001
+  description: 雨夜 燕のマスターアチーブメントをRank3にする
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-trng-0000-cmmn
+  resourceOriginType: ResourceOriginType_Unknown
+  targetId: ""
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139900
+- id: atbm-trng-0002
+  characterId: atbm
+  name: 初星学園体操服
+  motifId: trng-0002
+  description: 初星学園体操服（雨夜燕）を購入
+  costumeColorGroupId: ""
+  costumeHeadId: ""
+  defaultCostumeHeadId: ""
+  voiceGroupId: voice_group-atbm-trng-0002-cmmn
+  resourceOriginType: ResourceOriginType_Shop
+  targetId: shop_costume
+  isTraining: true
+  isBarefoot: false
+  isCommonThumbnail: false
+  invalidCostumeFeatureTypes: []
+  costumeWaitMotionNumber: 0
+  viewConditionSetId: ""
+  viewStartTime: "1763258400000"
+  order: 139988
 - id: fktn-casl-0000
   characterId: fktn
   name: いつもの私服

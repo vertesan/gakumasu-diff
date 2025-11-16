@@ -1222,6 +1222,78 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "2"
+  max: "2"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "4"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 5
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_2_7
+  number: 6
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_PvpRateBestGrade
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "7"
+  max: "7"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_contest_exchange_grade_2_skillenhancematerial_0
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -1570,6 +1642,66 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_contest_exchange_grade_not2_7
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_contest_exchange_grade_2_7
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_not2_7_skillenhancematerial_0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd_contest_exchange_grade_not2_7
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_not2_7_skillenhancematerial_0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange_item-exchange-contest-1-1-3
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_not2_7_support_card_enhance_point_0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd_contest_exchange_grade_not2_7
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_contest_exchange_grade_not2_7_support_card_enhance_point_0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ExchangeItemCount
+  resourceId1: exchange_item-exchange-contest-1-1-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_contest_exchange_ssr_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -1827,6 +1959,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ItemCount
   resourceId1: item-gashaticket-ssr-fix_1_1st-anniversary-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_ssr-5
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-fix_5
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "1"
@@ -3357,6 +3501,30 @@
   max: "0"
   beforeTime: "1762891200000"
   afterTime: "1763496000000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-1119
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763496000000"
+  afterTime: "1764100800000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-1126
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1764100800000"
+  afterTime: "1764705600000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -5866,6 +6034,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_mission-weekly-competitionplaycount-1_001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763323200000"
+  afterTime: "1764532799000"
+  description: ""
+- id: cd_mission-weekly-incrementpvpratewincount-1_001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1763323199000"
+  description: ""
 - id: cd_money_exchange_plv_1_4
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7438,11 +7630,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_produce_produce_group-002_first-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CharacterProducePlayCount
+  resourceId1: atbm
+  resourceId2: produce_group-002
+  minMaxType: ConditionMinMaxType_Max
+  min: "0"
+  max: "1"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_produce_produce_group-002_first-clear-amao
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_CharacterProducePlayCount
   resourceId1: amao
+  resourceId2: produce_group-002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_produce_produce_group-002_first-clear-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CharacterProducePlayCount
+  resourceId1: atbm
   resourceId2: produce_group-002
   minMaxType: ConditionMinMaxType_Min
   min: "1"
@@ -9538,6 +9754,18 @@
   beforeTime: "1715803200000"
   afterTime: "1732996799000"
   description: ""
+- id: cd_time_24_0516_produce-character-open
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1715803200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_24_0601
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11626,6 +11854,54 @@
   beforeTime: "1762999200000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_1116_1129
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1764532800000"
+  description: ""
+- id: cd_time_25_1116-1000_1218-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1766023199000"
+  description: ""
+- id: cd_time_25_1116-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_25_1201
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1764514800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_1201_26_0501
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11637,6 +11913,30 @@
   max: "0"
   beforeTime: "1764554400000"
   afterTime: "1777600800000"
+  description: ""
+- id: cd_time_25_1224_0000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766502000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_25_1231_0000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767106800000"
+  afterTime: "0"
   description: ""
 - id: cd_time_25-0516_25-0529
   number: 1
@@ -11650,6 +11950,18 @@
   beforeTime: "1747360800000"
   afterTime: "1748462400000"
   description: ""
+- id: cd_time_26_0101_0000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767193200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0101-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11660,6 +11972,30 @@
   min: "0"
   max: "0"
   beforeTime: "1767232800000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_26_0214_0000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1770994800000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_26_0301
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1772290800000"
   afterTime: "0"
   description: ""
 - id: cd_time_26_0401-1100
@@ -11686,6 +12022,42 @@
   beforeTime: "1777600800000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0601
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1780239600000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_26_1031
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793372400000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_atbm_produce-character-open
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_competition_release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11709,6 +12081,18 @@
   max: "0"
   beforeTime: "1725152400000"
   afterTime: "1727830799000"
+  description: ""
+- id: cd_time-view_open_tower_layer_add21-25_atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1753668000000"
+  afterTime: "0"
   description: ""
 - id: cd_time-view_open_tower_layer_add21-25_hmsz
   number: 1
@@ -11792,6 +12176,42 @@
   min: "0"
   max: "0"
   beforeTime: "1761876000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-atbm-1-000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-atbm-2-000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-atbm-3-000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-fktn-1-001
@@ -13810,6 +14230,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-achievement_clear-achieve-p_idol-atbm-000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_AchievementCompleted
+  resourceId1: achieve-p_idol-atbm-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-achievement_clear-achieve-p_idol-fktn-000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14374,6 +14806,138 @@
   min: "0"
   max: "0"
   beforeTime: "1737126000000"
+  afterTime: "0"
+  description: ""
+- id: cd-birthday-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1707145200000"
+  afterTime: "1707231599000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1738767600000"
+  afterTime: "1738853999000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1770303600000"
+  afterTime: "1770389999000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1801839600000"
+  afterTime: "1801925999000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 5
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1833375600000"
+  afterTime: "1833461999000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 6
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1864998000000"
+  afterTime: "1865084399000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 7
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1896534000000"
+  afterTime: "1896620399000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 8
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1928070000000"
+  afterTime: "1928156399000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 9
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1959606000000"
+  afterTime: "1959692399000"
+  description: ""
+- id: cd-birthday-atbm
+  number: 10
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1991228400000"
+  afterTime: "1991314799000"
+  description: ""
+- id: cd-birthday-atbm-2025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1738767600000"
   afterTime: "0"
   description: ""
 - id: cd-birthday-fktn
@@ -15912,6 +16476,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: プロデュースを開始する
+- id: cd-character_produce_play_count-1-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CharacterProducePlayCount
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデュースを開始する
 - id: cd-character_produce_play_count-1-fktn
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16344,6 +16920,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-dearness_level-10
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-2
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16493,6 +17081,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_DearnessLevel
   resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-20
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "20"
@@ -16776,6 +17376,186 @@
   beforeTime: "0"
   afterTime: "0"
   description: 有村 麻央の親愛度Lvを27にする
+- id: cd-dearness_level-atbm-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを1にする
+- id: cd-dearness_level-atbm-01-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "3"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-atbm-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを2にする
+- id: cd-dearness_level-atbm-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "3"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを3にする
+- id: cd-dearness_level-atbm-03-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "3"
+  max: "5"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-atbm-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "4"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを4にする
+- id: cd-dearness_level-atbm-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "5"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを5にする
+- id: cd-dearness_level-atbm-05-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "5"
+  max: "6"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-atbm-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "6"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを6にする
+- id: cd-dearness_level-atbm-06-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "6"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-atbm-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "7"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを7にする
+- id: cd-dearness_level-atbm-07-09
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "7"
+  max: "9"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-atbm-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "8"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを8にする
+- id: cd-dearness_level-atbm-09
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "9"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを9にする
+- id: cd-dearness_level-atbm-10
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "10"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 雨夜 燕の親愛度Lvを10にする
 - id: cd-dearness_level-fktn-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19644,6 +20424,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-dearness-top_motion_atbm_dearness_level-1-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "0"
+  max: "20"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness-top_motion_atbm_dearness_level-10-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "10"
+  max: "20"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness-top_motion_fktn_dearness_level-1-20
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -21365,6 +22169,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_IdolCard
   resourceId1: i_card-amao-3-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_i_card-atbm-3-000
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-atbm-3-000
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -24768,6 +25584,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-mission_clear-view-shop_pack_atbm-0001-48-72-hour
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionFirstThresholdClearHour
+  resourceId1: mission-normal-view-shop_pack_atbm-0001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "48"
+  max: "72"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-mission_clear-view-shop_pack_atbm-0001-72-hour
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionFirstThresholdClearHour
+  resourceId1: hidden_mission-normal-produce-clear-i_card-atbm-3-000-b
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Max
+  min: "0"
+  max: "72"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-mission_clear-view-shop_pack_atbm-0001-72-hour
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_atbm-0001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-mission_clear-view-shop_pack_hmsz-0001-48-72-hour
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -26176,6 +27028,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-p_birthday-2025-2026-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Birthday
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-p_birthday-2025-2026-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1747321200000"
+  afterTime: "1778857199000"
+  description: ""
+- id: cd-p_birthday-2025-2026-atbm
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_HomeCharacter
+  resourceId1: Home
+  resourceId2: atbm
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-p_birthday-2025-2026-fktn
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -26626,6 +27514,42 @@
   conditionType: ConditionType_HomeCharacter
   resourceId1: Home
   resourceId2: amao
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-p_birthday-2026-2027-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Birthday
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-p_birthday-2026-2027-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778857200000"
+  afterTime: "1810393199000"
+  description: ""
+- id: cd-p_birthday-2026-2027-atbm
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_HomeCharacter
+  resourceId1: Home
+  resourceId2: atbm
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
@@ -27544,6 +28468,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce-clear-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CharacterProduceClearCount
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce-clear-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
 - id: cd-produce-clear-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -27600,6 +28548,126 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_atbm-cstm-0069
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_atbm-cstm-0111
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_atbm-othr-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_atbm-trng-0002
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 5
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0001
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 6
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0003
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 7
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0004
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 8
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0006
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 9
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0007
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_home-banner-shop_costume_0066
+  number: 10
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_costume_costume_head_atbm-hair-0008
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -28468,6 +29536,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase_shop_jewel_item-0025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0025
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_jewel_item-0025-0026
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0025
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_shop_jewel_item-0026
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_jewel_item-0026
+  minMaxType: ConditionMinMaxType_Min
+  min: "2"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase_shop_pack_childsmock-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -28972,6 +30076,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-shop_pack_atbm-0001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_atbm-0001
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_pack_hmsz-0001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -29428,6 +30544,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-ending-normal-a-voice-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-true-atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-ending-normal-a-voice-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-normal-a-atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-ending-normal-a-voice-fktn
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -29733,6 +30873,54 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_MissionCompleted
   resourceId1: hidden_mission-view-ending-normal-c-amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-ending-normal-c-voice-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-true-atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-ending-normal-c-voice-atbm
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-normal-a-atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-ending-normal-c-voice-atbm
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-normal-b-atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-ending-normal-c-voice-atbm
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-normal-c-atbm
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -30304,6 +31492,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-all-atbm-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-atbm-1-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-all-atbm-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-atbm-2-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-all-fktn-001
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -30532,11 +31744,47 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-bgm-01_035
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-bgm-01_036
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-char-amao-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_IdolCard
   resourceId1: i_card-amao-3-000
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-char-atbm-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-atbm-3-000
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -30825,6 +32073,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_Music
   resourceId1: music-all-ttmr-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-001
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-atbm-001
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -32500,6 +33760,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-inst-atbm-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Music
+  resourceId1: music-char-atbm-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-inst-fktn-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -33213,6 +34485,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-remind-idol-piece-pack
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-remind-idol-piece-pack-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-mission_clear-view-shop_pack_atbm-0001-48-72-hour
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -34480,6 +35764,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-story_unlock_atbm_produce_group-004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "4082580000000"
+  afterTime: "0"
+  description: プロデュース「N.I.A」追加準備中
+- id: cd-story_unlock_atbm_produce_group-005
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "4082839200000"
+  afterTime: "0"
+  description: プロデュース「N.I.A」追加準備中
 - id: cd-story_unlock_hmsz_produce_group-004
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -35025,6 +36333,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-001-hmsz-opening-normal-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-storyread-opening-normal-01
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-001-atbm-opening-normal-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -36544,6 +37864,18 @@
   beforeTime: "1747616400000"
   afterTime: "0"
   description: ""
+- id: cd-unlock-produce-next-idol-audition-master-ranking
+  number: 14
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: atbm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-user-birthday
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36579,6 +37911,42 @@
   max: "0"
   beforeTime: "1727661600000"
   afterTime: "1730386799000"
+  description: ""
+- id: cd-view_home_boards_halfanniversary2025-00
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1764295199000"
+  description: ""
+- id: cd-view_home-banner-shop_costume_0066
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1764554400000"
+  description: ""
+- id: cd-view_home-banner-shop_costume_0066
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase_home-banner-shop_costume_0066
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
   description: ""
 - id: cd-view_home-banner-shop_jewel_item-0015
   number: 1
@@ -36796,6 +38164,66 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-view_home-banner-shop_jewel_item-0025
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1766023200000"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0025
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase_shop_jewel_item-0025-0026
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0026
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1763258400000"
+  afterTime: "1766023200000"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0026
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-purchase_shop_jewel_item-0025
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_home-banner-shop_jewel_item-0026
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase_shop_jewel_item-0026
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view_home-banner-shop_pack_item-0018-0020
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36957,6 +38385,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_StoryRead
   resourceId1: story-2025_p-bd-01_hmsz-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_p_birthday-2024
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_StoryRead
+  resourceId1: story-2025_p-bd-01_atbm-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"

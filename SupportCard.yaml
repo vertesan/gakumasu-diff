@@ -208,7 +208,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900010"
+  order: "3999900020"
 - id: s_card-1-0004
   characterIds:
   - hrnm
@@ -260,7 +260,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900090"
+  order: "3999900100"
 - id: s_card-1-0005
   characterIds:
   - shro
@@ -313,7 +313,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900050"
+  order: "3999900060"
 - id: s_card-1-0006
   characterIds:
   - kllj
@@ -366,7 +366,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900020"
+  order: "3999900030"
 - id: s_card-1-0007
   characterIds:
   - ssmk
@@ -419,7 +419,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900040"
+  order: "3999900050"
 - id: s_card-1-0008
   characterIds:
   - kcna
@@ -472,7 +472,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900030"
+  order: "3999900040"
 - id: s_card-1-0009
   characterIds:
   - hume
@@ -525,7 +525,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900080"
+  order: "3999900090"
 - id: s_card-1-0010
   characterIds:
   - hmsz
@@ -578,7 +578,7 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900070"
+  order: "3999900080"
 - id: s_card-1-0011
   characterIds:
   - jsna
@@ -630,7 +630,62 @@
     isOnlyOutGame: false
     changeColor: false
   viewStartTime: "0"
-  order: "3999900060"
+  order: "3999900070"
+- id: s_card-1-0012
+  characterIds:
+  - hski
+  - atbm
+  - amao
+  - hrnm
+  - jsna
+  name: 謹厳実直
+  type: SupportCardType_Dance
+  planType: ProducePlanType_Common
+  rarity: SupportCardRarity_R
+  assetId: csprt-1-0012
+  supportCardLevelId: support_card_level-1-001
+  supportCardLevelLimitId: support_card_level_limit-1-001
+  produceStoryIds:
+  - p_story-s_card-1-0012-01
+  - p_story-s_card-1-0012-02
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 1
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 1
+  isLimited: false
+  produceCardUpgradePermil: 19
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Dance
+  gashaSupportAnimationNumber: 0
+  upgradeProduceCardProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: / 確率小
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "3999900010"
 - id: s_card-2-0000
   characterIds:
   - hski
@@ -3770,6 +3825,59 @@
     changeColor: false
   viewStartTime: "0"
   order: "2993900065"
+- id: s_card-2-0066
+  characterIds:
+  - amao
+  - atbm
+  - hrnm
+  name: バディ？
+  type: SupportCardType_Vocal
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Sr
+  assetId: csprt-2-0066
+  supportCardLevelId: support_card_level-2-001
+  supportCardLevelLimitId: support_card_level_limit-2-001
+  produceStoryIds:
+  - p_story-s_card-2-0066-01
+  - p_story-s_card-2-0066-02
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 1
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 5
+  isLimited: false
+  produceCardUpgradePermil: 28
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Vocal
+  gashaSupportAnimationNumber: 0
+  upgradeProduceCardProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: / 確率中
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "2993700066"
 - id: s_card-3-0000
   characterIds:
   - hski
@@ -7990,6 +8098,60 @@
     changeColor: false
   viewStartTime: "0"
   order: "1993900078"
+- id: s_card-3-0079
+  characterIds:
+  - hmsz
+  - jsna
+  - atbm
+  name: やっと見つけたぞ！
+  type: SupportCardType_Dance
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Ssr
+  assetId: csprt-3-0079
+  supportCardLevelId: support_card_level-3-001
+  supportCardLevelLimitId: support_card_level_limit-3-001
+  produceStoryIds:
+  - p_story-s_card-3-0079-01
+  - p_story-s_card-3-0079-02
+  - p_story-s_card-3-0079-03
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 1
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 50
+  isLimited: false
+  produceCardUpgradePermil: 37
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Dance
+  gashaSupportAnimationNumber: 0
+  upgradeProduceCardProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: / 確率大
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "1993700079"
 - id: s_card-3-0080
   characterIds:
   - kllj

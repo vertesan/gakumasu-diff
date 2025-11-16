@@ -46,6 +46,7 @@
   - i_card-amao-3-015
   supportCardIds:
   - s_card-1-0003
+  - s_card-1-0012
   - s_card-2-0002
   - s_card-2-0003
   - s_card-2-0013
@@ -59,6 +60,7 @@
   - s_card-2-0059
   - s_card-2-0062
   - s_card-2-0065
+  - s_card-2-0066
   - s_card-3-0005
   - s_card-3-0007
   - s_card-3-0022
@@ -106,16 +108,42 @@
   firstName: 燕
   alphabetLastName: AMAYA
   alphabetFirstName: TSUBAME
-  isPlayable: false
-  personalityType: CharacterPersonalityType_Unknown
-  characterTrueEndBonusId: ""
-  achievementIds: []
-  masterAchievementId: ""
-  idolCardIds: []
+  isPlayable: true
+  personalityType: CharacterPersonalityType_C
+  characterTrueEndBonusId: character_true_end_bonus-atbm
+  achievementIds:
+  - achieve-m_atbm-001
+  - achieve-p_idol-atbm-000
+  - achieve-p_idol-atbm-000-1
+  - achieve-p_idol-atbm-001
+  - achieve-p_idol-atbm-002
+  - achieve-p_idol-atbm-003
+  - achieve-p_idol-atbm-004
+  - achieve-p_idol-atbm-005
+  - achieve-p_idol-atbm-006
+  - achieve-p_idol-atbm-007
+  - achieve-p_idol-atbm-008
+  - achieve-p_idol-atbm-009
+  - achieve-p_idol-atbm-010
+  - achieve-p_idol-atbm-011
+  - achieve-p_idol-atbm-012
+  - achieve-p_idol-atbm-013
+  - achieve-p_idol-atbm-014
+  - achieve-p_idol-atbm-015
+  - achieve-p_idol-atbm-016
+  - achieve-p_idol-atbm-017
+  - achieve-p_idol-atbm-020
+  masterAchievementId: achieve-m_atbm-001
+  idolCardIds:
+  - i_card-atbm-1-000
+  - i_card-atbm-2-000
+  - i_card-atbm-3-000
   supportCardIds:
+  - s_card-1-0012
   - s_card-2-0049
   - s_card-2-0051
   - s_card-2-0056
+  - s_card-2-0066
   - s_card-3-0015
   - s_card-3-0038
   - s_card-3-0046
@@ -126,31 +154,33 @@
   - s_card-3-0069
   - s_card-3-0070
   - s_card-3-0071
+  - s_card-3-0079
   - s_card-3-0098
   changeCostumeConditionSetId: ""
   viewConditionSetId: ""
-  normalCostumeHeadId: ""
-  trainingCostumeHeadId: ""
-  liveCostumeHeadId: ""
-  normalCostumeId: ""
-  trainingCostumeId: ""
-  liveCostumeId: ""
+  normalCostumeHeadId: costume_head_atbm-schl-0000
+  trainingCostumeHeadId: costume_head_atbm-schl-0000
+  liveCostumeHeadId: costume_head_atbm-cstm-0000
+  normalCostumeId: atbm-schl-0000
+  trainingCostumeId: atbm-trng-0000
+  liveCostumeId: atbm-cstm-0000
   dearnessMissionGroupId: ""
   dearnessStoryUnlockItemId: ""
-  otherStoryIds: []
-  potentialRank1VoiceAssetId: ""
-  potentialRank3VoiceAssetId: ""
-  potentialRank4VoiceAssetId: ""
+  otherStoryIds:
+  - story-2025_p-bd-01_atbm-01
+  potentialRank1VoiceAssetId: sud_vo_system_atbm_idol_potential-01
+  potentialRank3VoiceAssetId: sud_vo_system_atbm_idol_potential-01
+  potentialRank4VoiceAssetId: sud_vo_system_atbm_idol_potential-02
   standingListPositionX: 0
   standingListPositionY: 0
-  rosterDetailPositionX: 0
+  rosterDetailPositionX: -19
   rosterDetailPositionY: 0
   storyPositionX: 0
   storyPositionY: 0
   produceHighScorePositionX: 0
   produceHighScorePositionY: 0
-  produceHighScoreRushPositionX: 0
-  produceHighScoreRushPositionY: 0
+  produceHighScoreRushPositionX: 2
+  produceHighScoreRushPositionY: 229
   order: 35
 - id: fktn
   lastName: 藤田
@@ -334,6 +364,7 @@
   - s_card-3-0067
   - s_card-3-0069
   - s_card-3-0076
+  - s_card-3-0079
   changeCostumeConditionSetId: ""
   viewConditionSetId: ""
   normalCostumeHeadId: costume_head_hmsz-schl-0000
@@ -410,6 +441,7 @@
   supportCardIds:
   - s_card-1-0004
   - s_card-1-0011
+  - s_card-1-0012
   - s_card-2-0003
   - s_card-2-0004
   - s_card-2-0013
@@ -421,6 +453,7 @@
   - s_card-2-0058
   - s_card-2-0060
   - s_card-2-0061
+  - s_card-2-0066
   - s_card-3-0005
   - s_card-3-0006
   - s_card-3-0015
@@ -519,6 +552,7 @@
   - s_card-1-0000
   - s_card-1-0001
   - s_card-1-0002
+  - s_card-1-0012
   - s_card-2-0000
   - s_card-2-0006
   - s_card-2-0016
@@ -771,6 +805,7 @@
   supportCardIds:
   - s_card-1-0002
   - s_card-1-0011
+  - s_card-1-0012
   - s_card-2-0008
   - s_card-2-0011
   - s_card-2-0022
@@ -798,6 +833,7 @@
   - s_card-3-0069
   - s_card-3-0071
   - s_card-3-0076
+  - s_card-3-0079
   - s_card-3-0098
   changeCostumeConditionSetId: ""
   viewConditionSetId: ""

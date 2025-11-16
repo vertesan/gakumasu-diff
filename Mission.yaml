@@ -1555,6 +1555,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: cd-have_i_card-amao-3-000
   order: 999
+- id: hidden_mission-normal-produce-clear-i_card-atbm-3-000-b
+  missionGroupId: ""
+  name: SSR燕でB評価
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-3-000
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: cd-have_i_card-atbm-3-000
+  order: 999
 - id: hidden_mission-normal-produce-clear-i_card-fktn-3-000-b
   missionGroupId: ""
   name: SSRことねでB評価
@@ -2331,6 +2348,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-normal-a-atbm
+  missionGroupId: ""
+  name: 燕でA Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - atbm
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-normal-a-fktn
   missionGroupId: ""
   name: ことねでA Endを見る
@@ -2519,6 +2554,24 @@
   targetIds1: []
   targetIds2:
   - amao
+  targetIds3:
+  - B
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-normal-b-atbm
+  missionGroupId: ""
+  name: 燕でB Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - atbm
   targetIds3:
   - B
   targetValue: 0
@@ -2727,6 +2780,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-normal-c-atbm
+  missionGroupId: ""
+  name: 燕でC Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - atbm
+  targetIds3:
+  - C
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-normal-c-fktn
   missionGroupId: ""
   name: ことねでC Endを見る
@@ -2915,6 +2986,24 @@
   targetIds1: []
   targetIds2:
   - amao
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-true-atbm
+  missionGroupId: ""
+  name: 燕でTrue Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - atbm
   targetIds3:
   - TrueEnd
   targetValue: 0
@@ -5714,9 +5803,9 @@
   order: 40
 - id: mission-daily-incrementpvpratewincount-1
   missionGroupId: mission_group-daily-001
-  name: コンテストに{threshold}回挑戦しよう
+  name: リンクコンテストに{threshold}回挑戦しよう
   category: MissionCategory_Daily
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionPlayCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15541,9 +15630,9 @@
   order: 35
 - id: mission-normal-absolutepvprategrade-2
   missionGroupId: ""
-  name: コンテストでグレード2に到達しよう
+  name: リンクコンテストでグレード2に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15557,9 +15646,9 @@
   order: 68
 - id: mission-normal-absolutepvprategrade-3
   missionGroupId: ""
-  name: コンテストでグレード3に到達しよう
+  name: リンクコンテストでグレード3に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15573,9 +15662,9 @@
   order: 69
 - id: mission-normal-absolutepvprategrade-4
   missionGroupId: ""
-  name: コンテストでグレード4に到達しよう
+  name: リンクコンテストでグレード4に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15589,9 +15678,9 @@
   order: 70
 - id: mission-normal-absolutepvprategrade-5
   missionGroupId: ""
-  name: コンテストでグレード5に到達しよう
+  name: リンクコンテストでグレード5に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15605,9 +15694,9 @@
   order: 71
 - id: mission-normal-absolutepvprategrade-6
   missionGroupId: ""
-  name: コンテストでグレード6に到達しよう
+  name: リンクコンテストでグレード6に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15621,9 +15710,9 @@
   order: 72
 - id: mission-normal-absolutepvprategrade-7
   missionGroupId: ""
-  name: コンテストでグレード7に到達しよう
+  name: リンクコンテストでグレード7に到達しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15637,9 +15726,9 @@
   order: 72
 - id: mission-normal-absolutepvprateunitoverallpower-1
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15976,9 +16065,9 @@
   order: 13
 - id: mission-normal-incrementpvpratelivebattlescorecount-01
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_Normal
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -15992,9 +16081,9 @@
   order: 57
 - id: mission-normal-incrementpvpratewincount-1
   missionGroupId: ""
-  name: コンテストで{threshold}回勝利しよう
+  name: リンクコンテストで{threshold}回勝利しよう
   category: MissionCategory_Normal
-  type: MissionType_IncrementPvpRateWinCount
+  type: MissionType_IncrementCompetitionWinCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -16429,6 +16518,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: mission-normal-produce-clear-atbm-c
+  missionGroupId: ""
+  name: 燕でC評価を達成
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 4
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: mission-normal-produce-clear-fktn-c
   missionGroupId: ""
   name: ことねでC評価を達成
@@ -16632,6 +16738,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 4
+- id: mission-normal-view-shop_pack_atbm-0001
+  missionGroupId: ""
+  name: 燕ピースパック発火条件
+  category: MissionCategory_Normal
+  type: MissionType_ConditionClear
+  targetIds1:
+  - cd-mission_clear-view-shop_pack_atbm-0001-72-hour
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: mission-normal-view-shop_pack_hmsz-0001
   missionGroupId: ""
   name: 美鈴ピースパック発火条件
@@ -17409,9 +17532,9 @@
   order: 2
 - id: mission-release_mission-3-3
   missionGroupId: mission_group-release_memorial_3
-  name: コンテストに{threshold}回挑戦しよう
+  name: リンクコンテストでスキルカードを{threshold}回使用しよう
   category: MissionCategory_Special
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionUseProduceCardCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -19205,6 +19328,22 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 7
+- id: mission-weekly-competitionplaycount-1
+  missionGroupId: mission_group-weekly-001
+  name: リンクコンテストに{threshold}回挑戦しよう
+  category: MissionCategory_Weekly
+  type: MissionType_IncrementCompetitionPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_mission-weekly-competitionplaycount-1_001
+  unlockConditionSetId: ""
+  order: 46
 - id: mission-weekly-incrementgashadrawcount-1
   missionGroupId: mission_group-weekly-001
   name: コインガシャを{threshold}回引こう
@@ -19283,7 +19422,7 @@
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
-  viewConditionSetId: ""
+  viewConditionSetId: cd_mission-weekly-incrementpvpratewincount-1_001
   unlockConditionSetId: ""
   order: 46
 - id: mission-weekly-incrementsupportcardenhancecount-1
@@ -20431,9 +20570,9 @@
   order: 3
 - id: panel_mission-event-niv-mission_4
   missionGroupId: panel_mission-event-niv-group_1
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_Special
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -21238,6 +21377,210 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-amao-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-01
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-2-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-02
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-03
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-2-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-04
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-05
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-2-000-06
+  missionGroupId: ""
+  name: 【初志貫徹】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-01
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-3-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-02
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-03
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-3-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-04
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-05
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-atbm-3-000-06
+  missionGroupId: ""
+  name: 【理論武装して】雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-000
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-fktn-2-000-04
@@ -28907,6 +29250,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-m_atbm-001
+  missionGroupId: ""
+  name: 雨夜 燕のアチーブメントの★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterIdolAchievementCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-m_fktn-001
   missionGroupId: ""
   name: 藤田 ことねのアチーブメントの★を{threshold}個獲得
@@ -29274,9 +29634,9 @@
   order: 0
 - id: achieve-o_014
   missionGroupId: ""
-  name: コンテストで1位になる
+  name: リンクコンテストで1位になる
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_AbsoluteCompetitionRank
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29290,9 +29650,9 @@
   order: 0
 - id: achieve-o_015
   missionGroupId: ""
-  name: コンテストで100位以内に入る
+  name: リンクコンテストで100位以内に入る
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_AbsoluteCompetitionRank
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29306,9 +29666,9 @@
   order: 0
 - id: achieve-o_016
   missionGroupId: ""
-  name: コンテストでグレード1に到達
+  name: リンクコンテストでグレード1に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29322,9 +29682,9 @@
   order: 0
 - id: achieve-o_017
   missionGroupId: ""
-  name: コンテストでグレード2に到達
+  name: リンクコンテストでグレード2に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29338,9 +29698,9 @@
   order: 0
 - id: achieve-o_018
   missionGroupId: ""
-  name: コンテストでグレード3に到達
+  name: リンクコンテストでグレード3に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29354,9 +29714,9 @@
   order: 0
 - id: achieve-o_019
   missionGroupId: ""
-  name: コンテストでグレード4に到達
+  name: リンクコンテストでグレード4に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29370,9 +29730,9 @@
   order: 0
 - id: achieve-o_020
   missionGroupId: ""
-  name: コンテストでグレード5に到達
+  name: リンクコンテストでグレード5に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29386,9 +29746,9 @@
   order: 0
 - id: achieve-o_021
   missionGroupId: ""
-  name: コンテストでグレード6に到達
+  name: リンクコンテストでグレード6に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29402,9 +29762,9 @@
   order: 0
 - id: achieve-o_022
   missionGroupId: ""
-  name: コンテストでグレード7に到達
+  name: リンクコンテストでグレード7に到達
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateGrade
+  type: MissionType_AbsoluteCompetitionGrade
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29418,9 +29778,9 @@
   order: 0
 - id: achieve-o_023
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29434,9 +29794,9 @@
   order: 0
 - id: achieve-o_024
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29450,9 +29810,9 @@
   order: 0
 - id: achieve-o_025
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -29466,9 +29826,9 @@
   order: 0
 - id: achieve-o_026
   missionGroupId: ""
-  name: コンテストのグレード7で1位になる
+  name: リンクコンテストのグレード7で1位になる
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_AbsoluteCompetitionRank
   targetIds1:
   - "7"
   targetIds2: []
@@ -29483,9 +29843,9 @@
   order: 0
 - id: achieve-o_027
   missionGroupId: ""
-  name: コンテストのグレード7で100位以内に入る
+  name: リンクコンテストのグレード7で100位以内に入る
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_AbsoluteCompetitionRank
   targetIds1:
   - "7"
   targetIds2: []
@@ -30374,6 +30734,355 @@
   targetIds2: []
   targetIds3: []
   targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-000
+  missionGroupId: ""
+  name: 雨夜 燕でTrue Endをみる
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - atbm
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-000-1
+  missionGroupId: ""
+  name: "雨夜 燕でTrue End : N.I.Aをみる"
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-002
+  targetIds2:
+  - atbm
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-001
+  missionGroupId: ""
+  name: 雨夜 燕のプロデュースでスキルカードを{threshold}回使用
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-002
+  missionGroupId: ""
+  name: 雨夜 燕でレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-003
+  missionGroupId: ""
+  name: 雨夜 燕でSPレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-004
+  missionGroupId: ""
+  name: 雨夜 燕で最終試験に合格して評価B以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-005
+  missionGroupId: ""
+  name: 雨夜 燕で最終試験に合格して評価A以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 8
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-006
+  missionGroupId: ""
+  name: 雨夜 燕で最終試験に合格して評価S以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 10
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-007
+  missionGroupId: ""
+  name: 雨夜 燕のプロデュースを{threshold}回完了
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-008
+  missionGroupId: ""
+  name: 雨夜 燕の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-009
+  missionGroupId: ""
+  name: 雨夜 燕のプロデュースで最終試験に{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-final_audition_clear
+  targetIds2:
+  - atbm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-010
+  missionGroupId: ""
+  name: 雨夜 燕のファンを{threshold}人獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteFanCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-011
+  missionGroupId: ""
+  name: 雨夜 燕の親愛度Lvを{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-012
+  missionGroupId: ""
+  name: 雨夜 燕でPドリンクを{threshold}回使用
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceUseProduceDrinkCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-013
+  missionGroupId: ""
+  name: 雨夜 燕のプロデュースで元気を合計{threshold}獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceTotalAdditionExamBlock
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-014
+  missionGroupId: ""
+  name: "雨夜 燕のダンスを1000以上に育成してプロデュースを完了 "
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1000
+  targetIds2:
+  - atbm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-016
+  missionGroupId: ""
+  name: 雨夜 燕で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-017
+  missionGroupId: ""
+  name: 雨夜 燕の定期公演『初』難易度：マスターで最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - atbm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-020
+  missionGroupId: ""
+  name: 雨夜 燕で最終試験に合格して評価SS以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 12
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -36280,9 +36989,9 @@
   order: 0
 - id: "main_task_group-01-01#26"
   missionGroupId: ""
-  name: コンテストで編成しよう
+  name: リンクコンテストで編成しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -36648,9 +37357,9 @@
   order: 0
 - id: "main_task_group-01-01#48"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -36868,9 +37577,9 @@
   order: 0
 - id: "main_task_group-02-01#1"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -36917,9 +37626,9 @@
   order: 0
 - id: "main_task_group-02-01#4"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37199,9 +37908,9 @@
   order: 0
 - id: "main_task_group-02-01#21"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37215,9 +37924,9 @@
   order: 0
 - id: "main_task_group-02-01#22"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37295,9 +38004,9 @@
   order: 0
 - id: "main_task_group-02-01#27"
   missionGroupId: ""
-  name: コンテストに挑戦しよう
+  name: リンクコンテストでスキルカードを{threshold}回使用しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionUseProduceCardCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37363,9 +38072,9 @@
   order: 0
 - id: "main_task_group-02-01#31"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37484,9 +38193,9 @@
   order: 0
 - id: "main_task_group-02-01#38"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37554,9 +38263,9 @@
   order: 0
 - id: "main_task_group-02-01#42"
   missionGroupId: ""
-  name: コンテストに挑戦しよう
+  name: リンクコンテストでスキルカードを{threshold}回使用しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionUseProduceCardCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37675,9 +38384,9 @@
   order: 0
 - id: "main_task_group-02-01#49"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37793,9 +38502,9 @@
   order: 0
 - id: "main_task_group-02-01#56"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37809,9 +38518,9 @@
   order: 0
 - id: "main_task_group-02-01#57"
   missionGroupId: ""
-  name: コンテストに挑戦しよう
+  name: リンクコンテストでスキルカードを{threshold}回使用しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionUseProduceCardCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -37905,9 +38614,9 @@
   order: 0
 - id: "main_task_group-02-01#63"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38055,9 +38764,9 @@
   order: 0
 - id: "main_task_group-02-01#72"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38120,9 +38829,9 @@
   order: 0
 - id: "main_task_group-02-01#76"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38186,9 +38895,9 @@
   order: 0
 - id: "main_task_group-02-01#80"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38300,9 +39009,9 @@
   order: 0
 - id: "main_task_group-02-01#87"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38769,9 +39478,9 @@
   order: 0
 - id: "main_task_group-03-01#15"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38850,9 +39559,9 @@
   order: 0
 - id: "main_task_group-03-01#20"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -38931,9 +39640,9 @@
   order: 0
 - id: "main_task_group-03-01#25"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39031,9 +39740,9 @@
   order: 0
 - id: "main_task_group-03-01#31"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39112,9 +39821,9 @@
   order: 0
 - id: "main_task_group-03-01#36"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39412,9 +40121,9 @@
   order: 0
 - id: "main_task_group-03-01#54"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39428,9 +40137,9 @@
   order: 0
 - id: "main_task_group-03-01#55"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39444,9 +40153,9 @@
   order: 0
 - id: "main_task_group-03-01#56"
   missionGroupId: ""
-  name: コンテストに挑戦しよう
+  name: リンクコンテストでスキルカードを{threshold}回使用しよう
   category: MissionCategory_MainTask
-  type: MissionType_IncrementPvpRatePlayCount
+  type: MissionType_IncrementCompetitionUseProduceCardCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39542,9 +40251,9 @@
   order: 0
 - id: "main_task_group-03-01#62"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39558,9 +40267,9 @@
   order: 0
 - id: "main_task_group-03-01#63"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39756,9 +40465,9 @@
   order: 0
 - id: "main_task_group-03-01#75"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -39772,9 +40481,9 @@
   order: 0
 - id: "main_task_group-03-01#76"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -40113,9 +40822,9 @@
   order: 0
 - id: "main_task_group-03-01#96"
   missionGroupId: ""
-  name: コンテストのユニット総合力を{threshold}以上にしよう
+  name: リンクコンテストのユニット総合力を{threshold}以上にしよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateUnitOverallPower
+  type: MissionType_AbsoluteCompetitionDeckPower
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -40129,9 +40838,9 @@
   order: 0
 - id: "main_task_group-03-01#97"
   missionGroupId: ""
-  name: コンテストでスコアを{threshold}以上獲得しよう
+  name: リンクコンテストのステージ合計ハイスコアで{threshold}以上を獲得しよう
   category: MissionCategory_MainTask
-  type: MissionType_AbsolutePvpRateExamBattleMaxScore
+  type: MissionType_AbsoluteCompetitionTotalHighScore
   targetIds1: []
   targetIds2: []
   targetIds3: []

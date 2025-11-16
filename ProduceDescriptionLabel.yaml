@@ -4698,7 +4698,7 @@
     produceStepBusinessType: ProduceStepBusinessType_Unknown
     text: |-
       上昇量を200%増加
-      ターン終了時に
+      次のターン開始時に
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -7884,52 +7884,6 @@
   produceDescriptions:
   - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
     examDescriptionType: ExamDescriptionType_Unknown
-    examEffectType: ProduceExamEffectType_ExamLesson
-    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
-    produceCardCategory: ProduceCardCategory_Unknown
-    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
-    produceStepType: ProduceStepType_Unknown
-    produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: パラメータ
-    targetId: ""
-    targetLevel: 0
-    effectValue1: 0
-    effectValue2: 0
-    effectCount: 0
-    turn: 0
-    costValue: 0
-    produceDescriptionSwapId: ""
-    originProduceExamTriggerId: ""
-    originProduceExamEffectId: ""
-    originProduceCardStatusEnchantId: ""
-    isCost: false
-    isOnlyOutGame: false
-    changeColor: false
-  - produceDescriptionType: ProduceDescriptionType_PlainText
-    examDescriptionType: ExamDescriptionType_Unknown
-    examEffectType: ProduceExamEffectType_Unknown
-    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
-    produceCardCategory: ProduceCardCategory_Unknown
-    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
-    produceStepType: ProduceStepType_Unknown
-    produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: 上昇量を
-    targetId: ""
-    targetLevel: 0
-    effectValue1: 0
-    effectValue2: 0
-    effectCount: 0
-    turn: 0
-    costValue: 0
-    produceDescriptionSwapId: ""
-    originProduceExamTriggerId: ""
-    originProduceExamEffectId: ""
-    originProduceCardStatusEnchantId: ""
-    isCost: false
-    isOnlyOutGame: false
-    changeColor: false
-  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
-    examDescriptionType: ExamDescriptionType_Unknown
     examEffectType: ProduceExamEffectType_ExamCardPlayAggressive
     produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
     produceCardCategory: ProduceCardCategory_Unknown
@@ -8005,7 +7959,53 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: の最小値に応じて、1につき10%増加
+    text: の最小値に応じて、1ごとに、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamLesson
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: パラメータ
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 上昇量を2%増加（最大50%）
     targetId: ""
     targetLevel: 0
     effectValue1: 0
