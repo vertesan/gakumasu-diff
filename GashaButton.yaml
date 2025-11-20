@@ -23,6 +23,31 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_button_animate-ssr-00630
+  name: 有償10回ガシャ
+  description: 有償10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_FixSsr
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_button_merge-ssr-00530
   name: 有償10回ガシャ
   description: 有償10回ガシャ
@@ -706,6 +731,31 @@
   fixRewardCount: 0
   resourceType: ResourceType_Item
   resourceId: item-gashaticket-ssr-idol-fix_2
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_ticket_ssr_button_seasons-2511-001
+  name: 1.5th アニバーサリー記念シーズン限定SSR確定チケットで引く
+  description: SSR確定1連
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gasha-ticket-ssr-fix-seasons-2511-001
   limitType: GashaLimitType_Unknown
   limitCount: 0
   resourceQuantity: 1
