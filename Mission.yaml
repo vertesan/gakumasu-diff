@@ -3509,6 +3509,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-gasha-00640-pickup-002
+  missionGroupId: ""
+  name: 1.5th記念 シーズン限定&Re;IRIS登場！SSR15%ガシャを{threshold}回引こう
+  category: MissionCategory_Normal
+  type: MissionType_IncrementGashaDrawCount
+  targetIds1:
+  - gasha-00640-pickup-002
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: mission-box-gasha-event-001-mission_1
   missionGroupId: mission-group-box-gasha-event-001
   name: "{threshold}日ログインしよう"

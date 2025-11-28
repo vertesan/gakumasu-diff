@@ -17004,6 +17004,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-clear-hidden_mission-view-gasha-00640-pickup-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-gasha-00640-pickup-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-close-view-homebanner
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -39363,6 +39375,30 @@
   max: "0"
   beforeTime: "1757296800000"
   afterTime: "1764601199000"
+  description: ""
+- id: cd-view-gasha-00640-pickup-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-clear-hidden_mission-view-gasha-00640-pickup-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-gasha-00640-pickup-002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1764295200000"
+  afterTime: "1765159199000"
   description: ""
 - id: cd-view-home-banner-aprilfool-2025-001
   number: 1
