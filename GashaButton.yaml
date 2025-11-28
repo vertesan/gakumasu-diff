@@ -298,6 +298,31 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_button-640-fes
+  name: 5回ガシャ
+  description: 5回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 5
+  fixRewardCount: 0
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 3
+  resourceQuantity: 800
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SSR出現率15%
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_DrawableCount
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_button-free-10-01
   name: 10回ガシャ
   description: 10回ガシャ
