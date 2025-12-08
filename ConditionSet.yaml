@@ -2398,6 +2398,18 @@
   beforeTime: "1761876000000"
   afterTime: "1762999200000"
   description: ""
+- id: cd_highscorerush-event-008-release
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1765159200000"
+  afterTime: "1766282400000"
+  description: ""
 - id: cd_hume_have_onsen_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -3741,6 +3753,18 @@
   max: "0"
   beforeTime: "1764705600000"
   afterTime: "1765310400000"
+  description: ""
+- id: cd_login_bonus_wednesday-25-1210
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1765310400000"
+  afterTime: "1765915200000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -6188,6 +6212,18 @@
   min: "0"
   max: "0"
   beforeTime: "1761876000000"
+  afterTime: "0"
+  description: ""
+- id: cd_memory-dearness-unlock-kllj-release_open
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1765159200000"
   afterTime: "0"
   description: ""
 - id: cd_memory-dearness-unlock-shro-release_open
@@ -12382,6 +12418,18 @@
   beforeTime: "1765033200000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_1208-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1765159200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25_1224_0000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13340,6 +13388,18 @@
   min: "0"
   max: "0"
   beforeTime: "1749434400000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-kllj-3-015
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "-2209194000000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-shro-1-001
@@ -17352,6 +17412,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 倉本千奈の親愛度Lv20達成
+- id: cd-dearness_kllj-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城リーリヤの親愛度Lv20達成
 - id: cd-dearness_level-10
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -20040,6 +20112,90 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを20にする
+- id: cd-dearness_level-kllj-21
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "21"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを21にする
+- id: cd-dearness_level-kllj-22
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "22"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを22にする
+- id: cd-dearness_level-kllj-23
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "23"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを23にする
+- id: cd-dearness_level-kllj-24
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "24"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを24にする
+- id: cd-dearness_level-kllj-25
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "25"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを25にする
+- id: cd-dearness_level-kllj-26
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "26"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを26にする
+- id: cd-dearness_level-kllj-27
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "27"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを27にする
 - id: cd-dearness_level-shro-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -20873,6 +21029,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_normal-mission_kllj-0001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766023200000"
+  afterTime: "0"
+  description: 親愛度ブーストキャンペーン終了後
+- id: cd-dearness_normal-mission_kllj-0001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "20"
@@ -22968,6 +23148,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_i_card-skin-kllj-3-015
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-kllj-3-015
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_i_card-ssmk-3-000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -24708,6 +24900,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-1-20-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "20"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-1-20-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -24804,6 +25008,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-21-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "21"
+  max: "21"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-21-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -24869,6 +25085,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "22"
+  max: "22"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-22-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "22"
@@ -24948,6 +25176,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-23-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "23"
+  max: "23"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-23-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25013,6 +25253,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "24"
+  max: "24"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-24-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "24"
@@ -25092,6 +25344,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-25-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "25"
+  max: "25"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-25-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25157,6 +25421,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "26"
+  max: "26"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-26-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "26"
@@ -25233,6 +25509,18 @@
   minMaxType: ConditionMinMaxType_Min
   min: "27"
   max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-27-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "27"
+  max: "27"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -25461,6 +25749,18 @@
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-i_card-skin-kllj-3-015_potentialrank_4
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCardPotentialRank
+  resourceId1: i_card-kllj-3-015
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "4"
+  max: "4"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -34869,6 +35169,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Music
   resourceId1: music-char-kllj-003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-kllj-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-kllj-3-015
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"

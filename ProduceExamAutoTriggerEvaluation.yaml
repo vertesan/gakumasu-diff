@@ -55,6 +55,10 @@
   coefficientPermil: 800
   count: 0
 - type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-not-full_power_point_up-10
+  coefficientPermil: 900
+  count: 0
+- type: ExamPlayType_AutoPlay
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-remaining_turn-1
   coefficientPermil: 1000
   count: 1
@@ -215,6 +219,10 @@
   coefficientPermil: 800
   count: 0
 - type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-not-full_power_point_up-10
+  coefficientPermil: 900
+  count: 0
+- type: ExamPlayType_ManualPlayLesson
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-remaining_turn-1
   coefficientPermil: 1000
   count: 1
@@ -375,6 +383,10 @@
   coefficientPermil: 800
   count: 0
 - type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-not-full_power_point_up-10
+  coefficientPermil: 900
+  count: 0
+- type: ExamPlayType_ManualPlayLessonHard
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-remaining_turn-1
   coefficientPermil: 1000
   count: 1
@@ -535,6 +547,10 @@
   coefficientPermil: 800
   count: 0
 - type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-not-full_power_point_up-10
+  coefficientPermil: 900
+  count: 0
+- type: ExamPlayType_ManualPlayAudition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-remaining_turn-1
   coefficientPermil: 1000
   count: 1
@@ -693,6 +709,10 @@
 - type: ExamPlayType_AutoPlayCompetition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-lesson_buff_up-3
   coefficientPermil: 800
+  count: 0
+- type: ExamPlayType_AutoPlayCompetition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-not-full_power_point_up-10
+  coefficientPermil: 900
   count: 0
 - type: ExamPlayType_AutoPlayCompetition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_end_turn-remaining_turn-1
