@@ -2146,6 +2146,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-ssr-idol-fix_3
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-idol-fix_3
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_seasons-2511-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -12429,6 +12441,18 @@
   max: "0"
   beforeTime: "1765159200000"
   afterTime: "0"
+  description: ""
+- id: cd_time_25_1213-2030_26_0201-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1765625400000"
+  afterTime: "1769911199000"
   description: ""
 - id: cd_time_25_1224_0000
   number: 1
@@ -31408,6 +31432,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-shop_pack_item-0062
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-0062
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_pack_item-1stPeriodHarmonyStar-selection-ticket
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -40245,6 +40281,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-purchase-shop_pack_item-0050
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-shop_pack_item-0062
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_item-0062
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"

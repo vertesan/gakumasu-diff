@@ -3477,7 +3477,7 @@
   consumptionResourceQuantity: 0
   startTime: "1763258400000"
   endTime: "1766023199000"
-  order: 1
+  order: 2
 - id: shop_jewel_item-0026
   shopId: shop_jewel
   name: 【2回きりお得！】ジュエル6,000個
@@ -3501,7 +3501,7 @@
   consumptionResourceQuantity: 0
   startTime: "1763258400000"
   endTime: "1766023199000"
-  order: 2
+  order: 3
 - id: shop_pack_atbm-0001
   shopId: shop_pack
   name: 【72時間限定】プロデュースアイドルピースパック（燕）
@@ -4267,6 +4267,45 @@
   startTime: "1763690400000"
   endTime: "1764554399000"
   order: 3
+- id: shop_pack_item-0062
+  shopId: shop_pack
+  name: MOIW2025記念パック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0062"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 2500
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-ssr-idol-fix_3
+    quantity: 1
+  - resourceType: ResourceType_MeishiBaseAsset
+    resourceId: all-live-01
+    quantity: 1
+  - resourceType: ResourceType_MeishiIllustrationAsset
+    resourceId: music-logo-all-live-01
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 20000
+  - resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 100000
+  viewConditionSetId: cd_time_25_1213-2030_26_0201-1059
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1765625400000"
+  endTime: "1769911199000"
+  order: 1
 - id: shop_pack_item-100dl
   shopId: shop_pack
   name: 【100万DL記念】育成パック（6/28まで）
