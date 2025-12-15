@@ -9731,11 +9731,12 @@
   category: AchievementCategory_Other
   name: ベスト100
   description: コンテストで100位以内に入る
-  missionType: MissionType_AbsolutePvpRateRank
-  targetIds1: []
+  missionType: MissionType_ConditionClear
+  targetIds1:
+  - cd_achieve-o_015
   targetIds2: []
   targetIds3: []
-  targetValue: 100
+  targetValue: 0
   viewConditionSetId: ""
   unlockConditionSetId: ""
   masterAchievementInitialRank: 0
@@ -9925,12 +9926,12 @@
   category: AchievementCategory_Other
   name: コンテスト覇者
   description: コンテストのグレード7で1位になる
-  missionType: MissionType_AbsolutePvpRateRank
+  missionType: MissionType_ConditionClear
   targetIds1:
-  - "7"
+  - cd_achieve-o_026
   targetIds2: []
   targetIds3: []
-  targetValue: 1
+  targetValue: 0
   viewConditionSetId: cd-contest-grade_7-upper
   unlockConditionSetId: cd-contest-grade_7-upper
   masterAchievementInitialRank: 0
@@ -9943,12 +9944,12 @@
   category: AchievementCategory_Other
   name: 一流
   description: コンテストのグレード7で100位以内に入る
-  missionType: MissionType_AbsolutePvpRateRank
+  missionType: MissionType_ConditionClear
   targetIds1:
-  - "7"
+  - cd_achieve-o_027
   targetIds2: []
   targetIds3: []
-  targetValue: 100
+  targetValue: 0
   viewConditionSetId: cd-contest-grade_7-upper
   unlockConditionSetId: cd-contest-grade_7-upper
   masterAchievementInitialRank: 0

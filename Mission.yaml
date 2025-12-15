@@ -1668,6 +1668,38 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-achieve-o_015_001
+  missionGroupId: ""
+  name: リンクコンテストで100位以内に入ろう
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteCompetitionRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-achieve-o_015_002
+  missionGroupId: ""
+  name: コンテストで100位以内に入ろう
+  category: MissionCategory_Normal
+  type: MissionType_AbsolutePvpRateRank
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-achieve-o_016_001
   missionGroupId: ""
   name: リンクコンテストでグレード1に到達しよう
@@ -1886,6 +1918,74 @@
   targetIds3: []
   targetValue: 7
   isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-achieve-o_026_001
+  missionGroupId: ""
+  name: hidden_mission-achieve-o_026_001
+  category: MissionCategory_Normal
+  type: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-achieve-o_026_002
+  missionGroupId: ""
+  name: hidden_mission-achieve-o_026_002
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteCompetitionRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-achieve-o_027_001
+  missionGroupId: ""
+  name: hidden_mission-achieve-o_027_001
+  category: MissionCategory_Normal
+  type: MissionType_AbsolutePvpRateRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-achieve-o_027_002
+  missionGroupId: ""
+  name: hidden_mission-achieve-o_027_002
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteCompetitionRank
+  targetIds1:
+  - "7"
+  targetIds2: []
+  targetIds3: []
+  targetValue: 100
+  isLessThanTargetValue: true
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
@@ -30889,12 +30989,13 @@
   missionGroupId: ""
   name: コンテストで100位以内に入る
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
-  targetIds1: []
+  type: MissionType_ConditionClear
+  targetIds1:
+  - cd_achieve-o_015
   targetIds2: []
   targetIds3: []
-  targetValue: 100
-  isLessThanTargetValue: true
+  targetValue: 0
+  isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
@@ -31072,13 +31173,13 @@
   missionGroupId: ""
   name: コンテストのグレード7で1位になる
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_ConditionClear
   targetIds1:
-  - "7"
+  - cd_achieve-o_026
   targetIds2: []
   targetIds3: []
-  targetValue: 1
-  isLessThanTargetValue: true
+  targetValue: 0
+  isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
@@ -31089,13 +31190,13 @@
   missionGroupId: ""
   name: コンテストのグレード7で100位以内に入る
   category: MissionCategory_Achievement
-  type: MissionType_AbsolutePvpRateRank
+  type: MissionType_ConditionClear
   targetIds1:
-  - "7"
+  - cd_achieve-o_027
   targetIds2: []
   targetIds3: []
-  targetValue: 100
-  isLessThanTargetValue: true
+  targetValue: 0
+  isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
