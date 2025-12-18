@@ -16987,6 +16987,24 @@
   characterId: ttmr
   viewProduceResult: false
   order: 15
+- id: achievement_char_hume-024
+  category: AchievementCategory_Idol
+  name: 加速度的成長
+  description: 花海 佑芽の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 5
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 15
 - id: achievement_char_kcna-024
   category: AchievementCategory_Idol
   name: 一歩一歩成長中！
