@@ -1085,6 +1085,36 @@
   startTime: "1735696800000"
   endTime: "1738353599000"
   order: 101
+- id: item-gacha-coin-newyear-002
+  name: 初星ふくびき券 2026
+  description: 謹賀新年！ふくびきガシャで使用するアイテム
+  acquisitionRouteDescription: プロデュースなど
+  assetId: item_gacha-coin-newyear-001
+  type: ItemType_Coin
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1769957999000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: coin_gasha-newyear-002
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1767193200000"
+  endTime: "1769957999000"
+  order: 102
 - id: item-gasha_200limit-exchange
   name: Story of Re;IRIS放映記念交換券
   description: 20枚集めるとアイテム交換所でプロデュースアイドルやサポートカードを交換できるチケット
@@ -1151,7 +1181,7 @@
   unlockConditionSetId: ""
   startTime: "1763690400000"
   endTime: "0"
-  order: 38
+  order: 28
 - id: item-gashaitem-10_01
   name: はつみ印★無料10連ガシャチケット
   description: 最大100連無料！TVCM放映記念10連無料ガシャで使用できるアイテム
@@ -1246,7 +1276,7 @@
   unlockConditionSetId: ""
   startTime: "1766714400000"
   endTime: "0"
-  order: 30
+  order: 20
 - id: item-gashaticket-10
   name: プラチナ10連ガシャチケット
   description: プラチナガシャで使用する10連チケット
@@ -1378,7 +1408,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 31
+  order: 21
 - id: item-gashaticket-ssr-fix_1_1st-anniversary-001
   name: 1st アニバーサリー記念SSR確定チケット
   description: 1st アニバーサリー記念SSR確定チケットガシャで使用するチケット
@@ -1415,7 +1445,7 @@
   unlockConditionSetId: ""
   startTime: "1745287200000"
   endTime: "0"
-  order: 34
+  order: 24
 - id: item-gashaticket-ssr-fix_10-hoten
   name: SSR10連ガシャチケット
   description: 入学記念48時間限定SSR確定10連ガシャで使用するチケット
@@ -1489,7 +1519,7 @@
   unlockConditionSetId: ""
   startTime: "1763258400000"
   endTime: "0"
-  order: 37
+  order: 27
 - id: item-gashaticket-ssr-idol-fix_1
   name: SSR Pアイドル確定ガシャチケット
   description: SSR Pアイドル確定チケットガシャで使用するチケット
@@ -1526,7 +1556,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 32
+  order: 22
 - id: item-gashaticket-ssr-idol-fix_2
   name: The 1st Period公演記念 SSR Pアイドル確定チケット
   description: The 1st Period公演記念 SSR Pアイドル確定チケットガシャで使用するチケット
@@ -1563,7 +1593,7 @@
   unlockConditionSetId: ""
   startTime: "1748088000000"
   endTime: "0"
-  order: 36
+  order: 26
 - id: item-gashaticket-ssr-idol-fix_3
   name: MOIW2025記念 SSR Pアイドル確定ガシャチケット
   description: MOIW2025記念 SSR Pアイドル確定チケットガシャで使用するチケット
@@ -1600,7 +1630,44 @@
   unlockConditionSetId: ""
   startTime: "1765625400000"
   endTime: "0"
-  order: 39
+  order: 29
+- id: item-gashaticket-ssr-idol-season-fix_4
+  name: シーズン限定 SSR Pアイドル確定ガシャチケット
+  description: シーズン限定 SSR Pアイドル確定チケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-ssr-idol-seasononly-01
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-ticket-ssr-idol-seasons-260101
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-ticket-ssr-idol-seasons-260101
+    bannerAssetId: img_gasha_banner_gasha-ticket-ssr-idol-seasons-260101-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_ticket-ssr-idol-seasons-260101
+    unlockConditionSetId: ""
+    startTime: "1767193200000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_ticket-ssr-idol-seasons-260101
+  unlockConditionSetId: ""
+  startTime: "1767193200000"
+  endTime: "0"
+  order: 30
 - id: item-gashaticket-ssr-support-fix_1
   name: SSR Sカード確定ガシャチケット
   description: SSR Sカード確定チケットガシャで使用するチケット
@@ -1637,7 +1704,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 33
+  order: 23
 - id: item-gashaticket-ssr-support-fix-nia-1
   name: N.I.AチャレンジSSR サポートカード確定ガシャチケット
   description: N.I.AチャレンジSSR サポートカード確定チケットガシャで使用するチケット
@@ -1674,7 +1741,44 @@
   unlockConditionSetId: ""
   startTime: "1749693600000"
   endTime: "0"
-  order: 35
+  order: 25
+- id: item-gashaticket-ssr-support-season-fix_1
+  name: シーズン限定 SSR サポートカード確定ガシャチケット
+  description: シーズン限定 SSR サポートカード確定チケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-ssr-supportcard-seasononly-01
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-ticket-ssr-support-seasons-260101
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-ticket-ssr-support-seasons-260101
+    bannerAssetId: img_gasha_banner_gasha-ticket-ssr-support-seasons-260101-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_ticket-ssr-supportcard-seasons-260101
+    unlockConditionSetId: ""
+    startTime: "1767193200000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_ticket-ssr-supportcard-seasons-260101
+  unlockConditionSetId: ""
+  startTime: "1767193200000"
+  endTime: "0"
+  order: 31
 - id: item-Idolcardpiece-exchange-1
   name: フラワー
   description: 交換所で使用するアイテム

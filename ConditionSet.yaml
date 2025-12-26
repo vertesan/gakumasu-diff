@@ -2326,11 +2326,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket-ssr-idol-seasons-260101
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-idol-season-fix_4
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket-ssr-support-fix-nia-1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ItemCount
   resourceId1: item-gashaticket-ssr-support-fix-nia-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket-ssr-supportcard-seasons-260101
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-support-season-fix_1
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "1"
@@ -2530,6 +2554,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_login_bonus_akeome-26-0101
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767193200000"
+  afterTime: "1767729599000"
+  description: ""
 - id: cd_login_bonus_campaign_newyear-001-25-0101
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2541,6 +2577,18 @@
   max: "0"
   beforeTime: "1735696800000"
   afterTime: "1736798399000"
+  description: ""
+- id: cd_login_bonus_campaign_newyear-002-26-0101
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767232800000"
+  afterTime: "1768334399000"
   description: ""
 - id: cd_login_bonus_campaign_summer-001-24-0801
   number: 1
@@ -7990,6 +8038,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_not_purchase_shop_pack_item-newyearpack-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_purchase_shop_pack_item-newyearpack-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_photo-pose-hotsping-costume-non
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -8536,6 +8596,30 @@
   conditionType: ConditionType_ShopItemPurchase
   resourceId1: ""
   resourceId2: shop_pack_item-newyear_2500_01
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_purchase_shop_pack_item-newyearpack-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-newyear_2500_02
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_purchase_shop_pack_item-newyearpack-02
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-newyear_5000_02
   minMaxType: ConditionMinMaxType_Min
   min: "1"
   max: "0"
@@ -12718,6 +12802,18 @@
   beforeTime: "1765764000000"
   afterTime: "1766023200000"
   description: ""
+- id: cd_time_25_1215_1400
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1765774800000"
+  description: ""
 - id: cd_time_25_1221-0000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -12838,6 +12934,18 @@
   beforeTime: "1767106800000"
   afterTime: "0"
   description: ""
+- id: cd_time_25_1231-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767232800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_25-0516_25-0529
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -12861,6 +12969,18 @@
   max: "0"
   beforeTime: "1767193200000"
   afterTime: "0"
+  description: ""
+- id: cd_time_26_0101-0000_26_0201-0459
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767193200000"
+  afterTime: "1769889599000"
   description: ""
 - id: cd_time_26_0101-1100
   number: 1
@@ -17798,6 +17918,390 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-comeback
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Comeback
+  resourceId1: comeback-30
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 未ログイン30日ユーザー
+- id: cd-comeback-unlock_open-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766714400000"
+  afterTime: "0"
+  description: 12月26日開始
+- id: cd-comeback-unlock_open-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "9"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: PLv9以上のユーザー
+- id: cd-comeback-unlock_open-01
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-nia_produce-unlock_open
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: N.I.A未開放
+- id: cd-comeback-unlock_open-01
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 既存の条件
+- id: cd-comeback-unlock_open-01
+  number: 5
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 未ログイン30日ユーザー
+- id: cd-comeback-unlock_open-02
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766714400000"
+  afterTime: "0"
+  description: 12月26日11時未ログイン30日以上
+- id: cd-comeback-unlock_open-02
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-nia_produce-unlock_open
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: P課題35達成か「N.I.A」に挑戦できる
+- id: cd-comeback-unlock_open-02
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 既存の条件
+- id: cd-comeback-unlock_open-02
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 未ログイン30日ユーザー
+- id: cd-comeback-unlock_open-03
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766714400000"
+  afterTime: "0"
+  description: 12月26日11時未ログイン30日未満ユーザー
+- id: cd-comeback-unlock_open-03
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 既存の条件
+- id: cd-comeback-unlock_open-03
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-comeback
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766714400000"
+  afterTime: "0"
+  description: 12月26日開始
+- id: cd-comeback-unlock_open-04
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "8"
+  beforeTime: "0"
+  afterTime: "0"
+  description: PLv9未満のユーザー
+- id: cd-comeback-unlock_open-04
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-nia_produce-unlock_open
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: N.I.A未開放
+- id: cd-comeback-unlock_open-04
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-dalay-clear-main-task-01-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 既存の条件
+- id: cd-comeback-unlock_open-04
+  number: 5
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 未ログイン30日ユーザー
+- id: cd-comeback-unlock_open-05
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-05
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-06
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-06
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-07
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-03
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-07
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-08
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-04
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-08
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-09
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-03
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-09
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-04
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-10
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-07
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-10
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-08
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-comeback-unlock_open-11
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-niv
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: パネル未開放なら
+- id: cd-comeback-unlock_open-11
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-comeback-unlock_open-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-contest-grade_7-upper
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22718,6 +23222,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_costume_head_amao-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CostumeHead
+  resourceId1: costume_head_amao-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_costume_head_fktn-hair-0001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22771,6 +23287,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_CostumeHead
   resourceId1: costume_head_hrnm-hair-0003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_head_hrnm-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CostumeHead
+  resourceId1: costume_head_hrnm-hair-0004
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -22910,6 +23438,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_costume_head_kllj-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CostumeHead
+  resourceId1: costume_head_kllj-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_costume_head_shro-hair-0001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22963,6 +23503,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_CostumeHead
   resourceId1: costume_head_ssmk-hair-0003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_head_ssmk-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_CostumeHead
+  resourceId1: costume_head_ssmk-hair-0004
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -23965,6 +24517,18 @@
   max: "0"
   beforeTime: "1766329200000"
   afterTime: "1766674799000"
+  description: ""
+- id: cd-home_background-nomal-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1766714400000"
+  afterTime: "0"
   description: ""
 - id: cd-home_boards_newyear-00
   number: 1
@@ -26425,6 +26989,18 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-home_object_newyear-00
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1767193200000"
+  afterTime: "1767625199000"
   description: ""
 - id: cd-home-banner_shop_costume-0002
   number: 1
@@ -30210,11 +30786,35 @@
   beforeTime: "1747360800000"
   afterTime: "0"
   description: ""
+- id: cd-purchase_costume_head_amao-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_head_amao-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase_costume_head_fktn-hair-0004
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-have_costume_head_fktn-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_costume_head_hrnm-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_head_hrnm-hair-0004
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -30270,11 +30870,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase_costume_head_kllj-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_head_kllj-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase_costume_head_shro-hair-0004
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd-have_costume_head_shro-hair-0004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase_costume_head_ssmk-hair-0004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_head_ssmk-hair-0004
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
