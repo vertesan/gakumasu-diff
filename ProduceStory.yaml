@@ -102,16 +102,17 @@
   isBusinessExcellent: false
   order: 35
 - id: p_story_002_atbm_after-audition-a-normal-02
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: まだまだここから！
   advAssetId: adv_pstory_002_atbm_after-audition-a-normal-02
-  produceEventHintProduceConditionDescriptions: []
+  produceEventHintProduceConditionDescriptions:
+  - １次オーディションで「メロBang!」を選択し合格する
   viewConditionSetId: ""
   unlockConditionSetId: ""
   isBusinessExcellent: false
   order: 39
 - id: p_story_002_atbm_after-audition-a-normal-03
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: まだまだこれから
   advAssetId: adv_pstory_002_atbm_after-audition-a-normal-03
   produceEventHintProduceConditionDescriptions: []
@@ -120,16 +121,17 @@
   isBusinessExcellent: false
   order: 38
 - id: p_story_002_atbm_after-audition-b-normal-02
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: もっともっと先へ！
   advAssetId: adv_pstory_002_atbm_after-audition-b-normal-02
-  produceEventHintProduceConditionDescriptions: []
+  produceEventHintProduceConditionDescriptions:
+  - ２次オーディションで「GALAXYミュージック」を選択し合格する
   viewConditionSetId: ""
   unlockConditionSetId: ""
   isBusinessExcellent: false
   order: 42
 - id: p_story_002_atbm_after-audition-b-normal-03
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: もっと先へ
   advAssetId: adv_pstory_002_atbm_after-audition-b-normal-03
   produceEventHintProduceConditionDescriptions: []
@@ -138,7 +140,7 @@
   isBusinessExcellent: false
   order: 41
 - id: p_story_002_atbm_after-audition-final-failure-01
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: もう一度一緒に
   advAssetId: adv_pstory_002_atbm_after-audition-final-failure-01
   produceEventHintProduceConditionDescriptions: []
@@ -147,7 +149,7 @@
   isBusinessExcellent: false
   order: 43
 - id: p_story_002_atbm_after-audition-final-normal-01
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: さらなる高みへ！
   advAssetId: adv_pstory_002_atbm_after-audition-final-normal-01
   produceEventHintProduceConditionDescriptions: []
@@ -156,16 +158,17 @@
   isBusinessExcellent: false
   order: 44
 - id: p_story_002_atbm_after-audition-mid-failure-01
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: 次こそは絶対に
   advAssetId: adv_pstory_002_atbm_after-audition-mid-failure-01
-  produceEventHintProduceConditionDescriptions: []
+  produceEventHintProduceConditionDescriptions:
+  - １次/２次オーディションで不合格になる
   viewConditionSetId: ""
   unlockConditionSetId: ""
   isBusinessExcellent: false
   order: 37
 - id: p_story_002_atbm_before-audition-a-normal-01
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: 気合は十分？
   advAssetId: adv_pstory_002_atbm_before-audition-a-normal-01
   produceEventHintProduceConditionDescriptions: []
@@ -174,7 +177,7 @@
   isBusinessExcellent: false
   order: 36
 - id: p_story_002_atbm_before-audition-b-normal-01
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: 準備は万端？
   advAssetId: adv_pstory_002_atbm_before-audition-b-normal-01
   produceEventHintProduceConditionDescriptions: []
@@ -183,16 +186,17 @@
   isBusinessExcellent: false
   order: 40
 - id: p_story_002_atbm_ending-normal-02
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: Normal End
   advAssetId: adv_pstory_002_atbm_ending-normal-02
-  produceEventHintProduceConditionDescriptions: []
+  produceEventHintProduceConditionDescriptions:
+  - 最終オーディションに合格する
   viewConditionSetId: ""
   unlockConditionSetId: ""
   isBusinessExcellent: false
   order: 45
 - id: p_story_002_atbm_opening-normal-02
-  type: ProduceStoryType_Unknown
+  type: ProduceStoryType_Character
   title: めざせ『N.I.A』制覇！
   advAssetId: adv_pstory_002_atbm_opening-normal-02
   produceEventHintProduceConditionDescriptions: []
@@ -3402,7 +3406,7 @@
   title: 試験の結果は…
   advAssetId: adv_pstory_001_hume_after-audition-final-failure-01
   produceEventHintProduceConditionDescriptions:
-  - 最終試験に挑戦する
+  - 最終試験で不合格
   viewConditionSetId: ""
   unlockConditionSetId: ""
   isBusinessExcellent: false
@@ -10309,6 +10313,654 @@
   type: ProduceStoryType_StepBusinessEvent
   title: サイン会
   advAssetId: adv_pevent_002_amao_sales_4-006-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 48
+- id: p_story-event-002_atbm_business-1-1
+  type: ProduceStoryType_Unknown
+  title: 街頭キャンペーン
+  advAssetId: adv_pevent_002_atbm_sales_1-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 1
+- id: p_story-event-002_atbm_business-1-1-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 街頭キャンペーン
+  advAssetId: adv_pevent_002_atbm_sales_1-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 1
+- id: p_story-event-002_atbm_business-1-1-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 街頭キャンペーン
+  advAssetId: adv_pevent_002_atbm_sales_1-001-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 2
+- id: p_story-event-002_atbm_business-1-2
+  type: ProduceStoryType_Unknown
+  title: イベントカフェPR
+  advAssetId: adv_pevent_002_atbm_sales_1-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 2
+- id: p_story-event-002_atbm_business-1-2-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: イベントカフェPR
+  advAssetId: adv_pevent_002_atbm_sales_1-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 3
+- id: p_story-event-002_atbm_business-1-2-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: イベントカフェPR
+  advAssetId: adv_pevent_002_atbm_sales_1-002-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 4
+- id: p_story-event-002_atbm_business-1-3
+  type: ProduceStoryType_Unknown
+  title: インタビュアー
+  advAssetId: adv_pevent_002_atbm_sales_1-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 3
+- id: p_story-event-002_atbm_business-1-3-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: インタビュアー
+  advAssetId: adv_pevent_002_atbm_sales_1-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 5
+- id: p_story-event-002_atbm_business-1-3-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: インタビュアー
+  advAssetId: adv_pevent_002_atbm_sales_1-003-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 6
+- id: p_story-event-002_atbm_business-1-4
+  type: ProduceStoryType_Unknown
+  title: ヒーローショーの司会
+  advAssetId: adv_pevent_002_atbm_sales_1-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 4
+- id: p_story-event-002_atbm_business-1-4-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ヒーローショーの司会
+  advAssetId: adv_pevent_002_atbm_sales_1-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 7
+- id: p_story-event-002_atbm_business-1-4-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ヒーローショーの司会
+  advAssetId: adv_pevent_002_atbm_sales_1-004-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 8
+- id: p_story-event-002_atbm_business-1-5
+  type: ProduceStoryType_Unknown
+  title: 試飲販売
+  advAssetId: adv_pevent_002_atbm_sales_1-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 5
+- id: p_story-event-002_atbm_business-1-5-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 試飲販売
+  advAssetId: adv_pevent_002_atbm_sales_1-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 9
+- id: p_story-event-002_atbm_business-1-5-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 試飲販売
+  advAssetId: adv_pevent_002_atbm_sales_1-005-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 10
+- id: p_story-event-002_atbm_business-1-6
+  type: ProduceStoryType_Unknown
+  title: 脱出ゲームPR
+  advAssetId: adv_pevent_002_atbm_sales_1-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 6
+- id: p_story-event-002_atbm_business-1-6-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 脱出ゲームPR
+  advAssetId: adv_pevent_002_atbm_sales_1-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 11
+- id: p_story-event-002_atbm_business-1-6-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 脱出ゲームPR
+  advAssetId: adv_pevent_002_atbm_sales_1-006-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 12
+- id: p_story-event-002_atbm_business-2-1
+  type: ProduceStoryType_Unknown
+  title: 清掃ボランティア
+  advAssetId: adv_pevent_002_atbm_sales_2-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 7
+- id: p_story-event-002_atbm_business-2-1-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 清掃ボランティア
+  advAssetId: adv_pevent_002_atbm_sales_2-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 13
+- id: p_story-event-002_atbm_business-2-1-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 清掃ボランティア
+  advAssetId: adv_pevent_002_atbm_sales_2-001-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 14
+- id: p_story-event-002_atbm_business-2-2
+  type: ProduceStoryType_Unknown
+  title: 商店街イベント
+  advAssetId: adv_pevent_002_atbm_sales_2-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 8
+- id: p_story-event-002_atbm_business-2-2-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 商店街イベント
+  advAssetId: adv_pevent_002_atbm_sales_2-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 15
+- id: p_story-event-002_atbm_business-2-2-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 商店街イベント
+  advAssetId: adv_pevent_002_atbm_sales_2-002-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 16
+- id: p_story-event-002_atbm_business-2-3
+  type: ProduceStoryType_Unknown
+  title: 天川観光大使
+  advAssetId: adv_pevent_002_atbm_sales_2-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 9
+- id: p_story-event-002_atbm_business-2-3-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 天川観光大使
+  advAssetId: adv_pevent_002_atbm_sales_2-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 17
+- id: p_story-event-002_atbm_business-2-3-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 天川観光大使
+  advAssetId: adv_pevent_002_atbm_sales_2-003-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 18
+- id: p_story-event-002_atbm_business-2-4
+  type: ProduceStoryType_Unknown
+  title: ラジオの公開収録
+  advAssetId: adv_pevent_002_atbm_sales_2-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 10
+- id: p_story-event-002_atbm_business-2-4-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ラジオの公開収録
+  advAssetId: adv_pevent_002_atbm_sales_2-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 19
+- id: p_story-event-002_atbm_business-2-4-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ラジオの公開収録
+  advAssetId: adv_pevent_002_atbm_sales_2-004-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 20
+- id: p_story-event-002_atbm_business-2-5
+  type: ProduceStoryType_Unknown
+  title: ちびっこ体操教室
+  advAssetId: adv_pevent_002_atbm_sales_2-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 11
+- id: p_story-event-002_atbm_business-2-5-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ちびっこ体操教室
+  advAssetId: adv_pevent_002_atbm_sales_2-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 21
+- id: p_story-event-002_atbm_business-2-5-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ちびっこ体操教室
+  advAssetId: adv_pevent_002_atbm_sales_2-005-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 22
+- id: p_story-event-002_atbm_business-2-6
+  type: ProduceStoryType_Unknown
+  title: 天川イベントガール
+  advAssetId: adv_pevent_002_atbm_sales_2-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 12
+- id: p_story-event-002_atbm_business-2-6-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 天川イベントガール
+  advAssetId: adv_pevent_002_atbm_sales_2-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 23
+- id: p_story-event-002_atbm_business-2-6-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 天川イベントガール
+  advAssetId: adv_pevent_002_atbm_sales_2-006-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 24
+- id: p_story-event-002_atbm_business-3-1
+  type: ProduceStoryType_Unknown
+  title: 森林浴スポット撮影
+  advAssetId: adv_pevent_002_atbm_sales_3-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 13
+- id: p_story-event-002_atbm_business-3-1-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 森林浴スポット撮影
+  advAssetId: adv_pevent_002_atbm_sales_3-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 25
+- id: p_story-event-002_atbm_business-3-1-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 森林浴スポット撮影
+  advAssetId: adv_pevent_002_atbm_sales_3-001-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 26
+- id: p_story-event-002_atbm_business-3-2
+  type: ProduceStoryType_Unknown
+  title: スパリゾートPR
+  advAssetId: adv_pevent_002_atbm_sales_3-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 14
+- id: p_story-event-002_atbm_business-3-2-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: スパリゾートPR
+  advAssetId: adv_pevent_002_atbm_sales_3-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 27
+- id: p_story-event-002_atbm_business-3-2-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: スパリゾートPR
+  advAssetId: adv_pevent_002_atbm_sales_3-002-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 28
+- id: p_story-event-002_atbm_business-3-3
+  type: ProduceStoryType_Unknown
+  title: 水族館のナビ収録
+  advAssetId: adv_pevent_002_atbm_sales_3-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 15
+- id: p_story-event-002_atbm_business-3-3-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 水族館のナビ収録
+  advAssetId: adv_pevent_002_atbm_sales_3-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 29
+- id: p_story-event-002_atbm_business-3-3-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 水族館のナビ収録
+  advAssetId: adv_pevent_002_atbm_sales_3-003-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 30
+- id: p_story-event-002_atbm_business-3-4
+  type: ProduceStoryType_Unknown
+  title: ヨガ体験
+  advAssetId: adv_pevent_002_atbm_sales_3-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 16
+- id: p_story-event-002_atbm_business-3-4-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ヨガ体験
+  advAssetId: adv_pevent_002_atbm_sales_3-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 31
+- id: p_story-event-002_atbm_business-3-4-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ヨガ体験
+  advAssetId: adv_pevent_002_atbm_sales_3-004-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 32
+- id: p_story-event-002_atbm_business-3-5
+  type: ProduceStoryType_Unknown
+  title: 温泉PR
+  advAssetId: adv_pevent_002_atbm_sales_3-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 17
+- id: p_story-event-002_atbm_business-3-5-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 温泉PR
+  advAssetId: adv_pevent_002_atbm_sales_3-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 33
+- id: p_story-event-002_atbm_business-3-5-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 温泉PR
+  advAssetId: adv_pevent_002_atbm_sales_3-005-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 34
+- id: p_story-event-002_atbm_business-3-6
+  type: ProduceStoryType_Unknown
+  title: キャンプ場体験
+  advAssetId: adv_pevent_002_atbm_sales_3-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 18
+- id: p_story-event-002_atbm_business-3-6-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: キャンプ場体験
+  advAssetId: adv_pevent_002_atbm_sales_3-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 35
+- id: p_story-event-002_atbm_business-3-6-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: キャンプ場体験
+  advAssetId: adv_pevent_002_atbm_sales_3-006-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 36
+- id: p_story-event-002_atbm_business-4-1
+  type: ProduceStoryType_Unknown
+  title: ミニライブ
+  advAssetId: adv_pevent_002_atbm_sales_4-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 19
+- id: p_story-event-002_atbm_business-4-1-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ミニライブ
+  advAssetId: adv_pevent_002_atbm_sales_4-001-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 37
+- id: p_story-event-002_atbm_business-4-1-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ミニライブ
+  advAssetId: adv_pevent_002_atbm_sales_4-001-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 38
+- id: p_story-event-002_atbm_business-4-2
+  type: ProduceStoryType_Unknown
+  title: トークイベント
+  advAssetId: adv_pevent_002_atbm_sales_4-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 20
+- id: p_story-event-002_atbm_business-4-2-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: トークイベント
+  advAssetId: adv_pevent_002_atbm_sales_4-002-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 39
+- id: p_story-event-002_atbm_business-4-2-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: トークイベント
+  advAssetId: adv_pevent_002_atbm_sales_4-002-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 40
+- id: p_story-event-002_atbm_business-4-3
+  type: ProduceStoryType_Unknown
+  title: 握手会
+  advAssetId: adv_pevent_002_atbm_sales_4-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 21
+- id: p_story-event-002_atbm_business-4-3-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 握手会
+  advAssetId: adv_pevent_002_atbm_sales_4-003-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 41
+- id: p_story-event-002_atbm_business-4-3-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 握手会
+  advAssetId: adv_pevent_002_atbm_sales_4-003-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 42
+- id: p_story-event-002_atbm_business-4-4
+  type: ProduceStoryType_Unknown
+  title: 映画上映イベント
+  advAssetId: adv_pevent_002_atbm_sales_4-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 22
+- id: p_story-event-002_atbm_business-4-4-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: 映画上映イベント
+  advAssetId: adv_pevent_002_atbm_sales_4-004-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 43
+- id: p_story-event-002_atbm_business-4-4-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: 映画上映イベント
+  advAssetId: adv_pevent_002_atbm_sales_4-004-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 44
+- id: p_story-event-002_atbm_business-4-5
+  type: ProduceStoryType_Unknown
+  title: ゲーム体験
+  advAssetId: adv_pevent_002_atbm_sales_4-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 23
+- id: p_story-event-002_atbm_business-4-5-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: ゲーム体験
+  advAssetId: adv_pevent_002_atbm_sales_4-005-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 45
+- id: p_story-event-002_atbm_business-4-5-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: ゲーム体験
+  advAssetId: adv_pevent_002_atbm_sales_4-005-02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: true
+  order: 46
+- id: p_story-event-002_atbm_business-4-6
+  type: ProduceStoryType_Unknown
+  title: サイン会
+  advAssetId: adv_pevent_002_atbm_sales_4-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 24
+- id: p_story-event-002_atbm_business-4-6-1
+  type: ProduceStoryType_StepBusinessEvent
+  title: サイン会
+  advAssetId: adv_pevent_002_atbm_sales_4-006-01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 47
+- id: p_story-event-002_atbm_business-4-6-2
+  type: ProduceStoryType_StepBusinessEvent
+  title: サイン会
+  advAssetId: adv_pevent_002_atbm_sales_4-006-02
   produceEventHintProduceConditionDescriptions: []
   viewConditionSetId: ""
   unlockConditionSetId: ""
@@ -17658,6 +18310,33 @@
   unlockConditionSetId: ""
   isBusinessExcellent: false
   order: 3
+- id: p_story-i_card-atbm-3-012-01
+  type: ProduceStoryType_IdolCard
+  title: Campus mode!! 1話
+  advAssetId: adv_cidol-atbm-3-012_01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 1
+- id: p_story-i_card-atbm-3-012-02
+  type: ProduceStoryType_IdolCard
+  title: Campus mode!! 2話
+  advAssetId: adv_cidol-atbm-3-012_02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 2
+- id: p_story-i_card-atbm-3-012-03
+  type: ProduceStoryType_IdolCard
+  title: Campus mode!! 3話
+  advAssetId: adv_cidol-atbm-3-012_03
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 3
 - id: p_story-i_card-fktn-3-000-01
   type: ProduceStoryType_IdolCard
   title: 世界一可愛い私 1話
@@ -23233,6 +23912,33 @@
   type: ProduceStoryType_SupportCard
   title: ふと思い立ったんです！
   advAssetId: adv_csprt-3-0082_03
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 3
+- id: p_story-s_card-3-0085-01
+  type: ProduceStoryType_SupportCard
+  title: 理想的な先輩後輩
+  advAssetId: adv_csprt-3-0085_01
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 1
+- id: p_story-s_card-3-0085-02
+  type: ProduceStoryType_SupportCard
+  title: 座右の銘は？
+  advAssetId: adv_csprt-3-0085_02
+  produceEventHintProduceConditionDescriptions: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  isBusinessExcellent: false
+  order: 2
+- id: p_story-s_card-3-0085-03
+  type: ProduceStoryType_SupportCard
+  title: 相手が誰だろうと
+  advAssetId: adv_csprt-3-0085_03
   produceEventHintProduceConditionDescriptions: []
   viewConditionSetId: ""
   unlockConditionSetId: ""

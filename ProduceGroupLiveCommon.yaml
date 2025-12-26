@@ -187,15 +187,31 @@
 - characterId: atbm
   produceGroupId: produce_group-002
   type: ProduceLiveType_TrueEnd
-  musicId: music-all-atbm-001
-  needForceLiveCommonIdolCard: false
+  musicId: music-all-atbm-002
+  needForceLiveCommonIdolCard: true
   unlockConditionSetId: cd_time_25_0630-1100
-  thumbnailAssetId: img_general_live_music-all-atbm-001_true-end
-  environmentAssetId: env_3d_live_all001-00-noon
-  timelineAssetId: tln_live_all-001
+  thumbnailAssetId: img_general_live_music-all-atbm-002_true-end
+  environmentAssetId: env_3d_live_all002-00-noon
+  timelineAssetId: tln_live_all-002
   motionAssetIds:
-  - mot_live_chr_atbm_all-001_00_in
-  liveMusicAssetId: sud_music_live_all-001-atbm_true-001
+  - mot_live_chr_atbm_all-002_00_in
+  liveMusicAssetId: sud_music_live_all-002-atbm_true-001
+  beforeAdvAssetId: ""
+  afterAdvAssetId: ""
+  liveOverrideAssetId: ""
+  additionalActorAssetIds: []
+- characterId: atbm
+  produceGroupId: produce_group-002
+  type: ProduceLiveType_A
+  musicId: music-all-atbm-002
+  needForceLiveCommonIdolCard: false
+  unlockConditionSetId: ""
+  thumbnailAssetId: img_general_live_music-all-atbm-002_a
+  environmentAssetId: env_3d_live_audition-00-00-noon
+  timelineAssetId: tln_live_cmmn_all-002-normal-001
+  motionAssetIds:
+  - mot_live_chr_atbm_all-002-normal-001_00_in
+  liveMusicAssetId: sud_music_live_all-002-atbm_normal-001
   beforeAdvAssetId: ""
   afterAdvAssetId: ""
   liveOverrideAssetId: ""

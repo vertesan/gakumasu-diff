@@ -92,7 +92,7 @@
   unlockConditionSetId: cd-nia_master_produce-unlock_open
   examSettingId: p_exam_setting-1
   produceSettingId: p_setting-5
-  idolCardParameterGrowthLimit: 2300
+  idolCardParameterGrowthLimit: 2600
   maxProduceEventCharacterGrowthNumber: 0
   steps: 26
   actionPointQuantity: 20
@@ -103,3 +103,24 @@
   gradientColor1: FF1C7E
   gradientColor2: FFC436
   order: 2
+- id: produce-006
+  name: レジェンド
+  baseStepLevel: 5
+  maxRefreshCount: 4
+  produceSelectScreenOrderType: ProduceSelectScreenOrderType_Second
+  challengeViewConditionSetId: cd-master_produce-view_open
+  viewConditionSetId: cd-master_produce-view_open
+  unlockConditionSetId: cd-hajime_legend_produce-unlock_open
+  examSettingId: p_exam_setting-1
+  produceSettingId: p_setting-6
+  idolCardParameterGrowthLimit: 2800
+  maxProduceEventCharacterGrowthNumber: 0
+  steps: 18
+  actionPointQuantity: 20
+  assetId: produce-4
+  produceNavigationNormalId: p_navi-produce_group-001-normal
+  produceNavigationAuditionId: p_navi-produce_group-001-audition
+  produceNavigationLoseId: p_navi-produce_group-001-lose
+  gradientColor1: FF51A2
+  gradientColor2: 8052FF
+  order: 1

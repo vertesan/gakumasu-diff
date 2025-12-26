@@ -23,6 +23,31 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_200limit_button_001-10
+  name: 10回ガシャ
+  description: 10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelTotal
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 20
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+  appealType: GashaButtonAppealType_DrawableCount
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_AppealText
+  bottomAppealText: SR以上1枚確定
+  isOverride: false
 - id: gasha_button_animate-ssr-00630
   name: 有償10回ガシャ
   description: 有償10回ガシャ
@@ -321,6 +346,31 @@
   highAppealType: GashaButtonAppealType_Unknown
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_button-continuous-001
+  name: アイテムで引く
+  description: 引き放題ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 0
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item_gacha-coin-continuous-001
+  limitType: GashaLimitType_Total
+  limitCount: 5
+  resourceQuantity: 1
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
 - id: gasha_button-free-10-01

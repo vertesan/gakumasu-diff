@@ -970,6 +970,114 @@
   characterId: atbm
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-atbm-3-012-01
+  category: AchievementCategory_Idol
+  name: ダークヒーローの誕生
+  description: 【Campus mode!!】雨夜 燕のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-3-012
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-atbm-3-012-02
+  category: AchievementCategory_Idol
+  name: Campus mode!!
+  description: 【Campus mode!!】雨夜 燕の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-012
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-atbm-3-012-03
+  category: AchievementCategory_Idol
+  name: みんなの世界を変えてやる！
+  description: 【Campus mode!!】雨夜 燕のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-atbm-3-012
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-atbm-3-012-04
+  category: AchievementCategory_Idol
+  name: Campus mode!! +
+  description: 【Campus mode!!】雨夜 燕の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-012
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-atbm-3-012-05
+  category: AchievementCategory_Idol
+  name: Campus mode!! ++
+  description: 【Campus mode!!】雨夜 燕の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-012
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-atbm-3-012-06
+  category: AchievementCategory_Idol
+  name: Campus mode!! +++
+  description: 【Campus mode!!】雨夜 燕の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-atbm-3-012
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-atbm-3-012
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-fktn-2-000-04
   category: AchievementCategory_Idol
   name: カワイイ♡はじめました +
@@ -10382,7 +10490,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 27
+  order: 30
 - id: achieve-p_common-025
   category: AchievementCategory_Produce
   name: 積み重なる経験
@@ -10399,7 +10507,7 @@
   isMasterAchievement: false
   characterId: ""
   viewProduceResult: false
-  order: 28
+  order: 31
 - id: achieve-p_common-026
   category: AchievementCategory_Produce
   name: マスタープロデューサー
@@ -10451,6 +10559,23 @@
   characterId: ""
   viewProduceResult: false
   order: 26
+- id: achieve-p_common-029
+  category: AchievementCategory_Produce
+  name: 道を照らす者
+  description: 最終試験をスコアSSS+以上で{threshold}回合格
+  missionType: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ""
+  viewProduceResult: false
+  order: 27
 - id: achieve-p_idol-amao-000
   category: AchievementCategory_Idol
   name: 本当のボク
@@ -10893,6 +11018,42 @@
   characterId: amao
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-amao-023
+  category: AchievementCategory_Idol
+  name: 可愛くてカッコイイ王子様
+  description: 有村 麻央で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-amao-024
+  category: AchievementCategory_Idol
+  name: 同じ夢に翔ける
+  description: 有村 麻央で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: amao
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-atbm-000
   category: AchievementCategory_Idol
   name: 価値の証明
@@ -11244,6 +11405,43 @@
   characterId: atbm
   viewProduceResult: true
   order: 22
+- id: achieve-p_idol-atbm-018
+  category: AchievementCategory_Idol
+  name: 果たし状
+  description: プロデュースで特別指導を{threshold}回選択
+  missionType: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3:
+  - Customize
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: true
+  order: 23
+- id: achieve-p_idol-atbm-019
+  category: AchievementCategory_Idol
+  name: 救うべき者たち
+  description: プロデュースでファン投票数を{threshold}獲得
+  missionType: MissionType_IncrementProduceVoteCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 1
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: true
+  order: 24
 - id: achieve-p_idol-atbm-020
   category: AchievementCategory_Idol
   name: 進むべき道
@@ -11262,6 +11460,60 @@
   characterId: atbm
   viewProduceResult: true
   order: 9
+- id: achieve-p_idol-atbm-021
+  category: AchievementCategory_Idol
+  name: 獲りに行くぞ
+  description: 雨夜 燕で最終試験に合格して評価SS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 13
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 5
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: true
+  order: 10
+- id: achieve-p_idol-atbm-023
+  category: AchievementCategory_Idol
+  name: 一番星のライバル
+  description: 雨夜 燕で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-atbm-024
+  category: AchievementCategory_Idol
+  name: 心に火を灯して
+  description: 雨夜 燕で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: atbm
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-card-amao-002-1
   category: AchievementCategory_Idol
   name: らしさ
@@ -12676,6 +12928,42 @@
   characterId: fktn
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-fktn-023
+  category: AchievementCategory_Idol
+  name: 黄金世代筆頭
+  description: 藤田 ことねで最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-fktn-024
+  category: AchievementCategory_Idol
+  name: やれることぜぇーんぶ
+  description: 藤田 ことねで最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-hmsz-000
   category: AchievementCategory_Idol
   name: 人生最高の日
@@ -13099,7 +13387,43 @@
   isMasterAchievement: false
   characterId: hmsz
   viewProduceResult: true
-  order: 9
+  order: 10
+- id: achieve-p_idol-hmsz-023
+  category: AchievementCategory_Idol
+  name: 魔性のアイドル
+  description: 秦谷 美鈴で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-hmsz-024
+  category: AchievementCategory_Idol
+  name: 約束を果たすために
+  description: 秦谷 美鈴で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hmsz
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-hrnm-000
   category: AchievementCategory_Idol
   name: 本当のきもち
@@ -13542,6 +13866,42 @@
   characterId: hrnm
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-hrnm-023
+  category: AchievementCategory_Idol
+  name: 優しいみんなのお姉さん
+  description: 姫崎 莉波で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-hrnm-024
+  category: AchievementCategory_Idol
+  name: 原点を見つめなおして
+  description: 姫崎 莉波で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hrnm
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-hski-000
   category: AchievementCategory_Idol
   name: 無敵のトップアイドル
@@ -13984,6 +14344,42 @@
   characterId: hski
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-hski-023
+  category: AchievementCategory_Idol
+  name: 勝ち気で負けず嫌いな優等生
+  description: 花海 咲季で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-hski-024
+  category: AchievementCategory_Idol
+  name: 正解にしてみせる
+  description: 花海 咲季で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-hume-000
   category: AchievementCategory_Idol
   name: 人生最高のファインプレー
@@ -14407,6 +14803,42 @@
   characterId: hume
   viewProduceResult: true
   order: 10
+- id: achieve-p_idol-hume-023
+  category: AchievementCategory_Idol
+  name: 初星学園の怪物
+  description: 花海 佑芽で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-hume-024
+  category: AchievementCategory_Idol
+  name: お姉ちゃんの目標に
+  description: 花海 佑芽で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-jsna-000
   category: AchievementCategory_Idol
   name: 真のトップアイドル
@@ -14831,6 +15263,42 @@
   characterId: jsna
   viewProduceResult: true
   order: 10
+- id: achieve-p_idol-jsna-023
+  category: AchievementCategory_Idol
+  name: 一番星のトップアイドル
+  description: 十王 星南で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-jsna-024
+  category: AchievementCategory_Idol
+  name: 私たちのふたつの夢
+  description: 十王 星南で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-kcna-000
   category: AchievementCategory_Idol
   name: レベル1の駆け出しアイドル
@@ -15255,6 +15723,42 @@
   characterId: kcna
   viewProduceResult: true
   order: 10
+- id: achieve-p_idol-kcna-023
+  category: AchievementCategory_Idol
+  name: 立派な一流アイドル
+  description: 倉本 千奈で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-kcna-024
+  category: AchievementCategory_Idol
+  name: 立候補いたしますわ！
+  description: 倉本 千奈で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-kllj-000
   category: AchievementCategory_Idol
   name: 光
@@ -15679,6 +16183,42 @@
   characterId: kllj
   viewProduceResult: true
   order: 10
+- id: achieve-p_idol-kllj-023
+  category: AchievementCategory_Idol
+  name: 応援したくなるアイドル
+  description: 葛城 リーリヤで最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-kllj-024
+  category: AchievementCategory_Idol
+  name: 燃えるシチュエーション
+  description: 葛城 リーリヤで最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-shro-000
   category: AchievementCategory_Idol
   name: ずっと、楽しいね
@@ -16121,6 +16661,42 @@
   characterId: shro
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-shro-023
+  category: AchievementCategory_Idol
+  name: 雰囲気トップアイドル
+  description: 篠澤 広で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-shro-024
+  category: AchievementCategory_Idol
+  name: 何度目かの奇跡を
+  description: 篠澤 広で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-ssmk-000
   category: AchievementCategory_Idol
   name: 踏み出した一歩
@@ -16545,6 +17121,42 @@
   characterId: ssmk
   viewProduceResult: true
   order: 10
+- id: achieve-p_idol-ssmk-023
+  category: AchievementCategory_Idol
+  name: 類稀なる才能の持ち主
+  description: 紫雲 清夏で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-ssmk-024
+  category: AchievementCategory_Idol
+  name: なりたいあたしに
+  description: 紫雲 清夏で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: true
+  order: 12
 - id: achieve-p_idol-ttmr-000
   category: AchievementCategory_Idol
   name: 私だけのプロデューサー
@@ -16987,6 +17599,42 @@
   characterId: ttmr
   viewProduceResult: false
   order: 15
+- id: achieve-p_idol-ttmr-023
+  category: AchievementCategory_Idol
+  name: 不安定な実力者
+  description: 月村 手毬で最終試験に合格して評価SSS以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 14
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: true
+  order: 11
+- id: achieve-p_idol-ttmr-024
+  category: AchievementCategory_Idol
+  name: 追いすがってやる！
+  description: 月村 手毬で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 15
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ttmr
+  viewProduceResult: true
+  order: 12
 - id: achievement_char_hume-024
   category: AchievementCategory_Idol
   name: 加速度的成長

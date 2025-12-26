@@ -10,7 +10,7 @@
   continueCount: 3
   produceAuditionTrendAssessmentPermilUpper: 200
   produceAuditionTrendAssessmentPermilLower: 200
-  maxLegendProduceCardCount: 1
+  maxLegendProduceCardCount: 0
 - id: p_setting-2
   initialProducePoint: 0
   produceDrinkPossessLimit: 3
@@ -23,7 +23,7 @@
   continueCount: 3
   produceAuditionTrendAssessmentPermilUpper: 200
   produceAuditionTrendAssessmentPermilLower: 200
-  maxLegendProduceCardCount: 1
+  maxLegendProduceCardCount: 0
 - id: p_setting-3
   initialProducePoint: 0
   produceDrinkPossessLimit: 3
@@ -36,7 +36,7 @@
   continueCount: 3
   produceAuditionTrendAssessmentPermilUpper: 200
   produceAuditionTrendAssessmentPermilLower: 200
-  maxLegendProduceCardCount: 1
+  maxLegendProduceCardCount: 0
 - id: p_setting-4
   initialProducePoint: 0
   produceDrinkPossessLimit: 3
@@ -49,7 +49,7 @@
   continueCount: 3
   produceAuditionTrendAssessmentPermilUpper: 200
   produceAuditionTrendAssessmentPermilLower: 200
-  maxLegendProduceCardCount: 1
+  maxLegendProduceCardCount: 0
 - id: p_setting-5
   initialProducePoint: 0
   produceDrinkPossessLimit: 3
@@ -58,6 +58,19 @@
   stepSkipStaminaRecoveryPermil: 250
   beforeAuditionRefreshStaminaRecoveryPermil: 500
   stepCustomizeStartAlertProducePointThreshold: 39
+  examStartAlertStaminaThreshold: 10
+  continueCount: 3
+  produceAuditionTrendAssessmentPermilUpper: 110
+  produceAuditionTrendAssessmentPermilLower: 110
+  maxLegendProduceCardCount: 0
+- id: p_setting-6
+  initialProducePoint: 0
+  produceDrinkPossessLimit: 3
+  refreshStaminaRecoveryPermil: 700
+  customizeProduceCardCount: 2
+  stepSkipStaminaRecoveryPermil: 250
+  beforeAuditionRefreshStaminaRecoveryPermil: 700
+  stepCustomizeStartAlertProducePointThreshold: 49
   examStartAlertStaminaThreshold: 10
   continueCount: 3
   produceAuditionTrendAssessmentPermilUpper: 110

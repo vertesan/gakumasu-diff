@@ -1,3 +1,40 @@
+- id: item_gacha-coin-continuous-001
+  name: TVCM放映記念引き放題ガシャコイン
+  description: TVCM放映記念引き放題ガシャで使用するコイン
+  acquisitionRouteDescription: TVCM放映記念ログインボーナス、TVCM放映記念ミッション
+  assetId: item_gacha-coin-continuous-001
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "1769957999000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00680-continuous-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00680-continuous-001
+    bannerAssetId: img_gasha_banner_gasha-00680-continuous-001-select
+    hasFixReward: true
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1766714400000"
+    endTime: "1769957999000"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1766714400000"
+  endTime: "1769957999000"
+  order: 64
 - id: item-coin-box-gasha-event-001
   name: アザッシー
   description: イベントガシャで使用するアイテム
@@ -987,7 +1024,7 @@
   unlockConditionSetId: ""
   startTime: "1763690400000"
   endTime: "1764554399000"
-  order: 60
+  order: 74
 - id: item-gacha-coin-anniversary-001
   name: はつみちゃんコイン
   description: 1st アニバーサリーコインガシャで使用するコイン
@@ -1017,7 +1054,7 @@
   unlockConditionSetId: ""
   startTime: "1745287200000"
   endTime: "1748743199000"
-  order: 60
+  order: 73
 - id: item-gacha-coin-newyear-001
   name: 初星ふくびき券 2025
   description: 謹賀新年！ふくびきガシャで使用するアイテム
@@ -1048,6 +1085,36 @@
   startTime: "1735696800000"
   endTime: "1738353599000"
   order: 101
+- id: item-gasha_200limit-exchange
+  name: Story of Re;IRIS放映記念交換券
+  description: 20枚集めるとアイテム交換所でプロデュースアイドルやサポートカードを交換できるチケット
+  acquisitionRouteDescription: Story of Re;IRIS放映記念SSR1.5倍セレクトピックアップガシャ
+  assetId: item_gacha-ticket-200limit-10-2025-01
+  type: ItemType_Medal
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "1769871599000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Event
+  exchangeId: exchange-gasha-200limit-01
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: cd-view-gasha-200limit-select-pickup-exchenge-01
+  unlockConditionSetId: ""
+  startTime: "1766714400000"
+  endTime: "1769871599000"
+  order: 10
 - id: item-gasha-ticket-ssr-fix-seasons-2511-001
   name: 1.5th アニバーサリー記念シーズン限定SSR確定ガシャチケット
   description: 1.5th アニバーサリー記念シーズン限定SSR確定チケットで使用するチケット
@@ -1121,7 +1188,7 @@
   unlockConditionSetId: ""
   startTime: "1733104800000"
   endTime: "1738421999000"
-  order: 50
+  order: 62
 - id: item-gashaticket-1
   name: プラチナガシャチケット
   description: プラチナガシャで使用するチケット
@@ -1237,7 +1304,7 @@
   unlockConditionSetId: ""
   startTime: "1766714400000"
   endTime: "0"
-  order: 50
+  order: 60
 - id: item-gashaticket-christmas-001
   name: クリスマスガシャ10連チケット
   description: クリスマスログインボーナスチケットガシャで使用するチケット
@@ -1274,7 +1341,7 @@
   unlockConditionSetId: ""
   startTime: "1766520000000"
   endTime: "0"
-  order: 51
+  order: 63
 - id: item-gashaticket-ssr-fix_1
   name: SSR確定ガシャチケット
   description: SSR確定チケットガシャで使用するチケット
@@ -1385,7 +1452,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 50
+  order: 61
 - id: item-gashaticket-ssr-fix_5
   name: 1.5th アニバーサリー記念SSR確定ガシャチケット
   description: 1.5th アニバーサリー記念SSR確定チケットガシャで使用するチケット
@@ -2747,7 +2814,7 @@
   unlockConditionSetId: cd_memory-inherit-release_open
   startTime: "1748721600000"
   endTime: "0"
-  order: 51
+  order: 70
 - id: item-memory_exchange-class2
   name: ロジックコイン
   description: ロジックガシャで使用するコイン
@@ -2777,7 +2844,7 @@
   unlockConditionSetId: cd_memory-inherit-release_open
   startTime: "1748721600000"
   endTime: "0"
-  order: 52
+  order: 71
 - id: item-memory_exchange-class3
   name: アノマリーコイン
   description: アノマリーガシャで使用するコイン
@@ -2807,7 +2874,7 @@
   unlockConditionSetId: cd_memory-inherit-release_open
   startTime: "1748721600000"
   endTime: "0"
-  order: 51
+  order: 72
 - id: item-memory-inherit
   name: メモリー合成チケット
   description: メモリー合成に使用するチケット
@@ -3258,6 +3325,36 @@
   startTime: "0"
   endTime: "0"
   order: 1007370
+- id: item-piece-idol_atbm-3-012
+  name: "[Campus mode!!]雨夜燕のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 1007320
 - id: item-piece-idol_fktn-1-000
   name: "[学園生活]藤田ことねのピース"
   description: プロデュースアイドルの才能開花や解放に使用するアイテム
