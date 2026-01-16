@@ -1027,6 +1027,150 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 8
+- id: dearness_event_ttmr-001
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のボーカルを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1800-afp
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_ttmr-002
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のプロデュースでおでかけを{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3:
+  - EventActivity
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_ttmr-003
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のプロデュースで相談を{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3:
+  - Shop
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_ttmr-004
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_ttmr-005
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のプロデュースで活動支給・差し入れを{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3:
+  - Present
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: dearness_event_ttmr-006
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬でボーカルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3:
+  - LessonVocalNormal
+  - LessonVocalSp
+  - LessonVocalHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: dearness_event_ttmr-007
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬のプロデュースで特別指導を{threshold}回選択しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3:
+  - Customize
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
+- id: dearness_event_ttmr-008
+  missionGroupId: dearness_panel-mission_ttmr_01
+  name: 月村 手毬で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
 - id: dearness_normal-mission_amao-001
   missionGroupId: dearness_normal-mission_amao_01
   name: 有村 麻央のボーカルを2000以上に育成してプロデュースをクリア
@@ -1627,6 +1771,92 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd-dearness_normal-mission_ssmk-0001
+  unlockConditionSetId: ""
+  order: 5
+- id: dearness_normal-mission_ttmr-001
+  missionGroupId: dearness_normal-mission_ttmr_01
+  name: 月村 手毬のボーカルを2000以上に育成してプロデュースをクリア
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-2000-afp
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_ttmr-0001
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_normal-mission_ttmr-002
+  missionGroupId: dearness_normal-mission_ttmr_01
+  name: 月村 手毬のプロデュースでスキルカードを合計{threshold}回使用しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_ttmr-0001
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_normal-mission_ttmr-003
+  missionGroupId: dearness_normal-mission_ttmr_01
+  name: 月村 手毬のプロデュースでスキルカードを{threshold}回強化しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_ttmr-0001
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_normal-mission_ttmr-004
+  missionGroupId: dearness_normal-mission_ttmr_01
+  name: 月村 手毬で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_ttmr-0001
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_normal-mission_ttmr-005
+  missionGroupId: dearness_normal-mission_ttmr_01
+  name: 月村 手毬のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd-dearness_normal-mission_ttmr-0001
   unlockConditionSetId: ""
   order: 5
 - id: hidden_mission-achieve-o_014_001
@@ -11567,6 +11797,431 @@
   isLessThanTargetValue: false
   isEventMission: true
   missionDailyReleaseGroupId: mission-group-highscorerush-event-008_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 56
+- id: mission-highscorerush-event-009-mission_11
+  missionGroupId: mission-group-highscorerush-event-009_1
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-highscorerush-event-009-mission_12
+  missionGroupId: mission-group-highscorerush-event-009_1
+  name: 月村 手毬のボーカルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1000
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-highscorerush-event-009-mission_13
+  missionGroupId: mission-group-highscorerush-event-009_1
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: mission-highscorerush-event-009-mission_14
+  missionGroupId: mission-group-highscorerush-event-009_1
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: mission-highscorerush-event-009-mission_16
+  missionGroupId: mission-group-highscorerush-event-009_1
+  name: 1日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-009_1
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: mission-highscorerush-event-009-mission_21
+  missionGroupId: mission-group-highscorerush-event-009_2
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 21
+- id: mission-highscorerush-event-009-mission_22
+  missionGroupId: mission-group-highscorerush-event-009_2
+  name: 花海 咲季のビジュアルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 22
+- id: mission-highscorerush-event-009-mission_23
+  missionGroupId: mission-group-highscorerush-event-009_2
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 23
+- id: mission-highscorerush-event-009-mission_24
+  missionGroupId: mission-group-highscorerush-event-009_2
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 24
+- id: mission-highscorerush-event-009-mission_26
+  missionGroupId: mission-group-highscorerush-event-009_2
+  name: 2日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-009_2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 1
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 26
+- id: mission-highscorerush-event-009-mission_31
+  missionGroupId: mission-group-highscorerush-event-009_3
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 31
+- id: mission-highscorerush-event-009-mission_32
+  missionGroupId: mission-group-highscorerush-event-009_3
+  name: 月村 手毬または花海 咲季のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
+- id: mission-highscorerush-event-009-mission_33
+  missionGroupId: mission-group-highscorerush-event-009_3
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 33
+- id: mission-highscorerush-event-009-mission_34
+  missionGroupId: mission-group-highscorerush-event-009_3
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 34
+- id: mission-highscorerush-event-009-mission_36
+  missionGroupId: mission-group-highscorerush-event-009_3
+  name: 3日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-009_3
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 2
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 36
+- id: mission-highscorerush-event-009-mission_41
+  missionGroupId: mission-group-highscorerush-event-009_4
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 41
+- id: mission-highscorerush-event-009-mission_42
+  missionGroupId: mission-group-highscorerush-event-009_4
+  name: 月村 手毬または花海 咲季のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 42
+- id: mission-highscorerush-event-009-mission_43
+  missionGroupId: mission-group-highscorerush-event-009_4
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 43
+- id: mission-highscorerush-event-009-mission_44
+  missionGroupId: mission-group-highscorerush-event-009_4
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 44
+- id: mission-highscorerush-event-009-mission_46
+  missionGroupId: mission-group-highscorerush-event-009_4
+  name: 4日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-009_4
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 3
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 46
+- id: mission-highscorerush-event-009-mission_51
+  missionGroupId: mission-group-highscorerush-event-009_5
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 51
+- id: mission-highscorerush-event-009-mission_52
+  missionGroupId: mission-group-highscorerush-event-009_5
+  name: 月村 手毬または花海 咲季のプロデュースで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 52
+- id: mission-highscorerush-event-009-mission_53
+  missionGroupId: mission-group-highscorerush-event-009_5
+  name: 月村 手毬でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 53
+- id: mission-highscorerush-event-009-mission_54
+  missionGroupId: mission-group-highscorerush-event-009_5
+  name: 花海 咲季でプロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
+  missionDailyReleaseDay: 4
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 54
+- id: mission-highscorerush-event-009-mission_56
+  missionGroupId: mission-group-highscorerush-event-009_5
+  name: 5日目のミッションを全てクリア
+  category: MissionCategory_Special
+  type: MissionType_IncrementMissionClear
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - mission-group-highscorerush-event-009_5
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: mission-group-highscorerush-event-009_daily
   missionDailyReleaseDay: 4
   viewConditionSetId: ""
   unlockConditionSetId: ""
@@ -31734,6 +32389,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-ttmr-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-01
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-016
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-02
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-03
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-016
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-04
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-05
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-016-06
+  missionGroupId: ""
+  name: 【一体いつから】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-016
   unlockConditionSetId: ""
   order: 0
 - id: achieve-m_amao-001

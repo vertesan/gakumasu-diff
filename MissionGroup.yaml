@@ -110,6 +110,22 @@
   rewardAssetId: ""
   conditionSetId: cd-dearness_normal-mission_ssmk-0001
   order: 1
+- id: dearness_normal-mission_ttmr_01
+  name: アイドルミッション手毬
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_normal-mission_ttmr-001
+  - dearness_normal-mission_ttmr-002
+  - dearness_normal-mission_ttmr-003
+  - dearness_normal-mission_ttmr-004
+  - dearness_normal-mission_ttmr-005
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_normal-mission_ttmr-0001
+  order: 1
 - id: dearness_panel-mission_amao_01
   name: 親愛度ブーストキャンペーン
   assetId: ""
@@ -284,6 +300,31 @@
   rewardName: ""
   rewardAssetId: ""
   conditionSetId: cd-dearness_ssmk-20
+  order: 1
+- id: dearness_panel-mission_ttmr_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_ttmr-001
+  - dearness_event_ttmr-002
+  - dearness_event_ttmr-003
+  - dearness_event_ttmr-004
+  - dearness_event_ttmr-005
+  - dearness_event_ttmr-006
+  - dearness_event_ttmr-007
+  - dearness_event_ttmr-008
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_ttmr-20
   order: 1
 - id: mission_group-daily-001
   name: デイリーミッション
@@ -1736,6 +1777,86 @@
   - mission-highscorerush-event-008-mission_53
   - mission-highscorerush-event-008-mission_54
   - mission-highscorerush-event-008-mission_56
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 5
+- id: mission-group-highscorerush-event-009_1
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-009_point
+  missionIds:
+  - mission-highscorerush-event-009-mission_11
+  - mission-highscorerush-event-009-mission_12
+  - mission-highscorerush-event-009-mission_13
+  - mission-highscorerush-event-009-mission_14
+  - mission-highscorerush-event-009-mission_16
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
+- id: mission-group-highscorerush-event-009_2
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-009_point
+  missionIds:
+  - mission-highscorerush-event-009-mission_21
+  - mission-highscorerush-event-009-mission_22
+  - mission-highscorerush-event-009-mission_23
+  - mission-highscorerush-event-009-mission_24
+  - mission-highscorerush-event-009-mission_26
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 2
+- id: mission-group-highscorerush-event-009_3
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-009_point
+  missionIds:
+  - mission-highscorerush-event-009-mission_31
+  - mission-highscorerush-event-009-mission_32
+  - mission-highscorerush-event-009-mission_33
+  - mission-highscorerush-event-009-mission_34
+  - mission-highscorerush-event-009-mission_36
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 3
+- id: mission-group-highscorerush-event-009_4
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-009_point
+  missionIds:
+  - mission-highscorerush-event-009-mission_41
+  - mission-highscorerush-event-009-mission_42
+  - mission-highscorerush-event-009-mission_43
+  - mission-highscorerush-event-009-mission_44
+  - mission-highscorerush-event-009-mission_46
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 4
+- id: mission-group-highscorerush-event-009_5
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-009_point
+  missionIds:
+  - mission-highscorerush-event-009-mission_51
+  - mission-highscorerush-event-009-mission_52
+  - mission-highscorerush-event-009-mission_53
+  - mission-highscorerush-event-009-mission_54
+  - mission-highscorerush-event-009-mission_56
   rewards: []
   showHomeLimitedMission: false
   rewardName: ""
