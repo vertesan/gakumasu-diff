@@ -6547,8 +6547,8 @@
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
-  beforeTime: "1769025600000"
-  afterTime: "0"
+  beforeTime: "0"
+  afterTime: "1769025600000"
   description: ""
 - id: cd_mission-weekly-incrementpvpratewincount-1_001
   number: 1
@@ -6571,8 +6571,20 @@
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
-  beforeTime: "1764532800000"
-  afterTime: "1768766399000"
+  beforeTime: "1769371200000"
+  afterTime: "0"
+  description: ""
+- id: cd_mission-weekly-incrementpvpratewincount-1_0122-0126
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1769025600000"
+  afterTime: "1769371199000"
   description: ""
 - id: cd_money_exchange_plv_1_4
   number: 1

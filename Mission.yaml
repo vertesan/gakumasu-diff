@@ -21562,6 +21562,22 @@
   viewConditionSetId: cd_mission-weekly-incrementpvpratewincount-1_002
   unlockConditionSetId: ""
   order: 46
+- id: mission-weekly-incrementpvpratewincount-1_normal-count
+  missionGroupId: mission_group-weekly-001
+  name: コンテストに{threshold}回挑戦しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementPvpRatePlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_mission-weekly-incrementpvpratewincount-1_0122-0126
+  unlockConditionSetId: ""
+  order: 47
 - id: mission-weekly-incrementsupportcardenhancecount-1
   missionGroupId: mission_group-weekly-001
   name: サポートカードを{threshold}回強化しよう
