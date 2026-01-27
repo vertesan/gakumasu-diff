@@ -1,4 +1,8 @@
 - type: ExamPlayType_AutoPlay
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_buff_consume
+  coefficientPermil: 650
+  count: 0
+- type: ExamPlayType_AutoPlay
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_move_lost-p_card_search-target
   coefficientPermil: 900
   count: 0
@@ -167,6 +171,10 @@
   coefficientPermil: 1000
   count: 0
 - type: ExamPlayType_ManualPlayLesson
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_buff_consume
+  coefficientPermil: 650
+  count: 0
+- type: ExamPlayType_ManualPlayLesson
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_move_lost-p_card_search-target
   coefficientPermil: 900
   count: 0
@@ -335,6 +343,10 @@
   coefficientPermil: 1000
   count: 0
 - type: ExamPlayType_ManualPlayLessonHard
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_buff_consume
+  coefficientPermil: 650
+  count: 0
+- type: ExamPlayType_ManualPlayLessonHard
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_move_lost-p_card_search-target
   coefficientPermil: 900
   count: 0
@@ -503,6 +515,10 @@
   coefficientPermil: 1000
   count: 0
 - type: ExamPlayType_ManualPlayAudition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_buff_consume
+  coefficientPermil: 650
+  count: 0
+- type: ExamPlayType_ManualPlayAudition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_move_lost-p_card_search-target
   coefficientPermil: 900
   count: 0
@@ -669,6 +685,10 @@
 - type: ExamPlayType_ManualPlayAudition
   examStatusEnchantProduceExamTriggerId: e_trigger-start_play
   coefficientPermil: 1000
+  count: 0
+- type: ExamPlayType_AutoPlayCompetition
+  examStatusEnchantProduceExamTriggerId: e_trigger-exam_buff_consume
+  coefficientPermil: 650
   count: 0
 - type: ExamPlayType_AutoPlayCompetition
   examStatusEnchantProduceExamTriggerId: e_trigger-exam_card_move_lost-p_card_search-target

@@ -1493,6 +1493,41 @@
   produceCardGrowEffectIds:
   - g_effect-effect_add-e_effect-exam_lesson-0006-01
   producePoint: 70
+- id: p_card_custom-wrapper-p_card-01-men-2_104-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_LessonAdd
+  description: パラメータ追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_lesson-0006-01
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-01-men-2_104-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-lesson_buff_add-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-01-men-2_104-b-01
+  customizeCount: 2
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-lesson_buff_add-3
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-01-men-2_104-c-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-block_add-4
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-01-men-2_104-c-01
+  customizeCount: 2
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-block_add-13
+  producePoint: 70
 - id: p_card_custom-wrapper-p_card-01-men-2_110-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
@@ -1633,6 +1668,41 @@
   produceCardGrowEffectIds:
   - g_effect-block_add-17
   producePoint: 70
+- id: p_card_custom-wrapper-p_card-02-men-1_076-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-cost_aggressive_reduce-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-02-men-1_076-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-review_add-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-02-men-1_076-b-01
+  customizeCount: 2
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-review_add-2
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-02-men-1_076-b-01
+  customizeCount: 3
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-review_add-5
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-02-men-1_076-c-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: "レッスン中1回\\nの制限削除"
+  produceCardGrowEffectIds:
+  - g_effect-play_move_position_type_change-grave
+  producePoint: 40
 - id: p_card_custom-wrapper-p_card-02-men-2_100-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
@@ -1738,6 +1808,55 @@
   produceCardGrowEffectIds:
   - g_effect-cost_aggressive_reduce-1
   producePoint: 40
+- id: p_card_custom-wrapper-p_card-02-sup-3_180-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_ReviewAdd
+  description: 好印象追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_review-0002
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-02-sup-3_180-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-cost_aggressive_reduce-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-03-act-1_043-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: 強気+
+  produceCardGrowEffectIds:
+  - g_effect-effect_change-e_effect-exam_concentration-0001-e_effect-exam_concentration-0002
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-03-act-1_043-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-full_power_point_add-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-03-act-1_043-b-01
+  customizeCount: 2
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-full_power_point_add-2
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-03-act-1_043-b-01
+  customizeCount: 3
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-full_power_point_add-4
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-03-act-1_043-c-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: 保留追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_card_move-p_card_search-deck-hold-select-1_1
+  producePoint: 70
 - id: p_card_custom-wrapper-p_card-03-act-1_072-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
@@ -1822,6 +1941,27 @@
   produceCardGrowEffectIds:
   - g_effect-effect_add-e_effect-exam_block-0009
   producePoint: 70
+- id: p_card_custom-wrapper-p_card-03-act-2_106-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-cost_full_power_point_reduce-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-03-act-2_106-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: 強気+
+  produceCardGrowEffectIds:
+  - g_effect-effect_change-e_effect-exam_concentration-0001-e_effect-exam_concentration-0002
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-03-act-2_106-c-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: "レッスン中1回\\nの制限削除"
+  produceCardGrowEffectIds:
+  - g_effect-play_move_position_type_change-grave
+  producePoint: 40
 - id: p_card_custom-wrapper-p_card-03-men-1_050-a-01
   customizeCount: 1
   overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
@@ -1898,6 +2038,20 @@
   description: 元気追加
   produceCardGrowEffectIds:
   - g_effect-effect_add-e_effect-exam_block-0009
+  producePoint: 70
+- id: p_card_custom-wrapper-p_card-03-men-3_060-a-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+  description: ""
+  produceCardGrowEffectIds:
+  - g_effect-cost_full_power_point_reduce-1
+  producePoint: 40
+- id: p_card_custom-wrapper-p_card-03-men-3_060-b-01
+  customizeCount: 1
+  overwriteProduceCardGrowEffectType: ProduceCardGrowEffectType_CardStatusEnchantChange
+  description: 成長追加
+  produceCardGrowEffectIds:
+  - g_effect-effect_add-e_effect-exam_add_grow_effect-p_card_search-hold-all-0_0-g_effect-lesson_add-5
   producePoint: 70
 - id: p_card_custom-wrapper-p_card-03-sup-3_162-a-01
   customizeCount: 1
