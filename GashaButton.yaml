@@ -723,6 +723,31 @@
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
   isOverride: true
+- id: gasha_marge_button-ssr-00750
+  name: 有償10回ガシャ
+  description: 有償10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_FixSsr
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_DrawableCount
+  bottomAppealText: あと{0}回
+  isOverride: true
 - id: gasha_ticket_christmas-001
   name: クリスマスログインボーナスガシャチケットで引く
   description: 10回ガシャ
@@ -995,6 +1020,31 @@
   appealText: ""
   highAppealType: GashaButtonAppealType_Unknown
   highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_ticket_valentine-001
+  name: バレンタインログインボーナスガシャチケットで引く
+  description: 10回ガシャ
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-valentine-001
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_AppealText
+  highAppealText: SR以上1枚確定
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false

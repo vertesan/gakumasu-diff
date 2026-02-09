@@ -8929,6 +8929,19 @@
   pickCountMin: 1
   pickCountMax: 1
   isResearch: false
+- id: p_effect-produce_reward_set-p_rd-event-rush_item--with_fes-exam_concentration-exam_card_play_aggressive-select-01_01
+  produceEffectType: ProduceEffectType_ProduceRewardSet
+  effectValueMin: 0
+  effectValueMax: 0
+  produceResourceType: ProduceResourceType_ProduceItem
+  produceRewards: []
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Select
+  pickCountMin: 1
+  pickCountMax: 1
+  isResearch: false
 - id: p_effect-produce_reward_set-p_rd-event-rush_item-exam_card_play_aggressive-exam_concentration-select-01_01
   produceEffectType: ProduceEffectType_ProduceRewardSet
   effectValueMin: 0
@@ -11697,6 +11710,22 @@
   pickCountMin: 0
   pickCountMax: 0
   isResearch: false
+- id: p_effect-produce_reward-0001_0001-produce_card-p_card-02-sup-3_181-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceCard
+    resourceId: p_card-02-sup-3_181
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  isResearch: false
 - id: p_effect-produce_reward-0001_0001-produce_card-p_card-03-act-1_042-1
   produceEffectType: ProduceEffectType_ProduceReward
   effectValueMin: 1
@@ -13081,6 +13110,22 @@
   produceRewards:
   - resourceType: ProduceResourceType_ProduceItem
     resourceId: pitem_02-2-119-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  isResearch: false
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_02-2-122-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_02-2-122-0
     resourceLevel: 0
   produceCardSearchId: ""
   produceExamStatusEnchantId: ""

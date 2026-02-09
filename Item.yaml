@@ -575,6 +575,36 @@
   startTime: "1768528800000"
   endTime: "1769371199000"
   order: 40
+- id: item-coin-highscorerush-event-010
+  name: ほしのきらめき
+  description: 十王邦夫のアイドル強化月間〜星々のきらめき〜(十王星南/雨夜燕)のイベントガシャで使用するアイテム
+  acquisitionRouteDescription: イベントモードのプロデュースなど
+  assetId: item_event-highscorerush
+  type: ItemType_Medal
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1771725599000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: highscorerush-event-010_box_01
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: highscorerush-event-010
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1770602400000"
+  endTime: "1771444799000"
+  order: 40
 - id: item-common-idol_card-piece-r
   name: Rアイドルのピース
   description: Rプロデュースアイドルの才能開花に使用できるアイテム
@@ -1839,6 +1869,43 @@
   startTime: "1767193200000"
   endTime: "0"
   order: 31
+- id: item-gashaticket-valentine-001
+  name: バレンタインガシャ10連チケット
+  description: バレンタインログインボーナスチケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-valentine-001
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Sr
+  commonLimitTime: "1772157599000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00750-ticket-login-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00750-ticket-login-001
+    bannerAssetId: img_gasha_banner_gasha-00750-ticket-login-001-select
+    hasFixReward: true
+    viewConditionSetId: cd_gasha_have_ticket_valentine-001
+    unlockConditionSetId: ""
+    startTime: "1770602400000"
+    endTime: "1772157599000"
+  viewConditionSetId: cd_gasha_have_ticket_valentine-001
+  unlockConditionSetId: ""
+  startTime: "1770602400000"
+  endTime: "1772157599000"
+  order: 65
 - id: item-Idolcardpiece-exchange-1
   name: フラワー
   description: 交換所で使用するアイテム
@@ -5259,6 +5326,36 @@
   startTime: "0"
   endTime: "0"
   order: 1060510
+- id: item-piece-idol_jsna-3-015
+  name: "[赤裸々]十王星南のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 1060250
 - id: item-piece-idol_kcna-1-000
   name: "[学園生活]倉本千奈のピース"
   description: プロデュースアイドルの才能開花や解放に使用するアイテム
