@@ -877,6 +877,222 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 8
+- id: dearness_event_relaunch_fktn-001
+  missionGroupId: dearness_panel-mission_relaunch_fktn_01
+  name: 藤田 ことねのダンスを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1800-afp
+  targetIds2:
+  - fktn
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_fktn-002
+  missionGroupId: dearness_panel-mission_relaunch_fktn_01
+  name: 藤田 ことねのプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_fktn-003
+  missionGroupId: dearness_panel-mission_relaunch_fktn_01
+  name: 藤田 ことねでダンスレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3:
+  - LessonDanceNormal
+  - LessonDanceSp
+  - LessonDanceHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_fktn-004
+  missionGroupId: dearness_panel-mission_relaunch_fktn_01
+  name: 藤田 ことねで最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_relaunch_shro-001
+  missionGroupId: dearness_panel-mission_relaunch_shro_01
+  name: 篠澤 広のボーカルを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1800-afp
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_shro-002
+  missionGroupId: dearness_panel-mission_relaunch_shro_01
+  name: 篠澤 広のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_shro-003
+  missionGroupId: dearness_panel-mission_relaunch_shro_01
+  name: 篠澤 広でボーカルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3:
+  - LessonVocalNormal
+  - LessonVocalSp
+  - LessonVocalHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_shro-004
+  missionGroupId: dearness_panel-mission_relaunch_shro_01
+  name: 篠澤 広で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_relaunch_ssmk-001
+  missionGroupId: dearness_panel-mission_relaunch_ssmk_01
+  name: 紫雲 清夏のダンスを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1800-afp
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_ssmk-002
+  missionGroupId: dearness_panel-mission_relaunch_ssmk_01
+  name: 紫雲 清夏のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_ssmk-003
+  missionGroupId: dearness_panel-mission_relaunch_ssmk_01
+  name: 紫雲 清夏でダンスレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3:
+  - LessonDanceNormal
+  - LessonDanceSp
+  - LessonDanceHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_ssmk-004
+  missionGroupId: dearness_panel-mission_relaunch_ssmk_01
+  name: 紫雲 清夏で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
 - id: dearness_event_shro-001
   missionGroupId: dearness_panel-mission_shro_01
   name: 篠澤 広のボーカルを1800以上に育成してプロデュースをクリア
@@ -20890,6 +21106,143 @@
   type: MissionType_ProduceConditionClearBeforeLiveEvaluation
   targetIds1:
   - p_cd_ProduceCardGet-p_card-02-men-3_042
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 9
+- id: mission-research-event-004-mission_1
+  missionGroupId: mission-group-research-event-004
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-research-event-004-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-research-event-004-mission_10
+  missionGroupId: mission-group-research-event-004
+  name: スキルカード「天真爛漫」を所持してプロデュースをクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_ProduceCardGet-p_card-01-men-3_035
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 10
+- id: mission-research-event-004-mission_11
+  missionGroupId: mission-group-research-event-004
+  name: スキルカード「存在感」を所持してプロデュースをクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_ProduceCardGet-p_card-01-men-2_037
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: mission-research-event-004-mission_12
+  missionGroupId: mission-group-research-event-004
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: mission-research-event-004-mission_2
+  missionGroupId: mission-group-research-event-004
+  name: プラン：ロジックのプロデュースアイドルで最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProducePlanClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - Plan2
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-research-event-004-mission_3
+  missionGroupId: mission-group-research-event-004
+  name: プロデュースの相談で{threshold}回交換しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceShopBuyCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-research-event-004-mission_8
+  missionGroupId: mission-group-research-event-004
+  name: スキルカード「国民的アイドル」を所持してプロデュースをクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_ProduceCardGet-p_card-01-men-3_006
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
+- id: mission-research-event-004-mission_9
+  missionGroupId: mission-group-research-event-004
+  name: スキルカード「鳴り止まない拍手」を所持してプロデュースをクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_ProduceCardGet-p_card-01-men-3_033
   targetIds2: []
   targetIds3: []
   targetValue: 0

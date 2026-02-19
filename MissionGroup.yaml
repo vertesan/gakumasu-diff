@@ -292,6 +292,69 @@
   rewardAssetId: ""
   conditionSetId: cd-dearness_kllj-20
   order: 1
+- id: dearness_panel-mission_relaunch_fktn_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_relaunch_fktn-001
+  - dearness_event_relaunch_fktn-002
+  - dearness_event_relaunch_fktn-003
+  - dearness_event_relaunch_fktn-004
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_fktn-20
+  order: 1
+- id: dearness_panel-mission_relaunch_shro_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_relaunch_shro-001
+  - dearness_event_relaunch_shro-002
+  - dearness_event_relaunch_shro-003
+  - dearness_event_relaunch_shro-004
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_shro-20
+  order: 1
+- id: dearness_panel-mission_relaunch_ssmk_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_relaunch_ssmk-001
+  - dearness_event_relaunch_ssmk-002
+  - dearness_event_relaunch_ssmk-003
+  - dearness_event_relaunch_ssmk-004
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_ssmk-20
+  order: 1
 - id: dearness_panel-mission_shro_01
   name: 親愛度ブーストキャンペーン
   assetId: ""
@@ -2932,6 +2995,25 @@
   - mission-research-event-003-mission_10
   - mission-research-event-003-mission_11
   - mission-research-event-003-mission_12
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
+- id: mission-group-research-event-004
+  name: あさりゼミ004
+  assetId: img_general_event_research_research-event-001-header
+  missionPointId: ""
+  missionIds:
+  - mission-research-event-004-mission_1
+  - mission-research-event-004-mission_2
+  - mission-research-event-004-mission_3
+  - mission-research-event-004-mission_8
+  - mission-research-event-004-mission_9
+  - mission-research-event-004-mission_10
+  - mission-research-event-004-mission_11
+  - mission-research-event-004-mission_12
   rewards: []
   showHomeLimitedMission: false
   rewardName: ""
