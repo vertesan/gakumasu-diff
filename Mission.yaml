@@ -22573,6 +22573,126 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 7
+- id: mission-tour-event-002-mission_1
+  missionGroupId: mission-group-tour-event-002
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-tour-event-002-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-tour-event-002-mission_2
+  missionGroupId: mission-group-tour-event-002
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-tour-event-002-mission_3
+  missionGroupId: mission-group-tour-event-002
+  name: ライブツアーイベントで{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-002
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-tour-event-002-mission_4
+  missionGroupId: mission-group-tour-event-002
+  name: ライブツアーイベントでハコユレLv1以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-002
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-tour-event-002-mission_5
+  missionGroupId: mission-group-tour-event-002
+  name: ライブツアーイベントでハコユレLv2以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-002
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-tour-event-002-mission_6
+  missionGroupId: mission-group-tour-event-002
+  name: ライブツアーイベントでハコユレLv3以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-002
+  targetIds2: []
+  targetIds3: []
+  targetValue: 3
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: mission-tour-event-002-mission_7
+  missionGroupId: mission-group-tour-event-002
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
 - id: mission-weekly-competitionplaycount-1
   missionGroupId: mission_group-weekly-001
   name: リンクコンテストに{threshold}回挑戦しよう
@@ -26885,6 +27005,108 @@
   viewConditionSetId: cd_time-view_open-i_card-hmsz-3-014
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-hmsz-3-015-01
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-015
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-015-02
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-015-03
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hmsz-3-015
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-015-04
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-015-05
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hmsz-3-015-06
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】秦谷 美鈴の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hmsz-3-015
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hmsz-3-015
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-hrnm-2-000-04
   missionGroupId: ""
   name: 【『私らしさ』のはじまり】姫崎 莉波の特訓段階を{threshold}にする
@@ -29127,6 +29349,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-hume-3-012
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-01
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-016
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-02
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-03
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hume-3-016
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-04
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-05
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hume-3-016-06
+  missionGroupId: ""
+  name: 【ENDLESS DANCE】花海 佑芽の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hume-3-016
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hume-3-016
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-jsna-2-000-01
