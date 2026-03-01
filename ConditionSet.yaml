@@ -2242,6 +2242,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_draw_gasha-00770-after-party-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-00770-after-party-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_event_release_mission
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16378,6 +16390,30 @@
   min: "0"
   max: "0"
   beforeTime: "1772280000000"
+  afterTime: "1773021599000"
+  description: ""
+- id: cd_view_gasha-00770-after-party-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-00770-after-party-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_gasha-00770-after-party-002
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1772366400000"
   afterTime: "1773021599000"
   description: ""
 - id: cd_view_gasha-select-pickup-animate-001
