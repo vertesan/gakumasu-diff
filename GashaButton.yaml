@@ -773,6 +773,31 @@
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
   isOverride: true
+- id: gasha_ticket_aniv-001
+  name: もうすぐ1周年記念ガシャ10連チケットで引く
+  description: 10回ガシャ
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-aniv-001
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_AppealText
+  highAppealText: SR以上1枚確定
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_ticket_christmas-001
   name: クリスマスログインボーナスガシャチケットで引く
   description: 10回ガシャ

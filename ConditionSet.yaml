@@ -2350,6 +2350,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_aniv-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-aniv-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_aniv-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773021600000"
+  afterTime: "1773885599000"
+  description: ""
 - id: cd_gasha_have_ticket_christmas-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4293,6 +4317,18 @@
   max: "0"
   beforeTime: "1772568000000"
   afterTime: "1773172800000"
+  description: ""
+- id: cd_login_bonus_wednesday-26-0311
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773172800000"
+  afterTime: "1773777599000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -8878,6 +8914,66 @@
   beforeTime: "0"
   afterTime: "0"
   description: プロデューサーLv75以上で解放
+- id: cd_producer_level-076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "76"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデューサーLv76以上で解放
+- id: cd_producer_level-077
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "77"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデューサーLv77以上で解放
+- id: cd_producer_level-078
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "78"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデューサーLv78以上で解放
+- id: cd_producer_level-079
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "79"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデューサーLv79以上で解放
+- id: cd_producer_level-080
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "80"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: プロデューサーLv80以上で解放
 - id: cd_producerlevel-10
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -13918,6 +14014,30 @@
   beforeTime: "1772636400000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0309_26_0319
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773021600000"
+  afterTime: "1773863999000"
+  description: ""
+- id: cd_time_26_0309-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773021600000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0401_26_1001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14711,6 +14831,18 @@
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-jsna-3-015
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "-2209194000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-jsna-3-016
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_TimeTerm
@@ -38783,6 +38915,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_Music
   resourceId1: music-all-hume-014
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-014
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-jsna-014
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"

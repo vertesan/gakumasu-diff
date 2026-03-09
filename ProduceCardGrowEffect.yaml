@@ -922,6 +922,18 @@
   produceCardStatusEnchantId: ""
   playMovePositionType: ProduceCardMovePositionType_Unknown
   effectGroupIds: []
+- id: g_effect-cost_parameter_buff_multiple_per_turn_reduce-1
+  effectType: ProduceCardGrowEffectType_CostParameterBuffMultiplePerTurnReduce
+  costType: ExamCostType_Unknown
+  value: 1
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: ""
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds: []
 - id: g_effect-cost_parameter_buff_reduce-1
   effectType: ProduceCardGrowEffectType_CostParameterBuffReduce
   costType: ExamCostType_Unknown
@@ -5035,6 +5047,22 @@
   - effect_group-visible-exam_lesson-000
   - effect_group-visible-exam_status_enchant-000
   - effect_group-visible-exam_review-000
+- id: g_effect-p_card-02-act-3_187-enc_1
+  effectType: ProduceCardGrowEffectType_EffectChange
+  costType: ExamCostType_Unknown
+  value: 0
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: e_effect-exam_status_enchant-04-enchant-p_card-02-act-3_187-enc02
+  targetPlayProduceExamEffectIds:
+  - e_effect-exam_status_enchant-04-enchant-p_card-02-act-3_187-enc01
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_lesson_depend_exam_review-000
+  - effect_group-visible-exam_lesson-000
+  - effect_group-visible-exam_status_enchant-000
 - id: g_effect-parameter_buff_multiple_per_turn_add-1
   effectType: ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd
   costType: ExamCostType_Unknown
@@ -5245,6 +5273,19 @@
   produceCardStatusEnchantId: ""
   playMovePositionType: ProduceCardMovePositionType_Unknown
   effectGroupIds: []
+- id: g_effect-play_trigger_change-e_trigger-none-review_up-10-e_trigger-none-review_up-6
+  effectType: ProduceCardGrowEffectType_PlayTriggerChange
+  costType: ExamCostType_Unknown
+  value: 0
+  playProduceExamTriggerId: e_trigger-none-review_up-6
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds:
+  - e_trigger-none-review_up-10
+  playProduceExamEffectId: ""
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds: []
 - id: g_effect-review_add-1
   effectType: ProduceCardGrowEffectType_ReviewAdd
   costType: ExamCostType_Unknown
@@ -5297,6 +5338,18 @@
   effectType: ProduceCardGrowEffectType_ReviewAdd
   costType: ExamCostType_Unknown
   value: 5
+  playProduceExamTriggerId: ""
+  playEffectProduceExamTriggerId: ""
+  targetPlayEffectProduceExamTriggerIds: []
+  playProduceExamEffectId: ""
+  targetPlayProduceExamEffectIds: []
+  produceCardStatusEnchantId: ""
+  playMovePositionType: ProduceCardMovePositionType_Unknown
+  effectGroupIds: []
+- id: g_effect-review_add-6
+  effectType: ProduceCardGrowEffectType_ReviewAdd
+  costType: ExamCostType_Unknown
+  value: 6
   playProduceExamTriggerId: ""
   playEffectProduceExamTriggerId: ""
   targetPlayEffectProduceExamTriggerIds: []
