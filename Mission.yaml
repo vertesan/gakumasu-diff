@@ -877,6 +877,78 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 8
+- id: dearness_event_relaunch_amao-001
+  missionGroupId: dearness_panel-mission_relaunch_amao_01
+  name: 有村 麻央のボーカルを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vo-1800-afp
+  targetIds2:
+  - amao
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_amao-002
+  missionGroupId: dearness_panel-mission_relaunch_amao_01
+  name: 有村 麻央のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_amao-003
+  missionGroupId: dearness_panel-mission_relaunch_amao_01
+  name: 有村 麻央でボーカルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3:
+  - LessonVocalNormal
+  - LessonVocalSp
+  - LessonVocalHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_amao-004
+  missionGroupId: dearness_panel-mission_relaunch_amao_01
+  name: 有村 麻央で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
 - id: dearness_event_relaunch_fktn-001
   missionGroupId: dearness_panel-mission_relaunch_fktn_01
   name: 藤田 ことねのダンスを1800以上に育成してプロデュースをクリア
@@ -941,6 +1013,150 @@
   targetIds2: []
   targetIds3:
   - fktn
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_relaunch_hrnm-001
+  missionGroupId: dearness_panel-mission_relaunch_hrnm_01
+  name: 姫崎 莉波のビジュアルを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1800-afp
+  targetIds2:
+  - hrnm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_hrnm-002
+  missionGroupId: dearness_panel-mission_relaunch_hrnm_01
+  name: 姫崎 莉波のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_hrnm-003
+  missionGroupId: dearness_panel-mission_relaunch_hrnm_01
+  name: 姫崎 莉波でビジュアルレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3:
+  - LessonVisualNormal
+  - LessonVisualSp
+  - LessonVisualHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_hrnm-004
+  missionGroupId: dearness_panel-mission_relaunch_hrnm_01
+  name: 姫崎 莉波で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: dearness_event_relaunch_kcna-001
+  missionGroupId: dearness_panel-mission_relaunch_kcna_01
+  name: 倉本 千奈のダンスを1800以上に育成してプロデュースをクリア
+  category: MissionCategory_Event
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-da-1800-afp
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: dearness_event_relaunch_kcna-002
+  missionGroupId: dearness_panel-mission_relaunch_kcna_01
+  name: 倉本 千奈のプロデュースでスキルカードを{threshold}回カスタマイズしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCustomizeProduceCardCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: dearness_event_relaunch_kcna-003
+  missionGroupId: dearness_panel-mission_relaunch_kcna_01
+  name: 倉本 千奈でダンスレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3:
+  - LessonDanceNormal
+  - LessonDanceSp
+  - LessonDanceHard
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: dearness_event_relaunch_kcna-004
+  missionGroupId: dearness_panel-mission_relaunch_kcna_01
+  name: 倉本 千奈で最終試験に合格して評価SS以上を{threshold}回獲得しよう
+  category: MissionCategory_Event
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
   targetValue: 12
   isLessThanTargetValue: false
   isEventMission: true

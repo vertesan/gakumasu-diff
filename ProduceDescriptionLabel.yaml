@@ -350,6 +350,79 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: Label_AuditionNpcWeaken
+  name: ライバルのスコア
+  produceDescriptionSwapId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 以降の
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceDescriptionName
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 試験・オーディション
+    targetId: Label_Audition
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: でライバルのスコアが減少
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_BlockAdd
   name: 元気値増加
   produceDescriptionSwapId: ""
