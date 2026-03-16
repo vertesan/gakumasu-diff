@@ -1414,6 +1414,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_comeback_daily_release_mission_003-release
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773799200000"
+  afterTime: "0"
+  description: ""
+- id: cd_comeback_daily_release_mission_003-release
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Comeback
+  resourceId1: comeback-daily-release-mission-003-daily
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_comeback_daily_release_mission_003-release
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionDailyReleaseNotComplete
+  resourceId1: mission-group-comeback_daily_release_mission_003_daily
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_contest_exchange_grade_1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -4473,6 +4509,18 @@
   max: "0"
   beforeTime: "1773172800000"
   afterTime: "1773777599000"
+  description: ""
+- id: cd_login_bonus_wednesday-26-0318
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773777600000"
+  afterTime: "1774382399000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -14182,6 +14230,18 @@
   beforeTime: "1773021600000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0316-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773626400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0401_26_1001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19658,6 +19718,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-clear-hidden_mission-view-gasha-00800-free-10-006
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-gasha-00800-free-10-006
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-clear-hidden_mission-view-gasha-200limit-select-pickup-001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25019,6 +25091,30 @@
   minMaxType: ConditionMinMaxType_MinMax
   min: "0"
   max: "48"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-gasha-00800-free-10-006
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773799200000"
+  afterTime: "1777561199000"
+  description: ""
+- id: cd-gasha-00800-free-10-006
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-clear-hidden_mission-view-gasha-00800-free-10-006
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
   beforeTime: "0"
   afterTime: "0"
   description: ""
