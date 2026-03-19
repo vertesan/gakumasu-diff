@@ -2530,6 +2530,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-ssr-fix_7
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-ssr-fix_7
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_item-gashaticket-ssr-idol-fix_3
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2949,6 +2961,18 @@
   max: "0"
   beforeTime: "1770602400000"
   afterTime: "1771725599000"
+  description: ""
+- id: cd_highscorerush-event-011-release
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773885600000"
+  afterTime: "1775008799000"
   description: ""
 - id: cd_hume_have_onsen_1
   number: 1
@@ -4521,6 +4545,18 @@
   max: "0"
   beforeTime: "1773777600000"
   afterTime: "1774382399000"
+  description: ""
+- id: cd_login_bonus_wednesday-26-0325
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1774382400000"
+  afterTime: "1774987199000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -14242,6 +14278,30 @@
   beforeTime: "1773626400000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0319-1100-26_0430-2359
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773885600000"
+  afterTime: "1777561199000"
+  description: ""
+- id: cd_time_26_0325-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1774404000000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0401_26_1001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -14864,6 +14924,18 @@
   min: "0"
   max: "0"
   beforeTime: "-2209194000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-hski-3-017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773885600000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-hume-1-001
@@ -17099,6 +17171,30 @@
   max: "0"
   beforeTime: "1730858400000"
   afterTime: "1733018399000"
+  description: ""
+- id: cd_view_shop_pack_item-freshman-support-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_pack_item-freshman-support-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_pack_item-freshman-support-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1773885600000"
+  afterTime: "1777561199000"
   description: ""
 - id: cd_view_story-aprilfool-2025-002
   number: 1
@@ -20246,6 +20342,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: 姫崎莉波の親愛度Lv20達成
+- id: cd-dearness_hski-20
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海咲季の親愛度Lv20達成
 - id: cd-dearness_jsna-20
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -22070,6 +22178,90 @@
   beforeTime: "0"
   afterTime: "0"
   description: 花海 咲季の親愛度Lvを20にする
+- id: cd-dearness_level-hski-21
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "21"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを21にする
+- id: cd-dearness_level-hski-22
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "22"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを22にする
+- id: cd-dearness_level-hski-23
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "23"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを23にする
+- id: cd-dearness_level-hski-24
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "24"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを24にする
+- id: cd-dearness_level-hski-25
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "25"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを25にする
+- id: cd-dearness_level-hski-26
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "26"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを26にする
+- id: cd-dearness_level-hski-27
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "27"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 花海 咲季の親愛度Lvを27にする
 - id: cd-dearness_level-hume-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -24259,6 +24451,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "20"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_normal-mission_hski-0001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1775008800000"
+  afterTime: "0"
+  description: 親愛度ブーストキャンペーン終了後
+- id: cd-dearness_normal-mission_hski-0001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "20"
@@ -28706,6 +28922,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-1-20-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "1"
+  max: "20"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-1-20-jsna
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -28838,6 +29066,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-21-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "21"
+  max: "21"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-21-jsna
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -28939,6 +29179,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "22"
+  max: "22"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-22-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "22"
@@ -29054,6 +29306,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-23-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "23"
+  max: "23"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-23-jsna
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -29155,6 +29419,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "24"
+  max: "24"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-24-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "24"
@@ -29270,6 +29546,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-25-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "25"
+  max: "25"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-25-jsna
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -29378,6 +29666,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-26-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "26"
+  max: "26"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-26-jsna
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -29479,6 +29779,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "27"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-27-hski
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "27"
@@ -35718,6 +36030,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-purchase-shop_pack_item-freshman-support-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-freshman-support-01
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-purchase-shop_pack_jsna-0001
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -39575,6 +39899,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Music
   resourceId1: music-char-hski-003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-hski-04
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-hski-3-017
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
