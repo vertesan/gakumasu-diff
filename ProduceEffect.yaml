@@ -103,7 +103,7 @@
   pickCountMax: 0
   isResearch: false
 - id: p_effect-audition_npc_weaken-0500_0500
-  produceEffectType: 128
+  produceEffectType: ProduceEffectType_AuditionNpcWeaken
   effectValueMin: 500
   effectValueMax: 500
   produceResourceType: ProduceResourceType_Unknown
@@ -12971,6 +12971,22 @@
   pickCountMin: 0
   pickCountMax: 0
   isResearch: false
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_01-3-307-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_01-3-307-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  isResearch: false
 - id: p_effect-produce_reward-0001_0001-produce_item-pitem_02-2-023-0-0
   produceEffectType: ProduceEffectType_ProduceReward
   effectValueMin: 1
@@ -13611,6 +13627,22 @@
   pickCountMin: 0
   pickCountMax: 0
   isResearch: false
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-2-123-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_03-2-123-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  isResearch: false
 - id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-2-125-0-0
   produceEffectType: ProduceEffectType_ProduceReward
   effectValueMin: 1
@@ -13779,6 +13811,22 @@
   produceRewards:
   - resourceType: ProduceResourceType_ProduceItem
     resourceId: pitem_03-3-263-0
+    resourceLevel: 0
+  produceCardSearchId: ""
+  produceExamStatusEnchantId: ""
+  produceStepEventDetailId: ""
+  pickRangeType: ProducePickRangeType_Unknown
+  pickCountMin: 0
+  pickCountMax: 0
+  isResearch: false
+- id: p_effect-produce_reward-0001_0001-produce_item-pitem_03-3-308-0-0
+  produceEffectType: ProduceEffectType_ProduceReward
+  effectValueMin: 1
+  effectValueMax: 1
+  produceResourceType: ProduceResourceType_Unknown
+  produceRewards:
+  - resourceType: ProduceResourceType_ProduceItem
+    resourceId: pitem_03-3-308-0
     resourceLevel: 0
   produceCardSearchId: ""
   produceExamStatusEnchantId: ""
