@@ -15190,6 +15190,18 @@
   beforeTime: "1775786400000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0413-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1776045600000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0501-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -18083,6 +18095,30 @@
   max: "0"
   beforeTime: "1774971000000"
   afterTime: "1775055599000"
+  description: ""
+- id: cd_view_shop_costume_item-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_kcna-cstm-0076-amao-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_costume_item-0076
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1776045600000"
+  afterTime: "1776736799000"
   description: ""
 - id: cd_view_shop_costume_othr-0002
   number: 1
@@ -27206,6 +27242,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_costume_amao-cstm-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: amao-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_costume_amao-cstm-0111
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -28291,6 +28339,42 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Costume
   resourceId1: kcna-cstm-0069
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_kcna-cstm-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: kcna-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_kcna-cstm-0076-amao-cstm-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: kcna-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_costume_kcna-cstm-0076-amao-cstm-0076
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Costume
+  resourceId1: amao-cstm-0076
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -41274,6 +41358,42 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-inst-all-009
+  number: 11
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-hmsz-009
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-009
+  number: 12
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-hume-009
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-009
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-atbm-009
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-inst-all-010
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -43338,6 +43458,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-shop_costume_amao-cstm-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_amao-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-shop_costume_amao-cstm-0076
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1776045600000"
+  afterTime: "1776736799000"
+  description: ""
 - id: cd-shop_costume_amao-cstm-0111
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -43769,6 +43913,30 @@
   max: "0"
   beforeTime: "0"
   afterTime: "0"
+  description: ""
+- id: cd-shop_costume_kcna-cstm-0076
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-have_costume_kcna-cstm-0076
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-shop_costume_kcna-cstm-0076
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1776045600000"
+  afterTime: "1776736799000"
   description: ""
 - id: cd-shop_costume_kcna-cstm-0111
   number: 1
