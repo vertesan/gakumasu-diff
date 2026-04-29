@@ -30,6 +30,22 @@
   rewardAssetId: ""
   conditionSetId: cd-dearness_normal-mission_fktn-0001
   order: 1
+- id: dearness_normal-mission_hmsz_01
+  name: アイドルミッション美鈴
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_normal-mission_hmsz-001
+  - dearness_normal-mission_hmsz-002
+  - dearness_normal-mission_hmsz-003
+  - dearness_normal-mission_hmsz-004
+  - dearness_normal-mission_hmsz-005
+  rewards: []
+  showHomeLimitedMission: true
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_normal-mission_hmsz-0001
+  order: 1
 - id: dearness_normal-mission_hrnm_01
   name: アイドルミッション莉波
   assetId: ""
@@ -223,6 +239,31 @@
   rewardName: ""
   rewardAssetId: ""
   conditionSetId: cd-dearness_fktn-20
+  order: 1
+- id: dearness_panel-mission_hmsz_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_hmsz-001
+  - dearness_event_hmsz-002
+  - dearness_event_hmsz-003
+  - dearness_event_hmsz-004
+  - dearness_event_hmsz-005
+  - dearness_event_hmsz-006
+  - dearness_event_hmsz-007
+  - dearness_event_hmsz-008
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_hmsz-20
   order: 1
 - id: dearness_panel-mission_hrnm_01
   name: 親愛度ブーストキャンペーン
@@ -2570,6 +2611,86 @@
   rewardAssetId: ""
   conditionSetId: ""
   order: 5
+- id: mission-group-highscorerush-event-013_1
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-013_point
+  missionIds:
+  - mission-highscorerush-event-013-mission_11
+  - mission-highscorerush-event-013-mission_12
+  - mission-highscorerush-event-013-mission_13
+  - mission-highscorerush-event-013-mission_14
+  - mission-highscorerush-event-013-mission_16
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
+- id: mission-group-highscorerush-event-013_2
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-013_point
+  missionIds:
+  - mission-highscorerush-event-013-mission_21
+  - mission-highscorerush-event-013-mission_22
+  - mission-highscorerush-event-013-mission_23
+  - mission-highscorerush-event-013-mission_24
+  - mission-highscorerush-event-013-mission_26
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 2
+- id: mission-group-highscorerush-event-013_3
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-013_point
+  missionIds:
+  - mission-highscorerush-event-013-mission_31
+  - mission-highscorerush-event-013-mission_32
+  - mission-highscorerush-event-013-mission_33
+  - mission-highscorerush-event-013-mission_34
+  - mission-highscorerush-event-013-mission_36
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 3
+- id: mission-group-highscorerush-event-013_4
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-013_point
+  missionIds:
+  - mission-highscorerush-event-013-mission_41
+  - mission-highscorerush-event-013-mission_42
+  - mission-highscorerush-event-013-mission_43
+  - mission-highscorerush-event-013-mission_44
+  - mission-highscorerush-event-013-mission_46
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 4
+- id: mission-group-highscorerush-event-013_5
+  name: 十王邦夫のアイドル強化月間〜星々のきらめき〜
+  assetId: ""
+  missionPointId: highscorerush-event-013_point
+  missionIds:
+  - mission-highscorerush-event-013-mission_51
+  - mission-highscorerush-event-013-mission_52
+  - mission-highscorerush-event-013-mission_53
+  - mission-highscorerush-event-013-mission_54
+  - mission-highscorerush-event-013-mission_56
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 5
 - id: mission-group-main-story-event-001_1
   name: 初星コミュイベントミッション
   assetId: ""
@@ -4217,6 +4338,52 @@
   - resourceType: ResourceType_JewelTotal
     resourceId: ""
     quantity: 1500
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 2
+- id: panel_mission-event-009-group_1
+  name: パネルミッショングループ1
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - panel_mission-event-009-mission_1
+  - panel_mission-event-009-mission_2
+  - panel_mission-event-009-mission_3
+  - panel_mission-event-009-mission_4
+  - panel_mission-event-009-mission_5
+  - panel_mission-event-009-mission_6
+  - panel_mission-event-009-mission_7
+  - panel_mission-event-009-mission_8
+  - panel_mission-event-009-mission_9
+  rewards:
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100000
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
+- id: panel_mission-event-009-group_2
+  name: パネルミッショングループ2
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - panel_mission-event-009-mission_11
+  - panel_mission-event-009-mission_12
+  - panel_mission-event-009-mission_13
+  - panel_mission-event-009-mission_14
+  - panel_mission-event-009-mission_15
+  - panel_mission-event-009-mission_16
+  - panel_mission-event-009-mission_17
+  - panel_mission-event-009-mission_18
+  - panel_mission-event-009-mission_19
+  rewards:
+  - resourceType: ResourceType_UserExp
+    resourceId: ""
+    quantity: 100000
   showHomeLimitedMission: false
   rewardName: ""
   rewardAssetId: ""
