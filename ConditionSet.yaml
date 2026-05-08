@@ -15538,6 +15538,42 @@
   beforeTime: "1777600800000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0508-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778205600000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_26_0508-1100_0601-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778205600000"
+  afterTime: "1780279199000"
+  description: ""
+- id: cd_time_26_0509-0500_0525-0459
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778270400000"
+  afterTime: "1779652799000"
+  description: ""
 - id: cd_time_26_0601
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -18239,6 +18275,30 @@
   max: "0"
   beforeTime: "1746756000000"
   afterTime: "1750294799000"
+  description: ""
+- id: cd_view_shop_aniversary2026-pack-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-purchase-shop_aniversary2026-pack-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view_shop_aniversary2026-pack-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778205600000"
+  afterTime: "1780279199000"
   description: ""
 - id: cd_view_shop_costume_hski-trng-0002
   number: 1
@@ -32942,6 +33002,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_object_anniversary2026-00
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1778464800000"
+  afterTime: "1778893199000"
+  description: ""
 - id: cd-home_object_newyear-00
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -38616,6 +38688,18 @@
   conditionType: ConditionType_ShopItemPurchase
   resourceId1: ""
   resourceId2: shop_pack_item-aniversary-selection-ticket
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-purchase-shop_aniversary2026-pack-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ShopItemPurchase
+  resourceId1: ""
+  resourceId2: shop_pack_item-66
   minMaxType: ConditionMinMaxType_Min
   min: "1"
   max: "0"
