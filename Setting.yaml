@@ -115,11 +115,16 @@
   homeCharacterRandomIdolViewConditionSetID: view-homecaharacterrandom-time
   badgeEditViewConditionSetID: cd_time_badge-edit-view
   userBlockLimitCount: 100
+  selectionMemoryLimitCount: 1000
   sceneTransitionSDCharacterAnimationViewConditionSetID: cd_view_sd-reversi-001
   sceneTransitionSDCharacterAnimationFirstAssetIDs:
   - img_sd_reversi_cmmn-00
   sceneTransitionSDCharacterAnimationSecondAssetIDs:
   - img_sd_reversi_cmmn-01
+  researchPointLimit: 99999999
+  idolCardPrimaStellaLevelLimitRank: 6
+  idolCardPrimaStellaDearnessLevel: 37
+  profileReport2026Enable: false
   produceDailyMemoryRentalLimit: 3
   produceDailyFreeContinueCount: 1
   produceContinueItemID: item-produce_continue-1
@@ -190,6 +195,7 @@
   produceMaxMemoryDeckCount: 20
   produceMaxSupportCardDeckCount: 20
   produceNextIdolAuditionProEasyModeConditionSetID: cd-easy_mode-open
+  produceHatsuboshiIdolFestivalFinalTargetProducerLevel: 75
   gashaPickupStoryCampaignCharacterDearnessLevel: 3
   gashaAnimationReversalSsrPermil: 100
   gashaAnimationReversalPickUpProduceIdolSsrPermil: 50
@@ -198,7 +204,7 @@
   shopPurchasableLimitAmountThreshold1: 5000
   shopPurchasableLimitAmountThreshold2: 20000
   shopPurchaseAlertThreshold: 50000
-  jewelMaxQuantityForPaid: 99999999
+  jewelMaxQuantityForPaid: 666666
   jewelMaxQuantityForFree: 99999999
   shopPurchasableLimitAgeThreshold1: 16
   shopPurchasableLimitAgeThreshold2: 18
@@ -224,6 +230,10 @@
   pvpRateExamBattleAllSkipUnlockConditionSetID: cd_time_24_1004_1000
   pvpRateRehearsalViewConditionSetID: cd_time_24_0624
   pvpRateRankingDisplayCount: 100
+  pvpRateMaxDeckCount: 30
+  pvpRateDeckNameLengthLimit: 14
+  pvpRateDeckRecommendFirstPriorityPermil: 3000
+  pvpRateDeckRecommendSecondPriorityPermil: 2000
   examBattleSubMemoryParameterPermil: 200
   examBattleSubMemoryStaminaPermil: 200
   examBattleConditionThresholdMultipleScore: 1000

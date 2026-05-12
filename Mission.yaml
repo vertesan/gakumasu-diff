@@ -4263,6 +4263,40 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-produce-audition-failure_hmsz_initial-card
+  missionGroupId: ""
+  name: 美鈴初期SSRプロデュース不合格
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClear
+  targetIds1:
+  - p_cd-audition_failure_hmsz_initial-card
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-produce-audition-failure_jsna_initial-card
+  missionGroupId: ""
+  name: 星南初期SSRプロデュース不合格
+  category: MissionCategory_Normal
+  type: MissionType_ProduceConditionClear
+  targetIds1:
+  - p_cd-audition_failure_jsna_initial-card
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-produce-audition-failure_kcna_initial-card
   missionGroupId: ""
   name: 千奈初期SSR/SR/Rプロデュース不合格
@@ -4295,6 +4329,24 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-reward-sr-idol-present-support-memory-001
+  missionGroupId: ""
+  name: 初レギュラーのプロデュースを1回クリア
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceClearCount
+  targetIds1:
+  - produce_group-001
+  targetIds2:
+  - produce-001
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close-reward-sr-idol-present-support-memory-001
   unlockConditionSetId: ""
   order: 999
 - id: hidden_mission-tower_amao-clear_star_40
