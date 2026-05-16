@@ -586,6 +586,66 @@
   - story-main-01-04-25
   storyEventId: main-story-event-010
   order: 2
+- id: story_dearness_ amao_step-04
+  storyType: StoryType_DearnessStory
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: STEP4
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: ""
+  characterId: amao
+  dearnessLevelMin: 28
+  dearnessLevelMax: 37
+  storyIds: []
+  storyEventId: ""
+  order: 4
+- id: story_dearness_ hmsz_step-04
+  storyType: StoryType_DearnessStory
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: STEP4
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: ""
+  characterId: hmsz
+  dearnessLevelMin: 28
+  dearnessLevelMax: 37
+  storyIds: []
+  storyEventId: ""
+  order: 4
+- id: story_dearness_ hrnm_step-04
+  storyType: StoryType_DearnessStory
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: STEP4
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: ""
+  characterId: hrnm
+  dearnessLevelMin: 28
+  dearnessLevelMax: 37
+  storyIds: []
+  storyEventId: ""
+  order: 4
+- id: story_dearness_ ttmr_step-04
+  storyType: StoryType_DearnessStory
+  storyEventType: StoryEventType_Unknown
+  isCampaign: false
+  eventStoryFilterType: EventStoryFilterType_Unknown
+  title: STEP4
+  headerAssetId: ""
+  storyThumbnailAssetId: ""
+  viewConditionSetId: ""
+  characterId: ttmr
+  dearnessLevelMin: 28
+  dearnessLevelMax: 37
+  storyIds: []
+  storyEventId: ""
+  order: 4
 - id: story_dearness_amao_step-01
   storyType: StoryType_DearnessStory
   storyEventType: StoryEventType_Unknown
@@ -644,7 +704,8 @@
   characterId: atbm
   dearnessLevelMin: 1
   dearnessLevelMax: 10
-  storyIds: []
+  storyIds:
+  - story-atbm-dearness-2025-1113
   storyEventId: ""
   order: 1
 - id: story_dearness_atbm_step-02
@@ -1480,7 +1541,7 @@
   storyEventId: ""
   order: 12
 - id: story-atbm-group-2025-1113
-  storyType: StoryType_AprilFool
+  storyType: StoryType_ExtraDearnessStory
   storyEventType: StoryEventType_Unknown
   isCampaign: false
   eventStoryFilterType: EventStoryFilterType_Unknown

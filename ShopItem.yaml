@@ -4398,6 +4398,54 @@
   startTime: "1777428000000"
   endTime: "1778893199000"
   order: 1
+- id: shop_jewel_item-0032
+  shopId: shop_jewel
+  name: 【1回きりお得！】ジュエル12,300個
+  labelTypes:
+  - ShopItemLabelType_Sale
+  assetId: "0032"
+  shopProductId: coin_0011
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards: []
+  viewConditionSetId: cd_time_26_0516-1100_0615-1100
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778896800000"
+  endTime: "1781488799000"
+  order: 1
+- id: shop_jewel_item-0033
+  shopId: shop_jewel
+  name: 【2回きりお得！】ジュエル6,000個
+  labelTypes:
+  - ShopItemLabelType_Sale
+  assetId: "0033"
+  shopProductId: coin_0012
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 0
+  rewards: []
+  viewConditionSetId: cd_time_26_0516-1100_0615-1100
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 2
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778896800000"
+  endTime: "1781488799000"
+  order: 2
 - id: shop_pack_atbm-0001
   shopId: shop_pack
   name: 【72時間限定】プロデュースアイドルピースパック（燕）
@@ -5274,6 +5322,135 @@
   startTime: "1766714400000"
   endTime: "1769957999000"
   order: 4
+- id: shop_pack_item-0067
+  shopId: shop_pack
+  name: 2nd アニバーサリーアイドルパック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0067"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 5000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-common-idol_card-piece-ssr
+    quantity: 50
+  - resourceType: ResourceType_Item
+    resourceId: item-gachaticket-2nd-anniv-10-001
+    quantity: 1
+  viewConditionSetId: cd_time_26_0516-1100_0601-1100
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778896800000"
+  endTime: "1780279199000"
+  order: 3
+- id: shop_pack_item-0068
+  shopId: shop_pack
+  name: 2nd アニバーサリーサポートパック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: 0068
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 5000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-common-support_card-limit-ssr
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-gachaticket-2nd-anniv-10-001
+    quantity: 1
+  viewConditionSetId: cd_time_26_0516-1100_0601-1100
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778896800000"
+  endTime: "1780279199000"
+  order: 4
+- id: shop_pack_item-0069
+  shopId: shop_pack
+  name: 2nd アニバーサリーライブツアーSSR Pアイドル確定パック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: 0069
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 5000
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-gachaticket-ssr-8
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-gachaticket-ssr-8
+    quantity: 1
+  viewConditionSetId: cd_time_26_0516-1100_0601-1100
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778896800000"
+  endTime: "1780279199000"
+  order: 5
+- id: shop_pack_item-0071
+  shopId: shop_pack
+  name: The 2nd Period H.I.F選抜試験 開催記念パック
+  labelTypes:
+  - ShopItemLabelType_Recommend
+  assetId: "0071"
+  shopProductId: ""
+  totalJewelQuantity: 0
+  paidOnlyJewelQuantity: 2500
+  rewards:
+  - resourceType: ResourceType_Item
+    resourceId: item-gashaticket-ssr-idol-fix_5
+    quantity: 1
+  - resourceType: ResourceType_MeishiBaseAsset
+    resourceId: all-live-02
+    quantity: 1
+  - resourceType: ResourceType_MeishiIllustrationAsset
+    resourceId: music-logo-all-live-02
+    quantity: 1
+  - resourceType: ResourceType_Item
+    resourceId: item-support_card_enhance_point
+    quantity: 20000
+  - resourceType: ResourceType_Item
+    resourceId: item-money
+    quantity: 100000
+  viewConditionSetId: cd_time_26_0516_2100-26_0701_1059
+  unlockConditionSetId: ""
+  resetTimingType: ResetTimingType_Never
+  resetHour: 0
+  resetMinute: 0
+  resetWeekday: Weekday_Unknown
+  resetDay: 0
+  purchaseLimit: 1
+  consumptionResourceType: ResourceType_Unknown
+  consumptionResourceId: ""
+  consumptionResourceQuantity: 0
+  startTime: "1778932800000"
+  endTime: "1782871199000"
+  order: 6
 - id: shop_pack_item-100dl
   shopId: shop_pack
   name: 【100万DL記念】育成パック（6/28まで）
@@ -5446,7 +5623,7 @@
   consumptionResourceQuantity: 0
   startTime: "1778205600000"
   endTime: "1780279199000"
-  order: 1
+  order: 7
 - id: shop_pack_item-aniversary-selection-ticket
   shopId: shop_pack
   name: 1st アニバーサリー前夜祭パック

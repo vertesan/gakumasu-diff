@@ -13063,6 +13063,151 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ExamStatusEnchantEncore
+  name: 再演
+  produceDescriptionSwapId: ""
+  iconAssetId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamStatusEnchantEncore
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 再演
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: は、
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceDescriptionName
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: |-
+      中、初めて自身を使用した時にのみ発動する
+      以降の
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceDescriptionName
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: レッスン
+    targetId: Convert_002
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 中、指定の条件を満たした時、ターン内に1回まで、自身を再使用（スキルカードコストは消費はしない）
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
 - id: Label_ExamUplifting_Exam
   name: 高揚
   produceDescriptionSwapId: ""
@@ -14658,6 +14803,11 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: Label_MemoryAbilityIsUniqueActivation
+  name: 重複発動不可
+  produceDescriptionSwapId: Swap_Label_MemoryAbilityIsUniqueActivation
+  iconAssetId: ""
+  produceDescriptions: []
 - id: Label_MentalSkillCard
   name: メンタルスキルカード
   produceDescriptionSwapId: ""
@@ -14710,9 +14860,9 @@
     isOnlyOutGame: false
     changeColor: false
 - id: Label_MoveEffectTrigger
-  name: "[移動時効果]"
+  name: 移動時効果
   produceDescriptionSwapId: ""
-  iconAssetId: ""
+  iconAssetId: produce-card-move-effect-trigger
   produceDescriptions:
   - produceDescriptionType: ProduceDescriptionType_PlainText
     examDescriptionType: ExamDescriptionType_Unknown
@@ -14722,7 +14872,9 @@
     produceCardMovePositionType: ProduceCardMovePositionType_Unknown
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
-    text: このスキルカードが指定の場所に移動した場合に発動する。（同一ターン中に1回まで発動）
+    text: |-
+      このスキルカードが指定の場所に移動した場合に発動
+      （同一ターン中に1回まで発動）
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -15049,6 +15201,34 @@
     produceStepType: ProduceStepType_Unknown
     produceStepBusinessType: ProduceStepBusinessType_Unknown
     text: スキルカードを異なるスキルカードに変え、プロデュース終了までデッキに追加（強化段階を引き継ぐ）
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: Label_ProduceCardChangeSelect
+  name: セレクトチェンジ
+  produceDescriptionSwapId: ""
+  iconAssetId: ""
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: スキルカードを選択した異なるスキルカードに変え、プロデュース終了までデッキに追加（強化段階を引き継ぐ）
     targetId: ""
     targetLevel: 0
     effectValue1: 0
@@ -16169,6 +16349,31 @@
     isCost: false
     isOnlyOutGame: false
     changeColor: false
+- id: Label_ProduceType_FirstStar
+  name: 初専用　
+  produceDescriptionSwapId: Swap_Label_ProduceType_FirstStar
+  iconAssetId: ""
+  produceDescriptions: []
+- id: Label_ProduceType_HatsuboshiIdolFestival
+  name: H.I.F専用　
+  produceDescriptionSwapId: Swap_Label_ProduceType_HatsuboshiIdolFestival
+  iconAssetId: ""
+  produceDescriptions: []
+- id: Label_ProduceType_HatsuboshiIdolFestival_Final
+  name: H.I.F本戦専用　
+  produceDescriptionSwapId: Swap_Label_ProduceType_HatsuboshiIdolFestival_Final
+  iconAssetId: ""
+  produceDescriptions: []
+- id: Label_ProduceType_HatsuboshiIdolFestival_Selection
+  name: H.I.F選抜試験専用　
+  produceDescriptionSwapId: Swap_Label_ProduceType_HatsuboshiIdolFestival_Selection
+  iconAssetId: ""
+  produceDescriptions: []
+- id: Label_ProduceType_NextIdolAudition
+  name: N.I.A専用　
+  produceDescriptionSwapId: Swap_Label_ProduceType_NextIdolAudition
+  iconAssetId: ""
+  produceDescriptions: []
 - id: Label_ReviewAdd
   name: 好印象値増加
   produceDescriptionSwapId: ""
@@ -17167,7 +17372,7 @@
 - id: Label_StyleDot
   name: ""
   produceDescriptionSwapId: ""
-  iconAssetId: ""
+  iconAssetId: style-dot
   produceDescriptions: []
 - id: Label_TroubleSkillCard
   name: トラブルカード

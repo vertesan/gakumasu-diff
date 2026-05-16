@@ -17,22 +17,22 @@
   name: ビジュアル低下
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_VocalGrowthRateAddition
-  name: ボーカルレッスンボーナス+
+  name: ボーカルパラメータボーナス+
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_DanceGrowthRateAddition
-  name: ダンスレッスンボーナス+
+  name: ダンスパラメータボーナス+
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_VisualGrowthRateAddition
-  name: ビジュアルレッスンボーナス+
+  name: ビジュアルパラメータボーナス+
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_VocalGrowthRateDown
-  name: ボーカルレッスンボーナス-
+  name: ボーカルパラメータボーナス-
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_DanceGrowthRateDown
-  name: ダンスレッスンボーナス-
+  name: ダンスパラメータボーナス-
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_VisualGrowthRateDown
-  name: ビジュアルレッスンボーナス-
+  name: ビジュアルパラメータボーナス-
   produceDescriptionLabelId: ""
 - type: ProduceEffectType_StaminaRecoverFix
   name: 体力回復
@@ -208,6 +208,9 @@
 - type: ProduceEffectType_ProducePointAdditionDisableTrigger
   name: 初期Pポイント増加
   produceDescriptionLabelId: ""
+- type: ProduceEffectType_ParameterLimitUp
+  name: パラメータ上限増加
+  produceDescriptionLabelId: ""
 - type: ProduceEffectType_ExamTurnUp
   name: ターン数増加
   produceDescriptionLabelId: ""
@@ -256,3 +259,18 @@
 - type: ProduceEffectType_AuditionNpcWeaken
   name: ライバルのスコア
   produceDescriptionLabelId: Label_AuditionNpcWeaken
+- type: ProduceEffectType_StarPermilUp
+  name: スター性獲得量増加
+  produceDescriptionLabelId: ""
+- type: ProduceEffectType_StarAddition
+  name: スター性獲得
+  produceDescriptionLabelId: ""
+- type: ProduceEffectType_ProduceCardChangeSelect
+  name: セレクトチェンジ
+  produceDescriptionLabelId: Label_ProduceCardChangeSelect
+- type: ProduceEffectType_ProduceDrinkPossessLimitUp
+  name: Pドリンク所持上限増加
+  produceDescriptionLabelId: ""
+- type: ProduceEffectType_ShopProduceCardPriceDiscountMultiplePermanent
+  name: 相談のスキルカードを割引
+  produceDescriptionLabelId: Label_ShopProduceCardPriceDiscountMultiple

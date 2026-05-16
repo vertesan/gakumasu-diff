@@ -4,6 +4,10 @@
   description: パラメータボーナス
 - id: card.detail.enhance.invalid.point.exp.short
   description: "トレーニングPtが足りません。 "
+- id: card.idol_card.prima_stella.unlock_confirm_sheet.limit_level_condition_text
+  description: 特訓段階{0}
+- id: card.idol_card.prima_stella.unlock_confirm_sheet.list.empty_label
+  description: 対象のPアイドルがいません
 - id: card.produce_card_customize.detail_sheet.nia_condition
   description: ※カスタマイズは特別指導でおこなえます
 - id: common.story_event_point
@@ -19,13 +23,13 @@
 - id: high_score_event.top.adv.title_label
   description: "アイドル強化月間\\n〜星々のきらめき〜"
 - id: home.gasha.continuous_share.share_text
-  description: "＼ TVCM放映記念引き放題ガシャ開催中 ／\n\n「継続」が続く限り、無料でガシャ引き放題!\nガシャはSSR1枚以上確定!\n\n#学マス #引き放題って好き"
+  description: "＼ H.I.F開幕記念引き放題ガシャ開催中 ／\n\n「継続」が続く限り、無料でガシャ引き放題!\nガシャはSSR1枚以上確定!\n\n#学マス引き放題ガシャ #祝学マス2周年"
 - id: home.gasha.continuous_share.title
-  description: TVCM放映記念引き放題ガシャ結果
+  description: H.I.F開幕記念引き放題ガシャ結果
 - id: home.gasha.detail.bonus_reward.idol_card.prefix
   description: 対象のPアイドル獲得で
 - id: home.gasha.draw_button.item
-  description: チケット
+  description: アイテム
 - id: home.gasha.item_confirm_sheet.ticket.short_balance_alert
   description: 所持数が不足しています
 - id: home.produce.tutorial_reward
@@ -42,6 +46,8 @@
   description: 獲得できるウィークリーPtが最大に達しました
 - id: mission.panel.mission_text
   description: "{0}"
+- id: picturebook.live.select.skin.lock
+  description: " "
 - id: produce_prepare.easy_mode_apply
   description: アシストモード適用中
 - id: produce_prepare.easy_mode.continue_sheet.message
@@ -68,30 +74,52 @@
   description: ほかの編成枠
 - id: produce.card.rarity.legend
   description: レジェンド
+- id: produce.hif.audition.qualify.audition_final.title
+  description: 選抜試験3
+- id: produce.hif.audition.qualify.audition_mid1.title
+  description: 選抜試験1
+- id: produce.hif.audition.qualify.audition_mid2.title
+  description: 選抜試験2
+- id: produce.hif.audition.qualify.title
+  description: H.I.F選抜試験
+- id: produce.hif.result.qualify.title
+  description: 選抜試験突破
 - id: produce.high_score_rush.gold.description
   description: 「十王邦夫のアイドル強化月間〜星々のきらめき〜」で獲得できるアイテム。イベントガシャで使用できます。
+- id: produce.interval.reroll_sheet.description
+  description: Pポイントを使用して、スキルカードとPドリンクのラインナップ、カスタマイズと強化回数の更新をしますか？
 - id: produce.lesson.no_effect.stance_over_preservation
   description: 指針がのんびりであるため、指針を温存に変更する効果は発動しません。
+- id: produce.schedule.step_exam_final_audition3.qualify
+  description: 選抜試験3
+- id: produce.schedule.step_exam_mid1_audition3.qualify
+  description: 選抜試験1
+- id: produce.schedule.step_exam_mid2_audition3.qualify
+  description: 選抜試験2
+- id: produce.select.restrict.change
+  description: チェンジできないスキルカードです
 - id: produce.server_force_reset.confirm.description
   description: プレイ中のプロデュースデータが破棄されました。
+- id: produce.sheet.drink_max.description
+  description: "Pドリンク所持数が上限に達しています。\\n保持しておくドリンクを選んでください。"
 - id: producer_ranking.character_reward.description
   description: シーズン終了時のプロデューサーランキングの順位に応じて集計期間終了後に報酬を獲得することができます
 - id: profile.badge_select.thumb_empty.empty.toast
   description: プロデューサーランキングで獲得できます
 - id: profile.report.share.text
-  description: "#学マス #初星学園通知表"
+  description: "#祝学マス2周年 #初星学園通知表"
 - id: research_event.target_idol_sheet.description
   description: イベントモード対象のPアイドルのみイベントモードのプロデュースへの挑戦が可能です
 - id: setting.preference.other.produce_growth_panel.level_up_confirm.description
-  description: 準備中
+  description: H.I.Fボーナスを解放・強化する時に確認メッセージを表示します。
 - id: setting.preference.other.produce_growth_panel.level_up_confirm.title
-  description: 準備中
+  description: 確認メッセージ表示
 - id: setting.preference.other.produce_growth_panel.title
-  description: 準備中
+  description: H.I.Fボーナス設定
 - id: setting.produce.custom_item_customize_confirm
-  description: 準備中
+  description: カスタムPアイテム選択確認
 - id: setting.produce.custom_item_customize_confirm.description
-  description: 準備中
+  description: カスタムPアイテムを獲得・強化する時に確認メッセージを表示します。
 - id: setting.produce.easy_mode_confirm
   description: アシストモード表示
 - id: setting.produce.easy_mode_confirm.description
@@ -103,17 +131,17 @@
 - id: setting.produce.easy_mode.title
   description: 【プロデュース】アシストモード
 - id: setting.produce.exit_interval_confirm
-  description: 準備中
+  description: |  インターバル終了確認
 - id: setting.produce.exit_interval_confirm.description
-  description: 準備中
+  description: インターバルを終了する時に確認メッセージを表示します。
 - id: setting.produce.reroll_interval_confirm
-  description: 準備中
+  description: リフレッシュ実行確認
 - id: setting.produce.reroll_interval_confirm.description
-  description: 準備中
+  description: インターバルでリフレッシュする時に確認メッセージを表示します。
 - id: setting.produce.select_change_card_confirm
-  description: 準備中
+  description: スキルカードチェンジ確認
 - id: setting.produce.select_change_card_confirm.description
-  description: 準備中
+  description: スキルカードを選んでチェンジをする時に確認メッセージを表示します。
 - id: shop.web_store.confirm.description
   description: "Webブラウザを開きますか？\\n生年月日は【メニュー>その他>生年月日入力】から設定できます。"
 - id: story.story_event.section.normal_condition_lock_text
@@ -128,5 +156,7 @@
   description: スペシャルイベントでステージに挑戦する際に使用するアイテムです。
 - id: tour.top.user_status.point_complete_label
   description: " "
+- id: voice.idol_use_prima_stella_produce_card
+  description: Pアイドル専用レジェンドスキルカード使用
 - id: voice.idol_use_produce_card
   description: Pアイドル固有スキルカード使用

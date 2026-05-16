@@ -41,7 +41,7 @@
   - dearness_normal-mission_hmsz-004
   - dearness_normal-mission_hmsz-005
   rewards: []
-  showHomeLimitedMission: true
+  showHomeLimitedMission: false
   rewardName: ""
   rewardAssetId: ""
   conditionSetId: cd-dearness_normal-mission_hmsz-0001
@@ -457,6 +457,27 @@
   rewardAssetId: ""
   conditionSetId: cd-dearness_fktn-20
   order: 1
+- id: dearness_panel-mission_relaunch_hmsz_01
+  name: 親愛度ブーストキャンペーン
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - dearness_event_relaunch_hmsz-001
+  - dearness_event_relaunch_hmsz-002
+  - dearness_event_relaunch_hmsz-003
+  - dearness_event_relaunch_hmsz-004
+  rewards:
+  - resourceType: ResourceType_JewelTotal
+    resourceId: ""
+    quantity: 100
+  - resourceType: ResourceType_Item
+    resourceId: item-limitovermaterial-3
+    quantity: 1
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: cd-dearness_hmsz-20
+  order: 1
 - id: dearness_panel-mission_relaunch_hrnm_01
   name: 親愛度ブーストキャンペーン
   assetId: ""
@@ -699,6 +720,21 @@
   rewardName: ""
   rewardAssetId: ""
   conditionSetId: cd-dearness_ttmr-20
+  order: 1
+- id: limited-time-mission-001-group_1
+  name: H.I.F開幕記念！期間限定ミッション(〜2026/6/15 10:59)
+  assetId: ""
+  missionPointId: ""
+  missionIds:
+  - limited-time-mission-001-mission_1
+  - limited-time-mission-001-mission_2
+  - limited-time-mission-001-mission_3
+  - limited-time-mission-001-mission_4
+  rewards: []
+  showHomeLimitedMission: true
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: limited-time-mission-001_time
   order: 1
 - id: mission_group-daily-001
   name: デイリーミッション
@@ -3541,6 +3577,26 @@
   rewardAssetId: ""
   conditionSetId: ""
   order: 5
+- id: mission-group-mission_HIF_clear_1
+  name: HIFクリアミッション
+  assetId: img_general_produce_hif-mission-banner-01
+  missionPointId: ""
+  missionIds:
+  - mission-daily_mission_HIF_clear-mission_11
+  - mission-daily_mission_HIF_clear-mission_37
+  - mission-daily_mission_HIF_clear-mission_25
+  - mission-daily_mission_HIF_clear-mission_28
+  - mission-daily_mission_HIF_clear-mission_29
+  - mission-daily_mission_HIF_clear-mission_24
+  - mission-daily_mission_HIF_clear-mission_12
+  - mission-daily_mission_HIF_clear-mission_15
+  - mission-daily_mission_HIF_clear-mission_16
+  rewards: []
+  showHomeLimitedMission: false
+  rewardName: ""
+  rewardAssetId: ""
+  conditionSetId: ""
+  order: 1
 - id: mission-group-panel-mission-01
   name: 第1回パネルミッション　シート1
   assetId: ""

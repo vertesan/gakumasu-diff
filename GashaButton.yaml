@@ -798,6 +798,31 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_button-00890-wednesday-001-ticket-01
+  name: チケットで引く
+  description: チケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-wednesday-260520
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 10
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: cd_gasha_have_ticket_wednesday-01
+  unlockConditionSetId: ""
+  order: 2
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_button-010-item_01
   name: 10回アイテムガシャ
   description: 10回アイテムガシャ
@@ -883,6 +908,31 @@
   resourceId: item_gacha-coin-continuous-001
   limitType: GashaLimitType_Total
   limitCount: 5
+  resourceQuantity: 1
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_button-continuous-002
+  name: アイテムで引く
+  description: 引き放題ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 0
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item_gacha-coin-continuous-002
+  limitType: GashaLimitType_Total
+  limitCount: 1
   resourceQuantity: 1
   maxDrawCount: 0
   discountLimitType: GashaLimitType_Unknown
@@ -1348,6 +1398,56 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_ticket_anniversary-001
+  name: 2nd アニバーサリー10連ガシャチケットで引く
+  description: 10回ガシャ
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gachaticket-2nd-anniv-10-001
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_AppealText
+  highAppealText: SR以上1枚確定
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_ticket_anniversary-002
+  name: 2nd アニバーサリー ライブツアー限定SSR Pアイドル確定10連ガシャチケットで引く
+  description: ライブツアー限定 SSR Pアイドル確定10連
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gachaticket-ssr-8
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_ticket_christmas-001
   name: クリスマスログインボーナスガシャチケットで引く
   description: 10回ガシャ
@@ -1606,6 +1706,56 @@
   fixRewardCount: 0
   resourceType: ResourceType_Item
   resourceId: item-gashaticket-ssr-idol-fix_3
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_ticket_ssr_button-7
+  name: 2nd アニバーサリー記念SSR確定チケットで引く
+  description: SSR確定1連
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-ssr-idol-fix_4
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_ticket_ssr_button-8
+  name: The 2nd Period シーズン限定SSR Pアイドル確定10連ガシャチケットで引く
+  description: SSRアイドル確定1連
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-ssr-idol-fix_5
   limitType: GashaLimitType_Unknown
   limitCount: 0
   resourceQuantity: 1

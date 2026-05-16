@@ -144,7 +144,7 @@
   unlockConditionSetId: cd-hajime_legend_produce-unlock_open
   examSettingId: p_exam_setting-1
   produceSettingId: p_setting-6
-  idolCardParameterGrowthLimit: 2800
+  idolCardParameterGrowthLimit: 3000
   maxProduceEventCharacterGrowthNumber: 0
   steps: 18
   actionPointQuantity: 20
@@ -161,3 +161,57 @@
   splitPairProduceId: ""
   selectionMemoryEmbedProduceCardId: ""
   order: 1
+- id: produce-007
+  name: 選抜試験
+  baseStepLevel: 1
+  maxRefreshCount: 0
+  produceSelectScreenOrderType: ProduceSelectScreenOrderType_First
+  challengeViewConditionSetId: ""
+  viewConditionSetId: ""
+  unlockConditionSetId: cd-hif_selection_produce-unlock_open
+  examSettingId: p_exam_setting-1
+  produceSettingId: p_setting-7
+  idolCardParameterGrowthLimit: 3000
+  maxProduceEventCharacterGrowthNumber: 0
+  steps: 20
+  actionPointQuantity: 20
+  assetId: produce-hif-1
+  produceNavigationNormalId: p_navi-produce_group-003-normal
+  produceNavigationAuditionId: p_navi-produce_group-003-audition
+  produceNavigationLoseId: p_navi-produce_group-003-lose
+  gradientColor1: 5050F2
+  gradientColor2: 7EADF7
+  easyProduceItemIds: []
+  easyConditionSetId: ""
+  easyProduceConditionSetId: ""
+  produceSplitType: ProduceSplitType_Selection
+  splitPairProduceId: produce-008
+  selectionMemoryEmbedProduceCardId: exam_contest_embed_produce_card-produce_008
+  order: 1
+- id: produce-008
+  name: 本戦
+  baseStepLevel: 1
+  maxRefreshCount: 0
+  produceSelectScreenOrderType: ProduceSelectScreenOrderType_First
+  challengeViewConditionSetId: ""
+  viewConditionSetId: ""
+  unlockConditionSetId: cd-hif_final_produce-unlock_open
+  examSettingId: p_exam_setting-1
+  produceSettingId: p_setting-8
+  idolCardParameterGrowthLimit: 3000
+  maxProduceEventCharacterGrowthNumber: 0
+  steps: 9
+  actionPointQuantity: 20
+  assetId: produce-hif-2
+  produceNavigationNormalId: p_navi-produce_group-003-normal
+  produceNavigationAuditionId: p_navi-produce_group-003-audition
+  produceNavigationLoseId: p_navi-produce_group-003-lose
+  gradientColor1: 5050F2
+  gradientColor2: 7EADF7
+  easyProduceItemIds: []
+  easyConditionSetId: ""
+  easyProduceConditionSetId: ""
+  produceSplitType: ProduceSplitType_Final
+  splitPairProduceId: produce-007
+  selectionMemoryEmbedProduceCardId: exam_contest_embed_produce_card-produce_008
+  order: 2
