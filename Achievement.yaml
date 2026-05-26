@@ -9178,6 +9178,114 @@
   characterId: shro
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-shro-3-018-01
+  category: AchievementCategory_Idol
+  name: わたしだけの思い出
+  description: 【ガラクタロード】篠澤 広のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-018
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-shro-3-018-02
+  category: AchievementCategory_Idol
+  name: ガラクタロード
+  description: 【ガラクタロード】篠澤 広の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-shro-3-018-03
+  category: AchievementCategory_Idol
+  name: 一番素敵なプロデュース
+  description: 【ガラクタロード】篠澤 広のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-shro-3-018
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-shro-3-018-04
+  category: AchievementCategory_Idol
+  name: ガラクタロード +
+  description: 【ガラクタロード】篠澤 広の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-shro-3-018-05
+  category: AchievementCategory_Idol
+  name: ガラクタロード ++
+  description: 【ガラクタロード】篠澤 広の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-shro-3-018-06
+  category: AchievementCategory_Idol
+  name: ガラクタロード +++
+  description: 【ガラクタロード】篠澤 広の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-shro-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-shro-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-ssmk-2-000-04
   category: AchievementCategory_Idol
   name: 夢へのリスタート +
@@ -17363,6 +17471,26 @@
   characterId: kcna
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-kcna-000-2
+  category: AchievementCategory_Idol
+  name: わたくしのトッププロデューサー
+  description: "倉本 千奈でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - kcna
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-kcna-001
   category: AchievementCategory_Idol
   name: 練習、練習、また練習
@@ -17491,7 +17619,7 @@
   isMasterAchievement: false
   characterId: kcna
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-kcna-008
   category: AchievementCategory_Idol
   name: 一歩一歩成長中！
@@ -17784,6 +17912,44 @@
   characterId: kcna
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-kcna-025
+  category: AchievementCategory_Idol
+  name: "大きくなった夢 "
+  description: 倉本 千奈でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-kcna-026
+  category: AchievementCategory_Idol
+  name: 背を押されながらの歩み
+  description: 倉本 千奈でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kcna
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-kcna-027
   category: AchievementCategory_Idol
   name: 次期生徒会長、内定！
@@ -18319,6 +18485,26 @@
   characterId: shro
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-shro-000-2
+  category: AchievementCategory_Idol
+  name: 最後まで、一緒だよ
+  description: "篠澤 広でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - shro
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-shro-001
   category: AchievementCategory_Idol
   name: 課題達成
@@ -18447,7 +18633,7 @@
   isMasterAchievement: false
   characterId: shro
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-shro-008
   category: AchievementCategory_Idol
   name: 次の課題はなに？
@@ -18758,6 +18944,44 @@
   characterId: shro
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-shro-025
+  category: AchievementCategory_Idol
+  name: 一夜限りの奇跡
+  description: 篠澤 広でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-shro-026
+  category: AchievementCategory_Idol
+  name: 辛くて、幸せで、楽しい毎日
+  description: 篠澤 広でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: shro
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-shro-027
   category: AchievementCategory_Idol
   name: 偶像としての神格

@@ -280088,6 +280088,39 @@
   eventCharacterType: ProduceEventCharacterType_Unknown
   isBusinessExcellent: false
   produceDescriptions: []
+- id: event-detail-p_story-i_card-shro-3-018-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-shro-3-018-01
+  produceStoryGroupId: ""
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  eventType: ProduceEventType_IdolCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions: []
+- id: event-detail-p_story-i_card-shro-3-018-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-shro-3-018-02
+  produceStoryGroupId: ""
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  eventType: ProduceEventType_IdolCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions: []
+- id: event-detail-p_story-i_card-shro-3-018-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-i_card-shro-3-018-03
+  produceStoryGroupId: ""
+  produceEffectIds: []
+  produceStepEventSuggestionIds: []
+  supportCardId: ""
+  eventType: ProduceEventType_IdolCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions: []
 - id: event-detail-p_story-i_card-ssmk-3-001-01
   suggestionType: ProduceEventSuggestionType_Primary
   produceStoryId: p_story-i_card-ssmk-3-001-01
@@ -307864,6 +307897,180 @@
     produceStepBusinessType: ProduceStepBusinessType_Unknown
     text: チェンジ
     targetId: Label_ProduceCardChange
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: event-detail-s_card-3-0100-01
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0100-01
+  produceStoryGroupId: ""
+  produceEffectIds:
+  - p_effect-produce_reward-0001_0001-produce_item-pitem_00-3-323-0-0
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0100
+  eventType: ProduceEventType_SupportCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_ProduceItem
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 夢の手助け
+    targetId: pitem_00-3-323-0
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: を獲得
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+- id: event-detail-s_card-3-0100-02
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0100-02
+  produceStoryGroupId: ""
+  produceEffectIds:
+  - p_effect-produce_point_addition-0040_0040
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0100
+  eventType: ProduceEventType_SupportCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: Pポイント+
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_DiffText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: "40"
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: true
+- id: event-detail-s_card-3-0100-03
+  suggestionType: ProduceEventSuggestionType_Primary
+  produceStoryId: p_story-s_card-3-0100-03
+  produceStoryGroupId: ""
+  produceEffectIds:
+  - p_effect-produce_card_upgrade-0001_0001-p_card_search-deck_all-random-01_01
+  produceStepEventSuggestionIds: []
+  supportCardId: s_card-3-0100
+  eventType: ProduceEventType_SupportCard
+  eventCharacterType: ProduceEventCharacterType_Unknown
+  isBusinessExcellent: false
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: ランダムなスキルカードを
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceDescription
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 強化
+    targetId: Label_ProduceCardUpgrade
     targetLevel: 0
     effectValue1: 0
     effectValue2: 0
