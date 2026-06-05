@@ -8314,6 +8314,114 @@
   characterId: kllj
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-kllj-3-018-01
+  category: AchievementCategory_Idol
+  name: わたしを支える言葉
+  description: 【ガラクタロード】葛城 リーリヤのプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-018
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-kllj-3-018-02
+  category: AchievementCategory_Idol
+  name: ガラクタロード
+  description: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-kllj-3-018-03
+  category: AchievementCategory_Idol
+  name: わたしの、原点
+  description: 【ガラクタロード】葛城 リーリヤのプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-018
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-kllj-3-018-04
+  category: AchievementCategory_Idol
+  name: ガラクタロード +
+  description: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-kllj-3-018-05
+  category: AchievementCategory_Idol
+  name: ガラクタロード ++
+  description: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-kllj-3-018-06
+  category: AchievementCategory_Idol
+  name: ガラクタロード +++
+  description: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-shro-2-000-04
   category: AchievementCategory_Idol
   name: 一番向いてないこと +
@@ -18007,6 +18115,26 @@
   characterId: kllj
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-kllj-000-2
+  category: AchievementCategory_Idol
+  name: ずっと一緒にいてくれますか？
+  description: "葛城 リーリヤでTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - kllj
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-kllj-001
   category: AchievementCategory_Idol
   name: 笑顔の練習
@@ -18135,7 +18263,7 @@
   isMasterAchievement: false
   characterId: kllj
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-kllj-008
   category: AchievementCategory_Idol
   name: 歩くような速さだとしても
@@ -18428,6 +18556,44 @@
   characterId: kllj
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-kllj-025
+  category: AchievementCategory_Idol
+  name: あの日憧れたアイドル
+  description: 葛城 リーリヤでH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-kllj-026
+  category: AchievementCategory_Idol
+  name: 楽しい旅路
+  description: 葛城 リーリヤでH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: kllj
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-kllj-027
   category: AchievementCategory_Idol
   name: 結界系アイドルの誕生
@@ -19039,6 +19205,26 @@
   characterId: ssmk
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-ssmk-000-2
+  category: AchievementCategory_Idol
+  name: 幸せなアイドル
+  description: "紫雲 清夏でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - ssmk
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-ssmk-001
   category: AchievementCategory_Idol
   name: まずは遊びから
@@ -19167,7 +19353,7 @@
   isMasterAchievement: false
   characterId: ssmk
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-ssmk-008
   category: AchievementCategory_Idol
   name: 明けない夜を終わらせて
@@ -19460,6 +19646,44 @@
   characterId: ssmk
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-ssmk-025
+  category: AchievementCategory_Idol
+  name: なりたい自分
+  description: 紫雲 清夏でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-ssmk-026
+  category: AchievementCategory_Idol
+  name: ふたりで進んだ一歩一歩
+  description: 紫雲 清夏でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: ssmk
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-ssmk-027
   category: AchievementCategory_Idol
   name: 最初のわがまま

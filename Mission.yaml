@@ -5019,6 +5019,25 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-final-a-produce_group-003-kllj
+  missionGroupId: ""
+  name: リーリヤでA-End達成
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - kllj
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-final-a-produce_group-003-shro
   missionGroupId: ""
   name: 広でA-End達成
@@ -5028,6 +5047,25 @@
   - produce_group-003
   targetIds2:
   - shro
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-final-a-produce_group-003-ssmk
+  missionGroupId: ""
+  name: 清夏でA-End達成
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - ssmk
   targetIds3:
   - A
   targetValue: 0
@@ -8847,6 +8885,25 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 20
+- id: mission-daily_mission_HIF_clear-mission_21
+  missionGroupId: mission-group-mission_HIF_clear_1
+  name: 葛城 リーリヤのプロデュースで「H.I.F」：本戦を{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - produce-008
+  targetIds3:
+  - kllj
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 30
 - id: mission-daily_mission_HIF_clear-mission_22
   missionGroupId: mission-group-mission_HIF_clear_1
   name: 篠澤 広のプロデュースで「H.I.F」：本戦を{threshold}回完了しよう
@@ -8866,6 +8923,25 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 22
+- id: mission-daily_mission_HIF_clear-mission_23
+  missionGroupId: mission-group-mission_HIF_clear_1
+  name: 紫雲 清夏のプロデュースで「H.I.F」：本戦を{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - produce-008
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 32
 - id: mission-daily_mission_HIF_clear-mission_24
   missionGroupId: mission-group-mission_HIF_clear_1
   name: 月村 手毬のプロデュースで「H.I.F」：本戦を{threshold}回完了しよう
@@ -8953,6 +9029,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 33
+- id: mission-daily_mission_HIF_clear-mission_34
+  missionGroupId: mission-group-mission_HIF_clear_1
+  name: 葛城 リーリヤの親愛度Lvを{threshold}にしよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 17
 - id: mission-daily_mission_HIF_clear-mission_35
   missionGroupId: mission-group-mission_HIF_clear_1
   name: 篠澤 広の親愛度Lvを{threshold}にしよう
@@ -8970,6 +9063,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 35
+- id: mission-daily_mission_HIF_clear-mission_36
+  missionGroupId: mission-group-mission_HIF_clear_1
+  name: 紫雲 清夏の親愛度Lvを{threshold}にしよう
+  category: MissionCategory_Special
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 19
 - id: mission-daily_mission_HIF_clear-mission_37
   missionGroupId: mission-group-mission_HIF_clear_1
   name: 月村 手毬の親愛度Lvを{threshold}にしよう
@@ -37009,6 +37119,108 @@
   viewConditionSetId: cd_time-view_open-i_card-kllj-3-017
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-kllj-3-018-01
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤのプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-018
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kllj-3-018-02
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kllj-3-018-03
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤのプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kllj-3-018
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kllj-3-018-04
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kllj-3-018-05
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kllj-3-018-06
+  missionGroupId: ""
+  name: 【ガラクタロード】葛城 リーリヤの特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kllj-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kllj-3-018
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-shro-2-000-04
   missionGroupId: ""
   name: 【一番向いてないこと】篠澤 広の特訓段階を{threshold}にする
@@ -46168,6 +46380,25 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-kllj-000-2
+  missionGroupId: ""
+  name: "葛城 リーリヤでTrue End : H.I.Fをみる"
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - kllj
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kllj-001
   missionGroupId: ""
   name: 葛城 リーリヤのプロデュースでスキルカードを{threshold}回使用
@@ -46559,6 +46790,42 @@
   targetIds3:
   - kllj
   targetValue: 15
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-025
+  missionGroupId: ""
+  name: 葛城 リーリヤでH.I.Fの最終試験に合格して評価S4+以上を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 17
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-026
+  missionGroupId: ""
+  name: 葛城 リーリヤでH.I.Fの最終試験に{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -47144,6 +47411,25 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-ssmk-000-2
+  missionGroupId: ""
+  name: "紫雲 清夏でTrue End : H.I.Fをみる"
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - ssmk
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ssmk-001
   missionGroupId: ""
   name: 紫雲 清夏のプロデュースでスキルカードを{threshold}回使用
@@ -47535,6 +47821,42 @@
   targetIds3:
   - ssmk
   targetValue: 15
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-025
+  missionGroupId: ""
+  name: 紫雲 清夏でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 17
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-026
+  missionGroupId: ""
+  name: 紫雲 清夏でH.I.Fの最終試験に{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""

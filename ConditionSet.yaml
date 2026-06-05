@@ -5302,6 +5302,18 @@
   beforeTime: "1780430400000"
   afterTime: "1781035199000"
   description: ""
+- id: cd_login_bonus_wednesday-26-0610
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1781035200000"
+  afterTime: "1781639999000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -15946,6 +15958,18 @@
   beforeTime: "1780412400000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0605-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1780624800000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_1001-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16976,6 +17000,18 @@
   min: "0"
   max: "0"
   beforeTime: "1775008800000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-kllj-3-018
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1780624800000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-shro-1-001
@@ -23018,6 +23054,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-dearness_level-37
+  number: 7
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-37
+  number: 8
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-amao-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25898,6 +25958,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 葛城 リーリヤの親愛度Lvを27にする
+- id: cd-dearness_level-kllj-33
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "33"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを33にする
+- id: cd-dearness_level-kllj-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 葛城 リーリヤの親愛度Lvを37にする
 - id: cd-dearness_level-shro-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -26474,6 +26558,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 紫雲 清夏の親愛度Lvを27にする
+- id: cd-dearness_level-ssmk-33
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "33"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 紫雲 清夏の親愛度Lvを33にする
+- id: cd-dearness_level-ssmk-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 紫雲 清夏の親愛度Lvを37にする
 - id: cd-dearness_level-ttmr-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -30734,6 +30842,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-have_i_card-kllj-3-017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-kllj-3-017
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-have_i_card-shro-3-000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -30799,6 +30919,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_IdolCard
   resourceId1: i_card-ssmk-3-012
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-have_i_card-ssmk-3-017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_IdolCard
+  resourceId1: i_card-ssmk-3-017
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -33748,11 +33880,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-27-36-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "27"
+  max: "36"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-27-36-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "27"
+  max: "36"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-27-36-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "27"
@@ -33876,7 +34032,7 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "27"
-  max: "27"
+  max: "36"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -33898,9 +34054,9 @@
   conditionType: ConditionType_DearnessLevel
   resourceId1: ssmk
   resourceId2: ""
-  minMaxType: ConditionMinMaxType_Min
+  minMaxType: ConditionMinMaxType_MinMax
   min: "27"
-  max: "0"
+  max: "36"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -33964,11 +34120,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-37-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-37-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-37-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "37"
@@ -38000,11 +38180,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-a-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-final-a-produce_group-003-kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-a-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionCompleted
   resourceId1: hidden_mission-view-ending-final-a-produce_group-003-shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-a-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-final-a-produce_group-003-ssmk
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -38072,11 +38276,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-kllj-main_match-opening-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-shro-main_match-opening-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-ssmk-main_match-opening-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -38132,11 +38360,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-trueend-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-kllj-produce-008-final-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-trueend-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-shro-produce-008-final-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-trueend-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-ssmk-produce-008-final-ending-a-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -38216,11 +38468,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-first-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-kllj-selection-opening-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-first-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-shro-selection-opening-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-first-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-ssmk-selection-opening-02
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -38288,11 +38564,35 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-selection-trueend-kllj
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-kllj-produce-007-selection-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-selection-trueend-shro
   number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-shro-produce-007-selection-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-selection-trueend-ssmk
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-ssmk-produce-007-selection-ending-a-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -44737,6 +45037,18 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_Music
   resourceId1: music-all-shro-016
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-016
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-kllj-016
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
