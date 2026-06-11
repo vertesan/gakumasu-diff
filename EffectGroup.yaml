@@ -99,6 +99,7 @@
   examEffectTypes:
   - ProduceExamEffectType_ExamAddGrowEffect
   - ProduceExamEffectType_ExamGrowEffectLessonAddAdditive
+  - ProduceExamEffectType_ExamMoveGrowEffect
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -170,6 +171,7 @@
   - ProduceExamEffectType_ExamAggressivePerSearchCount
   - ProduceExamEffectType_ExamAggressiveDependReview
   - ProduceExamEffectType_ExamAggressiveAdditive
+  - ProduceExamEffectType_ExamAggressiveAdditiveFix
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -245,6 +247,8 @@
   - ProduceExamEffectType_ExamFullPowerPointPerSearchCount
   - ProduceExamEffectType_ExamFullPowerLessonMultipleAdditive
   - ProduceExamEffectType_ExamFullPowerPointAdditive
+  - ProduceExamEffectType_ExamFullPowerPointAdditiveFix
+  - ProduceExamEffectType_ExamFullPowerPointDependFullPowerPointGetSum
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -289,6 +293,7 @@
   - ProduceExamEffectType_ExamLessonBuffDependParameterBuff
   - ProduceExamEffectType_ExamLessonBuffPerSearchCount
   - ProduceExamEffectType_ExamLessonBuffAdditive
+  - ProduceExamEffectType_ExamLessonBuffAdditiveFix
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -363,6 +368,7 @@
   - ProduceExamEffectType_ExamMultipleConcentrationLesson
   - ProduceExamEffectType_ExamMultipleFullPowerLesson
   - ProduceExamEffectType_ExamLessonDependBlockConsumptionSum
+  - ProduceExamEffectType_ExamLessonDependEnthusiasticGetSum
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -406,6 +412,7 @@
   - ProduceExamEffectType_ExamParameterBuffPerSearchCount
   - ProduceExamEffectType_ExamParameterBuffDependLessonBuff
   - ProduceExamEffectType_ExamParameterBuffAdditive
+  - ProduceExamEffectType_ExamParameterBuffAdditiveFix
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -457,6 +464,7 @@
   - ProduceExamEffectType_ExamReviewMultiple
   - ProduceExamEffectType_ExamReviewAdditive
   - ProduceExamEffectType_ExamReviewCountAdd
+  - ProduceExamEffectType_ExamReviewAdditiveFix
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -511,6 +519,16 @@
   hiddenFilter: false
   produceCardGrowEffectTypes: []
   order: 131002
+- id: effect_group-visible-exam_status_enchant_encore-000
+  name: 再演
+  examEffectType: ProduceExamEffectType_ExamStatusEnchantEncore
+  produceEffectType: ProduceEffectType_Unknown
+  examEffectTypes:
+  - ProduceExamEffectType_ExamStatusEnchantEncore
+  produceEffectTypes: []
+  hiddenFilter: false
+  produceCardGrowEffectTypes: []
+  order: 100015
 - id: effect_group-visible-exam_status_enchant-000
   name: 持続効果
   examEffectType: ProduceExamEffectType_ExamStatusEnchant
