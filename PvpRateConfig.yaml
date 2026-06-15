@@ -2294,6 +2294,62 @@
     dance: 312
     visual: 178
     produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_046_stage3
+- id: pvp_rate_config-47
+  description: S47
+  vocal: 0
+  dance: 0
+  visual: 0
+  examSettingId: p_exam_setting-1
+  produceExamBattleScoreConfigId: ""
+  examBattleFirstRankBonusPermil: 200
+  pvpRateCommonProduceCardId: pvp_live_battle_1
+  winTimelineAssetId: tln_cont_vodavi-001_totalresult_win
+  loseTimelineAssetId: tln_cont_vodavi-001_totalresult_lose
+  startTimelineInitialTimePermil: 5033
+  topAssetId: contest-top-vodavi
+  stages:
+  - stageType: PvpRateStageType__1
+    planType: ProducePlanType_Plan1
+    turn: 12
+    produceItemId: ""
+    produceItemIds:
+    - pitem_01-0-005-0-027
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vodavi-001_start
+    examTimelineAssetId: tln_cont_vodavi-001_battle
+    vocal: 401
+    dance: 178
+    visual: 312
+    produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_047_stage1
+  - stageType: PvpRateStageType__2
+    planType: ProducePlanType_Plan3
+    turn: 12
+    produceItemId: ""
+    produceItemIds:
+    - pitem_03-0-007-0-012
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vodavi-001_start
+    examTimelineAssetId: tln_cont_vodavi-001_battle
+    vocal: 178
+    dance: 401
+    visual: 312
+    produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_047_stage2
+  - stageType: PvpRateStageType__3
+    planType: ProducePlanType_Plan3
+    turn: 12
+    produceItemId: ""
+    produceItemIds:
+    - pitem_03-0-003-0-017
+    produceExamGimmickEffectGroupId: ""
+    bgmAssetId: sud_bgm_produce_audition-04
+    startTimelineAssetId: tln_cont_vodavi-001_start
+    examTimelineAssetId: tln_cont_vodavi-001_battle
+    vocal: 178
+    dance: 312
+    visual: 401
+    produceExamBattleScoreConfigId: p_exam_battle_score_config-contest-season_047_stage3
 - id: pvp_rate_config-5
   description: S5
   vocal: 312

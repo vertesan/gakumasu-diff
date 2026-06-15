@@ -3350,6 +3350,98 @@
   produceCardPoolId: ""
   costType: ExamCostType_Unknown
   isCustomized: false
+- id: p_card_search-deck_grave-effect_group-visible-exam_concentration-000
+  cardRarities: []
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories: []
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckGrave
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds:
+  - effect_group-visible-exam_concentration-000
+  isSelf: false
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 山札か捨札の
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceExamEffectType
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_ExamConcentration
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 強気
+    targetId: Label_ExamConcentration_Produce
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 効果のスキルカード
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardPoolId: ""
+  costType: ExamCostType_Unknown
+  isCustomized: false
 - id: p_card_search-deck_grave-effect_group-visible-exam_preservation-000
   cardRarities: []
   produceCardIds: []
@@ -4449,6 +4541,98 @@
     produceStepBusinessType: ProduceStepBusinessType_Unknown
     text: メンタルスキルカード
     targetId: Label_MentalSkillCard
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  produceCardPoolId: ""
+  costType: ExamCostType_Unknown
+  isCustomized: false
+- id: p_card_search-mental_skill-deck_grave
+  cardRarities: []
+  produceCardIds: []
+  upgradeCounts: []
+  planType: ProducePlanType_Unknown
+  cardCategories:
+  - ProduceCardCategory_MentalSkill
+  cardStatusType: ProduceCardSearchStatusType_Unknown
+  orderType: ProduceCardOrderType_Unknown
+  cardPositionType: ProduceCardPositionType_DeckGrave
+  cardSearchTag: ""
+  produceCardRandomPoolId: ""
+  limitCount: 0
+  staminaMinMaxType: ConditionMinMaxType_Unknown
+  staminaMin: 0
+  staminaMax: 0
+  examEffectType: ProduceExamEffectType_Unknown
+  effectGroupIds: []
+  isSelf: false
+  produceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 山札か捨札にある
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_ProduceCardCategory
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_MentalSkill
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: メンタルスキルカード
+    targetId: Label_MentalSkillCard
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: 1枚
+    targetId: ""
     targetLevel: 0
     effectValue1: 0
     effectValue2: 0
