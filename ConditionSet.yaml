@@ -2650,6 +2650,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-0715-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-wednesday-260715
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_item-gashaticket-ssr-fix_7
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -5421,6 +5433,18 @@
   max: "0"
   beforeTime: "1783454400000"
   afterTime: "1784059199000"
+  description: ""
+- id: cd_login_bonus_wednesday-26-0715
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1784059200000"
+  afterTime: "1784663999000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
@@ -16126,6 +16150,18 @@
   beforeTime: "1783350000000"
   afterTime: "1783954799000"
   description: ""
+- id: cd_time_26_0708-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1783476000000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0801_27_0201
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -16892,6 +16928,18 @@
   min: "0"
   max: "0"
   beforeTime: "-2209194000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-hume-3-018
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1783476000000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-jsna-1-000
@@ -46136,6 +46184,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-inst-all-017
+  number: 13
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-hume-017
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-inst-amao-005
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -53220,6 +53280,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-view-start-up-notification-panel_mission-event-010
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-010
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view-startup_notification_box-gasha-event-007
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -54044,6 +54116,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: いずれかのアイドルの親愛度Lv27で解放
+- id: pannel-mission-event-010_time
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1783476000000"
+  afterTime: "1784599199000"
+  description: ""
+- id: pannel-mission-event-010_time
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-010
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: pannel-mission-event-halfaniv_time
   number: 1
   conditionOperatorType: ConditionOperatorType_And
