@@ -16174,6 +16174,18 @@
   beforeTime: "1784080800000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0716-1600
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1784185200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_0801_27_0201
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -37194,6 +37206,30 @@
   min: "0"
   max: "0"
   beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-open-grade_mission
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MainTaskCompleted
+  resourceId1: "main_task_group-01-01#59"
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 準備中です
+- id: cd-open-grade_mission
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1784599200000"
   afterTime: "0"
   description: ""
 - id: cd-open-producer_ranking
