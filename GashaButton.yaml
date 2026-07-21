@@ -948,6 +948,56 @@
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
   isOverride: false
+- id: gasha_button-00950-free-10-08
+  name: 10回ガシャ
+  description: 10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Unknown
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 0
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_button-00950-wednesday-001
+  name: 学マ水曜日ガシャチケットで引く
+  description: チケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-new-wednesday-26-0729-1
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-0729-1
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
 - id: gasha_button-010-item_01
   name: 10回アイテムガシャ
   description: 10回アイテムガシャ
@@ -1274,6 +1324,31 @@
   bottomAppealText: ""
   isOverride: false
 - id: gasha_button-pickup-001-10-HowlingovertheWorld
+  name: 10回ガシャ
+  description: 10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SSR確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  isOverride: false
+- id: gasha_button-pickup-001-10-iwsf2026
   name: 10回ガシャ
   description: 10回ガシャ
   type: GashaButtonType_Static

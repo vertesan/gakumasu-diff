@@ -4966,6 +4966,114 @@
   characterId: hski
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-hski-3-018-01
+  category: AchievementCategory_Idol
+  name: 手を伸ばした先に
+  description: 【ガラクタロード】花海 咲季のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-018
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-hski-3-018-02
+  category: AchievementCategory_Idol
+  name: ガラクタロード
+  description: 【ガラクタロード】花海 咲季の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-hski-3-018-03
+  category: AchievementCategory_Idol
+  name: 強力な山札を作りましょう！
+  description: 【ガラクタロード】花海 咲季のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hski-3-018
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-hski-3-018-04
+  category: AchievementCategory_Idol
+  name: ガラクタロード +
+  description: 【ガラクタロード】花海 咲季の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-hski-3-018-05
+  category: AchievementCategory_Idol
+  name: ガラクタロード ++
+  description: 【ガラクタロード】花海 咲季の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-hski-3-018-06
+  category: AchievementCategory_Idol
+  name: ガラクタロード +++
+  description: 【ガラクタロード】花海 咲季の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hski-3-018
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-hski-3-018
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-hski-3-019-01
   category: AchievementCategory_Idol
   name: 伝説への挑戦
@@ -13556,7 +13664,7 @@
   isMasterAchievement: false
   characterId: amao
   viewProduceResult: false
-  order: 34
+  order: 33
 - id: achieve-p_idol-amao-027
   category: AchievementCategory_Idol
   name: ボクらしい選択
@@ -16038,7 +16146,7 @@
   isMasterAchievement: false
   characterId: hmsz
   viewProduceResult: false
-  order: 34
+  order: 33
 - id: achieve-p_idol-hmsz-027
   category: AchievementCategory_Idol
   name: 踏み込んだ関係性
@@ -16592,7 +16700,7 @@
   isMasterAchievement: false
   characterId: hrnm
   viewProduceResult: false
-  order: 34
+  order: 33
 - id: achieve-p_idol-hrnm-027
   category: AchievementCategory_Idol
   name: 私の本物の気持ち
@@ -16637,6 +16745,26 @@
   missionType: MissionType_AbsoluteProduceCharacterEnding
   targetIds1:
   - produce_group-002
+  targetIds2:
+  - hski
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 1
+- id: achieve-p_idol-hski-000-2
+  category: AchievementCategory_Idol
+  name: わたしは不屈のトップアイドル
+  description: "花海 咲季でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
   targetIds2:
   - hski
   targetIds3:
@@ -16778,7 +16906,7 @@
   isMasterAchievement: false
   characterId: hski
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-hski-008
   category: AchievementCategory_Idol
   name: 限界はまだ
@@ -17089,6 +17217,44 @@
   characterId: hski
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-hski-025
+  category: AchievementCategory_Idol
+  name: 最強の証明
+  description: 花海 咲季でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-hski-026
+  category: AchievementCategory_Idol
+  name: ベストを尽くした日々
+  description: 花海 咲季でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hski
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-hski-027
   category: AchievementCategory_Idol
   name: 新しい花海咲季
@@ -17133,6 +17299,26 @@
   missionType: MissionType_AbsoluteProduceCharacterEnding
   targetIds1:
   - produce_group-002
+  targetIds2:
+  - hume
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 1
+- id: achieve-p_idol-hume-000-2
+  category: AchievementCategory_Idol
+  name: あたしこそは世界最強のアイドル
+  description: "花海 佑芽でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
   targetIds2:
   - hume
   targetIds3:
@@ -17274,7 +17460,7 @@
   isMasterAchievement: false
   characterId: hume
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-hume-008
   category: AchievementCategory_Idol
   name: 加速度的成長
@@ -17566,6 +17752,44 @@
   characterId: hume
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-hume-025
+  category: AchievementCategory_Idol
+  name: 物語の始まり
+  description: 花海 佑芽でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-hume-026
+  category: AchievementCategory_Idol
+  name: 信じて突き進んだ道
+  description: 花海 佑芽でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: hume
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-hume-027
   category: AchievementCategory_Idol
   name: 見様見真似ではない、本質
@@ -20777,7 +21001,7 @@
   isMasterAchievement: false
   characterId: ttmr
   viewProduceResult: false
-  order: 34
+  order: 33
 - id: achieve-p_idol-ttmr-027
   category: AchievementCategory_Idol
   name: 憧れを追い越して
