@@ -1097,6 +1097,37 @@
   startTime: "0"
   endTime: "0"
   order: 5005
+- id: item-dearness-unlock-atbm
+  name: 燕との記録の鍵
+  description: 雨夜 燕のSTEP3の親愛度コミュを解放するアイテム
+  acquisitionRouteDescription: 交換所など
+  assetId: item_commu-dearness-key-atbm
+  type: ItemType_DearnessStoryUnlock
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: true
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: atbm
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 11300
 - id: item-dearness-unlock-fktn
   name: ことねとの記録の鍵
   description: 藤田ことねのSTEP3の親愛度コミュを解放するアイテム
@@ -1500,6 +1531,37 @@
   startTime: "1763690400000"
   endTime: "1764554399000"
   order: 200004
+- id: item-gacha-coin-2026-summer
+  name: プロデュースコイン
+  description: 夏休みコインガシャで使用するコイン
+  acquisitionRouteDescription: プロデュース
+  assetId: item_gacha-coin-common-001
+  type: ItemType_Coin
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1788659999000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: coin_gasha-2026-summer
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786327200000"
+  endTime: "1788659999000"
+  order: 210005
 - id: item-gacha-coin-anniversary-001
   name: はつみちゃんコイン
   description: 1st アニバーサリーコインガシャで使用するコイン
@@ -1624,6 +1686,37 @@
   startTime: "1767193200000"
   endTime: "1769957999000"
   order: 210003
+- id: item-gacha-selection-ticket-007-stepup-skin
+  name: スキルカードスキン付きSSR Pアイドル確定ガシャチケット交換券
+  description: チケット交換所でスキルカードスキン付きプロデュースアイドルの確定ガシャチケットと交換できる券
+  acquisitionRouteDescription: ステップアップガシャのSTEP3のおまけ
+  assetId: item_selection-ticket-006-stepup-skin
+  type: ItemType_ExchangeTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 101101
 - id: item-gachaticket-2nd-anniv-10-001
   name: 2nd アニバーサリー10連ガシャチケット
   description: 2nd アニバーサリー10連チケットガシャで使用するチケット
@@ -1768,7 +1861,7 @@
   unlockConditionSetId: ""
   startTime: "1763690400000"
   endTime: "0"
-  order: 100019
+  order: 102009
 - id: item-gashaitem-10_01
   name: はつみ印★無料10連ガシャチケット
   description: 最大100連無料！TVCM放映記念10連無料ガシャで使用できるアイテム
@@ -1865,7 +1958,7 @@
   unlockConditionSetId: ""
   startTime: "1766714400000"
   endTime: "0"
-  order: 100011
+  order: 102001
 - id: item-gashaticket-10
   name: プラチナ10連ガシャチケット
   description: プラチナガシャで使用する10連チケット
@@ -2032,6 +2125,158 @@
   startTime: "1766520000000"
   endTime: "0"
   order: 120005
+- id: item-gashaticket-gasha-00970-ticket-001
+  name: 【キミとセミブルー】紫雲 清夏確定ガシャチケット
+  description: スキルカードスキン付きPアイドル対象 キミとセミブルー 清夏確定ガシャで使用するチケット
+  acquisitionRouteDescription: チケット交換所
+  assetId: item_gacha-ticket-970-skinidol-001
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00970-ticket-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00970-ticket-001
+    bannerAssetId: img_gasha_banner_gasha-00970-ticket-001-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1786327200000"
+    endTime: "0"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786327200000"
+  endTime: "0"
+  order: 102015
+- id: item-gashaticket-gasha-00970-ticket-002
+  name: 【キミとセミブルー】姫崎 莉波確定ガシャチケット
+  description: スキルカードスキン付きPアイドル対象 キミとセミブルー 莉波確定ガシャで使用するチケット
+  acquisitionRouteDescription: チケット交換所
+  assetId: item_gacha-ticket-970-skinidol-002
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00970-ticket-002
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00970-ticket-002
+    bannerAssetId: img_gasha_banner_gasha-00970-ticket-002-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1786327200000"
+    endTime: "0"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786327200000"
+  endTime: "0"
+  order: 102016
+- id: item-gashaticket-gasha-00970-ticket-003
+  name: 【冠菊】葛城 リーリヤ確定ガシャチケット
+  description: スキルカードスキン付きPアイドル対象 冠菊 リーリヤ確定ガシャで使用するチケット
+  acquisitionRouteDescription: チケット交換所
+  assetId: item_gacha-ticket-970-skinidol-003
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00970-ticket-003
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00970-ticket-003
+    bannerAssetId: img_gasha_banner_gasha-00970-ticket-003-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1786327200000"
+    endTime: "0"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786327200000"
+  endTime: "0"
+  order: 102017
+- id: item-gashaticket-gasha-00970-ticket-004
+  name: 【冠菊】藤田 ことね確定ガシャチケット
+  description: スキルカードスキン付きPアイドル対象 冠菊 ことね確定ガシャで使用するチケット
+  acquisitionRouteDescription: チケット交換所
+  assetId: item_gacha-ticket-970-skinidol-004
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00970-ticket-004
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00970-ticket-004
+    bannerAssetId: img_gasha_banner_gasha-00970-ticket-004-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1786327200000"
+    endTime: "0"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786327200000"
+  endTime: "0"
+  order: 102018
 - id: item-gashaticket-new-wednesday-26-0603-1
   name: 学マ水曜日ガシャチケット
   description: 学マ水曜日ガシャで使用するチケット
@@ -2259,7 +2504,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 100012
+  order: 102002
 - id: item-gashaticket-ssr-fix_1_1st-anniversary-001
   name: 1st アニバーサリー記念SSR確定チケット
   description: 1st アニバーサリー記念SSR確定チケットガシャで使用するチケット
@@ -2297,7 +2542,7 @@
   unlockConditionSetId: ""
   startTime: "1745287200000"
   endTime: "0"
-  order: 100015
+  order: 102005
 - id: item-gashaticket-ssr-fix_10-hoten
   name: SSR10連ガシャチケット
   description: 入学記念48時間限定SSR確定10連ガシャで使用するチケット
@@ -2373,7 +2618,7 @@
   unlockConditionSetId: ""
   startTime: "1763258400000"
   endTime: "0"
-  order: 100018
+  order: 102008
 - id: item-gashaticket-ssr-fix_7
   name: 新入生応援！SSR Pアイドル確定10連ガシャチケット
   description: 新入生応援！SSR Pアイドル確定10連チケットガシャで使用するチケット
@@ -2449,7 +2694,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 100013
+  order: 102003
 - id: item-gashaticket-ssr-idol-fix_2
   name: The 1st Period公演記念 SSR Pアイドル確定チケット
   description: The 1st Period公演記念 SSR Pアイドル確定チケットガシャで使用するチケット
@@ -2487,7 +2732,7 @@
   unlockConditionSetId: ""
   startTime: "1748088000000"
   endTime: "0"
-  order: 100017
+  order: 102007
 - id: item-gashaticket-ssr-idol-fix_3
   name: MOIW2025記念 SSR Pアイドル確定ガシャチケット
   description: MOIW2025記念 SSR Pアイドル確定チケットガシャで使用するチケット
@@ -2525,7 +2770,7 @@
   unlockConditionSetId: ""
   startTime: "1765625400000"
   endTime: "0"
-  order: 100020
+  order: 102010
 - id: item-gashaticket-ssr-idol-fix_4
   name: 2nd アニバーサリー SSR Pアイドル確定ガシャチケット
   description: 2nd アニバーサリー SSR Pアイドル確定チケットガシャで使用するチケット
@@ -2563,7 +2808,7 @@
   unlockConditionSetId: ""
   startTime: "1778896800000"
   endTime: "0"
-  order: 100023
+  order: 102013
 - id: item-gashaticket-ssr-idol-fix_5
   name: The 2nd Period シーズン限定SSR Pアイドル確定10連ガシャチケット
   description: The 2nd Period シーズン限定SSR Pアイドル確定10連チケットガシャで使用するチケット
@@ -2639,7 +2884,7 @@
   unlockConditionSetId: ""
   startTime: "1785722400000"
   endTime: "0"
-  order: 100024
+  order: 102014
 - id: item-gashaticket-ssr-idol-season-fix_4
   name: シーズン限定 SSR Pアイドル確定ガシャチケット
   description: シーズン限定 SSR Pアイドル確定チケットガシャで使用するチケット
@@ -2677,7 +2922,7 @@
   unlockConditionSetId: ""
   startTime: "1767193200000"
   endTime: "0"
-  order: 100021
+  order: 102011
 - id: item-gashaticket-ssr-support-fix_1
   name: SSR Sカード確定ガシャチケット
   description: SSR Sカード確定チケットガシャで使用するチケット
@@ -2715,7 +2960,7 @@
   unlockConditionSetId: ""
   startTime: "1709258400000"
   endTime: "0"
-  order: 100014
+  order: 102004
 - id: item-gashaticket-ssr-support-fix-nia-1
   name: N.I.AチャレンジSSR サポートカード確定ガシャチケット
   description: N.I.AチャレンジSSR サポートカード確定チケットガシャで使用するチケット
@@ -2753,7 +2998,7 @@
   unlockConditionSetId: ""
   startTime: "1749693600000"
   endTime: "0"
-  order: 100016
+  order: 102006
 - id: item-gashaticket-ssr-support-season-fix_1
   name: シーズン限定 SSR サポートカード確定ガシャチケット
   description: シーズン限定 SSR サポートカード確定チケットガシャで使用するチケット
@@ -2791,7 +3036,7 @@
   unlockConditionSetId: ""
   startTime: "1767193200000"
   endTime: "0"
-  order: 100022
+  order: 102012
 - id: item-gashaticket-valentine-001
   name: バレンタインガシャ10連チケット
   description: バレンタインログインボーナスチケットガシャで使用するチケット
@@ -2905,6 +3150,44 @@
   unlockConditionSetId: ""
   startTime: "1784059200000"
   endTime: "1785268799000"
+  order: 120034
+- id: item-gashaticket-wednesday-260812
+  name: 学マ水曜日ガシャチケット
+  description: 学マ水曜日ガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-wednesday-26-001-1
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_R
+  commonLimitTime: "1787687999000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-00970-wednesday-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-00970-wednesday-001
+    bannerAssetId: img_gasha_banner_gasha-00970-wednesday-001-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1786478400000"
+    endTime: "1787687999000"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1786478400000"
+  endTime: "1787687999000"
   order: 120034
 - id: item-gashaticket-wednesday-fainal-26-001-1
   name: 咲季の特別チケット
@@ -10371,7 +10654,7 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100005
+  order: 101001
 - id: item-selection-ticket-002
   name: 1st アニバーサリーセレクションチケット
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
@@ -10402,7 +10685,7 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100006
+  order: 101002
 - id: item-selection-ticket-003
   name: 300万DL記念セレクションチケット
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
@@ -10433,7 +10716,7 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100007
+  order: 101003
 - id: item-selection-ticket-004
   name: 1.5th アニバーサリーセレクションチケット
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
@@ -10464,7 +10747,7 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100008
+  order: 101004
 - id: item-selection-ticket-005
   name: サポートカードセレクションチケット
   description: チケット交換所でサポートカードを交換できるチケット
@@ -10495,7 +10778,7 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100009
+  order: 101005
 - id: item-selection-ticket-006
   name: 2nd アニバーサリーセレクションチケット
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット
@@ -10526,7 +10809,38 @@
   unlockConditionSetId: ""
   startTime: "0"
   endTime: "0"
-  order: 100010
+  order: 101006
+- id: item-selection-ticket-007
+  name: 夏休みサポートセレクションチケット
+  description: チケット交換所でサポートカードを交換できるチケット
+  acquisitionRouteDescription: 夏休みコインガシャ
+  assetId: item_selection-ticket-007
+  type: ItemType_ExchangeTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 101007
 - id: item-staminaregen-1
   name: APドリンク
   description: APが20回復するドリンク

@@ -2470,6 +2470,54 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_draw_gasha-00970-ticket-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-00970-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_draw_gasha-00970-ticket-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-00970-ticket-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_draw_gasha-00970-ticket-001
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-00970-ticket-003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_draw_gasha-00970-ticket-001
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-00970-ticket-004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_event_release_mission
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2614,6 +2662,54 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-gasha-00970-ticket-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-gasha-00970-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-gasha-00970-ticket-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-gasha-00970-ticket-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-gasha-00970-ticket-003
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-gasha-00970-ticket-003
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-gasha-00970-ticket-004
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-gasha-00970-ticket-004
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-0603-1
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -2679,6 +2775,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ItemCount
   resourceId1: item-gashaticket-new-wednesday-26-0731-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-0812-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-wednesday-260812
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "1"
@@ -5530,6 +5638,18 @@
   beforeTime: "1785873600000"
   afterTime: "1786478399000"
   description: ""
+- id: cd_login_bonus_wednesday-26-0812
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1786478400000"
+  afterTime: "1787083199000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -7940,6 +8060,18 @@
   min: "0"
   max: "0"
   beforeTime: "1762740000000"
+  afterTime: "0"
+  description: ""
+- id: cd_memory-dearness-unlock-atbm-release_open
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1786327200000"
   afterTime: "0"
   description: ""
 - id: cd_memory-dearness-unlock-fktn-release_open
@@ -16342,6 +16474,18 @@
   beforeTime: "1785510000000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0810-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1786327200000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_1001-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19781,6 +19925,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Set
   resourceId1: cd-storyread-story-aprilfool-2025-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_view-home-banner-gasha-00970-stepup-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-00970-ticket-001
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -28849,7 +29005,7 @@
   max: "0"
   beforeTime: "1786327200000"
   afterTime: "0"
-  description: 親愛度ブーストキャンペーン終了後
+  description: 親愛度Lv20達成時
 - id: cd-dearness_normal-mission_atbm-0001
   number: 2
   conditionOperatorType: ConditionOperatorType_And
@@ -43184,6 +43340,18 @@
   beforeTime: "1762740000000"
   afterTime: "0"
   description: ""
+- id: cd-ralease_dearness-story-atbm
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1786327200000"
+  afterTime: "0"
+  description: ""
 - id: cd-ralease_dearness-story-fktn
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -49897,6 +50065,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_Set
   resourceId1: cd-dearness_level20-hrnm-kcna-amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_gasha-skillcard-skin-002
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd_draw_gasha-00970-ticket-001
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
