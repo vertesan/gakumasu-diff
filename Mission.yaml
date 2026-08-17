@@ -6894,6 +6894,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-gasha-00980-free-10-009
+  missionGroupId: ""
+  name: 360°ライブ追加記念！最大100連無料ガシャを{threshold}回引こう
+  category: MissionCategory_Normal
+  type: MissionType_IncrementGashaDrawCount
+  targetIds1:
+  - gasha-00980-free-10-009
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-gasha-200limit-select-pickup-001
   missionGroupId: ""
   name: Story of Re;IRIS放映記念SSR1.5倍セレクトピックアップガシャを{threshold}回引こう
@@ -7865,6 +7882,91 @@
   order: 4
 - id: mission-box-gasha-event-020-mission_5
   missionGroupId: mission-group-box-gasha-event-020
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-box-gasha-event-021-mission_1
+  missionGroupId: mission-group-box-gasha-event-021
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-box-gasha-event-021-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-box-gasha-event-021-mission_2
+  missionGroupId: mission-group-box-gasha-event-021
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-box-gasha-event-021-mission_3
+  missionGroupId: mission-group-box-gasha-event-021
+  name: イベントボックスガシャを{threshold}回引こう
+  category: MissionCategory_Special
+  type: MissionType_IncrementEventCoinGashaDrawCount
+  targetIds1:
+  - box-gasha-event-021_box_01
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-box-gasha-event-021-mission_4
+  missionGroupId: mission-group-box-gasha-event-021
+  name: プロデュース評価を合計{threshold}獲得しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-box-gasha-event-021-mission_5
+  missionGroupId: mission-group-box-gasha-event-021
   name: SPレッスンを{threshold}回クリアしよう
   category: MissionCategory_Special
   type: MissionType_IncrementProduceLessonClearCount
@@ -37988,6 +38090,108 @@
   viewConditionSetId: cd_time-view_open-i_card-jsna-3-016
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-jsna-3-020-01
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-020
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-020-02
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-020
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-020-03
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-020
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-020-04
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-020
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-020-05
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-020
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-jsna-3-020-06
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】十王 星南の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-020
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-020
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-kcna-2-000-04
   missionGroupId: ""
   name: 【胸を張って一歩ずつ】倉本 千奈の特訓段階を{threshold}にする
@@ -42576,6 +42780,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-ttmr-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-01
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-021
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-02
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-021
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-03
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ttmr-3-021
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-04
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-021
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-05
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-021
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ttmr-3-021-06
+  missionGroupId: ""
+  name: 【「ねえ、言っちゃうよ。」】月村 手毬の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ttmr-3-021
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ttmr-3-021
   unlockConditionSetId: ""
   order: 0
 - id: achieve-m_amao-001

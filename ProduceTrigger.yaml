@@ -16,6 +16,8 @@
   phaseType: ProducePhaseType_EndAudition
 - id: p_trigger-end_audition-for_nia_master
   phaseType: ProducePhaseType_EndAudition
+- id: p_trigger-end_audition-vocal-0700_0000
+  phaseType: ProducePhaseType_EndAudition
 - id: p_trigger-end_before_audition_refresh-dance-0400_0000
   phaseType: ProducePhaseType_EndBeforeAuditionRefresh
 - id: p_trigger-end_before_audition_refresh-for_nia_master
@@ -232,6 +234,8 @@
   phaseType: ProducePhaseType_GetProduceCard
 - id: p_trigger-get_produce_card-produce_card_count-0017_0000-for_hajime_legend_ssr
   phaseType: ProducePhaseType_GetProduceCard
+- id: p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_lesson_buff-000-0008_0000
+  phaseType: ProducePhaseType_GetProduceCard
 - id: p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_preservation-000-0008_0000
   phaseType: ProducePhaseType_GetProduceCard
 - id: p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_review-000-0008_0000
@@ -261,6 +265,8 @@
 - id: p_trigger-start_audition-produce_card_count-0020_0000-for_hajime_legend
   phaseType: ProducePhaseType_StartAudition
 - id: p_trigger-start_customize
+  phaseType: ProducePhaseType_StartCustomize
+- id: p_trigger-start_customize-dance-0000_0900
   phaseType: ProducePhaseType_StartCustomize
 - id: p_trigger-start_customize-for_nia_master
   phaseType: ProducePhaseType_StartCustomize
