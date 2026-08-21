@@ -2926,6 +2926,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-0826-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-gashaticket-wednesday-260826
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_gasha_have_ticket_item-gashaticket-ssr-fix_7
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -5793,6 +5805,18 @@
   max: "0"
   beforeTime: "1787083200000"
   afterTime: "1787688000000"
+  description: ""
+- id: cd_login_bonus_wednesday-26-0826
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1787688000000"
+  afterTime: "1788292799000"
   description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
