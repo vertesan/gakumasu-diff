@@ -28766,6 +28766,126 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 7
+- id: mission-tour-event-006-mission_1
+  missionGroupId: mission-group-tour-event-006
+  name: "{threshold}日ログインしよう"
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyHomeEnterCount
+  targetIds1:
+  - mission-tour-event-006-mission_1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: mission-tour-event-006-mission_2
+  missionGroupId: mission-group-tour-event-006
+  name: 最終試験に{threshold}回合格しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: mission-tour-event-006-mission_3
+  missionGroupId: mission-group-tour-event-006
+  name: イベントで{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-006
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: mission-tour-event-006-mission_4
+  missionGroupId: mission-group-tour-event-006
+  name: イベントでハコユレLv1以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-006
+  targetIds2: []
+  targetIds3: []
+  targetValue: 1
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: mission-tour-event-006-mission_5
+  missionGroupId: mission-group-tour-event-006
+  name: イベントでハコユレLv2以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-006
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: mission-tour-event-006-mission_6
+  missionGroupId: mission-group-tour-event-006
+  name: イベントでハコユレLv3以上のステージに{threshold}回挑戦してクリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementTourLevelPlayCount
+  targetIds1:
+  - tour-event-006
+  targetIds2: []
+  targetIds3: []
+  targetValue: 3
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: mission-tour-event-006-mission_7
+  missionGroupId: mission-group-tour-event-006
+  name: SPレッスンを{threshold}回クリアしよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
 - id: mission-weekly-competitionplaycount-1
   missionGroupId: mission_group-weekly-001
   name: リンクコンテストに{threshold}回挑戦しよう
@@ -32309,6 +32429,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-amao-3-017
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-01
+  missionGroupId: ""
+  name: 【標】有村 麻央のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-018
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-02
+  missionGroupId: ""
+  name: 【標】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-03
+  missionGroupId: ""
+  name: 【標】有村 麻央のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-amao-3-018
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-04
+  missionGroupId: ""
+  name: 【標】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-05
+  missionGroupId: ""
+  name: 【標】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-amao-3-018-06
+  missionGroupId: ""
+  name: 【標】有村 麻央の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-amao-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-amao-3-018
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-atbm-2-000-01
@@ -39349,6 +39571,108 @@
   viewConditionSetId: cd_time-view_open-i_card-kcna-3-016
   unlockConditionSetId: ""
   order: 0
+- id: achieve-i_card-kcna-3-018-01
+  missionGroupId: ""
+  name: 【標】倉本 千奈のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-018
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-018-02
+  missionGroupId: ""
+  name: 【標】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-018-03
+  missionGroupId: ""
+  name: 【標】倉本 千奈のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-kcna-3-018
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-018-04
+  missionGroupId: ""
+  name: 【標】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-018-05
+  missionGroupId: ""
+  name: 【標】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-kcna-3-018-06
+  missionGroupId: ""
+  name: 【標】倉本 千奈の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-kcna-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-kcna-3-018
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-i_card-kllj-2-000-04
   missionGroupId: ""
   name: 【一つ踏み出した先に】葛城 リーリヤの特訓段階を{threshold}にする
@@ -42101,6 +42425,108 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-ssmk-3-017
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-01
+  missionGroupId: ""
+  name: 【標】紫雲 清夏のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-018
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-02
+  missionGroupId: ""
+  name: 【標】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-03
+  missionGroupId: ""
+  name: 【標】紫雲 清夏のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-ssmk-3-018
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-04
+  missionGroupId: ""
+  name: 【標】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-05
+  missionGroupId: ""
+  name: 【標】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-ssmk-3-018-06
+  missionGroupId: ""
+  name: 【標】紫雲 清夏の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-ssmk-3-018
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-ssmk-3-018
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-ttmr-2-000-04
