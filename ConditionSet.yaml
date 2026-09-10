@@ -17062,6 +17062,18 @@
   beforeTime: "1788487200000"
   afterTime: "0"
   description: ""
+- id: cd_time_26_0910-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_1001-1100
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -17995,7 +18007,7 @@
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
   max: "0"
-  beforeTime: "-2209194000000"
+  beforeTime: "1770602400000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-jsna-3-016
@@ -18008,6 +18020,18 @@
   min: "0"
   max: "0"
   beforeTime: "-2209194000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-jsna-3-017
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-jsna-3-020
@@ -24806,6 +24830,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-dearness_level-37
+  number: 11
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-dearness_level-37
+  number: 12
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-dearness_level-amao-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -25658,6 +25706,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 藤田 ことねの親愛度Lvを27にする
+- id: cd-dearness_level-fktn-33
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "33"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 藤田 ことねの親愛度Lvを33にする
+- id: cd-dearness_level-fktn-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 藤田 ことねの親愛度Lvを37にする
 - id: cd-dearness_level-hmsz-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -27230,6 +27302,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: 十王 星南の親愛度Lvを27にする
+- id: cd-dearness_level-jsna-33
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "33"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 十王 星南の親愛度Lvを33にする
+- id: cd-dearness_level-jsna-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: 十王 星南の親愛度Lvを37にする
 - id: cd-dearness_level-kcna-01
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36520,6 +36616,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-27-36-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "27"
+  max: "36"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-27-36-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36561,6 +36669,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_MinMax
+  min: "27"
+  max: "36"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-27-36-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
   resourceId2: ""
   minMaxType: ConditionMinMaxType_MinMax
   min: "27"
@@ -36658,9 +36778,9 @@
   conditionType: ConditionType_DearnessLevel
   resourceId1: fktn
   resourceId2: ""
-  minMaxType: ConditionMinMaxType_Min
+  minMaxType: ConditionMinMaxType_MinMax
   min: "27"
-  max: "0"
+  max: "36"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -36718,9 +36838,9 @@
   conditionType: ConditionType_DearnessLevel
   resourceId1: jsna
   resourceId2: ""
-  minMaxType: ConditionMinMaxType_Min
+  minMaxType: ConditionMinMaxType_MinMax
   min: "27"
-  max: "0"
+  max: "36"
   beforeTime: "0"
   afterTime: "0"
   description: ""
@@ -36796,6 +36916,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-home_motion-cd-dearness_level-37-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-home_motion-cd-dearness_level-37-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -36837,6 +36969,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_DearnessLevel
   resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-home_motion-cd-dearness_level-37-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "37"
@@ -40904,6 +41048,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-a-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-final-a-produce_group-003-fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-a-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -40945,6 +41101,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionCompleted
   resourceId1: hidden_mission-view-ending-final-a-produce_group-003-hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-a-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-view-ending-final-a-produce_group-003-jsna
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -41024,6 +41192,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-fktn-main_match-opening-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -41065,6 +41245,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-hume-main_match-opening-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-jsna-main_match-opening-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -41132,6 +41324,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-final-trueend-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-fktn-produce-008-final-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-final-trueend-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -41173,6 +41377,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-hume-produce-008-final-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-final-trueend-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-jsna-produce-008-final-ending-a-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -41264,6 +41480,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-first-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-fktn-selection-opening-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-first-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -41305,6 +41533,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-hume-selection-opening-02
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-first-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-jsna-selection-opening-02
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -41384,6 +41624,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-produce_group-003-selection-trueend-fktn
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-fktn-produce-007-selection-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-produce_group-003-selection-trueend-hmsz
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -41425,6 +41677,18 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_ProduceStoryRead
   resourceId1: p_story-003-hume-produce-007-selection-ending-a-01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-produce_group-003-selection-trueend-jsna
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProduceStoryRead
+  resourceId1: p_story-003-jsna-produce-007-selection-ending-a-01
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "1"
@@ -48272,6 +48536,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-release-music-inst-all-016
+  number: 6
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-jsna-016
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-release-music-inst-all-017
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -51316,6 +51592,582 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-amao-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-amao-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-amao-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-amao-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-amao-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-amao-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-fktn-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-fktn-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-fktn-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-fktn-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-fktn-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-fktn-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hmsz-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: hmsz
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-hmsz-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hmsz-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hmsz-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hmsz-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-hmsz-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hrnm-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-hrnm-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hrnm-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hrnm-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hrnm-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-hrnm-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hski-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-hski-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hski-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hski-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hski-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-hski-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hume-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-hume-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hume-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hume-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-hume-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-hume-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-jsna-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-jsna-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-jsna-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-jsna-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-jsna-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-jsna-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kcna-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-kcna-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-kcna-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kcna-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kcna-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-kcna-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kllj-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-kllj-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-kllj-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kllj-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-kllj-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-kllj-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-shro-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-shro-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-shro-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-shro-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-shro-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-shro-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ssmk-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-ssmk-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-ssmk-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ssmk-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ssmk-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-ssmk-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ttmr-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessStoryFirstReadTime
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "1789005599000"
+  description: ""
+- id: cd-startup_notification_dearness-story-ttmr-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-ttmr-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ttmr-37-0
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd-startup_notification_dearness-story-ttmr-37-0
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionCompleted
+  resourceId1: hidden_mission-dearness-story-ttmr-37
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "1"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -54872,6 +55724,294 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd-view-dearness-story-amao-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: amao
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-amao-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-amao-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-fktn-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: fktn
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-fktn-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-fktn-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hmsz-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hmsz
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hmsz-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hmsz-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hrnm-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hrnm
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hrnm-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hrnm-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hski-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hski
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hski-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hski-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hume-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: hume
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-hume-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-hume-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-jsna-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: jsna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-jsna-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-jsna-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-kcna-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kcna
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-kcna-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-kcna-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-kllj-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: kllj
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-kllj-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-kllj-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-shro-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: shro
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-shro-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-shro-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-ssmk-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ssmk
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-ssmk-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-ssmk-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-ttmr-37
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_DearnessLevel
+  resourceId1: ttmr
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "37"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-dearness-story-ttmr-37
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-startup_notification_dearness-story-ttmr-37-0
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view-first-live-002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -55788,6 +56928,42 @@
   beforeTime: "1711915200000"
   afterTime: "1717358399000"
   description: ""
+- id: cd-view-start-up-notification-panel_mission-event-006_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: pannel-mission-event-007_time
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-006_01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-006_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-006_01_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd-view-start-up-notification-panel_mission-event-007
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -55805,6 +56981,54 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionPanelNotComplete
   resourceId1: panel_mission-event-007
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-007_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: pannel-mission-event-008_time
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-007_01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-007_01
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-view-start-up-notification-panel_mission-event-006_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-007_01_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-008
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -55850,6 +57074,66 @@
   description: ""
 - id: cd-view-start-up-notification-panel_mission-event-009
   number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_MissionPanelNotComplete
+  resourceId1: panel_mission-event-009
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-009_01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: pannel-mission-event-009_time
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-009_01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-view-start-up-notification-panel_mission-event-009_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-009_01
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-view-start-up-notification-panel_mission-event-006_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-009_01
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd-view-start-up-notification-panel_mission-event-007_01_01
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view-start-up-notification-panel_mission-event-009_01_01
+  number: 1
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionPanelNotComplete
   resourceId1: panel_mission-event-009
@@ -56816,6 +58100,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-amao-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-amao-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-fktn-10-1
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -56836,6 +58132,30 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-fktn-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-fktn-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-hmsz-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-hmsz-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -56864,6 +58184,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-hrnm-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-hrnm-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-hski-10-1
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -56884,6 +58216,18 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-hski-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-hski-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -56912,6 +58256,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-hume-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-hume-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-jsna-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-jsna-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-kcna-10-1
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -56932,6 +58300,18 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-kcna-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-kcna-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -56960,6 +58340,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-kllj-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-kllj-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-shro-10-1
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -56980,6 +58372,18 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-shro-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-shro-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -57008,6 +58412,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: view-commu-list-dearness-story-ssmk-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-ssmk-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: view-commu-list-dearness-story-ttmr-10-1
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -57028,6 +58444,18 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Min
   min: "11"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: view-commu-list-dearness-story-ttmr-37-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_StoryRead
+  resourceId1: dearness-story-ttmr-37-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
   max: "0"
   beforeTime: "0"
   afterTime: "0"

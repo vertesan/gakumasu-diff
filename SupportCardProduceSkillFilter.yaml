@@ -86,6 +86,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-change_produce_card
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-change_produce_card-p_card_search-deck_all-starter
+  title: 名前に「基本」を含むスキルカードチェンジ時パラメータ上昇
+  order: 38
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-change_produce_card-p_card_search-deck_all-starter
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-customize_produce_card
   title: スキルカードカスタマイズ時パラメータ上昇
   order: 32
@@ -131,6 +140,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-end_audition
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-end_audition-produce_card_search_count-p_card_search-deck_all-0015_0000
+  title: 試験・オーディション終了時所持スキルカードが15枚以上の場合パラメータ上昇
+  order: 39
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-end_audition-produce_card_search_count-p_card_search-deck_all-0015_0000
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-end_lesson-lesson_sp-produce_card_count-0020_0000
   title: SPレッスン終了時所持スキルカードが20枚以上の場合パラメータ上昇
   order: 36

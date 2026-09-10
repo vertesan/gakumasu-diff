@@ -7342,6 +7342,114 @@
   characterId: jsna
   viewProduceResult: false
   order: 6
+- id: achieve-i_card-jsna-3-017-01
+  category: AchievementCategory_Idol
+  name: 光り輝く道しるべ
+  description: 【ガラクタロード】十王 星南のプロデュースで最終試験に合格
+  missionType: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-017
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
+- id: achieve-i_card-jsna-3-017-02
+  category: AchievementCategory_Idol
+  name: ガラクタロード
+  description: 【ガラクタロード】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-017
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 2
+- id: achieve-i_card-jsna-3-017-03
+  category: AchievementCategory_Idol
+  name: 彼女の先を進む、私の姿を！
+  description: 【ガラクタロード】十王 星南のプロデュースで評価A+以上を{threshold}回獲得
+  missionType: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-jsna-3-017
+  targetValue: 9
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 3
+- id: achieve-i_card-jsna-3-017-04
+  category: AchievementCategory_Idol
+  name: ガラクタロード +
+  description: 【ガラクタロード】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-017
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 4
+- id: achieve-i_card-jsna-3-017-05
+  category: AchievementCategory_Idol
+  name: ガラクタロード ++
+  description: 【ガラクタロード】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-017
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 5
+- id: achieve-i_card-jsna-3-017-06
+  category: AchievementCategory_Idol
+  name: ガラクタロード +++
+  description: 【ガラクタロード】十王 星南の特訓段階を{threshold}にする
+  missionType: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-jsna-3-017
+  targetIds3: []
+  targetValue: 0
+  viewConditionSetId: cd_time-view_open-i_card-jsna-3-017
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 0
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 6
 - id: achieve-i_card-jsna-3-020-01
   category: AchievementCategory_Idol
   name: 見惚れる横顔
@@ -15928,6 +16036,26 @@
   characterId: fktn
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-fktn-000-2
+  category: AchievementCategory_Idol
+  name: あなたを幸せにします
+  description: "藤田 ことねでTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - fktn
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-fktn-001
   category: AchievementCategory_Idol
   name: QOL
@@ -16056,7 +16184,7 @@
   isMasterAchievement: false
   characterId: fktn
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-fktn-008
   category: AchievementCategory_Idol
   name: 秘めた才能
@@ -16367,6 +16495,44 @@
   characterId: fktn
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-fktn-025
+  category: AchievementCategory_Idol
+  name: 夢の中で見ていた光景
+  description: 藤田 ことねでH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-fktn-026
+  category: AchievementCategory_Idol
+  name: 積み上げてきた成果
+  description: 藤田 ことねでH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: fktn
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-fktn-027
   category: AchievementCategory_Idol
   name: 借金、全額完済っ！
@@ -18603,6 +18769,26 @@
   characterId: jsna
   viewProduceResult: false
   order: 1
+- id: achieve-p_idol-jsna-000-2
+  category: AchievementCategory_Idol
+  name: 私のモノになりなさい
+  description: "十王 星南でTrue End : H.I.Fをみる"
+  missionType: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1:
+  - produce_group-003
+  targetIds2:
+  - jsna
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 3
+  isTrueEndAchievement: true
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 1
 - id: achieve-p_idol-jsna-001
   category: AchievementCategory_Idol
   name: 新しい一面
@@ -18731,7 +18917,7 @@
   isMasterAchievement: false
   characterId: jsna
   viewProduceResult: true
-  order: 14
+  order: 15
 - id: achieve-p_idol-jsna-008
   category: AchievementCategory_Idol
   name: 一番星の風格
@@ -19042,6 +19228,44 @@
   characterId: jsna
   viewProduceResult: true
   order: 12
+- id: achieve-p_idol-jsna-025
+  category: AchievementCategory_Idol
+  name: 十王星南の遺産
+  description: 十王 星南でH.I.Fの最終試験に合格して評価S4+以上を獲得
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 17
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 14
+- id: achieve-p_idol-jsna-026
+  category: AchievementCategory_Idol
+  name: 私たちの物語
+  description: 十王 星南でH.I.Fの最終試験に{threshold}回合格
+  missionType: MissionType_IncrementProduceCharacterClearCount
+  targetIds1:
+  - produce_group-003
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  masterAchievementInitialRank: 6
+  isTrueEndAchievement: false
+  isMasterAchievement: false
+  characterId: jsna
+  viewProduceResult: false
+  order: 33
 - id: achieve-p_idol-jsna-027
   category: AchievementCategory_Idol
   name: 果たされた野望
