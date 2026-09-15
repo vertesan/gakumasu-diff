@@ -5866,6 +5866,18 @@
   beforeTime: "1788897600000"
   afterTime: "1789502399000"
   description: ""
+- id: cd_login_bonus_wednesday-26-0916
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789502400000"
+  afterTime: "1790107199000"
+  description: ""
 - id: cd_main-story-event-001_story-release
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -11202,6 +11214,30 @@
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_skillcard-switch-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: 79
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_skillcard-switch-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ProducerLevel
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "51"
   max: "0"
   beforeTime: "0"
   afterTime: "0"
@@ -17072,6 +17108,18 @@
   min: "0"
   max: "0"
   beforeTime: "1789005600000"
+  afterTime: "0"
+  description: ""
+- id: cd_time_26_0915-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1789437600000"
   afterTime: "0"
   description: ""
 - id: cd_time_26_1001-1100
