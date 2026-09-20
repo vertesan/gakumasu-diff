@@ -68,6 +68,15 @@
   - ProduceEffectType_StaminaRecoverFix
   produceTriggerIds:
   - p_trigger-start_present
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-buy_shop_item_produce_card
+  title: 相談でスキルカード交換後パラメータ上昇
+  order: 42
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-buy_shop_item_produce_card
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-buy_shop_item_produce_drink
   title: 相談でPドリンク交換後パラメータ上昇
   order: 29
@@ -317,6 +326,24 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-get_produce_card-p_card_search-ssr-deck_all-1
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_full_power-000-0008_0000
+  title: スキルカード獲得時所持している全力効果のスキルカードが8枚以上の場合パラメータ上昇
+  order: 40
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_full_power-000-0008_0000
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_preservation-000-0008_0000
+  title: スキルカード獲得時所持している温存効果のスキルカードが8枚以上の場合パラメータ上昇
+  order: 41
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_preservation-000-0008_0000
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_drink
   title: Pドリンク獲得時パラメータ上昇
   order: 31
