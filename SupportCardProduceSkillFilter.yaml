@@ -335,6 +335,15 @@
   - ProduceEffectType_VisualAddition
   produceTriggerIds:
   - p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_full_power-000-0008_0000
+- id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_parameter_buff-000-0008_0000
+  title: スキルカード獲得時所持している好調効果のスキルカードが8枚以上の場合パラメータ上昇
+  order: 43
+  produceEffectTypes:
+  - ProduceEffectType_VocalAddition
+  - ProduceEffectType_DanceAddition
+  - ProduceEffectType_VisualAddition
+  produceTriggerIds:
+  - p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_parameter_buff-000-0008_0000
 - id: s_card_p_skill_filter-vocaladdition-p_trigger-get_produce_card-produce_card_search_count-p_card_search-deck_all-effect_group-visible-exam_preservation-000-0008_0000
   title: スキルカード獲得時所持している温存効果のスキルカードが8枚以上の場合パラメータ上昇
   order: 41
