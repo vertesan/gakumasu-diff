@@ -4925,6 +4925,63 @@
     changeColor: false
   viewStartTime: "0"
   order: "2989800081"
+- id: s_card-2-0082
+  characterIds:
+  - hski
+  - amao
+  - hrnm
+  - hume
+  - fktn
+  - kllj
+  - ssmk
+  name: ふたりで衣装作り
+  type: SupportCardType_Dance
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Sr
+  assetId: csprt-2-0082
+  supportCardLevelId: support_card_level-2-001
+  supportCardLevelLimitId: support_card_level_limit-2-001
+  produceStoryIds:
+  - p_story-s_card-2-0082-01
+  - p_story-s_card-2-0082-02
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 1
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 5
+  isLimited: false
+  produceCardUpgradePermil: 28
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Dance
+  gashaSupportAnimationNumber: 0
+  upgradeProduceCardProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: / 確率中
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "2989700082"
 - id: s_card-3-0000
   characterIds:
   - hski
@@ -10978,3 +11035,56 @@
     changeColor: false
   viewStartTime: "0"
   order: "1989800111"
+- id: s_card-3-0112
+  characterIds:
+  - hski
+  - ttmr
+  name: これがあのかぼちゃ……
+  type: SupportCardType_Visual
+  planType: ProducePlanType_Plan2
+  rarity: SupportCardRarity_Ssr
+  assetId: csprt-3-0112
+  supportCardLevelId: support_card_level-3-001
+  supportCardLevelLimitId: support_card_level_limit-3-001
+  produceStoryIds:
+  - p_story-s_card-3-0112-01
+  - p_story-s_card-3-0112-02
+  - p_story-s_card-3-0112-03
+  displayPositionX: 0
+  displayPositionY: 0
+  displayScale: 1
+  exchangeReward:
+    resourceType: ResourceType_Item
+    resourceId: item-support_card-exchange-1
+    quantity: 50
+  isLimited: false
+  produceCardUpgradePermil: 37
+  upgradeProduceCardSearchId: p_card_search-hand
+  produceCardUpgradeLessonParameterType: ProduceParameterType_Visual
+  gashaSupportAnimationNumber: 0
+  upgradeProduceCardProduceDescriptions:
+  - produceDescriptionType: ProduceDescriptionType_PlainText
+    examDescriptionType: ExamDescriptionType_Unknown
+    examEffectType: ProduceExamEffectType_Unknown
+    produceCardGrowEffectType: ProduceCardGrowEffectType_Unknown
+    produceCardCategory: ProduceCardCategory_Unknown
+    produceCardMovePositionType: ProduceCardMovePositionType_Unknown
+    produceStepType: ProduceStepType_Unknown
+    produceStepBusinessType: ProduceStepBusinessType_Unknown
+    text: / 確率大
+    targetId: ""
+    targetLevel: 0
+    effectValue1: 0
+    effectValue2: 0
+    effectCount: 0
+    turn: 0
+    costValue: 0
+    produceDescriptionSwapId: ""
+    originProduceExamTriggerId: ""
+    originProduceExamEffectId: ""
+    originProduceCardStatusEnchantId: ""
+    isCost: false
+    isOnlyOutGame: false
+    changeColor: false
+  viewStartTime: "0"
+  order: "1989700112"
