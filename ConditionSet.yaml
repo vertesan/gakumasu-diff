@@ -2950,6 +2950,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_draw_gasha-01055-select-loginbonus-ticket-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-01055-select-loginbonus-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_draw_gasha-01055-select-loginbonus-ticket-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-01055-select-loginbonus-ticket-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_event_release_mission
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -3008,6 +3032,30 @@
   min: "0"
   max: "0"
   beforeTime: "1733709600000"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_item-gashaticket-ssr-idol-1055
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-01055-select-loginbonus-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_gasha_have_item-gashaticket-ssr-idol-1055
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-01055-select-loginbonus-ticket-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
   afterTime: "0"
   description: ""
 - id: cd_gasha_have_item-gashaticket-ssr-idol-fix_2
@@ -3298,6 +3346,30 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1106-1
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-selectgashaticket-gasha-01055-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "1793930400000"
+  afterTime: "1796090399000"
+  description: 選べるログボ：SSRPアイドル確定
+- id: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1106-2
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_ItemCount
+  resourceId1: item-selectgashaticket-gasha-01055-ticket-002
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Min
+  min: "1"
+  max: "0"
+  beforeTime: "1793930400000"
+  afterTime: "1796090399000"
+  description: 選べるログボ：SSRPアイドル20％
 - id: cd_gasha_have_ticket_item-gashaticket-ssr-fix_7
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -10498,6 +10570,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_period_26_1106-1100-1201-1059
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793930400000"
+  afterTime: "1796090399000"
+  description: ""
 - id: cd_photo-pose-hotsping-costume-non
   number: 1
   conditionOperatorType: ConditionOperatorType_Or
@@ -12447,6 +12531,66 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_MissionPanelNotComplete
   resourceId1: panel_mission-event-011
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_event-selectlogin-remind-26012-01
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd_period_26_1106-1100-1201-1059
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_event-selectlogin-remind-26012-01
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_gasha_have_item-gashaticket-ssr-idol-1055
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_event-selectlogin-remind-26012-01
+  number: 3
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_Set
+  resourceId1: cd-home_remind-startup_notification-cd-night
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_event-selectlogin-remind-26012-01
+  number: 4
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1106-1
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd_startup_notification_event-selectlogin-remind-26012-01
+  number: 5
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1106-2
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
@@ -18574,6 +18718,18 @@
   beforeTime: "1793476800000"
   afterTime: "1809136799000"
   description: ""
+- id: cd_time_26_1106-1100
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793930400000"
+  afterTime: "0"
+  description: ""
 - id: cd_time_26_1201_1100_27_0101_1000
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -19064,6 +19220,18 @@
   min: "0"
   max: "0"
   beforeTime: "1777428000000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-hmsz-3-018
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793930400000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-hmsz-3-020
@@ -19700,6 +19868,18 @@
   min: "0"
   max: "0"
   beforeTime: "1788487200000"
+  afterTime: "0"
+  description: ""
+- id: cd_time-view_open-i_card-kcna-3-019
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793930400000"
   afterTime: "0"
   description: ""
 - id: cd_time-view_open-i_card-kllj-1-001
@@ -21863,6 +22043,18 @@
   max: "0"
   beforeTime: "1781488800000"
   afterTime: "1782439199000"
+  description: ""
+- id: cd_view_select-loginbonus-home-banner-01055
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-01055-select-loginbonus-ticket-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
   description: ""
 - id: cd_view_shop_1.5th_aniversary-pack-001
   number: 1
@@ -39256,6 +39448,126 @@
   beforeTime: "1770994800000"
   afterTime: "1772157599000"
   description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 1
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1793962800000"
+  afterTime: "1793995199000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 2
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794049200000"
+  afterTime: "1794081599000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 3
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794135600000"
+  afterTime: "1794167999000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 4
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794222000000"
+  afterTime: "1794254399000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 5
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794308400000"
+  afterTime: "1794340799000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 6
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794394800000"
+  afterTime: "1794427199000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 7
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794481200000"
+  afterTime: "1794513599000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 8
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794567600000"
+  afterTime: "1794599999000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 9
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794654000000"
+  afterTime: "1794686399000"
+  description: ""
+- id: cd-home_remind-startup_notification-cd-night
+  number: 10
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794740400000"
+  afterTime: "1794772799000"
+  description: ""
 - id: cd-home-banner_shop_costume-0002
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -50749,6 +51061,30 @@
   conditionOperatorType: ConditionOperatorType_Or
   conditionType: ConditionType_Music
   resourceId1: music-all-atbm-016
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-016
+  number: 8
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-hmsz-016
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-release-music-inst-all-016
+  number: 9
+  conditionOperatorType: ConditionOperatorType_Or
+  conditionType: ConditionType_Music
+  resourceId1: music-all-kcna-016
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
