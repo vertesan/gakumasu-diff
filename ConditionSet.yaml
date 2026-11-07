@@ -2974,6 +2974,18 @@
   beforeTime: "0"
   afterTime: "0"
   description: ""
+- id: cd_draw_gasha-01057-ssr-idol-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_GashaDraw
+  resourceId1: gasha-01057-ssr-idol-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
 - id: cd_event_release_mission
   number: 1
   conditionOperatorType: ConditionOperatorType_And
@@ -57985,6 +57997,30 @@
   conditionOperatorType: ConditionOperatorType_And
   conditionType: ConditionType_NegativeSet
   resourceId1: cd_draw_gasha-01050-ssr-anotheridol-jsna-001
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "0"
+  afterTime: "0"
+  description: ""
+- id: cd-view_home-banner-gasha-01057-ssr-idol-001
+  number: 1
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_TimeTerm
+  resourceId1: ""
+  resourceId2: ""
+  minMaxType: ConditionMinMaxType_Unknown
+  min: "0"
+  max: "0"
+  beforeTime: "1794052800000"
+  afterTime: "1794790799000"
+  description: ""
+- id: cd-view_home-banner-gasha-01057-ssr-idol-001
+  number: 2
+  conditionOperatorType: ConditionOperatorType_And
+  conditionType: ConditionType_NegativeSet
+  resourceId1: cd_draw_gasha-01057-ssr-idol-001
   resourceId2: ""
   minMaxType: ConditionMinMaxType_Unknown
   min: "0"
