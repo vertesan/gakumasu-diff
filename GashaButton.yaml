@@ -22,6 +22,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_200limit_button_001-10
   name: 10回ガシャ
@@ -47,6 +49,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_AppealText
   bottomAppealText: SR以上1枚確定
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_00980-ssr-idol-001
   name: 有償10回ガシャ
@@ -72,6 +76,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_01000-ssr-idol-001
   name: 有償10回ガシャ
@@ -97,6 +103,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_01018-ssr-idol-001
   name: 有償10回ガシャ
@@ -122,6 +130,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_01057-ssr-idol-001
   name: 有償10回ガシャ
@@ -147,6 +157,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_01060-ssr-idol-001
   name: 有償10回ガシャ
@@ -172,6 +184,35 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button_01070-ssr-idol-001
+  name: 有償10回ガシャ
+  description: 有償10回ガシャ
+  type: GashaButtonType_Static
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_JewelPaidOnly
+  resourceId: ""
+  limitType: GashaLimitType_Total
+  limitCount: 1
+  resourceQuantity: 2500
+  maxDrawCount: 0
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_FixSsr
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_DrawableCount
+  bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_animate-ssr-00630
   name: 有償10回ガシャ
@@ -197,6 +238,35 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button_item-gachaticket-2.5th-anniv-10-001
+  name: 2.5th アニバーサリー10連ガシャチケットで引く
+  description: 10回ガシャ
+  type: GashaButtonType_Dynamic
+  rewardCount: 9
+  fixRewardCount: 1
+  resourceType: ResourceType_Item
+  resourceId: item-gachaticket-2.5th-anniv-10-001
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_AppealText
+  appealText: SR以上1枚確定
+  highAppealType: GashaButtonAppealType_AppealText
+  highAppealText: SR以上1枚確定
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button_merge-ssr-00530
   name: 有償10回ガシャ
@@ -222,6 +292,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-00560
   name: 有償10回ガシャ
@@ -247,6 +319,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-00770
   name: 有償10回ガシャ
@@ -272,6 +346,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-00930
   name: 有償10回ガシャ
@@ -297,6 +373,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-00980
   name: 有償10回ガシャ
@@ -322,6 +400,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-01020
   name: 有償10回ガシャ
@@ -347,6 +427,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-01040
   name: 有償10回ガシャ
@@ -372,6 +454,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button_merge-ssr-01050
   name: 有償10回ガシャ
@@ -397,6 +481,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_button-001-01
   name: 1回ガシャ
@@ -422,6 +508,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-001-01-discount
   name: 1日1回ガシャ
@@ -447,6 +535,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-001-10
   name: 10回ガシャ
@@ -472,6 +562,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-001-10-ssr
   name: 10回ガシャ
@@ -497,6 +589,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-001-10-ssr-anniversary
   name: SSR確定10連ガシャ 2回きり
@@ -522,6 +616,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-001-ticket
   name: チケットで引く
@@ -547,6 +643,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00800-free-10-06
   name: 10連無料、最大100連無料ガシャ
@@ -572,6 +670,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00810-ticket-001
   name: チケットで10回引く
@@ -597,6 +697,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-001-ticket-01
   name: チケットで引く
@@ -622,6 +724,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-001-ticket-10
   name: 10回チケットガシャ
@@ -647,6 +751,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-002-ticket-01
   name: チケットで引く
@@ -672,6 +778,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-002-ticket-10
   name: 10回チケットガシャ
@@ -697,6 +805,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-003-ticket-01
   name: チケットで引く
@@ -722,6 +832,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-003-ticket-10
   name: 10回チケットガシャ
@@ -747,6 +859,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-004-ticket-01
   name: チケットで引く
@@ -772,6 +886,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-005-ticket-01
   name: チケットで引く
@@ -797,6 +913,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-006-ticket-01
   name: チケットで引く
@@ -822,6 +940,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-007-ticket-01
   name: チケットで引く
@@ -847,6 +967,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-008-ticket-01
   name: チケットで引く
@@ -872,6 +994,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-009-ticket-01
   name: チケットで引く
@@ -897,6 +1021,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-010-ticket-01
   name: チケットで引く
@@ -922,6 +1048,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-010-ticket-10
   name: 10回チケットガシャ
@@ -947,6 +1075,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-011-ticket-01
   name: チケットで引く
@@ -972,6 +1102,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-012-ticket-01
   name: チケットで引く
@@ -997,6 +1129,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00822-wednesday-013-ticket-01
   name: チケットで引く
@@ -1022,6 +1156,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00870-free-10-07
   name: 10連無料、最大100連無料ガシャ
@@ -1047,6 +1183,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00890-wednesday-001-ticket-01
   name: チケットで引く
@@ -1072,6 +1210,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00900-wednesday-001
   name: 学マ水曜日ガシャチケットで引く
@@ -1097,6 +1237,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00920-wednesday-001
   name: 学マ水曜日ガシャチケットで引く
@@ -1122,6 +1264,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00920-wednesday-002
   name: 学マ水曜日ガシャチケットで引く
@@ -1147,6 +1291,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00930-wednesday-001
   name: 学マ水曜日ガシャチケットで引く
@@ -1172,6 +1318,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00940-wednesday-001-ticket-01
   name: チケットで引く
@@ -1197,6 +1345,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00950-free-10-08
   name: 10回ガシャ
@@ -1222,6 +1372,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00950-wednesday-001
   name: 学マ水曜日ガシャチケットで引く
@@ -1247,6 +1399,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00960-ticket-001
   name: STEP3全アイドル登場記念 SSR Pアイドル確定チケットで引く
@@ -1272,6 +1426,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00970-wednesday-001-ticket-01
   name: チケットで引く
@@ -1297,6 +1453,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00980-free-10-009
   name: 360°ライブ追加記念！最大100連無料！10連無料ガシャ
@@ -1322,6 +1480,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-00988-wednesday-001-ticket-01
   name: チケットで引く
@@ -1347,6 +1507,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-010-item_01
   name: 10回アイテムガシャ
@@ -1372,6 +1534,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-010-ticket
   name: 10回チケットガシャ
@@ -1397,6 +1561,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01000-wednesday-001
   name: 学マ水曜日ガシャチケットで引く
@@ -1422,6 +1588,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01018-wednesday-001-ticket-01
   name: チケットで引く
@@ -1447,6 +1615,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01020-wednesday-001-ticket-01
   name: チケットで引く
@@ -1472,6 +1642,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01040-wednesday-001-ticket-01
   name: チケットで引く
@@ -1497,6 +1669,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01050-wednesday-001-ticket-01
   name: チケットで引く
@@ -1522,6 +1696,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01055-ticket-001
   name: SSR Pアイドル確定チケットで引く
@@ -1547,6 +1723,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-01055-ticket-002
   name: SSR Pアイドル出現率10倍チケットで引く
@@ -1572,6 +1750,143 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button-01070-ssr-idol-002
+  name: 2.5th アニバーサリーシーズン限定入り SSR Pアイドル確定ガシャチケットで引く
+  description: 2.5th アニバーサリーシーズン限定入り SSR Pアイドル確定ガシャチケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gacha-ticket-2.5th-anniv-ssr-idolcard
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-idolcard
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: SSR確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button-01070-ssr-support-002
+  name: 2.5th アニバーサリーシーズン限定入り SSR サポートカード確定ガシャチケットで引く
+  description: 2.5th アニバーサリーシーズン限定入り SSR サポートカード確定ガシャチケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gacha-ticket-2.5th-anniv-ssr-supportcard
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-supportcard
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: SSR確定
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button-01070-ticket-001
+  name: SSR Pアイドル2人確定！2連ガシャチケットで引く
+  description: SSR Pアイドル2人確定！2連ガシャチケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 2
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-selectgashaticket-gasha-01070-ticket-001
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_FixSsr
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button-01070-ticket-002
+  name: SSR Pアイドル出現率10倍！10連ガシャチケットで引く
+  description: SSR Pアイドル出現率10倍！10連ガシャチケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 10
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-selectgashaticket-gasha-01070-ticket-002
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
+  isOverride: false
+- id: gasha_button-01070-wednesday-001
+  name: チケットで引く
+  description: チケットで引く
+  type: GashaButtonType_Dynamic
+  rewardCount: 1
+  fixRewardCount: 0
+  resourceType: ResourceType_Item
+  resourceId: item-gashaticket-new-wednesday-26-1118-1
+  limitType: GashaLimitType_Unknown
+  limitCount: 0
+  resourceQuantity: 1
+  maxDrawCount: 1
+  discountLimitType: GashaLimitType_Unknown
+  discountLimitCount: 0
+  discountResourceQuantity: 0
+  viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-new-wednesday-26-1118-1
+  unlockConditionSetId: ""
+  order: 1
+  appealType: GashaButtonAppealType_Unknown
+  appealText: ""
+  highAppealType: GashaButtonAppealType_Unknown
+  highAppealText: ""
+  bottomAppealType: GashaButtonAppealType_Unknown
+  bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-640-fes
   name: 5回ガシャ
@@ -1597,6 +1912,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-continuous-001
   name: アイテムで引く
@@ -1622,6 +1939,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-continuous-002
   name: アイテムで引く
@@ -1647,6 +1966,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-free-1-01
   name: 無料1回ガシャ
@@ -1672,6 +1993,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-free-10-01
   name: 10回ガシャ
@@ -1697,6 +2020,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-free-10-04
   name: 10連無料、最大100連無料ガシャ
@@ -1722,6 +2047,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-free-10-05
   name: 10連無料、最大100連無料ガシャ
@@ -1747,6 +2074,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-free-ssr-anotheridol-01
   name: 1回ガシャ
@@ -1772,6 +2101,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-stepup-001-01-003
   name: ステップ1 3回
@@ -1797,6 +2128,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-stepup-001-2-010
   name: ステップ2 10回
@@ -1822,6 +2155,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-stepup-001-3-010
   name: ステップ3 10回
@@ -1847,6 +2182,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-ticket-001
   name: チケットで引く
@@ -1872,6 +2209,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-ticket-002
   name: チケットで引く
@@ -1897,6 +2236,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-ticket-003
   name: チケットで引く
@@ -1922,6 +2263,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-gasha-00970-ticket-004
   name: チケットで引く
@@ -1947,6 +2290,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-01
   name: 1回ガシャ
@@ -1972,6 +2317,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-01-discount
   name: 1日1回ガシャ
@@ -1997,6 +2344,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-10
   name: 10回ガシャ
@@ -2022,6 +2371,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-10-animate
   name: 10回ガシャ
@@ -2047,6 +2398,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-10-another25summer
   name: 10回ガシャ
@@ -2072,6 +2425,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-10-HowlingovertheWorld
   name: 10回ガシャ
@@ -2097,6 +2452,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-001-10-iwsf2026
   name: 10回ガシャ
@@ -2122,6 +2479,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-pickup-01-discount
   name: 10回ガシャ
@@ -2147,6 +2506,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-select-pickup-01
   name: 10回ガシャ
@@ -2172,6 +2533,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_button-select-pickup-01-discount
   name: 10回ガシャ
@@ -2197,6 +2560,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_marge_button-ssr-00520
   name: 有償10回ガシャ
@@ -2222,6 +2587,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00620
   name: 有償10回ガシャ
@@ -2247,6 +2614,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00670
   name: 有償10回ガシャ
@@ -2272,6 +2641,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00750
   name: 有償10回ガシャ
@@ -2297,6 +2668,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00860
   name: 有償10回ガシャ
@@ -2322,6 +2695,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00875
   name: 有償10回ガシャ
@@ -2347,6 +2722,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00940
   name: 有償10回ガシャ
@@ -2372,6 +2749,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-00975
   name: 有償10回ガシャ
@@ -2397,6 +2776,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: true
 - id: gasha_marge_button-ssr-hif-day1-00912
   name: 有償10回ガシャ
@@ -2422,6 +2803,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_marge_button-ssr-hif-day2-00914
   name: 有償10回ガシャ
@@ -2447,6 +2830,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_DrawableCount
   bottomAppealText: あと{0}回
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_aniv-001
   name: もうすぐ1周年記念ガシャ10連チケットで引く
@@ -2472,6 +2857,8 @@
   highAppealText: SR以上1枚確定
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_anniversary-001
   name: 2nd アニバーサリー10連ガシャチケットで引く
@@ -2497,6 +2884,8 @@
   highAppealText: SR以上1枚確定
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_anniversary-002
   name: 2nd アニバーサリー ライブツアー限定SSR Pアイドル確定10連ガシャチケットで引く
@@ -2522,6 +2911,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_christmas-001
   name: クリスマスログインボーナスガシャチケットで引く
@@ -2547,6 +2938,8 @@
   highAppealText: SR以上1枚確定
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_10_button-001
   name: SSR確定チケットで引く
@@ -2572,6 +2965,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button
   name: SSR確定チケットで引く
@@ -2597,6 +2992,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_1st-anniv
   name: 1st アニバーサリー記念 SSR確定チケットで引く
@@ -2622,6 +3019,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_idol
   name: SSR確定チケットで引く
@@ -2647,6 +3046,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_idol_2
   name: The 1st Period公演記念 SSR Pアイドル確定チケットで引く
@@ -2672,6 +3073,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_seasons-2511-001
   name: 1.5th アニバーサリー記念シーズン限定SSR確定チケットで引く
@@ -2697,6 +3100,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_support
   name: SSR確定チケットで引く
@@ -2722,6 +3127,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button_support-2
   name: SSR確定チケットで引く
@@ -2747,6 +3154,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button-5
   name: 1.5th アニバーサリー記念SSR確定ガシャチケットで引く
@@ -2772,6 +3181,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button-6
   name: MOIW2025記念 SSR Pアイドル確定ガシャチケットで引く
@@ -2797,6 +3208,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button-7
   name: 2nd アニバーサリー記念SSR確定チケットで引く
@@ -2822,6 +3235,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_ssr_button-8
   name: The 2nd Period シーズン限定SSR Pアイドル確定10連ガシャチケットで引く
@@ -2847,6 +3262,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha_ticket_valentine-001
   name: バレンタインログインボーナスガシャチケットで引く
@@ -2872,6 +3289,8 @@
   highAppealText: SR以上1枚確定
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha-ticket-ssr-idol-seasons_button-01
   name: シーズン限定 SSR Pアイドル確定ガシャチケットで引く
@@ -2897,6 +3316,8 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false
 - id: gasha-ticket-ssr-support-seasons_button-01
   name: シーズン限定 SSR サポートカード確定ガシャチケットで引く
@@ -2922,4 +3343,6 @@
   highAppealText: ""
   bottomAppealType: GashaButtonAppealType_Unknown
   bottomAppealText: ""
+  displayAfterLimitReached: false
+  resourceTextType: GashaButtonResourceTextType_Unknown
   isOverride: false

@@ -105,11 +105,12 @@
   produceCardGrowEffectTypes: []
   order: 130004
 - id: effect_group-visible-exam_aggressive_reduce-000
-  name: やる気減少
+  name: やる気消費
   examEffectType: ProduceExamEffectType_ExamAggressiveReduce
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamAggressiveReduce
+  - ProduceExamEffectType_ExamAggressiveReduceCancellable
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -233,6 +234,7 @@
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamFullPowerPointReduce
+  - ProduceExamEffectType_ExamFullPowerPointReduceCancellable
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -274,11 +276,12 @@
   produceCardGrowEffectTypes: []
   order: 100009
 - id: effect_group-visible-exam_lesson_buff_reduce-000
-  name: 集中減少
+  name: 集中消費
   examEffectType: ProduceExamEffectType_ExamLessonBuffReduce
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamLessonBuffReduce
+  - ProduceExamEffectType_ExamLessonBuffReduceCancellable
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -374,7 +377,7 @@
   produceCardGrowEffectTypes: []
   order: 100001
 - id: effect_group-visible-exam_parameter_buff_multiple_per_turn_reduce-000
-  name: 絶好調減少
+  name: 絶好調消費
   examEffectType: ProduceExamEffectType_ExamParameterBuffMultiplePerTurnReduce
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
@@ -394,11 +397,12 @@
   produceCardGrowEffectTypes: []
   order: 110002
 - id: effect_group-visible-exam_parameter_buff_reduce-000
-  name: 好調減少
+  name: 好調消費
   examEffectType: ProduceExamEffectType_ExamParameterBuffReduce
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamParameterBuffReduce
+  - ProduceExamEffectType_ExamParameterBuffReduceCancellable
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []
@@ -442,11 +446,12 @@
   produceCardGrowEffectTypes: []
   order: 130001
 - id: effect_group-visible-exam_review_reduce-000
-  name: 好印象減少
+  name: 好印象消費
   examEffectType: ProduceExamEffectType_ExamReviewReduce
   produceEffectType: ProduceEffectType_Unknown
   examEffectTypes:
   - ProduceExamEffectType_ExamReviewReduce
+  - ProduceExamEffectType_ExamReviewReduceCancellable
   produceEffectTypes: []
   hiddenFilter: false
   produceCardGrowEffectTypes: []

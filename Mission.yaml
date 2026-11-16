@@ -4813,7 +4813,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価A+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4829,7 +4829,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル1人で評価S4+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4845,7 +4845,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル6人で評価S4+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4861,7 +4861,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル13人で評価S4+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4877,7 +4877,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価A+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4893,7 +4893,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価A+以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4909,7 +4909,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価SS以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4925,7 +4925,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価SS以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4941,7 +4941,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル{threshold}人で評価SS以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4957,7 +4957,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル1人で評価S4以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4973,7 +4973,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル6人で評価S4以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -4989,7 +4989,7 @@
   missionGroupId: grade_mission-001-group_1
   name: アイドル13人で評価S4以上を獲得しよう
   category: MissionCategory_Special
-  type: 425
+  type: MissionType_AbsoluteProduceGradeCharacterCount
   targetIds1: []
   targetIds2: []
   targetIds3: []
@@ -5791,6 +5791,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: cd-have_i_card-fktn-3-000
   order: 999
+- id: hidden_mission-normal-produce-clear-i_card-hkne-3-000-b
+  missionGroupId: ""
+  name: SSR香名江でB評価
+  category: MissionCategory_Normal
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hkne-3-000
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: cd-have_i_card-hkne-3-000
+  order: 999
 - id: hidden_mission-normal-produce-clear-i_card-hmsz-3-000-b
   missionGroupId: ""
   name: SSR美鈴でB評価
@@ -6319,6 +6336,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-a-hkne
+  missionGroupId: ""
+  name: 香名江でA Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hkne
+  targetIds3:
+  - A
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-a-hmsz
   missionGroupId: ""
   name: 美鈴でA Endを見る
@@ -6584,6 +6619,24 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: hidden_mission-view-ending-b-hkne
+  missionGroupId: ""
+  name: 香名江でB Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hkne
+  targetIds3:
+  - B
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: hidden_mission-view-ending-b-hmsz
   missionGroupId: ""
   name: 美鈴でB Endを見る
@@ -6594,6 +6647,24 @@
   - hmsz
   targetIds3:
   - B
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-c-hkne
+  missionGroupId: ""
+  name: 香名江でC Endを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hkne
+  targetIds3:
+  - C
   targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
@@ -7559,6 +7630,24 @@
   targetIds1: []
   targetIds2:
   - fktn
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
+- id: hidden_mission-view-ending-true-hkne
+  missionGroupId: ""
+  name: 香名江でTrueEndを見る
+  category: MissionCategory_Normal
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hkne
   targetIds3:
   - TrueEnd
   targetValue: 0
@@ -26843,6 +26932,23 @@
   viewConditionSetId: cd_close
   unlockConditionSetId: ""
   order: 999
+- id: mission-normal-view-shop_pack_hkne-0001
+  missionGroupId: ""
+  name: 香名江ピースパック発火条件
+  category: MissionCategory_Normal
+  type: MissionType_ConditionClear
+  targetIds1:
+  - cd-mission_clear-view-shop_pack_hkne-0001-72-hour
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_close
+  unlockConditionSetId: ""
+  order: 999
 - id: mission-normal-view-shop_pack_hmsz-0001
   missionGroupId: ""
   name: 美鈴ピースパック発火条件
@@ -34245,6 +34351,309 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 9
+- id: panel_mission-event-012-mission_1
+  missionGroupId: panel_mission-event-012-group_1
+  name: 花海 咲季のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 1
+- id: panel_mission-event-012-mission_11
+  missionGroupId: panel_mission-event-012-group_2
+  name: マニー交換所で{threshold}回交換しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementDailyExchangeCount
+  targetIds1:
+  - exchange-money-1
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 11
+- id: panel_mission-event-012-mission_12
+  missionGroupId: panel_mission-event-012-group_2
+  name: 葛城 リーリヤのプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 12
+- id: panel_mission-event-012-mission_13
+  missionGroupId: panel_mission-event-012-group_2
+  name: 紫雲 清夏のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 13
+- id: panel_mission-event-012-mission_14
+  missionGroupId: panel_mission-event-012-group_2
+  name: 雨夜 燕のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 14
+- id: panel_mission-event-012-mission_15
+  missionGroupId: panel_mission-event-012-group_2
+  name: 十王 星南のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 15
+- id: panel_mission-event-012-mission_16
+  missionGroupId: panel_mission-event-012-group_2
+  name: 秦谷 美鈴のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 16
+- id: panel_mission-event-012-mission_17
+  missionGroupId: panel_mission-event-012-group_2
+  name: コンテストに{threshold}回挑戦しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementPvpRatePlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 17
+- id: panel_mission-event-012-mission_18
+  missionGroupId: panel_mission-event-012-group_2
+  name: 有村 麻央のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 18
+- id: panel_mission-event-012-mission_19
+  missionGroupId: panel_mission-event-012-group_2
+  name: 姫崎 莉波のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 19
+- id: panel_mission-event-012-mission_2
+  missionGroupId: panel_mission-event-012-group_1
+  name: 月村 手毬のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 2
+- id: panel_mission-event-012-mission_3
+  missionGroupId: panel_mission-event-012-group_1
+  name: 藤田 ことねのプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 3
+- id: panel_mission-event-012-mission_4
+  missionGroupId: panel_mission-event-012-group_1
+  name: マニーを回収しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementReceiveMoney
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 4
+- id: panel_mission-event-012-mission_5
+  missionGroupId: panel_mission-event-012-group_1
+  name: 氷渡 香名江のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 5
+- id: panel_mission-event-012-mission_6
+  missionGroupId: panel_mission-event-012-group_1
+  name: お仕事を{threshold}回開始しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementWorkCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 6
+- id: panel_mission-event-012-mission_7
+  missionGroupId: panel_mission-event-012-group_1
+  name: 花海 佑芽のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 7
+- id: panel_mission-event-012-mission_8
+  missionGroupId: panel_mission-event-012-group_1
+  name: 倉本 千奈のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 8
+- id: panel_mission-event-012-mission_9
+  missionGroupId: panel_mission-event-012-group_1
+  name: 篠澤 広のプロデュースを{threshold}回完了しよう
+  category: MissionCategory_Special
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: true
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 9
 - id: panel_mission-event-niv-mission_1
   missionGroupId: panel_mission-event-niv-group_1
   name: 最終試験をスコアB+以上で{threshold}回合格しよう
@@ -36734,6 +37143,210 @@
   missionDailyReleaseGroupId: ""
   missionDailyReleaseDay: 0
   viewConditionSetId: cd_time-view_open-i_card-fktn-3-019
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-01
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hkne-2-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-02
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-03
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hkne-2-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-04
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-05
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-2-000-06
+  missionGroupId: ""
+  name: 【憧れを抱いて一歩ずつ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-2-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-2-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-01
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江のプロデュースで最終試験に合格
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hkne-3-000
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-02
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-03
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江のプロデュースで評価A+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceIdolCardPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - i_card-hkne-3-000
+  targetValue: 9
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-04
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-05
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-i_card-hkne-3-000-06
+  missionGroupId: ""
+  name: 【メタモルフォーゼ】氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1: []
+  targetIds2:
+  - i_card-hkne-3-000
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: cd_time-view_open-i_card-hkne-3-000
   unlockConditionSetId: ""
   order: 0
 - id: achieve-i_card-hmsz-2-000-01
@@ -47293,6 +47906,23 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-m_hkne-001
+  missionGroupId: ""
+  name: 氷渡 香名江のアチーブメントの★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterIdolAchievementCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-m_hmsz-001
   missionGroupId: ""
   name: 秦谷 美鈴のアチーブメントの★を{threshold}個獲得
@@ -48946,6 +49576,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-amao-030
+  missionGroupId: ""
+  name: 有村 麻央の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-031
+  missionGroupId: ""
+  name: 有村 麻央の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-033
+  missionGroupId: ""
+  name: 有村 麻央の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-034
+  missionGroupId: ""
+  name: 有村 麻央のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-035
+  missionGroupId: ""
+  name: 有村 麻央のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-036
+  missionGroupId: ""
+  name: 有村 麻央のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-037
+  missionGroupId: ""
+  name: 有村 麻央でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - amao
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-038
+  missionGroupId: ""
+  name: 有村 麻央で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - amao
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-amao-039
+  missionGroupId: ""
+  name: 有村 麻央で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - amao
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-atbm-000
   missionGroupId: ""
   name: 雨夜 燕でTrue Endをみる
@@ -49446,6 +50229,159 @@
   targetIds3:
   - atbm
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-030
+  missionGroupId: ""
+  name: 雨夜 燕の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-031
+  missionGroupId: ""
+  name: 雨夜 燕の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-033
+  missionGroupId: ""
+  name: 雨夜 燕の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-034
+  missionGroupId: ""
+  name: 雨夜 燕のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-035
+  missionGroupId: ""
+  name: 雨夜 燕のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-036
+  missionGroupId: ""
+  name: 雨夜 燕のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-037
+  missionGroupId: ""
+  name: 雨夜 燕でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - atbm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-038
+  missionGroupId: ""
+  name: 雨夜 燕で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - atbm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-atbm-039
+  missionGroupId: ""
+  name: 雨夜 燕で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - atbm
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -50895,6 +51831,728 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-fktn-030
+  missionGroupId: ""
+  name: 藤田 ことねの衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-031
+  missionGroupId: ""
+  name: 藤田 ことねの髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-033
+  missionGroupId: ""
+  name: 藤田 ことねの楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-034
+  missionGroupId: ""
+  name: 藤田 ことねのプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-035
+  missionGroupId: ""
+  name: 藤田 ことねのPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-036
+  missionGroupId: ""
+  name: 藤田 ことねのTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-037
+  missionGroupId: ""
+  name: 藤田 ことねでお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - fktn
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-038
+  missionGroupId: ""
+  name: 藤田 ことねで{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - fktn
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-fktn-039
+  missionGroupId: ""
+  name: 藤田 ことねで{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - fktn
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-000
+  missionGroupId: ""
+  name: 氷渡 香名江でTrue Endをみる
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteProduceCharacterEnding
+  targetIds1: []
+  targetIds2:
+  - hkne
+  targetIds3:
+  - TrueEnd
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-001
+  missionGroupId: ""
+  name: 氷渡 香名江のプロデュースでスキルカードを{threshold}回使用
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceExamUseProduceCardCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-002
+  missionGroupId: ""
+  name: 氷渡 香名江でレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-003
+  missionGroupId: ""
+  name: 氷渡 香名江でSPレッスンを{threshold}回クリア
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceLessonClearCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3:
+  - LessonVocalSp
+  - LessonDanceSp
+  - LessonVisualSp
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-004
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価B以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 6
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-005
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価A以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 8
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-006
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価S以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 10
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-007
+  missionGroupId: ""
+  name: 氷渡 香名江のプロデュースを{threshold}回完了
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterPlayCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-008
+  missionGroupId: ""
+  name: 氷渡 香名江の特訓段階を{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardLevelLimitRank
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-009
+  missionGroupId: ""
+  name: 氷渡 香名江のプロデュースで最終試験に{threshold}回合格
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-final_audition_clear
+  targetIds2:
+  - hkne
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-010
+  missionGroupId: ""
+  name: 氷渡 香名江のファンを{threshold}人獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteFanCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-011
+  missionGroupId: ""
+  name: 氷渡 香名江の親愛度Lvを{threshold}にする
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteDearnessLevel
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-012
+  missionGroupId: ""
+  name: 氷渡 香名江でプロデュース評価を合計{threshold}獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceTotalScore
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-013
+  missionGroupId: ""
+  name: 氷渡 香名江のプロデュースでスキルカードを{threshold}回強化
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceUpgradeProduceCardCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-014
+  missionGroupId: ""
+  name: 氷渡 香名江のビジュアルを1000以上に育成してプロデュースを完了
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd-vi-1000
+  targetIds2:
+  - hkne
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-015
+  missionGroupId: ""
+  name: 「アイドルへの道」でクリア条件の★を{threshold}個獲得
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteTowerCharacterTotalClearRank
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-016
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価S+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 11
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-017
+  missionGroupId: ""
+  name: 氷渡 香名江の定期公演『初』難易度：マスターで最終試験1位を獲得
+  category: MissionCategory_Achievement
+  type: MissionType_ProduceConditionClearBeforeLiveEvaluation
+  targetIds1:
+  - p_cd_achivement_master_1st_clear
+  targetIds2:
+  - hkne
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-018
+  missionGroupId: ""
+  name: プロデュースで特別指導を{threshold}回選択
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceSelectStepCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3:
+  - Customize
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-020
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価SS以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 12
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-021
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価SS+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 13
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-023
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価SSS以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 14
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-024
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価SSS+以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 15
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-027
+  missionGroupId: ""
+  name: 氷渡 香名江で最終試験に合格して評価S4以上を{threshold}回獲得
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementProduceCharacterClearCount
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-030
+  missionGroupId: ""
+  name: 氷渡 香名江の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-031
+  missionGroupId: ""
+  name: 氷渡 香名江の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-033
+  missionGroupId: ""
+  name: 氷渡 香名江の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-034
+  missionGroupId: ""
+  name: 氷渡 香名江のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-035
+  missionGroupId: ""
+  name: 氷渡 香名江のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-036
+  missionGroupId: ""
+  name: 氷渡 香名江のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-037
+  missionGroupId: ""
+  name: 氷渡 香名江でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hkne
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-038
+  missionGroupId: ""
+  name: 氷渡 香名江で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - hkne
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hkne-039
+  missionGroupId: ""
+  name: 氷渡 香名江で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - hkne
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hmsz-000
   missionGroupId: ""
   name: 秦谷 美鈴でTrue Endをみる
@@ -51395,6 +53053,159 @@
   targetIds3:
   - hmsz
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-030
+  missionGroupId: ""
+  name: 秦谷 美鈴の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-031
+  missionGroupId: ""
+  name: 秦谷 美鈴の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-033
+  missionGroupId: ""
+  name: 秦谷 美鈴の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-034
+  missionGroupId: ""
+  name: 秦谷 美鈴のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-035
+  missionGroupId: ""
+  name: 秦谷 美鈴のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-036
+  missionGroupId: ""
+  name: 秦谷 美鈴のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-037
+  missionGroupId: ""
+  name: 秦谷 美鈴でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hmsz
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-038
+  missionGroupId: ""
+  name: 秦谷 美鈴で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - hmsz
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hmsz-039
+  missionGroupId: ""
+  name: 秦谷 美鈴で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - hmsz
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -51926,6 +53737,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-hrnm-030
+  missionGroupId: ""
+  name: 姫崎 莉波の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-031
+  missionGroupId: ""
+  name: 姫崎 莉波の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-033
+  missionGroupId: ""
+  name: 姫崎 莉波の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-034
+  missionGroupId: ""
+  name: 姫崎 莉波のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-035
+  missionGroupId: ""
+  name: 姫崎 莉波のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-036
+  missionGroupId: ""
+  name: 姫崎 莉波のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-037
+  missionGroupId: ""
+  name: 姫崎 莉波でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hrnm
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-038
+  missionGroupId: ""
+  name: 姫崎 莉波で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - hrnm
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hrnm-039
+  missionGroupId: ""
+  name: 姫崎 莉波で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - hrnm
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hski-000
   missionGroupId: ""
   name: 花海 咲季でTrue Endをみる
@@ -52450,6 +54414,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-hski-030
+  missionGroupId: ""
+  name: 花海 咲季の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-031
+  missionGroupId: ""
+  name: 花海 咲季の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-033
+  missionGroupId: ""
+  name: 花海 咲季の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-034
+  missionGroupId: ""
+  name: 花海 咲季のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-035
+  missionGroupId: ""
+  name: 花海 咲季のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-036
+  missionGroupId: ""
+  name: 花海 咲季のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-037
+  missionGroupId: ""
+  name: 花海 咲季でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hski
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-038
+  missionGroupId: ""
+  name: 花海 咲季で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - hski
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hski-039
+  missionGroupId: ""
+  name: 花海 咲季で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - hski
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-hume-000
   missionGroupId: ""
   name: 花海 佑芽でTrue Endをみる
@@ -52949,6 +55066,159 @@
   targetIds3:
   - hume
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-030
+  missionGroupId: ""
+  name: 花海 佑芽の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-031
+  missionGroupId: ""
+  name: 花海 佑芽の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-033
+  missionGroupId: ""
+  name: 花海 佑芽の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-034
+  missionGroupId: ""
+  name: 花海 佑芽のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-035
+  missionGroupId: ""
+  name: 花海 佑芽のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-036
+  missionGroupId: ""
+  name: 花海 佑芽のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-037
+  missionGroupId: ""
+  name: 花海 佑芽でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - hume
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-038
+  missionGroupId: ""
+  name: 花海 佑芽で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - hume
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-hume-039
+  missionGroupId: ""
+  name: 花海 佑芽で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - hume
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -53480,6 +55750,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-jsna-030
+  missionGroupId: ""
+  name: 十王 星南の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-031
+  missionGroupId: ""
+  name: 十王 星南の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-033
+  missionGroupId: ""
+  name: 十王 星南の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-034
+  missionGroupId: ""
+  name: 十王 星南のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-035
+  missionGroupId: ""
+  name: 十王 星南のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-036
+  missionGroupId: ""
+  name: 十王 星南のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-037
+  missionGroupId: ""
+  name: 十王 星南でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - jsna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-038
+  missionGroupId: ""
+  name: 十王 星南で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - jsna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-jsna-039
+  missionGroupId: ""
+  name: 十王 星南で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - jsna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kcna-000
   missionGroupId: ""
   name: 倉本 千奈でTrue Endをみる
@@ -53987,6 +56410,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-kcna-030
+  missionGroupId: ""
+  name: 倉本 千奈の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-031
+  missionGroupId: ""
+  name: 倉本 千奈の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-033
+  missionGroupId: ""
+  name: 倉本 千奈の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-034
+  missionGroupId: ""
+  name: 倉本 千奈のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-035
+  missionGroupId: ""
+  name: 倉本 千奈のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-036
+  missionGroupId: ""
+  name: 倉本 千奈のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-037
+  missionGroupId: ""
+  name: 倉本 千奈でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kcna
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-038
+  missionGroupId: ""
+  name: 倉本 千奈で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - kcna
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kcna-039
+  missionGroupId: ""
+  name: 倉本 千奈で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - kcna
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-kllj-000
   missionGroupId: ""
   name: 葛城 リーリヤでTrue Endをみる
@@ -54487,6 +57063,159 @@
   targetIds3:
   - kllj
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-030
+  missionGroupId: ""
+  name: 葛城 リーリヤの衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-031
+  missionGroupId: ""
+  name: 葛城 リーリヤの髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-033
+  missionGroupId: ""
+  name: 葛城 リーリヤの楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-034
+  missionGroupId: ""
+  name: 葛城 リーリヤのプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-035
+  missionGroupId: ""
+  name: 葛城 リーリヤのPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-036
+  missionGroupId: ""
+  name: 葛城 リーリヤのTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-037
+  missionGroupId: ""
+  name: 葛城 リーリヤでお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - kllj
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-038
+  missionGroupId: ""
+  name: 葛城 リーリヤで{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - kllj
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-kllj-039
+  missionGroupId: ""
+  name: 葛城 リーリヤで{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - kllj
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -55018,6 +57747,159 @@
   viewConditionSetId: ""
   unlockConditionSetId: ""
   order: 0
+- id: achieve-p_idol-shro-030
+  missionGroupId: ""
+  name: 篠澤 広の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-031
+  missionGroupId: ""
+  name: 篠澤 広の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-033
+  missionGroupId: ""
+  name: 篠澤 広の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-034
+  missionGroupId: ""
+  name: 篠澤 広のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-035
+  missionGroupId: ""
+  name: 篠澤 広のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-036
+  missionGroupId: ""
+  name: 篠澤 広のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-037
+  missionGroupId: ""
+  name: 篠澤 広でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - shro
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-038
+  missionGroupId: ""
+  name: 篠澤 広で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - shro
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-shro-039
+  missionGroupId: ""
+  name: 篠澤 広で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - shro
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
 - id: achieve-p_idol-ssmk-000
   missionGroupId: ""
   name: 紫雲 清夏でTrue Endをみる
@@ -55518,6 +58400,159 @@
   targetIds3:
   - ssmk
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-030
+  missionGroupId: ""
+  name: 紫雲 清夏の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-031
+  missionGroupId: ""
+  name: 紫雲 清夏の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-033
+  missionGroupId: ""
+  name: 紫雲 清夏の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-034
+  missionGroupId: ""
+  name: 紫雲 清夏のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-035
+  missionGroupId: ""
+  name: 紫雲 清夏のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-036
+  missionGroupId: ""
+  name: 紫雲 清夏のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-037
+  missionGroupId: ""
+  name: 紫雲 清夏でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ssmk
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-038
+  missionGroupId: ""
+  name: 紫雲 清夏で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - ssmk
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ssmk-039
+  missionGroupId: ""
+  name: 紫雲 清夏で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - ssmk
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""
@@ -56042,6 +59077,159 @@
   targetIds3:
   - ttmr
   targetValue: 16
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-030
+  missionGroupId: ""
+  name: 月村 手毬の衣装を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-031
+  missionGroupId: ""
+  name: 月村 手毬の髪型を合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterCostumeHeadCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-033
+  missionGroupId: ""
+  name: 月村 手毬の楽曲を合計{threshold}曲解放
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterMusicCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-034
+  missionGroupId: ""
+  name: 月村 手毬のプロデューサーランキングで2000位以内に{threshold}シーズン入賞
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProducerRankingRankCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 2000
+  isLessThanTargetValue: true
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-035
+  missionGroupId: ""
+  name: 月村 手毬のPアイドルを合計{threshold}種類入手
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteIdolCardCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-036
+  missionGroupId: ""
+  name: 月村 手毬のTrueライブを{threshold}種類見る
+  category: MissionCategory_Achievement
+  type: MissionType_AbsoluteCharacterProduceLiveTrueEndCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-037
+  missionGroupId: ""
+  name: 月村 手毬でお仕事を合計{threshold}時間
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementWorkDurationHour
+  targetIds1: []
+  targetIds2: []
+  targetIds3:
+  - ttmr
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-038
+  missionGroupId: ""
+  name: 月村 手毬で{threshold}枚撮影
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementCharacterPhotoCount
+  targetIds1:
+  - ttmr
+  targetIds2: []
+  targetIds3: []
+  targetValue: 0
+  isLessThanTargetValue: false
+  isEventMission: false
+  missionDailyReleaseGroupId: ""
+  missionDailyReleaseDay: 0
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  order: 0
+- id: achieve-p_idol-ttmr-039
+  missionGroupId: ""
+  name: 月村 手毬で{threshold}回コンテストに挑戦
+  category: MissionCategory_Achievement
+  type: MissionType_IncrementPvpRateCharacterPlayCount
+  targetIds1: []
+  targetIds2:
+  - ttmr
+  targetIds3: []
+  targetValue: 0
   isLessThanTargetValue: false
   isEventMission: false
   missionDailyReleaseGroupId: ""

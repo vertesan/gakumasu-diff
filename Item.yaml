@@ -1562,6 +1562,37 @@
   startTime: "0"
   endTime: "0"
   order: 5007
+- id: item-exchange-campaign-medal-2026kne-001
+  name: 氷渡香名江登場記念＆2.5th アニバーサリーキャンペーン交換券
+  description: イベント交換所で様々な報酬と交換できるアイテム
+  acquisitionRouteDescription: プロデュース
+  assetId: item_2nd-half-anniv-exchange-campaign-01
+  type: ItemType_Medal
+  rarity: ItemRarity_Unknown
+  commonLimitTime: "1795917599000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Event
+  exchangeId: exchange-campaign-001
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "1795917599000"
+  order: 110051
 - id: item-friend_coin
   name: フレンドコイン
   description: フレンドガシャで使用するコイン
@@ -1841,6 +1872,120 @@
   startTime: "0"
   endTime: "0"
   order: 101101
+- id: item-gacha-ticket-2.5th-anniv-ssr-idolcard
+  name: 2.5th アニバーサリーシーズン限定入り SSR Pアイドル確定ガシャチケット
+  description: 2.5th アニバーサリーシーズン限定入り SSR Pアイドル確定チケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-2nd-half-anniv-ssr-idol
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-ssr-idol-002
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-ssr-idol-002
+    bannerAssetId: img_gasha_banner_gasha-01070-ssr-idol-002-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-idolcard
+    unlockConditionSetId: ""
+    startTime: "1794794400000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-idolcard
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "0"
+  order: 120032
+- id: item-gacha-ticket-2.5th-anniv-ssr-supportcard
+  name: 2.5th アニバーサリーシーズン限定入り SSR サポートカード確定ガシャチケット
+  description: 2.5th アニバーサリーシーズン限定入り SSR サポートカード確定チケットガシャで使用するチケット
+  acquisitionRouteDescription: イベント交換所
+  assetId: item_gacha-ticket-2nd-half-anniv-ssr-support
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-ssr-support-002
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-ssr-support-002
+    bannerAssetId: img_gasha_banner_gasha-01070-ssr-support-002-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-supportcard
+    unlockConditionSetId: ""
+    startTime: "1794794400000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_item_gacha-ticket-2.5th-anniv-ssr-supportcard
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "0"
+  order: 120032
+- id: item-gachaticket-2.5th-anniv-10-001
+  name: 2.5th アニバーサリー10連ガシャチケット
+  description: 2.5th アニバーサリー10連チケットガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-2nd-half-anniv-10-001
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-ticket-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-ticket-001
+    bannerAssetId: img_gasha_banner_gasha-01070-ticket-001-select
+    hasFixReward: true
+    viewConditionSetId: cd_gasha_have_item-gachaticket-2.5th-anniv-10-001
+    unlockConditionSetId: ""
+    startTime: "1794794400000"
+    endTime: "0"
+  viewConditionSetId: cd_gasha_have_item-gachaticket-2.5th-anniv-10-001
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "0"
+  order: 102018
 - id: item-gachaticket-2nd-anniv-10-001
   name: 2nd アニバーサリー10連ガシャチケット
   description: 2nd アニバーサリー10連チケットガシャで使用するチケット
@@ -2628,6 +2773,44 @@
   unlockConditionSetId: ""
   startTime: "1788897600000"
   endTime: "1790107199000"
+  order: 120034
+- id: item-gashaticket-new-wednesday-26-1118-1
+  name: 学マ水曜日ガシャチケット
+  description: 学マ水曜日ガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-wednesday-26-001-1
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_R
+  commonLimitTime: "1796155199000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-wednesday-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-wednesday-001
+    bannerAssetId: img_gasha_banner_gasha-01070-wednesday-001-select
+    hasFixReward: false
+    viewConditionSetId: ""
+    unlockConditionSetId: ""
+    startTime: "1794945600000"
+    endTime: "1796155199000"
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "1794945600000"
+  endTime: "1796155199000"
   order: 120034
 - id: item-gashaticket-ssr-fix_1
   name: SSR確定ガシャチケット
@@ -5209,7 +5392,7 @@
   unlockConditionSetId: ""
   startTime: "1794139200000"
   endTime: "1794967199000"
-  order: 110060
+  order: 110050
 - id: item-medal-story-event-001
   name: なかよしポッパー
   description: イベント交換所で様々な報酬と交換できる
@@ -6791,6 +6974,99 @@
   startTime: "0"
   endTime: "0"
   order: 100399070
+- id: item-piece-idol_hkne-1-000
+  name: "[学園生活]氷渡香名江のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_R
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 310099990
+- id: item-piece-idol_hkne-2-000
+  name: "[憧れを抱いて一歩ずつ]氷渡香名江のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Sr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 210099990
+- id: item-piece-idol_hkne-3-000
+  name: "[メタモルフォーゼ]氷渡香名江のピース"
+  description: プロデュースアイドルの才能開花や解放に使用するアイテム
+  acquisitionRouteDescription: ガシャなど
+  assetId: ""
+  type: ItemType_IdolCardPiece
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "0"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: ""
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas: []
+  viewConditionSetId: ""
+  unlockConditionSetId: ""
+  startTime: "0"
+  endTime: "0"
+  order: 110099990
 - id: item-piece-idol_hmsz-1-000
   name: "[学園生活]秦谷美鈴のピース"
   description: プロデュースアイドルの才能開花や解放に使用するアイテム
@@ -11951,6 +12227,82 @@
   startTime: "1793930400000"
   endTime: "1794790799000"
   order: 102020
+- id: item-selectgashaticket-gasha-01070-ticket-001
+  name: SSR Pアイドル2人確定！2連ガシャチケット
+  description: SSR Pアイドル2人確定！2連ガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-select-login-bonus-003
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "1796090399000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-select-loginbonus-ticket-001
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-select-loginbonus-ticket-001
+    bannerAssetId: img_gasha_banner_gasha-01070-select-loginbonus-001-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1116-1
+    unlockConditionSetId: ""
+    startTime: "1794794400000"
+    endTime: "1796090399000"
+  viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1116-1
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "1796090399000"
+  order: 102021
+- id: item-selectgashaticket-gasha-01070-ticket-002
+  name: SSR Pアイドル出現率10倍！10連ガシャチケット
+  description: SSR Pアイドル出現率10倍！10連ガシャで使用するチケット
+  acquisitionRouteDescription: ""
+  assetId: item_gacha-ticket-select-login-bonus-002
+  type: ItemType_GashaTicket
+  rarity: ItemRarity_Ssr
+  commonLimitTime: "1796090399000"
+  personalLimitDay: 0
+  sellPrice: 0
+  effectValue: 0
+  viewWithoutPossession: false
+  exchangeType: ExchangeType_Unknown
+  exchangeId: ""
+  gashaId: gasha-01070-select-loginbonus-ticket-002
+  coinGashaId: ""
+  shopCoinGashaId: ""
+  storyEventId: ""
+  produceHighScoreEventId: ""
+  tourEventId: ""
+  researchEventId: ""
+  produceGrowthPanelSheetId: ""
+  idolCardRarity: IdolCardRarity_Unknown
+  supportCardRarity: SupportCardRarity_Unknown
+  characterId: ""
+  gashas:
+  - id: gasha-01070-select-loginbonus-ticket-002
+    bannerAssetId: img_gasha_banner_gasha-01070-select-loginbonus-002-select
+    hasFixReward: false
+    viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1116-2
+    unlockConditionSetId: ""
+    startTime: "1794794400000"
+    endTime: "1796090399000"
+  viewConditionSetId: cd_gasha_have_ticket_item-gashaticket-selectloginbonus-26-1116-2
+  unlockConditionSetId: ""
+  startTime: "1794794400000"
+  endTime: "1796090399000"
+  order: 102022
 - id: item-selection-ticket-001
   name: 半周年セレクションチケット
   description: チケット交換所でプロデュースアイドルやサポートカードを交換できるチケット

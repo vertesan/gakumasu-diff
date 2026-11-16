@@ -49,7 +49,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamStaminaReduceFix
-  name: 体力消費
+  name: 固定体力消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamStaminaReduceFix
   examProduceDescriptionLabelId: Label_ExamStaminaReduceFix
@@ -499,7 +499,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamReviewReduce
-  name: 好印象減少
+  name: 好印象消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamReviewReduce
   examProduceDescriptionLabelId: Label_ExamReviewReduce
@@ -507,7 +507,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamAggressiveReduce
-  name: やる気減少
+  name: やる気消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamAggressiveReduce
   examProduceDescriptionLabelId: Label_ExamAggressiveReduce
@@ -515,7 +515,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamLessonBuffReduce
-  name: 集中減少
+  name: 集中消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamLessonBuffReduce
   examProduceDescriptionLabelId: Label_ExamLessonBuffReduce
@@ -523,7 +523,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamParameterBuffReduce
-  name: 好調減少
+  name: 好調消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamParameterBuffReduce
   examProduceDescriptionLabelId: Label_ExamParameterBuffReduce
@@ -635,7 +635,7 @@
   noIcon: false
   noReference: false
 - type: ProduceExamEffectType_ExamParameterBuffMultiplePerTurnReduce
-  name: 絶好調減少
+  name: 絶好調消費
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamParameterBuffMultiplePerTurnReduce
   examProduceDescriptionLabelId: Label_ExamParameterBuffMultiplePerTurnReduce
@@ -690,6 +690,14 @@
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false
+- type: ProduceExamEffectType_ExamFullPowerPointReduceCancellable
+  name: 全力値低下
+  produceDescriptionSwapId: ""
+  produceDescriptionLabelId: Label_ExamFullPowerPointReduceCancellable
+  examProduceDescriptionLabelId: Label_ExamFullPowerPointReduceCancellable
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
 - type: ProduceExamEffectType_ExamParameterBuffAdditiveFix
   name: 好調増加量追加
   produceDescriptionSwapId: ""
@@ -735,6 +743,30 @@
   produceDescriptionSwapId: ""
   produceDescriptionLabelId: Label_ExamStatusEnchantEncore
   examProduceDescriptionLabelId: Label_ExamStatusEnchantEncore
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamMetamorphose
+  name: メタモルフォーゼ（支度）
+  produceDescriptionSwapId: ""
+  produceDescriptionLabelId: Label_ExamMetamorphose_Produce
+  examProduceDescriptionLabelId: Label_ExamMetamorphose_Exam
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamMetamorphoseAfter
+  name: メタモルフォーゼ（披露）
+  produceDescriptionSwapId: ""
+  produceDescriptionLabelId: Label_ExamMetamorphoseAfter_Produce
+  examProduceDescriptionLabelId: Label_ExamMetamorphoseAfter_Exam
+  mainBuffMinThresholds: []
+  noIcon: false
+  noReference: false
+- type: ProduceExamEffectType_ExamStaminaReduceFixAffected
+  name: 体力消費
+  produceDescriptionSwapId: ""
+  produceDescriptionLabelId: Label_ExamStaminaReduceFixAffected
+  examProduceDescriptionLabelId: Label_ExamStaminaReduceFixAffected
   mainBuffMinThresholds: []
   noIcon: false
   noReference: false

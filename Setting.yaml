@@ -121,10 +121,19 @@
   - img_sd_ripplesign_cmmn-00
   sceneTransitionSDCharacterAnimationSecondAssetIDs:
   - img_sd_ripplesign_cmmn-01
-  researchPointLimit: 99999999
+  gradeMissionMissionGroupID: grade_mission-001-group_1
   idolCardPrimaStellaLevelLimitRank: 6
   idolCardPrimaStellaDearnessLevel: 37
+  researchPointLimit: 99999999
   profileReport2026Enable: true
+  memoryInheritSelectAfterCardEnable: false
+  iosAppStorageLimitMax: 15
+  iosAppStorageLimitMin: 8
+  androidAppStorageLimitMax: 15
+  androidAppStorageLimitMin: 8
+  dmmAppStorageLimitMax: 25
+  dmmAppStorageLimitMin: 15
+  plan4ViewConditionSetID: cd_close
   produceDailyMemoryRentalLimit: 3
   produceDailyFreeContinueCount: 1
   produceContinueItemID: item-produce_continue-1
@@ -196,6 +205,9 @@
   produceMaxSupportCardDeckCount: 20
   produceNextIdolAuditionProEasyModeConditionSetID: cd-easy_mode-open
   produceHatsuboshiIdolFestivalFinalTargetProducerLevel: 70
+  produceSupportCardEventProduceCardUpgradeConditionSetID: cd-produce_support_card_event_produce_card_upgrade_condition_set_id-is_open
+  produceLatestHistoryProducerLevelRange: 5
+  produceEventModeProduceConditionSetID: cd_produce-event-mode-produce
   gashaPickupStoryCampaignCharacterDearnessLevel: 3
   gashaAnimationReversalSsrPermil: 100
   gashaAnimationReversalPickUpProduceIdolSsrPermil: 50
@@ -244,9 +256,6 @@
   pushPvpRateRemainingPlayCountNotifyHour: 19
   pushPvpRateRemainingPlayCountNotifyMinutes: 30
   pushPvpRateRemainingPlayCountDoNotNotifyNoLoginDay: 3
-  aprilFool2025TransitionStoryID: ""
-  aprilFool2025ProduceLiveMusicID: ""
-  aprilFool2026ProduceLiveMusicID: ""
   produceNextIdolAuditionMasterRankingUnlockConditionSetID: cd-unlock-produce-next-idol-audition-master-ranking
   producerRankingUnlockConditionSetID: cd-open-producer_ranking
   producerRankingBGMAssetID: sud_bgm_general_producerranking-001
@@ -291,6 +300,14 @@
   competitionGradeUpgradeAnimationThresholdGrade: 7
   competitionGradeStayAnimationThresholdGrade: 7
   competitionBgmAssetID: sud_bgm_general_town-01
+  refineMaxMemoryDeckCount: 15
+  refineMemoryDeckNameLengthLimit: 14
+  refineMaxSubMemoryCount: 9
+  refineRankingDisplayCount: 100
+  refineRankingRankLimit: 10000
+  refineMemoryRecommendProduceCardCoefficientPermil: 6000
+  refineMemoryRecommendProduceItemCoefficientPermil: 8000
+  refineMemoryRecommendDeckBuffCoefficientPermil: 1300
   webStoreLinkURL: https://gakuen.idolmaster-official.jp/
   webStoreShopBannerIOSDisplayEnable: false
   webStoreShopBannerIOSAssetID: img_web-store_home-jewel-shop-banner
